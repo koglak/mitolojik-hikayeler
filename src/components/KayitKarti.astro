@@ -13,6 +13,13 @@ const gosterilenBilgiler = kayit.bilgiler.slice(0, bilgiSayisi);
 ---
 
 <a class="etiket-karti" href={adres} style={vurguRengi ? `--kart-vurgu: ${vurguRengi}` : undefined}>
+  {
+    Astro.slots.has('simge') && (
+      <span class="simge">
+        <slot name="simge" />
+      </span>
+    )
+  }
   <h3>{kayit.ad}</h3>
   <p class="ozet">{kayit.ozet}</p>
   <dl>
@@ -42,6 +49,17 @@ const gosterilenBilgiler = kayit.bilgiler.slice(0, bilgiSayisi);
   .etiket-karti:hover {
     border-color: var(--vurgu);
     background: var(--yuzey-2);
+  }
+  .simge {
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 18px;
+    color: var(--kart-vurgu, var(--vurgu));
+    transition: transform 0.3s var(--yumusak);
+  }
+  .etiket-karti:hover .simge {
+    transform: translateY(-2px) scale(1.06);
   }
   h3 {
     font: 500 36px/1.05 var(--baslik-font);

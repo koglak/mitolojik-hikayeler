@@ -1,7 +1,7 @@
 ---
-ad: "Anazarbos"
+ad: "Anazarbos (Anavarza)"
 sira: 60
-ozet: "Roma Kilikyası'nın başkenti. Hekim Dioskurides'in ve balıkları anlatan şair Oppianos'un doğduğu, sarp bir kayanın dibindeki kent."
+ozet: "Bugün Anavarza diye bilinen, Roma Kilikyası'nın başkenti. Hekim Dioskurides'in ve balıkları anlatan şair Oppianos'un doğduğu, sarp bir kayanın dibindeki kent."
 bilgiler:
   - etiket: "Bugün"
     deger: "Dilekkaya, Kozan, Adana"

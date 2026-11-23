@@ -6,6 +6,7 @@ import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import KayitKarti from '../../components/KayitKarti.astro';
 import KategoriGorseli from '../../components/KategoriGorseli.astro';
 import KentHaritasi from '../../components/KentHaritasi.astro';
+import TanriSimgesi from '../../components/TanriSimgesi.astro';
 import { bolumAnahtarlari, bolumler, kayitAdresi } from '../../lib/bolumler';
 import { bolgeAnahtarlari, bolgeler, bolgesizKent } from '../../lib/bolgeler';
 import { aramaIcinSadelestir } from '../../lib/aramaMetni';
@@ -45,13 +46,19 @@ const bolgeGruplari = kayitlar.some((kayit) => kayit.data.bolge)
     ].filter((grup) => grup.kayitlar.length > 0)
   : [];
 const aramaOrnekleri: Partial<Record<typeof bolum, string>> = {
+  kentler: 'Kentlerde ara: Efes, Likya, Bodrum, Medusa...',
   tanrilar: 'Tanrılarda ara: Zeus, deniz, Titan...',
   kahramanlar: 'Kahramanlarda ara: Herakles, Truva, Amazon...',
 };
 const aramaOrnegi = aramaOrnekleri[bolum];
 const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   aramaIcinSadelestir(
-    [kayit.data.ad, kayit.data.ozet, ...kayit.data.bilgiler.flatMap((bilgi) => [bilgi.etiket, bilgi.deger])].join(' '),
+    [
+      kayit.data.ad,
+      kayit.data.ozet,
+      kayit.data.bolge ? bolgeler[kayit.data.bolge].ad : '',
+      ...kayit.data.bilgiler.flatMap((bilgi) => [bilgi.etiket, bilgi.deger]),
+    ].join(' '),
   );
 ---
 
@@ -66,7 +73,6 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
         </div>
         <div class="bolum-resmi"><KategoriGorseli tur={bolum} /></div>
       </header>
-      {haritaKentleri.length > 0 && <KentHaritasi kentler={haritaKentleri} />}
       {
         aramaOrnegi && (
           <>
@@ -83,10 +89,11 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
           </>
         )
       }
+      {haritaKentleri.length > 0 && <KentHaritasi kentler={haritaKentleri} />}
       {
         bolgeGruplari.length > 0 ? (
           bolgeGruplari.map((grup) => (
-            <section class="bolge-grubu" style={grup.renk ? `--bolge-rengi: ${grup.renk}` : undefined}>
+            <section class="bolge-grubu" data-bolge-grubu style={grup.renk ? `--bolge-rengi: ${grup.renk}` : undefined}>
               <h2>
                 <span class="bolge-noktasi" aria-hidden="true" />
                 {grup.baslik}
@@ -94,7 +101,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
               </h2>
               <ul class="kayitlar">
                 {grup.kayitlar.map((kayit) => (
-                  <li>
+                  <li data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined} data-adres={kayitAdresi(bolum, kayit.id)}>
                     <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3} vurguRengi={bolgeRengi(kayit)} />
                   </li>
                 ))}
@@ -105,7 +112,9 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
           <ul class="kayitlar">
             {kayitlar.map((kayit) => (
               <li data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined}>
-                <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3} />
+                <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3}>
+                  {bolum === 'tanrilar' && <TanriSimgesi slot="simge" slug={kayit.id} />}
+                </KayitKarti>
               </li>
             ))}
           </ul>
@@ -122,6 +131,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   const kutu = document.querySelector<HTMLInputElement>('[data-kayit-ara]');
   const ogeler = Array.from(document.querySelectorAll<HTMLElement>('[data-aranan]'));
   const sonucYok = document.querySelector<HTMLElement>('[data-sonuc-yok]');
+  const bolgeGruplari = Array.from(document.querySelectorAll<HTMLElement>('[data-bolge-grubu]'));
   kutu?.addEventListener('input', () => {
     const aranan = aramaIcinSadelestir(kutu.value.trim());
     let gorunen = 0;
@@ -131,6 +141,13 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
       if (eslesir) gorunen += 1;
     }
     sonucYok?.classList.toggle('gizli', gorunen > 0);
+    for (const grup of bolgeGruplari) {
+      grup.classList.toggle('gizli', !grup.querySelector('[data-aranan]:not(.gizli)'));
+    }
+    const eslesenAdresler = aranan
+      ? ogeler.filter((oge) => !oge.classList.contains('gizli')).flatMap((oge) => oge.dataset.adres ?? [])
+      : null;
+    document.dispatchEvent(new CustomEvent('kentler-suzuldu', { detail: { eslesenAdresler } }));
   });
 </script>
 

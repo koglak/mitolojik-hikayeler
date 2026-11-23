@@ -83,7 +83,9 @@ const gorunenBolgeler = [
       { maxZoom: 18, opacity: 0.8 },
     ).addTo(harita);
 
-    const bolgeKatmanlari = new Map<string, L.LayerGroup>();
+    const isaretler: { adres: string; bolge: string; isaret: L.Marker }[] = [];
+    const gorunurBolgeler = new Set(kentler.map((kent) => kent.bolge.anahtar));
+    let eslesenAdresler: Set<string> | null = null;
 
     const noktalar = kentler.map((kent) => {
       const nokta = L.latLng(kent.enlem, kent.boylam);
@@ -95,12 +97,8 @@ const gorunenBolgeler = [
         popupAnchor: [0, -12],
       });
 
-      if (!bolgeKatmanlari.has(kent.bolge.anahtar)) {
-        bolgeKatmanlari.set(kent.bolge.anahtar, L.layerGroup().addTo(harita));
-      }
-
-      L.marker(nokta, { icon: isaret, title: kent.ad, alt: kent.ad })
-        .addTo(bolgeKatmanlari.get(kent.bolge.anahtar)!)
+      const isaretci = L.marker(nokta, { icon: isaret, title: kent.ad, alt: kent.ad })
+        .addTo(harita)
         .bindTooltip(metniGuvenliYap(kent.ad), { direction: 'top', offset: [0, -12], className: 'kent-etiketi' })
         .bindPopup(
           `<span class="pencere-bolgesi" style="--bolge-rengi: ${kent.bolge.renk}">${metniGuvenliYap(kent.bolge.ad)}</span>
@@ -112,7 +110,30 @@ const gorunenBolgeler = [
            </div>`,
           { className: 'kent-penceresi', maxWidth: 280 },
         );
+      isaretler.push({ adres: kent.adres, bolge: kent.bolge.anahtar, isaret: isaretci });
       return nokta;
+    });
+
+    const isaretleriGuncelle = (gorunenlereYaklas: boolean) => {
+      const gorunenNoktalar: L.LatLng[] = [];
+      for (const { adres, bolge, isaret } of isaretler) {
+        const gorunur = gorunurBolgeler.has(bolge) && (!eslesenAdresler || eslesenAdresler.has(adres));
+        if (gorunur) {
+          isaret.addTo(harita);
+          gorunenNoktalar.push(isaret.getLatLng());
+        } else {
+          isaret.remove();
+        }
+      }
+      if (gorunenlereYaklas && gorunenNoktalar.length > 0) {
+        harita.fitBounds(L.latLngBounds(gorunenNoktalar), { padding: [40, 40], maxZoom: 10 });
+      }
+    };
+
+    document.addEventListener('kentler-suzuldu', (olay) => {
+      const adresler = (olay as CustomEvent<{ eslesenAdresler: string[] | null }>).detail.eslesenAdresler;
+      eslesenAdresler = adresler ? new Set(adresler) : null;
+      isaretleriGuncelle(true);
     });
 
     if (noktalar.length > 0) {
@@ -123,15 +144,15 @@ const gorunenBolgeler = [
 
     for (const dugme of bolum.querySelectorAll<HTMLButtonElement>('.bolge-dugmesi')) {
       dugme.addEventListener('click', () => {
-        const katman = bolgeKatmanlari.get(dugme.dataset.bolge ?? '');
-        if (!katman) return;
-        const gorunur = harita.hasLayer(katman);
+        const bolge = dugme.dataset.bolge ?? '';
+        const gorunur = gorunurBolgeler.has(bolge);
         if (gorunur) {
-          harita.removeLayer(katman);
+          gorunurBolgeler.delete(bolge);
         } else {
-          katman.addTo(harita);
+          gorunurBolgeler.add(bolge);
         }
         dugme.setAttribute('aria-pressed', String(!gorunur));
+        isaretleriGuncelle(false);
       });
     }
 

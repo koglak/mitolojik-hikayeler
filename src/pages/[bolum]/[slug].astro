@@ -6,6 +6,8 @@ import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
 import { bolumAnahtarlari, bolumler, bolumAdresi, kayitAdresi } from '../../lib/bolumler';
 import { basligiBol } from '../../lib/baslikParcalari';
+import TanriSimgesi from '../../components/TanriSimgesi.astro';
+import { tanriSimgesi } from '../../lib/tanriSimgeleri';
 
 export async function getStaticPaths() {
   const yollar = [];
@@ -23,6 +25,7 @@ export async function getStaticPaths() {
 
 const { bolum, kayit, sonraki } = Astro.props;
 const { Content } = await render(kayit);
+const simgeVar = bolum === 'tanrilar' && Boolean(tanriSimgesi(kayit.id));
 const mitler = await getCollection('mitler');
 const ilgiliMitler = kayit.data.ilgiliMitler
   .map((slug: string) => mitler.find((mit) => mit.id === slug))
@@ -39,9 +42,18 @@ const ilgiliMitler = kayit.data.ilgiliMitler
         <span aria-current="page">{kayit.data.ad}</span>
       </nav>
 
-      <header>
-        <h1>{kayit.data.ad}</h1>
-        <p class="ozet">{kayit.data.ozet}</p>
+      <header class:list={{ 'simgeli': simgeVar }}>
+        <div>
+          <h1>{kayit.data.ad}</h1>
+          <p class="ozet">{kayit.data.ozet}</p>
+        </div>
+        {
+          simgeVar && (
+            <div class="madalyon">
+              <TanriSimgesi slug={kayit.id} />
+            </div>
+          )
+        }
       </header>
 
       <div class="duzen">
@@ -127,6 +139,24 @@ const ilgiliMitler = kayit.data.ilgiliMitler
     color: var(--vurgu);
     max-width: 38rem;
     margin: 0 0 48px;
+  }
+  .simgeli {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 40px;
+    align-items: start;
+  }
+  .madalyon {
+    width: 168px;
+    height: 168px;
+    padding: 34px;
+    border: 1px solid var(--cizgi);
+    border-radius: 50%;
+    outline: 1px solid var(--cizgi);
+    outline-offset: 8px;
+    background: radial-gradient(circle, var(--parilti), transparent 70%), var(--yuzey);
+    color: var(--vurgu);
+    margin-top: 8px;
   }
   .duzen {
     display: grid;
@@ -252,6 +282,19 @@ const ilgiliMitler = kayit.data.ilgiliMitler
   }
   .sonraki:hover strong {
     color: var(--vurgu);
+  }
+  @media (max-width: 640px) {
+    .simgeli {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .madalyon {
+      grid-row: 1;
+      width: 108px;
+      height: 108px;
+      padding: 22px;
+      margin: 0 0 28px 8px;
+    }
   }
   @media (max-width: 900px) {
     .duzen {
