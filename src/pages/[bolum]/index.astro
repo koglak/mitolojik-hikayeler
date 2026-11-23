@@ -5,6 +5,7 @@ import SiteBasligi from '../../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import KayitKarti from '../../components/KayitKarti.astro';
 import KategoriGorseli from '../../components/KategoriGorseli.astro';
+import KentHaritasi from '../../components/KentHaritasi.astro';
 import { bolumAnahtarlari, bolumler, type BolumAnahtari } from '../../lib/bolumler';
 
 export function getStaticPaths() {
@@ -14,6 +15,12 @@ export function getStaticPaths() {
 const bolum = Astro.params.bolum as BolumAnahtari;
 const { ad, aciklama } = bolumler[bolum];
 const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
+const haritaKentleri =
+  bolum === 'kentler'
+    ? kayitlar.flatMap(({ id, data }) =>
+        data.konum ? [{ ad: data.ad, ozet: data.ozet, adres: `/${bolum}/${id}`, ...data.konum }] : [],
+      )
+    : [];
 ---
 
 <Temel baslik={`${ad} · Mythos`} aciklama={aciklama}>
@@ -27,6 +34,7 @@ const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.dat
         </div>
         <div class="bolum-resmi"><KategoriGorseli tur={bolum} /></div>
       </header>
+      {haritaKentleri.length > 0 && <KentHaritasi kentler={haritaKentleri} />}
       <ul class="kayitlar">
         {
           kayitlar.map((kayit) => (

@@ -38,3 +38,20 @@ describe.each(bolumAnahtarlari)('%s', (bolum) => {
     }
   });
 });
+
+describe('kentler konumu', () => {
+  const klasor = join(icerik, 'kentler');
+  const dosyalar = readdirSync(klasor).filter((ad) => ad.endsWith('.md'));
+
+  it.each(dosyalar)('%s haritada gösterilebilecek konuma sahip', (dosya) => {
+    const { data } = matter(readFileSync(join(klasor, dosya), 'utf8'));
+    const sonuc = kayitSemasi.safeParse(data);
+    expect(sonuc.success).toBe(true);
+    const konum = sonuc.data?.konum;
+    expect(konum, dosya).toBeDefined();
+    expect(konum!.enlem).toBeGreaterThan(34);
+    expect(konum!.enlem).toBeLessThan(43);
+    expect(konum!.boylam).toBeGreaterThan(19);
+    expect(konum!.boylam).toBeLessThan(45);
+  });
+});

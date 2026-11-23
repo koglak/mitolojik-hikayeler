@@ -12,6 +12,9 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "2015"
 kaynak: "Strabon, Geographika 14.1; Plinius, Naturalis Historia 36.95"
+konum:
+  enlem: 37.9395
+  boylam: 27.3417
 ilgiliMitler: []
 ---
 

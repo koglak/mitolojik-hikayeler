@@ -1,0 +1,220 @@
+---
+interface HaritaKenti {
+  ad: string;
+  ozet: string;
+  adres: string;
+  enlem: number;
+  boylam: number;
+}
+
+interface Props {
+  kentler: HaritaKenti[];
+}
+
+const { kentler } = Astro.props;
+
+const googleEarthAdresi = (enlem: number, boylam: number) =>
+  `https://earth.google.com/web/@${enlem},${boylam},150a,1800d,35y,0h,55t,0r`;
+
+const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(kent.enlem, kent.boylam) }));
+---
+
+<section class="kent-haritasi" aria-labelledby="harita-basligi">
+  <div class="harita-ust">
+    <h2 id="harita-basligi">Haritada kentler</h2>
+    <p>Bir işarete dokun; kenti oku ya da Google Earth'te 3B olarak gez.</p>
+  </div>
+  <div class="harita-cercevesi">
+    <div class="harita" data-kentler={JSON.stringify(haritaVerisi)} role="region" aria-label="Antik kentlerin uydu haritası"></div>
+  </div>
+  <ul class="earth-baglantilari">
+    {
+      haritaVerisi.map((kent) => (
+        <li>
+          <a href={kent.earth} target="_blank" rel="noopener noreferrer">
+            {kent.ad} · Google Earth'te aç ↗
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  interface IsaretliKent {
+    ad: string;
+    ozet: string;
+    adres: string;
+    enlem: number;
+    boylam: number;
+    earth: string;
+  }
+
+  const metniGuvenliYap = (metin: string) =>
+    metin.replace(/[&<>"']/g, (karakter) => `&#${karakter.charCodeAt(0)};`);
+
+  for (const haritaAlani of document.querySelectorAll<HTMLElement>('.kent-haritasi .harita')) {
+    const kentler: IsaretliKent[] = JSON.parse(haritaAlani.dataset.kentler ?? '[]');
+    const harita = L.map(haritaAlani, { scrollWheelZoom: false, worldCopyJump: true });
+
+    L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      { maxZoom: 18, attribution: 'Görüntü © Esri, Maxar, Earthstar Geographics' },
+    ).addTo(harita);
+    L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',
+      { maxZoom: 18, opacity: 0.8 },
+    ).addTo(harita);
+
+    const isaret = L.divIcon({
+      className: 'kent-isareti',
+      html: '<span></span>',
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -12],
+    });
+
+    const noktalar = kentler.map((kent) => {
+      const nokta = L.latLng(kent.enlem, kent.boylam);
+      L.marker(nokta, { icon: isaret, title: kent.ad, alt: kent.ad })
+        .addTo(harita)
+        .bindTooltip(metniGuvenliYap(kent.ad), { direction: 'top', offset: [0, -12], className: 'kent-etiketi' })
+        .bindPopup(
+          `<strong>${metniGuvenliYap(kent.ad)}</strong>
+           <p>${metniGuvenliYap(kent.ozet)}</p>
+           <div class="baglantilar">
+             <a href="${kent.adres}">Kenti oku →</a>
+             <a href="${kent.earth}" target="_blank" rel="noopener noreferrer">Google Earth ↗</a>
+           </div>`,
+          { className: 'kent-penceresi', maxWidth: 280 },
+        );
+      return nokta;
+    });
+
+    if (noktalar.length > 0) {
+      harita.fitBounds(L.latLngBounds(noktalar), { padding: [60, 60], maxZoom: 9 });
+    } else {
+      harita.setView([38.5, 27.5], 6);
+    }
+
+    haritaAlani.addEventListener('click', () => harita.scrollWheelZoom.enable(), { once: true });
+  }
+</script>
+
+<style>
+  .kent-haritasi {
+    margin-bottom: 48px;
+  }
+  .harita-ust {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px 32px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: clamp(28px, 3.4vw, 40px);
+    line-height: 1;
+    margin: 0;
+  }
+  .harita-ust p {
+    color: var(--soluk);
+    margin: 0;
+    font-size: 15px;
+  }
+  .harita-cercevesi {
+    border: 1px solid var(--cizgi);
+    background: var(--yuzey);
+  }
+  .harita {
+    height: clamp(320px, 52vh, 520px);
+    background: var(--hero);
+  }
+  .earth-baglantilari {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    font-size: 14px;
+  }
+  .earth-baglantilari a {
+    color: var(--vurgu);
+  }
+  .earth-baglantilari a:hover,
+  .earth-baglantilari a:focus-visible {
+    text-decoration: underline;
+  }
+</style>
+
+<style is:global>
+  .kent-haritasi .kent-isareti span {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--vurgu);
+    border: 3px solid var(--zemin);
+    box-shadow:
+      0 0 0 2px var(--vurgu),
+      0 4px 14px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s var(--yumusak);
+  }
+  .kent-haritasi .kent-isareti:hover span,
+  .kent-haritasi .kent-isareti:focus-visible span {
+    transform: scale(1.25);
+  }
+  .kent-haritasi .kent-etiketi {
+    background: var(--zemin);
+    color: var(--yazi);
+    border: 1px solid var(--cizgi);
+    font: 500 16px/1.2 var(--baslik-font);
+    box-shadow: none;
+  }
+  .kent-haritasi .kent-etiketi::before {
+    border-top-color: var(--zemin);
+  }
+  .kent-haritasi .kent-penceresi .leaflet-popup-content-wrapper,
+  .kent-haritasi .kent-penceresi .leaflet-popup-tip {
+    background: var(--yuzey);
+    color: var(--yazi);
+    border-radius: 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  .kent-haritasi .kent-penceresi .leaflet-popup-content {
+    margin: 16px 18px;
+    font: 14px/1.55 var(--govde-font);
+  }
+  .kent-haritasi .kent-penceresi strong {
+    display: block;
+    font: 500 24px/1.1 var(--baslik-font);
+    margin-bottom: 6px;
+  }
+  .kent-haritasi .kent-penceresi p {
+    margin: 0 0 12px;
+    color: var(--soluk);
+  }
+  .kent-haritasi .kent-penceresi .baglantilar {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .kent-haritasi .kent-penceresi a {
+    color: var(--vurgu);
+  }
+  .kent-haritasi .kent-penceresi a.leaflet-popup-close-button {
+    color: var(--soluk);
+  }
+  .kent-haritasi .leaflet-control-attribution {
+    background: rgba(16, 21, 28, 0.75);
+    color: var(--soluk);
+  }
+  .kent-haritasi .leaflet-control-attribution a {
+    color: var(--yazi);
+  }
+</style>

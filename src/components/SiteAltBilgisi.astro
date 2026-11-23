@@ -8,7 +8,10 @@ import Logo from './Logo.astro';
     <span class="logo-yazisi" lang="el">ΜΥΘΟΣ</span>
   </span>
   <span>Mitoloji ve antik dünya üzerine bir arşiv.</span>
-  <span>© {new Date().getFullYear()}</span>
+  <span class="sag">
+    <a href="/gizlilik/">Gizlilik ve çerezler</a>
+    <span>© {new Date().getFullYear()}</span>
+  </span>
 </footer>
 
 <style>
@@ -28,6 +31,18 @@ import Logo from './Logo.astro';
     display: flex;
     align-items: center;
     gap: 12px;
+  }
+  .sag {
+    display: flex;
+    gap: 20px;
+  }
+  .sag a {
+    color: var(--soluk);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .sag a:hover {
+    color: var(--vurgu);
   }
   .logo-yazisi {
     font: 400 22px/1 var(--yunan-font);

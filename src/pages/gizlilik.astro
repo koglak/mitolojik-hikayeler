@@ -1,0 +1,133 @@
+---
+import Temel from '../layouts/Temel.astro';
+import SiteBasligi from '../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+
+const guncellemeTarihi = '23 Kasım 2026';
+const iletisimAdresi = 'skalerart@gmail.com';
+---
+
+<Temel
+  baslik="Gizlilik ve Çerez Politikası · Mythos"
+  aciklama="Mythos sitesinde hangi verilerin işlendiği, çerezler ve Google reklamları hakkında bilgi."
+>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main class="metin">
+      <div class="ust-yazi">Son güncelleme: {guncellemeTarihi}</div>
+      <h1>Gizlilik ve çerez politikası</h1>
+
+      <p>
+        Bu sayfa, Mythos sitesini ziyaret ettiğinizde hangi bilgilerin işlendiğini, çerezlerin ne için kullanıldığını
+        ve bu konuda neler yapabileceğinizi anlatır. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamındaki
+        aydınlatma yükümlülüğü de bu metinle yerine getirilir.
+      </p>
+
+      <h2>Veri sorumlusu</h2>
+      <p>
+        Siteyi yayınlayan ve bu metin kapsamındaki veri sorumlusu <strong>ruinsrover</strong>'dır. Sorularınız ve
+        talepleriniz için <a href={`mailto:${iletisimAdresi}`}>{iletisimAdresi}</a> adresine yazabilirsiniz.
+      </p>
+
+      <h2>Sitenin kendisi ne topluyor?</h2>
+      <p>
+        Sitede üyelik, yorum ya da form yoktur; adınızı veya e-posta adresinizi istemeyiz. Okuduğunuz hikâyeler ve okuma
+        seriniz yalnızca kendi tarayıcınızın yerel depolama alanında (localStorage) tutulur. Bu bilgi bize gönderilmez;
+        tarayıcınızın site verilerini silerek istediğiniz zaman temizleyebilirsiniz.
+      </p>
+
+      <h2>Google reklamları ve çerezler</h2>
+      <p>
+        Sitede Google AdSense aracılığıyla reklam gösterilir. Google dahil üçüncü taraf sağlayıcılar, sizin bu siteye ve
+        internetteki diğer sitelere yaptığınız önceki ziyaretlere dayanarak reklam sunmak için çerez kullanır.
+      </p>
+      <ul>
+        <li>
+          Google'ın reklam çerezlerini kullanması, Google'ın ve iş ortaklarının bu siteye ve/veya internetteki diğer
+          sitelere yaptığınız ziyaretlere göre size reklam sunmasını sağlar.
+        </li>
+        <li>
+          Kişiselleştirilmiş reklamları
+          <a href="https://adssettings.google.com" rel="noopener">Google Reklam Ayarları</a> sayfasından kapatabilirsiniz.
+        </li>
+        <li>
+          Üçüncü taraf sağlayıcıların kişiselleştirilmiş reklam çerezlerini
+          <a href="https://www.aboutads.info/choices/" rel="noopener">www.aboutads.info</a> adresinden de devre dışı
+          bırakabilirsiniz.
+        </li>
+        <li>
+          Google'ın bu verileri nasıl kullandığı
+          <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google'ın iş ortağı siteleri
+          politikasında</a> anlatılır.
+        </li>
+      </ul>
+      <p>
+        Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'den gelen ziyaretçiler için reklam çerezleri, Google'ın onay
+        kurallarına göre kullanılır. Size bir onay ekranı gösterildiyse tercihinizi aynı ekrandan değiştirebilirsiniz.
+      </p>
+
+      <h2>Yazı tipleri</h2>
+      <p>
+        Sitedeki yazı tipleri Google Fonts üzerinden yüklenir. Bu sırada tarayıcınız, sayfayı gösterebilmek için IP
+        adresinizi Google sunucularına iletir.
+      </p>
+
+      <h2>Haklarınız</h2>
+      <p>
+        KVKK'nın 11. maddesi uyarınca kişisel verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini
+        veya silinmesini isteme ve işlemeye itiraz etme haklarına sahipsiniz. Bu talepleri yukarıdaki e-posta adresine iletebilirsiniz. Google tarafından işlenen veriler için
+        <a href="https://policies.google.com/privacy" rel="noopener">Google Gizlilik Politikası</a> geçerlidir.
+      </p>
+
+      <h2>Değişiklikler</h2>
+      <p>Bu politika güncellendiğinde sayfanın üstündeki tarih değişir.</p>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<style>
+  .metin {
+    max-width: 720px;
+    padding: 64px 0 24px;
+  }
+  h1 {
+    font: 500 clamp(40px, 6vw, 72px) / 1 var(--baslik-font);
+    letter-spacing: -0.03em;
+    margin: 20px 0 32px;
+    text-wrap: balance;
+  }
+  h2 {
+    font: 500 30px/1.15 var(--baslik-font);
+    color: var(--kart-basligi);
+    margin: 48px 0 14px;
+  }
+  p,
+  li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--yazi);
+  }
+  p {
+    margin: 0 0 16px;
+  }
+  ul {
+    padding-left: 20px;
+    margin: 0 0 16px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  li::marker {
+    color: var(--vurgu);
+  }
+  strong {
+    font-weight: 500;
+    color: var(--kart-basligi);
+  }
+  a {
+    color: var(--vurgu);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+</style>
