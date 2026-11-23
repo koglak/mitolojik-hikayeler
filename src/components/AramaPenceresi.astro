@@ -1,9 +1,3 @@
----
-import { aramaKayitlari } from '../lib/aramaKayitlari';
-
-const kayitlar = await aramaKayitlari();
----
-
 <div class="perde" data-arama-perdesi>
   <div class="pencere" role="dialog" aria-modal="true" aria-labelledby="arama-basligi">
     <button class="kapat" type="button" data-arama-kapat aria-label="Kapat">×</button>
@@ -15,7 +9,6 @@ const kayitlar = await aramaKayitlari();
     <div class="arama-sonuclari" data-arama-sonuclari aria-live="polite"></div>
   </div>
 </div>
-<script type="application/json" id="arama-veri" set:html={JSON.stringify(kayitlar)} />
 
 <script>
   import '../scripts/arama';

@@ -5,12 +5,16 @@ type AramaKaydi = {
   adres: string;
 };
 
-function aramaVerisiniOku(): AramaKaydi[] {
-  try {
-    return JSON.parse(document.getElementById('arama-veri')?.textContent ?? '[]');
-  } catch {
-    return [];
-  }
+let aramaVerisiYuklemesi: Promise<AramaKaydi[]> | null = null;
+
+function aramaVerisiniYukle(): Promise<AramaKaydi[]> {
+  aramaVerisiYuklemesi ??= fetch('/arama.json')
+    .then((yanit) => (yanit.ok ? yanit.json() : []))
+    .catch(() => {
+      aramaVerisiYuklemesi = null;
+      return [];
+    });
+  return aramaVerisiYuklemesi;
 }
 
 function sonucOgesi(kayit: AramaKaydi): HTMLAnchorElement {
@@ -25,15 +29,16 @@ function sonucOgesi(kayit: AramaKaydi): HTMLAnchorElement {
   return baglanti;
 }
 
-function aramayiBagla(kayitlar: AramaKaydi[]): void {
+function aramayiBagla(): void {
   const perde = document.querySelector<HTMLElement>('[data-arama-perdesi]');
   const kutu = document.querySelector<HTMLInputElement>('[data-arama-kutusu]');
   const sonuclar = document.querySelector<HTMLElement>('[data-arama-sonuclari]');
   const acmaDugmesi = document.querySelector<HTMLButtonElement>('[data-arama-ac]');
   if (!perde || !kutu || !sonuclar || !acmaDugmesi) return;
 
-  function listele(sorgu: string): void {
-    const aranan = sorgu.trim().toLocaleLowerCase('tr');
+  async function listele(): Promise<void> {
+    const kayitlar = await aramaVerisiniYukle();
+    const aranan = kutu!.value.trim().toLocaleLowerCase('tr');
     const bulunanlar = kayitlar.filter((kayit) =>
       [kayit.baslik, kayit.ozet, kayit.bolum].join(' ').toLocaleLowerCase('tr').includes(aranan),
     );
@@ -57,10 +62,10 @@ function aramayiBagla(kayitlar: AramaKaydi[]): void {
     perde.classList.add('acik');
     document.body.style.overflow = 'hidden';
     kutu.value = '';
-    listele('');
+    void listele();
     kutu.focus();
   });
-  kutu.addEventListener('input', () => listele(kutu.value));
+  kutu.addEventListener('input', () => void listele());
   perde.querySelector('[data-arama-kapat]')?.addEventListener('click', kapat);
   perde.addEventListener('click', (olay) => {
     if (olay.target === perde) kapat();
@@ -70,4 +75,4 @@ function aramayiBagla(kayitlar: AramaKaydi[]): void {
   });
 }
 
-aramayiBagla(aramaVerisiniOku());
+aramayiBagla();

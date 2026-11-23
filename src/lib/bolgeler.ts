@@ -1,4 +1,5 @@
 export const bolgeAnahtarlari = [
+  'yunanistan',
   'trakya',
   'bithynia',
   'paflagonya',
@@ -30,6 +31,7 @@ export interface Bolge {
 }
 
 export const bolgeler: Record<BolgeAnahtari, Bolge> = {
+  yunanistan: { ad: 'Yunanistan', renk: '#00e5ff' },
   trakya: { ad: 'Trakya', renk: '#90a4ae' },
   bithynia: { ad: 'Bithynia', renk: '#3d5afe' },
   paflagonya: { ad: 'Paflagonya', renk: '#a5d6a7' },
