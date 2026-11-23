@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Leto"
 kaynak: "Kallimakhos, Artemis İlahisi; Ovidius, Dönüşümler 3.138–252; Herodotos, Tarih 1.26"
-ilgiliMitler: []
+ilgiliMitler: ["niobe", "aktaion"]
 ---
 
 Kallimakhos'un anlattığına göre küçük Artemis, babası Zeus'un dizine oturup ondan dileklerini istedi: hiç evlenmemek, kardeşi gibi bir yay ve oklar, kendisine eşlik edecek periler ve bütün dağlar. Zeus gülümseyerek hepsini verdi. Artemis ömrü boyunca bakire kaldı ve perileriyle ormanlarda avlandı.

@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Hesiodos, Theogonia 921–923; Homeros, İlyada 14.153–351; Ovidius, Dönüşümler 1.601–746, 3.359–369"
-ilgiliMitler: ["narkissos", "truva-ati"]
+ilgiliMitler: ["narkissos", "truva-ati", "leto-ve-koyluler"]
 ---
 
 Hera, Kronos'un yuttuğu çocuklardan biriydi ve Zeus onu babasının midesinden kurtardı. Sonra kardeşiyle evlendi ve Olimpos'un kraliçesi oldu. Ondan Ares, Hebe ve doğum tanrıçası Eileithyia doğdu. Hesiodos'a göre Hephaistos'u ise Zeus'a öfkelenip tek başına dünyaya getirdi.

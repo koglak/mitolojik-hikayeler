@@ -1,0 +1,26 @@
+---
+ad: "Smintheion"
+sira: 39
+ozet: "İlyada'nın ilk sahnesindeki Apollon Smintheus'un tapınağı. Rahip Khryses'in duasıyla Akha ordusuna veba okları burada yağdı."
+bilgiler:
+  - etiket: "Bugün"
+    deger: "Gülpınar, Ayvacık, Çanakkale"
+  - etiket: "Dönem"
+    deger: "MÖ 8. yüzyıldan Bizans'a"
+  - etiket: "Öne çıkan"
+    deger: "Apollon Smintheus Tapınağı, İlyada sahneli kabartmalar"
+  - etiket: "Tanrısı"
+    deger: "Fare Apollon'u, Smintheus"
+kaynak: "Homeros, İlyada 1.35–52; Strabon, Geographika 13.1.48"
+bolge: "troas"
+konum:
+  enlem: 39.4806
+  boylam: 26.1408
+ilgiliMitler: ["truva-ati", "akhilleus"]
+---
+
+İlyada şöyle başlar: Akhalar, Apollon'un rahibi Khryses'in kızını esir almıştır. Yaşlı rahip kızını geri ister, Agamemnon onu aşağılayıp kovar. Khryses deniz kıyısına iner ve tanrıya "Smintheus" diye seslenerek yalvarır. Apollon gümüş yayını alır, dokuz gün boyunca ordunun üstüne veba okları yağdırır. Akhilleus ile Agamemnon'un büyük kavgası da bu yüzden başlar.
+
+Smintheus, "farelerin efendisi" demektir. Strabon'a göre Girit'ten gelen göçmenlere, "toprağın çocuklarının" saldırdığı yere yerleşmeleri söylenmişti. Bir gece fareler kalkanlarının deri kayışlarını kemirdi; göçmenler kehanetin gerçekleştiğini anlayıp buraya yerleşti ve Apollon'a bu adla tapındı. Strabon, tapınaktaki heykelin ayağının altında bir fare bulunduğunu da yazar.
+
+Bugün Gülpınar'da ayağa kaldırılan Hellenistik tapınağın sütun başlıklarında İlyada'dan sahneler işlenmiştir.
