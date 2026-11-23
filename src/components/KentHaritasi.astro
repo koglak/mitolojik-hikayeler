@@ -1,10 +1,13 @@
 ---
+import type { Bolge } from '../lib/bolgeler';
+
 interface HaritaKenti {
   ad: string;
   ozet: string;
   adres: string;
   enlem: number;
   boylam: number;
+  bolge: Bolge & { anahtar: string };
 }
 
 interface Props {
@@ -17,6 +20,13 @@ const googleEarthAdresi = (enlem: number, boylam: number) =>
   `https://earth.google.com/web/@${enlem},${boylam},150a,1800d,35y,0h,55t,0r`;
 
 const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(kent.enlem, kent.boylam) }));
+
+const gorunenBolgeler = [
+  ...new Map(kentler.map((kent) => [kent.bolge.anahtar, kent.bolge])).values(),
+].map((bolge) => ({
+  ...bolge,
+  kentSayisi: kentler.filter((kent) => kent.bolge.anahtar === bolge.anahtar).length,
+}));
 ---
 
 <section class="kent-haritasi" aria-labelledby="harita-basligi">
@@ -24,20 +34,20 @@ const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(
     <h2 id="harita-basligi">Haritada kentler</h2>
     <p>Bir işarete dokun; kenti oku ya da Google Earth'te 3B olarak gez.</p>
   </div>
+  <div class="bolge-aciklamasi" role="group" aria-label="Bölgeleri göster ya da gizle">
+    {
+      gorunenBolgeler.map((bolge) => (
+        <button type="button" class="bolge-dugmesi" data-bolge={bolge.anahtar} aria-pressed="true" style={`--bolge-rengi: ${bolge.renk}`}>
+          <span class="bolge-noktasi" aria-hidden="true" />
+          {bolge.ad}
+          <span class="bolge-sayisi">{bolge.kentSayisi}</span>
+        </button>
+      ))
+    }
+  </div>
   <div class="harita-cercevesi">
     <div class="harita" data-kentler={JSON.stringify(haritaVerisi)} role="region" aria-label="Antik kentlerin uydu haritası"></div>
   </div>
-  <ul class="earth-baglantilari">
-    {
-      haritaVerisi.map((kent) => (
-        <li>
-          <a href={kent.earth} target="_blank" rel="noopener noreferrer">
-            {kent.ad} · Google Earth'te aç ↗
-          </a>
-        </li>
-      ))
-    }
-  </ul>
 </section>
 
 <script>
@@ -51,12 +61,16 @@ const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(
     enlem: number;
     boylam: number;
     earth: string;
+    bolge: { anahtar: string; ad: string; renk: string };
   }
 
   const metniGuvenliYap = (metin: string) =>
     metin.replace(/[&<>"']/g, (karakter) => `&#${karakter.charCodeAt(0)};`);
 
-  for (const haritaAlani of document.querySelectorAll<HTMLElement>('.kent-haritasi .harita')) {
+  for (const bolum of document.querySelectorAll<HTMLElement>('.kent-haritasi')) {
+    const haritaAlani = bolum.querySelector<HTMLElement>('.harita');
+    if (!haritaAlani) continue;
+
     const kentler: IsaretliKent[] = JSON.parse(haritaAlani.dataset.kentler ?? '[]');
     const harita = L.map(haritaAlani, { scrollWheelZoom: false, worldCopyJump: true });
 
@@ -69,21 +83,28 @@ const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(
       { maxZoom: 18, opacity: 0.8 },
     ).addTo(harita);
 
-    const isaret = L.divIcon({
-      className: 'kent-isareti',
-      html: '<span></span>',
-      iconSize: [22, 22],
-      iconAnchor: [11, 11],
-      popupAnchor: [0, -12],
-    });
+    const bolgeKatmanlari = new Map<string, L.LayerGroup>();
 
     const noktalar = kentler.map((kent) => {
       const nokta = L.latLng(kent.enlem, kent.boylam);
+      const isaret = L.divIcon({
+        className: 'kent-isareti',
+        html: `<span style="--bolge-rengi: ${kent.bolge.renk}"></span>`,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -12],
+      });
+
+      if (!bolgeKatmanlari.has(kent.bolge.anahtar)) {
+        bolgeKatmanlari.set(kent.bolge.anahtar, L.layerGroup().addTo(harita));
+      }
+
       L.marker(nokta, { icon: isaret, title: kent.ad, alt: kent.ad })
-        .addTo(harita)
+        .addTo(bolgeKatmanlari.get(kent.bolge.anahtar)!)
         .bindTooltip(metniGuvenliYap(kent.ad), { direction: 'top', offset: [0, -12], className: 'kent-etiketi' })
         .bindPopup(
-          `<strong>${metniGuvenliYap(kent.ad)}</strong>
+          `<span class="pencere-bolgesi" style="--bolge-rengi: ${kent.bolge.renk}">${metniGuvenliYap(kent.bolge.ad)}</span>
+           <strong>${metniGuvenliYap(kent.ad)}</strong>
            <p>${metniGuvenliYap(kent.ozet)}</p>
            <div class="baglantilar">
              <a href="${kent.adres}">Kenti oku →</a>
@@ -95,9 +116,23 @@ const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(
     });
 
     if (noktalar.length > 0) {
-      harita.fitBounds(L.latLngBounds(noktalar), { padding: [60, 60], maxZoom: 9 });
+      harita.fitBounds(L.latLngBounds(noktalar), { padding: [40, 40], maxZoom: 9 });
     } else {
       harita.setView([38.5, 27.5], 6);
+    }
+
+    for (const dugme of bolum.querySelectorAll<HTMLButtonElement>('.bolge-dugmesi')) {
+      dugme.addEventListener('click', () => {
+        const katman = bolgeKatmanlari.get(dugme.dataset.bolge ?? '');
+        if (!katman) return;
+        const gorunur = harita.hasLayer(katman);
+        if (gorunur) {
+          harita.removeLayer(katman);
+        } else {
+          katman.addTo(harita);
+        }
+        dugme.setAttribute('aria-pressed', String(!gorunur));
+      });
     }
 
     haritaAlani.addEventListener('click', () => harita.scrollWheelZoom.enable(), { once: true });
@@ -126,29 +161,54 @@ const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(
     margin: 0;
     font-size: 15px;
   }
+  .bolge-aciklamasi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .bolge-dugmesi {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 12px;
+    background: var(--yuzey);
+    color: var(--yazi);
+    border: 1px solid var(--cizgi);
+    font: 500 14px/1 var(--govde-font);
+    cursor: pointer;
+    transition:
+      opacity 0.2s,
+      border-color 0.2s;
+  }
+  .bolge-dugmesi:hover,
+  .bolge-dugmesi:focus-visible {
+    border-color: var(--bolge-rengi);
+  }
+  .bolge-dugmesi[aria-pressed='false'] {
+    opacity: 0.45;
+  }
+  .bolge-dugmesi[aria-pressed='false'] .bolge-noktasi {
+    background: transparent;
+  }
+  .bolge-noktasi {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bolge-rengi);
+    border: 2px solid var(--bolge-rengi);
+  }
+  .bolge-sayisi {
+    color: var(--soluk);
+    font-size: 12px;
+  }
   .harita-cercevesi {
     border: 1px solid var(--cizgi);
     background: var(--yuzey);
   }
   .harita {
-    height: clamp(320px, 52vh, 520px);
+    height: clamp(340px, 58vh, 560px);
     background: var(--hero);
-  }
-  .earth-baglantilari {
-    list-style: none;
-    margin: 14px 0 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 22px;
-    font-size: 14px;
-  }
-  .earth-baglantilari a {
-    color: var(--vurgu);
-  }
-  .earth-baglantilari a:hover,
-  .earth-baglantilari a:focus-visible {
-    text-decoration: underline;
   }
 </style>
 
@@ -158,10 +218,10 @@ const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: var(--vurgu);
+    background: var(--bolge-rengi, var(--vurgu));
     border: 3px solid var(--zemin);
     box-shadow:
-      0 0 0 2px var(--vurgu),
+      0 0 0 2px var(--bolge-rengi, var(--vurgu)),
       0 4px 14px rgba(0, 0, 0, 0.6);
     transition: transform 0.2s var(--yumusak);
   }
@@ -189,6 +249,15 @@ const haritaVerisi = kentler.map((kent) => ({ ...kent, earth: googleEarthAdresi(
   .kent-haritasi .kent-penceresi .leaflet-popup-content {
     margin: 16px 18px;
     font: 14px/1.55 var(--govde-font);
+  }
+  .kent-haritasi .kent-penceresi .pencere-bolgesi {
+    display: inline-block;
+    margin-bottom: 4px;
+    color: var(--bolge-rengi);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
   .kent-haritasi .kent-penceresi strong {
     display: block;

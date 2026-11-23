@@ -1,0 +1,26 @@
+---
+ad: "Letoon"
+sira: 5
+ozet: "Leto ile çocukları Apollon ve Artemis'e adanmış kutsal alan. Likya Birliği'nin ortak tapınağı."
+bilgiler:
+  - etiket: "Bugün"
+    deger: "Kumluova, Seydikemer, Muğla"
+  - etiket: "Dönem"
+    deger: "MÖ 7. yüzyıldan Bizans'a"
+  - etiket: "Öne çıkan"
+    deger: "Üç yan yana tapınak, nymphaion, üç dilli yazıt"
+  - etiket: "UNESCO"
+    deger: "1988, Ksanthos ile birlikte"
+kaynak: "Ovidius, Metamorphoses 6.317–381"
+bolge: "likya"
+konum:
+  enlem: 36.3333
+  boylam: 29.2897
+ilgiliMitler: []
+---
+
+Letoon bir kent değil, Ksanthos'un birkaç kilometre güneyinde, bataklıkla çevrili bir kutsal alandır. Burada yan yana üç tapınak durur: biri Leto'ya, biri Apollon'a, biri Artemis'e adanmıştır.
+
+Ovidius'un anlattığı bir mite göre Leto, Hera'nın öfkesinden kaçarken ikizlerini kucağında taşıyarak Likya'ya geldi. Yorgun ve susuzdu. Bir gölete eğilip su içmek istedi ama orada saz kesen köylüler onu kovdu, suyu çamurlaştırdı. Leto onları kurbağaya çevirdi. Kutsal alanın sularında bugün de kurbağalar öter.
+
+1973'te burada bulunan bir taş, Likçe, Yunanca ve Aramice yazılmış aynı metni taşır. Bu üç dilli yazıt, Likya dilinin çözülmesine büyük katkı sağladı.

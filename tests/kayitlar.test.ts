@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { describe, expect, it } from 'vitest';
 import { kayitSemasi } from '../src/lib/kayitSemasi';
 import { bolumler, bolumAnahtarlari } from '../src/lib/bolumler';
+import { bolgeler } from '../src/lib/bolgeler';
 
 const icerik = join(process.cwd(), 'src/content');
 
@@ -53,5 +54,25 @@ describe('kentler konumu', () => {
     expect(konum!.enlem).toBeLessThan(43);
     expect(konum!.boylam).toBeGreaterThan(19);
     expect(konum!.boylam).toBeLessThan(45);
+    expect(sonuc.data?.bolge, dosya).toBeDefined();
+  });
+
+  it('Likya kentleri var', () => {
+    const likyaKentleri = dosyalar.filter(
+      (dosya) => matter(readFileSync(join(klasor, dosya), 'utf8')).data.bolge === 'likya',
+    );
+    expect(likyaKentleri.length).toBeGreaterThanOrEqual(5);
+  });
+
+  it('Aiol kentleri var', () => {
+    const aiolKentleri = dosyalar.filter(
+      (dosya) => matter(readFileSync(join(klasor, dosya), 'utf8')).data.bolge === 'aiolis',
+    );
+    expect(aiolKentleri.length).toBeGreaterThanOrEqual(5);
+  });
+
+  it('bölge renkleri birbirinden farklı', () => {
+    const renkler = Object.values(bolgeler).map((bolge) => bolge.renk.toLowerCase());
+    expect(new Set(renkler).size).toBe(renkler.length);
   });
 });

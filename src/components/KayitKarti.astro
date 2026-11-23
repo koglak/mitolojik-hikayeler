@@ -5,13 +5,14 @@ interface Props {
   adres: string;
   kayit: Kayit;
   bilgiSayisi?: number;
+  vurguRengi?: string;
 }
 
-const { adres, kayit, bilgiSayisi = 2 } = Astro.props;
+const { adres, kayit, bilgiSayisi = 2, vurguRengi } = Astro.props;
 const gosterilenBilgiler = kayit.bilgiler.slice(0, bilgiSayisi);
 ---
 
-<a class="etiket-karti" href={adres}>
+<a class="etiket-karti" href={adres} style={vurguRengi ? `--kart-vurgu: ${vurguRengi}` : undefined}>
   <h3>{kayit.ad}</h3>
   <p class="ozet">{kayit.ozet}</p>
   <dl>
@@ -35,7 +36,7 @@ const gosterilenBilgiler = kayit.bilgiler.slice(0, bilgiSayisi);
     padding: 26px 26px 22px;
     background: var(--yuzey);
     border: 1px solid var(--cizgi);
-    border-top: 2px solid var(--vurgu);
+    border-top: 2px solid var(--kart-vurgu, var(--vurgu));
     transition: border-color 0.2s, background 0.2s;
   }
   .etiket-karti:hover {

@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "2014"
 kaynak: "Plinius, Naturalis Historia 13.70; Strabon, Geographika 13.4"
+bolge: "misya"
 konum:
   enlem: 39.1323
   boylam: 27.1841

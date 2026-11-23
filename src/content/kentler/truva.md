@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1998"
 kaynak: "Homeros, İlyada; Strabon, Geographika 13.1"
+bolge: "troas"
 konum:
   enlem: 39.9575
   boylam: 26.2389

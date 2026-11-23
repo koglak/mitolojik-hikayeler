@@ -7,6 +7,7 @@ import KayitKarti from '../../components/KayitKarti.astro';
 import KategoriGorseli from '../../components/KategoriGorseli.astro';
 import KentHaritasi from '../../components/KentHaritasi.astro';
 import { bolumAnahtarlari, bolumler, type BolumAnahtari } from '../../lib/bolumler';
+import { bolgeAnahtarlari, bolgeler, bolgesizKent } from '../../lib/bolgeler';
 
 export function getStaticPaths() {
   return bolumAnahtarlari.map((bolum) => ({ params: { bolum } }));
@@ -15,12 +16,33 @@ export function getStaticPaths() {
 const bolum = Astro.params.bolum as BolumAnahtari;
 const { ad, aciklama } = bolumler[bolum];
 const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
+const bolgeRengi = (kayit: (typeof kayitlar)[number]) => (kayit.data.bolge ? bolgeler[kayit.data.bolge].renk : undefined);
 const haritaKentleri =
   bolum === 'kentler'
     ? kayitlar.flatMap(({ id, data }) =>
-        data.konum ? [{ ad: data.ad, ozet: data.ozet, adres: `/${bolum}/${id}`, ...data.konum }] : [],
+        data.konum
+          ? [
+              {
+                ad: data.ad,
+                ozet: data.ozet,
+                adres: `/${bolum}/${id}`,
+                ...data.konum,
+                bolge: data.bolge ? { anahtar: data.bolge, ...bolgeler[data.bolge] } : bolgesizKent,
+              },
+            ]
+          : [],
       )
     : [];
+const bolgeGruplari = kayitlar.some((kayit) => kayit.data.bolge)
+  ? [
+      ...bolgeAnahtarlari.map((anahtar) => ({
+        baslik: bolgeler[anahtar].ad,
+        renk: bolgeler[anahtar].renk,
+        kayitlar: kayitlar.filter((kayit) => kayit.data.bolge === anahtar),
+      })),
+      { baslik: 'Diğer', renk: undefined, kayitlar: kayitlar.filter((kayit) => !kayit.data.bolge) },
+    ].filter((grup) => grup.kayitlar.length > 0)
+  : [];
 ---
 
 <Temel baslik={`${ad} · Mythos`} aciklama={aciklama}>
@@ -35,15 +57,34 @@ const haritaKentleri =
         <div class="bolum-resmi"><KategoriGorseli tur={bolum} /></div>
       </header>
       {haritaKentleri.length > 0 && <KentHaritasi kentler={haritaKentleri} />}
-      <ul class="kayitlar">
-        {
-          kayitlar.map((kayit) => (
-            <li>
-              <KayitKarti adres={`/${bolum}/${kayit.id}`} kayit={kayit.data} bilgiSayisi={3} />
-            </li>
+      {
+        bolgeGruplari.length > 0 ? (
+          bolgeGruplari.map((grup) => (
+            <section class="bolge-grubu" style={grup.renk ? `--bolge-rengi: ${grup.renk}` : undefined}>
+              <h2>
+                <span class="bolge-noktasi" aria-hidden="true" />
+                {grup.baslik}
+                <span class="bolge-sayisi">{grup.kayitlar.length} kent</span>
+              </h2>
+              <ul class="kayitlar">
+                {grup.kayitlar.map((kayit) => (
+                  <li>
+                    <KayitKarti adres={`/${bolum}/${kayit.id}`} kayit={kayit.data} bilgiSayisi={3} vurguRengi={bolgeRengi(kayit)} />
+                  </li>
+                ))}
+              </ul>
+            </section>
           ))
-        }
-      </ul>
+        ) : (
+          <ul class="kayitlar">
+            {kayitlar.map((kayit) => (
+              <li>
+                <KayitKarti adres={`/${bolum}/${kayit.id}`} kayit={kayit.data} bilgiSayisi={3} />
+              </li>
+            ))}
+          </ul>
+        )
+      }
     </main>
     <SiteAltBilgisi />
   </div>
@@ -78,6 +119,28 @@ const haritaKentleri =
     aspect-ratio: 3 / 2;
     overflow: hidden;
     border: 1px solid var(--cizgi);
+  }
+  .bolge-grubu + .bolge-grubu {
+    margin-top: 48px;
+  }
+  .bolge-grubu h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: clamp(26px, 3vw, 34px);
+    line-height: 1;
+    margin: 0 0 20px;
+  }
+  .bolge-noktasi {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--bolge-rengi, var(--vurgu));
+    flex: none;
+  }
+  .bolge-sayisi {
+    font: 400 14px/1 var(--govde-font);
+    color: var(--soluk);
   }
   .kayitlar {
     list-style: none;
