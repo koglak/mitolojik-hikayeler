@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "Yüzdüğü boğaz"
     deger: "Hellespontos (Çanakkale Boğazı)"
 kaynak: "Musaios, Hero ve Leandros; Ovidius, Kahramanlar 18–19; Strabon, Coğrafya 13.1.22"
+ilgiliMitler: ["hero-ve-leandros"]
 ---
 
 Hero, Çanakkale Boğazı'nın Avrupa yakasındaki Sestos'ta, denize bakan bir kulede yaşayan bir Afrodit rahibesiydi. Rahibe olduğu için evlenmesi yasaktı. Karşı kıyıdaki Abydos'tan gelen genç Leandros onu bir Afrodit şenliğinde gördü ve ikisi birbirine âşık oldu. Ama aralarında Boğaz vardı ve ilişkilerini kimse bilmemeliydi.

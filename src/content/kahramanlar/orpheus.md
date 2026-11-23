@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Simgesi"
     deger: "Lir"
 kaynak: "Apollodoros, Kütüphane 1.3.2, 1.9.25; Vergilius, Georgika 4.453–527; Ovidius, Dönüşümler 10.1–85, 11.1–66"
-ilgiliMitler: ["orpheus-ve-eurydike"]
+ilgiliMitler: ["orpheus-ve-eurydike", "argonotlar"]
 ---
 
 Orpheus, Musa Kalliope'nin oğluydu. Lirini çaldığında vahşi hayvanlar yanına gelir, ağaçlar ve taşlar onu izlemek için yerinden kalkardı. İason'un Argo gemisinde de yolculuk etti. Gemi Sirenlerin adasının önünden geçerken Orpheus onlardan daha yüksek sesle şarkı söyledi ve tayfalar Sirenlerin büyüsüne kapılmadı.

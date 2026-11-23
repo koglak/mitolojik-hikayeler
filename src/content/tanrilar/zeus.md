@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Hesiodos, Theogonia 453–506"
-ilgiliMitler: ["prometheus", "pandora", "phaethon"]
+ilgiliMitler: ["prometheus", "pandora", "phaethon", "titanlar-savasi", "europa", "baukis-ve-philemon"]
 ---
 
 Kronos, çocuklarından birinin onu tahttan indireceği kehanetinden korkuyordu. Bu yüzden Rhea'nın doğurduğu her çocuğu yuttu. Rhea altıncı çocuğunu, Zeus'u, gizlice Girit'te doğurdu ve Kronos'a bebek yerine kundağa sarılmış bir taş verdi.

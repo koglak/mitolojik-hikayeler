@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "Memleketi"
     deger: "Thebai"
 kaynak: "Apollodoros, Kütüphane 2.4.8, 2.4.11–12; Theokritos, İdil 24; Pausanias, Hellas'ın Tasviri 8.14.9–10"
+ilgiliMitler: ["herakles"]
 ---
 
 Zeus, Amphitryon savaştayken onun kılığına girip Alkmene'nin yanına geldi. Ertesi gece gerçek Amphitryon döndü. Alkmene ikiz doğurdu: Zeus'un oğlu Herakles ve Amphitryon'un oğlu İphikles. Bebekler sekiz aylıkken beşiklerine iki yılan girdi. İphikles bağırarak kaçtı, Herakles ise yılanları elleriyle boğdu. Apollodoros'un aktardığı bir anlatıya göre yılanları Amphitryon koymuştu: hangi bebeğin kendi oğlu olduğunu anlamak istiyordu.

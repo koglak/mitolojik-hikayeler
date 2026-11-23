@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "Eşi"
     deger: "Likya kralı Iobates'in kızı"
 kaynak: "Homeros, İlyada 6.152–205; Pindaros, Olympia 13.63–92; Apollodoros, Kütüphane 2.3.1–2.3.2"
+ilgiliMitler: ["bellerophon"]
 ---
 
 Bellerophon, Sisifos'un torunuydu ve Korinthos'ta doğdu. Kazayla birini öldürünce Tiryns kralı Proitos'un yanına sığındı. Kraliçe Anteia ona âşık oldu ama reddedildi. İntikam için kocasına Bellerophon'un kendisine saldırdığını söyledi. Konuğunu öldürmek istemeyen Proitos onu, Likya kralı olan kayınpederi Iobates'e mühürlü bir mektupla gönderdi. Homeros'a göre mektupta getireni öldürün diye yazıyordu.

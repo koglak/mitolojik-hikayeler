@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 37.6316
   boylam: 22.7195
-ilgiliMitler: ["perseus-ve-medusa"]
+ilgiliMitler: ["perseus-ve-medusa", "io"]
 ---
 
 Argos, Argolis ovasının batı kenarında, Larisa denen sivri bir tepenin dibinde kuruldu. Yunanistan'ın hiç terk edilmemiş en eski kentlerinden biridir. Kentin koruyucusu Hera'ydı. Ovanın öbür yanındaki büyük tapınağına her yıl gelin alayları giderdi.

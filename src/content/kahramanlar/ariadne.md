@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Gökyüzünde"
     deger: "Kuzey Tacı takımyıldızı"
 kaynak: "Apollodoros, Epitome 1.8–9; Plutarkhos, Theseus 19–20; Ovidius, Dönüşümler 8.169–182; Homeros, Odysseia 11.321–325"
-ilgiliMitler: ["ikaros"]
+ilgiliMitler: ["ikaros", "theseus-ve-minotauros"]
 ---
 
 Ariadne, Girit kralı Minos'un kızıydı. Annesi Pasiphae'nin bir boğadan doğurduğu Minotauros onun üvey kardeşiydi. Minos bu yaratığı, usta Daidalos'a yaptırdığı Labirent'e kapatmıştı. Atina'dan kurban olarak gönderilen gençler arasında Theseus'u görünce Ariadne ona âşık oldu.

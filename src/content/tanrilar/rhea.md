@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Özdeşleştirildiği"
     deger: "Anadolu'nun ana tanrıçası Kybele"
 kaynak: "Hesiodos, Theogonia 453–491; Apollodoros, Kütüphane 1.1.3–1.1.7; Homerosçu Demeter İlahisi 441–462"
-ilgiliMitler: []
+ilgiliMitler: ["titanlar-savasi"]
 ---
 
 Rhea, Uranos ile Gaia'nın Titan kızıydı ve kardeşi Kronos'la evlendi. Ona altı çocuk doğurdu, ama her birini doğumdan hemen sonra Kronos'un yutuşunu izlemek zorunda kaldı. Altıncı çocuğuna gebeyken annesi ve babası Gaia ile Uranos'tan yardım istedi. Onu Girit'e, Lyktos'a gönderdiler.

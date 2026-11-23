@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 39.1047
   boylam: 26.5548
-ilgiliMitler: ["orpheus-ve-eurydike"]
+ilgiliMitler: ["orpheus-ve-eurydike", "arion"]
 ---
 
 Mytilene, Lesbos adasının doğu kıyısında, Anadolu'ya bakan bir yarımadada kuruldu. Ayvalık'tan bakınca karşıda görünen bu ada, Aiolis kıyılarıyla aynı dili konuşur, aynı kökleri paylaşırdı. Bugün Türkçede Midilli diye bilinir.

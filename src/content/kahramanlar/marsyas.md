@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "Rakibi"
     deger: "Apollon"
 kaynak: "Apollodoros, Kütüphane 1.4.2; Ovidius, Dönüşümler 6.382–400; Herodotos, Tarih 7.26; Ksenophon, Anabasis 1.2.8"
+ilgiliMitler: ["marsyas"]
 ---
 
 Tanrıça Athena, çift borulu kaval aulosu icat etti. Çalarken suda yansımasını gördü ve yanaklarının çirkin bir şekilde şiştiğini fark etti. Kavalı fırlatıp attı ve onu alanın cezalandırılacağını söyleyerek lanetledi. Kavalı Frigya'da yaşayan satyr Marsyas buldu. Çalmayı öğrendi ve öyle ustalaştı ki sonunda Apollon'u yarışmaya çağırdı.

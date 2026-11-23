@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Leto"
 kaynak: "Homerosçu Apollon İlahisi; Homeros, İlyada 1.43–52; Ovidius, Dönüşümler 1.452–567"
-ilgiliMitler: ["akhilleus", "truva-ati", "orpheus-ve-eurydike", "niobe", "apollon-ve-daphne"]
+ilgiliMitler: ["akhilleus", "truva-ati", "orpheus-ve-eurydike", "niobe", "apollon-ve-daphne", "hermes", "marsyas"]
 ---
 
 Apollon, Artemis'in ikiz kardeşiydi ve Delos adasında doğdu. Daha bebekken Delphoi'ye gidip orayı bekleyen dev yılan Python'u oklarıyla öldürdü. Bu yere kendi kehanet merkezini kurdu. Yunan dünyasının dört bir yanından insanlar, onun rahibesi Pythia'nın ağzından geleceği öğrenmeye gelirdi.

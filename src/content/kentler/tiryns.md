@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 37.5995
   boylam: 22.7998
-ilgiliMitler: []
+ilgiliMitler: ["herakles"]
 ---
 
 Tiryns, Argolis ovasında, denize yakın alçak bir kayanın üstünde kuruldu. Surları o kadar kalındı ki içlerinden geçen tonozlu galeriler bugün hâlâ yürünebilir. Pausanias en küçük taşın bile bir çift katırla kımıldatılamayacağını yazar. Mitlere göre bu duvarları Likya'dan getirilen yedi Kyklop ördü.

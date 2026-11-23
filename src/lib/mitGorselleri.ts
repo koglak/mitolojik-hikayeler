@@ -278,6 +278,215 @@ const gorseller: Record<string, MitGorseli> = {
       '<path d="M60 250h320l-20 70H80Z" fill="{c}" opacity=".25"/>' +
       '<path d="M90 286q30-6 60 0t60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="2" opacity=".5"/>',
   },
+  herakles: {
+    palet: ['#a2643a', '#2a1c18', '#efcf8e'],
+    figur:
+      '<path d="M290 170L262 186L282 212L250 217L258 248L227 240L222 272L196 252L180 280L164 252L138 272L133 240L102 248L110 217L78 212L98 186L70 170L98 154L78 128L110 123L102 92L133 100L138 68L164 88L180 60L196 88L222 68L227 100L258 92L250 123L282 128L262 154Z" fill="{c}"/>' +
+      '<circle cx="180" cy="170" r="70" fill="{b}"/>' +
+      '<path d="M130 150q20-16 36 0M194 150q20-16 36 0" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round"/>' +
+      '<path d="M166 186h28l-14 18Z" fill="{c}"/>' +
+      '<path d="M180 204v14M180 218q-14 12-26 6M180 218q14 12 26 6" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M310 330l46-250" stroke="{c}" stroke-width="22" stroke-linecap="round"/>' +
+      '<path d="M336 140l16 6M330 180l16 6M342 104l16 6M324 220l16 6" stroke="{b}" stroke-width="4" stroke-linecap="round"/>',
+  },
+  'theseus-ve-minotauros': {
+    palet: ['#7a4a3a', '#1f1a22', '#e8c48a'],
+    figur:
+      '<path d="M220 60h120v240H100V100h200v160H140v-120h120v80h-80" fill="none" stroke="{c}" stroke-width="10" stroke-linejoin="round"/>' +
+      '<path d="M40 330c40-10 60-40 80-30s20 40 60 30 50-50 40-60" fill="none" stroke="{c}" stroke-width="3" stroke-dasharray="6 6"/>' +
+      '<circle cx="216" cy="212" r="14" fill="{c}"/>' +
+      '<path d="M200 204c-12-10-16-22-14-30M232 204c12-10 16-22 14-30" fill="none" stroke="{c}" stroke-width="5" stroke-linecap="round"/>' +
+      '<circle cx="40" cy="330" r="10" fill="{c}"/>',
+  },
+  odysseus: {
+    palet: ['#3c5c7a', '#131c2a', '#e6cf96'],
+    figur:
+      '<path d="M220 50v200" stroke="{c}" stroke-width="7"/>' +
+      '<path d="M224 62c70 20 96 70 92 130h-92ZM216 70c-50 24-70 70-66 120h66Z" fill="{c}"/>' +
+      '<path d="M100 250h240c-10 30-44 46-90 46h-60c-46 0-80-16-90-46Z" fill="{c}"/>' +
+      '<circle cx="220" cy="214" r="10" fill="{b}"/><path d="M220 224v26M206 236l14-8 14 8" stroke="{b}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M40 322q30-10 60 0t60 0 60 0 60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="2" opacity=".6"/>' +
+      '<path d="M50 120l12-10 12 10M370 90l12-10 12 10" fill="none" stroke="{c}" stroke-width="3"/>',
+  },
+  bellerophon: {
+    palet: ['#4a6a8a', '#16202e', '#f0d6a0'],
+    figur:
+      '<path d="M120 230c10-40 60-60 110-56 30 2 54-10 70-36l20 10-6 30c14 10 18 26 10 40-20-6-34-4-44 6l-10 76h-14l-2-60c-30 6-60 4-84-6l-14 66h-14l-2-60c-14-2-26-6-30-10Z" fill="{c}"/>' +
+      '<path d="M190 180c-20-50-70-90-140-100 30 20 46 40 50 60-20-4-40 0-54 10 30 6 60 20 80 40 10 0 40-6 64-10Z" fill="{c}" opacity=".85"/>' +
+      '<path d="M220 176c-6-60 20-110 80-140-10 30-10 56 0 76 10-20 30-30 50-30-20 24-34 52-40 84Z" fill="{c}" opacity=".7"/>' +
+      '<circle cx="306" cy="150" r="3" fill="{b}"/>' +
+      '<path d="M340 300c10-30 30-40 50-36-4 20-20 34-50 36Z" fill="{c}" opacity=".6"/>',
+  },
+  oidipus: {
+    palet: ['#8a6a3a', '#221c1a', '#ecd29a'],
+    figur:
+      '<path d="M80 300c0-30 20-50 60-54l120-6c30-30 40-70 40-110h50c4 40-4 80-26 110 26 6 46 26 46 60Z" fill="{c}"/>' +
+      '<circle cx="324" cy="104" r="28" fill="{c}"/>' +
+      '<path d="M296 96c-6-30 10-54 30-54s34 20 28 48l-10-20h-36Z" fill="{b}" opacity=".45"/>' +
+      '<path d="M296 90v50M352 90v50" stroke="{c}" stroke-width="8"/>' +
+      '<path d="M120 246c-10-70 20-140 90-170-8 30-6 54 4 72 14-30 40-48 70-52-20 30-30 60-32 92Z" fill="{c}" opacity=".85"/>' +
+      '<path d="M80 300c-20-6-34-24-30-50" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round"/>' +
+      '<path d="M60 320h340" stroke="{c}" stroke-width="3"/>' +
+      '<path d="M70 70q8-24 30-24 20 0 20 20 0 16-20 22v14M100 118v4" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round"/>',
+  },
+  atalante: {
+    palet: ['#a5703a', '#241e1a', '#f3d690'],
+    figur:
+      '<circle cx="190" cy="100" r="22" fill="{c}"/>' +
+      '<path d="M170 92c-30-6-56 4-80 20 24-2 44 2 60 10M172 108c-26 6-44 20-56 38" fill="none" stroke="{c}" stroke-width="5" stroke-linecap="round"/>' +
+      '<path d="M198 124l20 80M208 150l50-20M206 160l-46 10M218 204l40 50 30-6M218 204l-30 60-30 0" fill="none" stroke="{c}" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '<g fill="{c}"><circle cx="300" cy="300" r="14"/><circle cx="350" cy="290" r="14"/><circle cx="396" cy="304" r="14"/></g>' +
+      '<path d="M300 286v-8M350 276v-8M396 290v-8" stroke="{c}" stroke-width="3"/>' +
+      '<path d="M40 320h380" stroke="{c}" stroke-width="2" opacity=".6"/>',
+  },
+  'kastor-ve-polydeukes': {
+    palet: ['#3e4e7a', '#12162a', '#ecdcae'],
+    figur:
+      '<g id="{id}-ikiz"><circle cx="150" cy="150" r="20" fill="{c}"/>' +
+      '<path d="M150 172l-6 80M144 196l-30 30M144 196l40 20M144 252l-20 60M144 252l20 60" fill="none" stroke="{c}" stroke-width="12" stroke-linecap="round"/>' +
+      '<path d="M150 74l7 20h21l-17 12 6 20-17-12-17 12 6-20-17-12h21Z" fill="{c}"/></g>' +
+      '<g transform="translate(440 0) scale(-1 1)"><use href="#{id}-ikiz"/></g>' +
+      '<circle cx="80" cy="60" r="3" fill="{c}"/><circle cx="360" cy="60" r="3" fill="{c}"/><circle cx="220" cy="40" r="2" fill="{c}"/>',
+  },
+  'titanlar-savasi': {
+    palet: ['#5a4a6a', '#18142a', '#f0d080'],
+    figur:
+      '<path d="M40 330l80-150 50 70 50-110 60 120 40-60 80 130Z" fill="{c}" opacity=".5"/>' +
+      '<path d="M250 30l-60 110h50l-50 120 110-150h-56l46-80Z" fill="{c}"/>' +
+      '<path d="M120 80c-20 0-30 20-20 34 10 14 34 10 40-6 4-14-6-28-20-28ZM340 110c-16 0-26 14-18 28 8 12 28 10 32-4 4-12-4-24-14-24Z" fill="{c}" opacity=".7"/>',
+  },
+  hermes: {
+    palet: ['#6a7a4a', '#1c2218', '#ecd9a0'],
+    figur:
+      '<path d="M220 40v280" stroke="{c}" stroke-width="10" stroke-linecap="round"/>' +
+      '<circle cx="220" cy="40" r="14" fill="{c}"/>' +
+      '<path d="M206 62c-50-20-90-10-120 10 30 0 60 4 90 20M234 62c50-20 90-10 120 10-30 0-60 4-90 20" fill="{c}"/>' +
+      '<path d="M220 110c-40 10-40 40 0 50s40 40 0 50-40 40 0 50" fill="none" stroke="{c}" stroke-width="6"/>' +
+      '<path d="M220 110c40 10 40 40 0 50s-40 40 0 50 40 40 0 50" fill="none" stroke="{c}" stroke-width="6" opacity=".7"/>' +
+      '<circle cx="190" cy="104" r="5" fill="{c}"/><circle cx="250" cy="104" r="5" fill="{c}"/>',
+  },
+  arakhne: {
+    palet: ['#6a4a6a', '#1e1624', '#e6d0b0'],
+    figur:
+      '<g fill="none" stroke="{c}" stroke-width="2.5">' +
+      '<path d="M220 40v280M80 180h280M120 80l200 200M320 80 120 280"/>' +
+      '<path d="M220 80l70 30 30 70-30 70-70 30-70-30-30-70 30-70Z"/>' +
+      '<path d="M220 120l42 18 18 42-18 42-42 18-42-18-18-42 18-42Z"/>' +
+      '<path d="M220 150l21 9 9 21-9 21-21 9-21-9-9-21 9-21Z"/></g>' +
+      '<ellipse cx="270" cy="234" rx="14" ry="18" fill="{c}"/><circle cx="270" cy="210" r="9" fill="{c}"/>' +
+      '<path d="M258 226l-22-10M258 236l-24 2M258 246l-20 14M282 226l22-10M282 236l24 2M282 246l20 14M262 214l-16-16M278 214l16-16" stroke="{c}" stroke-width="3" stroke-linecap="round"/>',
+  },
+  'athena-ve-poseidon': {
+    palet: ['#4a6a5a', '#16221e', '#e8d8a0'],
+    figur:
+      '<path d="M140 320c0-60-4-120 6-170" stroke="{c}" stroke-width="12" stroke-linecap="round"/>' +
+      '<g fill="{c}"><ellipse cx="120" cy="130" rx="8" ry="22" transform="rotate(-40 120 130)"/><ellipse cx="170" cy="120" rx="8" ry="22" transform="rotate(40 170 120)"/>' +
+      '<ellipse cx="146" cy="96" rx="8" ry="22"/><ellipse cx="110" cy="170" rx="8" ry="22" transform="rotate(-60 110 170)"/><ellipse cx="180" cy="166" rx="8" ry="22" transform="rotate(60 180 166)"/></g>' +
+      '<g fill="{b}"><circle cx="132" cy="146" r="4"/><circle cx="160" cy="140" r="4"/></g>' +
+      '<path d="M310 320V90" stroke="{c}" stroke-width="8"/>' +
+      '<path d="M270 70v40c0 14 18 24 40 24s40-10 40-24V70M310 50v84" fill="none" stroke="{c}" stroke-width="8" stroke-linecap="round"/>' +
+      '<path d="M280 260c10-20 20-30 30-30s20 10 30 30" fill="none" stroke="{c}" stroke-width="3" opacity=".6"/>' +
+      '<path d="M60 320h340" stroke="{c}" stroke-width="3"/>',
+  },
+  erysikhthon: {
+    palet: ['#7a5a3a', '#201a14', '#e4c890'],
+    figur:
+      '<path d="M120 320c10-40 20-80 20-120h60c0 40 10 80 20 120Z" fill="{c}"/>' +
+      '<ellipse cx="170" cy="200" rx="30" ry="8" fill="{b}" stroke="{c}" stroke-width="3"/>' +
+      '<path d="M156 196q14 6 28 0M150 204q20 6 40 0" fill="none" stroke="{c}" stroke-width="2"/>' +
+      '<path d="M230 220l120-110" stroke="{c}" stroke-width="10" stroke-linecap="round"/>' +
+      '<path d="M330 90c30-4 50 10 52 34-24-4-42 0-56 12Z" fill="{c}"/>' +
+      '<path d="M200 170c40-60 100-90 160-90" fill="none" stroke="{c}" stroke-width="4" opacity=".4"/>' +
+      '<g fill="{c}" opacity=".7"><circle cx="110" cy="120" r="10"/><circle cx="90" cy="150" r="8"/><circle cx="130" cy="90" r="7"/></g>',
+  },
+  europa: {
+    palet: ['#3a6a8a', '#12202c', '#f2e2c0'],
+    figur:
+      '<path d="M80 236c10-40 60-56 120-54h90c10 0 20 10 20 24v40c-60 10-160 10-230-10Z" fill="{c}"/>' +
+      '<path d="M286 186c10-24 34-34 56-28 20 6 30 26 26 46-4 18-20 28-40 30l-36 4Z" fill="{c}"/>' +
+      '<path d="M310 162c-14-18-14-40 4-54M346 160c16-16 38-18 54-6" fill="none" stroke="{c}" stroke-width="7" stroke-linecap="round"/>' +
+      '<circle cx="334" cy="196" r="5" fill="{b}"/>' +
+      '<circle cx="180" cy="134" r="16" fill="{c}"/>' +
+      '<path d="M180 150l-4 36M174 160c-30 8-52 0-70-20M186 160c30 0 60-6 100-24" fill="none" stroke="{c}" stroke-width="10" stroke-linecap="round"/>' +
+      '<path d="M40 250q30-14 60 0t60 0 60 0 60 0 60 0 60 0M40 290q30-14 60 0t60 0 60 0 60 0 60 0 60 0M40 324q30-14 60 0t60 0 60 0 60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="3" opacity=".6"/>',
+  },
+  io: {
+    palet: ['#3a6a6a', '#122424', '#e6d8a8'],
+    figur:
+      '<path d="M220 300c-10-60-10-120 0-170" stroke="{c}" stroke-width="6"/>' +
+      '<g fill="none" stroke="{c}" stroke-width="4">' +
+      '<path d="M220 140c-60-20-110-70-120-120M220 140c60-20 110-70 120-120M220 160c-80 0-140-30-170-80M220 160c80 0 140-30 170-80M220 190c-80 20-150 0-190-40M220 190c80 20 150 0 190-40"/></g>' +
+      '<g fill="{c}"><circle cx="100" cy="30" r="12"/><circle cx="340" cy="30" r="12"/><circle cx="50" cy="80" r="12"/><circle cx="390" cy="80" r="12"/><circle cx="30" cy="150" r="12"/><circle cx="410" cy="150" r="12"/></g>' +
+      '<g fill="{b}"><circle cx="100" cy="30" r="5"/><circle cx="340" cy="30" r="5"/><circle cx="50" cy="80" r="5"/><circle cx="390" cy="80" r="5"/><circle cx="30" cy="150" r="5"/><circle cx="410" cy="150" r="5"/></g>' +
+      '<path d="M200 300c0-30 10-44 20-44s20 14 20 44Z" fill="{c}"/><circle cx="220" cy="120" r="14" fill="{c}"/>',
+  },
+  midas: {
+    palet: ['#a8802a', '#241c10', '#f6dc8a'],
+    figur:
+      '<path d="M130 120l30 40 30-60 30 60 30-60 30 60 30-40-20 90H150Z" fill="{c}"/>' +
+      '<g fill="{b}"><circle cx="190" cy="180" r="6"/><circle cx="250" cy="180" r="6"/><circle cx="220" cy="186" r="6"/></g>' +
+      '<path d="M146 120c-14-40-10-80 6-100 10 30 14 60 8 90M294 120c14-40 10-80-6-100-10 30-14 60-8 90" fill="{c}" opacity=".7"/>' +
+      '<path d="M220 230c-40 0-60 20-60 40s20 40 60 40 60-20 60-40-20-40-60-40Z" fill="{c}"/>' +
+      '<path d="M220 230v-14M214 216c4-8 10-10 16-8" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M186 260c6-8 14-12 22-12" fill="none" stroke="{b}" stroke-width="4" stroke-linecap="round"/>',
+  },
+  marsyas: {
+    palet: ['#6a7a3a', '#1c2014', '#ecdca0'],
+    figur:
+      '<path d="M220 80l-80 220M220 80l80 220" stroke="{c}" stroke-width="10" stroke-linecap="round"/>' +
+      '<path d="M200 80h40l-6 16h-28Z" fill="{c}"/>' +
+      '<g fill="{b}"><circle cx="196" cy="150" r="4"/><circle cx="182" cy="190" r="4"/><circle cx="168" cy="230" r="4"/><circle cx="244" cy="150" r="4"/><circle cx="258" cy="190" r="4"/><circle cx="272" cy="230" r="4"/></g>' +
+      '<path d="M100 70q20-20 40 0t40 0M260 50q20-20 40 0t40 0M300 120q20-20 40 0" fill="none" stroke="{c}" stroke-width="3" opacity=".6"/>' +
+      '<path d="M40 320q30-10 60 0t60 0 60 0 60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="3" opacity=".7"/>',
+  },
+  'baukis-ve-philemon': {
+    palet: ['#5a6a3a', '#1a2014', '#e8dcac'],
+    figur:
+      '<path d="M140 320c-4-50-2-100 4-140M300 320c4-50 2-100-4-140" stroke="{c}" stroke-width="14" stroke-linecap="round"/>' +
+      '<path d="M146 220c40-20 80-20 150 0" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round"/>' +
+      '<circle cx="140" cy="130" r="64" fill="{c}"/><path d="M300 60c44 10 70 50 60 90-10 40-50 60-90 50-40-10-54-50-40-84 10-30 40-60 70-56Z" fill="{c}"/>' +
+      '<path d="M110 120c10-10 20-14 30-10M150 150c10-6 20-6 30 0M280 110c10 0 20 6 26 16M300 160c10-4 20-2 28 6" fill="none" stroke="{b}" stroke-width="3" opacity=".7"/>' +
+      '<path d="M60 320h320" stroke="{c}" stroke-width="3"/>',
+  },
+  'pyramos-ve-thisbe': {
+    palet: ['#8a3a4a', '#22141a', '#f0d6c0'],
+    figur:
+      '<path d="M40 330V180h160v150ZM240 330V180h160v150Z" fill="{c}" opacity=".4"/>' +
+      '<path d="M220 330V60" stroke="{c}" stroke-width="40"/>' +
+      '<path d="M220 80l-6 30 8 20-6 30 6 30-8 30 6 30" fill="none" stroke="{b}" stroke-width="5" stroke-linejoin="round"/>' +
+      '<path d="M100 120c-14-14-34-10-34 6 0 18 34 34 34 34s34-16 34-34c0-16-20-20-34-6ZM340 120c-14-14-34-10-34 6 0 18 34 34 34 34s34-16 34-34c0-16-20-20-34-6Z" fill="{c}"/>',
+  },
+  'hero-ve-leandros': {
+    palet: ['#2e4a6a', '#0e1626', '#f2d48a'],
+    figur:
+      '<path d="M320 320V110h50v210Z" fill="{c}"/>' +
+      '<path d="M310 110h70l-35-24Z" fill="{c}"/>' +
+      '<circle cx="345" cy="70" r="12" fill="{c}"/>' +
+      '<path d="M345 40v-10M375 70h10M305 70h10M366 49l8-8M324 49l-8-8" stroke="{c}" stroke-width="3" stroke-linecap="round"/>' +
+      '<path d="M40 240q30-14 60 0t60 0 60 0 60 0M40 280q30-14 60 0t60 0 60 0 60 0M40 316q30-14 60 0t60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="3" opacity=".7"/>' +
+      '<circle cx="130" cy="230" r="10" fill="{c}"/>' +
+      '<path d="M140 226c20-14 40-14 56-6" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round"/>',
+  },
+  arion: {
+    palet: ['#2a5a7a', '#0e1a26', '#ecd8a0'],
+    figur:
+      '<path d="M80 220c40-60 120-80 200-60 40 10 70 30 90 60-30-10-60-10-80 0 10 20 6 40-10 50-4-20-14-34-30-40-50 20-110 20-170-10Z" fill="{c}"/>' +
+      '<path d="M200 170c-10-30 0-50 20-60 0 20 6 40 20 54Z" fill="{c}"/>' +
+      '<circle cx="110" cy="214" r="4" fill="{b}"/>' +
+      '<circle cx="230" cy="94" r="14" fill="{c}"/>' +
+      '<path d="M254 96c0-30 20-40 30-40M290 96c0-30-20-40-30-40M254 96h36M262 66v30M272 62v34M282 66v30" fill="none" stroke="{c}" stroke-width="3"/>' +
+      '<path d="M40 290q30-14 60 0t60 0 60 0 60 0 60 0 60 0M40 322q30-14 60 0t60 0 60 0 60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="3" opacity=".6"/>',
+  },
+  'kephalos-ve-prokris': {
+    palet: ['#6a5a3a', '#1c1a14', '#ecd8a8'],
+    figur:
+      '<path d="M60 90l300 150" stroke="{c}" stroke-width="8" stroke-linecap="round"/>' +
+      '<path d="M360 240l-34-4 14-24Z" fill="{c}"/>' +
+      '<path d="M60 90l-10-20M60 90l-20-4" stroke="{c}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M300 330c-20-30-10-60 20-70 10 20 30 30 50 20 10 20 0 40-10 50Z" fill="{c}" opacity=".8"/>' +
+      '<path d="M330 300c-10-20 0-30 10-34M360 296c4-14 14-20 24-20" fill="none" stroke="{b}" stroke-width="3"/>' +
+      '<path d="M60 200q20-10 40 0t40 0M40 240q20-10 40 0t40 0M80 160q20-10 40 0" fill="none" stroke="{c}" stroke-width="3" opacity=".5"/>',
+  },
 };
 
 export function mitGorseli(slug: string): MitGorseli {

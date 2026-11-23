@@ -14,6 +14,7 @@ bilgiler:
   - etiket: "Ölümü"
     deger: "Skyros kralı Lykomedes'in onu uçurumdan itmesi"
 kaynak: "Plutarkhos, Theseus; Apollodoros, Kütüphane 3.15.7–3.16.2, Epitome 1.1–24"
+ilgiliMitler: ["theseus-ve-minotauros"]
 ---
 
 Atina kralı Aigeus, Troizen'den ayrılmadan önce kılıcını ve sandaletlerini büyük bir kayanın altına sakladı. Aithra'ya, oğulları kayayı kaldıracak kadar güçlendiğinde bunları alıp Atina'ya gelmesini söyledi. Theseus on altı yaşında kayayı kaldırdı. Deniz yolu yerine tehlikeli kara yolunu seçti ve yolda haydutları kendi yöntemleriyle cezalandırdı. Konuklarını yatağa sığdırmak için ya bacaklarını kesen ya da onları geren Prokrustes de bunlardan biriydi.

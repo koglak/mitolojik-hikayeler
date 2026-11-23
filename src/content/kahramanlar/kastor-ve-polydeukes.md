@@ -14,6 +14,7 @@ bilgiler:
   - etiket: "Gökyüzünde"
     deger: "İkizler takımyıldızı"
 kaynak: "Pindaros, Nemea 10.55–90; Apollodoros, Kütüphane 3.10.7, 3.11.2; Apollonios Rhodios, Argonautika 2.1–97"
+ilgiliMitler: ["kastor-ve-polydeukes"]
 ---
 
 Sparta kraliçesi Leda'ya Zeus bir kuğu kılığında yaklaştı. Aynı gece kocası Tyndareos'la da birlikte oldu. Doğan ikizlerden Polydeukes Zeus'un oğluydu ve ölümsüzdü, Kastor ise Tyndareos'un oğluydu ve ölümlüydü. İkisine birlikte Dioskurlar, yani "Zeus'un oğulları" denirdi. Theseus kız kardeşleri Helene'yi kaçırıp Aphidnai'ye sakladığında Dioskurlar kenti basıp onu geri getirdi.

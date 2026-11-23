@@ -16,7 +16,7 @@ bolge: "likya"
 konum:
   enlem: 36.5531
   boylam: 29.4211
-ilgiliMitler: []
+ilgiliMitler: ["bellerophon"]
 ---
 
 Tlos, Likya'nın en eski yerleşimlerinden biridir. Akropol, Eşen Vadisi'ne hâkim sarp bir kayalığın üstündedir; kayanın yüzü tapınak cephesi biçiminde oyulmuş mezarlarla doludur.

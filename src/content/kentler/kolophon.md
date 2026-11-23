@@ -16,7 +16,7 @@ bolge: "ionya"
 konum:
   enlem: 38.1086
   boylam: 27.1400
-ilgiliMitler: []
+ilgiliMitler: ["arakhne"]
 ---
 
 Kolophon, iç kesimde, Klaros kutsal alanının birkaç saat kuzeyindeki tepelerde kurulmuş bir İon kentiydi. Strabon'a göre Kolophonluların güçlü bir donanması ve özellikle ünlü bir süvari birliği vardı. Bitmek bilmeyen bir savaşta süvarileri yardıma geldiğinde savaş hemen sona ererdi. Bu yüzden bir işi kesin olarak bitirmeye "üstüne Kolophon'u koymak" denirdi.

@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Metis"
 kaynak: "Hesiodos, Theogonia 886–900, 924–926; Herodotos, Tarih 8.55"
-ilgiliMitler: ["perseus-ve-medusa", "truva-ati"]
+ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "arakhne", "athena-ve-poseidon"]
 ---
 
 Zeus, bilgelik tanrıçası Metis'ten doğacak bir çocuğun kendisinden güçlü olacağını öğrendi. Bunun üzerine hamile Metis'i yuttu. Bir süre sonra dayanılmaz bir baş ağrısı başladı. Başı yarıldığında içinden tam zırhlı, mızraklı Athena çıktı.

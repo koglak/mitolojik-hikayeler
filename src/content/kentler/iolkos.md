@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 39.3619
   boylam: 22.9425
-ilgiliMitler: []
+ilgiliMitler: ["argonotlar"]
 ---
 
 Iolkos, Thessalia'nın Pagasai Körfezi'nde, Pelion dağının eteğinde kuruldu. Bugün burada Volos kenti var. Arkasındaki ormanlık Pelion'da, mitlere göre yarı insan yarı at Kentaurlar yaşardı.

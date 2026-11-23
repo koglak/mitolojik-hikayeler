@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 35.1625
   boylam: 25.4453
-ilgiliMitler: []
+ilgiliMitler: ["titanlar-savasi"]
 ---
 
 Dikte Mağarası, Girit'in doğusunda, dağlarla çevrili Lasithi yaylasının kenarında, bir yamacın içine açılır. Dar bir girişten aşağı inilince sarkıtlarla dolu karanlık bir salona, en dipte de küçük bir yeraltı gölüne varılır. Kazılarda burada yüzlerce tunç bıçak, iğne ve heykelcik bulundu. Bunlar binlerce yıl boyunca tanrıya bırakılmış armağanlardı.

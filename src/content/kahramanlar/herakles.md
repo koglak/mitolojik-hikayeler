@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Simgeleri"
     deger: "Nemea aslanının postu, sopa, yay"
 kaynak: "Apollodoros, Kütüphane 2.4.8–2.7.7"
-ilgiliMitler: ["prometheus"]
+ilgiliMitler: ["prometheus", "herakles"]
 ---
 
 Herakles, Zeus'un ölümlü Alkmene'den olan oğluydu. Zeus'un karısı Hera onu doğduğu andan itibaren kıskandı. Bebekken beşiğine iki yılan gönderdi; Herakles ikisini de çıplak elleriyle boğdu.

@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Kapattığı mahkûmlar"
     deger: "Titanlar, Sisifos, Tantalos, İksion"
 kaynak: "Hesiodos, Theogonia 119, 720–735, 820–822; Homeros, İlyada 8.13–16"
-ilgiliMitler: ["sisifos", "tantalos"]
+ilgiliMitler: ["sisifos", "tantalos", "titanlar-savasi"]
 ---
 
 Hesiodos'a göre Khaos'tan sonra Gaia ve onun derinliklerindeki sisli Tartaros meydana geldi. Tartaros hem bir tanrı hem de evrenin en alt katıydı. Hesiodos onun derinliğini şöyle anlatır: gökten bırakılan tunç bir örs dokuz gün dokuz gece düşüp onuncu gün yere ulaşır; yerden bırakılırsa dokuz gün daha düşüp onuncu gün Tartaros'a varır. Homeros'a göre Tartaros, Hades'in yeraltı ülkesinin, gökyüzünün yerden yüksekliği kadar altındadır.

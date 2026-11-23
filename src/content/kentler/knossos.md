@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 35.2980
   boylam: 25.1631
-ilgiliMitler: ["ikaros"]
+ilgiliMitler: ["ikaros", "theseus-ve-minotauros", "europa"]
 ---
 
 Knossos, Girit'in kuzey kıyısına yakın, alçak bir tepede kuruldu. Burada Avrupa'nın ilk büyük sarayı yükseldi. Yüzlerce odası, merdivenleri, ışık kuyuları ve dolambaçlı koridorlarıyla bu saray, sonraki Yunanlar'ın anlattığı labirentin aslı olabilir. Duvarlarında boğanın üstünden takla atan gençler ve yunuslar resmedilmişti.

@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "Anıldığı yer"
     deger: "Yazılıkaya'daki Midas Anıtı (Eskişehir)"
 kaynak: "Ovidius, Dönüşümler 11.85–193; Herodotos, Tarih 1.14; Arrianos, İskender'in Seferi 2.3"
+ilgiliMitler: ["midas"]
 ---
 
 Frigya'da köylüler, şarap tanrısı Dionysos'un yaşlı hocası Silenos'u sarhoş halde bulup kral Midas'a getirdi. Midas onu on gün boyunca ağırladı ve sonra Dionysos'a geri götürdü. Sevinen Dionysos ona bir dilek hakkı verdi. Midas dokunduğu her şeyin altına dönüşmesini diledi. Dal, taş, elma altın oldu. Ama yemeğe uzandığında ekmek de, şarap da ağzında altına döndü. Midas dileğini geri alması için Dionysos'a yalvardı. Tanrı onu Paktolos ırmağında yıkanmaya gönderdi. Laneti suya geçti ve ırmağın kumları altın tanecikleriyle doldu.

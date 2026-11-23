@@ -16,7 +16,7 @@ bolge: "likya"
 konum:
   enlem: 36.3564
   boylam: 29.3186
-ilgiliMitler: []
+ilgiliMitler: ["bellerophon"]
 ---
 
 Ksanthos, adını aldığı ırmağın, bugünkü Eşen Çayı'nın kıyısındaki bir tepeye kurulmuştu. İlyada'da Truva'ya yardıma gelen Likyalıları Sarpedon ve Glaukos yönetir; Homeros onların "uzak Likya'dan, girdaplı Ksanthos'un kıyısından" geldiğini söyler.

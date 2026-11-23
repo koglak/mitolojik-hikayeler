@@ -12,6 +12,7 @@ bilgiler:
   - etiket: "Öldüğü yer"
     deger: "Atina yakınındaki Kolonos"
 kaynak: "Sophokles, Kral Oidipus; Sophokles, Oidipus Kolonos'ta; Apollodoros, Kütüphane 3.5.7–3.5.9"
+ilgiliMitler: ["oidipus"]
 ---
 
 Thebai kralı Laios'a, oğlunun onu öldüreceği söylenmişti. Laios bebeğin ayak bileklerini delip birbirine bağlattı ve bir çobana verip dağa bıraktırdı. Çoban bebeğe acıdı ve onu çocuksuz olan Korinthos kralı Polybos'a götürdü. Oidipus, yani "şiş ayak", Korinthos'ta prens olarak büyüdü.

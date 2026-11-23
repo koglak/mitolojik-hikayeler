@@ -16,7 +16,7 @@ bolge: "lidya"
 konum:
   enlem: 38.4883
   boylam: 28.0400
-ilgiliMitler: []
+ilgiliMitler: ["midas"]
 ---
 
 Sardes, Bozdağ'ın, antik adıyla Tmolos'un eteğinde, Lydia krallığının başkentiydi. Kentin içinden geçen Paktolos Çayı altın tozu taşırdı. Lydialılar bu altınla tarihte ilk sikkeleri bastı. Son kralları Kroisos, zenginliğiyle atasözüne girdi.

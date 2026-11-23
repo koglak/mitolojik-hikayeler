@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 38.4824
   boylam: 22.5010
-ilgiliMitler: []
+ilgiliMitler: ["oidipus"]
 ---
 
 Delphi, Parnassos dağının güney yamacında, iki dev kayalığın dibine kuruldu. Aşağıda zeytinliklerle kaplı bir vadi denize doğru iner. Mitlere göre Zeus dünyanın ortasını bulmak için iki kartalı iki uçtan uçurdu. Kartallar Delphi'nin üstünde buluştu. Burada "omphalos" denen göbek biçimli bir taş, dünyanın merkezini gösterirdi.

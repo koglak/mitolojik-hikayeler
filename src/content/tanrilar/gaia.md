@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Çocukları"
     deger: "Uranos, Pontos, Titanlar, Kykloplar, Hekatonkheirler"
 kaynak: "Hesiodos, Theogonia 116–210, 820–880; Aiskhylos, Eumenides 1–8"
-ilgiliMitler: []
+ilgiliMitler: ["titanlar-savasi"]
 ---
 
 Hesiodos'a göre başlangıçta Khaos, yani uçsuz bucaksız bir boşluk vardı. Ondan sonra geniş göğüslü Gaia, yani Toprak ortaya çıktı. Gaia hiçbir eşe ihtiyaç duymadan yıldızlı göğü, Uranos'u doğurdu ki onu her yandan örtsün. Sonra yüksek dağları ve tuzlu denizi, Pontos'u doğurdu.
