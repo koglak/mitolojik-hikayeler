@@ -1,0 +1,61 @@
+---
+interface Props {
+  numara: string;
+  baslik: string;
+  kimlik: string;
+  tumuAdresi?: string;
+  tumuYazisi?: string;
+}
+
+const { numara, baslik, kimlik, tumuAdresi, tumuYazisi } = Astro.props;
+---
+
+<div class="bolum-basi">
+  <span class="numara" aria-hidden="true">{numara}</span>
+  <h2 id={kimlik}>{baslik}</h2>
+  {tumuAdresi && <a class="tumu" href={tumuAdresi}>{tumuYazisi}</a>}
+</div>
+
+<style>
+  .bolum-basi {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    border-bottom: 1px solid var(--cizgi);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+  }
+  .numara {
+    font: italic 500 22px/1 var(--baslik-font);
+    color: var(--vurgu);
+    min-width: 34px;
+  }
+  h2 {
+    font: 500 clamp(38px, 5vw, 56px) / 1 var(--baslik-font);
+    letter-spacing: -0.02em;
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+  }
+  .tumu {
+    font-size: 14px;
+    color: var(--soluk);
+    border-bottom: 1px solid var(--vurgu);
+    padding-bottom: 2px;
+    white-space: nowrap;
+  }
+  .tumu:hover {
+    color: var(--yazi);
+  }
+  @media (max-width: 480px) {
+    .bolum-basi {
+      flex-wrap: wrap;
+      gap: 10px 14px;
+    }
+    .tumu {
+      flex-basis: 100%;
+      margin-left: 48px;
+      align-self: start;
+    }
+  }
+</style>

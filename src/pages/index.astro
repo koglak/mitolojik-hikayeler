@@ -1,0 +1,203 @@
+---
+import Temel from '../layouts/Temel.astro';
+import SiteBasligi from '../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+import AntikKentAnimasyonu from '../components/AntikKentAnimasyonu.astro';
+import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorseli.astro';
+import MeanderBant from '../components/MeanderBant.astro';
+import { bolumler } from '../lib/bolumler';
+
+
+const kategoriler: { tur: KategoriTuru; ad: string; adres: string }[] = [
+  { tur: 'mitler', ad: 'Mitolojik Hikâyeler', adres: '/mitler/' },
+  { tur: 'kentler', ad: bolumler.kentler.ad, adres: '/kentler/' },
+  { tur: 'tanrilar', ad: bolumler.tanrilar.ad, adres: '/tanrilar/' },
+  { tur: 'kahramanlar', ad: bolumler.kahramanlar.ad, adres: '/kahramanlar/' },
+];
+---
+
+<Temel baslik="Mythos · Mitolojik Hikâyeler" aciklama="Yunan mitleri, antik kentler, tanrılar ve kahramanlar. Kısa hikâyeler ve kaynaklı künyeler.">
+  <div class="site-kabugu">
+    <SiteBasligi />
+  </div>
+
+  <section class="sahne">
+    <AntikKentAnimasyonu />
+    <div class="sahne-metni">
+      <div class="site-kabugu">
+        <h1>Mitler, <em>kentler</em> ve kahramanlar.</h1>
+        <p>Antik dünyayı keşfe çıkalım.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="site-kabugu">
+    <main>
+      <ul class="kategoriler" aria-label="Bölümler">
+        {
+          kategoriler.map((kategori) => (
+            <li>
+              <a class="kategori" href={kategori.adres}>
+                <span class="kategori-resmi">
+                  <KategoriGorseli tur={kategori.tur} />
+                </span>
+                <span class="kategori-adi">{kategori.ad}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+
+      <figure class="alinti">
+        <blockquote>
+          <p>
+            “Bilim, felsefe, kültür, şiir, aritmetik, trigonometri, astronomi gibi aklı akıl yapan ne varsa bu bilgi
+            enerjilerinin hepsi Anadolu’nun yediveren toprağının içinden fışkırmıştır.”
+          </p>
+        </blockquote>
+        <figcaption>Halikarnas Balıkçısı <span>(Cevat Şakir Kabaağaçlı)</span></figcaption>
+        <div class="alinti-deseni"><MeanderBant kimlik="alinti" /></div>
+      </figure>
+    </main>
+
+    <SiteAltBilgisi />
+  </div>
+
+</Temel>
+
+<script>
+  import '../scripts/anasayfa';
+</script>
+
+<style>
+  .sahne {
+    position: relative;
+    height: clamp(420px, 72vh, 720px);
+    overflow: hidden;
+    background: #070d17;
+  }
+  .sahne :global(.antik-kent) {
+    position: absolute;
+    inset: 0;
+  }
+  .sahne-metni {
+    position: absolute;
+    inset: auto 0 0 0;
+    padding: 120px 0 44px;
+    background: linear-gradient(0deg, rgba(10, 14, 20, 0.92) 0%, rgba(10, 14, 20, 0.55) 55%, transparent 100%);
+    pointer-events: none;
+  }
+  h1 {
+    font: 500 clamp(44px, 6vw, 88px) / 0.95 var(--baslik-font);
+    letter-spacing: -0.035em;
+    margin: 0 0 14px;
+    max-width: 14ch;
+    color: #f6ecdc;
+  }
+  h1 em {
+    font-weight: 400;
+    color: var(--vurgu);
+  }
+  .sahne-metni p {
+    font: italic 400 clamp(20px, 2.2vw, 28px) / 1.4 var(--baslik-font);
+    color: #e6d2b0;
+    margin: 0;
+  }
+
+  .kategoriler {
+    list-style: none;
+    margin: 0;
+    padding: 64px 0 24px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .kategori {
+    display: block;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    transition: border-color 0.25s, transform 0.25s var(--yumusak);
+  }
+  .kategori:hover {
+    border-color: var(--vurgu);
+    transform: translateY(-4px);
+  }
+  .kategori-resmi {
+    display: block;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+  }
+  .kategori-resmi :global(.kategori-gorseli) {
+    transition: transform 0.6s var(--yumusak);
+  }
+  .kategori:hover .kategori-resmi :global(.kategori-gorseli) {
+    transform: scale(1.05);
+  }
+  .kategori-adi {
+    display: block;
+    padding: 18px 22px 20px;
+    font: 500 30px/1.1 var(--baslik-font);
+    color: var(--kart-basligi);
+    border-top: 2px solid var(--vurgu);
+  }
+
+  .alinti {
+    position: relative;
+    margin: 56px 0 24px;
+    padding: 64px 0 0;
+    border-top: 1px solid var(--cizgi);
+    text-align: center;
+  }
+  .alinti::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    width: 120px;
+    height: 1px;
+    transform: translateX(-50%);
+    background: var(--vurgu);
+  }
+  .alinti blockquote {
+    margin: 0 auto 28px;
+    max-width: 920px;
+  }
+  .alinti blockquote p {
+    font: italic 500 clamp(26px, 3.4vw, 46px) / 1.25 var(--baslik-font);
+    margin: 0;
+    text-wrap: balance;
+  }
+  .alinti figcaption {
+    font-size: 15px;
+    color: var(--vurgu);
+    letter-spacing: 0.02em;
+  }
+  .alinti figcaption span {
+    color: var(--soluk);
+  }
+  .alinti-deseni {
+    margin-top: 44px;
+  }
+
+  @media (max-width: 1050px) {
+    .kategoriler {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 560px) {
+    .sahne {
+      height: clamp(420px, 78vh, 620px);
+    }
+    .sahne-metni {
+      padding-bottom: 32px;
+    }
+    .kategoriler {
+      grid-template-columns: 1fr;
+      gap: 14px;
+      padding-top: 40px;
+    }
+    .kategori-adi {
+      font-size: 28px;
+    }
+  }
+</style>

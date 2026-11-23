@@ -1,0 +1,177 @@
+---
+import { figurDonusumu, type FigurKonumu } from '../../lib/figur';
+
+export type Durus = 'ayakta' | 'yuruyen' | 'kosan' | 'diz-cokmus' | 'uzanmis' | 'oturan';
+export type Kol = 'asagi' | 'one' | 'yukari' | 'dik-yukari' | 'geri' | 'ileri-asagi' | 'yuz' | 'bel';
+
+interface Props extends FigurKonumu {
+  cins?: 'erkek' | 'kadin';
+  durus?: Durus;
+  onKol?: Kol;
+  arkaKol?: Kol;
+  uzunGiysi?: boolean;
+  sakalli?: boolean;
+  basiOnde?: boolean;
+}
+
+const {
+  x,
+  y,
+  olcek = 1,
+  yon = 'sag',
+  cins = 'erkek',
+  durus = 'ayakta',
+  onKol = 'asagi',
+  arkaKol = 'asagi',
+  uzunGiysi = cins === 'kadin',
+  sakalli = cins === 'erkek',
+  basiOnde = false,
+} = Astro.props;
+
+const kadin = cins === 'kadin';
+const omuz = { x: 3, y: kadin ? -116 : -120 };
+const elKonumlari: Record<Kol, [number, number, number, number]> = {
+  asagi: [6, -98, 8, -76],
+  one: [20, -112, 38, -110],
+  yukari: [16, -134, 24, -158],
+  'dik-yukari': [6, -144, 6, -170],
+  geri: [-12, -104, -28, -96],
+  'ileri-asagi': [16, -100, 32, -88],
+  yuz: [18, -104, 12, -132],
+  bel: [16, -102, 8, -86],
+};
+
+function kolYolu(kol: Kol): string {
+  const [dirsekX, dirsekY, elX, elY] = elKonumlari[kol];
+  return `M${omuz.x} ${omuz.y} L${dirsekX} ${dirsekY} L${elX} ${elY}`;
+}
+
+interface Etek {
+  ust: number;
+  alt: number;
+  solAlt: number;
+  sagAlt: number;
+}
+
+const etekler: Record<Durus, Etek> = {
+  ayakta: { ust: -80, alt: uzunGiysi ? -3 : -42, solAlt: uzunGiysi ? -18 : -16, sagAlt: uzunGiysi ? 19 : 17 },
+  yuruyen: { ust: -80, alt: uzunGiysi ? -3 : -42, solAlt: uzunGiysi ? -22 : -18, sagAlt: uzunGiysi ? 24 : 20 },
+  kosan: { ust: -80, alt: uzunGiysi ? -14 : -48, solAlt: uzunGiysi ? -26 : -17, sagAlt: uzunGiysi ? 28 : 19 },
+  'diz-cokmus': { ust: -80, alt: -46, solAlt: -18, sagAlt: 20 },
+  uzanmis: { ust: -80, alt: uzunGiysi ? -3 : -42, solAlt: uzunGiysi ? -18 : -16, sagAlt: uzunGiysi ? 19 : 17 },
+  oturan: { ust: -80, alt: -54, solAlt: -14, sagAlt: 30 },
+};
+
+const ustGovdeKaydirma: Record<Durus, string> = {
+  ayakta: '',
+  yuruyen: '',
+  kosan: 'rotate(10 0 -60)',
+  'diz-cokmus': 'translate(0 30)',
+  uzanmis: '',
+  oturan: 'translate(0 14)',
+};
+
+const bacaklar: Record<Durus, string[]> = {
+  ayakta: [
+    'M-11 -44 L-9 0 L-2 0 L-3 -44 Z',
+    'M3 -44 L6 0 L13 0 L10 -44 Z',
+    'M-9 -4 L2 -2 L2 0 L-9 0 Z',
+    'M6 -4 L18 -2 L18 0 L6 0 Z',
+  ],
+  yuruyen: [
+    'M-4 -44 L-22 -2 L-14 0 L4 -44 Z',
+    'M-22 -3 L-10 -1 L-10 0 L-22 0 Z',
+    'M2 -44 L20 -2 L28 0 L10 -44 Z',
+    'M20 -3 L32 -1 L32 0 L20 0 Z',
+  ],
+  kosan: [
+    'M-4 -48 L-24 -26 L-36 -8 L-29 -4 L-18 -20 L4 -44 Z',
+    'M2 -48 L28 -36 L26 0 L34 0 L36 -38 L10 -50 Z',
+    'M26 -3 L40 -1 L40 0 L26 0 Z',
+  ],
+  'diz-cokmus': [
+    'M4 -24 L28 -26 L30 -16 L6 -14 Z',
+    'M22 -24 L24 0 L32 0 L31 -24 Z',
+    'M24 -3 L36 -1 L36 0 L24 0 Z',
+    'M-8 -22 L-4 -2 L4 -2 L4 -20 Z',
+    'M-4 -8 L-30 -6 L-32 0 L-2 0 Z',
+  ],
+  uzanmis: [
+    'M-11 -44 L-9 0 L-2 0 L-3 -44 Z',
+    'M3 -44 L6 0 L13 0 L10 -44 Z',
+    'M-9 -4 L2 -2 L2 0 L-9 0 Z',
+    'M6 -4 L18 -2 L18 0 L6 0 Z',
+  ],
+  oturan: [
+    'M-6 -46 L28 -46 L30 -36 L-6 -34 Z',
+    'M22 -44 L24 0 L32 0 L31 -44 Z',
+    'M24 -3 L36 -1 L36 0 L24 0 Z',
+  ],
+};
+
+const uzunGiysiAyaklari = ['M-14 -4 L-2 -3 L-2 0 L-14 0 Z', 'M4 -4 L18 -2 L18 0 L4 0 Z'];
+const gorunenBacaklar =
+  uzunGiysi && (durus === 'ayakta' || durus === 'yuruyen' || durus === 'uzanmis') ? uzunGiysiAyaklari : bacaklar[durus];
+
+const etek = etekler[durus];
+const govdeAltGenislik = kadin ? 11 : 13;
+const etekYolu = `M${-govdeAltGenislik} ${etek.ust} L${govdeAltGenislik + 1} ${etek.ust} L${etek.sagAlt} ${etek.alt} L${etek.solAlt} ${etek.alt} Z`;
+const etekKivrimlari = [0.2, 0.5, 0.8].map((oran) => {
+  const ustX = -govdeAltGenislik + oran * (2 * govdeAltGenislik + 1);
+  const altX = etek.solAlt + oran * (etek.sagAlt - etek.solAlt);
+  return `M${ustX.toFixed(1)} ${etek.ust + 3} L${altX.toFixed(1)} ${etek.alt - 3}`;
+});
+const etekKenari = uzunGiysi
+  ? `M${etek.solAlt + 2} ${etek.alt - 6} L${etek.sagAlt - 2} ${etek.alt - 6}`
+  : '';
+
+const govdeUst = kadin ? -124 : -128;
+const govdeYolu = kadin
+  ? `M-9 ${govdeUst + 2} C-4 ${govdeUst - 1} 6 ${govdeUst - 1} 10 ${govdeUst + 2} L8 -98 L12 -80 L-11 -80 L-7 -98 Z`
+  : `M-12 ${govdeUst + 2} C-6 ${govdeUst - 1} 8 ${govdeUst - 1} 14 ${govdeUst + 2} L10 -100 L14 -80 L-13 -80 L-9 -100 Z`;
+const bas = kadin ? { x: 0, y: -134, r: 10 } : { x: 0, y: -138, r: 11 };
+const basEgimi = basiOnde ? `rotate(18 0 ${govdeUst})` : '';
+
+const disDonusum =
+  durus === 'uzanmis' ? `${figurDonusumu(x, y, olcek, yon)} translate(0 -18) rotate(-90)` : figurDonusumu(x, y, olcek, yon);
+---
+
+<g transform={disDonusum}>
+  {
+    durus === 'oturan' && (
+      <g fill="#121010">
+        <rect x="-24" y="-34" width="38" height="5" />
+        <path d="M-20 -29 C-24 -18 -16 -8 -22 0 L-18 0 C-12 -8 -18 -18 -15 -29 Z" />
+        <path d="M10 -29 C14 -18 6 -8 12 0 L8 0 C2 -8 8 -18 5 -29 Z" />
+      </g>
+    )
+  }
+  <g fill="#121010">
+    {gorunenBacaklar.map((yol) => <path d={yol} />)}
+  </g>
+  <g transform={ustGovdeKaydirma[durus] || undefined}>
+    <path d={kolYolu(arkaKol)} stroke="#121010" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+    <path d={etekYolu} fill="#121010"></path>
+    <path d={govdeYolu} fill="#121010"></path>
+    <g transform={basEgimi || undefined}>
+      <circle cx={bas.x} cy={bas.y} r={bas.r} fill="#121010"></circle>
+      <path d={`M${bas.r - 2} ${bas.y - 3} L${bas.r + 3} ${bas.y + 2} L${bas.r - 2} ${bas.y + 3} Z`} fill="#121010"></path>
+      {sakalli && <path d={`M4 ${bas.y + 6} L15 ${bas.y + 20} L-1 ${bas.y + 14} Z`} fill="#121010" />}
+      {kadin && <circle cx="-10" cy={bas.y - 2} r="6" fill="#121010" />}
+      <g fill="none" stroke="#c8662f" stroke-width="1.3" stroke-linecap="round">
+        <circle cx={bas.x + 5} cy={bas.y - 2} r="1.5" fill="#c8662f" stroke="none"></circle>
+        <path d={`M-5 ${bas.y - 10} C0 ${bas.y - 4} 0 ${bas.y + 4} -7 ${bas.y + 8}`}></path>
+        {kadin && <path d={`M-8 ${bas.y - 7} C-2 ${bas.y - 12} 6 ${bas.y - 11} 9 ${bas.y - 6}`} />}
+      </g>
+    </g>
+    <path d={kolYolu(onKol)} stroke="#121010" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+    <g fill="none" stroke="#c8662f" stroke-width="1.3" stroke-linecap="round">
+      <path d={`M-4 ${govdeUst + 10} C-2 -104 -2 -92 -5 -83`}></path>
+      <path d={`M4 ${govdeUst + 12} C7 -104 8 -94 8 -83`}></path>
+      <path d={`M${-govdeAltGenislik + 1} ${etek.ust} L${govdeAltGenislik} ${etek.ust}`}></path>
+      {etekKivrimlari.map((yol) => <path d={yol} />)}
+      {etekKenari && <path d={etekKenari} stroke-dasharray="3 3" />}
+    </g>
+  </g>
+  <slot />
+</g>

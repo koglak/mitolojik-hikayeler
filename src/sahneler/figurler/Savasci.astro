@@ -1,0 +1,30 @@
+---
+import type { FigurKonumu } from '../../lib/figur';
+import Insan, { type Durus, type Kol } from './Insan.astro';
+
+interface Props extends FigurKonumu {
+  durus?: Durus;
+  onKol?: Kol;
+  arkaKol?: Kol;
+  kalkan?: boolean;
+  mizrak?: boolean;
+}
+
+const { kalkan = true, mizrak = true, onKol = 'yukari', arkaKol = 'one', ...digerleri } = Astro.props;
+---
+
+<Insan {...digerleri} onKol={onKol} arkaKol={arkaKol} sakalli={false}>
+  <g fill="#121010">
+    <path d="M-12 -142 C-12 -156 10 -158 13 -146 L13 -130 L6 -128 L6 -137 L-1 -134 L-12 -126 Z"></path>
+    <path d="M-16 -150 C-8 -176 18 -174 24 -156 C10 -164 -4 -162 -16 -150 Z"></path>
+    {mizrak && <path d="M-26 -10 L44 -190" stroke="#121010" stroke-width="3" stroke-linecap="round" />}
+    {mizrak && <path d="M44 -190 L40 -176 L50 -180 Z" />}
+    {kalkan && <circle cx="22" cy="-104" r="24" />}
+  </g>
+  <g fill="none" stroke="#c8662f" stroke-width="1.3">
+    <path d="M-8 -150 C-2 -168 12 -168 18 -158"></path>
+    <path d="M6 -140 L10 -136"></path>
+    {kalkan && <circle cx="22" cy="-104" r="19" />}
+    {kalkan && <circle cx="22" cy="-104" r="6" />}
+  </g>
+</Insan>

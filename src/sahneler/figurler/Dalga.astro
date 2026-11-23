@@ -1,0 +1,21 @@
+---
+interface Props {
+  x: number;
+  y: number;
+  genislik?: number;
+}
+
+const { x, y, genislik = 400 } = Astro.props;
+const adim = 28;
+const sayi = Math.ceil(genislik / adim);
+const tepeler = Array.from({ length: sayi }, (_, i) => {
+  const bas = i * adim;
+  return `C${bas + 6} -14 ${bas + 20} -16 ${bas + 22} -6 C${bas + 18} -10 ${bas + 14} -6 ${bas + adim} 0`;
+}).join(' ');
+const yol = `M0 0 ${tepeler} L${sayi * adim} 14 L0 14 Z`;
+---
+
+<g transform={`translate(${x} ${y})`}>
+  <path d={yol} fill="#121010"></path>
+  <path d={`M0 8 L${sayi * adim} 8`} stroke="#c8662f" stroke-width="1.2" stroke-dasharray="6 5"></path>
+</g>

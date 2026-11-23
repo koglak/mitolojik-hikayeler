@@ -1,0 +1,22 @@
+---
+interface Props {
+  x: number;
+  y: number;
+  yukseklik?: number;
+}
+
+const { x, y, yukseklik = 150 } = Astro.props;
+const h = yukseklik;
+---
+
+<g transform={`translate(${x} ${y})`}>
+  <g fill="#121010">
+    <rect x="-13" y="-8" width="26" height="8"></rect>
+    <path d={`M-9 -8 L-8 ${-h + 18} L8 ${-h + 18} L9 -8 Z`}></path>
+    <path d={`M-9 ${-h + 18} L9 ${-h + 18} L15 ${-h + 9} L-15 ${-h + 9} Z`}></path>
+    <rect x="-17" y={-h} width="34" height="9"></rect>
+  </g>
+  <g fill="none" stroke="#c8662f" stroke-width="1.2">
+    <path d={`M-4 -10 L-4 ${-h + 20} M0 -10 L0 ${-h + 20} M4 -10 L4 ${-h + 20}`}></path>
+  </g>
+</g>

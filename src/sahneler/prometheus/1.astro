@@ -1,0 +1,29 @@
+---
+import VazoSahnesi from '../VazoSahnesi.astro';
+import Insan from '../figurler/Insan.astro';
+import Kral from '../figurler/Kral.astro';
+import Kaya from '../figurler/Kaya.astro';
+import Alev from '../figurler/Alev.astro';
+import Sutun from '../figurler/Sutun.astro';
+
+const ozellikler = Astro.props;
+---
+
+<VazoSahnesi {...ozellikler} slug="prometheus" numara={1}>
+  <Kaya x={222} y={256} genislik={178} yukseklik={92} />
+  <Sutun x={262} y={166} yukseklik={110} />
+  <Sutun x={372} y={166} yukseklik={110} />
+  <rect x="246" y="52" width="142" height="8" fill="#121010" />
+  <Kral x={318} y={166} olcek={0.68} durus="oturan" nitelik="yildirim" yon="sol" />
+  <Alev x={286} y={164} olcek={0.9} />
+  <Insan x={40} y={256} olcek={0.9} durus="diz-cokmus" onKol="yuz" arkaKol="yuz" />
+  <Insan x={100} y={256} olcek={0.9} cins="kadin" durus="oturan" onKol="bel" arkaKol="bel" basiOnde={true} />
+  <Insan x={170} y={256} olcek={0.9} durus="ayakta" onKol="bel" arkaKol="bel" basiOnde={true} yon="sol" />
+  <g fill="#121010">
+    <circle cx="58" cy="54" r="2" />
+    <circle cx="96" cy="44" r="1.6" />
+    <circle cx="140" cy="60" r="2" />
+    <circle cx="188" cy="46" r="1.6" />
+  </g>
+  <path d="M20 66 A22 22 0 1 0 44 40 A17 17 0 1 1 20 66 Z" fill="#121010" />
+</VazoSahnesi>

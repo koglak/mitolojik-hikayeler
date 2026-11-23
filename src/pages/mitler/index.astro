@@ -1,0 +1,232 @@
+---
+import { getCollection } from 'astro:content';
+import Temel from '../../layouts/Temel.astro';
+import SiteBasligi from '../../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
+import MitGorseli from '../../components/MitGorseli.astro';
+import KategoriGorseli from '../../components/KategoriGorseli.astro';
+import { basligiBol } from '../../lib/baslikParcalari';
+
+const mitler = (await getCollection('mitler')).sort((a, b) => a.data.sira - b.data.sira);
+---
+
+<Temel baslik="Mitolojik Hikâyeler · Mythos" aciklama="Kaydırarak okunan kısa Yunan mitleri. Her biri üç dakika.">
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main>
+      <header class="bolum-girisi">
+        <div class="bolum-metni">
+          <h1>Mitolojik Hikâyeler</h1>
+          <p>Kaydırarak okunan kısa mitler. Her biri yaklaşık üç dakika.</p>
+        </div>
+        <div class="bolum-resmi"><KategoriGorseli tur="mitler" /></div>
+      </header>
+
+      <label class="arama">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8" />
+          <path d="m16 16 5 5" />
+        </svg>
+        <input type="search" data-hikaye-ara placeholder="Hikâyelerde ara: Medusa, ateş, nar..." autocomplete="off" aria-label="Hikâyelerde ara" />
+      </label>
+      <p class="sonuc-yok gizli" data-sonuc-yok aria-live="polite">Bu aramayla eşleşen hikâye yok.</p>
+
+      <ul class="hikayeler">
+        {
+          mitler.map((mit) => {
+            const { ad, altBaslik } = basligiBol(mit.data.baslik);
+            return (
+              <li data-aranan={[mit.data.baslik, mit.data.ozet, mit.data.tur, mit.data.bugunBag.kelime].join(' ').toLocaleLowerCase('tr')}>
+                <a class="hikaye" href={`/mitler/${mit.id}`} data-slug={mit.id}>
+                  <span class="hikaye-resmi">
+                    <MitGorseli slug={mit.id} />
+                    <span class="okundu gizli" data-okundu>
+                      Okudun
+                    </span>
+                  </span>
+                  <span class="hikaye-metni">
+                    <span class="hikaye-turu">
+                      {mit.data.tur} · {mit.data.sure} dk
+                    </span>
+                    <strong>{ad}</strong>
+                    <span class="alt-baslik">{altBaslik}</span>
+                    <span class="ozet">{mit.data.ozet}</span>
+                  </span>
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<script>
+  import { ilerlemeOku } from '../../lib/ilerleme';
+
+  for (const slug of ilerlemeOku().okunanlar) {
+    document.querySelector(`[data-slug="${CSS.escape(slug)}"] [data-okundu]`)?.classList.remove('gizli');
+  }
+
+  const kutu = document.querySelector<HTMLInputElement>('[data-hikaye-ara]');
+  const ogeler = Array.from(document.querySelectorAll<HTMLElement>('[data-aranan]'));
+  const sonucYok = document.querySelector<HTMLElement>('[data-sonuc-yok]');
+  kutu?.addEventListener('input', () => {
+    const aranan = kutu.value.trim().toLocaleLowerCase('tr');
+    let gorunen = 0;
+    for (const oge of ogeler) {
+      const eslesir = (oge.dataset.aranan ?? '').includes(aranan);
+      oge.classList.toggle('gizli', !eslesir);
+      if (eslesir) gorunen += 1;
+    }
+    sonucYok?.classList.toggle('gizli', gorunen > 0);
+  });
+</script>
+
+<style>
+  .bolum-girisi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding: 56px 0 48px;
+    border-bottom: 1px solid var(--cizgi);
+    margin-bottom: 32px;
+  }
+  .bolum-metni {
+    min-width: 0;
+  }
+  h1 {
+    font: 500 clamp(52px, 7vw, 96px) / 0.95 var(--baslik-font);
+    letter-spacing: -0.035em;
+    margin: 0 0 20px;
+  }
+  .bolum-metni p {
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--soluk);
+    max-width: 30rem;
+    margin: 0;
+  }
+  .bolum-resmi {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    border: 1px solid var(--cizgi);
+  }
+  .arama {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 560px;
+    padding: 0 16px;
+    margin-bottom: 28px;
+    border: 1px solid var(--cizgi);
+    background: var(--yuzey);
+    color: var(--soluk);
+    transition: border-color 0.2s;
+  }
+  .arama:focus-within {
+    border-color: var(--vurgu);
+  }
+  .arama input {
+    flex: 1;
+    min-width: 0;
+    min-height: 52px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 16px;
+  }
+  .arama input::placeholder {
+    color: var(--soluk);
+  }
+  .sonuc-yok {
+    color: var(--soluk);
+    font: italic 400 20px/1.4 var(--baslik-font);
+    margin: 0 0 28px;
+  }
+  .hikayeler {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .hikaye {
+    display: block;
+    height: 100%;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    transition: border-color 0.25s, transform 0.25s var(--yumusak);
+  }
+  .hikaye:hover {
+    border-color: var(--vurgu);
+    transform: translateY(-4px);
+  }
+  .hikaye-resmi {
+    position: relative;
+    display: block;
+    height: 220px;
+    overflow: hidden;
+  }
+  .hikaye-resmi :global(.mit-gorseli) {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .okundu {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 5px 12px;
+    border-radius: 100px;
+    background: rgba(16, 21, 28, 0.8);
+    color: var(--dogru);
+    font-size: 12px;
+  }
+  .hikaye-metni {
+    display: block;
+    padding: 20px 22px 24px;
+  }
+  .hikaye-turu {
+    display: block;
+    font-size: 13px;
+    color: var(--soluk);
+    margin-bottom: 8px;
+  }
+  .hikaye strong {
+    display: block;
+    font: 500 34px/1.05 var(--baslik-font);
+    color: var(--kart-basligi);
+  }
+  .alt-baslik {
+    display: block;
+    font: italic 400 19px/1.3 var(--baslik-font);
+    color: var(--vurgu);
+    margin: 4px 0 12px;
+  }
+  .ozet {
+    display: block;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--soluk);
+  }
+  @media (max-width: 1050px) {
+    .hikayeler {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 740px) {
+    .bolum-girisi {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      padding-top: 36px;
+    }
+    .hikayeler {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

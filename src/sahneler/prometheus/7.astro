@@ -1,0 +1,27 @@
+---
+import VazoSahnesi from '../VazoSahnesi.astro';
+import Insan from '../figurler/Insan.astro';
+import Kral from '../figurler/Kral.astro';
+import Kaya from '../figurler/Kaya.astro';
+import Alev from '../figurler/Alev.astro';
+
+const ozellikler = Astro.props;
+---
+
+<VazoSahnesi {...ozellikler} slug="prometheus" numara={7}>
+  <g fill="#121010">
+    <path d="M40 256 L60 236 L80 256 Z" />
+    <path d="M44 236 C44 216 80 216 80 236 Z" />
+    <rect x="200" y="226" width="40" height="12" />
+    <path d="M208 238 L232 238 L228 256 L212 256 Z" />
+  </g>
+  <Alev x={60} y={238} olcek={0.9} />
+  <Alev x={150} y={256} olcek={0.8} />
+  <Insan x={104} y={256} olcek={0.85} cins="kadin" durus="oturan" onKol="one" arkaKol="one" yon="sol" />
+  <Insan x={276} y={256} olcek={0.95} durus="yuruyen" onKol="yukari" arkaKol="ileri-asagi" yon="sol">
+    <path d="M24 -158 L30 -176" stroke="#121010" stroke-width="3" />
+    <rect x="20" y="-186" width="18" height="10" fill="#121010" />
+  </Insan>
+  <Kaya x={316} y={150} genislik={84} yukseklik={20} />
+  <Kral x={360} y={146} olcek={0.5} durus="ayakta" nitelik="yildirim" yon="sol" onKol="yuz" />
+</VazoSahnesi>

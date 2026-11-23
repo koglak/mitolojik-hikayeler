@@ -1,0 +1,81 @@
+---
+import type { Kayit } from '../lib/kayitSemasi';
+
+interface Props {
+  adres: string;
+  kayit: Kayit;
+  bilgiSayisi?: number;
+}
+
+const { adres, kayit, bilgiSayisi = 2 } = Astro.props;
+const gosterilenBilgiler = kayit.bilgiler.slice(0, bilgiSayisi);
+---
+
+<a class="etiket-karti" href={adres}>
+  <h3>{kayit.ad}</h3>
+  <p class="ozet">{kayit.ozet}</p>
+  <dl>
+    {
+      gosterilenBilgiler.map((bilgi) => (
+        <div>
+          <dt>{bilgi.etiket}</dt>
+          <dd>{bilgi.deger}</dd>
+        </div>
+      ))
+    }
+  </dl>
+  <p class="kaynak">{kayit.kaynak}</p>
+</a>
+
+<style>
+  .etiket-karti {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 26px 26px 22px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-top: 2px solid var(--vurgu);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .etiket-karti:hover {
+    border-color: var(--vurgu);
+    background: var(--yuzey-2);
+  }
+  h3 {
+    font: 500 36px/1.05 var(--baslik-font);
+    margin: 0 0 12px;
+    color: var(--kart-basligi);
+  }
+  .ozet {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--soluk);
+    margin: 0 0 20px;
+  }
+  dl {
+    margin: auto 0 0;
+    display: grid;
+    gap: 8px;
+    border-top: 1px solid var(--cizgi);
+    padding-top: 14px;
+  }
+  dl div {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 12px;
+    font-size: 13px;
+  }
+  dt {
+    color: var(--soluk);
+  }
+  dd {
+    margin: 0;
+    color: var(--yazi);
+  }
+  .kaynak {
+    margin: 16px 0 0;
+    font: italic 400 15px/1.4 var(--baslik-font);
+    color: var(--vurgu);
+  }
+</style>

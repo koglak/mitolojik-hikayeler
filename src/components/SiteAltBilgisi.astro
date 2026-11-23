@@ -1,0 +1,37 @@
+---
+import Logo from './Logo.astro';
+---
+
+<footer class="alt-bilgi">
+  <span class="logo">
+    <Logo boyut={32} />
+    <span class="logo-yazisi" lang="el">ΜΥΘΟΣ</span>
+  </span>
+  <span>Mitoloji ve antik dünya üzerine bir arşiv.</span>
+  <span>© {new Date().getFullYear()}</span>
+</footer>
+
+<style>
+  .alt-bilgi {
+    border-top: 1px solid var(--cizgi);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px 24px;
+    padding: 28px 0 40px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: var(--soluk);
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .logo-yazisi {
+    font: 400 22px/1 var(--yunan-font);
+    letter-spacing: 0.14em;
+    color: var(--yazi);
+  }
+</style>

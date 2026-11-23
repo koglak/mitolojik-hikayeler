@@ -1,0 +1,27 @@
+---
+interface Props {
+  x: number;
+  y: number;
+  genislik?: number;
+  yukseklik?: number;
+}
+
+const { x, y, genislik = 120, yukseklik = 90 } = Astro.props;
+const g = genislik;
+const h = yukseklik;
+const yol = `M0 0 L0 ${-h * 0.62} L${g * 0.12} ${-h * 0.82} L${g * 0.3} ${-h} L${g * 0.52} ${-h * 0.9} L${g * 0.7} ${-h * 0.98} L${g * 0.88} ${-h * 0.7} L${g} ${-h * 0.5} L${g} 0 Z`;
+const catlaklar = [
+  `M${g * 0.3} ${-h * 0.9} L${g * 0.36} ${-h * 0.6} L${g * 0.3} ${-h * 0.35}`,
+  `M${g * 0.7} ${-h * 0.88} L${g * 0.62} ${-h * 0.55}`,
+  `M${g * 0.12} ${-h * 0.5} L${g * 0.22} ${-h * 0.2}`,
+  `M${g * 0.82} ${-h * 0.4} L${g * 0.9} ${-h * 0.12}`,
+];
+---
+
+<g transform={`translate(${x} ${y})`}>
+  <path d={yol} fill="#121010"></path>
+  <g fill="none" stroke="#c8662f" stroke-width="1.3" stroke-linecap="round">
+    {catlaklar.map((catlak) => <path d={catlak} />)}
+  </g>
+  <slot />
+</g>

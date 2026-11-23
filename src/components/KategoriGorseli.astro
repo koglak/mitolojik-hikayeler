@@ -1,0 +1,437 @@
+---
+export type KategoriTuru = 'mitler' | 'kentler' | 'tanrilar' | 'kahramanlar';
+
+interface Props {
+  tur: KategoriTuru;
+}
+
+const { tur } = Astro.props;
+const kimlik = `kategori-${tur}`;
+const tozlar = [
+  { x: 180, y: 300 }, { x: 214, y: 270 }, { x: 250, y: 310 }, { x: 288, y: 280 },
+  { x: 330, y: 300 }, { x: 362, y: 260 }, { x: 410, y: 296 }, { x: 446, y: 270 },
+];
+const kivilcimlar = [
+  { x: 120, y: 400 }, { x: 180, y: 410 }, { x: 260, y: 405 }, { x: 330, y: 400 },
+  { x: 390, y: 410 }, { x: 450, y: 404 }, { x: 510, y: 400 }, { x: 560, y: 410 },
+  { x: 230, y: 400 }, { x: 420, y: 406 },
+];
+---
+
+<svg class="kategori-gorseli" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id={`${kimlik}-gok`} x1="0" y1="0" x2="0" y2="1">
+      {
+        tur === 'mitler' && (
+          <>
+            <stop offset="0" stop-color="#12101a" />
+            <stop offset="1" stop-color="#2e1d1a" />
+          </>
+        )
+      }
+      {
+        tur === 'kentler' && (
+          <>
+            <stop offset="0" stop-color="#1b2740" />
+            <stop offset=".55" stop-color="#7a4d52" />
+            <stop offset="1" stop-color="#e5a46a" />
+          </>
+        )
+      }
+      {
+        tur === 'tanrilar' && (
+          <>
+            <stop offset="0" stop-color="#0a1120" />
+            <stop offset="1" stop-color="#2c3a55" />
+          </>
+        )
+      }
+      {
+        tur === 'kahramanlar' && (
+          <>
+            <stop offset="0" stop-color="#2a1a1a" />
+            <stop offset="1" stop-color="#5a2a22" />
+          </>
+        )
+      }
+    </linearGradient>
+    <linearGradient id={`${kimlik}-mermer`} x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8c7c6b"></stop>
+      <stop offset=".55" stop-color="#e4cfae"></stop>
+      <stop offset="1" stop-color="#b59f84"></stop>
+    </linearGradient>
+    <linearGradient id={`${kimlik}-tunc`} x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1cf91"></stop>
+      <stop offset=".5" stop-color="#c08a4a"></stop>
+      <stop offset="1" stop-color="#6e4524"></stop>
+    </linearGradient>
+    <radialGradient id={`${kimlik}-isik`}>
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity=".55"></stop>
+      <stop offset="1" stop-color="#ffd9a0" stop-opacity="0"></stop>
+    </radialGradient>
+    <filter id={`${kimlik}-bulanik`}><feGaussianBlur stdDeviation="10"></feGaussianBlur></filter>
+    <linearGradient id={`${kimlik}-parilti`} x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff3d6" stop-opacity="0"></stop>
+      <stop offset=".5" stop-color="#fff3d6" stop-opacity=".45"></stop>
+      <stop offset="1" stop-color="#fff3d6" stop-opacity="0"></stop>
+    </linearGradient>
+    {
+      tur === 'kentler' && (
+        <clipPath id={`${kimlik}-sutunlar`}>
+          <rect x="150" y="120" width="34" height="210" />
+          <path d="M136 100h216v14H136Z" />
+          <rect x="226" y="114" width="34" height="216" />
+          <rect x="302" y="114" width="34" height="216" />
+          <path d="M378 330V214l10-12 12 8 8-10 6 10v120Z" />
+          <path d="M454 330v-58l8-6 10 6 6-8 6 10v56Z" />
+        </clipPath>
+      )
+    }
+    {
+      tur === 'kahramanlar' && (
+        <clipPath id={`${kimlik}-kalkan`}>
+          <circle cx="210" cy="250" r="118" />
+        </clipPath>
+      )
+    }
+  </defs>
+
+  <rect width="600" height="400" fill={`url(#${kimlik}-gok)`}></rect>
+
+  {
+    tur === 'mitler' && (
+      <g>
+        <g fill="#f7e3bd">
+          <circle cx="40" cy="40" r="1.2" />
+          <circle cx="110" cy="80" r="1" />
+          <circle cx="530" cy="50" r="1.4" />
+          <circle cx="570" cy="140" r="1" />
+          <circle cx="60" cy="320" r="1" />
+          <circle cx="548" cy="330" r="1.2" />
+        </g>
+        <circle cx="300" cy="200" r="190" fill={`url(#${kimlik}-isik)`} class="nabiz" />
+        <path d="M262.5 350.4A155 155 0 1 1 337.5 350.4M331.4 73.9A130 130 0 1 1 268.6 73.9M274.6 301.9A105 105 0 1 1 325.4 301.9M319.4 122.4A80 80 0 1 1 280.6 122.4M286.7 253.4A55 55 0 1 1 313.3 253.4M307.3 170.9A30 30 0 1 1 292.7 170.9M455.0 200.0L430.0 200.0M170.0 200.0L195.0 200.0M405.0 200.0L380.0 200.0M220.0 200.0L245.0 200.0M355.0 200.0L330.0 200.0" fill="none" stroke={`url(#${kimlik}-tunc)`} stroke-width="7" stroke-linecap="round" />
+        <path class="iplik" pathLength="1" d="M300 392L300 342.5A142.5 142.5 0 0 1 157.5 200.0A142.5 142.5 0 0 1 300.0 57.5L300 82.5A117.5 117.5 0 0 1 417.5 200.0A117.5 117.5 0 0 1 300.0 317.5L300 292.5A92.5 92.5 0 0 1 207.5 200.0A92.5 92.5 0 0 1 300.0 107.5L300 132.5A67.5 67.5 0 0 1 367.5 200.0A67.5 67.5 0 0 1 300.0 267.5L300 242.5A42.5 42.5 0 0 1 257.5 200.0A42.5 42.5 0 0 1 300.0 157.5L300 200.0" fill="none" stroke="#e0533d" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M286 204c-10-2-14-10-12-18 6 6 12 8 18 8M314 204c10-2 14-10 12-18-6 6-12 8-18 8" fill="none" stroke="#f1cf91" stroke-width="3" stroke-linecap="round" />
+        <ellipse cx="300" cy="206" rx="9" ry="7" fill="#f1cf91" />
+      </g>
+    )
+  }
+
+  {
+    tur === 'kentler' && (
+      <g>
+        <g class="batan-gunes">
+          <circle cx="530" cy="220" r="150" fill={`url(#${kimlik}-isik)`} class="nabiz" />
+          <circle cx="530" cy="220" r="34" fill="#f8d39a" />
+        </g>
+        <g class="kus-surusu" fill="none" stroke="#1a1820" stroke-width="2" stroke-linecap="round">
+          <path class="kanat" d="M0 0q6-6 12 0q6-6 12 0" />
+          <path class="kanat" d="M26 12q5-5 10 0q5-5 10 0" style="--gecikme:.25s" />
+        </g>
+        <path d="M0 300L90 262L190 290L300 250L420 288L520 262L600 280V400H0Z" fill="#3a3040" opacity=".8" />
+        <path d="M0 330H600V400H0Z" fill="#1a1820" />
+        <path d="M120 330h340v12H120Z" fill="#8c7c6b" />
+        <path d="M110 342h360v12H110Z" fill="#6f6254" />
+        <g>
+          <rect x="150" y="120" width="34" height="210" fill={`url(#${kimlik}-mermer)`} />
+          <path d="M144 112h46v10h-46Z" fill="#d8c3a2" />
+          <path d="M136 100h216v14H136Z" fill={`url(#${kimlik}-mermer)`} />
+          <rect x="226" y="114" width="34" height="216" fill={`url(#${kimlik}-mermer)`} />
+          <path d="M220 106h46" stroke="#d8c3a2" stroke-width="8" />
+          <rect x="302" y="114" width="34" height="216" fill={`url(#${kimlik}-mermer)`} />
+          <path d="M378 330V214l10-12 12 8 8-10 6 10v120Z" fill={`url(#${kimlik}-mermer)`} />
+          <path d="M454 330v-58l8-6 10 6 6-8 6 10v56Z" fill={`url(#${kimlik}-mermer)`} />
+          <path d="M160 126v200M168 126v200M176 126v200M236 120v206M244 120v206M252 120v206M312 120v206M320 120v206M328 120v206M388 214v112M396 210v116M404 212v114" stroke="#7a6b5c" stroke-width="1" opacity=".6" />
+          <ellipse cx="512" cy="344" rx="34" ry="14" fill="#b59f84" />
+          <path d="M478 344a34 14 0 0 0 68 0v-18a34 14 0 0 0-68 0Z" fill="#9b8670" />
+          <ellipse cx="512" cy="326" rx="34" ry="14" fill="#d8c3a2" />
+        </g>
+        <g clip-path={`url(#${kimlik}-sutunlar)`}>
+          <rect class="isik-suzulmesi" x="40" y="80" width="90" height="270" fill={`url(#${kimlik}-parilti)`} />
+        </g>
+        <g fill="#f6dcae">
+          {tozlar.map((toz, i) => (
+            <circle class="toz" cx={toz.x} cy={toz.y} r={1.2 + (i % 3) * 0.5} style={`--gecikme:${i * 0.8}s`} />
+          ))}
+        </g>
+        <path class="servi" d="M84 330c-2-24 6-40 14-52 6 14 8 30 4 52Z" fill="#141820" />
+        <path class="servi" d="M60 330c-2-30 6-52 16-70 8 18 10 40 4 70Z" fill="#141820" style="--gecikme:.6s" />
+      </g>
+    )
+  }
+
+  {
+    tur === 'tanrilar' && (
+      <g>
+        <g fill="#f7e3bd">
+          <circle cx="60" cy="50" r="1.4" />
+          <circle cx="150" cy="30" r="1" />
+          <circle cx="240" cy="70" r="1.6" />
+          <circle cx="420" cy="40" r="1.2" />
+          <circle cx="520" cy="80" r="1.5" />
+          <circle cx="560" cy="30" r="1" />
+          <circle cx="90" cy="120" r="1" />
+        </g>
+        <ellipse cx="300" cy="140" rx="220" ry="120" fill={`url(#${kimlik}-isik)`} class="nabiz" />
+        <path d="M0 400V300L120 220L200 250L300 120L380 210L450 180L600 290V400Z" fill="#1c2638" />
+        <path d="M300 120L330 160L318 168L300 150L286 172L270 160Z" fill="#d8dee8" opacity=".85" />
+        <path d="M0 400V330L140 290L260 320L400 280L600 340V400Z" fill="#121a28" />
+        <g class="bulut" fill="#3a4766" opacity=".9">
+          <ellipse cx="200" cy="206" rx="90" ry="18" />
+          <ellipse cx="250" cy="194" rx="50" ry="16" />
+          <ellipse cx="420" cy="232" rx="110" ry="16" />
+          <ellipse cx="380" cy="220" rx="44" ry="14" />
+        </g>
+        <path class="simsek" d="M392 18L340 120H372L322 232L428 98H392L436 18Z" fill={`url(#${kimlik}-tunc)`} />
+        <path class="simsek-hale" d="M392 18L340 120H372L322 232L428 98H392L436 18Z" fill="#ffe2a8" filter={`url(#${kimlik}-bulanik)`} opacity=".6" />
+      </g>
+    )
+  }
+
+  {
+    tur === 'kahramanlar' && (
+      <g>
+        <ellipse cx="320" cy="200" rx="240" ry="180" fill={`url(#${kimlik}-isik)`} class="nabiz" />
+        <g fill="#f6a64a">
+          {kivilcimlar.map((kivilcim, i) => (
+            <circle class="kivilcim" cx={kivilcim.x} cy={kivilcim.y} r={1.4 + (i % 3) * 0.6} style={`--gecikme:${(i * 0.73) % 6}s`} />
+          ))}
+        </g>
+        <path d="M70 380L520 30" stroke="#3a2a22" stroke-width="8" stroke-linecap="round" />
+        <path d="M520 30l-30 10 16 14Z" fill={`url(#${kimlik}-tunc)`} />
+        <path class="pirilti" d="M512 18l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#fff3d6" />
+        <circle cx="210" cy="250" r="118" fill="#2c1c18" />
+        <circle cx="210" cy="250" r="118" fill="none" stroke={`url(#${kimlik}-tunc)`} stroke-width="10" />
+        <circle cx="210" cy="250" r="96" fill="none" stroke="#c08a4a" stroke-width="2" opacity=".6" />
+        <path d="M170 250l40-40 40 40-40 40Z" fill="none" stroke="#c08a4a" stroke-width="2" opacity=".5" />
+        <g clip-path={`url(#${kimlik}-kalkan)`}>
+          <rect class="kalkan-parlamasi" x="40" y="100" width="70" height="320" fill={`url(#${kimlik}-parilti)`} transform="rotate(20 75 260)" />
+        </g>
+        <g class="migfer">
+          <g class="sorguc">
+            <path d="M290 110C300 40 470 30 486 110L470 112C460 64 314 64 306 110Z" fill="#7a2a22" />
+            <path d="M302 98l-10-14M326 78l-6-18M354 66l-2-18M384 62v-18M414 64l2-18M442 72l6-16M466 88l10-12" stroke="#5a1c16" stroke-width="4" />
+          </g>
+          <path d="M300 300V176c0-56 40-92 88-92s88 36 88 92v80c0 14-6 26-18 34l-30 18v-70c0-12-12-20-40-20h-8c-12 0-20 8-20 20v64c-20-2-46-6-60-14Z" fill={`url(#${kimlik}-tunc)`} />
+          <path d="M318 180c18-14 44-16 70-8l-4 16c-22-6-44-4-60 6Z" fill="#2a1a14" />
+          <path d="M388 190v40" stroke="#2a1a14" stroke-width="4" />
+          <path d="M312 150c40-20 110-20 150 0" fill="none" stroke="#f1cf91" stroke-width="2" opacity=".7" />
+        </g>
+      </g>
+    )
+  }
+</svg>
+
+<style>
+  .kategori-gorseli {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .kategori-gorseli * {
+    transform-box: fill-box;
+  }
+  .nabiz {
+    transform-origin: center;
+    animation: nabiz 6s ease-in-out infinite alternate;
+  }
+  @keyframes nabiz {
+    from {
+      opacity: 0.7;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+  .simsek,
+  .simsek-hale {
+    animation: cak 5s steps(1, end) infinite;
+  }
+  @keyframes cak {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    4% {
+      opacity: 0.2;
+    }
+    7% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 0.4;
+    }
+    13% {
+      opacity: 1;
+    }
+  }
+  .iplik {
+    stroke-dasharray: 1;
+    animation: iplik-ilerler 9s cubic-bezier(0.5, 0, 0.4, 1) infinite;
+  }
+  @keyframes iplik-ilerler {
+    0% {
+      stroke-dashoffset: 1;
+    }
+    70%,
+    92% {
+      stroke-dashoffset: 0;
+      opacity: 1;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0;
+    }
+  }
+  .batan-gunes {
+    animation: gun-batimi 14s ease-in-out infinite alternate;
+  }
+  @keyframes gun-batimi {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      transform: translateY(46px);
+    }
+  }
+  .isik-suzulmesi {
+    animation: isik-gecer 7s ease-in-out infinite;
+  }
+  @keyframes isik-gecer {
+    0% {
+      transform: translateX(0) skewX(-14deg);
+    }
+    60%,
+    100% {
+      transform: translateX(520px) skewX(-14deg);
+    }
+  }
+  .toz {
+    opacity: 0;
+    animation: toz-yukselir 6.4s ease-in-out var(--gecikme) infinite;
+  }
+  @keyframes toz-yukselir {
+    0% {
+      opacity: 0;
+      transform: translate(0, 0);
+    }
+    30% {
+      opacity: 0.85;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(18px, -150px);
+    }
+  }
+  .servi {
+    transform-origin: center bottom;
+    animation: salinim 4s ease-in-out var(--gecikme, 0s) infinite alternate;
+  }
+  @keyframes salinim {
+    from {
+      transform: rotate(-2deg);
+    }
+    to {
+      transform: rotate(2deg);
+    }
+  }
+  .kus-surusu {
+    animation: kuslar 18s linear infinite;
+  }
+  @keyframes kuslar {
+    from {
+      transform: translate(-60px, 150px);
+    }
+    to {
+      transform: translate(660px, 60px);
+    }
+  }
+  .kanat {
+    transform-origin: center;
+    animation: kanat 0.6s ease-in-out var(--gecikme, 0s) infinite alternate;
+  }
+  @keyframes kanat {
+    from {
+      transform: scaleY(1);
+    }
+    to {
+      transform: scaleY(-0.4);
+    }
+  }
+  .kivilcim {
+    opacity: 0;
+    animation: kivilcim 6s ease-out var(--gecikme) infinite;
+  }
+  @keyframes kivilcim {
+    0% {
+      opacity: 0;
+      transform: translate(0, 0);
+    }
+    15% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(30px, -320px);
+    }
+  }
+  .kalkan-parlamasi {
+    animation: kalkan-parlar 6s ease-in-out infinite;
+  }
+  @keyframes kalkan-parlar {
+    0% {
+      transform: rotate(20deg) translateX(0);
+    }
+    45%,
+    100% {
+      transform: rotate(20deg) translateX(300px);
+    }
+  }
+  .pirilti {
+    transform-origin: center;
+    animation: pirilda 3s ease-in-out infinite;
+  }
+  @keyframes pirilda {
+    0%,
+    70%,
+    100% {
+      transform: scale(0) rotate(0deg);
+      opacity: 0;
+    }
+    82% {
+      transform: scale(1.4) rotate(45deg);
+      opacity: 1;
+    }
+  }
+  .sorguc {
+    transform-origin: center bottom;
+    animation: sorguc 3.6s ease-in-out infinite alternate;
+  }
+  @keyframes sorguc {
+    from {
+      transform: rotate(-1.5deg);
+    }
+    to {
+      transform: rotate(1.5deg);
+    }
+  }
+  .bulut {
+    animation: bulut 14s ease-in-out infinite alternate;
+  }
+  @keyframes bulut {
+    from {
+      transform: translateX(-16px);
+    }
+    to {
+      transform: translateX(16px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .kategori-gorseli * {
+      animation: none !important;
+    }
+  }
+</style>

@@ -1,0 +1,45 @@
+---
+interface Props {
+  kelime: string;
+  aciklama: string;
+}
+
+const { kelime, aciklama } = Astro.props;
+---
+
+<div class="bag">
+  <div class="ust-yazi">Bunu zaten biliyorsun</div>
+  <h2>{kelime}</h2>
+  <p>{aciklama}</p>
+</div>
+
+<style>
+  .bag {
+    position: relative;
+    overflow: hidden;
+    padding: 38px 30px;
+    border: 1px solid var(--cizgi);
+    background: var(--yuzey);
+  }
+  .bag::after {
+    content: '✶';
+    position: absolute;
+    right: -10px;
+    bottom: -36px;
+    font: 240px/0.7 var(--baslik-font);
+    color: var(--vurgu);
+    opacity: 0.08;
+    pointer-events: none;
+  }
+  h2 {
+    font: 500 clamp(36px, 10vw, 48px) / 1.05 var(--baslik-font);
+    margin: 20px 0 16px;
+  }
+  p {
+    position: relative;
+    color: var(--soluk);
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+  }
+</style>

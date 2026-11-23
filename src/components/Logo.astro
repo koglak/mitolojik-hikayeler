@@ -1,0 +1,13 @@
+---
+interface Props {
+  boyut?: number;
+}
+
+const { boyut = 40 } = Astro.props;
+---
+
+<svg class="logo-isareti" width={boyut} height={boyut} viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#d9ae75" stroke-width="1.6"></circle>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#d9ae75" stroke-width=".8" opacity=".5"></circle>
+  <polygon points="32.0,10.0 35.1,24.6 47.6,16.4 39.4,28.9 54.0,32.0 39.4,35.1 47.6,47.6 35.1,39.4 32.0,54.0 28.9,39.4 16.4,47.6 24.6,35.1 10.0,32.0 24.6,28.9 16.4,16.4 28.9,24.6" fill="#d9ae75"></polygon>
+</svg>

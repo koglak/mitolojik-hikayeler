@@ -1,0 +1,471 @@
+---
+const yildizlar = Array.from({ length: 46 }, (_, i) => {
+  const x = (i * 211 + 37) % 1600;
+  const y = 20 + ((i * 97) % 210);
+  const r = 0.9 + ((i * 7) % 9) / 10;
+  return [x, y, r] as const;
+});
+const sutunlar = [224, 256, 288, 320, 352, 384];
+const evler = [
+  { x: 24, g: 46, y: 64 },
+  { x: 76, g: 38, y: 50 },
+  { x: 120, g: 54, y: 72 },
+  { x: 180, g: 40, y: 54 },
+  { x: 226, g: 48, y: 44 },
+];
+const tiyatroYaricaplari = [22, 34, 46, 58, 70];
+const serviler = [
+  { x: 92, y: 432, h: 74 },
+  { x: 116, y: 428, h: 92 },
+  { x: 262, y: 440, h: 66 },
+  { x: 286, y: 446, h: 80 },
+];
+const zeytinler = [
+  { x: 170, y: 446 },
+  { x: 210, y: 452 },
+  { x: 40, y: 452 },
+];
+---
+
+<svg class="antik-kent" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="kent-gece" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070d17"></stop>
+      <stop offset=".6" stop-color="#16243a"></stop>
+      <stop offset="1" stop-color="#2c3446"></stop>
+    </linearGradient>
+    <linearGradient id="kent-safak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172741"></stop>
+      <stop offset=".45" stop-color="#6b4a55"></stop>
+      <stop offset=".8" stop-color="#d0845a"></stop>
+      <stop offset="1" stop-color="#f0bc7e"></stop>
+    </linearGradient>
+    <linearGradient id="kent-deniz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3f4c"></stop>
+      <stop offset="1" stop-color="#0d151f"></stop>
+    </linearGradient>
+    <linearGradient id="kent-mermer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8c7c6b"></stop>
+      <stop offset=".55" stop-color="#e4cfae"></stop>
+      <stop offset="1" stop-color="#b59f84"></stop>
+    </linearGradient>
+    <radialGradient id="kent-gunes-isigi">
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity=".9"></stop>
+      <stop offset="1" stop-color="#ffd9a0" stop-opacity="0"></stop>
+    </radialGradient>
+    <filter id="kent-bulanik"><feGaussianBlur stdDeviation="14"></feGaussianBlur></filter>
+  </defs>
+
+  <rect width="1600" height="600" fill="url(#kent-gece)"></rect>
+  <rect class="safak" width="1600" height="600" fill="url(#kent-safak)"></rect>
+
+  <g class="yildizlar">
+    {yildizlar.map(([x, y, r], i) => <circle class="yildiz" cx={x} cy={y} r={r} fill="#f7e3bd" style={`--gecikme:${(i % 7) * 0.45}s`} />)}
+  </g>
+
+  <g class="gunes">
+    <circle cx="1180" cy="380" r="190" fill="url(#kent-gunes-isigi)" class="gunes-hale"></circle>
+    <circle cx="1180" cy="380" r="50" fill="#f8d39a"></circle>
+  </g>
+
+  <path d="M0 440 L120 380 L230 420 L330 372 L440 410 L560 368 L650 404 L760 356 L860 408 L960 374 L1060 410 L1150 384 L1250 420 L1350 380 L1460 414 L1540 388 L1600 402 V470 H0Z" fill="#2a3242" opacity=".9"></path>
+  <path d="M0 462 L140 432 L280 452 L420 424 L560 450 L700 428 L860 454 L980 432 L1120 456 L1260 436 L1420 458 L1600 440 V490 H0Z" fill="#212a37"></path>
+  <path d="M1380 452c30-18 70-24 110-14 30 7 60 8 110 2V460H1380Z" fill="#1c2430"></path>
+
+  <rect y="452" width="1600" height="148" fill="url(#kent-deniz)"></rect>
+  <g class="parilti">
+    <path d="M1140 470h80M1126 486h108M1148 502h64M1162 518h36M1170 534h20" stroke="#f8d39a" stroke-width="2.5" stroke-linecap="round"></path>
+  </g>
+  <g class="dalgalar" stroke="#c9b28f" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".45">
+    <path d="M1000 494q12-5 24 0t24 0M1080 530q12-5 24 0t24 0M1240 512q12-5 24 0t24 0M1320 560q12-5 24 0t24 0M1440 500q12-5 24 0t24 0M1500 546q12-5 24 0t24 0M1040 572q12-5 24 0t24 0M1200 584q12-5 24 0t24 0"></path>
+  </g>
+
+  <g transform="translate(0 512)">
+    <g class="gemi">
+      <g class="gemi-salinim">
+        <path d="M-46 0H46L34 14H-32Z" fill="#141b24"></path>
+        <path d="M46 0q12-6 14-18" stroke="#141b24" stroke-width="4" fill="none" stroke-linecap="round"></path>
+        <path d="M0 0V-58" stroke="#141b24" stroke-width="3"></path>
+        <path d="M-24 -54H22Q27 -34 22 -12H-24Q-19 -34 -24 -54Z" fill="#e4cfae"></path>
+        <path d="M-2 -50V-16M-18 -34H16" stroke="#a8674a" stroke-width="2"></path>
+        <path d="M-30 14l-8 10M-14 14l-6 10M2 14l-4 10M18 14l-2 10" stroke="#141b24" stroke-width="2"></path>
+      </g>
+    </g>
+  </g>
+
+  <g class="sol-tepe">
+    <path d="M0 600V444C110 414 230 420 330 446C380 460 420 472 460 484V600Z" fill="#18202b"></path>
+    <path class="cizim" pathLength="1" d="M20 600C60 560 150 540 190 512S260 470 330 462" fill="none" stroke="#d9ae75" stroke-width="1.2" stroke-dasharray="1" opacity=".55" style="--gecikme:1.4s"></path>
+    {
+      serviler.map((servi) => (
+        <path
+          class="agac"
+          d={`M${servi.x} ${servi.y}c-9-${servi.h * 0.35}-7-${servi.h * 0.75} 0-${servi.h}c7 ${servi.h * 0.25} 9 ${servi.h * 0.65} 0 ${servi.h}Z`}
+          fill="#0f151d"
+          style={`--gecikme:${1.8 + servi.x / 400}s`}
+        />
+      ))
+    }
+    {
+      zeytinler.map((zeytin) => (
+        <g class="agac" style={`--gecikme:${2 + zeytin.x / 500}s`}>
+          <path d={`M${zeytin.x} ${zeytin.y}v-16`} stroke="#0f151d" stroke-width="3" />
+          <ellipse cx={zeytin.x} cy={zeytin.y - 22} rx="18" ry="11" fill="#141b24" />
+          <ellipse cx={zeytin.x - 9} cy={zeytin.y - 28} rx="10" ry="7" fill="#141b24" />
+        </g>
+      ))
+    }
+  </g>
+
+  <g transform="translate(400 0)">
+    <path class="tepe" d="M0 600V476C52 450 96 380 150 336L186 306H426L462 322C514 352 548 418 604 452L660 480L700 600Z" fill="#161d27"></path>
+    <path class="cizim" pathLength="1" d="M0 476C52 450 96 380 150 336L186 306H426L462 322C514 352 548 418 604 452L660 480" fill="none" stroke="#d9ae75" stroke-width="1.6"></path>
+
+    <g class="tiyatro" fill="none" stroke="#d9ae75" stroke-width="1.4" opacity=".7">
+      {
+        tiyatroYaricaplari.map((r, i) => (
+          <path class="cizim" pathLength="1" d={`M${520 - r} 448 A${r} ${r * 0.62} 0 0 1 ${520 + r} 448`} style={`--gecikme:${1.2 + i * 0.15}s`} />
+        ))
+      }
+      <path class="cizim" pathLength="1" d="M440 452H600" style="--gecikme:2s"></path>
+    </g>
+
+    <g class="surlar">
+      <path class="cizim" pathLength="1" d="M128 362L172 330H448L494 356" fill="none" stroke="#d9ae75" stroke-width="2.2" style="--gecikme:.6s"></path>
+      <path class="dolgu" d="M162 318h18v18h-18ZM440 322h18v18h-18ZM300 322h14v12h-14Z" fill="#2b3442" style="--gecikme:2.2s"></path>
+    </g>
+
+    <g class="evler">
+      {
+        evler.map((ev, i) => (
+          <g class="ev" style={`--gecikme:${1.6 + i * 0.18}s`}>
+            <path d={`M${ev.x} 508h${ev.g}v-${ev.y - 18}h-${ev.g}Z`} fill="#1d2531" />
+            <path d={`M${ev.x - 4} ${526 - ev.y}L${ev.x + ev.g / 2} ${508 - ev.y}L${ev.x + ev.g + 4} ${526 - ev.y}Z`} fill="#2a3240" />
+            <rect class="pencere" x={ev.x + ev.g / 2 - 4} y={508 - ev.y / 2} width="8" height="10" fill="#f3b562" style={`--gecikme:${(i * 0.7) % 2.3}s`} />
+          </g>
+        ))
+      }
+    </g>
+
+    <g class="tapinak">
+      <path class="dolgu" d="M196 306H414V296H196ZM204 296H406V287H204ZM212 287H398V278H212Z" fill="url(#kent-mermer)" style="--gecikme:2.4s"></path>
+      <path class="cizim" pathLength="1" d="M196 306H414V296H196ZM204 296H406V287H204ZM212 287H398V278H212Z" fill="none" stroke="#d9ae75" stroke-width="1.2" style="--gecikme:.9s"></path>
+      {
+        sutunlar.map((x, i) => (
+          <g class="sutun" style={`--gecikme:${3 + i * 0.14}s`}>
+            <rect x={x - 7} y="190" width="14" height="88" fill="url(#kent-mermer)" />
+            <path d={`M${x - 3} 194v80M${x + 1} 194v80M${x + 4} 194v80`} stroke="#8c7c6b" stroke-width=".8" opacity=".7" />
+            <rect x={x - 10} y="184" width="20" height="6" fill="#d8c3a2" />
+          </g>
+        ))
+      }
+      <g class="cati">
+        <path d="M212 184H398V170H212Z" fill="url(#kent-mermer)"></path>
+        <path d="M212 170H398V158H212Z" fill="#c9b393"></path>
+        <path d="M226 160v8M246 160v8M266 160v8M286 160v8M306 160v8M326 160v8M346 160v8M366 160v8M386 160v8" stroke="#6f6254" stroke-width="3"></path>
+        <path d="M204 158L305 116L406 158Z" fill="url(#kent-mermer)"></path>
+        <path d="M222 154L305 122L388 154Z" fill="#a8977f"></path>
+        <path d="M298 116l7-12 7 12Z" fill="#e4cfae"></path>
+      </g>
+      <g class="mesaleler">
+        {
+          [200, 410].map((x, i) => (
+            <g>
+              <path d={`M${x} 278v-18`} stroke="#3a3128" stroke-width="3" />
+              <path class="alev" d={`M${x} 244c-6 8-7 12-5 16h10c2-4 1-8-5-16Z`} fill="#f6a64a" style={`--gecikme:${i * 0.3}s`} />
+              <circle class="alev-hale" cx={x} cy="252" r="16" fill="#f6a64a" opacity=".25" filter="url(#kent-bulanik)" />
+            </g>
+          ))
+        }
+      </g>
+    </g>
+  </g>
+
+  <path d="M0 600V522Q300 500 620 520T1180 556Q1400 570 1600 560V600Z" fill="#0d131b"></path>
+
+  <g class="kuslar" fill="none" stroke="#1a1f29" stroke-width="2.2" stroke-linecap="round">
+    <g class="kus-surusu">
+      <path class="kanat" d="M0 0q8-8 16 0q8-8 16 0"></path>
+      <path class="kanat" d="M34 18q6-6 12 0q6-6 12 0" style="--gecikme:.2s"></path>
+      <path class="kanat" d="M-22 22q6-6 12 0q6-6 12 0" style="--gecikme:.35s"></path>
+    </g>
+  </g>
+
+  <ellipse class="sis" cx="520" cy="470" rx="520" ry="22" fill="#d9c7aa" opacity=".1" filter="url(#kent-bulanik)"></ellipse>
+  <ellipse class="sis sis-2" cx="1160" cy="432" rx="420" ry="16" fill="#d9c7aa" opacity=".08" filter="url(#kent-bulanik)"></ellipse>
+</svg>
+
+<style>
+  .antik-kent {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .antik-kent * {
+    transform-box: fill-box;
+  }
+
+  .safak {
+    animation: safak-sokuyor 9s ease-in-out 1s both;
+  }
+  @keyframes safak-sokuyor {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .yildizlar {
+    opacity: 0.25;
+    animation: yildizlar-soner 8s ease-in 2s both;
+  }
+  @keyframes yildizlar-soner {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.25;
+    }
+  }
+  .yildiz {
+    animation: parilda 2.6s ease-in-out var(--gecikme) infinite alternate;
+  }
+  @keyframes parilda {
+    from {
+      opacity: 0.25;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .gunes {
+    animation: gunes-dogar 8s cubic-bezier(0.25, 0.6, 0.3, 1) 2.5s both;
+  }
+  @keyframes gunes-dogar {
+    from {
+      transform: translateY(170px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .gunes-hale {
+    transform-origin: center;
+    animation: nefes 6s ease-in-out infinite alternate;
+  }
+  @keyframes nefes {
+    from {
+      transform: scale(0.92);
+      opacity: 0.8;
+    }
+    to {
+      transform: scale(1.08);
+      opacity: 1;
+    }
+  }
+
+  .parilti {
+    animation: parilti-titrer 2.8s ease-in-out infinite alternate, belir 4s ease 6s both;
+  }
+  @keyframes parilti-titrer {
+    from {
+      transform: translateX(-4px);
+    }
+    to {
+      transform: translateX(5px);
+    }
+  }
+
+  .dalgalar {
+    animation: dalga 7s ease-in-out infinite alternate;
+  }
+  @keyframes dalga {
+    from {
+      transform: translateX(-14px);
+    }
+    to {
+      transform: translateX(14px);
+    }
+  }
+
+  .gemi {
+    animation: gemi-yuzer 40s linear 3s infinite both;
+  }
+  @keyframes gemi-yuzer {
+    from {
+      transform: translateX(1700px);
+    }
+    to {
+      transform: translateX(1000px);
+    }
+  }
+  .gemi-salinim {
+    transform-origin: center bottom;
+    animation: salin 3.4s ease-in-out infinite alternate;
+  }
+  @keyframes salin {
+    from {
+      transform: translateY(-2px) rotate(-2deg);
+    }
+    to {
+      transform: translateY(2px) rotate(2deg);
+    }
+  }
+
+  .cizim {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+    animation: ciz 2.6s cubic-bezier(0.6, 0, 0.3, 1) var(--gecikme, 0s) both;
+  }
+  @keyframes ciz {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .tepe,
+  .sol-tepe {
+    animation: belir 2s ease 1.2s both;
+  }
+  .dolgu,
+  .ev,
+  .agac {
+    animation: belir 1.4s ease var(--gecikme, 0s) both;
+  }
+  @keyframes belir {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .pencere {
+    animation: titre 3.2s steps(1, end) var(--gecikme) infinite;
+  }
+  @keyframes titre {
+    0%,
+    100% {
+      opacity: 0.9;
+    }
+    40% {
+      opacity: 0.55;
+    }
+    55% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0.7;
+    }
+  }
+
+  .sutun {
+    transform-origin: center bottom;
+    animation: yuksel 1.3s cubic-bezier(0.2, 0.9, 0.25, 1.05) var(--gecikme) both;
+  }
+  @keyframes yuksel {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+
+  .cati {
+    animation: cati-oturur 1.4s cubic-bezier(0.3, 1.3, 0.5, 1) 4.4s both;
+  }
+  @keyframes cati-oturur {
+    from {
+      transform: translateY(-70px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .mesaleler {
+    animation: belir 1s ease 5.6s both;
+  }
+  .alev {
+    transform-origin: center bottom;
+    animation: alev 0.9s ease-in-out var(--gecikme) infinite alternate;
+  }
+  @keyframes alev {
+    from {
+      transform: scale(0.85, 0.9) skewX(-4deg);
+    }
+    to {
+      transform: scale(1.1, 1.15) skewX(4deg);
+    }
+  }
+  .alev-hale {
+    animation: belir 1.2s ease-in-out infinite alternate;
+  }
+
+  .kus-surusu {
+    animation: kuslar-gecer 26s linear 6s infinite both;
+  }
+  @keyframes kuslar-gecer {
+    from {
+      transform: translate(-80px, 240px);
+    }
+    to {
+      transform: translate(1680px, 110px);
+    }
+  }
+  .kanat {
+    transform-origin: center;
+    animation: kanat-cirp 0.7s ease-in-out var(--gecikme, 0s) infinite alternate;
+  }
+  @keyframes kanat-cirp {
+    from {
+      transform: scaleY(1);
+    }
+    to {
+      transform: scaleY(-0.4);
+    }
+  }
+
+  .sis {
+    animation: sis-kayar 16s ease-in-out infinite alternate;
+  }
+  .sis-2 {
+    animation-duration: 21s;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes sis-kayar {
+    from {
+      transform: translateX(-80px);
+    }
+    to {
+      transform: translateX(80px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .antik-kent * {
+      animation: none !important;
+    }
+    .gemi {
+      transform: translateX(1240px);
+    }
+    .kus-surusu {
+      transform: translate(820px, 140px);
+    }
+  }
+</style>

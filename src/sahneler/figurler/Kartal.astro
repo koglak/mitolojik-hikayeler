@@ -1,0 +1,32 @@
+---
+import { figurDonusumu, type FigurKonumu } from '../../lib/figur';
+
+interface Props extends FigurKonumu {
+  kanatlar?: 'acik' | 'inen';
+}
+
+const { x, y, olcek = 1, yon = 'sag', kanatlar = 'acik' } = Astro.props;
+const onKanat = kanatlar === 'acik'
+  ? 'M-8 -2 C-14 -30 -4 -54 26 -66 C14 -44 16 -24 12 -4 Z'
+  : 'M-8 -2 C-26 -18 -40 -10 -52 -24 C-30 -30 -6 -26 12 -4 Z';
+const arkaKanat = kanatlar === 'acik'
+  ? 'M0 -2 C-20 -24 -32 -42 -28 -60 C-8 -42 6 -22 10 -2 Z'
+  : 'M0 0 C-20 6 -36 20 -52 16 C-34 6 -12 -4 10 -2 Z';
+---
+
+<g transform={figurDonusumu(x, y, olcek, yon)}>
+  <g fill="#121010">
+    <path d={arkaKanat}></path>
+    <path d="M-30 4 C-10 -6 20 -8 34 -4 L44 -8 L50 -2 L44 0 L36 4 C20 10 -10 12 -30 4 Z"></path>
+    <path d="M-28 2 L-52 -8 L-54 12 Z"></path>
+    <path d={onKanat}></path>
+    <path d="M6 8 L10 20 L14 18 M14 8 L18 20 L22 18" stroke="#121010" stroke-width="2.5" fill="none"></path>
+  </g>
+  <g fill="none" stroke="#c8662f" stroke-width="1.2" stroke-linecap="round">
+    <circle cx="40" cy="-4" r="1.4" fill="#c8662f" stroke="none"></circle>
+    <path d="M30 -2 C24 2 22 6 24 8"></path>
+    {kanatlar === 'acik' && <path d="M18 -54 L8 -10 M10 -44 L2 -8 M2 -36 L-2 -8" />}
+    {kanatlar === 'inen' && <path d="M-40 -20 L-6 -8 M-36 -14 L-4 -4" />}
+    <path d="M-48 -2 L-32 2 M-48 6 L-32 4"></path>
+  </g>
+</g>

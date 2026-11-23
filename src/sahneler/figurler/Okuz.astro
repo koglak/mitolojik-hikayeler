@@ -1,0 +1,26 @@
+---
+import { figurDonusumu, type FigurKonumu } from '../../lib/figur';
+
+interface Props extends FigurKonumu {}
+
+const { x, y, olcek = 1, yon = 'sag' } = Astro.props;
+---
+
+<g transform={figurDonusumu(x, y, olcek, yon)}>
+  <g fill="#121010">
+    <path d="M-50 -60 C-34 -70 20 -70 38 -64 C46 -62 50 -56 50 -50 L46 -34 C40 -30 30 -30 26 -32 L-40 -30 C-52 -34 -56 -48 -50 -60 Z"></path>
+    <path d="M38 -64 L56 -72 C64 -70 70 -56 68 -48 L60 -44 L50 -50 Z"></path>
+    <path d="M54 -71 C50 -84 58 -92 66 -88 C60 -86 58 -80 60 -72 Z"></path>
+    <path d="M40 -46 C42 -36 38 -28 32 -26 L30 -34 Z"></path>
+  </g>
+  <g stroke="#121010" stroke-linecap="round" fill="none">
+    <path d="M-40 -34 L-42 0 M-30 -34 L-27 0 M20 -34 L18 0 M30 -34 L33 0" stroke-width="6.5"></path>
+    <path d="M-50 -56 C-60 -42 -58 -24 -60 -12" stroke-width="2.5"></path>
+  </g>
+  <path d="M-63 -14 L-60 -4 L-56 -14 Z" fill="#121010"></path>
+  <g fill="none" stroke="#c8662f" stroke-width="1.3" stroke-linecap="round">
+    <circle cx="60" cy="-62" r="1.6" fill="#c8662f" stroke="none"></circle>
+    <path d="M-20 -62 C-18 -52 -18 -42 -20 -34 M-8 -63 C-6 -52 -6 -42 -8 -33 M4 -63 C6 -52 6 -42 4 -33"></path>
+    <path d="M30 -62 C26 -52 26 -42 30 -34"></path>
+  </g>
+</g>

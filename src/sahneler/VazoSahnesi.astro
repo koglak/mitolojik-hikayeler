@@ -1,0 +1,28 @@
+---
+interface Props {
+  slug: string;
+  numara: number;
+  sinif?: string;
+  kirp?: boolean;
+}
+
+const { slug, numara, sinif, kirp = false } = Astro.props;
+const siniflar = ['vazo-sahnesi', sinif].filter(Boolean).join(' ');
+---
+
+<svg
+  class={siniflar}
+  viewBox="0 0 400 300"
+  preserveAspectRatio={kirp ? 'xMidYMid slice' : 'xMidYMid meet'}
+  aria-hidden="true"
+  focusable="false"
+  data-sahne={`${slug}-${numara}`}
+>
+  <rect width="400" height="300" fill="#c8662f"></rect>
+  <rect y="0" width="400" height="22" fill="url(#meander)"></rect>
+  <rect y="23" width="400" height="3" fill="#121010"></rect>
+  <slot />
+  <rect y="259" width="400" height="3" fill="#121010"></rect>
+  <rect y="264" width="400" height="22" fill="url(#meander)"></rect>
+  <rect y="288" width="400" height="3" fill="#121010"></rect>
+</svg>

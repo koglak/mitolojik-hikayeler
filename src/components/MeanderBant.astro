@@ -1,0 +1,32 @@
+---
+interface Props {
+  kimlik?: string;
+}
+
+const { kimlik = 'meander' } = Astro.props;
+const desen = `${kimlik}-desen`;
+---
+
+<svg class="meander-bant" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id={desen} width="28" height="28" patternUnits="userSpaceOnUse">
+      <path
+        d="M0 25H28M0 3H28M20 25V7H6V19H16V11H10"
+        fill="none"
+        stroke="#d9ae75"
+        stroke-width="1.8"
+        stroke-linecap="square"
+      ></path>
+    </pattern>
+  </defs>
+  <rect width="100%" height="28" fill={`url(#${desen})`}></rect>
+</svg>
+
+<style>
+  .meander-bant {
+    display: block;
+    width: 100%;
+    height: 28px;
+    opacity: 0.85;
+  }
+</style>

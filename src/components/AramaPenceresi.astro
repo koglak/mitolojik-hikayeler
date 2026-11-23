@@ -1,0 +1,111 @@
+---
+import { aramaKayitlari } from '../lib/aramaKayitlari';
+
+const kayitlar = await aramaKayitlari();
+---
+
+<div class="perde" data-arama-perdesi>
+  <div class="pencere" role="dialog" aria-modal="true" aria-labelledby="arama-basligi">
+    <button class="kapat" type="button" data-arama-kapat aria-label="Kapat">×</button>
+    <h2 id="arama-basligi">Ne arıyorsun?</h2>
+    <label class="arama-alani">
+      <span aria-hidden="true">⌕</span>
+      <input type="search" data-arama-kutusu placeholder="Medusa, Efes, Athena..." autocomplete="off" aria-label="Sitede ara" />
+    </label>
+    <div class="arama-sonuclari" data-arama-sonuclari aria-live="polite"></div>
+  </div>
+</div>
+<script type="application/json" id="arama-veri" set:html={JSON.stringify(kayitlar)} />
+
+<script>
+  import '../scripts/arama';
+</script>
+
+<style>
+  .perde {
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    background: rgba(0, 0, 0, 0.72);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    backdrop-filter: blur(8px);
+  }
+  .perde:global(.acik) {
+    display: flex;
+  }
+  .pencere {
+    width: min(690px, 100%);
+    max-height: min(780px, 92vh);
+    overflow: auto;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    position: relative;
+    padding: 48px 56px;
+  }
+  h2 {
+    font: 500 52px/1 var(--baslik-font);
+    margin: 0 0 24px;
+  }
+  .kapat {
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    background: transparent;
+    border: 1px solid var(--cizgi);
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+  }
+  .arama-alani {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--cizgi);
+    padding: 12px 15px;
+    margin: 0 0 20px;
+  }
+  .arama-alani input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 16px;
+    flex: 1;
+    min-width: 0;
+  }
+  .arama-alani input::placeholder {
+    color: var(--soluk);
+  }
+  .arama-sonuclari {
+    display: grid;
+    gap: 8px;
+  }
+  .arama-sonuclari :global(.sonuc) {
+    display: block;
+    padding: 14px 16px;
+    border: 1px solid var(--cizgi);
+    background: var(--zemin);
+  }
+  .arama-sonuclari :global(.sonuc:hover) {
+    border-color: var(--vurgu);
+  }
+  .arama-sonuclari :global(.sonuc strong) {
+    display: block;
+    font: 500 24px/1.2 var(--baslik-font);
+  }
+  .arama-sonuclari :global(.sonuc small),
+  .arama-sonuclari :global(.bos) {
+    color: var(--soluk);
+    font-size: 13px;
+  }
+  @media (max-width: 740px) {
+    .pencere {
+      padding: 42px 22px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+  }
+</style>

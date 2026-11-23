@@ -1,0 +1,229 @@
+---
+import MitGorseli from './MitGorseli.astro';
+import { romaRakami } from '../lib/romaRakami';
+import { basligiBol } from '../lib/baslikParcalari';
+
+interface Props {
+  slug: string;
+  baslik: string;
+  ozet: string;
+  sure: number;
+  tur: string;
+  kartlar: { metin: string }[];
+  sesYollari: (string | null)[];
+}
+
+const { slug, baslik, ozet, sure, tur, kartlar, sesYollari } = Astro.props;
+const sesVar = sesYollari.some(Boolean);
+const { ad, altBaslik } = basligiBol(baslik);
+const toplam = romaRakami(kartlar.length);
+---
+
+<header class="ust">
+  <a href="/" class="geri" aria-label="Ana sayfaya dön"><span aria-hidden="true">✺</span></a>
+  <div class="cubuk" aria-hidden="true"><div class="dolu" data-ilerleme-cubugu></div></div>
+  {
+    sesVar && (
+      <button type="button" class="ses-dugmesi" data-ses-dugmesi aria-pressed="false" aria-label="Sesli dinle">
+        <span data-ses-ikon>🔊</span>
+      </button>
+    )
+  }
+</header>
+
+<section class="kart kapak aktif" data-kart data-ses={sesYollari[0] ?? undefined}>
+  <div class="kapak-gorseli">
+    <MitGorseli slug={slug} idEki="kapak" />
+  </div>
+  <div class="kapak-metni">
+    <div class="ust-yazi">Yunan · {tur}</div>
+    <h1>{ad}</h1>
+    {altBaslik && <p class="alt-baslik">{altBaslik}</p>}
+    <p class="ozet">{ozet}</p>
+    <p class="bilgi">◷ {sure} dakika · {kartlar.length} kart</p>
+    <p class="ipucu" aria-hidden="true">Kaydır ↓</p>
+  </div>
+</section>
+
+{
+  kartlar.map((kart, i) => (
+    <section class="kart anlati" data-kart data-anlati data-ses={sesYollari[i + 1] ?? undefined}>
+      <span class="filigran" aria-hidden="true">
+        {romaRakami(i + 1)}
+      </span>
+      <div class="ust-yazi">
+        {romaRakami(i + 1)} / {toplam}
+      </div>
+      <p class="metin">{kart.metin}</p>
+    </section>
+  ))
+}
+
+<style>
+  .ust {
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 16px;
+    padding-top: max(10px, env(safe-area-inset-top));
+    background: color-mix(in srgb, var(--zemin) 82%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--cizgi);
+  }
+  .geri {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--vurgu);
+    border-radius: 50%;
+    color: var(--vurgu);
+    font: 26px/1 var(--baslik-font);
+    flex: none;
+  }
+  .cubuk {
+    flex: 1;
+    height: 2px;
+    background: var(--cizgi);
+    overflow: hidden;
+  }
+  .dolu {
+    height: 100%;
+    width: 0;
+    background: var(--vurgu);
+    transition: width 0.25s ease;
+  }
+  .ses-dugmesi {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--cizgi);
+    background: var(--yuzey);
+    font-size: 1.1rem;
+    flex: none;
+  }
+  .ses-dugmesi[aria-pressed='true'] {
+    border-color: var(--vurgu);
+    background: var(--vurgu);
+  }
+
+  .kapak {
+    justify-content: flex-end;
+    padding: 0 0 40px;
+    position: relative;
+    max-width: none;
+  }
+  .kapak-gorseli {
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 62dvh;
+    overflow: hidden;
+  }
+  .kapak-gorseli :global(.mit-gorseli) {
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: saturate(0.85) brightness(0.8);
+  }
+  .kapak-gorseli::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, var(--zemin) 4%, transparent 60%);
+  }
+  .kapak-metni {
+    position: relative;
+    width: 100%;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .kapak h1 {
+    font: 500 clamp(56px, 16vw, 96px) / 0.92 var(--baslik-font);
+    letter-spacing: -0.04em;
+    margin: 18px 0 10px;
+  }
+  .alt-baslik {
+    font: italic 400 clamp(22px, 6vw, 30px) / 1.2 var(--baslik-font);
+    color: var(--vurgu);
+    margin-bottom: 16px;
+  }
+  .ozet {
+    color: var(--soluk);
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 30rem;
+    margin-bottom: 18px;
+  }
+  .bilgi {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--soluk);
+    margin: 0;
+  }
+  .ipucu {
+    margin: 26px 0 0;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--vurgu);
+    animation: zipla 1.6s ease-in-out infinite;
+  }
+
+  .anlati {
+    position: relative;
+    overflow: hidden;
+  }
+  .anlati::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 42%, var(--parilti) 0, transparent 62%);
+    pointer-events: none;
+  }
+  .filigran {
+    position: absolute;
+    right: 8px;
+    bottom: 40px;
+    font: 500 clamp(160px, 46vw, 260px) / 0.8 var(--baslik-font);
+    color: var(--vurgu);
+    opacity: 0.07;
+    pointer-events: none;
+  }
+  .metin {
+    position: relative;
+    font: 500 clamp(26px, 7vw, 36px) / 1.32 var(--baslik-font);
+    margin: 24px 0 0;
+    opacity: 0.35;
+    transform: translateY(8px);
+    transition: opacity 0.5s var(--yumusak), transform 0.5s var(--yumusak);
+  }
+  .anlati:global(.aktif) .metin {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .metin {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @media (max-height: 640px) {
+    .kapak-gorseli {
+      height: 48dvh;
+    }
+    .kapak h1 {
+      font-size: clamp(44px, 12vw, 72px);
+    }
+  }
+  @keyframes zipla {
+    50% {
+      transform: translateY(6px);
+    }
+  }
+</style>

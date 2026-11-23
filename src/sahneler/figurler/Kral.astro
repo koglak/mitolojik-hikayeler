@@ -1,0 +1,47 @@
+---
+import type { FigurKonumu } from '../../lib/figur';
+import Insan, { type Durus, type Kol } from './Insan.astro';
+
+export type Nitelik = 'asa' | 'yildirim' | 'kanatli-sapka' | 'cekic' | 'mizrak-ve-aigis';
+
+interface Props extends FigurKonumu {
+  durus?: Durus;
+  onKol?: Kol;
+  arkaKol?: Kol;
+  nitelik?: Nitelik;
+  cins?: 'erkek' | 'kadin';
+}
+
+const { nitelik = 'asa', onKol, arkaKol = 'one', cins = 'erkek', ...digerleri } = Astro.props;
+const varsayilanOnKol: Record<Nitelik, Kol> = {
+  asa: 'one',
+  yildirim: 'yukari',
+  'kanatli-sapka': 'one',
+  cekic: 'yukari',
+  'mizrak-ve-aigis': 'yukari',
+};
+const kol = onKol ?? varsayilanOnKol[nitelik];
+const basY = cins === 'kadin' ? -134 : -138;
+---
+
+<Insan {...digerleri} cins={cins} uzunGiysi={true} onKol={kol} arkaKol={arkaKol}>
+  <g fill="#121010">
+    {nitelik === 'asa' && <path d="M36 -4 L40 -150" stroke="#121010" stroke-width="3" stroke-linecap="round" />}
+    {nitelik === 'asa' && <circle cx="40" cy="-152" r="5" />}
+    {nitelik === 'yildirim' && (
+      <path d="M18 -200 L32 -176 L24 -173 L40 -142 L16 -170 L25 -172 Z" />
+    )}
+    {nitelik === 'kanatli-sapka' && <path d={`M-14 ${basY - 6} L14 ${basY - 6} L12 ${basY - 14} L-12 ${basY - 14} Z`} />}
+    {nitelik === 'kanatli-sapka' && <path d={`M-10 ${basY - 12} L-24 ${basY - 26} L-14 ${basY - 10} Z`} />}
+    {nitelik === 'cekic' && <path d="M24 -158 L24 -128" stroke="#121010" stroke-width="3" />}
+    {nitelik === 'cekic' && <rect x="16" y="-168" width="16" height="10" />}
+    {nitelik === 'mizrak-ve-aigis' && <path d="M-20 -6 L34 -196" stroke="#121010" stroke-width="3" stroke-linecap="round" />}
+    {nitelik === 'mizrak-ve-aigis' && <path d={`M-12 ${basY - 6} C-12 ${basY - 22} 12 ${basY - 22} 13 ${basY - 6} Z`} />}
+    {nitelik === 'mizrak-ve-aigis' && <path d={`M-10 ${basY - 16} C-2 ${basY - 36} 16 ${basY - 34} 22 ${basY - 20} C10 ${basY - 26} -2 ${basY - 26} -10 ${basY - 16} Z`} />}
+  </g>
+  <g fill="none" stroke="#c8662f" stroke-width="1.3">
+    {nitelik === 'asa' && <path d={`M-10 ${basY - 8} L10 ${basY - 10}`} />}
+    {nitelik === 'yildirim' && <path d="M24 -180 L28 -172" />}
+    {nitelik === 'mizrak-ve-aigis' && <path d="M-6 -118 L8 -118 M-6 -110 L8 -110" stroke-dasharray="2 2" />}
+  </g>
+</Insan>

@@ -1,0 +1,13 @@
+---
+import { figurDonusumu, type FigurKonumu } from '../../lib/figur';
+
+interface Props extends FigurKonumu {}
+
+const { x, y, olcek = 1, yon = 'sag' } = Astro.props;
+---
+
+<g transform={figurDonusumu(x, y, olcek, yon)}>
+  <path d="M0 0 C-14 -10 -8 -28 2 -42 C4 -30 16 -24 11 -8 C9 -2 4 0 0 0 Z" fill="#121010"></path>
+  <path d="M-8 -6 C-14 -14 -12 -22 -8 -28 C-6 -20 -2 -16 -4 -6 Z" fill="#121010"></path>
+  <path d="M1 -6 C-1 -14 1 -22 3 -30" fill="none" stroke="#c8662f" stroke-width="1.3" stroke-linecap="round"></path>
+</g>

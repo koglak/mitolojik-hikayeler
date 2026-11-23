@@ -1,0 +1,174 @@
+:root {
+  --zemin: #10151c;
+  --yuzey: #19202a;
+  --yuzey-2: #202834;
+  --yazi: #f0e6d6;
+  --soluk: #aaa9a4;
+  --vurgu: #d9ae75;
+  --hero: #111821;
+  --kart-basligi: #f4e9d7;
+  --dogru: #8fcf9c;
+  --yanlis: #f29a8e;
+  --cizgi: rgba(223, 202, 169, 0.19);
+  --parilti: rgba(190, 135, 73, 0.12);
+  --baslik-font: 'Cormorant Garamond', Georgia, serif;
+  --govde-font: 'DM Sans', Arial, sans-serif;
+  --yunan-font: 'GFS Didot', 'Cormorant Garamond', Georgia, serif;
+  --yumusak: cubic-bezier(0.2, 0.8, 0.2, 1);
+  color-scheme: dark;
+  font-synthesis: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--zemin);
+  color: var(--yazi);
+  font-family: var(--govde-font);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--baslik-font);
+  font-weight: 500;
+  text-wrap: balance;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--vurgu);
+  outline-offset: 4px;
+}
+
+::selection {
+  background: var(--vurgu);
+  color: var(--zemin);
+}
+
+.site-kabugu {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 5.5%;
+}
+
+.ust-yazi {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  font-size: 10px;
+  color: var(--vurgu);
+}
+
+.ust-yazi::before {
+  content: '';
+  width: 30px;
+  height: 1px;
+  background: var(--vurgu);
+}
+
+.dugme-dolu,
+.dugme-cizgili {
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  min-height: 48px;
+}
+
+.dugme-dolu {
+  border: 1px solid var(--vurgu);
+  background: var(--vurgu);
+  color: var(--zemin);
+  padding: 16px 27px;
+  letter-spacing: 0.18em;
+  gap: 36px;
+  transition: transform 0.2s, filter 0.2s;
+}
+
+.dugme-dolu:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.08);
+}
+
+.dugme-cizgili {
+  border: 1px solid var(--cizgi);
+  background: transparent;
+  color: var(--yazi);
+  padding: 15px 19px;
+  letter-spacing: 0.12em;
+  transition: border-color 0.2s;
+}
+
+.dugme-cizgili:hover {
+  border-color: var(--vurgu);
+}
+
+.gizli {
+  display: none !important;
+}
+
+@media (max-width: 480px) {
+  .site-kabugu {
+    padding: 0 18px;
+  }
+  .dugme-dolu {
+    padding: 15px 18px;
+    gap: 15px;
+  }
+  .dugme-cizgili {
+    padding: 15px 13px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+[lang='el'] {
+  font-family: var(--yunan-font);
+}

@@ -1,0 +1,34 @@
+---
+interface Props {
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  kirik?: boolean;
+  renk?: 'siyah' | 'kil';
+}
+
+const { x1, y1, x2, y2, kirik = false, renk = 'siyah' } = Astro.props;
+const uzunluk = Math.hypot(x2 - x1, y2 - y1);
+const halkaSayisi = Math.max(2, Math.round(uzunluk / 9));
+const aci = (Math.atan2(y2 - y1, x2 - x1) * 180) / Math.PI;
+const gorunenHalkalar = kirik ? Math.ceil(halkaSayisi / 2) : halkaSayisi;
+const halkalar = Array.from({ length: gorunenHalkalar }, (_, i) => {
+  const oran = (i + 0.5) / halkaSayisi;
+  return { cx: x1 + (x2 - x1) * oran, cy: y1 + (y2 - y1) * oran, dikey: i % 2 === 1 };
+});
+---
+
+<g fill="none" stroke={renk === 'kil' ? '#c8662f' : '#121010'} stroke-width={renk === 'kil' ? 1.8 : 2.4}>
+  {
+    halkalar.map((halka) => (
+      <ellipse
+        cx={halka.cx}
+        cy={halka.cy}
+        rx={halka.dikey ? 2.5 : 5.5}
+        ry={halka.dikey ? 5.5 : 3}
+        transform={`rotate(${aci} ${halka.cx} ${halka.cy})`}
+      />
+    ))
+  }
+</g>

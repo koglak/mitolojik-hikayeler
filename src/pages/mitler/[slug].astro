@@ -1,0 +1,185 @@
+---
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import { getCollection, render } from 'astro:content';
+import Temel from '../../layouts/Temel.astro';
+import KartAkisi from '../../components/KartAkisi.astro';
+import BugunBag from '../../components/BugunBag.astro';
+import MitGorseli from '../../components/MitGorseli.astro';
+import { basligiBol } from '../../lib/baslikParcalari';
+
+export async function getStaticPaths() {
+  const mitler = (await getCollection('mitler')).sort((a, b) => a.data.sira - b.data.sira);
+  return mitler.map((mit, i) => ({
+    params: { slug: mit.id },
+    props: { mit, siradaki: mitler[(i + 1) % mitler.length] },
+  }));
+}
+
+const { mit, siradaki } = Astro.props;
+const { Content } = await render(mit);
+const slug = mit.id;
+
+function sesYolu(no: number): string | null {
+  const yol = `/ses/${slug}/${no}.mp3`;
+  return existsSync(join(process.cwd(), 'public', yol)) ? yol : null;
+}
+
+const sesYollari = Array.from({ length: mit.data.kartlar.length + 1 }, (_, no) => sesYolu(no));
+const sonrakiFarkli = siradaki.id !== slug;
+---
+
+<Temel baslik={`${mit.data.baslik} | Mitolojik Hikâyeler`} aciklama={mit.data.ozet}>
+  <main class="akis" data-akis data-slug={slug}>
+    <KartAkisi
+      slug={slug}
+      baslik={mit.data.baslik}
+      ozet={mit.data.ozet}
+      sure={mit.data.sure}
+      tur={mit.data.tur}
+      kartlar={mit.data.kartlar}
+      sesYollari={sesYollari}
+    />
+
+    <section class="kart" data-kart>
+      <BugunBag kelime={mit.data.bugunBag.kelime} aciklama={mit.data.bugunBag.aciklama} />
+    </section>
+
+    <section class="kart uzun son" data-kart>
+      {
+        sonrakiFarkli && (
+          <a class="siradaki" href={`/mitler/${siradaki.id}`}>
+            <div class="siradaki-gorseli">
+              <MitGorseli slug={siradaki.id} idEki="siradaki" />
+            </div>
+            <div class="siradaki-govdesi">
+              <div class="ust-yazi">Sıradaki mitos</div>
+              <strong>{basligiBol(siradaki.data.baslik).ad}</strong>
+              <span class="siradaki-alt">{basligiBol(siradaki.data.baslik).altBaslik}</span>
+              <span class="siradaki-ok">Hikâyeyi oku ↗</span>
+            </div>
+          </a>
+        )
+      }
+      <div class="ayirac" aria-hidden="true">✺</div>
+      <details class="uzun-versiyon">
+        <summary>Uzun versiyonu oku</summary>
+        <div class="metin-govde"><Content /></div>
+      </details>
+      <a href="/mitler/" class="dugme-cizgili anasayfa">Tüm mitolojik hikâyeler</a>
+    </section>
+  </main>
+</Temel>
+
+<script>
+  import '../../scripts/hikaye';
+</script>
+
+<style is:global>
+  html,
+  body {
+    height: 100%;
+  }
+  body:has(.akis) {
+    overflow: hidden;
+  }
+  .akis {
+    height: 100dvh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    overscroll-behavior-y: contain;
+  }
+  .kart {
+    min-height: 100dvh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 80px 24px 48px;
+  }
+  .kart.uzun {
+    justify-content: flex-start;
+  }
+</style>
+
+<style>
+  .siradaki {
+    display: block;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    transition: border-color 0.2s;
+  }
+  .siradaki:hover {
+    border-color: var(--vurgu);
+  }
+  .siradaki-gorseli {
+    height: 200px;
+    overflow: hidden;
+  }
+  .siradaki-gorseli :global(.mit-gorseli) {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .siradaki-govdesi {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 24px 24px;
+  }
+  .siradaki strong {
+    font: 500 38px/1.05 var(--baslik-font);
+    color: var(--kart-basligi);
+    margin: 14px 0 4px;
+  }
+  .siradaki-alt {
+    font: italic 400 19px/1.3 var(--baslik-font);
+    color: var(--vurgu);
+  }
+  .siradaki-ok {
+    border-top: 1px solid var(--cizgi);
+    margin-top: 18px;
+    padding-top: 16px;
+    color: var(--vurgu);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .ayirac {
+    text-align: center;
+    color: var(--vurgu);
+    font-size: 26px;
+    margin: 36px 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .ayirac::before,
+  .ayirac::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--cizgi);
+  }
+  .uzun-versiyon summary {
+    cursor: pointer;
+    padding: 14px 0;
+    min-height: 48px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--vurgu);
+  }
+  .metin-govde {
+    font: 19px/1.8 var(--baslik-font);
+    color: var(--yazi);
+  }
+  .anasayfa {
+    margin-top: 28px;
+    align-self: flex-start;
+  }
+</style>

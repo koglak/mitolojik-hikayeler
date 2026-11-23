@@ -1,0 +1,44 @@
+---
+import Temel from '../layouts/Temel.astro';
+import SiteBasligi from '../components/SiteBasligi.astro';
+---
+
+<Temel baslik="Kayboldun | Mitolojik Hikâyeler" aciklama="Aradığın sayfa bulunamadı.">
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main class="kayip">
+      <div class="ust-yazi">Hata 404</div>
+      <h1>Bu yol <em>Hades'e</em> çıkıyor.</h1>
+      <p>Aradığın sayfa yeraltı dünyasında kaybolmuş olabilir. Orpheus'un aksine, arkana bakmadan geri dön.</p>
+      <a href="/" class="dugme-dolu">Ana sayfaya dön <span aria-hidden="true">↗</span></a>
+    </main>
+  </div>
+</Temel>
+
+<style>
+  .kayip {
+    min-height: calc(100dvh - 88px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 0;
+  }
+  h1 {
+    font: 500 clamp(56px, 9vw, 110px) / 0.92 var(--baslik-font);
+    letter-spacing: -0.04em;
+    margin: 28px 0 24px;
+    max-width: 800px;
+  }
+  h1 em {
+    font-weight: 400;
+    color: var(--vurgu);
+  }
+  p {
+    color: var(--soluk);
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 440px;
+    margin-bottom: 34px;
+  }
+</style>

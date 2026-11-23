@@ -1,0 +1,34 @@
+---
+import { figurDonusumu, type FigurKonumu } from '../../lib/figur';
+
+interface Props extends FigurKonumu {}
+
+const { x, y, olcek = 1, yon = 'sag' } = Astro.props;
+const yapraklar = [
+  [-22, -120, 18, 9, -30],
+  [20, -126, 18, 9, 25],
+  [-4, -146, 16, 8, -5],
+  [-30, -96, 15, 7, -40],
+  [28, -100, 15, 7, 35],
+  [6, -108, 14, 7, 10],
+];
+---
+
+<g transform={figurDonusumu(x, y, olcek, yon)}>
+  <path d="M-5 0 C-3 -30 -6 -60 -2 -90 L3 -90 C2 -60 6 -30 6 0 Z" fill="#121010"></path>
+  <g stroke="#121010" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M0 -80 L-24 -110"></path>
+    <path d="M1 -84 L22 -118"></path>
+    <path d="M0 -90 L-2 -140"></path>
+  </g>
+  <g fill="#121010">
+    {yapraklar.map(([cx, cy, rx, ry, aci]) => (
+      <ellipse cx={cx} cy={cy} rx={rx} ry={ry} transform={`rotate(${aci} ${cx} ${cy})`} />
+    ))}
+  </g>
+  <g fill="none" stroke="#c8662f" stroke-width="1.2" stroke-linecap="round">
+    {yapraklar.map(([cx, cy, rx, , aci]) => (
+      <path d={`M${cx - rx + 4} ${cy} L${cx + rx - 4} ${cy}`} transform={`rotate(${aci} ${cx} ${cy})`} />
+    ))}
+  </g>
+</g>

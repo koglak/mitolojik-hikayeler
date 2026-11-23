@@ -1,0 +1,16 @@
+---
+import VazoSahnesi from '../VazoSahnesi.astro';
+import Insan from '../figurler/Insan.astro';
+import Agac from '../figurler/Agac.astro';
+
+const ozellikler = Astro.props;
+---
+
+<VazoSahnesi {...ozellikler} slug="prometheus" numara={2}>
+  <Insan x={150} y={256} olcek={1.3} durus="ayakta" onKol="ileri-asagi" arkaKol="geri" />
+  <Insan x={238} y={256} olcek={0.62} durus="ayakta" onKol="yukari" arkaKol="asagi" yon="sol" />
+  <Insan x={276} y={256} olcek={0.6} cins="kadin" durus="ayakta" onKol="yukari" yon="sol" />
+  <Insan x={312} y={256} olcek={0.58} durus="yuruyen" onKol="one" yon="sol" />
+  <Insan x={350} y={256} olcek={0.55} cins="kadin" durus="ayakta" onKol="yukari" arkaKol="yukari" yon="sol" />
+  <Agac x={46} y={256} olcek={0.9} />
+</VazoSahnesi>

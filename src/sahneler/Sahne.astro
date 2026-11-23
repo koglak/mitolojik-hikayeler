@@ -1,0 +1,26 @@
+---
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+import { sahneYolu } from '../lib/sahneYolu';
+import VazoSahnesi from './VazoSahnesi.astro';
+
+interface Props {
+  slug: string;
+  numara: number;
+  sinif?: string;
+  kirp?: boolean;
+}
+
+const { slug, numara, sinif, kirp } = Astro.props;
+const sahneModulleri = import.meta.glob<{ default: AstroComponentFactory }>('/src/sahneler/*/[0-9]*.astro', {
+  eager: true,
+});
+const SahneBileseni = sahneModulleri[sahneYolu(slug, numara)]?.default;
+---
+
+{
+  SahneBileseni ? (
+    <SahneBileseni sinif={sinif} kirp={kirp} />
+  ) : (
+    <VazoSahnesi slug={slug} numara={numara} sinif={sinif} kirp={kirp} />
+  )
+}

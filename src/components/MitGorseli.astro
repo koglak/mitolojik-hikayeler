@@ -1,0 +1,36 @@
+---
+import { mitGorseli } from '../lib/mitGorselleri';
+
+interface Props {
+  slug: string;
+  sinif?: string;
+  idEki?: string;
+}
+
+const { slug, sinif, idEki = 'kart' } = Astro.props;
+const kimlik = `${slug}-${idEki}`;
+const { palet, figur } = mitGorseli(slug);
+const [acik, koyu, cizgi] = palet;
+const renkliFigur = figur.replaceAll('{b}', koyu).replaceAll('{c}', cizgi).replaceAll('{id}', kimlik);
+---
+
+<svg
+  class:list={['mit-gorseli', sinif]}
+  viewBox="0 0 440 360"
+  preserveAspectRatio="xMidYMid slice"
+  aria-hidden="true"
+  focusable="false"
+>
+  <defs>
+    <linearGradient id={`${kimlik}-degrade`} x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color={acik}></stop>
+      <stop offset="1" stop-color={koyu}></stop>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="360" fill={`url(#${kimlik}-degrade)`}></rect>
+  <circle cx="220" cy="172" r="138" stroke={cizgi} stroke-width="1.5" opacity=".35" fill="none"></circle>
+  <circle cx="220" cy="172" r="118" stroke={cizgi} stroke-width="1" opacity=".28" fill="none"></circle>
+  <g opacity=".16" stroke={cizgi} stroke-width="2"><path d="M0 47h440M0 321h440M40 0v360M400 0v360"></path></g>
+  <g set:html={renkliFigur} />
+  <path d="M0 341q100-27 220 0t220 0" stroke={cizgi} stroke-width="2" fill="none" opacity=".6"></path>
+</svg>

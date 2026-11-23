@@ -1,0 +1,17 @@
+---
+import VazoSahnesi from '../VazoSahnesi.astro';
+import Insan from '../figurler/Insan.astro';
+import Alev from '../figurler/Alev.astro';
+import Sutun from '../figurler/Sutun.astro';
+
+const ozellikler = Astro.props;
+---
+
+<VazoSahnesi {...ozellikler} slug="prometheus" numara={0}>
+  <Sutun x={46} y={256} yukseklik={180} />
+  <Sutun x={354} y={256} yukseklik={180} />
+  <Insan x={196} y={256} olcek={1.12} durus="kosan" onKol="yukari" arkaKol="geri">
+    <path d="M24 -158 L34 -178" stroke="#121010" stroke-width="4" stroke-linecap="round" />
+    <Alev x={35} y={-176} olcek={0.7} />
+  </Insan>
+</VazoSahnesi>
