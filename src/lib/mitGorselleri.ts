@@ -226,6 +226,58 @@ const gorseller: Record<string, MitGorseli> = {
       '<path d="M176 300h88c-6 14-20 22-44 22s-38-8-44-22ZM264 300c14-4 24-12 30-26" fill="{c}" stroke="{c}" stroke-width="4"/>' +
       '<path d="M178 296c-6-14-2-26 8-34 2 12 0 24-8 34Z" fill="{c}"/>',
   },
+  argonotlar: {
+    palet: ['#2f6a7a', '#122633', '#e8c77a'],
+    figur:
+      '<path d="M160 40c30-10 70-6 90 10-14 4-18 14-14 26 10 2 20 8 24 20-30 8-70 6-100-6 8-10 8-22 0-30 10-4 8-14 0-20Z" fill="{c}"/>' +
+      '<path d="M176 50l-6 40M200 46l-2 52M226 52l2 46" stroke="{b}" stroke-width="3" opacity=".7"/>' +
+      '<path d="M220 112v118" stroke="{c}" stroke-width="6"/>' +
+      '<path d="M226 120c60 20 80 60 76 100h-76Z" fill="{c}" opacity=".85"/>' +
+      '<path d="M60 236h320c-14 36-54 56-110 56H150c-50 0-80-20-90-56Z" fill="{c}"/>' +
+      '<path d="M60 236c-14-10-18-26-10-40 12 10 14 26 10 40ZM380 236c10-14 26-20 40-14-10 12-24 16-40 14Z" fill="{c}"/>' +
+      '<g fill="{b}"><circle cx="120" cy="256" r="5"/><circle cx="160" cy="258" r="5"/><circle cx="200" cy="258" r="5"/><circle cx="240" cy="258" r="5"/><circle cx="280" cy="258" r="5"/><circle cx="320" cy="256" r="5"/></g>' +
+      '<path d="M120 262l-14 40M160 264l-12 40M200 264l-10 40M240 264l-8 40M280 264l-6 40M320 262l-4 40" stroke="{c}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M40 322q30-10 60 0t60 0 60 0 60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="2" opacity=".6"/>',
+  },
+  pygmalion: {
+    palet: ['#8a6a5a', '#2a1e22', '#f2e6d0'],
+    figur:
+      '<path d="M140 316h160v20H140ZM156 296h128v20H156Z" fill="{c}"/>' +
+      '<circle cx="220" cy="78" r="26" fill="{c}"/>' +
+      '<path d="M196 70c-6-30 14-46 34-40 18 6 24 22 18 40-4-18-20-24-26-12-8-6-20-4-26 12Z" fill="{b}" opacity=".5"/>' +
+      '<path d="M210 104h20l2 14c26 6 38 26 36 52l-6 40c10 30 12 58 8 86H170c-4-28-2-56 8-86l-6-40c-2-26 10-46 36-52Z" fill="{c}"/>' +
+      '<path d="M186 200q34 16 68 0M180 240q40 14 80 0M178 270q42 12 84 0" fill="none" stroke="{b}" stroke-width="3" opacity=".55"/>' +
+      '<path d="M304 140l10-10M318 150h14M304 160l10 10" stroke="{c}" stroke-width="3" stroke-linecap="round"/>' +
+      '<path d="M120 140l-10-10M106 150H92M120 160l-10 10" stroke="{c}" stroke-width="3" stroke-linecap="round"/>' +
+      '<path d="M330 70c-8-14-28-10-28 4 0 16 28 28 28 28s28-12 28-28c0-14-20-18-28-4Z" fill="{c}" opacity=".8"/>',
+  },
+  'teumessos-tilkisi': {
+    palet: ['#7a6a4a', '#1e1c2a', '#ead9b0'],
+    figur:
+      '<path d="M60 200c20-30 60-40 100-30l30-30 8 32c14 6 20 16 18 26l-26 4-20 30-12 40h-12l4-40-30 10-16 30h-12l8-40c-40 10-70 0-70-24 20 0 30-4 30-8Z" fill="{c}"/>' +
+      '<path d="M252 196c18-22 44-30 70-26l26-28 8 30c18 4 30 14 34 28l-30 2-14 26 6 44h-12l-12-36-40 4-14 32h-12l6-40c-20-6-30-18-30-34-14 4-30 14-40 24 4-16 20-26 54-26Z" fill="{c}"/>' +
+      '<circle cx="194" cy="166" r="3" fill="{b}"/><circle cx="352" cy="168" r="3" fill="{b}"/>' +
+      '<path d="M40 300h360" stroke="{c}" stroke-width="3"/>' +
+      '<path d="M230 300c4-10 12-14 20-12M120 300c6-8 12-10 20-8" fill="none" stroke="{c}" stroke-width="2" opacity=".6"/>' +
+      '<g fill="{c}"><circle cx="90" cy="60" r="3"/><circle cx="140" cy="44" r="2"/><circle cx="300" cy="50" r="4"/><circle cx="350" cy="80" r="2"/><circle cx="250" cy="90" r="2"/></g>' +
+      '<path d="M90 60L140 44M300 50l50 30" stroke="{c}" stroke-width="1" opacity=".5"/>',
+  },
+  tantalos: {
+    palet: ['#5a6a4a', '#1c2420', '#e6d2a0'],
+    figur:
+      '<path d="M150 30c40-14 100-12 140 4 10 16 6 34-10 44-40 10-90 10-124-2-16-12-18-32-6-46Z" fill="{c}"/>' +
+      '<path d="M180 46l20 10M236 40l-10 18M262 52l-20 8" stroke="{b}" stroke-width="3" opacity=".6"/>' +
+      '<path d="M60 120c40-10 80-4 120 10M380 116c-40-8-80 0-110 18" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round"/>' +
+      '<g fill="{c}"><circle cx="96" cy="136" r="11"/><circle cx="140" cy="142" r="10"/><path d="M118 132c-8 4-10 18 0 26 10-8 8-22 0-26Z"/>' +
+      '<circle cx="336" cy="134" r="11"/><circle cx="296" cy="146" r="10"/><path d="M318 132c-8 4-10 18 0 26 10-8 8-22 0-26Z"/></g>' +
+      '<path d="M96 125v-6M140 132v-6M336 123v-6M296 136v-6" stroke="{c}" stroke-width="2"/>' +
+      '<circle cx="220" cy="196" r="18" fill="{c}"/>' +
+      '<path d="M190 176l-22-40M250 176l22-40" stroke="{c}" stroke-width="8" stroke-linecap="round"/>' +
+      '<path d="M200 216h40l6 50h-52Z" fill="{c}"/>' +
+      '<path d="M50 250q30-8 60 0t60 0 60 0 60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="3"/>' +
+      '<path d="M60 250h320l-20 70H80Z" fill="{c}" opacity=".25"/>' +
+      '<path d="M90 286q30-6 60 0t60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="2" opacity=".5"/>',
+  },
 };
 
 export function mitGorseli(slug: string): MitGorseli {

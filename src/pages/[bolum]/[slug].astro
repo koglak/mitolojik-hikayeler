@@ -8,22 +8,34 @@ import { bolumAnahtarlari, bolumler, bolumAdresi, kayitAdresi } from '../../lib/
 import { basligiBol } from '../../lib/baslikParcalari';
 import KayitSimgesi from '../../components/KayitSimgesi.astro';
 import { kayitSimgesi } from '../../lib/kayitSimgeleri';
+import KayitKarti from '../../components/KayitKarti.astro';
+import MeanderBant from '../../components/MeanderBant.astro';
+import { bolgeler } from '../../lib/bolgeler';
 
 export async function getStaticPaths() {
   const yollar = [];
   for (const bolum of bolumAnahtarlari) {
     const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
-    for (const [i, kayit] of kayitlar.entries()) {
+    for (const kayit of kayitlar) {
       yollar.push({
         params: { bolum: bolumler[bolum].yol, slug: kayit.id },
-        props: { bolum, kayit, sonraki: kayitlar[(i + 1) % kayitlar.length] },
+        props: {
+          bolum,
+          kayit,
+          ayniBolgedekiler:
+            bolum === 'kentler' && kayit.data.bolge
+              ? kayitlar.filter((diger) => diger.id !== kayit.id && diger.data.bolge === kayit.data.bolge)
+              : [],
+        },
       });
     }
   }
   return yollar;
 }
 
-const { bolum, kayit, sonraki } = Astro.props;
+const { bolum, kayit, ayniBolgedekiler } = Astro.props;
+const kentSayfasi = bolum === 'kentler';
+const kentinBolgesi = kayit.data.bolge ? bolgeler[kayit.data.bolge] : undefined;
 const { Content } = await render(kayit);
 const simgeVar = Boolean(kayitSimgesi(bolum, kayit.id));
 const mitler = await getCollection('mitler');
@@ -103,11 +115,28 @@ const ilgiliMitler = kayit.data.ilgiliMitler
       }
 
       {
-        sonraki.id !== kayit.id && (
-          <a class="sonraki" href={kayitAdresi(bolum, sonraki.id)}>
-            <span>Sıradaki</span>
-            <strong>{sonraki.data.ad}</strong>
-          </a>
+        kentinBolgesi && ayniBolgedekiler.length > 0 && (
+          <section class="ayni-bolge" aria-labelledby="ayni-bolge-baslik" style={`--bolge-rengi: ${kentinBolgesi.renk}`}>
+            <h2 id="ayni-bolge-baslik">
+              <span class="bolge-noktasi" aria-hidden="true" />
+              {kentinBolgesi.ad} bölgesindeki diğer kentler
+            </h2>
+            <ul>
+              {ayniBolgedekiler.map((kent) => (
+                <li>
+                  <KayitKarti adres={kayitAdresi(bolum, kent.id)} kayit={kent.data} bilgiSayisi={3} vurguRengi={kentinBolgesi.renk} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        !kentSayfasi && (
+          <div class="kapanis-deseni">
+            <MeanderBant kimlik="kayit-kapanis" />
+          </div>
         )
       }
     </main>
@@ -264,24 +293,45 @@ const ilgiliMitler = kayit.data.ilgiliMitler
     font: italic 400 17px/1.3 var(--baslik-font);
     color: var(--vurgu);
   }
-  .sonraki {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: 56px;
-    padding: 24px 0;
+  .ayni-bolge {
+    margin-top: 64px;
     border-top: 1px solid var(--cizgi);
-    text-align: right;
+    padding-top: 32px;
   }
-  .sonraki span {
-    font-size: 13px;
-    color: var(--soluk);
+  .ayni-bolge h2 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font: 500 36px/1.1 var(--baslik-font);
+    margin: 0 0 24px;
   }
-  .sonraki strong {
-    font: 500 40px/1.1 var(--baslik-font);
+  .bolge-noktasi {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--bolge-rengi);
+    flex-shrink: 0;
   }
-  .sonraki:hover strong {
-    color: var(--vurgu);
+  .ayni-bolge ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+  @media (max-width: 1050px) {
+    .ayni-bolge ul {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 740px) {
+    .ayni-bolge ul {
+      grid-template-columns: 1fr;
+    }
+  }
+  .kapanis-deseni {
+    margin-top: 64px;
   }
   @media (max-width: 640px) {
     .simgeli {
