@@ -17,6 +17,7 @@ konum:
   enlem: 37.9256
   boylam: 29.1253
 ilgiliMitler: ["persephone"]
+ilgiliTanrilar: ["hades", "kybele"]
 ---
 
 Hierapolis, "kutsal kent" demektir. Pamukkale'nin bembeyaz travertenlerinin hemen üstündeki düzlükte kuruldu. Travertenleri oluşturan kireçli sıcak sular, Roma döneminde kenti ünlü bir kaplıca merkezi yaptı.

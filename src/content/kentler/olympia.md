@@ -16,7 +16,9 @@ bolge: "yunanistan"
 konum:
   enlem: 37.6383
   boylam: 21.6300
-ilgiliMitler: []
+ilgiliMitler: ["herakles", "tantalos"]
+ilgiliTanrilar: ["hera", "kronos", "zeus"]
+ilgiliKahramanlar: ["herakles", "pelops"]
 ---
 
 Olympia bir kent değil, Alpheios ırmağının kıyısında, çam ağaçlı Kronos tepesinin eteğinde bir kutsal alandı. Burada Zeus'a adanmış tapınaklar, sunaklar ve armağan binaları vardı. Dört yılda bir bütün Yunan dünyası buraya gelirdi. Oyunlar sürerken savaşlar durur, yollar güvenli olurdu.

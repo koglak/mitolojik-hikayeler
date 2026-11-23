@@ -17,6 +17,7 @@ konum:
   enlem: 36.3436
   boylam: 30.1700
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Limyra, Toçak Dağı'nın eteğinde, dağın dibinden kaynayan suların oluşturduğu bir ovada kuruldu. MÖ 4. yüzyılın başında Likya'nın büyük bölümünü birleştiren kral Perikles burayı başkent yaptı. Dağın yamacındaki anıt mezarı, kadın heykelli sütunlarla taşınan bir tapınak biçimindeydi; heykelleri bugün Antalya Müzesi'ndedir.

@@ -17,6 +17,7 @@ konum:
   enlem: 38.8445
   boylam: 27.0008
 ilgiliMitler: []
+ilgiliTanrilar: ["nike"]
 ---
 
 Myrina, Güzelhisar Çayı'nın denize döküldüğü yerde, iki alçak tepenin üstüne kurulmuş küçük bir Aiol kentiydi. Herodotos onu anakaradaki on bir Aiol kentinden biri olarak sayar.

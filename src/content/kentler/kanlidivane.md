@@ -17,6 +17,7 @@ konum:
   enlem: 36.5272
   boylam: 34.1797
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Kanlıdivane, Erdemli'nin kuzeyindeki kireçtaşı arazide, yaklaşık altmış metre derinliğinde, duvarları dik bir obruğun kenarına kurulmuştu. Obruğun güney ucunda, Hellenistik dönemde yapılmış bir kule durur. Duvarlara oyulmuş kabartmalarda bir aile topluluğu ve bir asker görülür. Bugünkü adı, suçluların obruğa atıldığını anlatan bir halk söylencesinden gelir.

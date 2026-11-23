@@ -17,6 +17,7 @@ konum:
   enlem: 37.5300
   boylam: 27.2775
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Milet, Büyük Menderes'in ağzında, dört limanı olan bir yarımadaya kurulmuştu. Pausanias'a göre kente adını, Apollon'un oğlu Miletos verdi; Girit'ten kaçıp buraya yerleşmişti.

@@ -15,6 +15,7 @@ konum:
   enlem: 38.4189
   boylam: 27.1394
 ilgiliMitler: []
+ilgiliTanrilar: ["demeter", "nemesis", "poseidon"]
 ---
 
 Pausanias'a göre Büyük İskender, Pagos Dağı'nda, bugünkü Kadifekale'de avlandıktan sonra uyudu. Rüyasında iki Nemesis tanrıçası ona, Smyrnalılara bu dağın eteğinde yeni bir kent kurmalarını söylemesini buyurdu. Yeni Smyrna, Bayraklı'daki eski höyüğün yerine buraya kuruldu ve agorası kentin merkezi oldu.

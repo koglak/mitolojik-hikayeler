@@ -13,6 +13,8 @@ bilgiler:
     deger: "Pleiadlar, Hyadlar, peri Kalypso"
 kaynak: "Hesiodos, Theogonia 507–520; Apollodoros, Kütüphane 2.5.11; Ovidius, Dönüşümler 4.627–662; Homeros, Odysseia 1.52–54"
 ilgiliMitler: ["prometheus", "perseus-ve-medusa", "herakles", "titanlar-savasi"]
+ilgiliTanrilar: ["iapetos", "prometheus", "zeus"]
+ilgiliKahramanlar: ["herakles", "odysseus", "perseus"]
 ---
 
 Atlas, Titan Iapetos'un oğlu ve Prometheus'un kardeşiydi. Titanlar Olimposlu tanrılara karşı savaşıp yenildiğinde Zeus ona ağır bir ceza verdi. Atlas, dünyanın batı ucunda, Hesperidlerin bahçesinin yakınında durup geniş göğü başı ve kollarıyla sonsuza dek taşıyacaktı.

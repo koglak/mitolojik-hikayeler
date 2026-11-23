@@ -13,6 +13,9 @@ bilgiler:
     deger: "Paris'in Apollon'un yönlendirdiği oku"
 kaynak: "Homeros, İlyada; Statius, Akhilleis 1.133–134"
 ilgiliMitler: ["akhilleus", "truva-ati"]
+ilgiliKentler: ["truva"]
+ilgiliTanrilar: ["apollon"]
+ilgiliKahramanlar: ["agamemnon", "hektor", "paris", "patroklos", "peleus"]
 ---
 
 Akhilleus'un annesi Thetis bir deniz perisiydi, babası Peleus ölümlü bir kraldı. Thetis oğlunu ölümsüz yapmak istedi. Sonraki bir anlatıya göre onu Styks ırmağına daldırdı. Tuttuğu topuk ıslanmadı ve tek zayıf noktası olarak kaldı. Bu ayrıntı Homeros'ta yoktur; Romalı şair Statius'ta görülür.

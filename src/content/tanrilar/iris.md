@@ -11,6 +11,9 @@ bilgiler:
     deger: "Thaumas ve Elektra"
 kaynak: "Hesiodos, Theogonia 265–269, 780–806; Homeros, İlyada 8.397–425, 24.77–99; Ovidius, Dönüşümler 11.583–632"
 ilgiliMitler: []
+ilgiliTanrilar: ["hera", "hermes", "okeanos", "zeus"]
+ilgiliKahramanlar: ["akhilleus"]
+ilgiliKentler: ["olympos-dagi"]
 ---
 
 Iris, deniz tanrısı Thaumas ile Okeanos'un kızı Elektra'nın kızıydı. Kardeşleri kanatlı Harpyalar'dı. Adı gökkuşağı demektir ve gökkuşağının, onun gökle yer arasında açtığı yol olduğuna inanılırdı.

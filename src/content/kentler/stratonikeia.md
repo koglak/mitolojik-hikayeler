@@ -17,6 +17,7 @@ konum:
   enlem: 37.3133
   boylam: 28.0630
 ilgiliMitler: []
+ilgiliTanrilar: ["hekate", "zeus"]
 ---
 
 Stratonikeia, Selevkos hanedanından Antiokhos I'in kurduğu ve karısı Stratonike'nin adını verdiği bir kenttir. Strabon, kentin Selevkos krallarının yaptırdığı yapılarla süslendiğini yazar.

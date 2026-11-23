@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import { bolumAnahtarlari, bolumler, kayitAdresi } from './bolumler';
+import { bolumAnahtarlari, bolumler, kayitAdresi, mitAdresi } from './bolumler';
 
 export interface AramaKaydi {
   baslik: string;
@@ -14,7 +14,7 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
     baslik: mit.data.baslik,
     ozet: `${mit.data.ozet} ${mit.data.bugunBag.kelime}`,
     bolum: 'Hikâye',
-    adres: `/mitler/${mit.id}`,
+    adres: mitAdresi(mit.id),
   }));
   for (const bolum of bolumAnahtarlari) {
     const ogeler = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);

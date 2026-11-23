@@ -13,6 +13,8 @@ bilgiler:
     deger: "Kynossema, yani Köpeğin Mezarı (Gelibolu Yarımadası)"
 kaynak: "Homeros, İlyada 22.79–89, 24.747–760; Euripides, Hekabe; Apollodoros, Kütüphane 3.12.5; Ovidius, Dönüşümler 13.399–575"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["truva"]
+ilgiliKahramanlar: ["akhilleus", "hektor", "kassandra", "odysseus", "paris", "priamos"]
 ---
 
 Hekabe, Truva kralı Priamos'un karısıydı. Paris'e hamileyken bir rüya gördü: bir meşale doğurmuştu ve bu meşaleden çıkan ateş bütün kenti yakıyordu. Kâhinler doğacak çocuğun Truva'nın yıkımı olacağını söyledi. Bebek İda Dağı'na bırakıldı ama yaşadı ve rüya gerçek oldu.

@@ -17,6 +17,7 @@ konum:
   enlem: 36.7675
   boylam: 31.3889
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon", "athena"]
 ---
 
 Side, Manavgat'ın güneyinde denize uzanan dar bir burnun üstündedir. Kentin adı, buranın eski yerli dilinde "nar" anlamına gelir; sikkelerinin üstünde de bir nar görülür.

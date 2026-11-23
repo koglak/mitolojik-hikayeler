@@ -17,6 +17,8 @@ konum:
   enlem: 36.9614
   boylam: 30.8539
 ilgiliMitler: []
+ilgiliTanrilar: ["artemis"]
+ilgiliKahramanlar: ["kalkhas", "mopsos"]
 ---
 
 Perge, Aksu Çayı'nın, antik adıyla Kestros'un yakınında, düz bir ovada kurulmuştu. Pergeliler kentlerinin Truva Savaşı'ndan sonra kurulduğuna inanırdı: anlatıya göre savaştan dönen kâhinler Kalkhas ve Mopsos, yanlarındaki halkı buraya getirmişti. MS 2. yüzyılda kentin zengin kadın hayırseveri Plancia Magna, kent kapısının avlusuna bu efsanevi kurucuların heykellerini diktirdi.

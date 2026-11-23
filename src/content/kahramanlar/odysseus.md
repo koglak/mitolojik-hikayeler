@@ -14,7 +14,10 @@ bilgiler:
   - etiket: "Koruyucusu"
     deger: "Athena"
 kaynak: "Homeros, Odysseia; Apollodoros, Epitome 3.7, 5.14–15, 7.1–40"
-ilgiliMitler: ["truva-ati", "sisifos", "odysseus"]
+ilgiliMitler: ["truva-ati", "sisifos", "odysseus", "akhilleus"]
+ilgiliKentler: ["truva", "ithaka"]
+ilgiliTanrilar: ["athena", "poseidon"]
+ilgiliKahramanlar: ["penelope"]
 ---
 
 Odysseus, Truva Savaşı'na gitmemek için deli taklidi yaptı: tarlasını bir eşekle bir öküzü aynı sabana koşarak sürdü ve toprağa tuz ekti. Ama Palamedes bebek Telemakhos'u sabanın önüne koyunca Odysseus sabanı çevirdi ve hilesi ortaya çıktı. Savaşa katıldı ve on yıllık kuşatmayı tahta at hilesiyle bitiren o oldu.

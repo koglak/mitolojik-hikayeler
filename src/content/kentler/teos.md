@@ -17,6 +17,7 @@ konum:
   enlem: 38.1775
   boylam: 26.7850
 ilgiliMitler: []
+ilgiliTanrilar: ["dionysos"]
 ---
 
 Teos, bir yarımadanın boynunda, iki yanında birer liman olacak şekilde kurulmuştu. Herodotos'a göre Persler İonya'yı ele geçirdiğinde Teoslular gemilerine binip Trakya'ya göç etti ve orada Abdera kentini kurdu. Kent sonradan yeniden canlandı.

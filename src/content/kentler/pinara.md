@@ -17,6 +17,8 @@ konum:
   enlem: 36.4886
   boylam: 29.2575
 ilgiliMitler: []
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["menelaos"]
 ---
 
 Pınara, Ksanthos vadisinin batı kenarında, Akdağların eteğindeydi. Kentin arkasında yükselen kayalığın yüzü yüzlerce küçük kaya mezarıyla oyulmuştur; uzaktan bakınca kaya bir petek gibi görünür. Mezarlara ancak iple sarkıtılarak ulaşılabildiği düşünülür.

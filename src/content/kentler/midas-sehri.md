@@ -17,6 +17,8 @@ konum:
   enlem: 39.1860
   boylam: 30.7340
 ilgiliMitler: ["midas"]
+ilgiliTanrilar: ["apollon", "kybele"]
+ilgiliKahramanlar: ["midas"]
 ---
 
 Midas Şehri, Eskişehir'in güneyindeki Frigya dağlık bölgesinde, tüf kayalardan oluşan bir platonun üstündeki antik yerleşimdir. Kentin simgesi, kayalığın yüzüne oyulmuş, yaklaşık on yedi metre yüksekliğindeki Midas Anıtı'dır. Anıtın yüzeyi baştan aşağı geometrik desenlerle kaplıdır; ortasındaki niş, Frigyaların Ana Tanrıçası Matar'ın heykelinin durduğu yer olarak düşünülür.

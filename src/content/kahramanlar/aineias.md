@@ -13,6 +13,9 @@ bilgiler:
     deger: "Latium, İtalya"
 kaynak: "Homeros, İlyada 5.297–318, 20.293–308; Vergilius, Aeneis"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["truva"]
+ilgiliTanrilar: ["poseidon", "afrodit"]
+ilgiliKahramanlar: ["akhilleus", "diomedes"]
 ---
 
 Aineias, tanrıça Aphrodite'nin Truva soylusu Ankhises'ten olan oğluydu. İlyada'da tanrılar onu birkaç kez ölümden kurtarır. Diomedes ona ağır bir taş attığında annesi Aphrodite onu kollarına aldı. Akhilleus'un karşısında kaldığında ise Poseidon araya girdi ve onun soyunun Truvalıları gelecekte de yöneteceğini söyledi.

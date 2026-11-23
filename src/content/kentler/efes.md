@@ -17,6 +17,7 @@ konum:
   enlem: 37.9395
   boylam: 27.3417
 ilgiliMitler: []
+ilgiliTanrilar: ["artemis"]
 ---
 
 Efes, Küçük Menderes'in denize döküldüğü yerde kurulmuş bir liman kentiydi. Antik yazarlara göre kenti İon göçmenleri kurdu, ama bölgedeki yerleşim çok daha eskiye gider.

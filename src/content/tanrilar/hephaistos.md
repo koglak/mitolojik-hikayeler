@@ -13,6 +13,9 @@ bilgiler:
     deger: "Afrodit"
 kaynak: "Homeros, İlyada 1.590–594, 18.368–617; Hesiodos, İşler ve Günler 60–64; Aiskhylos, Zincire Vurulmuş Prometheus"
 ilgiliMitler: ["pandora", "prometheus", "akhilleus"]
+ilgiliKentler: ["olympos", "olympos-dagi"]
+ilgiliTanrilar: ["afrodit", "hera", "prometheus", "zeus"]
+ilgiliKahramanlar: ["akhilleus"]
 ---
 
 Hephaistos tanrılar arasında kusursuz olmayan tek tanrıydı: topaldı. Bir anlatıya göre Hera onu çirkin bulup Olimpos'tan aşağı fırlattı. İlyada'daki başka bir anlatıya göre ise annesini savunduğu için Zeus onu ayağından tutup attı. Bütün gün düştü ve güneş batarken Limni adasına yere çarptı.

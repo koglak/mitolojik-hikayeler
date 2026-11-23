@@ -12,6 +12,8 @@ bilgiler:
   - etiket: "Hikâyesini anlatan"
     deger: "Madauralı Apuleius, Altın Eşek"
 kaynak: "Apuleius, Dönüşümler (Altın Eşek) 4.28–6.24"
+ilgiliMitler: ["eros-ve-psykhe"]
+ilgiliTanrilar: ["eros", "persephone", "zeus", "afrodit"]
 ---
 
 Bir kralın en küçük kızı Psykhe öyle güzeldi ki insanlar Aphrodite'nin tapınaklarını bırakıp ona tapmaya başladı. Kıskanan Aphrodite, oğlu Eros'tan Psykhe'yi dünyanın en aşağılık yaratığına âşık etmesini istedi. Ama Eros Psykhe'yi görünce kendisi ona âşık oldu. Bir kehanet üzerine Psykhe bir canavarla evlenmek için dağın tepesine bırakıldı. Batı rüzgârı Zephyros onu alıp görkemli bir saraya taşıdı.

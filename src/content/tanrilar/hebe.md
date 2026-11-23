@@ -15,6 +15,9 @@ bilgiler:
     deger: "Herakles"
 kaynak: "Hesiodos, Theogonia 922, 950–955; Homeros, İlyada 4.1–3, 5.905; Odysseia 11.601–604"
 ilgiliMitler: ["herakles"]
+ilgiliTanrilar: ["ares", "hera", "zeus"]
+ilgiliKahramanlar: ["diomedes", "ganymedes", "herakles"]
+ilgiliKentler: ["olympos-dagi"]
 ---
 
 Hebe, Zeus ile Hera'nın kızıydı ve adı Yunancada "gençlik" demektir. Homeros'un anlatımında Olimpos'ta tanrılara nektar sunan, yani ölümsüzlerin içkisini dağıtan oydu. Kardeşi Ares, Diomedes tarafından yaralandığında onu yıkayıp giydiren de Hebe'ydi.

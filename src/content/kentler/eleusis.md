@@ -17,6 +17,7 @@ konum:
   enlem: 38.0411
   boylam: 23.5383
 ilgiliMitler: ["persephone"]
+ilgiliTanrilar: ["demeter", "hades", "persephone", "zeus"]
 ---
 
 Eleusis, Atina'nın batısında, Saronikos Körfezi'nin kıyısında kuruldu. Atina'dan buraya Kutsal Yol denen bir yol uzanırdı. Her sonbahar binlerce kişi bu yoldan yürüyerek gizemlere katılmaya gelirdi.

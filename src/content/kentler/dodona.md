@@ -16,7 +16,9 @@ bolge: "yunanistan"
 konum:
   enlem: 39.5464
   boylam: 20.7878
-ilgiliMitler: []
+ilgiliMitler: ["argonotlar"]
+ilgiliTanrilar: ["athena", "zeus"]
+ilgiliKahramanlar: ["odysseus"]
 ---
 
 Dodona, kuzeybatı Yunanistan'ın dağlarında, Tomaros dağının eteğindeki yüksek bir vadide kuruldu. Kışları sert, yazları serin bir yerdi. Burada bir tapınak yoktu, ilk zamanlarda yalnızca yaşlı bir meşe ağacı vardı. Zeus'un sesi bu ağaçtan gelirdi.

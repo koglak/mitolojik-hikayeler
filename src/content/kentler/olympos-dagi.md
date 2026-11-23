@@ -17,6 +17,7 @@ konum:
   enlem: 40.0859
   boylam: 22.3583
 ilgiliMitler: ["titanlar-savasi"]
+ilgiliTanrilar: ["apollon", "hephaistos", "hera", "kronos", "zeus"]
 ---
 
 Olympos, Thessalia ile Makedonya'nın arasında, Ege kıyısından birden yükselen bir dağdır. Zirvesi yılın büyük bölümünde karla, çoğu zaman da bulutla örtülüdür. Antik insanlar en tepeye çıkmaya pek kalkışmadı. Zirveye ilk kez 1913'te tırmanıldı.

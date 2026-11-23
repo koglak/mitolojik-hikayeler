@@ -13,6 +13,8 @@ bilgiler:
     deger: "Annesinin kader odununu ateşe atması"
 kaynak: "Apollodoros, Kütüphane 1.8.1–1.8.3; Homeros, İlyada 9.529–599; Ovidius, Dönüşümler 8.270–546; Bakkhylides 5"
 ilgiliMitler: ["atalante"]
+ilgiliTanrilar: ["ares", "artemis"]
+ilgiliKahramanlar: ["atalanta", "herakles", "iason"]
 ---
 
 Meleagros yedi günlükken kader tanrıçaları Moiralar annesi Althaia'ya göründü. Ocakta yanan odun tükendiğinde bebeğin de öleceğini söylediler. Althaia odunu hemen ateşten çekip söndürdü ve bir sandığa sakladı. Meleagros büyüyüp güçlü bir savaşçı oldu. Bazı anlatılara göre İason'un Argo'sunda da yolculuk etti.

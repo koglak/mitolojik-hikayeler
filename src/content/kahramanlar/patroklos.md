@@ -15,6 +15,8 @@ bilgiler:
     deger: "Hektor (Apollon ve Euphorbos'un yardımıyla)"
 kaynak: "Homeros, İlyada 11.599–848, 16, 23.62–107"
 ilgiliMitler: ["akhilleus"]
+ilgiliTanrilar: ["apollon"]
+ilgiliKahramanlar: ["agamemnon", "akhilleus", "hektor", "peleus", "sarpedon"]
 ---
 
 Patroklos küçük bir çocukken bir aşık kemiği oyununda tartıştığı arkadaşını istemeden öldürdü. Babası onu Phthia'ya, kral Peleus'un yanına götürdü. Patroklos orada Akhilleus'la birlikte büyüdü. Akhilleus'tan biraz büyüktü; babası ona, Akhilleus'a öğüt vermesini ve onu doğru yola çekmesini tembihlemişti.

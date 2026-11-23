@@ -13,6 +13,9 @@ bilgiler:
     deger: "Akhilleus"
 kaynak: "Hesiodos, Theogonia 984–985; Homeros, Odysseia 4.187–188; Proklos'un Aithiopis özeti; Ovidius, Dönüşümler 13.576–622; Strabon, Coğrafya 13.1.11"
 ilgiliMitler: ["akhilleus", "truva-ati"]
+ilgiliKentler: ["truva"]
+ilgiliTanrilar: ["eos", "hephaistos", "zeus"]
+ilgiliKahramanlar: ["akhilleus", "hektor", "nestor", "priamos"]
 ---
 
 Memnon, şafak tanrıçası Eos ile Truvalı prens Tithonos'un oğluydu. Eos Tithonos'a âşık olmuş, Zeus'tan onun için ölümsüzlük istemiş ama sonsuz gençlik istemeyi unutmuştu. Oğulları Memnon büyüyüp uzak güneydeki Etiyopyalıların kralı oldu. Hephaistos onun için Akhilleus'unki gibi bir zırh yaptı.

@@ -12,6 +12,8 @@ bilgiler:
   - etiket: "Oğlu"
     deger: "Hippolytos"
 kaynak: "Plutarkhos, Theseus 26–28; Apollodoros, Epitome 1.16–17; Pausanias, Hellas'ın Tasviri 1.2.1"
+ilgiliKentler: ["atina"]
+ilgiliKahramanlar: ["herakles", "hippolyte", "theseus"]
 ---
 
 Antiope, Amazon kraliçesi Hippolyte'nin kız kardeşiydi. Atina kralı Theseus, Amazonların ülkesine gelen Yunanlılar arasındaydı. Anlatılar burada ayrılır: kimine göre Theseus onu Herakles'in seferi sırasında kaçırdı, kimine göre kendi gemisiyle geldi ve Antiope'yi gemiye hediye getirmeye çağırıp kaçtı. Pausanias'ın aktardığı bir anlatıda ise Antiope Theseus'a âşık olur ve kenti kendi isteğiyle ona teslim eder.

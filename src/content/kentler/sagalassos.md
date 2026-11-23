@@ -17,6 +17,7 @@ konum:
   enlem: 37.6775
   boylam: 30.5169
 ilgiliMitler: []
+ilgiliTanrilar: ["dionysos"]
 ---
 
 Sagalassos, Akdağ'ın güney yamacında, yaklaşık 1500 metre yükseklikte kurulmuş bir Pisidia kentidir. Arrianos'a göre Büyük İskender, Termessos'u kuşatmaktan vazgeçtikten sonra kuzeye yöneldi ve Sagalassos'un önündeki tepede Pisidialılarla çetin bir savaşa girdi. Savaşı kazanınca kenti ele geçirdi.

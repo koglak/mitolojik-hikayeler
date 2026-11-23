@@ -17,6 +17,7 @@ konum:
   enlem: 37.7083
   boylam: 28.7231
 ilgiliMitler: []
+ilgiliTanrilar: ["afrodit"]
 ---
 
 Afrodisias, Karya'nın iç kesiminde, Babadağ'ın eteğindeki bir yaylada kuruldu. Kent, adını aldığı aşk ve güzellik tanrıçası Aphrodite'nin kutsal alanının çevresinde büyüdü.

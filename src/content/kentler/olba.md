@@ -17,6 +17,7 @@ konum:
   enlem: 36.5917
   boylam: 33.9667
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Olba, Silifke'nin kuzeyindeki Toros yaylasında, derin bir vadinin iki yanına kurulmuş bir dağ kentiydi. Birkaç kilometre batıdaki Uzuncaburç, onun Zeus kutsal alanıydı. Olba'yı yöneten rahip-krallar, Kilikya'nın dağlık bölgesinin tamamına hükmederdi.

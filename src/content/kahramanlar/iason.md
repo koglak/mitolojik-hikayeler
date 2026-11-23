@@ -15,6 +15,9 @@ bilgiler:
     deger: "Medeia"
 kaynak: "Apollonios Rhodios, Argonautika; Apollodoros, Kütüphane 1.9.16–1.9.28; Euripides, Medeia"
 ilgiliMitler: ["argonotlar"]
+ilgiliKentler: ["korinthos", "iolkos"]
+ilgiliTanrilar: ["athena", "hera"]
+ilgiliKahramanlar: ["herakles", "kadmos", "kastor-ve-polydeukes", "medeia", "orpheus"]
 ---
 
 İason'un babası Aison, İolkos'un meşru kralıydı ama üvey kardeşi Pelias tahtı ele geçirdi. İason kentaur Kheiron'un yanında büyüdü. Pelias'a tek sandaletli bir adamdan sakınması gerektiği söylenmişti. İason yıllar sonra İolkos'a döndüğünde Anauros ırmağını geçerken bir sandaletini kaybetti. Apollonios'a göre ırmakta yaşlı bir kadını sırtında taşımıştı; kadın kılık değiştirmiş Hera'ydı.

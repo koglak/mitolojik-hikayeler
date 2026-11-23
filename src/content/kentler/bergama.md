@@ -17,6 +17,7 @@ konum:
   enlem: 39.1323
   boylam: 27.1841
 ilgiliMitler: []
+ilgiliTanrilar: ["asklepios", "zeus"]
 ---
 
 Antik adıyla Pergamon, MÖ 3. yüzyılda Attalos hanedanının başkenti oldu. Krallar kenti 300 metrelik bir tepenin yamacına, teraslar hâlinde kurdu. Tiyatrosu antik dünyanın en dik tiyatrolarından biridir.

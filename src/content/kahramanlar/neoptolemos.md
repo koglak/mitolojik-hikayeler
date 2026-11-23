@@ -13,6 +13,9 @@ bilgiler:
     deger: "Delphoi'de, Orestes'in kışkırtmasıyla"
 kaynak: "Homeros, Odysseia 11.505–537; Vergilius, Aeneis 2.469–558; Euripides, Andromakhe; Apollodoros, Epitome 5.11, 5.23, 6.13–14"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["truva", "delphi"]
+ilgiliTanrilar: ["apollon", "zeus"]
+ilgiliKahramanlar: ["agamemnon", "akhilleus", "andromakhe", "hektor", "helene", "menelaos", "odysseus", "orestes", "priamos"]
 ---
 
 Neoptolemos, Akhilleus'un Skyros adasında kral Lykomedes'in kızı Deidameia'dan olan oğluydu. Babası öldükten sonra bir kâhin, Truva'nın Akhilleus'un oğlu olmadan düşmeyeceğini söyledi. Odysseus ve Phoiniks onu Skyros'tan alıp Truva'ya getirdi. Genç yaşına rağmen babasının zırhını giydi ve tahta atın içine giren savaşçılardan biri oldu. Odysseia'da Odysseus, atın karnında herkes titrerken onun yalnızca kılıcının kabzasını sıktığını anlatır.

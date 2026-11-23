@@ -12,7 +12,9 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Afrodit ve Ares (sonraki anlatılar)"
 kaynak: "Hesiodos, Theogonia 116–122; Ovidius, Dönüşümler 1.452–476, 5.363–384; Apuleius, Başkalaşımlar 4.28–6.24"
-ilgiliMitler: ["persephone", "apollon-ve-daphne", "eros-ve-psykhe"]
+ilgiliMitler: ["persephone", "apollon-ve-daphne", "eros-ve-psykhe", "argonotlar"]
+ilgiliTanrilar: ["afrodit", "apollon", "ares", "gaia", "hades", "khaos", "persephone"]
+ilgiliKahramanlar: ["psykhe"]
 ---
 
 Hesiodos'a göre Eros, dünyanın başında Khaos'tan ve Gaia'dan hemen sonra ortaya çıkan en eski güçlerden biriydi. Tanrıların ve insanların aklını büyüleyen, en güzel ölümsüzdü. Sonraki şairler onu Afrodit'in oğlu yaptı ve zamanla yay taşıyan, kanatlı, yaramaz bir çocuğa dönüştü.

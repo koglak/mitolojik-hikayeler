@@ -17,6 +17,8 @@ konum:
   enlem: 37.9808
   boylam: 38.7408
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon", "helios", "hermes", "zeus"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Nemrut Dağı'nın 2100 metreyi aşan zirvesinde, insan eliyle küçük taşlardan yığılmış dev bir tümülüs yükselir. Bunu MÖ 1. yüzyılda Kommagene kralı I. Antiokhos, kendi mezarı ve tanrılarla buluşacağı bir kutsal alan olarak yaptırdı. Kommagene küçük bir krallıktı ama kralı, soyunu baba tarafından Pers krallarına, anne tarafından Büyük İskender'e bağlıyordu.

@@ -17,6 +17,7 @@ konum:
   enlem: 39.1194
   boylam: 27.1653
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon", "asklepios", "zeus"]
 ---
 
 Asklepion, Bergama akropolünün güneybatısındaki ovada, Asklepios'a adanmış bir şifa merkeziydi. Pausanias'a göre kutsal alanı, Asklepios kültünü Epidauros'tan getiren Arkhias adında bir Bergamalı kurdu.

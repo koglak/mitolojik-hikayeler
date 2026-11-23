@@ -15,6 +15,7 @@ konum:
   enlem: 40.4189
   boylam: 27.0703
 ilgiliMitler: []
+ilgiliTanrilar: ["eros", "afrodit"]
 ---
 
 Parion, Marmara Denizi'nin güney kıyısında, Çanakkale Boğazı'nın girişine yakın bir limandı. Strabon'a göre kenti Miletliler, Erythraililer ve Paros Adası'ndan gelenler birlikte kurdu.

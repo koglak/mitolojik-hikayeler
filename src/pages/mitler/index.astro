@@ -6,11 +6,23 @@ import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
 import KategoriGorseli from '../../components/KategoriGorseli.astro';
 import { basligiBol } from '../../lib/baslikParcalari';
+import { mitAdresi } from '../../lib/bolumler';
+import { kirintiVerisi, koleksiyonVerisi } from '../../lib/yapisalVeri';
 
 const mitler = (await getCollection('mitler')).sort((a, b) => a.data.sira - b.data.sira);
+const sayfaAciklamasi = 'Kaydırarak okunan kısa Yunan mitleri. Her biri üç dakika.';
+const yapisalVeri = [
+  koleksiyonVerisi({
+    ad: 'Mitolojik Hikâyeler',
+    aciklama: sayfaAciklamasi,
+    yol: '/mitler/',
+    ogeler: mitler.map((mit) => ({ ad: mit.data.baslik, yol: mitAdresi(mit.id) })),
+  }),
+  kirintiVerisi([{ ad: 'Mitler', yol: '/mitler/' }]),
+];
 ---
 
-<Temel baslik="Mitolojik Hikâyeler · Mythos" aciklama="Kaydırarak okunan kısa Yunan mitleri. Her biri üç dakika.">
+<Temel baslik="Kısa Yunan Mitleri" aciklama={sayfaAciklamasi} yapisalVeri={yapisalVeri}>
   <div class="site-kabugu">
     <SiteBasligi />
     <main>
@@ -37,7 +49,7 @@ const mitler = (await getCollection('mitler')).sort((a, b) => a.data.sira - b.da
             const { ad, altBaslik } = basligiBol(mit.data.baslik);
             return (
               <li data-aranan={[mit.data.baslik, mit.data.ozet, mit.data.tur, mit.data.bugunBag.kelime].join(' ').toLocaleLowerCase('tr')}>
-                <a class="hikaye" href={`/mitler/${mit.id}`} data-slug={mit.id}>
+                <a class="hikaye" href={mitAdresi(mit.id)} data-slug={mit.id}>
                   <span class="hikaye-resmi">
                     <MitGorseli slug={mit.id} />
                     <span class="okundu gizli" data-okundu>

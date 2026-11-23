@@ -12,7 +12,10 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Homeros, İlyada 15.187–193, 21.441–457; Odysseia 1.19–21, 9.526–535; Ovidius, Dönüşümler 4.794–803"
-ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "odysseus", "athena-ve-poseidon"]
+ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "odysseus", "athena-ve-poseidon", "titanlar-savasi"]
+ilgiliKentler: ["aigai", "atina", "truva"]
+ilgiliTanrilar: ["apollon", "athena", "hades", "kronos", "rhea", "zeus"]
+ilgiliKahramanlar: ["odysseus"]
 ---
 
 Zeus ve Hades'le dünyayı paylaştıklarında Poseidon'a deniz düştü. Sarayı Aigai yakınlarında denizin dibindeydi. Altın yeleli atlarının çektiği arabasıyla dalgaların üstünde giderdi. Öfkelendiğinde üç dişli mızrağıyla yere vurur, fırtınalar ve depremler çıkarırdı. Bu yüzden ona "yer sarsıcı" da denirdi.

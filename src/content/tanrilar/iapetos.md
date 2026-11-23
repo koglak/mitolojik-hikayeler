@@ -13,6 +13,7 @@ bilgiler:
     deger: "Tartaros'ta Kronos'la birlikte hapis"
 kaynak: "Hesiodos, Theogonia 134, 507–616; Homeros, İlyada 8.478–481; Apollodoros, Kütüphane 1.2.3, 1.7.2"
 ilgiliMitler: ["prometheus", "pandora"]
+ilgiliTanrilar: ["atlas", "gaia", "kronos", "okeanos", "prometheus", "tartaros", "uranos", "zeus"]
 ---
 
 Iapetos, Uranos ile Gaia'nın Titan oğullarından biriydi. Okeanos'un kızı Klymene'yle evlendi ve ondan dört oğlu oldu. Hesiodos'a göre her biri bir insan zaafını ya da gücünü temsil ediyordu: göğü taşıyan güçlü Atlas, kibirli Menoitios, kurnaz ve öngörülü Prometheus, aklı sonradan başına gelen Epimetheus.

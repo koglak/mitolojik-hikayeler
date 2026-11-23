@@ -16,7 +16,8 @@ bolge: "misya"
 konum:
   enlem: 40.3872
   boylam: 27.8833
-ilgiliMitler: []
+ilgiliMitler: ["argonotlar"]
+ilgiliKahramanlar: ["iason"]
 ---
 
 Kyzikos, Marmara'da bugünkü Kapıdağ Yarımadası'nın karaya bağlandığı yerde kuruldu. Strabon'un zamanında Kapıdağ bir adaydı ve kente iki köprüyle bağlanıyordu; sonradan aradaki dar boğaz kumla dolup yarımadaya dönüştü.

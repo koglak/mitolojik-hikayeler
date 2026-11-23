@@ -17,6 +17,8 @@ konum:
   enlem: 37.2167
   boylam: 36.1083
 ilgiliMitler: []
+ilgiliTanrilar: ["artemis"]
+ilgiliKahramanlar: ["orestes"]
 ---
 
 Kastabala, Çukurova'nın doğu kenarında, Ceyhan Irmağı'nın kollarından birinin yakınında kurulmuştu. Hellenistik dönemde Hierapolis, yani "kutsal kent" adını da aldı; bu yüzden Hierapolis-Kastabala diye de anılır.

@@ -13,6 +13,9 @@ bilgiler:
     deger: "Klytaimnestra, Mykenai'de"
 kaynak: "Aiskhylos, Agamemnon 1035–1330; Apollodoros, Kütüphane 3.12.5, Epitome 5.17–23; Vergilius, Aeneis 2.246–247, 2.403–406"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["sparta", "truva", "mykene"]
+ilgiliTanrilar: ["apollon", "athena"]
+ilgiliKahramanlar: ["agamemnon", "aias", "hekabe", "paris", "priamos"]
 ---
 
 Kassandra, Priamos ile Hekabe'nin kızıydı. Apollon ona âşık oldu ve sevgisi karşılığında kâhinlik yeteneği vereceğine söz verdi. Kassandra kabul etti, yeteneği aldı ama sonra tanrıyı geri çevirdi. Bir tanrı verdiği armağanı geri alamazdı. Apollon da armağanın içine bir lanet ekledi: Kassandra her şeyi doğru görecek ama kimse ona inanmayacaktı.

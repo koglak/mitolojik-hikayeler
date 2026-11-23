@@ -16,7 +16,8 @@ bolge: "karya"
 konum:
   enlem: 37.4986
   boylam: 27.5275
-ilgiliMitler: []
+ilgiliMitler: ["endymion"]
+ilgiliTanrilar: ["athena", "selene"]
 ---
 
 Herakleia, Beşparmak Dağları'nın, antik adıyla Latmos'un granit kayalıkları ile Bafa Gölü'nün arasında kurulmuştu. Göl o zamanlar Ege'nin bir körfeziydi; Büyük Menderes'in taşıdığı alüvyon körfezin ağzını kapatınca göle dönüştü.

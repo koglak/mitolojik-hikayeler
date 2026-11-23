@@ -13,6 +13,7 @@ bilgiler:
     deger: "Okeanos ve Tethys (Hesiodos)"
 kaynak: "Hesiodos, Theogonia 360; Pindaros, Olympia Övgüleri 12; Pausanias, Yunanistan Rehberi 4.30.4–6, 6.2.7"
 ilgiliMitler: []
+ilgiliTanrilar: ["okeanos", "tethys"]
 ---
 
 Hesiodos'ta Tyche, Okeanos'un sayısız kızından yalnızca biridir. Ama zamanla Yunanların gözünde en güçlü tanrılardan birine dönüştü. Pindaros onu dalgaların üzerinde gemileri ve insanların hayatını yönlendiren bir güç olarak anar. İnsanlar kimin zengin, kimin yoksul olacağını, kimin batıp kimin yükseleceğini onun belirlediğine inanırdı.

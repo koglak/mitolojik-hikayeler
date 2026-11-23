@@ -15,6 +15,7 @@ konum:
   enlem: 36.9497
   boylam: 28.2208
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Kedrai, Gökova Körfezi'nin kuzey kıyısına yakın, bugün Sedir Adası denen küçük bir adadaydı. Ksenophon'a göre Peloponnesos Savaşı'nın sonlarında Spartalı komutan Lysandros, Atina'nın müttefiki olan Kedrai'yi saldırıyla aldı ve halkını köle olarak sattı.

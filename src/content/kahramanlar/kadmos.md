@@ -12,7 +12,9 @@ bilgiler:
   - etiket: "Kurduğu kent"
     deger: "Thebai (Kadmeia kalesi)"
 kaynak: "Apollodoros, Kütüphane 3.1.1, 3.4.1–3.5.4; Herodotos, Tarih 5.58; Ovidius, Dönüşümler 3.1–130"
-ilgiliMitler: ["europa"]
+ilgiliMitler: ["europa", "aktaion"]
+ilgiliKentler: ["thebai", "delphi"]
+ilgiliTanrilar: ["ares", "athena", "dionysos", "zeus", "afrodit"]
 ---
 
 Zeus bir boğa kılığına girip Fenike prensesi Europa'yı kaçırınca, babası Agenor oğullarını onu aramaya gönderdi ve kızı bulmadan dönmemelerini söyledi. Kadmos uzun süre aradı ama kız kardeşinin izini bulamadı. Delphoi kâhini ona aramayı bırakmasını, bir ineği izlemesini ve hayvanın yorulup yere çöktüğü yerde bir kent kurmasını söyledi.

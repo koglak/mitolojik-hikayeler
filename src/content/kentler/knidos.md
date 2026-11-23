@@ -17,6 +17,7 @@ konum:
   enlem: 36.6858
   boylam: 27.3747
 ilgiliMitler: []
+ilgiliTanrilar: ["afrodit"]
 ---
 
 Knidos, Datça Yarımadası'nın en batı ucunda, karaya ince bir kıstakla bağlı bir burnun iki yanına kurulmuştu. Kıstağın iki yanındaki koylar kente iki liman sağlıyordu. Herodotos'a göre Knidoslular Persler'e karşı kendilerini korumak için yarımadayı kıstaktan kesip bir adaya çevirmeye kalkıştılar ama Delphoi kâhini onları vazgeçirdi.

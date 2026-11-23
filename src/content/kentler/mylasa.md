@@ -17,6 +17,7 @@ konum:
   enlem: 37.3150
   boylam: 27.7775
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Mylasa, bugünkü Milas'ın altında yatar. MÖ 4. yüzyılın başında Karya'yı Persler adına yöneten Hekatomnos ailesinin başkentiydi. Ailenin en ünlü üyesi Mausolos, başkenti sonradan denize, Halikarnassos'a taşıdı.

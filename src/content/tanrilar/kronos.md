@@ -15,6 +15,8 @@ bilgiler:
     deger: "Orak"
 kaynak: "Hesiodos, Theogonia 137–138, 168–182, 453–506, 617–735; Hesiodos, İşler ve Günler 109–126"
 ilgiliMitler: ["prometheus", "titanlar-savasi"]
+ilgiliTanrilar: ["demeter", "gaia", "hades", "hera", "hestia", "poseidon", "rhea", "tartaros", "uranos", "zeus"]
+ilgiliKentler: ["delphi"]
 ---
 
 Kronos, Uranos ile Gaia'nın en küçük ve en kurnaz oğluydu. Babası kardeşlerini Gaia'nın derinliklerine hapsettiğinde annesinin isteğine yalnızca o karşılık verdi. Gaia'nın yaptığı orakla Uranos'u hadım etti ve evrenin yeni kralı oldu. Kız kardeşi Rhea'yla evlendi.

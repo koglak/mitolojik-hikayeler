@@ -17,6 +17,8 @@ konum:
   enlem: 41.2828
   boylam: 31.4156
 ilgiliMitler: []
+ilgiliTanrilar: ["hades"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Herakleia Pontike, yani "Karadeniz'deki Herakleia", MÖ 6. yüzyılda Megaralı ve Boiotialı göçmenler tarafından, denize uzanan bir burnun yanında kuruldu. Kente adını veren kahraman Herakles'ti ve bunun bir sebebi vardı.

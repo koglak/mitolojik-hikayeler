@@ -15,6 +15,9 @@ bilgiler:
     deger: "Kheiron'un dişbudak mızrağı, Poseidon'un ölümsüz atları Balios ve Ksanthos"
 kaynak: "Apollodoros, Kütüphane 3.12.6–3.13.8; Pindaros, Nemea 4.54–68, 5.25–39"
 ilgiliMitler: ["akhilleus"]
+ilgiliKentler: ["truva", "iolkos"]
+ilgiliTanrilar: ["poseidon", "zeus"]
+ilgiliKahramanlar: ["akhilleus", "atalanta"]
 ---
 
 Peleus, kardeşi Telamon'la birlikte üvey kardeşleri Phokos'u öldürünce Aigina'dan sürüldü. Phthia'ya sığındı, Kalydon domuzu avına katıldı ve orada kazayla kayınpederini öldürdü. Bu kez İolkos'a, kral Akastos'un yanına kaçtı. Argo'yla yolculuk etti ve Pelias'ın cenaze oyunlarında Atalanta'yla güreşip yenildi. Akastos'un karısı ona âşık oldu, reddedilince Peleus'un kendisine saldırdığını söyledi. Akastos onu silahsız halde Pelion dağında yabani kentaurların arasında bıraktı. Kentaur Kheiron onu kurtardı.

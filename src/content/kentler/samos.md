@@ -17,6 +17,7 @@ konum:
   enlem: 37.6720
   boylam: 26.8856
 ilgiliMitler: []
+ilgiliTanrilar: ["hera", "zeus"]
 ---
 
 Samos, Kuşadası'nın hemen karşısında, Anadolu'dan yalnızca bir buçuk kilometrelik bir boğazla ayrılan dağlık bir adadır. Antik dönemde İonya'nın on iki kentinden biriydi; Efes ve Milet'le aynı dünyaya aitti.

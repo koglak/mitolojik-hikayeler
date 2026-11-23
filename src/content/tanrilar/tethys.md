@@ -15,6 +15,7 @@ bilgiler:
     deger: "Satürn'ün uydusu Tethys"
 kaynak: "Hesiodos, Theogonia 136, 337–370; Homeros, İlyada 14.200–210, 14.301–306; Ovidius, Dönüşümler 2.508–530"
 ilgiliMitler: []
+ilgiliTanrilar: ["gaia", "hera", "metis", "okeanos", "rhea", "uranos", "zeus"]
 ---
 
 Tethys, Uranos ile Gaia'nın Titan kızıydı. Kardeşi Okeanos'la evlendi. Hesiodos onların ırmak oğullarını ve deniz perisi kızlarını uzun bir listeyle sayar. Nil, Akheloos, Skamandros ve Anadolu'nun Menderes'i, yani Maiandros da onların oğullarıdır. Zeus'un ilk eşi Metis ve tanrıların üzerine yemin ettiği yeraltı ırmağı Styks de onların kızlarıdır.

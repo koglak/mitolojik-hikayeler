@@ -15,6 +15,7 @@ konum:
   enlem: 37.3742
   boylam: 27.6731
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Euromos, Milas ile Bafa Gölü arasındaki zeytinliklerin içinde, Labranda'ya giden yolun yakınındaki bir Karya kentiydi. Strabon onu Mylasa'nın çevresindeki kentler arasında sayar.

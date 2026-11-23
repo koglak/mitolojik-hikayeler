@@ -17,6 +17,7 @@ konum:
   enlem: 36.5806
   boylam: 33.9258
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Uzuncaburç, Silifke'nin kuzeyindeki yaylada, Olba rahip-krallığının kutsal merkeziydi. Roma döneminde Diokaisareia, yani "Zeus'un ve Sezar'ın kenti" adını aldı. Bölgenin asıl kenti Olba, birkaç kilometre doğudaki Ura'daydı.

@@ -13,6 +13,7 @@ bilgiler:
     deger: "Athena"
 kaynak: "Hesiodos, Theogonia 886–900, 924–929; Apollodoros, Kütüphane 1.2.1, 1.3.6"
 ilgiliMitler: ["titanlar-savasi"]
+ilgiliTanrilar: ["athena", "gaia", "hephaistos", "kronos", "okeanos", "prometheus", "tethys", "uranos", "zeus"]
 ---
 
 Metis, Okeanos ile Tethys'in kızlarından biriydi. Apollodoros'a göre Zeus'a babası Kronos'u alt etmesi için ilk yardım eden oydu. Kronos'a içtiğinde midesindekileri kusturan bir ilaç verdi. Kronos önce taşı, ardından yuttuğu bütün çocuklarını kustu. Zeus'un kardeşleri böylece özgür kaldı ve Titanlarla savaşa girdiler.

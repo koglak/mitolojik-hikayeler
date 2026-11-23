@@ -13,6 +13,9 @@ bilgiler:
     deger: "Hyperion ve Theia"
 kaynak: "Hesiodos, Theogonia 371–382, 984–985; Homerosçu Afrodit İlahisi 218–238; Apollodoros, Kütüphane 1.4.4; Ovidius, Dönüşümler 13.576–622"
 ilgiliMitler: ["akhilleus", "phaethon", "kephalos-ve-prokris"]
+ilgiliKentler: ["truva"]
+ilgiliTanrilar: ["afrodit", "ares", "helios", "hyperion", "selene", "zeus"]
+ilgiliKahramanlar: ["akhilleus", "memnon"]
 ---
 
 Eos, Helios ile Selene'nin kız kardeşiydi. Her sabah güneşten önce yola çıkar, safran renkli giysisiyle ufku pembeye boyardı. Homeros onu hemen her zaman "gül parmaklı Eos" diye anar. Rüzgârların ve sabah yıldızının annesi de odur.

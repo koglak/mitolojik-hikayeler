@@ -6,6 +6,7 @@ import AntikKentAnimasyonu from '../components/AntikKentAnimasyonu.astro';
 import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorseli.astro';
 import MeanderBant from '../components/MeanderBant.astro';
 import { bolumler } from '../lib/bolumler';
+import { siteVerisi } from '../lib/yapisalVeri';
 
 
 const kategoriler: { tur: KategoriTuru; ad: string; adres: string }[] = [
@@ -16,7 +17,10 @@ const kategoriler: { tur: KategoriTuru; ad: string; adres: string }[] = [
 ];
 ---
 
-<Temel baslik="Mythos · Mitolojik Hikâyeler" aciklama="Yunan mitleri, antik kentler, tanrılar ve kahramanlar. Kısa hikâyeler ve kaynaklı künyeler.">
+<Temel
+  aciklama="Yunan mitleri, antik kentler, tanrılar ve kahramanlar. Kısa hikâyeler ve kaynaklı künyeler."
+  yapisalVeri={siteVerisi()}
+>
   <div class="site-kabugu">
     <SiteBasligi />
   </div>

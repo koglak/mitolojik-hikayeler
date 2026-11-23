@@ -17,6 +17,7 @@ konum:
   enlem: 37.9006
   boylam: 28.1461
 ilgiliMitler: ["persephone"]
+ilgiliTanrilar: ["dionysos", "hades", "persephone"]
 ---
 
 Nysa, Büyük Menderes vadisinin kuzeyinde, bir derenin iki yakasına kurulmuş bir kentti. Kentin iki yarısı, derenin üstüne yapılmış dev bir tünelle birbirine bağlanıyordu. Nysa adı, mitlerde bebek Dionysos'u büyüten perilerin yaşadığı dağın ve kimi anlatılara göre onun dadısının adıdır. Coğrafyacı Strabon, gençliğinde burada eğitim gördü.

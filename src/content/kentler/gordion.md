@@ -17,6 +17,8 @@ konum:
   enlem: 39.6497
   boylam: 31.9744
 ilgiliMitler: ["midas"]
+ilgiliTanrilar: ["apollon", "pan", "zeus"]
+ilgiliKahramanlar: ["midas"]
 ---
 
 Gordion, Sakarya Irmağı'nın kıyısında, Frigya krallığının başkentiydi. Anlatıya göre Frigyalılara, krallarının kente öküz arabasıyla gelecek ilk adam olacağı söylenmişti. Gordios adında bir köylü arabasıyla geldi ve kral yapıldı. Oğlu Midas, arabayı Zeus'a adayıp kaleye koydu. Arabanın okunu boyunduruğa bağlayan düğüm o kadar karmaşıktı ki ucu görünmüyordu; onu çözenin bütün Asya'ya hükmedeceği söyleniyordu.

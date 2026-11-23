@@ -13,6 +13,9 @@ bilgiler:
     deger: "Frigya (Frig dilinde Matar)"
 kaynak: "Homerosçu Tanrıların Anası İlahisi (14); Ovidius, Fasti 4.179–372; Livius, Roma Tarihi 29.10–14"
 ilgiliMitler: ["kybele-ve-attis", "atalante"]
+ilgiliKentler: ["bergama"]
+ilgiliTanrilar: ["rhea"]
+ilgiliKahramanlar: ["midas"]
 ---
 
 Kybele, Yunan tanrılarından çok daha eskiydi. Frigler ona yalnızca "Matar", yani "Ana" derdi. Eskişehir yakınlarındaki Midas Kenti'nde kayalara oyulmuş anıtsal cepheler onun için yapılmıştı. Yunanlar onu tanrıların anası olarak benimsedi ve zamanla Rhea ile özdeşleştirdi.

@@ -17,6 +17,8 @@ konum:
   enlem: 37.0578
   boylam: 37.8697
 ilgiliMitler: ["akhilleus", "perseus-ve-medusa"]
+ilgiliTanrilar: ["dionysos", "poseidon"]
+ilgiliKahramanlar: ["akhilleus", "andromeda", "ariadne", "odysseus", "perseus"]
 ---
 
 Zeugma, Yunanca "köprü" ya da "boyunduruk" demektir. Büyük İskender'in komutanlarından Selevkos, Fırat'ın batı yakasında Seleukeia'yı, karşı yakada Apameia'yı kurdu ve iki kenti bir köprüyle bağladı. Roma döneminde burası bir lejyonun üssü ve Doğu ile Batı arasındaki ticaretin önemli bir geçidiydi.

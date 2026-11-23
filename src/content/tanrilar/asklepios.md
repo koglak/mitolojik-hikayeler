@@ -13,6 +13,8 @@ bilgiler:
     deger: "Apollon ve Koronis"
 kaynak: "Pindaros, Pythia Övgüleri 3; Apollodoros, Kütüphane 3.10.3–4; Pausanias, Yunanistan Rehberi 2.26–27"
 ilgiliMitler: []
+ilgiliKentler: ["bergama"]
+ilgiliTanrilar: ["apollon", "artemis", "athena", "hades", "zeus"]
 ---
 
 Asklepios'un annesi Koronis, Apollon'dan hamileyken ölümlü biriyle birlikte oldu. Öfkelenen Apollon ya da Artemis onu öldürdü. Koronis'in bedeni yakılırken Apollon bebeği alevlerin içinden, annesinin karnından kurtardı ve bilge kentaur Kheiron'a teslim etti. Kheiron ona otların ve ilaçların bütün sırlarını öğretti.

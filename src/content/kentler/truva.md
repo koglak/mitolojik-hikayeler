@@ -16,7 +16,8 @@ bolge: "troas"
 konum:
   enlem: 39.9575
   boylam: 26.2389
-ilgiliMitler: ["truva-ati", "akhilleus"]
+ilgiliMitler: ["truva-ati", "akhilleus", "odysseus"]
+ilgiliKahramanlar: ["priamos"]
 ---
 
 Truva, Çanakkale Boğazı'nın girişine bakan Hisarlık Tepesi'ndedir. Burada yaklaşık 3500 yıl boyunca, her yeni kent bir öncekinin kalıntıları üzerine kuruldu. Arkeologlar bu yerleşimleri Truva I'den Truva IX'a kadar numaralandırır.

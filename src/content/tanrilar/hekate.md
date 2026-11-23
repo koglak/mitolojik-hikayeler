@@ -13,6 +13,8 @@ bilgiler:
     deger: "Perses ve Asteria"
 kaynak: "Hesiodos, Theogonia 411–452; Homerosçu Demeter İlahisi 24–25, 51–61, 438–440"
 ilgiliMitler: ["persephone"]
+ilgiliKentler: ["lagina"]
+ilgiliTanrilar: ["demeter", "persephone", "zeus"]
 ---
 
 Hesiodos, Hekate'yi bütün tanrılardan çok överek anlatır. Ona göre Zeus Hekate'nin Titanlardan kalan hakkına dokunmadı, aksine onu yerde, denizde ve gökte saygın kıldı. Hekate savaşçılara, atlılara, balıkçılara ve çobanlara istediği bereketi verebilirdi.

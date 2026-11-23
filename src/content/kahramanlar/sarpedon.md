@@ -13,6 +13,9 @@ bilgiler:
     deger: "Patroklos"
 kaynak: "Homeros, İlyada 6.196–199, 12.290–330, 16.419–683; Apollodoros, Kütüphane 3.1.1–3.1.2"
 ilgiliMitler: ["europa"]
+ilgiliKentler: ["ksanthos", "truva", "knossos"]
+ilgiliTanrilar: ["apollon", "hera", "zeus"]
+ilgiliKahramanlar: ["akhilleus", "bellerophon", "glaukos", "kadmos", "patroklos"]
 ---
 
 Homeros'a göre Sarpedon, Zeus'un Bellerophon'un kızı Laodameia'dan olan oğluydu ve Likyalıları Truva'ya yardıma götürdü. Başka bir anlatıda annesi, Kadmos'un kız kardeşi Europa'dır; Sarpedon, kardeşi Minos'la kavga edip Girit'ten ayrılır ve Likya'ya gelip orada krallık kurar.

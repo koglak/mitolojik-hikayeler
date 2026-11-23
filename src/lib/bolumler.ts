@@ -32,6 +32,8 @@ export const bolumler: Record<BolumAnahtari, Bolum> = {
 
 export const bolumAdresi = (bolum: BolumAnahtari) => `/${bolumler[bolum].yol}/`;
 
-export const kayitAdresi = (bolum: BolumAnahtari, kimlik: string) => `/${bolumler[bolum].yol}/${kimlik}`;
+export const kayitAdresi = (bolum: BolumAnahtari, kimlik: string) => `/${bolumler[bolum].yol}/${kimlik}/`;
+
+export const mitAdresi = (kimlik: string) => `/mitler/${kimlik}/`;
 
 export const yoldanBolum = (yol: string) => bolumAnahtarlari.find((bolum) => bolumler[bolum].yol === yol);

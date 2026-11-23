@@ -13,6 +13,8 @@ bilgiler:
     deger: "Thebai"
 kaynak: "Sophokles, Antigone; Sophokles, Oidipus Kolonos'ta; Aiskhylos, Thebai'ye Karşı Yediler; Apollodoros, Kütüphane 3.7.1"
 ilgiliMitler: ["oidipus"]
+ilgiliKentler: ["argos", "thebai"]
+ilgiliKahramanlar: ["oidipus"]
 ---
 
 Oidipus gözlerini kör edip Thebai'den sürüldüğünde onu yalnız bırakmayan kızı Antigone oldu. Yıllarca kör babasına yol gösterdi ve onu ölümüne kadar Kolonos'ta bekledi. Sonra kardeşleri arasında barış sağlamak umuduyla Thebai'ye döndü.

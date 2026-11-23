@@ -16,7 +16,9 @@ bolge: "paflagonya"
 konum:
   enlem: 42.0264
   boylam: 35.1511
-ilgiliMitler: []
+ilgiliMitler: ["argonotlar"]
+ilgiliTanrilar: ["apollon", "zeus"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Sinope, Anadolu'nun en kuzey ucuna yakın, denize uzanan bir yarımadanın boynunda kuruldu. Miletliler burayı Karadeniz'deki en önemli kolonilerinden biri yaptı; iki yanındaki limanlar onu Karadeniz ticaretinin merkezine dönüştürdü.

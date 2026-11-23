@@ -17,6 +17,7 @@ konum:
   enlem: 37.8528
   boylam: 27.5272
 ilgiliMitler: []
+ilgiliTanrilar: ["artemis", "dionysos"]
 ---
 
 Magnesia, Büyük Menderes ovasının kuzey kenarında, Efes ile Tralleis arasındaki yolun üstündeydi. Strabon'a göre kenti, Yunanistan'daki Thessalia'dan, Magnesia bölgesinden gelen göçmenler kurdu ve adını oradan aldı. İon kentlerinin arasında olduğu halde İon Birliği'ne hiç girmedi.

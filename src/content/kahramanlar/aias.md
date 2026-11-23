@@ -13,6 +13,8 @@ bilgiler:
     deger: "Geleneğe göre Troas'ta, Rhoiteion burnunda"
 kaynak: "Homeros, İlyada 7.181–312, 15.674–746; Sophokles, Aias; Homeros, Odysseia 11.543–564"
 ilgiliMitler: ["akhilleus"]
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["akhilleus", "hektor", "odysseus"]
 ---
 
 Telamon'un oğlu Aias, Akhilleus'tan sonra Yunanların en güçlü savaşçısıydı. Kule gibi bir kalkan taşırdı. Hektor'la teke tek dövüştüğünde gece çökene kadar ikisi de üstün gelemedi. Ayrılırken birbirlerine armağan verdiler: Hektor ona kılıcını, Aias da Hektor'a kemerini verdi. Truvalılar Yunan gemilerini ateşe vermeye geldiğinde, gemilerin kıçında tek başına dikilip saldıranları mızrağıyla geri itti.

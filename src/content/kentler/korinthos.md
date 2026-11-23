@@ -16,7 +16,9 @@ bolge: "yunanistan"
 konum:
   enlem: 37.9056
   boylam: 22.8786
-ilgiliMitler: ["sisifos", "bellerophon", "arion"]
+ilgiliMitler: ["sisifos", "bellerophon", "arion", "argonotlar", "oidipus"]
+ilgiliTanrilar: ["afrodit", "apollon", "athena"]
+ilgiliKahramanlar: ["bellerophon", "medeia", "iason"]
 ---
 
 Korinthos, Yunanistan'ı Peloponnesos'a bağlayan dar kara parçasının, Kıstak'ın başında kuruldu. Bir yanında Korinthos Körfezi, öbür yanında Saronikos Körfezi vardı. Gemiler bir denizden öbürüne kızaklar üstünde karadan çekilerek taşınırdı. Bu ticaret kenti çok zengin yaptı. Kentin üstünde, Akrokorinthos denen sarp bir kayanın tepesinde Afrodit'in tapınağı dururdu.

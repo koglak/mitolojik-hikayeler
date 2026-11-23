@@ -15,6 +15,8 @@ konum:
   enlem: 36.6175
   boylam: 29.1236
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
+ilgiliKahramanlar: ["midas"]
 ---
 
 Telmessos, bugünkü Fethiye'nin altında yatar. Kentin üstündeki kayalığa oyulmuş, İon tapınağı cepheli mezarların en büyüğü, üzerindeki yazıttan dolayı Amyntas Mezarı diye anılır ve Fethiye'nin simgesidir.

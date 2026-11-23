@@ -13,6 +13,9 @@ bilgiler:
     deger: "Akhilleus'un oğlu Neoptolemos"
 kaynak: "Homeros, İlyada 24.159–691; Apollodoros, Kütüphane 2.6.4, 3.12.3–5; Vergilius, Aeneis 2.506–558"
 ilgiliMitler: ["truva-ati", "akhilleus"]
+ilgiliKentler: ["truva"]
+ilgiliTanrilar: ["apollon", "hermes", "poseidon", "zeus"]
+ilgiliKahramanlar: ["akhilleus", "hekabe", "hektor", "herakles", "kassandra", "neoptolemos", "paris"]
 ---
 
 Priamos'un çocukken adı Podarkes'ti. Babası Laomedon, Truva surlarını kendisi için ören Apollon ile Poseidon'a, sonra da kızı Hesione'yi deniz canavarından kurtaran Herakles'e sözünü tutmadı. Herakles Truva'yı yağmaladı ve Laomedon'u oğullarıyla birlikte öldürdü. Yalnızca küçük Podarkes kaldı. Kız kardeşi Hesione onu peçesi karşılığında satın aldı. Apollodoros'a göre Priamos adı bu yüzden "satın alınan" anlamına gelir.

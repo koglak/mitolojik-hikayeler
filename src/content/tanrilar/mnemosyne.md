@@ -13,6 +13,8 @@ bilgiler:
     deger: "Dokuz Musa"
 kaynak: "Hesiodos, Theogonia 53–62, 135, 915–917; Pausanias, Hellas'ın Tasviri 9.39.8"
 ilgiliMitler: []
+ilgiliTanrilar: ["gaia", "uranos", "zeus"]
+ilgiliKentler: ["olympos-dagi"]
 ---
 
 Mnemosyne, Uranos ile Gaia'nın Titan kızıydı ve adı Yunancada "bellek" demekti. Hesiodos'a göre Zeus, Olimpos'un eteğindeki Pieria'da dokuz gece boyunca onunla birlikte oldu. Bir yıl sonra Mnemosyne dokuz kız doğurdu: şarkının, şiirin, tarihin, dansın ve yıldız biliminin tanrıçaları olan Musaları.

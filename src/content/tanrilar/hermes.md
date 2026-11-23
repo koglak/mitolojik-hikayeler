@@ -12,7 +12,9 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Maia"
 kaynak: "Homerosçu Hermes İlahisi; Hesiodos, İşler ve Günler 67–82; Homeros, Odysseia 24.1–14"
-ilgiliMitler: ["pandora", "persephone", "perseus-ve-medusa", "sisifos", "pan-ve-syrinx", "hermes", "io", "baukis-ve-philemon"]
+ilgiliMitler: ["pandora", "persephone", "perseus-ve-medusa", "sisifos", "pan-ve-syrinx", "hermes", "io", "baukis-ve-philemon", "odysseus"]
+ilgiliTanrilar: ["apollon", "persephone", "zeus"]
+ilgiliKahramanlar: ["perseus"]
 ---
 
 Hermes, Arkadia'daki Kyllene Dağı'nda bir mağarada doğdu. Daha ilk gününde beşiğinden kalktı. Bir kaplumbağa kabuğuna bağırsak teller gerip ilk lirini yaptı. Akşam olunca Apollon'un ellisinin üstünde ineğini çaldı ve izini kaybettirmek için onları geri geri yürüttü. Apollon öfkeyle geldiğinde Hermes lirini çaldı. Apollon müziğe öyle hayran kaldı ki ineklerini lire karşılık bıraktı.

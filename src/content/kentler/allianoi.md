@@ -17,6 +17,7 @@ konum:
   enlem: 39.1708
   boylam: 27.2861
 ilgiliMitler: []
+ilgiliTanrilar: ["asklepios"]
 ---
 
 Allianoi, Bergama'nın kuzeydoğusunda, Kaikos'un bir kolunun kıyısında, sıcak su kaynaklarının çevresinde kurulmuş bir Roma kaplıca yerleşimiydi. Hatip Aelius Aristides, Bergama Asklepionu'ndaki tedavisi sırasında yakındaki bir kaplıcaya gönderildiğini anlatır; burası Allianoi ile ilişkilendirilir.

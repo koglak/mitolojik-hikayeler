@@ -15,6 +15,8 @@ konum:
   enlem: 37.5928
   boylam: 27.9853
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
+ilgiliKahramanlar: ["marsyas"]
 ---
 
 Alabanda, Çine Çayı'nın, antik adıyla Marsyas'ın vadisinde, iki tepenin arasındaki bir düzlüğe kurulmuştu. Strabon, kentin bu görünümünü heybeleri yüklenmiş bir eşeğe benzetir.

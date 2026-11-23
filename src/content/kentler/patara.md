@@ -17,6 +17,7 @@ konum:
   enlem: 36.2610
   boylam: 29.3150
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Patara, Ksanthos ırmağının denize döküldüğü yerde kurulmuş bir limandı. Antik yazarlar kenti Apollon'la birlikte anar: Herodotos'a göre Patara'daki tapınakta kehanet veren rahibe, tanrının orada bulunduğu zamanlarda geceleri tapınağa kapatılırdı.

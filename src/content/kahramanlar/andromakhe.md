@@ -13,6 +13,8 @@ bilgiler:
     deger: "Astyanaks, Molossos"
 kaynak: "Homeros, İlyada 6.390–502, 22.437–515, 24.723–745; Euripides, Andromakhe, Truvalı Kadınlar; Vergilius, Aeneis 3.294–505"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["truva"]
+ilgiliKahramanlar: ["akhilleus", "hektor", "neoptolemos", "priamos"]
 ---
 
 Andromakhe, bugünkü Edremit Körfezi yakınındaki Thebe kentinin kralı Eetion'un kızıydı. Yunanlılar Truva'yı kuşatırken çevredeki kentleri de yağmaladı. Akhilleus Thebe'yi ele geçirdi, Andromakhe'nin babasını ve yedi kardeşini aynı gün öldürdü. İlyada'da Andromakhe, Hektor'a savaşa gitmemesi için yalvarırken ona "Sen benim babam, annem, kardeşimsin" der.

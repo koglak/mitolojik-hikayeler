@@ -17,6 +17,7 @@ konum:
   enlem: 41.9775
   boylam: 33.7606
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon", "asklepios"]
 ---
 
 Abonuteichos, Karadeniz kıyısında küçük bir Paflagonya kentiydi. MS 2. yüzyılda Aleksandros adında bir adam burada yeni bir tanrı ortaya çıkardı. Yazar Lukianos, onun hikâyesini bütün hileleriyle birlikte anlatır.

@@ -15,6 +15,9 @@ bilgiler:
     deger: "Ölmeden Elysion ovasına gönderilmek"
 kaynak: "Homeros, İlyada 3.15–382, Odysseia 4.351–592; Apollodoros, Epitome 2.15–16, 6.29; Euripides, Andromakhe 627–631"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["sparta", "truva", "mykene"]
+ilgiliTanrilar: ["afrodit", "zeus"]
+ilgiliKahramanlar: ["agamemnon", "helene", "paris", "pelops"]
 ---
 
 Menelaos, Pelops'un torunu ve Atreus'un oğluydu. Kardeşi Agamemnon gibi o da soyun lanetini taşıyordu. Babaları öldürülünce iki kardeş Sparta'ya kaçtı. Agamemnon Mykenai'nin, Menelaos da Helene'yle evlenip Sparta'nın kralı oldu. Paris Helene'yi Truva'ya götürünce Menelaos, taliplerin eski yeminini hatırlattı. Agamemnon ordunun başına geçti ve Yunanistan'ın krallarını savaşa topladı.

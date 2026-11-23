@@ -17,6 +17,7 @@ konum:
   enlem: 40.4292
   boylam: 29.7211
 ilgiliMitler: []
+ilgiliTanrilar: ["dionysos"]
 ---
 
 Nikaia, İznik Gölü'nün doğu kıyısında kuruldu. Strabon'a göre kenti önce Antigonos kurdu ve kendi adını verdi; ardından Lysimakhos, karısı Nikaia'nın adıyla yeniden adlandırdı. Kent kare planlıydı; Strabon, ortadaki gymnasionun bir taşının üstünde durunca dört kapının dördünün de görülebildiğini yazar.

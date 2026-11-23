@@ -13,6 +13,8 @@ bilgiler:
     deger: "Helios (Güneş), Selene (Ay), Eos (Şafak)"
 kaynak: "Hesiodos, Theogonia 134, 371–374; Homeros, Odysseia 12.132–133; Diodoros, Tarih Kitaplığı 5.67.1"
 ilgiliMitler: []
+ilgiliTanrilar: ["eos", "gaia", "helios", "selene", "uranos"]
+ilgiliKahramanlar: ["odysseus"]
 ---
 
 Hyperion, Uranos ile Gaia'nın Titan oğullarından biriydi. Kız kardeşi Theia'yla evlendi ve onlardan gökyüzünün üç ışığı doğdu: Güneş tanrısı Helios, Ay tanrıçası Selene ve her sabah gökyüzünün kapılarını açan Şafak, Eos. Hyperion'un kendisi, gökte yükseklerde dolaşan ışığın ve gözetlemenin tanrısıydı.

@@ -7,6 +7,9 @@ import KartAkisi from '../../components/KartAkisi.astro';
 import BugunBag from '../../components/BugunBag.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
 import { basligiBol } from '../../lib/baslikParcalari';
+import { mitAdresi } from '../../lib/bolumler';
+import { mitPaylasimGorseli } from '../../lib/paylasimGorseli';
+import { kirintiVerisi, makaleVerisi } from '../../lib/yapisalVeri';
 
 export async function getStaticPaths() {
   const mitler = (await getCollection('mitler')).sort((a, b) => a.data.sira - b.data.sira);
@@ -27,9 +30,30 @@ function sesYolu(no: number): string | null {
 
 const sesYollari = Array.from({ length: mit.data.kartlar.length + 1 }, (_, no) => sesYolu(no));
 const sonrakiFarkli = siradaki.id !== slug;
+const paylasimGorseli = mitPaylasimGorseli(slug);
+const yapisalVeri = [
+  makaleVerisi({
+    baslik: mit.data.baslik,
+    aciklama: mit.data.ozet,
+    yol: mitAdresi(slug),
+    gorsel: paylasimGorseli,
+    bolum: 'Mitler',
+  }),
+  kirintiVerisi([
+    { ad: 'Mitler', yol: '/mitler/' },
+    { ad: mit.data.baslik, yol: mitAdresi(slug) },
+  ]),
+];
 ---
 
-<Temel baslik={`${mit.data.baslik} | Mitolojik Hikâyeler`} aciklama={mit.data.ozet}>
+<Temel
+  baslik={mit.data.baslik}
+  aciklama={mit.data.ozet}
+  tur="article"
+  gorsel={paylasimGorseli}
+  gorselAciklamasi={mit.data.baslik}
+  yapisalVeri={yapisalVeri}
+>
   <main class="akis" data-akis data-slug={slug}>
     <KartAkisi
       slug={slug}
@@ -48,7 +72,7 @@ const sonrakiFarkli = siradaki.id !== slug;
     <section class="kart uzun son" data-kart>
       {
         sonrakiFarkli && (
-          <a class="siradaki" href={`/mitler/${siradaki.id}`}>
+          <a class="siradaki" href={mitAdresi(siradaki.id)}>
             <div class="siradaki-gorseli">
               <MitGorseli slug={siradaki.id} idEki="siradaki" />
             </div>

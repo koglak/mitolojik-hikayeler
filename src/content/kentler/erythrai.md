@@ -17,6 +17,8 @@ konum:
   enlem: 38.3817
   boylam: 26.4806
 ilgiliMitler: []
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Erythrai, Çeşme Yarımadası'nın kuzeyinde, Sakız Adası'na bakan bir koyun kıyısındaydı. Akropolden bugün hâlâ koyun ve önündeki adacıkların bütün manzarası görülür.

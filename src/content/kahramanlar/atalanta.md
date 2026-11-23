@@ -13,6 +13,8 @@ bilgiler:
     deger: "Parthenopaios"
 kaynak: "Apollodoros, Kütüphane 1.8.2, 3.9.2; Ovidius, Dönüşümler 8.260–444, 10.560–707"
 ilgiliMitler: ["atalante"]
+ilgiliTanrilar: ["artemis", "afrodit"]
+ilgiliKahramanlar: ["meleagros", "peleus"]
 ---
 
 Atalanta'nın babası bir oğul istiyordu. Kızı doğunca onu dağa bıraktı. Bebeği bir dişi ayı emzirdi, sonra avcılar bulup büyüttü. Atalanta evlenmeyi reddetti, Artemis gibi silahlarıyla ormanda yaşadı. Onu kaçırmaya çalışan iki kentauru oklarıyla öldürdü.

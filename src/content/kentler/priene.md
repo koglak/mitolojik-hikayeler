@@ -17,6 +17,7 @@ konum:
   enlem: 37.6597
   boylam: 27.2975
 ilgiliMitler: []
+ilgiliTanrilar: ["athena", "poseidon"]
 ---
 
 Priene, bugün Samsun Dağı denen Mykale'nin sarp yamacına yaslanır. Kent, MÖ 4. yüzyılda bugünkü yerine taşınırken baştan planlandı: dik açıyla kesişen sokaklar, eğimli yamaçta teraslar boyunca sıralanan evler, ortada agora.

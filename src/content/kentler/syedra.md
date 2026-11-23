@@ -17,6 +17,7 @@ konum:
   enlem: 36.4600
   boylam: 32.1506
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon", "ares", "hermes"]
 ---
 
 Syedra, Alanya'nın güneydoğusunda, denize bakan bir tepenin üstüne kurulmuş bir kentti. Pamfilya ile Kilikya'nın sınırında, korsanların yuvası olarak bilinen dağlık kıyının başlangıcındaydı.

@@ -13,6 +13,9 @@ bilgiler:
     deger: "Mykene (geleneğe göre)"
 kaynak: "Apollodoros, Kütüphane 2.4.1–2.4.5; Pausanias, Hellas'ın Tasviri 2.16.3"
 ilgiliMitler: ["perseus-ve-medusa"]
+ilgiliKentler: ["argos", "mykene"]
+ilgiliTanrilar: ["athena", "hermes", "zeus"]
+ilgiliKahramanlar: ["andromeda", "danae"]
 ---
 
 Argos kralı Akrisios, kızı Danae'nin doğuracağı oğlun onu öldüreceğini duydu. Danae'yi tunç bir odaya kapattı. Zeus odaya altın bir yağmur olarak girdi ve Perseus doğdu. Akrisios anneyle bebeği bir sandığa koyup denize attı. Sandık Seriphos adasına vurdu.

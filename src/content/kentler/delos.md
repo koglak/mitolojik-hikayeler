@@ -17,6 +17,7 @@ konum:
   enlem: 37.3964
   boylam: 25.2681
 ilgiliMitler: ["leto-ve-koyluler"]
+ilgiliTanrilar: ["apollon", "artemis", "dionysos", "hera", "leto", "zeus"]
 ---
 
 Delos, Kikladlar'ın ortasında, bir ucundan öbür ucuna yürüyerek yarım saatte geçilen küçük, kayalık bir adadır. Çevresindeki adalar onun etrafında bir halka çizer; Kikladlar adı da buradan gelir.

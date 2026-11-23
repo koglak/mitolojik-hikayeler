@@ -13,6 +13,8 @@ bilgiler:
     deger: "Üç bin Okeanid ve üç bin ırmak"
 kaynak: "Hesiodos, Theogonia 133, 337–370, 383–403; Homeros, İlyada 14.200–210, 14.244–246, 18.607–608; Aiskhylos, Zincire Vurulmuş Prometheus 284–396"
 ilgiliMitler: ["prometheus"]
+ilgiliTanrilar: ["gaia", "hephaistos", "prometheus", "tethys", "uranos", "zeus"]
+ilgiliKahramanlar: ["akhilleus"]
 ---
 
 Okeanos, Titanların en büyüğüydü. Yunanlılar dünyayı düz bir disk olarak düşünürdü ve Okeanos bu diskin çevresinde dönen, kendi içine akan sonsuz bir ırmaktı. Güneş akşam onun sularına dalar, sabah ondan doğardı. Homeros'a göre bütün denizler, ırmaklar, pınarlar ve kuyular ondan beslenirdi. Hephaistos'un Akhilleus için yaptığı kalkanın kenarında da çepeçevre Okeanos'un akışı işlenmişti.

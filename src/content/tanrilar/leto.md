@@ -13,6 +13,9 @@ bilgiler:
     deger: "Koios ve Phoibe"
 kaynak: "Homerosçu Apollon İlahisi 25–126; Ovidius, Dönüşümler 6.146–381"
 ilgiliMitler: ["niobe", "leto-ve-koyluler"]
+ilgiliKentler: ["delos", "letoon", "thebai"]
+ilgiliTanrilar: ["apollon", "artemis", "hera", "zeus"]
+ilgiliKahramanlar: ["niobe"]
 ---
 
 Leto, Zeus'tan hamile kaldığında Hera bütün topraklara onu kabul etmemelerini buyurdu. Leto, doğum sancıları içinde yer yer dolaştı ama hiçbir kara ona kapısını açmadı. Sonunda o güne dek denizde yüzen küçük, kayalık Delos adası onu kabul etti. Leto bir hurma ağacına sarılarak önce Artemis'i, ardından Apollon'u doğurdu.

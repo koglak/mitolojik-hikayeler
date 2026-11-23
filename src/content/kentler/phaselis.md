@@ -17,6 +17,8 @@ konum:
   enlem: 36.5244
   boylam: 30.5522
 ilgiliMitler: ["akhilleus"]
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["akhilleus", "hektor"]
 ---
 
 Phaselis, Tahtalı Dağı'nın eteğinde denize uzanan küçük bir burnun üstündeydi. Burnun iki yanındaki koylar ve kuzeydeki sığ körfez kente üç ayrı liman sağlıyordu. Kenti MÖ 7. yüzyılda Rodos'taki Lindos'tan gelen göçmenler kurdu; Likya kıyısında olmasına rağmen uzun süre bir Yunan ticaret kenti olarak kaldı.

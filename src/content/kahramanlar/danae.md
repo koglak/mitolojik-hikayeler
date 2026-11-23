@@ -13,6 +13,9 @@ bilgiler:
     deger: "Seriphos"
 kaynak: "Apollodoros, Kütüphane 2.4.1–4; Simonides, fragman 543; Ovidius, Dönüşümler 4.610–611"
 ilgiliMitler: ["perseus-ve-medusa"]
+ilgiliKentler: ["argos"]
+ilgiliTanrilar: ["zeus"]
+ilgiliKahramanlar: ["perseus"]
 ---
 
 Argos kralı Akrisios'un bir oğlu olmamıştı. Kâhine danıştığında kızı Danae'nin doğuracağı oğlun kendisini öldüreceğini öğrendi. Bunun önüne geçmek için Danae'yi yerin altına yaptırdığı bronz bir odaya kapattı. Hiçbir erkek ona yaklaşamayacaktı. Ama Zeus, odanın tavanındaki aralıktan altın bir yağmur olup içeri süzüldü ve Danae'nin kucağına aktı. Danae bir oğul doğurdu: Perseus.

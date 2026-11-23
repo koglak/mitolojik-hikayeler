@@ -1,12 +1,43 @@
 ---
+import '@fontsource/cormorant-garamond/400.css';
+import '@fontsource/cormorant-garamond/400-italic.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/500-italic.css';
+import '@fontsource/cormorant-garamond/600.css';
+import '@fontsource/dm-sans/400.css';
+import '@fontsource/dm-sans/500.css';
+import '@fontsource/dm-sans/700.css';
+import '@fontsource/gfs-didot/400.css';
 import '../styles/tema.css';
+import { mutlakAdres, sayfaBasligi, siteAdi, siteAdresi, siteKisaAdi, varsayilanPaylasimGorseli } from '../lib/site';
+import { paylasimGenisligi, paylasimYuksekligi } from '../lib/paylasimGorseli';
 
 interface Props {
-  baslik: string;
+  baslik?: string;
   aciklama: string;
+  gorsel?: string;
+  gorselAciklamasi?: string;
+  tur?: 'website' | 'article';
+  yapisalVeri?: Record<string, unknown>[];
+  dizinlenmesin?: boolean;
 }
 
-const { baslik, aciklama } = Astro.props;
+const {
+  baslik,
+  aciklama,
+  gorsel = varsayilanPaylasimGorseli,
+  gorselAciklamasi = siteAdi,
+  tur = 'website',
+  yapisalVeri = [],
+  dizinlenmesin = false,
+} = Astro.props;
+
+const tamBaslik = sayfaBasligi(baslik);
+const kanonikAdres = mutlakAdres(Astro.url.pathname);
+const gorselAdresi = new URL(gorsel, siteAdresi).href;
+const yapisalVeriMetni = yapisalVeri.length
+  ? JSON.stringify({ '@context': 'https://schema.org', '@graph': yapisalVeri }).replaceAll('<', '\\u003c')
+  : undefined;
 ---
 
 <!doctype html>
@@ -14,18 +45,29 @@ const { baslik, aciklama } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>{baslik}</title>
+    <title>{tamBaslik}</title>
     <meta name="description" content={aciklama} />
-    <meta property="og:title" content={baslik} />
+    {dizinlenmesin ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={kanonikAdres} />}
+    <meta property="og:site_name" content={siteAdi} />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:type" content={tur} />
+    <meta property="og:title" content={baslik ?? siteAdi} />
     <meta property="og:description" content={aciklama} />
+    <meta property="og:url" content={kanonikAdres} />
+    <meta property="og:image" content={gorselAdresi} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content={String(paylasimGenisligi)} />
+    <meta property="og:image:height" content={String(paylasimYuksekligi)} />
+    <meta property="og:image:alt" content={gorselAciklamasi} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={baslik ?? siteAdi} />
+    <meta name="twitter:description" content={aciklama} />
+    <meta name="twitter:image" content={gorselAdresi} />
+    <meta name="application-name" content={siteKisaAdi} />
     <meta name="theme-color" content="#10151c" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;700&family=GFS+Didot&display=swap"
-    />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    {yapisalVeriMetni && <script type="application/ld+json" is:inline set:html={yapisalVeriMetni} />}
     <meta name="google-adsense-account" content="ca-pub-8518261734381602" />
     <script
       is:inline

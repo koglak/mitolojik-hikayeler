@@ -17,6 +17,7 @@ konum:
   enlem: 36.1428
   boylam: 33.3236
 ilgiliMitler: []
+ilgiliTanrilar: ["afrodit"]
 ---
 
 Kelenderis, Kıbrıs'a bakan dağlık Kilikya kıyısında, küçük bir koyun çevresine kurulmuş bir liman kentiydi. Kıbrıs'a en yakın limanlardan biri olduğu için ada ile Anadolu arasındaki geçişin önemli duraklarından biriydi.

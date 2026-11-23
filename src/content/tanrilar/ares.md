@@ -13,6 +13,9 @@ bilgiler:
     deger: "Zeus ve Hera"
 kaynak: "Homeros, İlyada 5.385–391, 5.825–898; Odysseia 8.266–366"
 ilgiliMitler: ["sisifos"]
+ilgiliKentler: ["thebai", "truva", "olympos-dagi"]
+ilgiliTanrilar: ["afrodit", "athena", "hephaistos", "hera", "hermes", "zeus"]
+ilgiliKahramanlar: ["diomedes", "kadmos"]
 ---
 
 Athena savaşın stratejisini ve aklını temsil ederken Ares savaşın kanını, gürültüsünü ve öfkesini temsil ederdi. Homeros'un İlyada'sında kendi babası Zeus bile ona "Olimpos'taki tanrıların en nefret ettiğim" diye seslenir. Yanında oğulları Deimos (Dehşet) ve Phobos (Korku) ile savaş alanına inerdi.

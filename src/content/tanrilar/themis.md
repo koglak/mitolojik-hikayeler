@@ -15,6 +15,9 @@ bilgiler:
     deger: "Terazi"
 kaynak: "Hesiodos, Theogonia 135, 901–906; Aiskhylos, Eumenides 1–8; Pindaros, İsthmia 8.26–47; Homeros, İlyada 20.4–6"
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon", "gaia", "metis", "poseidon", "uranos", "zeus"]
+ilgiliKahramanlar: ["peleus"]
+ilgiliKentler: ["olympos-dagi", "delphi"]
 ---
 
 Themis, Uranos ile Gaia'nın Titan kızıydı ve adı "konulmuş olan", yani tanrıların koyduğu yasa ve töre anlamına gelirdi. Metis'ten sonra Zeus'un ikinci eşi oldu. Hesiodos'a göre Zeus'tan Horaları doğurdu: Eunomia (İyi Düzen), Dike (Adalet) ve Eirene (Barış). Kader tanrıçaları Moiralar da Hesiodos'ta onun kızlarıdır.

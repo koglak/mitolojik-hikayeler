@@ -17,6 +17,8 @@ konum:
   enlem: 36.9839
   boylam: 30.4650
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
+ilgiliKahramanlar: ["bellerophon"]
 ---
 
 Termessos, Antalya ovasına bakan Güllük Dağı'nın, deniz seviyesinden bin metreyi aşan bir yüksekliğindeki dağ kentidir. Tiyatrosu bir uçurumun kenarına kurulmuştur; seyirciler sahnenin arkasında uzanan dağları ve ovayı görürdü.

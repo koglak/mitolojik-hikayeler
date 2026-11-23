@@ -15,6 +15,7 @@ bilgiler:
     deger: "Uranüs gezegeni"
 kaynak: "Hesiodos, Theogonia 126–210, 463–465, 891–893"
 ilgiliMitler: ["titanlar-savasi"]
+ilgiliTanrilar: ["gaia", "kronos", "afrodit"]
 ---
 
 Uranos, Gaia'nın kendi kendine doğurduğu gökyüzüydü. Her gece toprağın üzerine uzanıp onu bütünüyle örterdi. Gaia'yla birleşmesinden on iki Titan, üç Kyklops ve üç Hekatonkheir doğdu. Ama Uranos çocuklarını sevmedi. Her biri doğar doğmaz onları ışığa çıkarmadan Gaia'nın karnına geri itti ve bu kötülüğünden zevk aldı.

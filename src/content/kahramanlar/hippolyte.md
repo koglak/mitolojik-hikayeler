@@ -13,6 +13,9 @@ bilgiler:
     deger: "Ares'in kemeri"
 kaynak: "Apollodoros, Kütüphane 2.5.9; Plutarkhos, Theseus 26–27"
 ilgiliMitler: ["herakles"]
+ilgiliKentler: ["atina"]
+ilgiliTanrilar: ["ares", "hera"]
+ilgiliKahramanlar: ["antiope", "herakles", "theseus"]
 ---
 
 Amazonlar, Karadeniz kıyısında Thermodon ırmağının aktığı ovada yaşayan savaşçı kadınlardı. Kraliçeleri Hippolyte, savaş tanrısı Ares'in kızıydı. Babası ona, Amazonların en iyi savaşçısı olduğunu gösteren bir savaş kemeri vermişti.

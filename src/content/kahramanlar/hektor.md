@@ -15,6 +15,9 @@ bilgiler:
     deger: "Akhilleus"
 kaynak: "Homeros, İlyada 6.390–502, 16.818–863, 22, 24"
 ilgiliMitler: ["akhilleus", "truva-ati"]
+ilgiliKentler: ["truva"]
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["akhilleus", "andromakhe", "hekabe", "patroklos", "priamos"]
 ---
 
 Hektor, Truva kralı Priamos'un en büyük oğluydu ve kentin ordusunun başındaydı. İlyada'nın en bilinen sahnelerinden birinde savaşa dönmeden önce surların Skaia kapısında karısı Andromakhe ve bebek oğlu Astyanaks'la vedalaşır. Bebek, babasının miğferindeki at kılı sorguçtan korkup ağlar. Hektor gülerek miğferini çıkarır, oğlunu kucağına alır ve bir gün babasından daha güçlü olması için tanrılara dua eder.

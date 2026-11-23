@@ -15,6 +15,8 @@ bilgiler:
     deger: "Hades"
 kaynak: "Homerosçu Demeter İlahisi; Ovidius, Dönüşümler 5.385–571; Apollodoros, Kütüphane 3.14.4"
 ilgiliMitler: ["persephone", "orpheus-ve-eurydike", "sisifos", "eros-ve-psykhe"]
+ilgiliTanrilar: ["afrodit", "demeter", "hades", "zeus"]
+ilgiliKahramanlar: ["orpheus"]
 ---
 
 Persephone'ye genç kızlığında yalnızca "Kore", yani "kız" denirdi. Bir gün arkadaşlarıyla çayırda çiçek toplarken yer yarıldı. Hades altın arabasıyla çıktı ve onu yeraltına kaçırdı. Annesi Demeter onu geri alana kadar yeryüzünde hiçbir şey yeşermedi. Ama Persephone yeraltında nar taneleri yemişti ve yılın bir bölümünde kocasının yanına dönmek zorunda kaldı.

@@ -12,6 +12,9 @@ bilgiler:
   - etiket: "Anıldığı yer"
     deger: "Bergama Zeus Sunağı'nın iç frizi"
 kaynak: "Apollodoros, Kütüphane 2.7.4, 3.9.1, Epitome 3.17–20; Pausanias, Hellas'ın Tasviri 1.4.6, 8.4.9"
+ilgiliKentler: ["bergama", "truva", "delphi"]
+ilgiliTanrilar: ["athena", "zeus"]
+ilgiliKahramanlar: ["akhilleus", "herakles"]
 ---
 
 Telephos, Herakles'in Athena rahibesi Auge'den olan oğluydu. Auge'nin babası Aleos bebeği dağa bıraktırdı. Onu bir dişi geyik emzirdi; adının Yunanca geyik anlamına gelen "elaphos" sözcüğünden geldiği söylenir. Auge ise Misya'ya, kral Teuthras'ın yanına gönderildi. Telephos büyüyünce annesini aradı. Delphoi kâhininin yol göstermesiyle Misya'ya geldi, annesini buldu, Teuthras'ın varisi oldu ve Kaikos vadisinin kralı oldu.

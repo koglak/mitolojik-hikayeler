@@ -17,6 +17,7 @@ konum:
   enlem: 41.5747
   boylam: 32.0244
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Tios, Batı Karadeniz kıyısında, Filyos Çayı'nın, antik adıyla Billaios'un denize döküldüğü yerin yanında kuruldu. Karadeniz'e onlarca koloni gönderen Milet'in kurduğu yerleşimlerden biriydi. Bithynia ile Paflagonya'nın sınırında yer aldığı için iki bölgenin kenti olarak da anılır.

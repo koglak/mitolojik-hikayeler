@@ -17,6 +17,7 @@ konum:
   enlem: 36.8297
   boylam: 38.0156
 ilgiliMitler: []
+ilgiliTanrilar: ["kybele"]
 ---
 
 Karkamış, Fırat'ın batı kıyısında, bugün Suriye sınırının hemen üstündeki bir höyüktür. Hitit İmparatorluğu yıkıldıktan sonra burada Geç Hitit krallıklarının en güçlülerinden biri yaşadı. Kentin tanrıçası Kubaba'ydı; bu tanrıçanın sonradan Frigyaların Kybele'sine dönüştüğü düşünülür.

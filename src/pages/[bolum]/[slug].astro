@@ -4,13 +4,16 @@ import Temel from '../../layouts/Temel.astro';
 import SiteBasligi from '../../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
-import { bolumAnahtarlari, bolumler, bolumAdresi, kayitAdresi } from '../../lib/bolumler';
+import { bolumAnahtarlari, bolumler, bolumAdresi, kayitAdresi, mitAdresi } from '../../lib/bolumler';
 import { basligiBol } from '../../lib/baslikParcalari';
 import KayitSimgesi from '../../components/KayitSimgesi.astro';
 import { kayitSimgesi } from '../../lib/kayitSimgeleri';
 import KayitKarti from '../../components/KayitKarti.astro';
 import MeanderBant from '../../components/MeanderBant.astro';
 import { bolgeler } from '../../lib/bolgeler';
+import { ilgiliKayitlar } from '../../lib/iliskiler';
+import { kayitPaylasimGorseli } from '../../lib/paylasimGorseli';
+import { kirintiVerisi, konuVerisi, makaleVerisi } from '../../lib/yapisalVeri';
 
 export async function getStaticPaths() {
   const yollar = [];
@@ -35,6 +38,7 @@ export async function getStaticPaths() {
 
 const { bolum, kayit, ayniBolgedekiler } = Astro.props;
 const kentSayfasi = bolum === 'kentler';
+const ilgiliGruplar = await ilgiliKayitlar(bolum, kayit.id);
 const kentinBolgesi = kayit.data.bolge ? bolgeler[kayit.data.bolge] : undefined;
 const { Content } = await render(kayit);
 const simgeVar = Boolean(kayitSimgesi(bolum, kayit.id));
@@ -42,9 +46,31 @@ const mitler = await getCollection('mitler');
 const ilgiliMitler = kayit.data.ilgiliMitler
   .map((slug: string) => mitler.find((mit) => mit.id === slug))
   .filter((mit): mit is (typeof mitler)[number] => Boolean(mit));
+const paylasimGorseli = kayitPaylasimGorseli(bolum, kayit.id);
+const yapisalVeri = [
+  makaleVerisi({
+    baslik: kayit.data.ad,
+    aciklama: kayit.data.ozet,
+    yol: kayitAdresi(bolum, kayit.id),
+    gorsel: paylasimGorseli,
+    bolum: bolumler[bolum].ad,
+    konu: konuVerisi(kayit.data.ad, kayit.data.konum),
+  }),
+  kirintiVerisi([
+    { ad: bolumler[bolum].ad, yol: bolumAdresi(bolum) },
+    { ad: kayit.data.ad, yol: kayitAdresi(bolum, kayit.id) },
+  ]),
+];
 ---
 
-<Temel baslik={`${kayit.data.ad} · ${bolumler[bolum].ad} · Mythos`} aciklama={kayit.data.ozet}>
+<Temel
+  baslik={`${kayit.data.ad} · ${bolumler[bolum].ad}`}
+  aciklama={kayit.data.ozet}
+  tur="article"
+  gorsel={paylasimGorseli}
+  gorselAciklamasi={kayit.data.ad}
+  yapisalVeri={yapisalVeri}
+>
   <div class="site-kabugu">
     <SiteBasligi />
     <main class="kayit">
@@ -97,7 +123,7 @@ const ilgiliMitler = kayit.data.ilgiliMitler
                 const { ad, altBaslik } = basligiBol(mit.data.baslik);
                 return (
                   <li>
-                    <a href={`/mitler/${mit.id}`}>
+                    <a href={mitAdresi(mit.id)}>
                       <span class="ilgili-resmi">
                         <MitGorseli slug={mit.id} idEki={`ilgili-${kayit.id}`} />
                       </span>
@@ -112,6 +138,30 @@ const ilgiliMitler = kayit.data.ilgiliMitler
             </ul>
           </section>
         )
+      }
+
+      {
+        ilgiliGruplar.map((grup) => (
+          <section class="baglantilar" aria-labelledby={`baglanti-${grup.bolum}`}>
+            <h2 id={`baglanti-${grup.bolum}`}>İlgili {bolumler[grup.bolum].ad.toLocaleLowerCase('tr')}</h2>
+            <ul>
+              {grup.kayitlar.map((bagli) => {
+                const bagliBolge = grup.bolum === 'kentler' && bagli.data.bolge ? bolgeler[bagli.data.bolge] : undefined;
+                return (
+                  <li>
+                    <a href={kayitAdresi(grup.bolum, bagli.id)}>
+                      <strong>
+                        {bagliBolge && <span class="bolge-noktasi" style={`--bolge-rengi: ${bagliBolge.renk}`} aria-hidden="true" />}
+                        {bagli.data.ad}
+                      </strong>
+                      <span>{bagli.data.ozet}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        ))
       }
 
       {
@@ -292,6 +342,55 @@ const ilgiliMitler = kayit.data.ilgiliMitler
   .ilgili-metni span {
     font: italic 400 17px/1.3 var(--baslik-font);
     color: var(--vurgu);
+  }
+  .baglantilar {
+    margin-top: 56px;
+    border-top: 1px solid var(--cizgi);
+    padding-top: 28px;
+  }
+  .baglantilar h2 {
+    font: 500 30px/1.1 var(--baslik-font);
+    margin: 0 0 20px;
+  }
+  .baglantilar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+  }
+  .baglantilar a {
+    display: block;
+    height: 100%;
+    padding: 14px 16px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-left: 2px solid var(--vurgu);
+    transition: border-color 0.2s;
+  }
+  .baglantilar a:hover {
+    border-color: var(--vurgu);
+  }
+  .baglantilar strong {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: 500 22px/1.15 var(--baslik-font);
+    margin-bottom: 4px;
+  }
+  .baglantilar strong .bolge-noktasi {
+    width: 9px;
+    height: 9px;
+  }
+  .baglantilar a > span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--soluk);
   }
   .ayni-bolge {
     margin-top: 64px;

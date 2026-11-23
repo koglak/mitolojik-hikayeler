@@ -17,6 +17,7 @@ konum:
   enlem: 37.6247
   boylam: 27.4339
 ilgiliMitler: []
+ilgiliTanrilar: ["dionysos"]
 ---
 
 Myus, İon Birliği'nin on iki kentinin en küçüğüydü. Büyük Menderes'in eskiden körfez olan ağzına yakın, küçük bir tepenin üstünde kurulmuştu.

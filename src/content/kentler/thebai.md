@@ -16,7 +16,9 @@ bolge: "yunanistan"
 konum:
   enlem: 38.3214
   boylam: 23.3189
-ilgiliMitler: ["oidipus", "teumessos-tilkisi"]
+ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe"]
+ilgiliTanrilar: ["athena", "dionysos", "zeus"]
+ilgiliKahramanlar: ["antigone", "herakles", "kadmos", "oidipus"]
 ---
 
 Thebai, Boiotia ovasının ortasında, Kadmeia denen alçak bir tepenin üstünde kuruldu. Tepenin adı kentin kurucusu Kadmos'tan gelir. Mitlere göre Kadmos, Zeus'un kaçırdığı kız kardeşi Europe'yi ararken bir ineği izledi ve ineğin yere çöktüğü yerde kenti kurdu. Orada bir ejderhayı öldürdü ve Athena'nın sözüyle onun dişlerini toprağa ekti. Topraktan silahlı savaşçılar fışkırdı. Birbirlerini öldürdüler, yalnızca beşi kaldı. Thebai'nin soylu aileleri bu beş savaşçıdan geldiğine inandı.

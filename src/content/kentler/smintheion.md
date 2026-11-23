@@ -17,6 +17,8 @@ konum:
   enlem: 39.4806
   boylam: 26.1408
 ilgiliMitler: ["truva-ati", "akhilleus"]
+ilgiliTanrilar: ["apollon"]
+ilgiliKahramanlar: ["agamemnon", "akhilleus"]
 ---
 
 İlyada şöyle başlar: Akhalar, Apollon'un rahibi Khryses'in kızını esir almıştır. Yaşlı rahip kızını geri ister, Agamemnon onu aşağılayıp kovar. Khryses deniz kıyısına iner ve tanrıya "Smintheus" diye seslenerek yalvarır. Apollon gümüş yayını alır, dokuz gün boyunca ordunun üstüne veba okları yağdırır. Akhilleus ile Agamemnon'un büyük kavgası da bu yüzden başlar.

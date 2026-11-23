@@ -16,7 +16,8 @@ bolge: "bithynia"
 konum:
   enlem: 40.4314
   boylam: 29.1561
-ilgiliMitler: []
+ilgiliMitler: ["argonotlar"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Kios, Gemlik Körfezi'nin iç ucunda kurulmuş bir liman kentiydi. Strabon'a göre adını, Herakles'le birlikte Argonautların gemisinde yolculuk eden Kios'tan aldı.

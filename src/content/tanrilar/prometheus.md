@@ -12,7 +12,9 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Iapetos ve Klymene"
 kaynak: "Hesiodos, Theogonia 507–616; İşler ve Günler 42–105; Aiskhylos, Zincire Vurulmuş Prometheus"
-ilgiliMitler: ["prometheus", "pandora"]
+ilgiliMitler: ["prometheus", "pandora", "io"]
+ilgiliTanrilar: ["iapetos", "zeus"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Prometheus bir Titan'dı ama Titanlar savaşında Zeus'un yanında yer aldı. Adı "önceden düşünen" demektir. Kardeşi Epimetheus ise "sonradan düşünen"di. Bazı anlatılara göre insanları çamurdan biçimlendiren de Prometheus'tu.

@@ -17,6 +17,7 @@ konum:
   enlem: 37.2236
   boylam: 27.5883
 ilgiliMitler: []
+ilgiliTanrilar: ["artemis"]
 ---
 
 Bargylia, Güllük Körfezi'nin iç ucundaki bir koyun kıyısında, bugün kuş cenneti olan sulak alanların yanında kurulmuştu. Kentin kalıntıları sazlıklara bakan iki tepenin üstündedir.

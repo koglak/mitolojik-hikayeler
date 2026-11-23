@@ -17,6 +17,7 @@ konum:
   enlem: 37.711
   boylam: 27.25
 ilgiliMitler: []
+ilgiliTanrilar: ["poseidon"]
 ---
 
 Panionion, "bütün İonların yeri" demektir. Mykale Dağı'nın, bugünkü Dilek Yarımadası'nın kuzey yamacındaydı. Herodotos'a göre on iki İon kenti burada Poseidon Helikonios adına toplanır, ortak şenlikler yapar ve önemli kararları birlikte alırdı.

@@ -15,6 +15,7 @@ konum:
   enlem: 37.16
   boylam: 29.4917
 ilgiliMitler: ["perseus-ve-medusa"]
+ilgiliKahramanlar: ["perseus"]
 ---
 
 Kibyra, Gölhisar ovasına bakan bir dağın yamacına kurulmuştu. Strabon'a göre Kibyra'da dört dil konuşulurdu: Pisidia dili, Solymos dili, Yunanca ve Lydia dili. Kentin demircileri de ünlüydü; Strabon, buradaki demirin kolayca oyulup süslendiğini yazar.

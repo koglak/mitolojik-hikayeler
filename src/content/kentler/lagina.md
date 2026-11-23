@@ -17,6 +17,7 @@ konum:
   enlem: 37.3786
   boylam: 28.0478
 ilgiliMitler: []
+ilgiliTanrilar: ["hekate", "zeus"]
 ---
 
 Lagina, Stratonikeia'nın kuzeyinde, Hekate'ye adanmış bir kutsal alandı. Strabon, burada tanrıça adına her yıl büyük şenlikler yapıldığını yazar. Stratonikeia ile Lagina arasında taş döşeli bir kutsal yol uzanırdı.

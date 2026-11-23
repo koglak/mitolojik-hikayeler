@@ -16,7 +16,8 @@ bolge: "likya"
 konum:
   enlem: 36.3333
   boylam: 29.2897
-ilgiliMitler: []
+ilgiliMitler: ["leto-ve-koyluler"]
+ilgiliTanrilar: ["apollon", "artemis", "hera", "leto"]
 ---
 
 Letoon bir kent değil, Ksanthos'un birkaç kilometre güneyinde, bataklıkla çevrili bir kutsal alandır. Burada yan yana üç tapınak durur: biri Leto'ya, biri Apollon'a, biri Artemis'e adanmıştır.

@@ -17,6 +17,8 @@ konum:
   enlem: 36.3967
   boylam: 30.4728
 ilgiliMitler: ["bellerophon"]
+ilgiliTanrilar: ["hephaistos"]
+ilgiliKahramanlar: ["bellerophon"]
 ---
 
 Olympos, Tahtalı Dağı'nın eteğinden denize inen bir derenin iki yakasına kurulmuştu. Kalıntılar bugün defne ve zakkum ağaçlarının arasında, ormanın içinde dağınık durur.

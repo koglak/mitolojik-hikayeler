@@ -13,6 +13,8 @@ bilgiler:
     deger: "Örümcek"
 kaynak: "Ovidius, Dönüşümler 6.1–145"
 ilgiliMitler: ["arakhne"]
+ilgiliKentler: ["atina"]
+ilgiliTanrilar: ["athena", "poseidon", "zeus"]
 ---
 
 Arakhne, Lydia'da küçük bir kasabada yaşayan yoksul bir kızdı. Babası İdmon yünleri mor renge boyardı. Ama Arakhne'nin dokuması o kadar güzeldi ki Tmolos'un bağlarından ve Paktolos'un sularından nymphe'ler onu izlemeye gelirdi. Herkes bu yeteneği ona Athena'nın verdiğini düşünüyordu. Arakhne bunu kabul etmedi; kimseden ders almadığını, isterse tanrıçayla yarışabileceğini söyledi.

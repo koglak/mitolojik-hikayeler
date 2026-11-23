@@ -12,6 +12,9 @@ bilgiler:
   - etiket: "Yargılandığı yer"
     deger: "Atina, Areopagos"
 kaynak: "Aiskhylos, Oresteia; Sophokles, Elektra; Euripides, Tauris'te İphigeneia"
+ilgiliKentler: ["atina", "mykene", "delphi"]
+ilgiliTanrilar: ["apollon", "athena"]
+ilgiliKahramanlar: ["agamemnon", "elektra"]
 ---
 
 Agamemnon öldürüldüğünde Orestes küçük bir çocuktu. Ablası Elektra onu kurtarıp Phokis'e, kral Strophios'un yanına gönderdi. Orestes orada kralın oğlu Pylades'le birlikte büyüdü ve ikisi ayrılmaz dost oldu. Yetişkin olunca Delphoi'de Apollon'a danıştı. Tanrı ona babasının öcünü almasını buyurdu.

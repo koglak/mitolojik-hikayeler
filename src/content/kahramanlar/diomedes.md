@@ -13,6 +13,9 @@ bilgiler:
     deger: "Aphrodite ve Ares"
 kaynak: "Homeros, İlyada 5, 6.119–236, 10; Apollodoros, Epitome 5.13, 6.15; Vergilius, Aeneis 11.243–295"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["argos", "thebai", "truva"]
+ilgiliTanrilar: ["ares", "athena", "afrodit"]
+ilgiliKahramanlar: ["aineias", "glaukos", "odysseus", "tydeus"]
 ---
 
 Diomedes, Thebai'ye karşı savaşan Yedilerden Tydeus'un oğluydu. Babası o savaşta ölmüştü. Diomedes de babalarının öcünü almaya giden Epigonlar arasındaydı ve Thebai'yi ele geçirdiler. Truva'ya geldiğinde en genç Yunan komutanlarından biriydi.

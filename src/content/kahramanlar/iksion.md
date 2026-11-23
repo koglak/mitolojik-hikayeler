@@ -13,6 +13,8 @@ bilgiler:
     deger: "Tartaros'ta dönen ateşten bir çarka bağlanmak"
 kaynak: "Pindaros, Pythia 2.21–48; Apollodoros, Epitome 1.20; Diodoros, Tarih Kitaplığı 4.69"
 ilgiliMitler: ["sisifos"]
+ilgiliTanrilar: ["hera", "tartaros", "zeus"]
+ilgiliKahramanlar: ["tantalos"]
 ---
 
 İksion, Thessalia'daki Lapithlerin kralıydı. Deioneus'un kızı Dia ile evlenmek istedi ve kızın babasına zengin bir başlık sözü verdi. Düğünden sonra Deioneus başlığı almaya geldiğinde İksion onun yoluna içi yanan kömürlerle dolu bir çukur hazırlamıştı. Deioneus çukura düşüp öldü. Pindaros'a göre İksion, kendi akrabasının kanını döken ilk ölümlüydü. Bu suç o kadar korkunçtu ki ne tanrılar ne insanlar onu arındırmaya yanaştı.

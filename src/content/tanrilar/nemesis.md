@@ -11,6 +11,7 @@ bilgiler:
     deger: "Nyks (Gece)"
 kaynak: "Hesiodos, Theogonia 223–224; Ovidius, Dönüşümler 3.402–406; Pausanias, Yunanistan Rehberi 1.33.2–8, 7.5.1–3"
 ilgiliMitler: ["narkissos"]
+ilgiliTanrilar: ["nyks"]
 ---
 
 Hesiodos'a göre Nemesis, Gece'nin çocuklarından biriydi ve ölümlülere bela olarak doğmuştu. Ama o kötülük getiren bir tanrıça değildi. Görevi dengeyi korumaktı: çok fazla şansa, güce ya da güzelliğe sahip olup tanrıları unutanları cezalandırırdı. Yunanlar bu kibre "hybris" derdi.

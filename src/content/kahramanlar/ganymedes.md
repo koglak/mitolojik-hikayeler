@@ -12,6 +12,9 @@ bilgiler:
   - etiket: "Görevi"
     deger: "Olimpos'ta tanrıların sakisi"
 kaynak: "Homeros, İlyada 5.265–267, 20.231–235; Homeros'a atfedilen Afrodit İlahisi 202–217; Ovidius, Dönüşümler 10.155–161"
+ilgiliKentler: ["truva", "olympos-dagi"]
+ilgiliTanrilar: ["hebe", "hera", "hermes", "zeus"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Ganymedes, Truva kralı Tros'un oğluydu. Homeros onu ölümlülerin en güzeli diye anar. Bir gün İda Dağı'nın yamaçlarında babasının sürülerini otlatırken tanrılar onu yerden kaldırıp götürdü. Amaç, Zeus'un yanında ölümsüzler arasında yaşaması ve tanrıların kadehlerine nektar doldurmasıydı.

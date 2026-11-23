@@ -13,6 +13,9 @@ bilgiler:
     deger: "Akhilleus"
 kaynak: "Apollodoros, Epitome 5.1–2; Smyrnalı Quintus, Homeros'tan Sonra 1; Aithiopis (Proklos'un özeti)"
 ilgiliMitler: ["akhilleus"]
+ilgiliKentler: ["truva"]
+ilgiliTanrilar: ["ares"]
+ilgiliKahramanlar: ["akhilleus", "hektor", "hippolyte", "priamos"]
 ---
 
 Penthesileia da Hippolyte gibi Ares'in ve Otrere'nin kızıydı. Smyrnalı Quintus'a göre bir av sırasında geyiğe attığı mızrak kazara kız kardeşi Hippolyte'ye isabet etti ve onu öldürdü. Bu kanın lekesinden arınmak ve şan kazanmak için on iki Amazon savaşçıyla Truva'ya, kral Priamos'a yardıma gitti.

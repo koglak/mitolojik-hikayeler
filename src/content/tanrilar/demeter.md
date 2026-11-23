@@ -12,7 +12,9 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Homerosçu Demeter İlahisi; Kallimakhos, Demeter İlahisi; Ovidius, Dönüşümler 8.738–878"
-ilgiliMitler: ["persephone", "erysikhthon"]
+ilgiliMitler: ["persephone", "erysikhthon", "tantalos"]
+ilgiliKentler: ["eleusis", "olympos-dagi"]
+ilgiliTanrilar: ["hades", "helios", "kronos", "persephone", "rhea", "zeus"]
 ---
 
 Demeter, insanlara toprağı sürmeyi ve tahıl yetiştirmeyi öğreten tanrıçaydı. Zeus'tan bir kızı oldu: Persephone. Hades, Zeus'un izniyle kızı kaçırıp yeraltına götürünce Demeter elinde meşalelerle dokuz gün dokuz gece yeryüzünü dolaştı. Sonunda her şeyi gören Helios ona olanları anlattı.

@@ -17,6 +17,7 @@ konum:
   enlem: 39.5350
   boylam: 26.9550
 ilgiliMitler: []
+ilgiliKahramanlar: ["akhilleus", "andromakhe", "hektor"]
 ---
 
 Adramyttion, Edremit Körfezi'nin doğu kıyısında kurulmuş bir liman kentiydi. Bugünkü Edremit hem adını hem de körfezin adını ondan alır.

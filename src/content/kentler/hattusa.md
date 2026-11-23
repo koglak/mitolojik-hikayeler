@@ -17,6 +17,7 @@ konum:
   enlem: 40.0197
   boylam: 34.6156
 ilgiliMitler: []
+ilgiliTanrilar: ["kronos", "zeus"]
 ---
 
 Hattuşa, Hitit İmparatorluğu'nun başkentiydi. Kentin çevresi kilometrelerce uzanan surlarla çevriliydi; surların kapılarından biri iki aslanla, biri bir savaşçı tanrı kabartmasıyla korunur. Kazılarda on binlerce çivi yazılı tablet bulundu. Bunlar arasında Mısır'la yapılan Kadeş Antlaşması'nın Hititçe metni de vardır.

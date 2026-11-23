@@ -12,7 +12,9 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Hermes ve bir peri"
 kaynak: "Homerosçu Pan İlahisi (19); Ovidius, Dönüşümler 1.689–712; Herodotos, Tarih 6.105"
-ilgiliMitler: ["pan-ve-syrinx"]
+ilgiliMitler: ["pan-ve-syrinx", "midas"]
+ilgiliTanrilar: ["hermes"]
+ilgiliKentler: ["olympos-dagi"]
 ---
 
 Homerosçu Pan İlahisi'ne göre Pan doğduğunda keçi ayaklı, boynuzlu ve sakallıydı. Annesi bebeğin görünüşünden korkup kaçtı. Babası Hermes ise onu bir tavşan postuna sarıp Olimpos'a götürdü. Bebek bütün tanrıları öyle neşelendirdi ki adını "hepsi" anlamına gelen Pan koydular.

@@ -12,7 +12,10 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Semele"
 kaynak: "Euripides, Bakkhalar; Ovidius, Dönüşümler 3.253–315; Homerosçu Dionysos İlahisi (7)"
-ilgiliMitler: ["dionysos-ve-korsanlar", "midas"]
+ilgiliMitler: ["dionysos-ve-korsanlar", "midas", "theseus-ve-minotauros"]
+ilgiliKentler: ["atina", "teos", "thebai"]
+ilgiliTanrilar: ["hera", "zeus"]
+ilgiliKahramanlar: ["kadmos"]
 ---
 
 Dionysos'un annesi Semele, Thebai kralı Kadmos'un kızıydı. Kıskanç Hera, kılık değiştirip Semele'yi kandırdı: Zeus'tan kendini gerçek hâliyle göstermesini istemeliydi. Zeus yemin etmişti, geri adım atamadı. Yıldırımlarıyla göründü ve Semele yanarak öldü. Zeus anne karnındaki bebeği kurtarıp kendi uyluğuna dikti. Dionysos vakti gelince ikinci kez, babasından doğdu.

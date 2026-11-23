@@ -13,6 +13,9 @@ bilgiler:
     deger: "Paris"
 kaynak: "Homeros, İlyada 3.121–244, Odysseia 4.120–305; Apollodoros, Kütüphane 3.10.7–9; Herodotos, Tarih 2.112–120; Euripides, Helene"
 ilgiliMitler: ["truva-ati", "kastor-ve-polydeukes"]
+ilgiliKentler: ["sparta", "truva"]
+ilgiliTanrilar: ["afrodit", "zeus"]
+ilgiliKahramanlar: ["kastor-ve-polydeukes", "menelaos", "odysseus", "paris", "priamos", "theseus"]
 ---
 
 Helene, Zeus'un kuğu kılığında yaklaştığı Sparta kraliçesi Leda'nın kızıydı. Bazı anlatılara göre bir yumurtadan doğdu. Daha çocukken güzelliği o kadar ünlüydü ki Theseus onu kaçırdı; kardeşleri Kastor ile Polydeukes onu kurtarıp Sparta'ya geri getirdi. Evlenme çağı gelince Yunanistan'ın bütün prensleri talip oldu. Kavga çıkmasın diye Odysseus bir yol buldu: bütün talipler, Helene kimi seçerse seçsin, kocasına bir haksızlık yapılırsa onun yanında savaşacaklarına yemin etti. Helene Menelaos'u seçti.

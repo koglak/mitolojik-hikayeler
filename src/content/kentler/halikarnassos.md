@@ -17,6 +17,7 @@ konum:
   enlem: 37.0379
   boylam: 27.4241
 ilgiliMitler: []
+ilgiliTanrilar: ["hermes", "afrodit"]
 ---
 
 Halikarnassos, bugünkü Bodrum'un altında, bir koyun çevresine tiyatro gibi dizilmiş bir kentti. "Tarihin babası" Herodotos burada doğdu. MÖ 4. yüzyılda Karya'yı yöneten Mausolos başkentini buraya taşıdı.

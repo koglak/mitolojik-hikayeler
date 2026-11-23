@@ -17,6 +17,8 @@ konum:
   enlem: 37.4153
   boylam: 27.8228
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
+ilgiliKahramanlar: ["herakles", "hippolyte", "omphale"]
 ---
 
 Labranda, Milas'ın kuzeyindeki dağların yamacında, Zeus'a adanmış bir kutsal alandır. Mylasa'dan buraya, Strabon'un zamanında kurbanlık hayvanların götürüldüğü taş döşeli bir kutsal yol çıkardı.

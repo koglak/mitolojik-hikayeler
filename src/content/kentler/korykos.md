@@ -17,6 +17,7 @@ konum:
   enlem: 36.4636
   boylam: 34.1544
 ilgiliMitler: ["prometheus"]
+ilgiliTanrilar: ["gaia", "hermes", "zeus"]
 ---
 
 Korykos, Kilikya kıyısında, bugünkü Kızkalesi'nin karşısında kurulmuş bir liman kentiydi. Biraz içerideki kireçtaşı arazide, yer çökmüş ve devasa obruklar oluşmuştur. Bunlardan biri, bugün Cennet Obruğu denen Korykos Mağarası'dır. Strabon, bu çukurun dibinde bir mağara bulunduğunu, içinden yeraltı ırmağının aktığını ve çevresinde dünyanın en iyi safranının yetiştiğini yazar.

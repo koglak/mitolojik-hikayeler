@@ -17,6 +17,7 @@ konum:
   enlem: 37.9947
   boylam: 27.1975
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Notion, Ahmetbeyli Çayı'nın denize döküldüğü yerin hemen doğusunda, denize bakan iki tepenin üstüne kurulmuştu. Klaros'taki Apollon kutsal alanına deniz yoluyla gelenler buradan karaya çıkardı. İlginç biçimde Herodotos, Notion'u İon değil Aiol kentleri arasında sayar.

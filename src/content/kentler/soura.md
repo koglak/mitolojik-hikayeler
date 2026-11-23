@@ -17,6 +17,7 @@ konum:
   enlem: 36.244
   boylam: 29.946
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Soura, Myra ile limanı Andriake arasında, sazlık bir koyun kıyısında Apollon'a adanmış bir kutsal alandı. Tapınağın kalıntıları bugün, eskiden su ile dolu olan alçak bir düzlüğün kenarında durur.

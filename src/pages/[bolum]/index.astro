@@ -8,9 +8,10 @@ import KategoriGorseli from '../../components/KategoriGorseli.astro';
 import KentHaritasi from '../../components/KentHaritasi.astro';
 import KayitSimgesi from '../../components/KayitSimgesi.astro';
 import { kayitSimgesi } from '../../lib/kayitSimgeleri';
-import { bolumAnahtarlari, bolumler, kayitAdresi } from '../../lib/bolumler';
+import { bolumAnahtarlari, bolumler, bolumAdresi, kayitAdresi } from '../../lib/bolumler';
 import { bolgeAnahtarlari, bolgeler, bolgesizKent } from '../../lib/bolgeler';
 import { aramaIcinSadelestir } from '../../lib/aramaMetni';
+import { kirintiVerisi, koleksiyonVerisi } from '../../lib/yapisalVeri';
 
 export function getStaticPaths() {
   return bolumAnahtarlari.map((bolum) => ({ params: { bolum: bolumler[bolum].yol }, props: { bolum } }));
@@ -52,6 +53,15 @@ const aramaOrnekleri: Partial<Record<typeof bolum, string>> = {
   kahramanlar: 'Kahramanlarda ara: Herakles, Truva, Amazon...',
 };
 const aramaOrnegi = aramaOrnekleri[bolum];
+const yapisalVeri = [
+  koleksiyonVerisi({
+    ad,
+    aciklama,
+    yol: bolumAdresi(bolum),
+    ogeler: kayitlar.map((kayit) => ({ ad: kayit.data.ad, yol: kayitAdresi(bolum, kayit.id) })),
+  }),
+  kirintiVerisi([{ ad, yol: bolumAdresi(bolum) }]),
+];
 const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   aramaIcinSadelestir(
     [
@@ -63,7 +73,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   );
 ---
 
-<Temel baslik={`${ad} · Mythos`} aciklama={aciklama}>
+<Temel baslik={ad} aciklama={aciklama} yapisalVeri={yapisalVeri}>
   <div class="site-kabugu">
     <SiteBasligi />
     <main>

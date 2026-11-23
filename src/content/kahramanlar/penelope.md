@@ -13,6 +13,8 @@ bilgiler:
     deger: "Helene"
 kaynak: "Homeros, Odysseia 2.93–110, 19.137–156, 21.1–79, 23.153–230"
 ilgiliMitler: ["odysseus"]
+ilgiliKentler: ["truva", "ithaka"]
+ilgiliKahramanlar: ["helene", "odysseus"]
 ---
 
 Odysseus Truva'ya gittiğinde oğlu Telemakhos bebekti. Savaş on yıl sürdü, dönüş yolu on yıl daha. Odysseus'un öldüğü düşünülünce İthaka'nın ve çevre adaların soyluları Penelope'yle evlenip tahta geçmek için saraya doluştu. Homeros'a göre yüz sekiz talip vardı ve her gün Odysseus'un sürülerinden kesip yiyorlardı.

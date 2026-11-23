@@ -13,6 +13,8 @@ bilgiler:
     deger: "Paris"
 kaynak: "Sophokles, Philoktetes; Homeros, İlyada 2.716–725; Apollodoros, Kütüphane 2.7.7, Epitome 3.27, 5.8"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["truva"]
+ilgiliKahramanlar: ["helene", "herakles", "odysseus", "paris"]
 ---
 
 Herakles ölmek üzereyken Oite dağında kendi odun yığınının üzerine çıktı ve birinden ateşi yakmasını istedi. Kimse cesaret edemedi. Philoktetes ya da onun babası Poias ateşi yaktı. Herakles de ona karşılık olarak yayını ve Hydra'nın zehrine bandığı oklarını verdi.

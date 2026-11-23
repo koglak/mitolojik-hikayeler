@@ -13,6 +13,8 @@ bilgiler:
     deger: "Hyperion ve Theia"
 kaynak: "Homerosçu Selene İlahisi (32); Rodoslu Apollonios, Argonautika 4.57–58; Pausanias, Yunanistan Rehberi 5.1.4"
 ilgiliMitler: ["endymion"]
+ilgiliKentler: ["herakleia"]
+ilgiliTanrilar: ["eos", "helios", "hyperion", "zeus"]
 ---
 
 Selene, güneş tanrısı Helios'un ve şafak tanrıçası Eos'un kız kardeşiydi. Kardeşi gündüz gökyüzünü geçtikten sonra o yola çıkardı. Homerosçu ilahiye göre denizde yıkanıp parlak giysilerini giyer, beyaz atlarını arabasına koşar ve dolunay gecelerinde bütün ışığıyla yükselirdi.

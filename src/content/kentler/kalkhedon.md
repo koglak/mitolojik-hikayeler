@@ -17,6 +17,7 @@ konum:
   enlem: 40.99
   boylam: 29.025
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Kalkhedon, İstanbul Boğazı'nın Asya yakasında, bugünkü Kadıköy'ün yerinde Megaralı göçmenler tarafından kuruldu. Bizantion, yani sonraki İstanbul, ondan on yedi yıl sonra karşı kıyıda kuruldu.

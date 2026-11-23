@@ -17,6 +17,8 @@ konum:
   enlem: 37.9715
   boylam: 23.7257
 ilgiliMitler: ["theseus-ve-minotauros", "athena-ve-poseidon"]
+ilgiliTanrilar: ["athena", "dionysos", "poseidon"]
+ilgiliKahramanlar: ["theseus"]
 ---
 
 Atina, Attika ovasının ortasında, düz tepeli bir kayanın, Akropolis'in çevresinde büyüdü. Mitlere göre kentin ilk kralı Kekrops'un zamanında Athena ile Poseidon kentin koruyucusu olmak için yarıştı. Poseidon üç dişli mızrağını kayaya vurdu ve tuzlu bir pınar fışkırttı. Athena toprağa dokundu ve ilk zeytin ağacını büyüttü. Kentliler zeytini seçti, kent de tanrıçanın adını aldı. Herodotos, Persler Akropolis'i yaktıktan bir gün sonra bu kutsal zeytin ağacından yeni bir filiz çıktığını yazar.

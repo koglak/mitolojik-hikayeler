@@ -17,6 +17,8 @@ konum:
   enlem: 38.0047
   boylam: 27.1925
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
+ilgiliKahramanlar: ["kalkhas", "mopsos"]
 ---
 
 Klaros, Kolophon kentine bağlı, Apollon'a adanmış bir kehanet merkeziydi. Pausanias'a göre Thebai düştükten sonra kör kâhin Teiresias'ın kızı Manto buraya geldi ve kutsal alanı kurdu.

@@ -12,7 +12,10 @@ bilgiler:
   - etiket: "Eşi"
     deger: "Persephone"
 kaynak: "Homeros, İlyada 15.187–193; Homerosçu Demeter İlahisi"
-ilgiliMitler: ["persephone", "orpheus-ve-eurydike"]
+ilgiliMitler: ["persephone", "orpheus-ve-eurydike", "herakles", "perseus-ve-medusa", "sisifos", "titanlar-savasi"]
+ilgiliTanrilar: ["kronos", "persephone", "poseidon", "zeus"]
+ilgiliKahramanlar: ["orpheus"]
+ilgiliKentler: ["olympos-dagi"]
 ---
 
 Titanlar yenildikten sonra Kronos'un üç oğlu dünyayı kura ile paylaştı. Homeros'a göre Zeus'a geniş gök, Poseidon'a gri deniz, Hades'e ise "puslu karanlık" düştü. Yeryüzü ve Olimpos üçünün ortak alanı kaldı.

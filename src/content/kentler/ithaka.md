@@ -17,6 +17,8 @@ konum:
   enlem: 38.3667
   boylam: 20.7167
 ilgiliMitler: ["odysseus"]
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["odysseus", "penelope"]
 ---
 
 Ithaka, Yunanistan'ın batısında, Kefalonya'nın hemen yanında, ince bir boyunla ikiye ayrılmış küçük bir adadır. Odysseus onu şöyle anlatır: "Kayalık bir ada, at koşturmaya elverişsiz, ama iyi gençler yetiştirir. İnsanın kendi yurdundan daha tatlı bir şey göremem."

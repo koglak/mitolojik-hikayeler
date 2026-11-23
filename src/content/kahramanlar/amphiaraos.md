@@ -12,6 +12,8 @@ bilgiler:
   - etiket: "Kehanet yeri"
     deger: "Oropos'taki Amphiareion"
 kaynak: "Apollodoros, Kütüphane 3.6.2, 3.6.8, 3.7.5; Pindaros, Nemea 9.13–27; Pausanias, Hellas'ın Tasviri 1.34.1–5"
+ilgiliKentler: ["argos", "atina", "thebai"]
+ilgiliTanrilar: ["zeus"]
 ---
 
 Amphiaraos, Argos'un büyük kâhini ve aynı zamanda güçlü bir savaşçıydı. Bir zamanlar kral Adrastos'la kavga etmişler, barışırken de ileride aralarında çıkacak her anlaşmazlıkta Amphiaraos'un karısı, Adrastos'un kız kardeşi Eriphyle'nin karar vermesini kararlaştırmışlardı.

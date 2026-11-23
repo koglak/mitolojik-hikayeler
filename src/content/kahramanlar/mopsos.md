@@ -14,6 +14,9 @@ bilgiler:
   - etiket: "Rakibi"
     deger: "Kalkhas"
 kaynak: "Strabon, Coğrafya 14.1.27, 14.5.16; Apollodoros, Epitome 6.2–4, 6.19; Pausanias, Hellas'ın Tasviri 7.3.1–2"
+ilgiliKentler: ["klaros", "thebai", "truva"]
+ilgiliTanrilar: ["apollon"]
+ilgiliKahramanlar: ["kalkhas"]
 ---
 
 Mopsos, Thebai'nin kör kâhini Teiresias'ın torunuydu. Annesi Manto, Thebai düştükten sonra Anadolu'ya gelip Klaros'a yerleşti. Mopsos'un babasının Apollon olduğu söylenir. Kâhinliği hem annesinden hem de Apollon'dan aldı ve Klaros'taki Apollon bilicisinin ünlü yorumcularından biri oldu.

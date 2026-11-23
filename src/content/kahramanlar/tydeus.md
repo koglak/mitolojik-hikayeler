@@ -12,6 +12,9 @@ bilgiler:
   - etiket: "Oğlu"
     deger: "Diomedes"
 kaynak: "Homeros, İlyada 4.370–400, 5.800–813; Apollodoros, Kütüphane 3.6.1, 3.6.8; Aiskhylos, Thebai'ye Karşı Yediler"
+ilgiliKentler: ["argos", "thebai"]
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["amphiaraos", "diomedes", "meleagros"]
 ---
 
 Tydeus, Kalydon kralı Oineus'un oğlu ve Meleagros'un üvey kardeşiydi. Bir akrabasını öldürünce Kalydon'dan sürüldü ve Argos'a, kral Adrastos'un sarayına sığındı. Aynı gece Thebai'den sürülen Polyneikes de oraya geldi ve iki sürgün sarayın kapısında dövüşmeye başladı. Adrastos'a kızlarını bir yaban domuzuyla bir aslana vereceği söylenmişti. Tydeus'un kalkanında domuz, Polyneikes'inkinde aslan vardı. Adrastos kâhinin sözünü anladı ve kızlarını onlarla evlendirdi.

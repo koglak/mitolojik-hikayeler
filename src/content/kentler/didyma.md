@@ -17,6 +17,7 @@ konum:
   enlem: 37.3849
   boylam: 27.2563
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Didyma bir kent değil, Milet'e bağlı bir kutsal alandı. İki yer arasında, iki yanı heykellerle dizili yaklaşık yirmi kilometrelik bir Kutsal Yol uzanırdı.

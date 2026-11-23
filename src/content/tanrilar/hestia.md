@@ -12,7 +12,9 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Hesiodos, Theogonia 453–500; Homerosçu Afrodit İlahisi 21–32; Homerosçu Hestia İlahisi (29)"
-ilgiliMitler: []
+ilgiliMitler: ["titanlar-savasi"]
+ilgiliTanrilar: ["apollon", "kronos", "poseidon", "rhea", "zeus"]
+ilgiliKentler: ["olympos-dagi"]
 ---
 
 Hestia, Kronos ile Rhea'nın ilk çocuğuydu ve babası tarafından ilk yutulan oydu. Zeus Kronos'a kardeşlerini kusturduğunda ise en son o çıktı. Bu yüzden ona hem "en büyük" hem "en küçük" denirdi.

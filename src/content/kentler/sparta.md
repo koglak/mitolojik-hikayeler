@@ -16,7 +16,9 @@ bolge: "yunanistan"
 konum:
   enlem: 37.0819
   boylam: 22.4236
-ilgiliMitler: ["kastor-ve-polydeukes"]
+ilgiliMitler: ["kastor-ve-polydeukes", "truva-ati"]
+ilgiliTanrilar: ["artemis", "zeus"]
+ilgiliKahramanlar: ["helene", "kastor-ve-polydeukes", "menelaos", "odysseus", "paris"]
 ---
 
 Sparta, Peloponnesos'un güneyinde, Eurotas ırmağının vadisinde kuruldu. Bir yanında Taygetos dağları yükselir. Antik yazarlar Sparta'nın yüzyıllarca sur yapmadığını, kentin duvarlarının askerleri olduğunu söyler.

@@ -17,6 +17,7 @@ konum:
   enlem: 40.1795
   boylam: 28.6672
 ilgiliMitler: []
+ilgiliTanrilar: ["apollon"]
 ---
 
 Apollonia, antik adı Apollonia ad Rhyndacum, Uluabat Gölü'nün içine uzanan küçük bir yarımadanın üstüne kurulmuştu. Göl, antik çağda Apollonia Gölü diye anılırdı; Rhyndakos, yani bugünkü Mustafakemalpaşa Çayı, gölden çıkıp Marmara'ya akardı.

@@ -11,6 +11,9 @@ export const kayitSemasi = z.object({
     .max(5),
   kaynak: z.string().min(1),
   ilgiliMitler: z.array(z.string().min(1)).default([]),
+  ilgiliKentler: z.array(z.string().min(1)).default([]),
+  ilgiliTanrilar: z.array(z.string().min(1)).default([]),
+  ilgiliKahramanlar: z.array(z.string().min(1)).default([]),
   konum: z
     .object({ enlem: z.number().min(-90).max(90), boylam: z.number().min(-180).max(180) })
     .optional(),

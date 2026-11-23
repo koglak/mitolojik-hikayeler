@@ -17,6 +17,7 @@ konum:
   enlem: 37.0611
   boylam: 27.3956
 ilgiliMitler: []
+ilgiliTanrilar: ["athena"]
 ---
 
 Pedasa, Bodrum Yarımadası'nın iç kesimindeki bir tepede, Karyalılardan önce bölgede yaşadığı söylenen Leleglerin kentiydi. Kalıntılar, kuru taş duvarlarla çevrili bir akropolden ve çevredeki yuvarlak Leleg mezarlarından oluşur.

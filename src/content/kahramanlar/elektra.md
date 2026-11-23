@@ -12,6 +12,8 @@ bilgiler:
   - etiket: "Memleketi"
     deger: "Mykene (Homeros'ta Argos)"
 kaynak: "Aiskhylos, Adak Sunucular; Sophokles, Elektra; Euripides, Elektra"
+ilgiliKentler: ["argos", "mykene"]
+ilgiliKahramanlar: ["agamemnon", "orestes"]
 ---
 
 Klytaimnestra ve sevgilisi Aigisthos, Agamemnon'u öldürdüğünde Elektra küçük kardeşi Orestes'i saraydan kaçırıp güvenli bir yere gönderdi. Kendisi annesinin ve onun yeni kocasının sarayında kaldı. Yıllarca babası için yas tuttu, katilleri herkesin önünde suçlamaktan çekinmedi ve bu yüzden bir hizmetçi gibi aşağılandı.

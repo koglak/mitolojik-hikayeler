@@ -80,7 +80,7 @@ describe('kentler konumu', () => {
 describe('bölüm adresleri', () => {
   it('antik kentler /antik-kentler altında', () => {
     expect(bolumAdresi('kentler')).toBe('/antik-kentler/');
-    expect(kayitAdresi('kentler', 'efes')).toBe('/antik-kentler/efes');
+    expect(kayitAdresi('kentler', 'efes')).toBe('/antik-kentler/efes/');
   });
 
   it('her yol tek bir bölüme döner', () => {

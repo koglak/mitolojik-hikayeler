@@ -13,6 +13,8 @@ bilgiler:
     deger: "Pallas ve Styx"
 kaynak: "Hesiodos, Theogonia 383–403; Pausanias, Yunanistan Rehberi 3.15.7, 5.11.1"
 ilgiliMitler: []
+ilgiliKentler: ["atina", "efes", "olympia"]
+ilgiliTanrilar: ["athena", "zeus"]
 ---
 
 Hesiodos'a göre Nike, Titan Pallas ile yeraltı ırmağı Styx'in kızıydı. Kardeşleri Zelos (Hırs), Kratos (Güç) ve Bia (Zor) idi. Titanlar savaşı başladığında Styx çocuklarıyla birlikte Zeus'un yanına ilk gelen oldu. Zeus bunu ödüllendirdi: Nike ve kardeşleri bundan sonra hep onun yanında yaşayacaktı.

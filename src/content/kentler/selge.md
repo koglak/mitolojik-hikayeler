@@ -15,6 +15,7 @@ konum:
   enlem: 37.2297
   boylam: 31.1317
 ilgiliMitler: []
+ilgiliKahramanlar: ["kalkhas"]
 ---
 
 Selge, Köprülü Kanyon'un üstündeki dağlarda, bin metreyi aşan bir yükseklikte kurulmuştu. Strabon'a göre kentin ilk kurucusu, Truva'dan dönen kâhin Kalkhas'tı; sonra Spartalılar gelip yerleşti. Selgeliler kendilerini Sparta'nın akrabası sayardı.

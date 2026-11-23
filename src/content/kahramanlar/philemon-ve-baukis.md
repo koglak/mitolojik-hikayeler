@@ -13,6 +13,7 @@ bilgiler:
     deger: "Philemon meşe, Baukis ıhlamur ağacı"
 kaynak: "Ovidius, Dönüşümler 8.611–724"
 ilgiliMitler: ["baukis-ve-philemon"]
+ilgiliTanrilar: ["hermes", "zeus"]
 ---
 
 Zeus ile Hermes bir gün yorgun yolcular kılığında Phrygia'da dolaşıyordu. Bin kapı çaldılar, bin kapı yüzlerine kapandı. Sonunda kamış ve sazla örtülü küçük bir kulübeye geldiler. Burada yaşlı Philemon ile karısı Baukis gençliklerinden beri birlikte yaşıyor, yoksulluklarını saklamadan katlanılabilir kılıyorlardı. Konukları içeri aldılar, ocağı üfleyip ateşi canlandırdılar, bahçeden sebze, tavandan tütsülenmiş et indirip ellerindeki her şeyi sofraya koydular.

@@ -17,6 +17,8 @@ konum:
   enlem: 38.3389
   boylam: 36.3311
 ilgiliMitler: []
+ilgiliTanrilar: ["artemis"]
+ilgiliKahramanlar: ["agamemnon", "orestes"]
 ---
 
 Komana, Toros Dağları'nın kuzeyinde, Seyhan'ın bir kolunun kıyısındaki dar bir vadide kurulmuştu. Strabon'a göre burada savaş tanrıçası Ma'nın büyük bir tapınağı vardı. Tapınağın baş rahibi Kapadokya kralından sonra ülkenin en güçlü kişisi sayılır, tapınakta altı binden fazla hizmetkâr çalışırdı.

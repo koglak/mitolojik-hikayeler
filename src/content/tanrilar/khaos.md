@@ -13,6 +13,7 @@ bilgiler:
     deger: "Aither (Işıklı Hava) ve Hemera (Gündüz)"
 kaynak: "Hesiodos, Theogonia 116–125, 700; Aristophanes, Kuşlar 693–702; Ovidius, Dönüşümler 1.5–20"
 ilgiliMitler: []
+ilgiliTanrilar: ["eros", "gaia", "nyks", "tartaros", "zeus"]
 ---
 
 Hesiodos, Theogonia'ya şu sözlerle başlar: her şeyden önce Khaos meydana geldi. Ondan sonra Gaia, yani Toprak, toprağın dibindeki sisli Tartaros ve tanrıların en güzeli Eros geldi. Khaos'un kendisi bir tanrıdan çok bir yerdi. Adı Yunancada "açılmak, ağzı açık kalmak" anlamındaki bir fiilden gelir ve henüz hiçbir şeyin olmadığı, uçsuz bucaksız bir boşluğu anlatır.

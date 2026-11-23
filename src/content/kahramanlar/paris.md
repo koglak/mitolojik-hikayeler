@@ -15,6 +15,9 @@ bilgiler:
     deger: "Philoktetes"
 kaynak: "Apollodoros, Kütüphane 3.12.5, Epitome 3.1–5, 5.3, 5.8; Homeros, İlyada 3.15–382"
 ilgiliMitler: ["truva-ati", "akhilleus"]
+ilgiliKentler: ["sparta", "truva"]
+ilgiliTanrilar: ["apollon", "athena", "hera", "zeus", "afrodit"]
+ilgiliKahramanlar: ["akhilleus", "hekabe", "helene", "menelaos", "peleus", "philoktetes", "priamos"]
 ---
 
 Kraliçe Hekabe, Paris'i doğurmadan önce yanan bir meşale doğurduğunu ve bu meşalenin bütün kenti yaktığını gördü. Kâhinler bebeğin Truva'nın yıkımı olacağını söyledi. Priamos bebeği İda Dağı'na bıraktırdı. Bir dişi ayı onu beş gün emzirdi, sonra çobanlar bulup büyüttü. Paris dağda büyüdü ve peri Oinone'yle evlendi.

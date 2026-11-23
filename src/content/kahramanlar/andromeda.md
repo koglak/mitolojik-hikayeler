@@ -13,6 +13,9 @@ bilgiler:
     deger: "Andromeda takımyıldızı ve galaksisi"
 kaynak: "Apollodoros, Kütüphane 2.4.3–2.4.5; Ovidius, Dönüşümler 4.663–5.235"
 ilgiliMitler: ["perseus-ve-medusa"]
+ilgiliKentler: ["argos"]
+ilgiliTanrilar: ["poseidon"]
+ilgiliKahramanlar: ["herakles", "perseus"]
 ---
 
 Aithiopia kraliçesi Kassiopeia, deniz perisi Nereidlerden daha güzel olduğunu söyleyerek övündü. Öfkelenen Poseidon ülkeye bir sel ve bir deniz canavarı gönderdi. Kâhin, ülkenin ancak kralın kızı Andromeda canavara kurban edilirse kurtulacağını söyledi. Halkın baskısıyla kral Kepheus kızını deniz kıyısındaki bir kayaya zincirletti.

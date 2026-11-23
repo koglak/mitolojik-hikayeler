@@ -15,6 +15,9 @@ bilgiler:
     deger: "Tartaros"
 kaynak: "Homeros, Odysseia 11.582–592; Pindaros, Olympia 1.36–64; Apollodoros, Epitome 2.1; Pausanias, Hellas'ın Tasviri 2.22.3"
 ilgiliMitler: ["tantalos", "niobe", "orpheus-ve-eurydike"]
+ilgiliKentler: ["sipylos"]
+ilgiliTanrilar: ["demeter", "tartaros", "zeus"]
+ilgiliKahramanlar: ["niobe", "odysseus", "pelops"]
 ---
 
 Tantalos, Zeus'un oğluydu ve Lydia'da, bugünkü Manisa'nın arkasında yükselen Sipylos Dağı'nda hüküm sürüyordu. Zenginliğiyle ün salmıştı. Tanrılar onu o kadar severdi ki ölümlüler içinde onların sofrasına oturup onlarla birlikte yemek yiyen tek kişi oydu.

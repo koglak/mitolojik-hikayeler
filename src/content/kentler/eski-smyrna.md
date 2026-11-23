@@ -17,6 +17,7 @@ konum:
   enlem: 38.4628
   boylam: 27.1658
 ilgiliMitler: []
+ilgiliTanrilar: ["athena", "dionysos", "nemesis"]
 ---
 
 Eski Smyrna, İzmir Körfezi'nin kuzeydoğu köşesinde, bugün Bayraklı'nın apartmanları arasında kalan bir höyüğün üstündedir. Herodotos'a göre kent ilk önce Aiol kentiydi. Bir gün Smyrnalılar kent dışında Dionysos için şenlik yaparken, sığındıkları Kolophonlu sürgünler kapıları kapatıp kenti ele geçirdi. Bundan sonra Smyrna İon kentlerinden biri sayıldı.

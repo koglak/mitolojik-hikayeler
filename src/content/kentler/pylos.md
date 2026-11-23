@@ -17,6 +17,8 @@ konum:
   enlem: 37.0272
   boylam: 21.6953
 ilgiliMitler: []
+ilgiliTanrilar: ["poseidon"]
+ilgiliKahramanlar: ["herakles", "menelaos", "nestor", "odysseus"]
 ---
 
 Pylos, Peloponnesos'un güneybatısında, Navarino Koyu'na bakan bir tepede kuruldu. Homeros ona "kumlu Pylos" der. Tepenin üstündeki saray, Miken çağından en iyi korunmuş saraydır. Taht odasının ortasında büyük, yuvarlak bir ocak vardı. Banyo odasında kil bir küvet bugün de yerinde durur.

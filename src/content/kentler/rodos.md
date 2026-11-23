@@ -17,6 +17,7 @@ konum:
   enlem: 36.4349
   boylam: 28.2176
 ilgiliMitler: ["phaethon"]
+ilgiliTanrilar: ["apollon", "helios", "zeus"]
 ---
 
 Rodos kenti, adanın kuzey ucunda, Marmaris'in tam karşısında kuruldu. Adanın üç eski kenti, Lindos, Ialysos ve Kameiros, MÖ 408'de birleşip bu yeni kenti yaptı. Yollarını bir ızgara gibi çizdiler ve iki limanı olan zengin bir deniz kenti kurdular.

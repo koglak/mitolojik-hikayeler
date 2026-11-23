@@ -12,7 +12,10 @@ bilgiler:
   - etiket: "Eşi"
     deger: "Hephaistos"
 kaynak: "Hesiodos, Theogonia 188–206; İşler ve Günler 65–66; Homeros, Odysseia 8.266–366"
-ilgiliMitler: ["truva-ati", "pandora", "eros-ve-psykhe", "hero-ve-leandros", "pygmalion"]
+ilgiliMitler: ["truva-ati", "pandora", "eros-ve-psykhe", "hero-ve-leandros", "pygmalion", "atalante"]
+ilgiliKentler: ["afrodisias", "truva"]
+ilgiliTanrilar: ["ares", "athena", "hephaistos", "hera", "kronos", "uranos", "zeus"]
+ilgiliKahramanlar: ["helene", "paris"]
 ---
 
 Hesiodos'a göre Kronos babası Uranos'u yaraladığında, kopan parça denize düştü. Çevresinde beyaz bir köpük toplandı ve bu köpükten bir kız doğdu. Adı da buradan gelir: Yunanca "aphros" köpük demektir. Afrodit önce Kythera'ya, sonra Kıbrıs'a çıktı; ayağını bastığı yerde çimen bitti. Homeros ise onu Zeus ile Dione'nin kızı olarak anar.

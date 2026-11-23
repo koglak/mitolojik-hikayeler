@@ -13,6 +13,8 @@ bilgiler:
     deger: "1939'da bulunan Nestor Sarayı, Pylos"
 kaynak: "Homeros, İlyada 1.247–284, 11.632–803; Homeros, Odysseia 3; Apollodoros, Kütüphane 1.9.9"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["pylos", "truva"]
+ilgiliKahramanlar: ["agamemnon", "akhilleus", "herakles", "memnon"]
 ---
 
 Nestor, Pylos kralı Neleus'un on iki oğlundan biriydi. Herakles Pylos'a saldırdığında babasını ve on bir kardeşini öldürdü. Nestor o sırada Gerenia'da bulunduğu için kurtuldu ve kral oldu. Gençliğinde Kalydon domuzu avına ve Lapithlerle kentaurlar arasındaki savaşa katıldığı, hatta Argo gemisiyle yolculuk ettiği anlatılır.

@@ -12,6 +12,9 @@ bilgiler:
   - etiket: "Oğlu"
     deger: "Herakles'ten olma Lamos ya da Agelaos"
 kaynak: "Apollodoros, Kütüphane 2.6.2–3; Diodoros, Tarih Kitaplığı 4.31; Ovidius, Fasti 2.303–358"
+ilgiliKentler: ["efes", "sardes", "delphi"]
+ilgiliTanrilar: ["apollon", "hermes"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Herakles, bir delilik nöbetinde dostu Iphitos'u öldürdü ve arınmak için Delphoi'ye gitti. Pythia ona yanıt vermeyince Apollon'un kutsal sehpasını kaçırmaya kalktı ve tanrıyla boğuştu. Sonunda verilen hüküm ağırdı: Herakles köle olarak satılacak, belli bir süre bir efendiye hizmet edecekti. Hermes onu Lydia'ya götürdü ve kraliçe Omphale'ye sattı.

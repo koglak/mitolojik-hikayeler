@@ -17,6 +17,7 @@ konum:
   enlem: 37.7308
   boylam: 22.7561
 ilgiliMitler: ["perseus-ve-medusa"]
+ilgiliKahramanlar: ["agamemnon", "orestes", "perseus"]
 ---
 
 Mykene, Argolis ovasına bakan kayalık bir tepenin üstünde kuruldu. Duvarları öyle büyük taşlardan örülmüştü ki sonraki Yunanlar bunları insanların değil, tek gözlü dev Kykloplar'ın yaptığına inandı. Kentin girişindeki kapının üstünde, bir sütunun iki yanında şaha kalkmış iki aslan durur. Avrupa'nın ayakta kalan en eski anıtsal heykeli budur.

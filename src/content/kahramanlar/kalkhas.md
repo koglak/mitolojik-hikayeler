@@ -13,6 +13,9 @@ bilgiler:
     deger: "Mopsos"
 kaynak: "Homeros, İlyada 1.68–100, 2.299–330; Apollodoros, Epitome 3.21, 6.2–4; Strabon, Coğrafya 14.1.27"
 ilgiliMitler: ["truva-ati"]
+ilgiliKentler: ["klaros", "kolophon", "truva"]
+ilgiliTanrilar: ["apollon", "artemis"]
+ilgiliKahramanlar: ["agamemnon", "akhilleus", "mopsos"]
 ---
 
 Kalkhas, Apollon'un kâhinlik verdiği Thestor'un oğluydu. Geçmişi, bugünü ve geleceği bilirdi; Yunan gemilerini Truva'ya o yönlendirdi. Donanma Aulis limanında toplanmışken bir yılan ağaçtaki sekiz serçe yavrusunu ve annelerini yuttu, sonra taşa dönüştü. Kalkhas bunu açıkladı: savaş dokuz yıl sürecek, Truva onuncu yılda düşecekti.

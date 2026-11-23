@@ -13,6 +13,7 @@ bilgiler:
     deger: "Hypnos (Uyku), Thanatos (Ölüm), Düşler, Moiralar, Nemesis, Eris, Hemera (Gündüz)"
 kaynak: "Hesiodos, Theogonia 123–125, 211–225, 744–766; Homeros, İlyada 14.256–261"
 ilgiliMitler: []
+ilgiliTanrilar: ["atlas", "hera", "khaos", "nemesis", "zeus"]
 ---
 
 Nyks, Khaos'tan doğan ilk varlıklardan biriydi. Kardeşi Erebos'la, yani karanlıkla birleşip ışıklı göğü, Aither'i ve Gündüz'ü, Hemera'yı doğurdu. Sonra hiçbir eşe gerek duymadan bir dizi karanlık güç dünyaya getirdi: Uyku ve Ölüm kardeşler Hypnos ile Thanatos, Düşler, Kader tanrıçaları Moiralar, intikam tanrıçası Nemesis, kavga tanrıçası Eris, Yaşlılık ve Aldatma.

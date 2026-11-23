@@ -17,6 +17,8 @@ konum:
   enlem: 39.4889
   boylam: 26.3369
 ilgiliMitler: []
+ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: ["herakles"]
 ---
 
 Assos, Midilli Adası'nın karşısında, denizden iki yüz metreyi aşan yüksekliğe çıkan bir volkanik kayalığın üstüne kurulmuştur. Strabon'a göre kenti, Midilli'deki Methymna'dan gelen Aiollar kurdu.

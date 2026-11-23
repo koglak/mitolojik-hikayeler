@@ -15,6 +15,7 @@ konum:
   enlem: 39.1997
   boylam: 29.6114
 ilgiliMitler: []
+ilgiliTanrilar: ["zeus"]
 ---
 
 Aizanoi, Kocaçay'ın, antik adıyla Penkalas'ın iki yakasına kurulmuş bir Frigya kentiydi. Pausanias'a göre Aizanoililer kendilerini, Arkadia kralı Arkas'ın oğlu Azan'ın soyundan sayar ve bu yüzden Yunanistan'daki Arkadia ile akrabalık bağı kurardı. Pausanias, kentin yakınındaki Steunos mağarasının tanrıların anasına adandığını da yazar.
