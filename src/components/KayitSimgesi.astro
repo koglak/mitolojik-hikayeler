@@ -1,19 +1,21 @@
 ---
-import { tanriSimgesi } from '../lib/tanriSimgeleri';
+import type { BolumAnahtari } from '../lib/bolumler';
+import { kayitSimgesi } from '../lib/kayitSimgeleri';
 
 interface Props {
+  bolum: BolumAnahtari;
   slug: string;
   sinif?: string;
 }
 
-const { slug, sinif } = Astro.props;
-const cizim = tanriSimgesi(slug);
+const { bolum, slug, sinif } = Astro.props;
+const cizim = kayitSimgesi(bolum, slug);
 ---
 
 {
   cizim && (
     <svg
-      class:list={['tanri-simgesi', sinif]}
+      class:list={['kayit-simgesi', sinif]}
       viewBox="0 0 64 64"
       fill="none"
       stroke="currentColor"
@@ -28,7 +30,7 @@ const cizim = tanriSimgesi(slug);
 }
 
 <style>
-  .tanri-simgesi {
+  .kayit-simgesi {
     display: block;
     width: 100%;
     height: 100%;

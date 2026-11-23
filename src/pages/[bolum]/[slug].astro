@@ -6,8 +6,8 @@ import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
 import { bolumAnahtarlari, bolumler, bolumAdresi, kayitAdresi } from '../../lib/bolumler';
 import { basligiBol } from '../../lib/baslikParcalari';
-import TanriSimgesi from '../../components/TanriSimgesi.astro';
-import { tanriSimgesi } from '../../lib/tanriSimgeleri';
+import KayitSimgesi from '../../components/KayitSimgesi.astro';
+import { kayitSimgesi } from '../../lib/kayitSimgeleri';
 
 export async function getStaticPaths() {
   const yollar = [];
@@ -25,7 +25,7 @@ export async function getStaticPaths() {
 
 const { bolum, kayit, sonraki } = Astro.props;
 const { Content } = await render(kayit);
-const simgeVar = bolum === 'tanrilar' && Boolean(tanriSimgesi(kayit.id));
+const simgeVar = Boolean(kayitSimgesi(bolum, kayit.id));
 const mitler = await getCollection('mitler');
 const ilgiliMitler = kayit.data.ilgiliMitler
   .map((slug: string) => mitler.find((mit) => mit.id === slug))
@@ -50,7 +50,7 @@ const ilgiliMitler = kayit.data.ilgiliMitler
         {
           simgeVar && (
             <div class="madalyon">
-              <TanriSimgesi slug={kayit.id} />
+              <KayitSimgesi bolum={bolum} slug={kayit.id} />
             </div>
           )
         }

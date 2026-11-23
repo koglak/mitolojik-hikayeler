@@ -8,10 +8,30 @@ import AramaPenceresi from './AramaPenceresi.astro';
 import Logo from './Logo.astro';
 
 const baglantilar = [
-  { href: '/mitler/', ad: 'Mitolojik Hikâyeler' },
-  { href: '/antik-kentler/', ad: 'Antik Kentler' },
-  { href: '/tanrilar/', ad: 'Tanrılar' },
-  { href: '/kahramanlar/', ad: 'Kahramanlar' },
+  {
+    href: '/mitler/',
+    ad: 'Mitolojik Hikâyeler',
+    simge:
+      '<path d="M24 6h16M26 6v6c-9 3-14 11-14 21 0 13 8 23 20 23s20-10 20-23c0-10-5-18-14-21V6"/>' +
+      '<path d="M26 14c-9 0-12 10-6 14M38 14c9 0 12 10 6 14M14 34h36M24 56l-2 4h20l-2-4"/>',
+  },
+  {
+    href: '/antik-kentler/',
+    ad: 'Antik Kentler',
+    simge: '<path d="M6 22 32 6l26 16ZM10 28h44M14 28v24M26 28v24M38 28v24M50 28v24M8 52h48M4 58h56"/>',
+  },
+  {
+    href: '/tanrilar/',
+    ad: 'Tanrılar',
+    simge: '<path d="M38 4 18 34h12l-6 26 22-33H33l9-23Z"/>',
+  },
+  {
+    href: '/kahramanlar/',
+    ad: 'Kahramanlar',
+    simge:
+      '<path d="M14 56V36a18 18 0 0 1 36 0v20l-10-5V38h-4v16h-8V38h-4v13Z"/>' +
+      '<path d="M12 22C16 6 48 6 52 22"/>',
+  },
 ];
 const simdikiYol = Astro.url.pathname;
 const aktifMi = (href: string) => simdikiYol.startsWith(href);
@@ -23,7 +43,14 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
     <span class="logo-yazisi" lang="el">ΜΥΘΟΣ<span lang="tr">Mitolojik Hikâyeler</span></span>
   </a>
   <nav class="masaustu-menu" aria-label="Ana menü">
-    {baglantilar.map((b) => <a href={b.href} class:list={{ aktif: aktifMi(b.href) }} aria-current={aktifMi(b.href) ? 'page' : undefined}>{b.ad}</a>)}
+    {
+      baglantilar.map((b) => (
+        <a href={b.href} class:list={{ aktif: aktifMi(b.href) }} aria-current={aktifMi(b.href) ? 'page' : undefined}>
+          <svg class="menu-simgesi" viewBox="0 0 64 64" aria-hidden="true" focusable="false" set:html={b.simge} />
+          {b.ad}
+        </a>
+      ))
+    }
   </nav>
   <div class="eylemler">
     {
@@ -39,7 +66,14 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
     <button class="simge-dugmesi menu-dugmesi" type="button" data-menu-ac aria-label="Menüyü aç" aria-expanded="false" aria-controls="mobil-menu">☰</button>
   </div>
   <nav class="mobil-menu" id="mobil-menu" data-mobil-menu aria-label="Mobil menü">
-    {baglantilar.map((b) => <a href={b.href}>{b.ad}</a>)}
+    {
+      baglantilar.map((b) => (
+        <a href={b.href}>
+          <svg class="menu-simgesi" viewBox="0 0 64 64" aria-hidden="true" focusable="false" set:html={b.simge} />
+          {b.ad}
+        </a>
+      ))
+    }
   </nav>
 </header>
 {aramaVar && <AramaPenceresi />}
@@ -91,14 +125,42 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   }
   .masaustu-menu {
     display: flex;
-    gap: 26px;
+    gap: 22px;
     font-size: 14px;
     font-weight: 500;
     color: var(--soluk);
   }
   .masaustu-menu a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     padding: 6px 0;
     border-bottom: 1px solid transparent;
+  }
+  .menu-simgesi {
+    flex: none;
+    width: 17px;
+    height: 17px;
+    fill: none;
+    stroke: var(--vurgu);
+    stroke-width: 4.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0.75;
+    transition: opacity 0.2s;
+  }
+  .masaustu-menu a:hover .menu-simgesi,
+  .masaustu-menu a.aktif .menu-simgesi {
+    opacity: 1;
+  }
+  .mobil-menu a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .mobil-menu .menu-simgesi {
+    width: 20px;
+    height: 20px;
   }
   .masaustu-menu a:hover,
   .masaustu-menu a.aktif {
