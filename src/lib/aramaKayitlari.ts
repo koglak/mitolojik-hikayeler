@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import { bolumAnahtarlari, bolumler } from './bolumler';
+import { bolumAnahtarlari, bolumler, kayitAdresi } from './bolumler';
 
 export interface AramaKaydi {
   baslik: string;
@@ -23,7 +23,7 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
         baslik: oge.data.ad,
         ozet: oge.data.ozet,
         bolum: bolumler[bolum].tekil,
-        adres: `/${bolum}/${oge.id}`,
+        adres: kayitAdresi(bolum, oge.id),
       });
     }
   }

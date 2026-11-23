@@ -2,6 +2,7 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { kronoloji, yilEtiketi } from '../src/lib/kronoloji';
+import { yoldanBolum } from '../src/lib/bolumler';
 
 describe('kronoloji', () => {
   it('en az 8 olay var', () => {
@@ -16,8 +17,10 @@ describe('kronoloji', () => {
   it('bağlantılar var olan içeriğe gider', () => {
     for (const olay of kronoloji) {
       if (!olay.baglanti) continue;
-      const [, bolum, slug] = olay.baglanti.split('/');
-      expect(existsSync(join(process.cwd(), 'src/content', bolum, `${slug}.md`)), olay.baglanti).toBe(true);
+      const [, yol, slug] = olay.baglanti.split('/');
+      const klasor = yol === 'mitler' ? 'mitler' : yoldanBolum(yol);
+      expect(klasor, olay.baglanti).toBeDefined();
+      expect(existsSync(join(process.cwd(), 'src/content', klasor!, `${slug}.md`)), olay.baglanti).toBe(true);
     }
   });
 });

@@ -4,7 +4,7 @@ import Temel from '../../layouts/Temel.astro';
 import SiteBasligi from '../../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
-import { bolumAnahtarlari, bolumler, type BolumAnahtari } from '../../lib/bolumler';
+import { bolumAnahtarlari, bolumler, bolumAdresi, kayitAdresi } from '../../lib/bolumler';
 import { basligiBol } from '../../lib/baslikParcalari';
 
 export async function getStaticPaths() {
@@ -13,16 +13,15 @@ export async function getStaticPaths() {
     const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
     for (const [i, kayit] of kayitlar.entries()) {
       yollar.push({
-        params: { bolum, slug: kayit.id },
-        props: { kayit, sonraki: kayitlar[(i + 1) % kayitlar.length] },
+        params: { bolum: bolumler[bolum].yol, slug: kayit.id },
+        props: { bolum, kayit, sonraki: kayitlar[(i + 1) % kayitlar.length] },
       });
     }
   }
   return yollar;
 }
 
-const bolum = Astro.params.bolum as BolumAnahtari;
-const { kayit, sonraki } = Astro.props;
+const { bolum, kayit, sonraki } = Astro.props;
 const { Content } = await render(kayit);
 const mitler = await getCollection('mitler');
 const ilgiliMitler = kayit.data.ilgiliMitler
@@ -35,7 +34,7 @@ const ilgiliMitler = kayit.data.ilgiliMitler
     <SiteBasligi />
     <main class="kayit">
       <nav class="yol" aria-label="Konum">
-        <a href={`/${bolum}/`}>{bolumler[bolum].ad}</a>
+        <a href={bolumAdresi(bolum)}>{bolumler[bolum].ad}</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">{kayit.data.ad}</span>
       </nav>
@@ -93,7 +92,7 @@ const ilgiliMitler = kayit.data.ilgiliMitler
 
       {
         sonraki.id !== kayit.id && (
-          <a class="sonraki" href={`/${bolum}/${sonraki.id}`}>
+          <a class="sonraki" href={kayitAdresi(bolum, sonraki.id)}>
             <span>Sıradaki</span>
             <strong>{sonraki.data.ad}</strong>
           </a>

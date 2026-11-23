@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import matter from 'gray-matter';
 import { describe, expect, it } from 'vitest';
 import { kayitSemasi } from '../src/lib/kayitSemasi';
-import { bolumler, bolumAnahtarlari } from '../src/lib/bolumler';
+import { bolumler, bolumAnahtarlari, bolumAdresi, kayitAdresi, yoldanBolum } from '../src/lib/bolumler';
 import { bolgeler } from '../src/lib/bolgeler';
 
 const icerik = join(process.cwd(), 'src/content');
@@ -74,5 +74,18 @@ describe('kentler konumu', () => {
   it('bölge renkleri birbirinden farklı', () => {
     const renkler = Object.values(bolgeler).map((bolge) => bolge.renk.toLowerCase());
     expect(new Set(renkler).size).toBe(renkler.length);
+  });
+});
+
+describe('bölüm adresleri', () => {
+  it('antik kentler /antik-kentler altında', () => {
+    expect(bolumAdresi('kentler')).toBe('/antik-kentler/');
+    expect(kayitAdresi('kentler', 'efes')).toBe('/antik-kentler/efes');
+  });
+
+  it('her yol tek bir bölüme döner', () => {
+    for (const bolum of bolumAnahtarlari) {
+      expect(yoldanBolum(bolumler[bolum].yol)).toBe(bolum);
+    }
   });
 });

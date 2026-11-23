@@ -6,14 +6,14 @@ import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import KayitKarti from '../../components/KayitKarti.astro';
 import KategoriGorseli from '../../components/KategoriGorseli.astro';
 import KentHaritasi from '../../components/KentHaritasi.astro';
-import { bolumAnahtarlari, bolumler, type BolumAnahtari } from '../../lib/bolumler';
+import { bolumAnahtarlari, bolumler, kayitAdresi } from '../../lib/bolumler';
 import { bolgeAnahtarlari, bolgeler, bolgesizKent } from '../../lib/bolgeler';
 
 export function getStaticPaths() {
-  return bolumAnahtarlari.map((bolum) => ({ params: { bolum } }));
+  return bolumAnahtarlari.map((bolum) => ({ params: { bolum: bolumler[bolum].yol }, props: { bolum } }));
 }
 
-const bolum = Astro.params.bolum as BolumAnahtari;
+const { bolum } = Astro.props;
 const { ad, aciklama } = bolumler[bolum];
 const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
 const bolgeRengi = (kayit: (typeof kayitlar)[number]) => (kayit.data.bolge ? bolgeler[kayit.data.bolge].renk : undefined);
@@ -25,7 +25,7 @@ const haritaKentleri =
               {
                 ad: data.ad,
                 ozet: data.ozet,
-                adres: `/${bolum}/${id}`,
+                adres: kayitAdresi(bolum, id),
                 ...data.konum,
                 bolge: data.bolge ? { anahtar: data.bolge, ...bolgeler[data.bolge] } : bolgesizKent,
               },
@@ -69,7 +69,7 @@ const bolgeGruplari = kayitlar.some((kayit) => kayit.data.bolge)
               <ul class="kayitlar">
                 {grup.kayitlar.map((kayit) => (
                   <li>
-                    <KayitKarti adres={`/${bolum}/${kayit.id}`} kayit={kayit.data} bilgiSayisi={3} vurguRengi={bolgeRengi(kayit)} />
+                    <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3} vurguRengi={bolgeRengi(kayit)} />
                   </li>
                 ))}
               </ul>
@@ -79,7 +79,7 @@ const bolgeGruplari = kayitlar.some((kayit) => kayit.data.bolge)
           <ul class="kayitlar">
             {kayitlar.map((kayit) => (
               <li>
-                <KayitKarti adres={`/${bolum}/${kayit.id}`} kayit={kayit.data} bilgiSayisi={3} />
+                <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3} />
               </li>
             ))}
           </ul>
