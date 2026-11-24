@@ -18,7 +18,7 @@ kaynakca:
     adres: "https://m.museivaticani.va/content/museivaticani-mobile/en/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/cortile-ottagono.html"
 ilgiliMitler: ["truva-ati"]
 ilgiliTanrilar: ["poseidon", "athena"]
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["laokoon"]
 ilgiliKentler: ["truva"]
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/1280px-Laoco%C3%B6n_and_his_sons_group.jpg"

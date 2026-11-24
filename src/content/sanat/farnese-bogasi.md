@@ -17,7 +17,7 @@ kaynakca:
     adres: "https://commons.wikimedia.org/wiki/Catalogue_of_the_Museo_Archeologico_di_Napoli_(inventory_MANN)"
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["zethos-ve-amphion"]
 ilgiliKentler: ["thebai", "tralleis"]
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Farnese_Bull_MAN_Napoli_Inv6002_n01.jpg/1280px-Farnese_Bull_MAN_Napoli_Inv6002_n01.jpg"

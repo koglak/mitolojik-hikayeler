@@ -17,7 +17,7 @@ kaynakca:
     adres: "https://www.gardnermuseum.org/blog/purchasing-masterpiece-titians-rape-europa"
 ilgiliMitler: ["europa"]
 ilgiliTanrilar: ["zeus", "eros"]
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["europa"]
 ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Tizian_085.jpg/1280px-Tizian_085.jpg"

@@ -39,6 +39,19 @@ const simgeler: Record<string, string> = {
     '<path d="M22 12h20v33c0 5-4 9-10 9s-10-4-10-9Z"/>' +
     '<path d="M22 24h20M22 34h20M22 44h20"/>',
 
+  aigeus:
+    '<path d="M6 42h50l-6 10H14Z"/>' +
+    '<path d="M56 42c3-4 3-9-1-11M6 42c-1-3 0-6 2-7M30 42V4"/>' +
+    dolu('M14 8h32c2 9 2 18 0 27H14c-2-9-2-18 0-27Z') +
+    dalgalar(59),
+
+  aigisthos:
+    '<path d="M28 20C28 12 22 4 10 4c6 4 9 12 12 20M36 20c0-8 6-16 18-16-6 4-9 12-12 20"/>' +
+    '<path d="M22 24c3-5 17-5 20 0 2 7 0 14-3 21-1 4-4 7-7 7s-6-3-7-7c-3-7-5-14-3-21Z"/>' +
+    '<path d="M22 27C16 25 10 27 6 33c6 2 12 1 17-2M42 27c6-2 12 0 16 6-6 2-12 1-17-2"/>' +
+    '<circle cx="28" cy="32" r="1.6" fill="currentColor"/><circle cx="36" cy="32" r="1.6" fill="currentColor"/>' +
+    '<path d="M30 46l2 2 2-2M28 51c0 5 2 9 4 12 2-3 4-7 4-12"/>',
+
   aineias:
     '<path d="M6 42h50l-6 9H14Z"/>' +
     '<path d="M56 42c3-4 3-9-1-11M6 42c-1-3 0-6 2-7"/>' +
@@ -57,6 +70,15 @@ const simgeler: Record<string, string> = {
     '<path d="M18 20c0-8 6-12 14-12s14 4 14 12"/>' +
     `<path d="${isinlar(32, 20, 3, 9, 5, 200, 340)}"/>` +
     '<path d="M24 28h16v24H24Z"/>',
+
+  alkmene:
+    dolu('M14 20a10 10 0 1 0 8 15A12 12 0 0 1 14 20Z') +
+    dolu('M34 6a12 12 0 1 0 10 18A14 14 0 0 1 34 6Z') +
+    dolu('M52 28a9 9 0 1 0 8 13A11 11 0 0 1 52 28Z') +
+    yildiz(12, 8, 4) +
+    yildiz(54, 12, 5) +
+    yildiz(32, 48, 5) +
+    '<path d="M6 60c16-5 36-5 52 0"/>',
 
   amphiaraos:
     '<path d="M4 40h56"/>' +
@@ -109,9 +131,32 @@ const simgeler: Record<string, string> = {
 
   atalanta: elma(32, 26, 0.65) + elma(20, 46, 0.65) + elma(44, 46, 0.65),
 
+  'atreus-ve-thyestes':
+    '<path d="M14 24a18 18 0 0 1 36 0"/>' +
+    `<path d="${isinlar(32, 24, 22, 27, 5, 200, 340)}"/>` +
+    '<path d="M40 24a8 8 0 1 0-8 8M32 32l-4-4M32 32l-4 4"/>' +
+    '<path d="M6 42h52c-2 8-10 12-26 12S8 50 6 42Z"/>' +
+    '<path d="M24 54l-3 6h22l-3-6"/>',
+
   bellerophon:
     '<path d="M8 54C12 32 28 14 56 6c-4 6-6 10-8 14h6c-4 6-8 10-12 14h6c-6 6-12 10-18 12h4c-8 5-16 7-24 8Z"/>' +
     '<path d="M16 46c8-10 20-20 32-24M22 50c8-6 16-11 22-13"/>',
+
+  briseis:
+    '<path d="M32 10 6 56h52Z"/>' +
+    '<path d="M32 10V4M32 10 4 54M32 10l28 44"/>' +
+    '<path d="M32 22c-2 14-6 26-10 34M32 22c2 14 6 26 10 34"/>' +
+    '<path d="M4 60h56"/>' +
+    damla(32, 46, 0.8),
+
+  'daidalos-ve-ikaros':
+    '<circle cx="50" cy="13" r="6"/>' +
+    `<path d="${isinlar(50, 13, 9, 13, 8)}"/>` +
+    '<path d="M30 14c-6 10-8 20-6 30M30 14C18 14 8 22 4 34c4-2 7-2 9-1-3 4-4 8-4 13 4-4 7-5 10-4 0 5 1 8 5 12"/>' +
+    '<path d="M26 22c-7 1-12 5-15 11M24 31c-4 2-7 6-9 11"/>' +
+    yaprak(38, 40, 28, 2.4, 6) +
+    yaprak(46, 50, -24, 2.2, 5.4) +
+    yaprak(36, 56, 40, 2, 4.6),
 
   danae:
     '<path d="M14 30h36v18H14Z"/>' +
@@ -119,6 +164,20 @@ const simgeler: Record<string, string> = {
     '<path d="M20 4v4M32 2v5M44 4v4M26 11v3M38 11v3"/>' +
     dalgalar(54) +
     dalgalar(60),
+
+  deianeira:
+    '<path d="M20 6c4 5 20 5 24 0l8 8-6 6v10l6 30H12l6-30V20l-6-6Z"/>' +
+    '<path d="M18 30h28M24 36l-4 18M40 36l4 18"/>' +
+    damla(32, 19, 0.7) +
+    damla(32, 40, 0.8) +
+    damla(32, 53, 0.6),
+
+  dido:
+    '<path d="M6 60h52M8 54h48M12 48h40"/>' +
+    '<circle cx="10" cy="57" r="2.6"/><circle cx="54" cy="57" r="2.6"/><circle cx="14" cy="51" r="2.6"/><circle cx="50" cy="51" r="2.6"/>' +
+    '<path d="M32 46V14M26 14h12M32 14V5"/><circle cx="32" cy="4" r="2"/>' +
+    alev(16, 30, 0.75) +
+    alev(48, 30, 0.75),
 
   diomedes:
     '<path d="M14 54V34c0-12 8-20 18-20 10 0 18 7 18 16v4H38c-2 0-4 2-4 4v16Z"/>' +
@@ -129,6 +188,14 @@ const simgeler: Record<string, string> = {
     '<path d="M26 8h12M28 8v6c-8 2-14 10-14 20 0 12 8 20 18 20s18-8 18-20c0-10-6-18-14-20V8"/>' +
     '<path d="M24 54l-2 6h20l-2-6M17 30h30M16 40h32"/>' +
     '<path d="M18 20c-6-2-8 6-2 10M46 20c6-2 8 6 2 10"/>',
+
+  europa:
+    '<path d="M20 22c-10 0-16-8-14-18 3 7 9 10 17 10M44 22c10 0 16-8 14-18-3 7-9 10-17 10"/>' +
+    '<path d="M22 16c6-4 14-4 20 0 4 8 2 18-2 26-2 8-4 14-8 14s-6-6-8-14c-4-8-6-18-2-26Z"/>' +
+    '<path d="M20 24l-8 4 9 4M44 24l8 4-9 4"/>' +
+    '<circle cx="27" cy="30" r="1.6" fill="currentColor"/><circle cx="37" cy="30" r="1.6" fill="currentColor"/>' +
+    '<path d="M29 49h1M34 49h1"/>' +
+    '<circle cx="24" cy="15" r="3" fill="currentColor"/><circle cx="32" cy="12" r="3.4" fill="currentColor"/><circle cx="40" cy="15" r="3" fill="currentColor"/>',
 
   ganymedes:
     '<circle cx="32" cy="12" r="4"/>' +
@@ -171,6 +238,14 @@ const simgeler: Record<string, string> = {
     '<path d="M25 26h14v18H25Z"/><circle cx="32" cy="35" r="3"/>' +
     '<path d="M28 44l-3 14M36 44l3 14"/>',
 
+  hippolytos:
+    '<circle cx="32" cy="32" r="20"/>' +
+    Array.from({ length: 12 }, (_, i) => {
+      const radyan = (i * Math.PI) / 6;
+      return yaprak(32 + 25 * Math.cos(radyan), 32 + 25 * Math.sin(radyan), i * 30 + 30, 2.4, 5.5);
+    }).join('') +
+    dolu('M34 20a12 12 0 1 0 9 18A14 14 0 0 1 34 20Z'),
+
   iason:
     '<path d="M4 12h56M50 12l6-6M14 12l-4-6"/>' +
     '<path d="M20 12c-3 8-1 14 3 18-2 6 0 12 4 16l5 10 5-10c4-4 6-10 4-16 4-4 6-10 3-18"/>' +
@@ -184,6 +259,28 @@ const simgeler: Record<string, string> = {
     alev(18, 16, 0.45) +
     alev(32, 10, 0.55) +
     alev(46, 16, 0.45),
+
+  io:
+    '<path d="M32 62V42"/>' +
+    '<path d="M32 4C18 8 12 20 14 30c2 8 8 13 18 14 10-1 16-6 18-14 2-10-4-22-18-26Z"/>' +
+    '<ellipse cx="32" cy="27" rx="11" ry="12"/>' +
+    '<ellipse cx="32" cy="28" rx="6" ry="7"/>' +
+    '<circle cx="32" cy="29" r="3" fill="currentColor"/>' +
+    '<path d="M32 50l-10-5M32 50l10-5M32 56l-9-5M32 56l9-5"/>',
+
+  iokaste:
+    '<circle cx="18" cy="14" r="8"/><circle cx="18" cy="14" r="3" fill="currentColor"/>' +
+    '<circle cx="46" cy="14" r="8"/><circle cx="46" cy="14" r="3" fill="currentColor"/>' +
+    '<path d="M16 22l2 28 2-28M44 22l2 28 2-28"/>' +
+    '<path d="M18 30c8 8 20 8 28 0"/>' +
+    damla(18, 58, 0.5) +
+    damla(46, 58, 0.5),
+
+  iphigeneia:
+    '<path d="M12 32h40v6H12ZM16 38v16M48 38v16M10 54h44v6H10Z"/>' +
+    '<path d="M22 38c0 4 4 6 10 6s10-2 10-6"/>' +
+    dolu('M16 4a16 16 0 0 0 32 0 18 18 0 0 1-32 0Z') +
+    yildiz(32, 26, 4),
 
   iphikles:
     '<path d="M20 58c-10-8 4-14 0-22s-6-16 4-22M44 58c10-8-4-14 0-22s6-16-4-22"/>' +
@@ -212,6 +309,33 @@ const simgeler: Record<string, string> = {
     '<path d="M4 52h28M32 52h28"/>' +
     yildiz(18, 12, 6) +
     yildiz(46, 12, 6),
+
+  klytaimnestra:
+    '<path d="M2 58 14 38l8 10L34 26l12 18 6-8 10 22Z"/>' +
+    '<path d="M28 37l6 4 6-5M10 45l4 3 3-4"/>' +
+    alev(34, 14, 0.75) +
+    alev(14, 30, 0.45) +
+    alev(52, 28, 0.45),
+
+  kreon:
+    '<path d="M20 34V6c4 3 8 4 12 4s8-1 12-4v28"/>' +
+    '<path d="M12 34h40v6H12ZM17 40v16M47 40v16M13 60h8l-1-4h-6ZM43 60h8l-1-4h-6Z"/>' +
+    '<path d="M20 24h-8v10M44 24h8v10M17 48h30"/>' +
+    '<path d="M25 24l1-8 6 4 6-4 1 8Z"/>',
+
+  laokoon:
+    '<path d="M12 50V28c0-4 3-6 7-6h15l6-12 3-6 4 5 11 6-2 6-9-1-3 9v21h-7V38H19v12Z"/>' +
+    '<path d="M6 50h48"/><circle cx="16" cy="56" r="5"/><circle cx="44" cy="56" r="5"/>' +
+    '<path d="M12 28c-5 2-7 8-6 14M26 22v16M34 22v16"/>' +
+    '<circle cx="46" cy="14" r="1.4" fill="currentColor"/>' +
+    '<path d="M4 6l20 22"/>' +
+    dolu('M30 34l-8-3 5-5Z'),
+
+  leda:
+    '<path d="M18 8c-5 0-8 4-8 8l-5 3 6 2c3 8-5 12-5 22 0 9 8 14 20 14 14 0 26-8 28-26-8 4-14 4-20 4-8 0-12 4-14 8-2-6 6-14 6-23 0-8-3-12-8-12Z"/>' +
+    '<circle cx="16" cy="15" r="1.4" fill="currentColor"/>' +
+    '<path d="M28 45c8 0 14-2 18-6M28 51c5 0 9-1 13-3"/>' +
+    '<path d="M2 62c5-3 9-3 14 0s9 3 14 0 9-3 14 0 9 3 14 0"/>',
 
   marsyas:
     '<path d="M29 6l-15 50 4 1 13-51ZM35 6l15 50-4 1-13-51Z"/>' +
@@ -246,6 +370,12 @@ const simgeler: Record<string, string> = {
     '<path d="M14 48V30l9 8 9-12 9 12 9-8v18Z"/>' +
     '<path d="M14 48h36v6H14Z"/>' +
     '<circle cx="23" cy="44" r="1.6" fill="currentColor"/><circle cx="32" cy="42" r="2" fill="currentColor"/><circle cx="41" cy="44" r="1.6" fill="currentColor"/>',
+
+  minos:
+    '<path d="M6 54V26c8 2 11 8 13 16h26c2-8 5-14 13-16v28Z"/>' +
+    '<path d="M2 54h60v6H2Z"/>' +
+    '<path d="M32 4v38"/>' +
+    '<path d="M32 15 16 6c-3 8-3 16 0 24l16-9M32 15l16-9c3 8 3 16 0 24l-16-9"/>',
 
   mopsos:
     '<path d="M14 22h36c0 8-8 12-18 12S14 30 14 22Z"/>' +
@@ -328,6 +458,15 @@ const simgeler: Record<string, string> = {
     '<path d="M32 4v56"/>' +
     '<path d="M30 20 10 10c-5 9-5 21 0 30l20-10ZM34 20l20-10c5 9 5 21 0 30L34 30Z"/>',
 
+  pentheus:
+    '<path d="M12 12c12-6 28-6 40 0 2 20-4 38-20 48C16 50 10 32 12 12Z"/>' +
+    dolu('M19 27c3-4 8-4 10 1-3 2-7 2-10-1ZM45 27c-3-4-8-4-10 1 3 2 7 2 10-1Z') +
+    '<path d="M18 22l10-3M46 22l-10-3M32 28v9l-3 2M24 50c2-6 14-6 16 0-4-1-12-1-16 0Z"/>' +
+    yaprak(18, 7, 60, 2.4, 5) +
+    yaprak(28, 4, 80, 2.4, 5) +
+    yaprak(38, 4, -80, 2.4, 5) +
+    yaprak(47, 7, -60, 2.4, 5),
+
   perseus:
     '<circle cx="32" cy="34" r="14"/>' +
     '<circle cx="27" cy="31" r="2.4" fill="currentColor"/><circle cx="37" cy="31" r="2.4" fill="currentColor"/>' +
@@ -336,6 +475,12 @@ const simgeler: Record<string, string> = {
     '<path d="M20 26c-6-2-10-8-8-14M24 21c-2-6 0-12 4-14M36 20c1-6 4-10 8-12M42 24c4-4 8-6 12-4M46 32c6-2 10 0 12 4M18 40c-6 0-10 4-10 8M46 40c6 0 10 4 10 8"/>' +
     '<circle cx="12" cy="12" r="1.8" fill="currentColor"/><circle cx="28" cy="7" r="1.8" fill="currentColor"/><circle cx="44" cy="8" r="1.8" fill="currentColor"/>' +
     '<circle cx="54" cy="20" r="1.8" fill="currentColor"/><circle cx="58" cy="36" r="1.8" fill="currentColor"/><circle cx="8" cy="48" r="1.8" fill="currentColor"/><circle cx="56" cy="48" r="1.8" fill="currentColor"/>',
+
+  phaidra:
+    '<path d="M4 16 30 12v38L4 54ZM34 12l26 4v38l-26-4Z"/>' +
+    '<path d="M30 20h4M30 42h4"/>' +
+    '<path d="M10 24l14-2M10 31l14-2M10 38l10-1M40 22l14 2M40 29l14 2M40 36l8 1"/>' +
+    '<path d="M44 62 60 44"/>',
 
   'philemon-ve-baukis':
     '<path d="M26 58c0-10 6-16 6-24s-6-14-6-20M38 58c0-10-6-16-6-24s6-14 6-20M18 58h28"/>' +
@@ -347,6 +492,11 @@ const simgeler: Record<string, string> = {
     '<path d="M38 20l10-4 6 34-10 4Z"/>' +
     '<path d="M42 18 38 4M46 16l-1-13M50 16l4-12"/>' +
     '<path d="M36 6l2-2 2 2M43 5l2-2 2 2M52 6l2-2 2 3"/>',
+
+  'polyneikes-ve-eteokles':
+    '<path d="M50 4 18 46M54 8 24 50M50 4l6-2-2 6M12 40l16 14M21 48l-9 12"/>' +
+    '<path d="M14 4l32 42M10 8l30 42M14 4 8 2l2 6M52 40 36 54M43 48l9 12"/>' +
+    '<path d="M24 12 22 2l6 4 4-5 4 5 6-4-2 10Z"/>',
 
   priamos:
     '<path d="M22 16l2-10 5 5 3-7 3 7 5-5 2 10Z"/>' +
@@ -367,6 +517,20 @@ const simgeler: Record<string, string> = {
     damla(26, 60, 0.5) +
     damla(40, 60, 0.5),
 
+  semele:
+    dolu('M38 2 18 30h11l-5 18 21-27H33Z') +
+    alev(12, 44, 0.6) +
+    alev(52, 44, 0.6) +
+    alev(32, 50, 0.5) +
+    yaprak(54, 16, 35, 3, 7) +
+    yaprak(10, 18, -35, 3, 7),
+
+  sisifos:
+    '<path d="M2 60 60 22v38Z"/>' +
+    '<circle cx="36" cy="22" r="13"/>' +
+    '<path d="M30 15c3-2 6-2 9 0M41 22l4 4M30 26l4 3"/>' +
+    '<path d="M14 40l6-8M10 44l-5-1M44 50l6-3M30 54l5-3"/>',
+
   tantalos:
     '<path d="M60 6C46 8 36 12 28 20"/>' +
     '<circle cx="30" cy="25" r="4.5"/><circle cx="41" cy="16" r="4.5"/>' +
@@ -374,6 +538,20 @@ const simgeler: Record<string, string> = {
     yaprak(36, 10, -40, 2.4, 5) +
     dalgalar(46) +
     dalgalar(54),
+
+  teiresias:
+    '<path d="M6 18c8 10 16 14 26 14s18-4 26-14"/>' +
+    '<path d="M11 24l-5 5M21 29l-3 7M32 32v8M43 29l3 7M53 24l5 5"/>' +
+    '<path d="M16 8c10-6 22-6 32 0"/>' +
+    '<path d="M8 52q6-8 12 0t12 0 12 0 8-4"/>' +
+    '<path d="M8 61q6-8 12 0t12 0 12 0 8-4"/>' +
+    '<circle cx="54" cy="47" r="2.6" fill="currentColor"/><circle cx="54" cy="56" r="2.6" fill="currentColor"/>',
+
+  telemakhos:
+    '<path d="M6 44c14 4 34 4 48 0-2 6-6 10-12 12H18C12 54 8 50 6 44ZM6 44c-2-4-2-7 1-10M54 44c4-3 5-7 3-11"/>' +
+    '<path d="M30 44V14M30 16c12 4 16 14 16 24-5-2-11-2-16 0ZM30 18c-8 4-12 12-13 22 4-2 9-2 13 0"/>' +
+    '<path d="M44 14q4-6 8 0q4-6 8 0"/>' +
+    '<path d="M2 62c4-3 8-3 12 0M50 62c4-3 8-3 12 0"/>',
 
   telephos:
     '<path d="M26 28c0-4 3-6 6-6s6 2 6 6l-2 18c-1 3-2 4-4 4s-3-1-4-4Z"/>' +
@@ -392,6 +570,12 @@ const simgeler: Record<string, string> = {
     yildiz(44, 22, 4) +
     yildiz(46, 40, 3) +
     yildiz(38, 30, 2),
+
+  'zethos-ve-amphion':
+    '<path d="M4 36h56v24H4Z"/>' +
+    '<path d="M4 44h56M4 52h56M18 36v8M34 36v8M50 36v8M10 44v8M26 44v8M42 44v8M18 52v8M34 52v8M50 52v8"/>' +
+    '<path d="M22 30c0-5 4-7 10-7s10 2 10 7ZM25 24C18 18 19 9 24 4M39 24c7-6 6-15 1-20M21 10h22"/>' +
+    '<path d="M28 10v13M32 10v13M36 10v13"/>',
 };
 
 export const kahramanSimgesi = (slug: string): string | undefined => simgeler[slug];

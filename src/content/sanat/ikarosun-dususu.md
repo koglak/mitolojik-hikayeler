@@ -17,7 +17,7 @@ kaynakca:
     adres: "https://www.britannica.com/print/article/329496"
 ilgiliMitler: ["ikaros"]
 ilgiliTanrilar: []
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["daidalos-ve-ikaros"]
 ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg/1280px-Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg"
