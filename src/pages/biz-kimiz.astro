@@ -1,0 +1,88 @@
+---
+import Temel from '../layouts/Temel.astro';
+import InstagramSimgesi from '../components/InstagramSimgesi.astro';
+import MeanderBant from '../components/MeanderBant.astro';
+import SiteBasligi from '../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+import { antikKaynaklarAdresi } from '../lib/antikKaynaklar';
+import { bizKimizAdi, bizKimizAdresi, instagramKullaniciAdi, instagramProfilAdresi } from '../lib/site';
+import { kirintiVerisi } from '../lib/yapisalVeri';
+---
+
+<Temel
+  baslik={bizKimizAdi}
+  aciklama="Mythos’u hazırlayan ruinsrover kim? Mitoloji ve antik kent tutkunu, antik kaynakları okumayı ve paylaşmayı seven biri."
+  yapisalVeri={[kirintiVerisi([{ ad: bizKimizAdi, yol: bizKimizAdresi }])]}
+>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main class="metin">
+      <div class="ust-yazi">{instagramKullaniciAdi}</div>
+      <h1>{bizKimizAdi}</h1>
+
+      <p class="giris">Merhaba, ben {instagramKullaniciAdi}. Mitoloji ve antik kent tutkunuyum.</p>
+      <p>
+        Antik kaynakları okumayı çok seviyorum; okuduklarımı paylaşmayı da. Mythos bu iki sevgiden doğdu. Burada{' '}
+        <a href="/mitler/">mitolojik hikâyeleri</a>, <a href="/antik-kentler/">antik kentleri</a>,{' '}
+        <a href="/tanrilar/">tanrıları</a> ve <a href="/kahramanlar/">kahramanları</a> bir araya getiriyorum.
+      </p>
+      <p>
+        Bir hikâyenin izini ilk anlatıldığı metne kadar sürmek isteyenler için{' '}
+        <a href={antikKaynaklarAdresi}>antik kaynakları</a> da ayrı bir bölümde topladım.
+      </p>
+      <p>Antik dünyayı seviyorsan Instagram’da da buluşalım.</p>
+
+      <a class="dugme-cizgili instagram" href={instagramProfilAdresi} target="_blank" rel="noopener noreferrer">
+        <InstagramSimgesi />
+        <span>@{instagramKullaniciAdi}</span>
+      </a>
+
+      <div class="desen"><MeanderBant kimlik="biz-kimiz" /></div>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<style>
+  .metin {
+    max-width: 720px;
+    padding: 64px 0 24px;
+  }
+  .ust-yazi {
+    text-transform: none;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+  }
+  h1 {
+    font: 500 clamp(40px, 6vw, 72px) / 1 var(--baslik-font);
+    letter-spacing: -0.03em;
+    margin: 20px 0 32px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 0 16px;
+  }
+  .giris {
+    font: italic 500 clamp(24px, 3vw, 34px) / 1.3 var(--baslik-font);
+    color: var(--kart-basligi);
+    margin-bottom: 28px;
+    text-wrap: balance;
+  }
+  p a {
+    color: var(--vurgu);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .instagram {
+    gap: 12px;
+    margin-top: 16px;
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: var(--vurgu);
+  }
+  .desen {
+    margin-top: 56px;
+  }
+</style>

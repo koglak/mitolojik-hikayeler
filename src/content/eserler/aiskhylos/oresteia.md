@@ -1,7 +1,7 @@
 ---
 ad: "Oresteia"
 ozgunAd: "Ὀρέστεια"
-digerAdlar: ["Oresteia Üçlemesi", "Agamemnon", "Adak Sunucular", "Eumenidler"]
+digerAdlar: ["Oresteia Üçlemesi"]
 yazar: "aiskhylos"
 sira: 3
 tur: "tiyatro"

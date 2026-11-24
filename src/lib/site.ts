@@ -1,6 +1,10 @@
 export const siteAdresi = 'https://mitolojikhikayeler.com';
 export const siteAdi = 'Mitolojik Hikâyeler';
 export const siteKisaAdi = 'Mythos';
+export const bizKimizAdi = 'Biz Kimiz';
+export const bizKimizAdresi = '/biz-kimiz/';
+export const instagramKullaniciAdi = 'ruinsrover';
+export const instagramProfilAdresi = `https://www.instagram.com/${instagramKullaniciAdi}/`;
 export const varsayilanPaylasimGorseli = '/paylasim/site.png';
 
 export const sayfaBasligi = (baslik?: string) => (baslik ? `${baslik} · ${siteAdi}` : siteAdi);

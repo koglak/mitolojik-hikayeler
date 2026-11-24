@@ -6,11 +6,15 @@ import AntikKentAnimasyonu from '../components/AntikKentAnimasyonu.astro';
 import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorseli.astro';
 import MeanderBant from '../components/MeanderBant.astro';
 import PapirusRafi from '../components/PapirusRafi.astro';
+import PaylasimBaglantilari from '../components/PaylasimBaglantilari.astro';
 import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
 import { bolumler } from '../lib/bolumler';
 import { soyagaciAdresi } from '../lib/soyagaci';
+import { mutlakAdres, sayfaBasligi } from '../lib/site';
 import { siteVerisi } from '../lib/yapisalVeri';
 
+
+const baslik = 'Yunan Mitleri, Tanrılar, Kahramanlar ve Antik Kentler';
 
 const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string }[] = [
   { tur: 'mitler', ad: 'Mitolojik Hikâyeler', adres: '/mitler/' },
@@ -23,7 +27,7 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string 
 ---
 
 <Temel
-  baslik="Yunan Mitleri, Tanrılar, Kahramanlar ve Antik Kentler"
+  baslik={baslik}
   aciklama="Yunan mitleri, antik kentler, tanrılar ve kahramanlar. Kısa hikâyeler ve kaynaklı künyeler."
   yapisalVeri={siteVerisi()}
 >
@@ -68,6 +72,8 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string 
         <figcaption>Halikarnas Balıkçısı <span>(Cevat Şakir Kabaağaçlı)</span></figcaption>
         <div class="alinti-deseni"><MeanderBant kimlik="alinti" /></div>
       </figure>
+
+      <PaylasimBaglantilari adres={mutlakAdres('/')} baslik={sayfaBasligi(baslik)} />
     </main>
 
     <SiteAltBilgisi />

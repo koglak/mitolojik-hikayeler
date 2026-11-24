@@ -5,8 +5,10 @@ interface Props {
 
 const { aramaVar = true } = Astro.props;
 import AramaPenceresi from './AramaPenceresi.astro';
+import InstagramSimgesi from './InstagramSimgesi.astro';
 import Logo from './Logo.astro';
 import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
+import { bizKimizAdi, bizKimizAdresi, instagramKullaniciAdi, instagramProfilAdresi } from '../lib/site';
 import { soyagaciAdresi } from '../lib/soyagaci';
 
 const baglantilar = [
@@ -48,6 +50,11 @@ const baglantilar = [
       '<path d="M16 14v40a6 6 0 0 0 6 6h30a6 6 0 0 1-6-6V10a6 6 0 0 0-6-6H10a6 6 0 0 1 6 6Z"/>' +
       '<path d="M10 4a6 6 0 0 0-6 6v4h12M26 20h12M26 32h12M26 44h8"/>',
   },
+  {
+    href: bizKimizAdresi,
+    ad: bizKimizAdi,
+    simge: '<circle cx="32" cy="20" r="13"/><path d="M8 58c0-13 10-20 24-20s24 7 24 20Z"/>',
+  },
 ];
 const simdikiYol = Astro.url.pathname;
 const aktifMi = (href: string) => simdikiYol.startsWith(href);
@@ -79,6 +86,16 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
         </button>
       )
     }
+    <a
+      class="simge-dugmesi"
+      href={instagramProfilAdresi}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`Instagram: @${instagramKullaniciAdi} (yeni sekmede açılır)`}
+      title={`Instagram: @${instagramKullaniciAdi}`}
+    >
+      <InstagramSimgesi boyut={20} kalinlik={1.6} />
+    </a>
     <button class="simge-dugmesi menu-dugmesi" type="button" data-menu-ac aria-label="Menüyü aç" aria-expanded="false" aria-controls="mobil-menu">☰</button>
   </div>
   <nav class="mobil-menu" id="mobil-menu" data-mobil-menu aria-label="Mobil menü">
@@ -202,7 +219,7 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   .mobil-menu {
     display: none;
   }
-  @media (max-width: 1240px) {
+  @media (max-width: 1340px) {
     .baslik-cubugu {
       height: 72px;
     }
@@ -227,6 +244,17 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
     }
     .logo-yazisi {
       font-size: 22px;
+    }
+  }
+  @media (max-width: 350px) {
+    .baslik-cubugu {
+      gap: 4px;
+    }
+    .eylemler {
+      gap: 0;
+    }
+    .simge-dugmesi {
+      width: 40px;
     }
   }
 </style>
