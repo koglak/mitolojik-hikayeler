@@ -10,7 +10,7 @@ import SanatKarti from '../../components/SanatKarti.astro';
 import { basligiBol } from '../../lib/baslikParcalari';
 import { bolumAnahtarlari, bolumler, kayitAdresi, mitAdresi } from '../../lib/bolumler';
 import { bagliKaynak } from '../../lib/kaynakDizini';
-import { sanatAdi, sanatAdresi, sanatEserAdresi, sanatTurleri } from '../../lib/sanat';
+import { gorselKokenleri, sanatAdi, sanatAdresi, sanatEserAdresi, sanatTurleri } from '../../lib/sanat';
 import { muzeler, sanatEserleriniGetir } from '../../lib/sanatDizini';
 import { baglantiAlanlari } from '../../lib/sanatSorgu';
 import { varsayilanPaylasimGorseli } from '../../lib/site';
@@ -91,6 +91,7 @@ const yapisalVeri = [
   gorselBoyutu={data.gorsel}
   gorselAciklamasi={data.gorsel?.alt ?? data.ad}
   yapisalVeri={yapisalVeri}
+  onBaglantilar={gorselKokenleri([eser])}
 >
   <div class="site-kabugu">
     <SiteBasligi />

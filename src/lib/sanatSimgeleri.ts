@@ -16,4 +16,6 @@ export const sanatSimgeleri: Record<SanatTuru, string> = {
     '<path d="M24 6h16M26 6v6c-9 3-14 11-14 21 0 13 8 23 20 23s20-10 20-23c0-10-5-18-14-21V6"/><path d="M26 14c-9 0-12 10-6 14M38 14c9 0 12 10 6 14M14 34h36M24 56l-2 4h20l-2-4"/>',
   maden:
     '<path d="M14 12c10-6 26-6 36 0 3 20-2 36-18 46C16 48 11 32 14 12Z"/><path d="M20 27c4-3 7-3 10 0M34 27c3-3 6-3 10 0M32 29v9M26 45c4 3 8 3 12 0M24 41c5-3 11-3 16 0"/>',
+  mekanizma:
+    '<circle cx="32" cy="32" r="18"/><circle cx="32" cy="32" r="11"/><circle cx="32" cy="32" r="3"/><path d="M32 14V7M32 57v-7M14 32H7M57 32h-7M19.3 19.3l-5-5M49.7 49.7l-5-5M44.7 19.3l5-5M14.3 49.7l5-5"/><path d="M32 29v-8M29 32h-8M35 32h8M32 35v8"/>',
 };

@@ -5,13 +5,15 @@ import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import SanatKarti from '../../components/SanatKarti.astro';
 import SanatSalonu from '../../components/SanatSalonu.astro';
 import MuzeHaritasi from '../../components/MuzeHaritasi.astro';
-import { sanatAciklamasi, sanatAdi, sanatAdresi, sanatEserAdresi, sanatTuruAnahtarlari, sanatTurleri } from '../../lib/sanat';
+import { gorselKokenleri, sanatAciklamasi, sanatAdi, sanatAdresi, sanatEserAdresi, sanatTuruAnahtarlari, sanatTurleri } from '../../lib/sanat';
 import { muzeler, sanatEserleriniGetir } from '../../lib/sanatDizini';
 import { muzelereGrupla } from '../../lib/sanatSorgu';
 import { aramaIcinSadelestir } from '../../lib/aramaMetni';
 import { kirintiVerisi, koleksiyonVerisi } from '../../lib/yapisalVeri';
 
+const ilkSatirKartSayisi = 3;
 const eserler = await sanatEserleriniGetir();
+const onBaglantilar = gorselKokenleri(eserler.slice(0, ilkSatirKartSayisi));
 const muzeGruplari = muzelereGrupla(eserler, muzeler).sort((a, b) => a.muze.ad.localeCompare(b.muze.ad, 'tr'));
 const varOlanTurler = sanatTuruAnahtarlari.filter((tur) => eserler.some((eser) => eser.data.tur === tur));
 const haritaMuzeleri = muzeGruplari.map(({ muze, eserler: muzeEserleri }) => ({
@@ -37,7 +39,7 @@ const yapisalVeri = [
 ];
 ---
 
-<Temel baslik={sanatAdi} aciklama={sanatAciklamasi} yapisalVeri={yapisalVeri}>
+<Temel baslik={sanatAdi} aciklama={sanatAciklamasi} yapisalVeri={yapisalVeri} onBaglantilar={onBaglantilar}>
   <div class="site-kabugu">
     <SiteBasligi />
     <main data-sanat-galerisi>
@@ -90,7 +92,7 @@ const yapisalVeri = [
 
       <ul class="eserler">
         {
-          eserler.map((eser) => (
+          eserler.map((eser, sira) => (
             <li
               data-sanat-ogesi
               data-aranan={aranacakMetin(eser)}
@@ -98,7 +100,7 @@ const yapisalVeri = [
               data-muze={eser.data.muze}
               data-adres={sanatEserAdresi(eser.id)}
             >
-              <SanatKarti eser={eser} />
+              <SanatKarti eser={eser} oncelikli={sira < ilkSatirKartSayisi} />
             </li>
           ))
         }

@@ -1,42 +1,218 @@
 {
-  "semadirek-nikesi": { "makale": "Winged Victory of Samothrace", "alt": "Gemi pruvası üzerinde duran başsız, kanatlı mermer Nike heykeli" },
-  "milo-venusu": { "makale": "Venus de Milo", "alt": "Kolları olmayan, yarı örtülü mermer tanrıça heykeli" },
-  "laokoon": { "makale": "Laocoön and His Sons", "alt": "Yılanlara sarılmış Laokoon ve iki oğlunun mermer heykel grubu" },
-  "belvedere-apollonu": { "makale": "Apollo Belvedere", "alt": "Pelerinli, sol kolunu uzatmış mermer Apollon heykeli" },
-  "farnese-herakles": { "makale": "Farnese Hercules", "sahibi": "Marie-Lan Nguyen", "alt": "Sopasına yaslanmış iri yapılı mermer Herakles heykeli" },
-  "farnese-bogasi": { "makale": "Farnese Bull", "sahibi": "Marie-Lan Nguyen", "alt": "Şahlanan bir boğa ve çevresindeki figürlerden oluşan büyük mermer grup" },
-  "efes-artemisi": { "arama": "Artemis of Ephesus statue Ephesus Museum Selçuk", "alt": "Göğsü yumrularla, gövdesi hayvan kabartmalarıyla kaplı Efes Artemisi heykeli" },
-  "artemision-bronzu": { "makale": "Artemision Bronze", "alt": "Kollarını açmış, silahını fırlatmak üzere olan bronz tanrı" },
-  "delphi-arabacisi": { "makale": "Charioteer of Delphi", "alt": "Delphi Arabacısı'nın alın bantlı bronz başının yandan görünümü" },
-  "olen-galyali": { "makale": "Dying Gaul", "alt": "Yere çökmüş, yaralı Galat savaşçısının mermer heykeli" },
-  "nefertiti-bustu": { "makale": "Nefertiti Bust", "alt": "Yüksek mavi taçlı, boyalı Nefertiti büstü" },
-  "olympia-hermesi": { "makale": "Hermes and the Infant Dionysus", "alt": "Kolunda bebek Dionysos'u taşıyan mermer Hermes heykeli" },
-  "bergama-sunagi": { "dosya": "File:Berlin - Pergamonmuseum - Altar 02.jpg", "alt": "Geniş merdiveni ve kabartmalarıyla Bergama Sunağı" },
-  "parthenon-heykelleri": { "makale": "Elgin Marbles", "alt": "British Museum'da Parthenon kabartma ve heykellerinin sergilendiği salon" },
-  "iskender-lahdi": { "makale": "Alexander Sarcophagus", "alt": "Savaş kabartmalarıyla süslü mermer İskender Lahdi" },
-  "nereidler-aniti": { "makale": "Nereid Monument", "sahibi": "Jastrow", "alt": "British Museum'da kurulu Nereidler Anıtı'nın tapınak biçimli cephesi" },
-  "hammurabi-steli": { "makale": "Code of Hammurabi", "alt": "Tepesinde kral ve güneş tanrısı kabartması bulunan yazılı bazalt stel" },
-  "istar-kapisi": { "makale": "Ishtar Gate", "alt": "Boğa ve ejder kabartmalı, mavi sırlı tuğladan İştar Kapısı" },
-  "nemrut-heykelleri": { "makale": "Mount Nemrut", "alt": "Nemrut Dağı'nda dev taş heykeller ve başlar" },
-  "iskender-mozaigi": { "makale": "Alexander Mosaic", "alt": "İskender ile Darius'un karşılaştığı savaş sahnesi mozaiği" },
-  "cingene-kizi": { "arama": "Zeugma Gypsy Girl mosaic", "sahibi": "Nevit Dilmen, düzenleme: Durova", "alt": "Dağınık saçlı, iri gözlü bir yüzü gösteren mozaik parçası" },
-  "francois-vazosu": { "dosya": "File:Vaso françois, firenze, 01.JPG", "sahibi": "Sailko", "alt": "Kuşaklar hâlinde figürlerle bezeli siyah figürlü büyük vazo" },
-  "dionysos-kyliksi": { "dosya": "File:Exekias Dionysos Staatliche Antikensammlungen 2044.jpg", "sahibi": "MatthiasKabel", "alt": "Asma saran bir gemide uzanan Dionysos ve çevresinde yunuslar" },
-  "boga-atlama-freski": { "makale": "Bull-Leaping Fresco", "alt": "Koşan bir boğa ve sırtında takla atan figürü gösteren fresk" },
-  "agamemnon-maskesi": { "makale": "Mask of Agamemnon", "alt": "Sakallı bir erkek yüzünü gösteren altın ölüm maskesi" },
-  "apollon-ve-daphne": { "makale": "Apollo and Daphne (Bernini)", "alt": "Defne ağacına dönüşen Daphne ve ona uzanan Apollon'un mermer grubu" },
-  "persephonenin-kacirilisi": { "makale": "The Rape of Proserpina", "alt": "Hades'in kaldırdığı Persephone'nin direndiği mermer heykel grubu" },
-  "cellini-perseus": { "makale": "Perseus with the Head of Medusa", "alt": "Medusa'nın başını havaya kaldıran bronz Perseus" },
-  "eros-ve-psykhe": { "makale": "Psyche Revived by Cupid's Kiss", "alt": "Kanatlı Eros'un kollarında uyanan Psykhe'nin mermer heykeli" },
-  "venusun-dogusu": { "makale": "The Birth of Venus", "alt": "Deniz kabuğu üzerinde kıyıya varan Venüs" },
-  "atina-okulu": { "makale": "The School of Athens", "alt": "Kemerli bir salonda toplanmış antik düşünürler, ortada Platon ve Aristoteles" },
-  "bacchus-ve-ariadne": { "makale": "Bacchus and Ariadne", "alt": "Çitaların çektiği arabadan Ariadne'ye doğru atlayan Bacchus" },
-  "europanin-kacirilisi": { "makale": "The Rape of Europa (Titian)", "alt": "Beyaz bir boğanın sırtında denizde götürülen Europa" },
-  "caravaggio-medusa": { "makale": "Medusa (Caravaggio)", "alt": "Yuvarlak kalkan üzerinde ağzı açık, saçları yılanlı Medusa başı" },
-  "caravaggio-narkissos": { "makale": "Narcissus (Caravaggio)", "alt": "Suya eğilmiş, yansımasına bakan genç Narkissos" },
-  "iplikci-kadinlar": { "makale": "Las Hilanderas (Velázquez)", "alt": "Önde iplik eğiren kadınlar, arkada aydınlık odada halı önünde figürler" },
-  "parisin-yargisi": { "arama": "Rubens El juicio de Paris Museo del Prado 1638", "alt": "Üç tanrıçanın karşısında oturan Paris ve elmayı tutan Hermes" },
-  "ikarosun-dususu": { "makale": "Landscape with the Fall of Icarus", "alt": "Saban süren çiftçi, deniz ve köşede suya düşmüş İkaros'un bacakları" },
-  "saturn": { "makale": "Saturn Devouring His Son", "alt": "Karanlıkta bir bedeni yiyen, gözleri fal taşı gibi açık dev" },
-  "sokratesin-olumu": { "makale": "The Death of Socrates", "alt": "Yatağında oturup eliyle göğü gösteren, kadehe uzanan Sokrates ve öğrencileri" }
+  "semadirek-nikesi": {
+    "makale": "Winged Victory of Samothrace",
+    "alt": "Gemi pruvası üzerinde duran başsız, kanatlı mermer Nike heykeli"
+  },
+  "milo-venusu": {
+    "makale": "Venus de Milo",
+    "alt": "Kolları olmayan, yarı örtülü mermer tanrıça heykeli"
+  },
+  "laokoon": {
+    "makale": "Laocoön and His Sons",
+    "alt": "Yılanlara sarılmış Laokoon ve iki oğlunun mermer heykel grubu"
+  },
+  "belvedere-apollonu": {
+    "makale": "Apollo Belvedere",
+    "alt": "Pelerinli, sol kolunu uzatmış mermer Apollon heykeli"
+  },
+  "farnese-herakles": {
+    "makale": "Farnese Hercules",
+    "sahibi": "Marie-Lan Nguyen",
+    "alt": "Sopasına yaslanmış iri yapılı mermer Herakles heykeli"
+  },
+  "farnese-bogasi": {
+    "makale": "Farnese Bull",
+    "sahibi": "Marie-Lan Nguyen",
+    "alt": "Şahlanan bir boğa ve çevresindeki figürlerden oluşan büyük mermer grup"
+  },
+  "efes-artemisi": {
+    "arama": "Artemis of Ephesus statue Ephesus Museum Selçuk",
+    "alt": "Göğsü yumrularla, gövdesi hayvan kabartmalarıyla kaplı Efes Artemisi heykeli"
+  },
+  "artemision-bronzu": {
+    "makale": "Artemision Bronze",
+    "alt": "Kollarını açmış, silahını fırlatmak üzere olan bronz tanrı"
+  },
+  "delphi-arabacisi": {
+    "makale": "Charioteer of Delphi",
+    "alt": "Delphi Arabacısı'nın alın bantlı bronz başının yandan görünümü"
+  },
+  "olen-galyali": {
+    "makale": "Dying Gaul",
+    "alt": "Yere çökmüş, yaralı Galat savaşçısının mermer heykeli"
+  },
+  "nefertiti-bustu": {
+    "makale": "Nefertiti Bust",
+    "alt": "Yüksek mavi taçlı, boyalı Nefertiti büstü"
+  },
+  "olympia-hermesi": {
+    "makale": "Hermes and the Infant Dionysus",
+    "alt": "Kolunda bebek Dionysos'u taşıyan mermer Hermes heykeli"
+  },
+  "bergama-sunagi": {
+    "dosya": "File:Berlin - Pergamonmuseum - Altar 02.jpg",
+    "alt": "Geniş merdiveni ve kabartmalarıyla Bergama Sunağı"
+  },
+  "parthenon-heykelleri": {
+    "makale": "Elgin Marbles",
+    "alt": "British Museum'da Parthenon kabartma ve heykellerinin sergilendiği salon"
+  },
+  "iskender-lahdi": {
+    "makale": "Alexander Sarcophagus",
+    "alt": "Savaş kabartmalarıyla süslü mermer İskender Lahdi"
+  },
+  "nereidler-aniti": {
+    "makale": "Nereid Monument",
+    "sahibi": "Jastrow",
+    "alt": "British Museum'da kurulu Nereidler Anıtı'nın tapınak biçimli cephesi"
+  },
+  "hammurabi-steli": {
+    "makale": "Code of Hammurabi",
+    "alt": "Tepesinde kral ve güneş tanrısı kabartması bulunan yazılı bazalt stel"
+  },
+  "istar-kapisi": {
+    "makale": "Ishtar Gate",
+    "alt": "Boğa ve ejder kabartmalı, mavi sırlı tuğladan İştar Kapısı"
+  },
+  "nemrut-heykelleri": {
+    "makale": "Mount Nemrut",
+    "alt": "Nemrut Dağı'nda dev taş heykeller ve başlar"
+  },
+  "iskender-mozaigi": {
+    "makale": "Alexander Mosaic",
+    "alt": "İskender ile Darius'un karşılaştığı savaş sahnesi mozaiği"
+  },
+  "cingene-kizi": {
+    "arama": "Zeugma Gypsy Girl mosaic",
+    "sahibi": "Nevit Dilmen, düzenleme: Durova",
+    "alt": "Dağınık saçlı, iri gözlü bir yüzü gösteren mozaik parçası"
+  },
+  "francois-vazosu": {
+    "dosya": "File:Vaso françois, firenze, 01.JPG",
+    "sahibi": "Sailko",
+    "alt": "Kuşaklar hâlinde figürlerle bezeli siyah figürlü büyük vazo"
+  },
+  "dionysos-kyliksi": {
+    "dosya": "File:Exekias Dionysos Staatliche Antikensammlungen 2044.jpg",
+    "sahibi": "MatthiasKabel",
+    "alt": "Asma saran bir gemide uzanan Dionysos ve çevresinde yunuslar"
+  },
+  "boga-atlama-freski": {
+    "makale": "Bull-Leaping Fresco",
+    "alt": "Koşan bir boğa ve sırtında takla atan figürü gösteren fresk"
+  },
+  "agamemnon-maskesi": {
+    "makale": "Mask of Agamemnon",
+    "alt": "Sakallı bir erkek yüzünü gösteren altın ölüm maskesi"
+  },
+  "apollon-ve-daphne": {
+    "makale": "Apollo and Daphne (Bernini)",
+    "alt": "Defne ağacına dönüşen Daphne ve ona uzanan Apollon'un mermer grubu"
+  },
+  "persephonenin-kacirilisi": {
+    "makale": "The Rape of Proserpina",
+    "alt": "Hades'in kaldırdığı Persephone'nin direndiği mermer heykel grubu"
+  },
+  "cellini-perseus": {
+    "makale": "Perseus with the Head of Medusa",
+    "alt": "Medusa'nın başını havaya kaldıran bronz Perseus"
+  },
+  "eros-ve-psykhe": {
+    "makale": "Psyche Revived by Cupid's Kiss",
+    "alt": "Kanatlı Eros'un kollarında uyanan Psykhe'nin mermer heykeli"
+  },
+  "venusun-dogusu": {
+    "makale": "The Birth of Venus",
+    "alt": "Deniz kabuğu üzerinde kıyıya varan Venüs"
+  },
+  "atina-okulu": {
+    "makale": "The School of Athens",
+    "alt": "Kemerli bir salonda toplanmış antik düşünürler, ortada Platon ve Aristoteles"
+  },
+  "bacchus-ve-ariadne": {
+    "makale": "Bacchus and Ariadne",
+    "alt": "Çitaların çektiği arabadan Ariadne'ye doğru atlayan Bacchus"
+  },
+  "europanin-kacirilisi": {
+    "makale": "The Rape of Europa (Titian)",
+    "alt": "Beyaz bir boğanın sırtında denizde götürülen Europa"
+  },
+  "caravaggio-medusa": {
+    "makale": "Medusa (Caravaggio)",
+    "alt": "Yuvarlak kalkan üzerinde ağzı açık, saçları yılanlı Medusa başı"
+  },
+  "caravaggio-narkissos": {
+    "makale": "Narcissus (Caravaggio)",
+    "alt": "Suya eğilmiş, yansımasına bakan genç Narkissos"
+  },
+  "iplikci-kadinlar": {
+    "makale": "Las Hilanderas (Velázquez)",
+    "alt": "Önde iplik eğiren kadınlar, arkada aydınlık odada halı önünde figürler"
+  },
+  "parisin-yargisi": {
+    "arama": "Rubens El juicio de Paris Museo del Prado 1638",
+    "alt": "Üç tanrıçanın karşısında oturan Paris ve elmayı tutan Hermes"
+  },
+  "ikarosun-dususu": {
+    "makale": "Landscape with the Fall of Icarus",
+    "alt": "Saban süren çiftçi, deniz ve köşede suya düşmüş İkaros'un bacakları"
+  },
+  "saturn": {
+    "makale": "Saturn Devouring His Son",
+    "alt": "Karanlıkta bir bedeni yiyen, gözleri fal taşı gibi açık dev"
+  },
+  "sokratesin-olumu": {
+    "makale": "The Death of Socrates",
+    "alt": "Yatağında oturup eliyle göğü gösteren, kadehe uzanan Sokrates ve öğrencileri"
+  },
+  "kades-antlasmasi": {
+    "dosya": "File:Treaty of Kadesh.jpg",
+    "sahibi": "Iocanus",
+    "alt": "Kadeş Antlaşması'nın çivi yazısıyla kaplı kil tableti"
+  },
+  "kyme-bronz-atleti": {
+    "dosya": "File:Izmir Archaeology museum Hellenistic sculpture 6512.jpg",
+    "sahibi": "Dosseman",
+    "alt": "Başında meşe yapraklarından zafer çelengi bulunan, sağ kolu eksik bronz atlet heykeli"
+  },
+  "amazonlar-mozaigi": {
+    "dosya": "File:Urfa Haleplibahçe Mosaic Museum Hunting Amazons mosaic 5175.jpg",
+    "sahibi": "Dosseman",
+    "alt": "Şahlanan atının üzerinde silahını geren bir Amazon'u gösteren, yer yer dökülmüş mozaik"
+  },
+  "urfa-adami": {
+    "dosya": "File:Urfa museum Urfa man sept 2019 4717.jpg",
+    "sahibi": "Dosseman",
+    "alt": "Ağzı olmayan, göz çukurları koyu, boynunda V biçimli kabartma bulunan insan boyunda taş erkek heykeli"
+  },
+  "peplos-koresi": {
+    "dosya": "File:ACMA 679 Kore 1.JPG",
+    "sahibi": "Marsyas",
+    "alt": "Uzun kıvırcık saçları, arkaik gülümsemesi ve boya izleriyle Peplos Koresi"
+  },
+  "moskhophoros": {
+    "dosya": "File:ACMA Moschophoros.jpg",
+    "sahibi": "Marsyas",
+    "alt": "Omuzlarında bir buzağı taşıyan sakallı ve arkaik gülümsemeli mermer erkek heykeli"
+  },
+  "antikythera-mekanizmasi": {
+    "dosya": "File:Mechanism of Antikythera, 150-100 BC, NAMA, 191431.jpg",
+    "sahibi": "Zde",
+    "alt": "Antikythera Mekanizması'nın deniz altında aşınmış bronz parçaları"
+  },
+  "artemision-jokeyi": {
+    "dosya": "File:Bronze statue of a horse and young jockey at the National Archaeological Museum of Athens on 18 September 2018.jpg",
+    "sahibi": "George E. Koronaios",
+    "alt": "Dörtnala koşan bronz bir at ve sırtında öne doğru eğilmiş küçük bir jokey"
+  },
+  "varvakeion-athenasi": {
+    "dosya": "File:NAMA Athéna Varvakeion.jpg",
+    "sahibi": "Marsyas",
+    "alt": "Sağ elinde Nike heykelciği, sol yanında kalkan ve yılan bulunan miğferli Athena heykeli"
+  },
+  "aphrodite-pan-ve-eros": {
+    "dosya": "File:Aphrodite Pan Eros NAMA 3335 Athens Greece.jpg",
+    "sahibi": "Jebulon",
+    "alt": "Elinde sandalet tutan Aphrodite, keçi ayaklı Pan ve onun boynuzundan tutan kanatlı Eros"
+  }
 }

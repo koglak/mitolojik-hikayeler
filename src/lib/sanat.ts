@@ -12,6 +12,7 @@ export const sanatTuruAnahtarlari = [
   'fresk',
   'vazo',
   'maden',
+  'mekanizma',
 ] as const;
 export type SanatTuru = (typeof sanatTuruAnahtarlari)[number];
 
@@ -24,6 +25,7 @@ export const sanatTurleri: Record<SanatTuru, string> = {
   fresk: 'Fresk',
   vazo: 'Vazo',
   maden: 'Maden işi',
+  mekanizma: 'Mekanizma',
 };
 
 export const sanatEserAdresi = (kimlik: string) => `${sanatAdresi}${kimlik}/`;
@@ -34,12 +36,35 @@ export const lisansKabul = (lisans: string) => kabulEdilenLisans.test(lisans.tri
 
 const gorselGenislikleri = [330, 500, 960, 1280];
 
+const kucukResimKalibi =
+  /^(https:\/\/(?:upload|thumb)\.wikimedia\.org\/.+\/thumb\/.+\/(?:(?:lossy-|lossless-)?page\d+-)?)\d+(px-[^/]+)$/;
+const ozgunDosyaKalibi =
+  /^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/([0-9a-f]\/[0-9a-f]{2})\/([^/]+\.(?:jpe?g|png|webp))$/i;
+
+const kucukResimParcalari = (adres: string) => {
+  const kucukResim = kucukResimKalibi.exec(adres);
+  if (kucukResim) return { bas: kucukResim[1], son: kucukResim[2] };
+  const ozgunDosya = ozgunDosyaKalibi.exec(adres);
+  if (!ozgunDosya) return undefined;
+  const [, klasor, dosya] = ozgunDosya;
+  return { bas: `https://thumb.wikimedia.org/wikipedia/commons/thumb/${klasor}/${dosya}/`, son: `px-${dosya}` };
+};
+
 export const gorselKumesi = ({ adres, genislik }: { adres: string; genislik: number }) => {
-  const kucukResim = /^(https:\/\/(?:upload|thumb)\.wikimedia\.org\/.+\/thumb\/.+\/(?:(?:lossy-|lossless-)?page\d+-)?)\d+(px-[^/]+)$/.exec(adres);
-  if (!kucukResim) return undefined;
-  const [, bas, son] = kucukResim;
+  const parcalar = kucukResimParcalari(adres);
+  if (!parcalar) return undefined;
   return [
-    ...gorselGenislikleri.filter((aday) => aday < genislik).map((aday) => `${bas}${aday}${son} ${aday}w`),
+    ...gorselGenislikleri
+      .filter((aday) => aday < genislik)
+      .map((aday) => `${parcalar.bas}${aday}${parcalar.son} ${aday}w`),
     `${adres} ${genislik}w`,
   ].join(', ');
 };
+
+export const gorselKokenleri = (eserler: { data: { gorsel?: { adres: string; genislik: number } } }[]) => [
+  ...new Set(
+    eserler.flatMap(({ data: { gorsel } }) =>
+      gorsel ? ((gorselKumesi(gorsel) ?? gorsel.adres).match(/https:\/\/[^/]+/g) ?? []) : [],
+    ),
+  ),
+];

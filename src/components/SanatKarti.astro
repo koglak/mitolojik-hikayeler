@@ -6,14 +6,15 @@ import { muzeler } from '../lib/sanatDizini';
 
 interface Props {
   eser: CollectionEntry<'sanat'>;
+  oncelikli?: boolean;
 }
 
-const { eser } = Astro.props;
+const { eser, oncelikli = false } = Astro.props;
 const muze = muzeler[eser.data.muze];
 ---
 
 <a class="sanat-karti" href={sanatEserAdresi(eser.id)}>
-  <span class="resim"><SanatGorseli eser={eser} boyut="kart" /></span>
+  <span class="resim"><SanatGorseli eser={eser} boyut="kart" oncelikli={oncelikli} /></span>
   <span class="govde">
     <span class="tur">{sanatTurleri[eser.data.tur]} · {eser.data.tarih}</span>
     <strong>{eser.data.ad}</strong>

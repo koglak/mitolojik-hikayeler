@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { gorselKumesi, lisansKabul, sanatAdresi, sanatEserAdresi } from '../src/lib/sanat';
+import { gorselKokenleri, gorselKumesi, lisansKabul, sanatAdresi, sanatEserAdresi } from '../src/lib/sanat';
 import { ilgiliEserler, muzelereGrupla, sanatSuz, yakinlariGrupla } from '../src/lib/sanatSorgu';
 
 describe('lisansKabul', () => {
@@ -114,7 +114,39 @@ describe('gorselKumesi', () => {
     );
   });
 
-  it('özgün dosya adresinde küme üretmez', () => {
-    expect(gorselKumesi({ adres: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/A.jpg', genislik: 800 })).toBeUndefined();
+  it('özgün dosya adresinden küçük resim adresleri türetir', () => {
+    const adres = 'https://upload.wikimedia.org/wikipedia/commons/a/ab/A%2C_b.JPG';
+    const kucuk = 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/A%2C_b.JPG';
+    expect(gorselKumesi({ adres, genislik: 800 })).toBe(
+      `${kucuk}/330px-A%2C_b.JPG 330w, ${kucuk}/500px-A%2C_b.JPG 500w, ${adres} 800w`,
+    );
+  });
+
+  it('küçük resmi başka uzantıyla üretilen özgün dosyada küme üretmez', () => {
+    expect(gorselKumesi({ adres: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/A.tif', genislik: 800 })).toBeUndefined();
+  });
+});
+
+describe('gorselKokenleri', () => {
+  it('görsellerin sunucu kökenlerini yinelemeden verir', () => {
+    expect(
+      gorselKokenleri([
+        { data: { gorsel: { adres: 'https://thumb.wikimedia.org/a/A.jpg', genislik: 800 } } },
+        { data: { gorsel: { adres: 'https://thumb.wikimedia.org/b/B.jpg', genislik: 800 } } },
+        { data: { gorsel: { adres: 'https://upload.wikimedia.org/c/C.jpg', genislik: 800 } } },
+      ]),
+    ).toEqual(['https://thumb.wikimedia.org', 'https://upload.wikimedia.org']);
+  });
+
+  it('özgün dosyanın küçük resim sunucusunu da katar', () => {
+    const adres = 'https://upload.wikimedia.org/wikipedia/commons/a/ab/A.jpg';
+    expect(gorselKokenleri([{ data: { gorsel: { adres, genislik: 800 } } }])).toEqual([
+      'https://thumb.wikimedia.org',
+      'https://upload.wikimedia.org',
+    ]);
+  });
+
+  it('görseli olmayan eseri atlar', () => {
+    expect(gorselKokenleri([{ data: {} }])).toEqual([]);
   });
 });

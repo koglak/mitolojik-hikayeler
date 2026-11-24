@@ -6,9 +6,10 @@ import { sanatSimgeleri } from '../lib/sanatSimgeleri';
 interface Props {
   eser: CollectionEntry<'sanat'>;
   boyut: 'kart' | 'sayfa';
+  oncelikli?: boolean;
 }
 
-const { eser, boyut } = Astro.props;
+const { eser, boyut, oncelikli = boyut === 'sayfa' } = Astro.props;
 const { gorsel } = eser.data;
 const sayfada = boyut === 'sayfa';
 const kume = gorsel && gorselKumesi(gorsel);
@@ -27,7 +28,7 @@ const olculer = sayfada ? '(max-width: 900px) 92vw, 1100px' : '(max-width: 740px
       alt={sayfada ? gorsel.alt : ''}
       decoding="async"
       onerror="this.hidden=true;this.nextElementSibling.hidden=false"
-      loading={sayfada ? 'eager' : 'lazy'}
+      loading={oncelikli ? 'eager' : 'lazy'}
       fetchpriority={sayfada ? 'high' : undefined}
     />
   )

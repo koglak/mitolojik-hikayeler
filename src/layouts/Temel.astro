@@ -24,6 +24,7 @@ interface Props {
   tur?: 'website' | 'article';
   yapisalVeri?: Record<string, unknown>[];
   dizinlenmesin?: boolean;
+  onBaglantilar?: string[];
 }
 
 const {
@@ -35,6 +36,7 @@ const {
   tur = 'website',
   yapisalVeri = [],
   dizinlenmesin = false,
+  onBaglantilar = [],
 } = Astro.props;
 
 const tamBaslik = sayfaBasligi(baslik);
@@ -50,6 +52,7 @@ const yapisalVeriMetni = yapisalVeri.length
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    {onBaglantilar.map((koken) => <link rel="preconnect" href={koken} />)}
     <title>{tamBaslik}</title>
     <meta name="description" content={aciklama} />
     {dizinlenmesin ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={kanonikAdres} />}
