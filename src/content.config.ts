@@ -2,6 +2,7 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { mitSemasi } from './lib/mitSemasi';
 import { kayitSemasi } from './lib/kayitSemasi';
+import { eserSemasi, yazarSemasi } from './lib/kaynakSemasi';
 
 const mitler = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/mitler' }),
@@ -14,9 +15,21 @@ const kayitKoleksiyonu = (klasor: string) =>
     schema: kayitSemasi,
   });
 
+const yazarlar = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/yazarlar' }),
+  schema: yazarSemasi,
+});
+
+const eserler = defineCollection({
+  loader: glob({ pattern: '*/*.md', base: './src/content/eserler' }),
+  schema: eserSemasi,
+});
+
 export const collections = {
   mitler,
   kentler: kayitKoleksiyonu('kentler'),
   tanrilar: kayitKoleksiyonu('tanrilar'),
   kahramanlar: kayitKoleksiyonu('kahramanlar'),
+  yazarlar,
+  eserler,
 };

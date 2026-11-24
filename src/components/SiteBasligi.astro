@@ -6,6 +6,8 @@ interface Props {
 const { aramaVar = true } = Astro.props;
 import AramaPenceresi from './AramaPenceresi.astro';
 import Logo from './Logo.astro';
+import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
+import { soyagaciAdresi } from '../lib/soyagaci';
 
 const baglantilar = [
   {
@@ -31,6 +33,20 @@ const baglantilar = [
     simge:
       '<path d="M14 56V36a18 18 0 0 1 36 0v20l-10-5V38h-4v16h-8V38h-4v13Z"/>' +
       '<path d="M12 22C16 6 48 6 52 22"/>',
+  },
+  {
+    href: soyagaciAdresi,
+    ad: 'Soyağacı',
+    simge:
+      '<path d="M22 6h20v12H22ZM6 46h16v12H6ZM24 46h16v12H24ZM42 46h16v12H42Z"/>' +
+      '<path d="M32 18v28M14 46V32h36v14"/>',
+  },
+  {
+    href: antikKaynaklarAdresi,
+    ad: antikKaynaklarAdi,
+    simge:
+      '<path d="M16 14v40a6 6 0 0 0 6 6h30a6 6 0 0 1-6-6V10a6 6 0 0 0-6-6H10a6 6 0 0 1 6 6Z"/>' +
+      '<path d="M10 4a6 6 0 0 0-6 6v4h12M26 20h12M26 32h12M26 44h8"/>',
   },
 ];
 const simdikiYol = Astro.url.pathname;
@@ -186,7 +202,7 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   .mobil-menu {
     display: none;
   }
-  @media (max-width: 900px) {
+  @media (max-width: 1240px) {
     .baslik-cubugu {
       height: 72px;
     }

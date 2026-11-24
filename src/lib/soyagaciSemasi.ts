@@ -2,6 +2,8 @@ import { z } from 'astro/zod';
 
 export const kisiTurleri = ['ilkel', 'titan', 'olimposlu', 'tanri', 'olumlu', 'canavar'] as const;
 
+export const cinsiyetler = ['kadin', 'erkek', 'yok'] as const;
+
 const kimlik = z.string().regex(/^[a-z0-9-]+$/);
 const kaynak = z.string().trim().min(1);
 
@@ -9,6 +11,7 @@ const kisiSemasi = z.object({
   kimlik,
   ad: z.string().min(1),
   tur: z.enum(kisiTurleri),
+  cinsiyet: z.enum(cinsiyetler),
   grup: z.boolean().optional(),
   kayit: z.object({ bolum: z.enum(['tanrilar', 'kahramanlar']), kimlik }).optional(),
   wikidata: z.string().regex(/^Q\d+$/).optional(),

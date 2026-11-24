@@ -1,0 +1,46 @@
+---
+import { durumlar, type DurumAnahtari } from '../lib/antikKaynaklar';
+
+interface Props {
+  durum: DurumAnahtari;
+  yazili?: boolean;
+}
+
+const { durum, yazili = false } = Astro.props;
+const cizimler: Record<DurumAnahtari, string> = {
+  tam: '<path d="M6 4h20v24H6Z" fill="currentColor" fill-opacity=".28"/><path d="M11 10h10M11 16h10M11 22h10"/>',
+  kismen:
+    '<path d="M6 4h20v13l-4-2-4 4-4-3-4 4-4-2Z" fill="currentColor" fill-opacity=".28"/><path d="M11 9h10M11 13h6"/><path d="M6 23v5h20v-6" stroke-dasharray="2.4 2.6"/>',
+  fragman:
+    '<path d="M6 5l8-1 2 6-7 3ZM20 13l6-1v7l-5 2ZM8 21l7-2 3 6-8 4Z" fill="currentColor" fill-opacity=".28"/><path d="M20 4h6v4M6 16v2M23 28h3v-3" stroke-dasharray="2.4 2.6"/>',
+};
+---
+
+<span class="durum">
+  <svg
+    viewBox="0 0 32 32"
+    width="20"
+    height="20"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.6"
+    stroke-linejoin="round"
+    role={yazili ? undefined : 'img'}
+    aria-label={yazili ? undefined : durumlar[durum]}
+    aria-hidden={yazili ? 'true' : undefined}
+    set:html={cizimler[durum]}
+  />
+  {yazili && durumlar[durum]}
+</span>
+
+<style>
+  .durum {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  svg {
+    flex: none;
+    color: var(--vurgu);
+  }
+</style>

@@ -1,0 +1,618 @@
+---
+import Temel from '../layouts/Temel.astro';
+import SiteBasligi from '../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+import hamVeri from '../data/soyagaci.json';
+import { kisiAdresi, soyagaciAdresi } from '../lib/soyagaci';
+import { baslangicSoylari, soyAdresi } from '../lib/soyagaciBaslangic';
+import { renkKodlari, renkKodu } from '../lib/soyagaciRenkleri';
+import { soyagaciSemasi } from '../lib/soyagaciSemasi';
+import { kirintiVerisi } from '../lib/yapisalVeri';
+
+const veri = soyagaciSemasi.parse(hamVeri);
+const kisiler = new Map(veri.kisiler.map((kisi) => [kisi.kimlik, kisi]));
+const sayfaAciklamasi = `Khaos'tan Truva kuşağına Yunan tanrılarının ve kahramanlarının soyağacı. ${veri.kisiler.length} kişinin ailesini tek tek gez.`;
+const yapisalVeri = [kirintiVerisi([{ ad: 'Soyağacı', yol: soyagaciAdresi }])];
+---
+
+<Temel baslik="Tanrıların ve Kahramanların Soyağacı" aciklama={sayfaAciklamasi} yapisalVeri={yapisalVeri}>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main class="soyagaci" data-soyagaci>
+      <script is:inline>
+        if (/[?&](kisi|soy)=./.test(location.search)) document.currentScript.parentElement.classList.add('kisi-acik');
+      </script>
+      <header class="giris">
+        <h1>Soyağacı</h1>
+        <p>Bir soya dokun, küçük ağacı açılsın. Bir isme dokun, o kişinin ailesini gör.</p>
+      </header>
+
+      <div class="arama-kutusu" role="search">
+        <input
+          type="search"
+          data-kisi-ara
+          placeholder="Kişi ara: Herakles, Medeia..."
+          autocomplete="off"
+          aria-label="Soyağacında kişi ara"
+        />
+        <ul class="sonuclar" data-kisi-sonuclari hidden></ul>
+      </div>
+
+      <dl class="renk-anahtari" aria-label="Renklerin anlamı">
+        {
+          renkKodlari.map(({ ad, aciklama, renk, bicim }) => (
+            <div style={`--renk:${renk}`}>
+              <dt>
+                <span class={`isaret ${bicim}`} aria-hidden="true" />
+                {ad}
+              </dt>
+              <dd>{aciklama}</dd>
+            </div>
+          ))
+        }
+      </dl>
+
+      <section class="kartlar" data-kartlar aria-label="Soylar">
+        {
+          baslangicSoylari.map((soy) => (
+            <article class="kart">
+              <h2>
+                <a class="kart-baglantisi" href={soyAdresi(soy.kimlik)} data-gecis>
+                  {soy.ad}
+                </a>
+              </h2>
+              <p>{soy.aciklama}</p>
+              <ul>
+                {soy.kisiler.map((kimlik) => {
+                  const kisi = kisiler.get(kimlik)!;
+                  const { renk, bicim, ad } = renkKodu(kisi);
+                  return (
+                    <li>
+                      <a class="isim renkli" href={kisiAdresi(kimlik)} data-kisi={kimlik} style={`--renk:${renk}`}>
+                        <span class={`isaret ${bicim}`} role="img" aria-label={ad} />
+                        <span>{kisi.ad}</span>
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+              <span class="agaci-gor" aria-hidden="true">Ağacı gör →</span>
+            </article>
+          ))
+        }
+      </section>
+
+      <section class="aile" data-aile aria-label="Seçilen soy ya da kişi" hidden></section>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<script>
+  import '../scripts/soyagaci';
+</script>
+
+<style is:global>
+  .soyagaci {
+    padding-bottom: 60px;
+  }
+  .soyagaci .giris {
+    padding: 40px 0 22px;
+  }
+  .soyagaci .giris h1 {
+    font: 500 clamp(44px, 7vw, 88px) / 0.95 var(--baslik-font);
+    letter-spacing: -0.03em;
+    margin: 0 0 12px;
+  }
+  .soyagaci .giris p {
+    max-width: 38rem;
+    text-wrap: pretty;
+    margin: 0;
+    color: var(--soluk);
+  }
+  .soyagaci.kisi-acik .giris,
+  .soyagaci.kisi-acik .kartlar,
+  .soyagaci [hidden] {
+    display: none;
+  }
+  .soyagaci.kisi-acik .arama-kutusu {
+    margin-top: 24px;
+  }
+  .soyagaci .arama-kutusu {
+    position: relative;
+    max-width: 420px;
+    margin-bottom: 34px;
+  }
+  .soyagaci .arama-kutusu input {
+    width: 100%;
+    padding: 12px 14px;
+    font: 400 16px var(--govde-font);
+    color: var(--yazi);
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .sonuclar {
+    position: absolute;
+    z-index: 4;
+    inset: calc(100% + 4px) 0 auto;
+    margin: 0;
+    padding: 4px;
+    list-style: none;
+    background: var(--yuzey-2);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .sonuclar a {
+    display: block;
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+  .soyagaci .sonuclar a:hover,
+  .soyagaci .sonuclar a:focus-visible {
+    background: var(--parilti);
+  }
+  .soyagaci .sonuclar small {
+    display: block;
+    color: var(--soluk);
+  }
+  .soyagaci .sonuclar .bos {
+    padding: 10px 12px;
+    color: var(--soluk);
+  }
+  .soyagaci .kartlar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    gap: 16px;
+  }
+  .soyagaci .kart {
+    padding: 22px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .kart h2 {
+    font-size: 28px;
+    line-height: 1.1;
+    margin: 0 0 4px;
+  }
+  .soyagaci .kart p {
+    margin: 0 0 14px;
+    font-size: 15px;
+    color: var(--soluk);
+  }
+  .soyagaci .kart {
+    position: relative;
+  }
+  .soyagaci .kart:hover,
+  .soyagaci .kart:focus-within {
+    border-color: var(--vurgu);
+  }
+  .soyagaci .kart-baglantisi::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  .soyagaci .kart .isim {
+    position: relative;
+    z-index: 1;
+  }
+  .soyagaci .agaci-gor {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 15px;
+    color: var(--vurgu);
+  }
+  .soyagaci .kart ul,
+  .soyagaci .isimler {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .soyagaci .isim {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 6px 16px;
+    font-size: 16px;
+    background: var(--yuzey-2);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .isim:hover,
+  .soyagaci .isim:focus-visible {
+    border-color: var(--vurgu);
+  }
+  .soyagaci .isim.renkli {
+    gap: 8px;
+    border-color: color-mix(in srgb, var(--renk) 55%, transparent);
+  }
+  .soyagaci .isim.renkli:hover,
+  .soyagaci .isim.renkli:focus-visible {
+    border-color: var(--renk);
+  }
+  .soyagaci .isaret {
+    flex: none;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: var(--renk);
+  }
+  .soyagaci .isaret.daire {
+    border-radius: 50%;
+  }
+  .soyagaci .isaret.baklava {
+    transform: rotate(45deg);
+  }
+  .soyagaci .isaret.ucgen {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    width: 11px;
+    height: 10px;
+  }
+  .soyagaci .renk-anahtari {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(125px, 100%), 1fr));
+    gap: 12px 22px;
+    margin: 0 0 30px;
+    padding: 14px 18px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .renk-anahtari dt {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--renk);
+  }
+  .soyagaci .renk-anahtari dd {
+    margin: 2px 0 0;
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--soluk);
+  }
+  .soyagaci .soy-cizgisi .isaret {
+    margin-right: 7px;
+  }
+  .soyagaci .sonuclar .isaret {
+    margin-right: 9px;
+  }
+  .soyagaci .kisi-karti .tanim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+  }
+  .soyagaci .aile {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .soyagaci .soy-cizgisi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 8px;
+    margin: 0 0 28px;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    color: var(--soluk);
+  }
+  .soyagaci .soy-cizgisi li:not(:last-child)::after {
+    content: '›';
+    margin-left: 8px;
+  }
+  .soyagaci .soy-cizgisi a {
+    display: inline-block;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--cizgi);
+  }
+  .soyagaci .soy-cizgisi [aria-current] {
+    display: inline-block;
+    padding: 6px 0;
+    color: var(--yazi);
+  }
+  .soyagaci .anne-baba {
+    text-align: center;
+  }
+  .soyagaci .anne-baba .isimler {
+    justify-content: center;
+  }
+  .soyagaci .bag {
+    width: 1px;
+    height: 30px;
+    margin: 0 auto;
+    background: var(--vurgu);
+  }
+  .soyagaci .etiket {
+    margin: 0 0 8px;
+    font: 500 13px var(--govde-font);
+    color: var(--soluk);
+  }
+  .soyagaci .kisi-karti {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 26px 24px;
+    text-align: center;
+    background: var(--yuzey);
+    border: 1px solid var(--renk, var(--vurgu));
+    border-radius: 4px;
+  }
+  .soyagaci .kisi-karti h2 {
+    font-size: clamp(38px, 7vw, 60px);
+    line-height: 1;
+    margin: 0 0 6px;
+    outline: none;
+  }
+  .soyagaci .kisi-karti p {
+    margin: 0;
+    color: var(--soluk);
+  }
+  .soyagaci .kisi-karti .not {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--yazi);
+  }
+  .soyagaci .kisi-karti .sayfa {
+    display: inline-block;
+    margin-top: 16px;
+    border-bottom: 1px solid var(--vurgu);
+  }
+  .soyagaci .gruplar {
+    display: grid;
+    gap: 12px;
+  }
+  .soyagaci .grup {
+    display: grid;
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 8px 24px;
+    align-items: start;
+    padding: 16px 18px;
+    background: var(--hero);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .grup.essiz {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .soyagaci .baska-anlati {
+    margin-top: 34px;
+  }
+  .soyagaci .baska-anlati h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  .soyagaci .baska-anlati li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 14px;
+    width: 100%;
+  }
+  .soyagaci .baska-anlati small {
+    font: italic 400 17px/1.4 var(--baslik-font);
+    color: var(--vurgu);
+  }
+  .soyagaci .alt-baglantilar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    margin-top: 36px;
+  }
+  .soyagaci .ic-baglanti {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--vurgu);
+  }
+  .soyagaci .aile.genis {
+    max-width: none;
+  }
+  .soyagaci .soy-basligi h2 {
+    font-size: clamp(38px, 6vw, 64px);
+    line-height: 1;
+    margin: 0 0 8px;
+    outline: none;
+  }
+  .soyagaci .soy-basligi p {
+    margin: 0;
+    color: var(--soluk);
+  }
+  .soyagaci .soy-basligi .anahtar {
+    margin-top: 4px;
+    font-size: 14px;
+  }
+  .soyagaci .agac {
+    margin-top: 24px;
+    padding: 26px 10px;
+    overflow-x: auto;
+    background: var(--hero);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .agac ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .soyagaci .agac .isim {
+    min-height: 38px;
+    padding: 4px 11px;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .soyagaci .agac .es-ismi {
+    background: none;
+  }
+  .soyagaci .cift,
+  .soyagaci .es {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .soyagaci .es-isareti {
+    color: var(--vurgu);
+  }
+  .soyagaci .kokler {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: max-content;
+    min-width: 100%;
+  }
+  .soyagaci .kokler > li,
+  .soyagaci .alt-kusak > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .soyagaci .alt-kusak {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px !important;
+  }
+  .soyagaci .alt-kusak::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 18px;
+    border-left: 1px solid var(--vurgu);
+  }
+  .soyagaci .alt-kusak > li {
+    position: relative;
+    padding: 18px 4px 0;
+  }
+  .soyagaci .alt-kusak > li::before,
+  .soyagaci .alt-kusak > li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 18px;
+    border-top: 1px solid var(--vurgu);
+  }
+  .soyagaci .alt-kusak > li::before {
+    right: 50%;
+  }
+  .soyagaci .alt-kusak > li::after {
+    left: 50%;
+    border-left: 1px solid var(--vurgu);
+  }
+  .soyagaci .alt-kusak > li:first-child::before,
+  .soyagaci .alt-kusak > li:last-child::after {
+    border-top: 0;
+  }
+  .soyagaci .kardesler {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+  }
+  .soyagaci .kardesler.kutulu {
+    padding: 6px !important;
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .soyagaci .kardesler .cift {
+    display: flex;
+    justify-content: center;
+  }
+  .soyagaci .agac.sikisik {
+    padding: 22px 4px;
+  }
+  .soyagaci .agac .isim.renkli {
+    gap: 6px;
+  }
+  .soyagaci .agac.sikisik .isim.renkli {
+    gap: 4px;
+  }
+  .soyagaci .agac.sikisik .isaret {
+    width: 7px;
+    height: 7px;
+  }
+  .soyagaci .agac.sikisik .isim {
+    min-height: 34px;
+    padding: 3px 5px;
+    font-size: 13px;
+  }
+  .soyagaci .sikisik .cift,
+  .soyagaci .sikisik .es {
+    gap: 3px;
+  }
+  .soyagaci .sikisik .alt-kusak > li {
+    padding: 18px 1px 0;
+  }
+  .soyagaci .sikisik .kokler {
+    gap: 20px;
+  }
+  .soyagaci .agac.girintili {
+    padding: 18px 14px;
+  }
+  .soyagaci .girintili .kokler {
+    display: grid;
+    gap: 22px;
+    width: auto;
+  }
+  .soyagaci .girintili .kokler > li,
+  .soyagaci .girintili .alt-kusak > li {
+    display: block;
+  }
+  .soyagaci .girintili .cift {
+    flex-wrap: wrap;
+  }
+  .soyagaci .agac.girintili .isim {
+    min-height: 44px;
+  }
+  .soyagaci .girintili .alt-kusak {
+    display: block;
+    padding: 0 0 0 10px !important;
+  }
+  .soyagaci .girintili .alt-kusak::before {
+    display: none;
+  }
+  .soyagaci .girintili .alt-kusak > li {
+    padding: 8px 0 0 12px;
+    border-left: 1px solid var(--vurgu);
+  }
+  .soyagaci .girintili .alt-kusak > li:last-child {
+    border-left-color: transparent;
+  }
+  .soyagaci .girintili .alt-kusak > li::before {
+    top: 0;
+    left: -1px;
+    right: auto;
+    width: 11px;
+    height: 30px;
+    border-top: 0;
+    border-left: 1px solid var(--vurgu);
+    border-bottom: 1px solid var(--vurgu);
+  }
+  .soyagaci .girintili .alt-kusak > li::after {
+    display: none;
+  }
+  .soyagaci .girintili .kardesler .cift {
+    justify-content: flex-start;
+  }
+  @media (max-width: 620px) {
+    .soyagaci.kisi-acik .renk-anahtari {
+      grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+      gap: 6px 10px;
+      margin-bottom: 22px;
+    }
+    .soyagaci.kisi-acik .renk-anahtari dd {
+      display: none;
+    }
+    .soyagaci .grup {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .soyagaci .grup:not(.essiz) .grup-cocuklari {
+      padding-left: 14px;
+      border-left: 1px solid var(--vurgu);
+    }
+  }
+</style>

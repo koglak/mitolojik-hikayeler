@@ -1,6 +1,6 @@
 import type { Kisi, Soyagaci } from '../src/lib/soyagaciSemasi';
 
-const kisi = (kimlik: string, ad: string, tur: Kisi['tur'], ek: Partial<Kisi> = {}): Kisi => ({ kimlik, ad, tur, ...ek });
+const kisi = (kimlik: string, ad: string, tur: Kisi['tur'], ek: Partial<Kisi> = {}): Kisi => ({ kimlik, ad, tur, cinsiyet: 'yok', ...ek });
 
 const ebeveyn = (ebeveynKimligi: string, cocuk: string, anlati: 'ana' | 'alternatif' = 'ana') => ({
   tur: 'ebeveyn' as const,

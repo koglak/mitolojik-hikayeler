@@ -1,5 +1,7 @@
 import { getCollection } from 'astro:content';
+import { kaynakAdresi } from './antikKaynaklar';
 import { bolumAnahtarlari, bolumler, kayitAdresi, mitAdresi } from './bolumler';
+import { eserleriGetir, yazarlariGetir } from './kaynakDizini';
 
 export interface AramaKaydi {
   baslik: string;
@@ -26,6 +28,24 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
         adres: kayitAdresi(bolum, oge.id),
       });
     }
+  }
+  const yazarlar = await yazarlariGetir();
+  for (const { id, data } of yazarlar) {
+    kayitlar.push({
+      baslik: data.ad,
+      ozet: [data.ozet, ...data.digerAdlar].join(' '),
+      bolum: 'Antik yazar',
+      adres: kaynakAdresi(id),
+    });
+  }
+  const yazarAdlari = new Map(yazarlar.map(({ id, data }) => [id, data.ad]));
+  for (const { id, data } of await eserleriGetir()) {
+    kayitlar.push({
+      baslik: data.ad,
+      ozet: [yazarAdlari.get(data.yazar), data.ozet, ...data.digerAdlar].join(' '),
+      bolum: `Antik eser, ${yazarAdlari.get(data.yazar)}`,
+      adres: kaynakAdresi(id),
+    });
   }
   return kayitlar;
 }

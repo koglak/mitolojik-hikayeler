@@ -12,6 +12,10 @@ import KayitKarti from '../../components/KayitKarti.astro';
 import MeanderBant from '../../components/MeanderBant.astro';
 import { bolgeler } from '../../lib/bolgeler';
 import { ilgiliKayitlar } from '../../lib/iliskiler';
+import { bagliKaynak } from '../../lib/kaynakDizini';
+import hamSoyagaci from '../../data/soyagaci.json';
+import { kayittanKisi, kisiAdresi } from '../../lib/soyagaci';
+import type { Soyagaci } from '../../lib/soyagaciSemasi';
 import { kayitPaylasimGorseli } from '../../lib/paylasimGorseli';
 import { kirintiVerisi, konuVerisi, makaleVerisi } from '../../lib/yapisalVeri';
 
@@ -38,6 +42,8 @@ export async function getStaticPaths() {
 
 const { bolum, kayit, ayniBolgedekiler } = Astro.props;
 const kentSayfasi = bolum === 'kentler';
+const soyagacindakiKisi = bolum === 'kentler' ? undefined : kayittanKisi(hamSoyagaci as unknown as Soyagaci, bolum, kayit.id);
+const kaynakParcalari = await bagliKaynak(kayit.data.kaynak);
 const ilgiliGruplar = await ilgiliKayitlar(bolum, kayit.id);
 const kentinBolgesi = kayit.data.bolge ? bolgeler[kayit.data.bolge] : undefined;
 const { Content } = await render(kayit);
@@ -106,7 +112,8 @@ const yapisalVeri = [
               ))
             }
           </dl>
-          <p class="kaynak"><span>Kaynak</span>{kayit.data.kaynak}</p>
+          <p class="kaynak"><span>Kaynak</span>{kaynakParcalari.map(({ metin, adres }) => (adres ? <a href={adres}>{metin}</a> : metin))}</p>
+          {soyagacindakiKisi && <a class="soyagaci-baglantisi" href={kisiAdresi(soyagacindakiKisi)}>Soyağacında gör</a>}
         </aside>
 
         <article class="metin">
@@ -280,6 +287,17 @@ const yapisalVeri = [
     font: 400 12px/1.4 var(--govde-font);
     color: var(--soluk);
     margin-bottom: 4px;
+  }
+  .kaynak a {
+    border-bottom: 1px solid var(--cizgi);
+  }
+  .kaynak a:hover {
+    border-bottom-color: var(--vurgu);
+  }
+  .soyagaci-baglantisi {
+    display: inline-block;
+    margin-top: 18px;
+    border-bottom: 1px solid var(--vurgu);
   }
   .metin {
     max-width: 40rem;

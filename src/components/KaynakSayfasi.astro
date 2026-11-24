@@ -1,0 +1,171 @@
+---
+import Temel from '../layouts/Temel.astro';
+import MeanderBant from './MeanderBant.astro';
+import SiteAltBilgisi from './SiteAltBilgisi.astro';
+import SiteBasligi from './SiteBasligi.astro';
+import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
+import { varsayilanPaylasimGorseli } from '../lib/site';
+import { kirintiVerisi, makaleVerisi, type KirintiOgesi } from '../lib/yapisalVeri';
+
+interface Props {
+  ad: string;
+  ozgunAd: string;
+  ozet: string;
+  sayfaBasligi: string;
+  yol: string;
+  ustSayfalar?: KirintiOgesi[];
+  konu: Record<string, unknown>;
+}
+
+const { ad, ozgunAd, ozet, sayfaBasligi, yol, ustSayfalar = [], konu } = Astro.props;
+const ustYollar = [{ ad: antikKaynaklarAdi, yol: antikKaynaklarAdresi }, ...ustSayfalar];
+const ozgunAdDili = /\p{Script=Greek}/u.test(ozgunAd) ? 'grc' : 'la';
+const yapisalVeri = [
+  makaleVerisi({
+    baslik: ad,
+    aciklama: ozet,
+    yol,
+    gorsel: varsayilanPaylasimGorseli,
+    bolum: antikKaynaklarAdi,
+    konu,
+  }),
+  kirintiVerisi([...ustYollar, { ad, yol }]),
+];
+---
+
+<Temel baslik={sayfaBasligi} aciklama={ozet} tur="article" yapisalVeri={yapisalVeri}>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main>
+      <nav class="yol" aria-label="Konum">
+        {
+          ustYollar.map((ust) => (
+            <>
+              <a href={ust.yol}>{ust.ad}</a>
+              <span aria-hidden="true">/</span>
+            </>
+          ))
+        }
+        <span aria-current="page">{ad}</span>
+      </nav>
+
+      <header>
+        <h1>{ad}</h1>
+        {ozgunAd !== ad && <p class="ozgun-ad" lang={ozgunAdDili}>{ozgunAd}</p>}
+        <p class="ozet">{ozet}</p>
+      </header>
+
+      <div class="duzen">
+        <aside class="kunye" aria-label="Künye">
+          <dl><slot name="kunye" /></dl>
+        </aside>
+        <article class="metin"><slot /></article>
+      </div>
+
+      <slot name="ek" />
+
+      <div class="kapanis-deseni">
+        <MeanderBant kimlik="kaynak-kapanis" />
+      </div>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<style>
+  main {
+    padding: 40px 0 0;
+  }
+  .yol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    font-size: 14px;
+    color: var(--soluk);
+    margin-bottom: 28px;
+  }
+  .yol a {
+    border-bottom: 1px solid var(--vurgu);
+  }
+  h1 {
+    font: 500 clamp(44px, 7.5vw, 104px) / 0.96 var(--baslik-font);
+    letter-spacing: -0.035em;
+    overflow-wrap: break-word;
+    margin: 0 0 14px;
+  }
+  .ozgun-ad {
+    font: 400 clamp(20px, 2.4vw, 28px) / 1.3 var(--yunan-font);
+    color: var(--soluk);
+    margin: 0 0 18px;
+  }
+  .ozet {
+    font: italic 400 clamp(22px, 3vw, 30px) / 1.35 var(--baslik-font);
+    color: var(--vurgu);
+    max-width: 38rem;
+    text-wrap: pretty;
+    margin: 0 0 48px;
+  }
+  .duzen {
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 56px;
+    align-items: start;
+    border-top: 1px solid var(--cizgi);
+    padding-top: 40px;
+  }
+  .kunye {
+    position: sticky;
+    top: 24px;
+    padding: 24px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-top: 2px solid var(--vurgu);
+  }
+  dl {
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  dl :global(dt) {
+    font-size: 12px;
+    color: var(--soluk);
+    margin-bottom: 2px;
+  }
+  dl :global(dd) {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  dl :global(dd a) {
+    border-bottom: 1px solid var(--vurgu);
+  }
+  .metin {
+    max-width: 40rem;
+    font: 400 21px/1.75 var(--baslik-font);
+  }
+  .metin :global(p) {
+    margin: 0 0 1.1em;
+  }
+  .metin :global(p:first-child::first-letter) {
+    float: left;
+    font-size: 4.2em;
+    line-height: 0.8;
+    padding: 6px 10px 0 0;
+    color: var(--vurgu);
+  }
+  .kapanis-deseni {
+    margin-top: 64px;
+  }
+  @media (max-width: 900px) {
+    .duzen {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    .kunye {
+      position: static;
+    }
+    .metin {
+      font-size: 19px;
+    }
+  }
+</style>

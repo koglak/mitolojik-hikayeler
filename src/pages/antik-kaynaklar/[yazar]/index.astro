@@ -1,0 +1,88 @@
+---
+import { render } from 'astro:content';
+import AtifYapanlar from '../../../components/AtifYapanlar.astro';
+import KaynakListesi from '../../../components/KaynakListesi.astro';
+import KaynakSayfasi from '../../../components/KaynakSayfasi.astro';
+import { gelenekler, kaynakAdresi } from '../../../lib/antikKaynaklar';
+import { atifDizini, eserleriGetir, yazarlariGetir } from '../../../lib/kaynakDizini';
+
+export async function getStaticPaths() {
+  const cagdasSayisi = 6;
+  const cagdasYilFarki = 60;
+  const [yazarlar, eserler, atiflar] = await Promise.all([yazarlariGetir(), eserleriGetir(), atifDizini()]);
+  return yazarlar.map((yazar) => {
+    const uzaklik = (diger: (typeof yazarlar)[number]) => Math.abs(diger.data.siralamaYili - yazar.data.siralamaYili);
+    return {
+      params: { yazar: yazar.id },
+      props: {
+        yazar,
+        eserler: eserler.filter((eser) => eser.data.yazar === yazar.id),
+        atiflar: atiflar.get(yazar.id) ?? [],
+        cagdaslar: yazarlar
+          .filter((diger) => diger.id !== yazar.id && uzaklik(diger) <= cagdasYilFarki)
+          .sort((a, b) => uzaklik(a) - uzaklik(b))
+          .slice(0, cagdasSayisi)
+          .sort((a, b) => a.data.siralamaYili - b.data.siralamaYili),
+      },
+    };
+  });
+}
+
+const { yazar, eserler, atiflar, cagdaslar } = Astro.props;
+const { data } = yazar;
+const { Content } = await render(yazar);
+const kunye = [
+  ['Dönem', data.donem],
+  ['Yer', data.yer],
+  ['Uğraşı', data.ugras],
+  ['Yazdığı dil', data.dil],
+  ['Gelenek', gelenekler[data.gelenek]],
+];
+---
+
+<KaynakSayfasi
+  ad={data.ad}
+  ozgunAd={data.ozgunAd}
+  ozet={data.ozet}
+  sayfaBasligi={`${data.ad}: yaşamı ve eserleri`}
+  yol={kaynakAdresi(yazar.id)}
+  konu={{ '@type': 'Person', name: data.ad, alternateName: [data.ozgunAd, ...data.digerAdlar], description: data.ozet }}
+>
+  <Fragment slot="kunye">
+    {
+      kunye.map(([etiket, deger]) => (
+        <div>
+          <dt>{etiket}</dt>
+          <dd>{deger}</dd>
+        </div>
+      ))
+    }
+  </Fragment>
+  <Content />
+  <Fragment slot="ek">
+    <KaynakListesi
+      baslik="Eserleri"
+      kimlik="eserleri"
+      ogeler={eserler.map((eser) => ({
+        ad: eser.data.ad,
+        aciklama: eser.data.ozet,
+        adres: kaynakAdresi(eser.id),
+        durum: eser.data.durum,
+      }))}
+    />
+    <AtifYapanlar kayitlar={atiflar} />
+    {
+      cagdaslar.length > 0 && (
+        <KaynakListesi
+          baslik="Yakın dönemden yazarlar"
+          kimlik="cagdaslar"
+          ogeler={cagdaslar.map((cagdas) => ({
+            ad: cagdas.data.ad,
+            aciklama: `${cagdas.data.donem}, ${cagdas.data.ugras.toLocaleLowerCase('tr')}`,
+            adres: kaynakAdresi(cagdas.id),
+          }))}
+        />
+      )
+    }
+  </Fragment>
+</KaynakSayfasi>

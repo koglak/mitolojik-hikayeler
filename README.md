@@ -23,6 +23,12 @@ Node 22.23.4 veya üstü gerekir.
    - `renk`: `#rrggbb` biçiminde
 3. `npm test` kuralları denetler.
 
+## Antik kaynak ekleme
+
+1. Yazar için `src/content/yazarlar/<yazar>.md`, her eseri için `src/content/eserler/<yazar>/<eser>.md` oluştur. Var olan bir dosyayı örnek al; her yazarın en az bir eseri olmalı.
+2. Tanrı, kahraman ve kent sayfalarındaki `kaynak` satırları bu kayıtlara otomatik bağlanır. Eşleşme `ad`, `digerAdlar` ve `atifAdlari` alanlarıyla yapılır.
+3. `npm test` kuralları denetler.
+
 ## Sesli anlatım
 
 Sesler Azure AI Speech ile bir kez üretilir ve `public/ses/<slug>/<n>.mp3` olarak repoya eklenir. `0.mp3` kapak, `1.mp3`… kartlardır. Bir kartın ses dosyası yoksa site o kart için ses çalmaz. Hiçbir ses dosyası yoksa ses düğmesi gösterilmez.

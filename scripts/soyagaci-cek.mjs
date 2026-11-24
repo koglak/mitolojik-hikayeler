@@ -10,13 +10,15 @@ const mitolojiIzi = /greek myth|yunan mitoloji|greek god|greek deity|titan|primo
 const bekle = (ms) => new Promise((coz) => setTimeout(coz, ms));
 
 async function getir(adres, secenekler = {}) {
+  let sonDurum;
   for (let deneme = 0; deneme < 5; deneme++) {
     const yanit = await fetch(adres, { ...secenekler, headers: { ...basliklar, ...secenekler.headers } });
     if (yanit.ok) return yanit.json();
+    sonDurum = yanit.status;
     if (!tekrarDenenmeli(yanit.status)) throw new Error(`${yanit.status} ${adres}`);
     await bekle(beklemeSuresi(deneme, yanit.headers.get('retry-after')));
   }
-  throw new Error(`Yanıt alınamadı: ${adres}`);
+  throw new Error(`Yanıt alınamadı (${sonDurum}): ${adres}`);
 }
 
 async function wikidataAra(ad) {
@@ -51,12 +53,17 @@ for (const kayit of kayitlariOku()) {
   await bekle(200);
 }
 
-const sorgu = soyagaciSorgusu([...new Set(tohumlar.map((t) => t.wikidata))]);
-const sparql = await getir('https://query.wikidata.org/sparql', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'application/sparql-results+json' },
-  body: new URLSearchParams({ query: sorgu }),
-});
+const satirlar = [];
+for (const tohum of new Set(tohumlar.map((t) => t.wikidata))) {
+  const yanit = await getir('https://query.wikidata.org/sparql', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded', Accept: 'application/sparql-results+json' },
+    body: new URLSearchParams({ query: soyagaciSorgusu([tohum]) }),
+  });
+  satirlar.push(...yanit.results.bindings);
+  await bekle(1000);
+}
+const sparql = { results: { bindings: satirlar } };
 const { kisiler, iliskiler } = sonuclariCozumle(sparql);
 
 mkdirSync('veri-ham', { recursive: true });

@@ -1,0 +1,85 @@
+---
+const satirlar = [0, 1, 2, 3];
+const sutunlar = [0, 1, 2, 3, 4];
+const etiketler = [
+  { x: 180, y: 106, ad: 'ΟΜΗΡΟΣ' },
+  { x: 420, y: 106, ad: 'ΣΑΠΦΩ' },
+  { x: 300, y: 212, ad: 'ΠΛΑΤΩΝ' },
+  { x: 60, y: 212, ad: 'ΗΣΙΟΔΟΣ' },
+  { x: 540, y: 212, ad: 'OVIDIVS' },
+  { x: 180, y: 318, ad: 'VERGILIVS' },
+  { x: 420, y: 318, ad: 'ΣΤΡΑΒΩΝ' },
+];
+const rulolar = satirlar.flatMap((satir) =>
+  sutunlar.flatMap((sutun) =>
+    [
+      { dx: -27, dy: 24, r: 22 },
+      { dx: 24, dy: 26, r: 20 },
+      { dx: -2, dy: -10, r: 21 },
+    ]
+      .filter((_, sira) => (satir * 7 + sutun * 3 + sira * 5) % 8 !== 0)
+      .map(({ dx, dy, r }, sira) => ({
+        x: 60 + sutun * 120 + dx,
+        y: 47 + satir * 106 + dy,
+        r: r - ((satir + sutun + sira) % 3) * 1.5,
+        ton: (satir + sutun * 2 + sira) % 3,
+      })),
+  ),
+);
+const tonlar = ['#d8b988', '#c19a66', '#e3cca2'];
+---
+
+<svg class="papirus-rafi" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="raf-ahsap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b3a24"></stop>
+      <stop offset="1" stop-color="#38220f"></stop>
+    </linearGradient>
+    <radialGradient id="raf-isik" cx=".5" cy=".35" r=".75">
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity=".2"></stop>
+      <stop offset="1" stop-color="#0c0704" stop-opacity=".72"></stop>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="#17100b"></rect>
+  {
+    rulolar.map(({ x, y, r, ton }) => (
+      <g transform={`translate(${x} ${y})`}>
+        <circle r={r} fill={tonlar[ton]} />
+        <path
+          d={`M0 0a${r * 0.16} ${r * 0.16} 0 0 1 ${r * 0.32} 0a${r * 0.34} ${r * 0.34} 0 0 1-${r * 0.68} 0a${r * 0.52} ${r * 0.52} 0 0 1 ${r * 1.04} 0a${r * 0.7} ${r * 0.7} 0 0 1-${r * 1.4} 0`}
+          fill="none"
+          stroke="#6a4524"
+          stroke-width="1.6"
+        />
+        <circle r={r * 0.12} fill="#4a2d16" />
+      </g>
+    ))
+  }
+  <g fill="url(#raf-ahsap)">
+    {[-6, 100, 206, 312].map((y) => <rect x="0" y={y} width="600" height="12" />)}
+    {[0, 1, 2, 3, 4, 5].map((sutun) => <rect x={sutun * 120 - 5} y="0" width="10" height="400" />)}
+  </g>
+  {
+    etiketler.map(({ x, y, ad }) => (
+      <g transform={`translate(${x} ${y - 10})`}>
+        <path d="M0 0v10" stroke="#e3cca2" stroke-width="1.2" />
+        <rect x="-43" y="10" width="86" height="20" fill="#8f2f24" />
+        <text y="24" text-anchor="middle" font-size="11.5" letter-spacing="1.2" fill="#f6e6c6">
+          {ad}
+        </text>
+      </g>
+    ))
+  }
+  <rect width="600" height="400" fill="url(#raf-isik)"></rect>
+</svg>
+
+<style>
+  .papirus-rafi {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  text {
+    font-family: var(--yunan-font);
+  }
+</style>

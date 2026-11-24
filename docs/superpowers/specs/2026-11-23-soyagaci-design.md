@@ -2,6 +2,8 @@
 
 Tarih: 2026-11-23
 
+> **Değişiklik, 2026-11-24:** Kullanıcı büyük haritayı çok karışık buldu. Yerine kişi odaklı aile görünümü onaylandı: başlangıç kartları, arama, soy çizgisi, anne baba, eşe göre gruplanmış çocuklar, isimlere dokunarak gezinme. Her başlangıç kartı o soyun küçük ağacını açar (`?soy=`). 250–400 kişi sınırı kullanıcının isteğiyle kaldırıldı. Aşağıdaki yerleşim (elkjs), kaydırma/yakınlaştırma, lejant ve odak bölümleri geçersizdir. Veri modeli, kapsam ve kayıt bağlantıları geçerlidir.
+
 ## Amaç ve neden
 
 Kullanıcı tanrıları ve kahramanları bir arada gösteren, kapsamlı bir soyağacı istiyor. Sitedeki kayıtlar tek tek okunuyor ama kimin kimin nesi olduğu yalnızca künyedeki serbest metinde ("Anne-baba: Zeus ve Alkmene") duruyor. Soyağacı bu dağınık bilgiyi tek bir görsel haritada birleştirir: okur Khaos'tan Truva kuşağına kadar soyu gezebilir, bir kayıt sayfasından gelip o kişinin yerini görebilir.

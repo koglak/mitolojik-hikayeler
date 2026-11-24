@@ -1,0 +1,28 @@
+---
+import KaynakListesi from './KaynakListesi.astro';
+import { bolumAnahtarlari, bolumler, kayitAdresi } from '../lib/bolumler';
+import type { AtifYapanKayit } from '../lib/kaynakDizini';
+
+interface Props {
+  kayitlar: AtifYapanKayit[];
+}
+
+const { kayitlar } = Astro.props;
+const gruplar = bolumAnahtarlari
+  .map((bolum) => ({ bolum, kayitlar: kayitlar.filter((atif) => atif.bolum === bolum) }))
+  .filter((grup) => grup.kayitlar.length > 0);
+---
+
+{
+  gruplar.map((grup) => (
+    <KaynakListesi
+      baslik={`Bu kaynağa dayanan ${bolumler[grup.bolum].tekil.toLocaleLowerCase('tr')} sayfaları`}
+      kimlik={`atif-${grup.bolum}`}
+      ogeler={grup.kayitlar.map(({ kayit }) => ({
+        ad: kayit.data.ad,
+        aciklama: kayit.data.ozet,
+        adres: kayitAdresi(grup.bolum, kayit.id),
+      }))}
+    />
+  ))
+}

@@ -1,0 +1,427 @@
+---
+import Temel from '../../layouts/Temel.astro';
+import DurumSimgesi from '../../components/DurumSimgesi.astro';
+import PapirusRafi from '../../components/PapirusRafi.astro';
+import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
+import SiteBasligi from '../../components/SiteBasligi.astro';
+import {
+  antikKaynaklarAciklamasi,
+  antikKaynaklarAdi,
+  antikKaynaklarAdresi,
+  durumAnahtarlari,
+  eserTurleri,
+  eserTuruAnahtarlari,
+  gelenekAnahtarlari,
+  gelenekler,
+  kaynakAdresi,
+} from '../../lib/antikKaynaklar';
+import { aramaIcinSadelestir } from '../../lib/aramaMetni';
+import { eserleriGetir, yazarlariGetir } from '../../lib/kaynakDizini';
+import { kirintiVerisi, koleksiyonVerisi } from '../../lib/yapisalVeri';
+
+const [yazarlar, eserler] = await Promise.all([yazarlariGetir(), eserleriGetir()]);
+const yazarBul = (kimlik: string) => yazarlar.find((yazar) => yazar.id === kimlik)!;
+const yazarinEserleri = (kimlik: string) => eserler.filter((eser) => eser.data.yazar === kimlik);
+
+const yazarGruplari = gelenekAnahtarlari.map((gelenek) => ({
+  gelenek,
+  yazarlar: yazarlar
+    .filter((yazar) => yazar.data.gelenek === gelenek)
+    .map((yazar) => ({ yazar, eserler: yazarinEserleri(yazar.id) })),
+}));
+const eserGruplari = eserTuruAnahtarlari.map((tur) => ({
+  tur,
+  eserler: eserler
+    .filter((eser) => eser.data.tur === tur)
+    .map((eser) => ({ eser, yazar: yazarBul(eser.data.yazar) }))
+    .sort((a, b) => a.yazar.data.siralamaYili - b.yazar.data.siralamaYili),
+}));
+
+const eserMetni = (eser: (typeof eserler)[number]) => [eser.data.ad, eser.data.ozgunAd, eser.data.ozet, ...eser.data.digerAdlar];
+const yazarAdlari = (yazar: (typeof yazarlar)[number]) => [yazar.data.ad, yazar.data.ozgunAd, ...yazar.data.digerAdlar];
+const yazarAranani = (yazar: (typeof yazarlar)[number], yazdiklari: typeof eserler) =>
+  aramaIcinSadelestir(
+    [
+      ...yazarAdlari(yazar),
+      yazar.data.ozet,
+      yazar.data.ugras,
+      yazar.data.yer,
+      yazar.data.donem,
+      ...yazdiklari.flatMap((eser) => [eser.data.ad, ...eser.data.digerAdlar]),
+    ].join(' '),
+  );
+const eserAranani = (eser: (typeof eserler)[number], yazar: (typeof yazarlar)[number]) =>
+  aramaIcinSadelestir([...eserMetni(eser), ...yazarAdlari(yazar), eserTurleri[eser.data.tur]].join(' '));
+
+const yapisalVeri = [
+  koleksiyonVerisi({
+    ad: antikKaynaklarAdi,
+    aciklama: antikKaynaklarAciklamasi,
+    yol: antikKaynaklarAdresi,
+    ogeler: yazarlar.map((yazar) => ({ ad: yazar.data.ad, yol: kaynakAdresi(yazar.id) })),
+  }),
+  kirintiVerisi([{ ad: antikKaynaklarAdi, yol: antikKaynaklarAdresi }]),
+];
+---
+
+<Temel baslik="Antik Kaynaklar: yazarlar ve eserler" aciklama={antikKaynaklarAciklamasi} yapisalVeri={yapisalVeri}>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main data-kaynaklar>
+      <header class="giris">
+        <div>
+          <h1>{antikKaynaklarAdi}</h1>
+          <p>{antikKaynaklarAciklamasi}</p>
+        </div>
+        <div class="resim"><PapirusRafi /></div>
+      </header>
+
+      <div class="araclar">
+        <div class="gorunumler" role="group" aria-label="Görünüm">
+          <button type="button" data-gorunum-sec="yazarlar" aria-pressed="true">Yazarlar <span>{yazarlar.length}</span></button>
+          <button type="button" data-gorunum-sec="eserler" aria-pressed="false">Eserler <span>{eserler.length}</span></button>
+        </div>
+        <label class="arama">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.8" />
+            <path d="m16 16 5 5" />
+          </svg>
+          <input
+            type="search"
+            data-kaynak-ara
+            placeholder="Yazar ya da eser ara: Homeros, Medeia, tıp..."
+            autocomplete="off"
+            aria-label="Antik kaynaklarda ara"
+          />
+        </label>
+      </div>
+      <ul class="aciklamalar" aria-label="Simgelerin anlamı">
+        {durumAnahtarlari.map((durum) => <li><DurumSimgesi durum={durum} yazili /></li>)}
+      </ul>
+      <p class="sonuc-yok gizli" data-sonuc-yok aria-live="polite">Bu aramayla eşleşen kaynak yok. Adı başka bir yazımla dene.</p>
+
+      <section data-gorunum="yazarlar" aria-label="Yazarlar">
+        {
+          yazarGruplari.map((grup) => (
+            <div class="grup" data-grup id={`gelenek-${grup.gelenek}`}>
+              <h2>
+                {gelenekler[grup.gelenek]} <span>{grup.yazarlar.length} yazar</span>
+              </h2>
+              <ol class="yazarlar">
+                {grup.yazarlar.map(({ yazar, eserler: yazdiklari }) => (
+                  <li data-aranan={yazarAranani(yazar, yazdiklari)}>
+                    <p class="donem">{yazar.data.donem}</p>
+                    <div class="kimlik">
+                      <h3>
+                        <a href={kaynakAdresi(yazar.id)}>{yazar.data.ad}</a>
+                      </h3>
+                      <p>{yazar.data.ozet}</p>
+                    </div>
+                    <ul class="yazdiklari" aria-label={`${yazar.data.ad}, eserleri`}>
+                      {yazdiklari.map((eser) => (
+                        <li>
+                          <a href={kaynakAdresi(eser.id)}>
+                            <DurumSimgesi durum={eser.data.durum} />
+                            {eser.data.ad}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))
+        }
+      </section>
+
+      <section data-gorunum="eserler" aria-label="Eserler">
+        {
+          eserGruplari.map((grup) => (
+            <div class="grup" data-grup id={`tur-${grup.tur}`}>
+              <h2>
+                {eserTurleri[grup.tur]} <span>{grup.eserler.length} eser</span>
+              </h2>
+              <ul class="eserler">
+                {grup.eserler.map(({ eser, yazar }) => (
+                  <li data-aranan={eserAranani(eser, yazar)}>
+                    <a href={kaynakAdresi(eser.id)}>
+                      <DurumSimgesi durum={eser.data.durum} />
+                      <span>
+                        <strong>{eser.data.ad}</strong>
+                        <small>{yazar.data.ad}</small>
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </section>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<script>
+  import { aramaIcinSadelestir } from '../../lib/aramaMetni';
+
+  const kutu = document.querySelector<HTMLInputElement>('[data-kaynak-ara]');
+  const sonucYok = document.querySelector<HTMLElement>('[data-sonuc-yok]');
+  const dugmeler = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-gorunum-sec]'));
+  const gorunumler = Array.from(document.querySelectorAll<HTMLElement>('[data-gorunum]'));
+  const ogeler = Array.from(document.querySelectorAll<HTMLElement>('[data-aranan]'));
+  const gruplar = Array.from(document.querySelectorAll<HTMLElement>('[data-grup]'));
+
+  const acikGorunum = () => gorunumler.find((gorunum) => !gorunum.hidden);
+
+  function sonucuBildir(): void {
+    sonucYok?.classList.toggle('gizli', Boolean(acikGorunum()?.querySelector('[data-aranan]:not(.gizli)')));
+  }
+
+  function gorunumuAc(ad: string): void {
+    for (const gorunum of gorunumler) gorunum.hidden = gorunum.dataset.gorunum !== ad;
+    for (const dugme of dugmeler) dugme.setAttribute('aria-pressed', String(dugme.dataset.gorunumSec === ad));
+    sonucuBildir();
+  }
+
+  function adrestekiniAc(): void {
+    const hedef = location.hash.slice(1);
+    gorunumuAc(hedef === 'eserler' || hedef.startsWith('tur-') ? 'eserler' : 'yazarlar');
+    if (hedef.startsWith('tur-')) document.getElementById(hedef)?.scrollIntoView();
+  }
+
+  for (const dugme of dugmeler) {
+    dugme.addEventListener('click', () => {
+      const ad = dugme.dataset.gorunumSec!;
+      gorunumuAc(ad);
+      history.replaceState(null, '', ad === 'eserler' ? '#eserler' : location.pathname);
+    });
+  }
+
+  kutu?.addEventListener('input', () => {
+    const aranan = aramaIcinSadelestir(kutu.value.trim());
+    for (const oge of ogeler) oge.classList.toggle('gizli', !(oge.dataset.aranan ?? '').includes(aranan));
+    for (const grup of gruplar) grup.classList.toggle('gizli', !grup.querySelector('[data-aranan]:not(.gizli)'));
+    sonucuBildir();
+  });
+
+  window.addEventListener('hashchange', adrestekiniAc);
+  adrestekiniAc();
+</script>
+
+<style>
+  .giris {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding: 56px 0 48px;
+    border-bottom: 1px solid var(--cizgi);
+    margin-bottom: 32px;
+  }
+  h1 {
+    font: 500 clamp(52px, 7vw, 96px) / 0.95 var(--baslik-font);
+    letter-spacing: -0.035em;
+    margin: 0 0 20px;
+  }
+  .giris p {
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--soluk);
+    max-width: 32rem;
+    text-wrap: pretty;
+    margin: 0;
+  }
+  .resim {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    border: 1px solid var(--cizgi);
+  }
+  .araclar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .gorunumler {
+    display: flex;
+    border: 1px solid var(--cizgi);
+  }
+  .gorunumler button {
+    min-height: 52px;
+    padding: 0 22px;
+    border: 0;
+    background: none;
+    color: var(--soluk);
+    font-weight: 500;
+  }
+  .gorunumler button[aria-pressed='true'] {
+    background: var(--vurgu);
+    color: var(--zemin);
+  }
+  .gorunumler span {
+    margin-left: 6px;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+  }
+  .arama {
+    display: flex;
+    flex: 1 1 320px;
+    align-items: center;
+    gap: 12px;
+    max-width: 560px;
+    padding: 0 16px;
+    border: 1px solid var(--cizgi);
+    background: var(--yuzey);
+    color: var(--soluk);
+    transition: border-color 0.2s;
+  }
+  .arama:focus-within {
+    border-color: var(--vurgu);
+  }
+  .arama input {
+    flex: 1;
+    min-width: 0;
+    min-height: 52px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--yazi);
+    font-size: 16px;
+  }
+  .arama input::placeholder {
+    color: var(--soluk);
+  }
+  .sonuc-yok {
+    color: var(--soluk);
+    font: italic 400 20px/1.4 var(--baslik-font);
+    margin: 0 0 28px;
+  }
+  .grup {
+    scroll-margin-top: 24px;
+    margin-bottom: 56px;
+  }
+  .grup h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 14px;
+    font-size: clamp(28px, 3.4vw, 40px);
+    line-height: 1.05;
+    margin: 0 0 16px;
+  }
+  .grup h2 span {
+    font: 400 14px/1 var(--govde-font);
+    color: var(--soluk);
+  }
+  ol,
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .yazarlar > li {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px 40px;
+    padding: 24px 0;
+    border-top: 1px solid var(--cizgi);
+  }
+  .donem {
+    margin: 0;
+    padding-top: 7px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--vurgu);
+  }
+  h3 {
+    font: 500 30px/1.1 var(--baslik-font);
+    color: var(--kart-basligi);
+    margin: 0 0 6px;
+  }
+  h3 a {
+    border-bottom: 1px solid transparent;
+  }
+  h3 a:hover {
+    border-bottom-color: var(--vurgu);
+  }
+  .kimlik p {
+    margin: 0;
+    max-width: 34rem;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--soluk);
+    text-wrap: pretty;
+  }
+  .yazdiklari {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 2px 22px;
+  }
+  .yazdiklari a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 36px;
+    font: 400 19px/1.25 var(--baslik-font);
+  }
+  .yazdiklari a:hover,
+  .eserler a:hover strong {
+    color: var(--vurgu);
+  }
+  .eserler {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+    gap: 0 28px;
+  }
+  .eserler a {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+    height: 100%;
+    padding: 12px 0;
+    border-top: 1px solid var(--cizgi);
+  }
+  .eserler strong {
+    display: block;
+    font: 500 22px/1.15 var(--baslik-font);
+  }
+  .eserler small {
+    font-size: 14px;
+    color: var(--soluk);
+  }
+  .aciklamalar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 28px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    color: var(--soluk);
+  }
+  @media (max-width: 1000px) {
+    .yazarlar > li {
+      grid-template-columns: 1fr;
+    }
+    .donem {
+      padding: 0;
+    }
+  }
+  @media (max-width: 740px) {
+    .giris {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      padding: 36px 0 32px;
+    }
+    .gorunumler {
+      flex: 1 1 100%;
+    }
+    .gorunumler button {
+      flex: 1;
+      padding: 0 12px;
+    }
+  }
+</style>

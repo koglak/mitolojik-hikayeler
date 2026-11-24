@@ -1,0 +1,112 @@
+---
+import { render } from 'astro:content';
+import AtifYapanlar from '../../../components/AtifYapanlar.astro';
+import DurumSimgesi from '../../../components/DurumSimgesi.astro';
+import KaynakListesi from '../../../components/KaynakListesi.astro';
+import KaynakSayfasi from '../../../components/KaynakSayfasi.astro';
+import { eserTurleri, kaynakAdresi } from '../../../lib/antikKaynaklar';
+import { atifDizini, eserleriGetir, yazarlariGetir } from '../../../lib/kaynakDizini';
+
+export async function getStaticPaths() {
+  const benzerSayisi = 6;
+  const [yazarlar, eserler, atiflar] = await Promise.all([yazarlariGetir(), eserleriGetir(), atifDizini()]);
+  const yazarBul = (kimlik: string) => yazarlar.find((yazar) => yazar.id === kimlik)!;
+  return eserler.map((eser) => {
+    const yazar = yazarBul(eser.data.yazar);
+    const uzaklik = (diger: (typeof eserler)[number]) =>
+      Math.abs(yazarBul(diger.data.yazar).data.siralamaYili - yazar.data.siralamaYili);
+    return {
+      params: { yazar: yazar.id, eser: eser.id.split('/')[1] },
+      props: {
+        eser,
+        yazar,
+        atiflar: atiflar.get(eser.id) ?? [],
+        digerEserler: eserler.filter((diger) => diger.data.yazar === yazar.id && diger.id !== eser.id),
+        benzerEserler: eserler
+          .filter((diger) => diger.data.tur === eser.data.tur && diger.data.yazar !== yazar.id)
+          .sort((a, b) => uzaklik(a) - uzaklik(b))
+          .slice(0, benzerSayisi)
+          .map((benzer) => ({ benzer, yazarAdi: yazarBul(benzer.data.yazar).data.ad })),
+      },
+    };
+  });
+}
+
+const { eser, yazar, atiflar, digerEserler, benzerEserler } = Astro.props;
+const { data } = eser;
+const { Content } = await render(eser);
+const tur = eserTurleri[data.tur];
+const yazarAdi = yazar.data.ad;
+const yazarsiz = yazar.id === 'anonim';
+---
+
+<KaynakSayfasi
+  ad={data.ad}
+  ozgunAd={data.ozgunAd}
+  ozet={data.ozet}
+  sayfaBasligi={yazarsiz ? data.ad : `${data.ad}, ${yazarAdi}`}
+  yol={kaynakAdresi(eser.id)}
+  ustSayfalar={[{ ad: yazarAdi, yol: kaynakAdresi(yazar.id) }]}
+  konu={{
+    '@type': 'Book',
+    name: data.ad,
+    alternateName: [data.ozgunAd, ...data.digerAdlar],
+    genre: tur,
+    ...(yazarsiz ? {} : { author: { '@type': 'Person', name: yazarAdi } }),
+  }}
+>
+  <Fragment slot="kunye">
+    <div>
+      <dt>Yazar</dt>
+      <dd><a href={kaynakAdresi(yazar.id)}>{yazarsiz ? 'Bilinmiyor' : yazarAdi}</a></dd>
+    </div>
+    <div>
+      <dt>Yazıldığı dönem</dt>
+      <dd>{data.donem}</dd>
+    </div>
+    <div>
+      <dt>Tür</dt>
+      <dd><a href={`/antik-kaynaklar/#tur-${data.tur}`}>{tur}</a></dd>
+    </div>
+    <div>
+      <dt>Özgün dil</dt>
+      <dd>{yazar.data.dil}</dd>
+    </div>
+    <div>
+      <dt>Günümüze ulaşan</dt>
+      <dd><DurumSimgesi durum={data.durum} yazili /></dd>
+    </div>
+  </Fragment>
+  <Content />
+  <Fragment slot="ek">
+    {
+      digerEserler.length > 0 && (
+        <KaynakListesi
+          baslik={yazarsiz ? 'Yazarı bilinmeyen diğer eserler' : `${yazarAdi}: diğer eserleri`}
+          kimlik="diger-eserler"
+          ogeler={digerEserler.map((diger) => ({
+            ad: diger.data.ad,
+            aciklama: diger.data.ozet,
+            adres: kaynakAdresi(diger.id),
+            durum: diger.data.durum,
+          }))}
+        />
+      )
+    }
+    <AtifYapanlar kayitlar={atiflar} />
+    {
+      benzerEserler.length > 0 && (
+        <KaynakListesi
+          baslik="Aynı türden eserler"
+          kimlik="benzer-eserler"
+          ogeler={benzerEserler.map(({ benzer, yazarAdi: benzerinYazari }) => ({
+            ad: benzer.data.ad,
+            aciklama: `${benzerinYazari}. ${benzer.data.ozet}`,
+            adres: kaynakAdresi(benzer.id),
+            durum: benzer.data.durum,
+          }))}
+        />
+      )
+    }
+  </Fragment>
+</KaynakSayfasi>
