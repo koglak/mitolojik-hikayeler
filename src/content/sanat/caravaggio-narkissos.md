@@ -15,7 +15,7 @@ kaynakca:
     adres: "https://barberinicorsini.org/wp-content/uploads/2026/01/2019_12_Barberini_AlaNord_CartellaStampa.pdf"
 ilgiliMitler: ["narkissos"]
 ilgiliTanrilar: []
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["narkissos"]
 ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Narcissus-Caravaggio_%281594-96%29_edited.jpg/1280px-Narcissus-Caravaggio_%281594-96%29_edited.jpg"
