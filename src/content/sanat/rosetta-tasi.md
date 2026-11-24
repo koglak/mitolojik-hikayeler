@@ -23,7 +23,7 @@ kaynakca:
 ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
-ilgiliKentler: ["memphis"]
+ilgiliKentler: []
 gorsel:
   adres: "https://upload.wikimedia.org/wikipedia/commons/6/68/Rosetta_Stone_at_the_British_Museum.jpg"
   genislik: 1846
