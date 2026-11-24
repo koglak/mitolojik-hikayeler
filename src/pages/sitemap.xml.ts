@@ -4,12 +4,13 @@ import { antikKaynaklarAdresi, kaynakAdresi } from '../lib/antikKaynaklar';
 import { bolumAdresi, bolumAnahtarlari, kayitAdresi, mitAdresi } from '../lib/bolumler';
 import { bizKimizAdresi, mutlakAdres } from '../lib/site';
 import { soyagaciAdresi } from '../lib/soyagaci';
+import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
 
 const xmlKacir = (metin: string) =>
   metin.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
 export const GET: APIRoute = async () => {
-  const yollar = ['/', '/mitler/', soyagaciAdresi, antikKaynaklarAdresi, bizKimizAdresi, ...bolumAnahtarlari.map(bolumAdresi)];
+  const yollar = ['/', '/mitler/', soyagaciAdresi, kronolojiAdresi, antikKaynaklarAdresi, bizKimizAdresi, ...bolumAnahtarlari.map(bolumAdresi)];
   for (const mit of await getCollection('mitler')) yollar.push(mitAdresi(mit.id));
   for (const bolum of bolumAnahtarlari) {
     for (const kayit of await getCollection(bolum)) yollar.push(kayitAdresi(bolum, kayit.id));

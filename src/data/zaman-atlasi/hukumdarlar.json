@@ -1,0 +1,3967 @@
+[
+  {
+    "kimlik": "narmer",
+    "ad": "Narmer",
+    "uygarlik": "erken-hanedanlar",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ın birleşmesiyle anılan kral. Paleti Kahire’dedir.",
+    "donemler": [
+      {
+        "bas": -3100,
+        "son": -3050,
+        "kesinlik": "yaklasik",
+        "not": "Erken tarihler yüz yıla varan sapma taşır."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "gilgamis",
+    "ad": "Gılgamış",
+    "uygarlik": "sumer-kentleri",
+    "nitelik": "mitolojik",
+    "ozet": "Uruk kralı olarak anılan yarı efsanevi kişi. Tarihler doğrulanmış değildir.",
+    "donemler": [
+      {
+        "bas": -2700,
+        "son": -2650,
+        "kesinlik": "geleneksel"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "coser",
+    "ad": "Coser",
+    "uygarlik": "eski-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Sakkara’daki basamaklı piramidi yaptıran kral.",
+    "donemler": [
+      {
+        "bas": -2667,
+        "son": -2648,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "khufu",
+    "ad": "Khufu",
+    "uygarlik": "eski-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Büyük Gize Piramidi’ni yaptıran kral; Yunancası Kheops.",
+    "donemler": [
+      {
+        "bas": -2589,
+        "son": -2566,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "2.124–126"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "eannatum",
+    "ad": "Eannatum",
+    "uygarlik": "sumer-kentleri",
+    "nitelik": "tarihsel",
+    "ozet": "Umma’ya karşı zaferini Akbabalar Steli’ne işleten Lagaş kralı.",
+    "donemler": [
+      {
+        "bas": -2455,
+        "son": -2425,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "akadli-sargon",
+    "ad": "Akadlı Sargon",
+    "uygarlik": "akad",
+    "nitelik": "tarihsel",
+    "ozet": "Akad İmparatorluğu’nun kurucusu. Yaşamı sonraki yüzyıllarda efsaneyle örüldü.",
+    "donemler": [
+      {
+        "bas": -2334,
+        "son": -2279,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "sumer-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "naram-sin",
+    "ad": "Naram-Sin",
+    "uygarlik": "akad",
+    "nitelik": "tarihsel",
+    "ozet": "Kendini tanrı ilan eden ilk Mezopotamya krallarından. Zafer steli Louvre’dadır.",
+    "donemler": [
+      {
+        "bas": -2254,
+        "son": -2218,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "elam"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ur-nammu",
+    "ad": "Ur-Nammu",
+    "uygarlik": "ur-iii",
+    "nitelik": "tarihsel",
+    "ozet": "III. Ur Hanedanı’nın kurucusu. Bilinen en eski yasa derlemelerinden biri onun dönemindendir.",
+    "donemler": [
+      {
+        "bas": -2112,
+        "son": -2095,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sulgi",
+    "ad": "Şulgi",
+    "uygarlik": "ur-iii",
+    "nitelik": "tarihsel",
+    "ozet": "III. Ur devletinin yönetim düzenini kuran kral.",
+    "donemler": [
+      {
+        "bas": -2094,
+        "son": -2047,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "elam"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "mentuhotep-ii",
+    "ad": "II. Mentuhotep",
+    "uygarlik": "orta-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ı yeniden birleştiren Teb kralı.",
+    "donemler": [
+      {
+        "bas": -2055,
+        "son": -2004,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "senusret-iii",
+    "ad": "III. Senusret",
+    "uygarlik": "orta-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Nubya’da kaleler kuran Orta Krallık firavunu.",
+    "donemler": [
+      {
+        "bas": -1870,
+        "son": -1831,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "samsi-adad-i",
+    "ad": "I. Şamşi-Adad",
+    "uygarlik": "eski-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Yukarı Mezopotamya’yı birleştiren kral.",
+    "donemler": [
+      {
+        "bas": -1813,
+        "son": -1781,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji; MÖ 1808–1776 da kullanılır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "asur-ticaret-kolonileri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "hammurabi",
+    "ad": "Hammurabi",
+    "uygarlik": "eski-babil",
+    "nitelik": "tarihsel",
+    "ozet": "Mezopotamya’nın büyük bölümünü birleştiren ve adını taşıyan yasaları yazdıran Babil kralı.",
+    "donemler": [
+      {
+        "bas": -1792,
+        "son": -1750,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "anitta",
+    "ad": "Anitta",
+    "uygarlik": "asur-ticaret-kolonileri",
+    "nitelik": "tarihsel",
+    "ozet": "Kuşşara kralı. Kaneş’i merkez yaptı, Hattuşa’yı yıkıp lanetledi.",
+    "donemler": [
+      {
+        "bas": -1740,
+        "son": -1725,
+        "kesinlik": "tartismali",
+        "not": "Tarihler kronolojiye göre MÖ 1750–1700 arasında değişir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hattiler",
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "hattusili-i",
+    "ad": "I. Hattuşili",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Hattuşa’yı başkent yapan kral. Kuzey Suriye’ye seferler düzenledi.",
+    "donemler": [
+      {
+        "bas": -1650,
+        "son": -1620,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "mursili-i",
+    "ad": "I. Murşili",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Halep’i ve Babil’i alan kral. Dönüşünde bir saray suikastıyla öldürüldü.",
+    "donemler": [
+      {
+        "bas": -1620,
+        "son": -1590,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "eski-babil"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "ahmose-i",
+    "ad": "I. Ahmose",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Hyksosları çıkaran ve Yeni Krallık’ı başlatan firavun.",
+    "donemler": [
+      {
+        "bas": -1550,
+        "son": -1525,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "telipinu",
+    "ad": "Telipinu",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Tahta geçiş kurallarını bir fermanla düzenleyen kral.",
+    "donemler": [
+      {
+        "bas": -1525,
+        "son": -1500,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "tutmosis-iii",
+    "ad": "III. Tutmosis",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Megiddo’da savaşan, Mısır’ı Fırat’a kadar genişleten firavun.",
+    "donemler": [
+      {
+        "bas": -1479,
+        "son": -1425,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "mitanni"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "hatsepsut",
+    "ad": "Hatşepsut",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Deyr el-Bahri tapınağını yaptıran kadın firavun.",
+    "donemler": [
+      {
+        "bas": -1473,
+        "son": -1458,
+        "kesinlik": "yaklasik",
+        "not": "Naipliği MÖ 1479’da başlar."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "tudhaliya-i",
+    "ad": "I./II. Tudhaliya",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Batı Anadolu’da Aşşuva birliğini yenen kral. Bir mi iki kral mı olduğu tartışılır.",
+    "donemler": [
+      {
+        "bas": -1400,
+        "son": -1350,
+        "kesinlik": "tartismali",
+        "not": "Tarihler ve kral sayısı tartışmalıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "arzava"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "amenhotep-iii",
+    "ad": "III. Amenhotep",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ın zenginlik çağının firavunu. Arzava kralıyla da yazıştı.",
+    "donemler": [
+      {
+        "bas": -1390,
+        "son": -1352,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "mitanni",
+      "arzava"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "assur-uballit-i",
+    "ad": "I. Aşşur-uballit",
+    "uygarlik": "orta-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Asur’u Mitanni’den bağımsız büyük güç yapan kral.",
+    "donemler": [
+      {
+        "bas": -1363,
+        "son": -1328,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "mitanni"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "tusratta",
+    "ad": "Tuşratta",
+    "uygarlik": "mitanni",
+    "nitelik": "tarihsel",
+    "ozet": "Amarna mektuplarını yazan Mitanni kralı.",
+    "donemler": [
+      {
+        "bas": -1358,
+        "son": -1335,
+        "kesinlik": "tartismali",
+        "not": "Saltanat yılları yaklaşık ve tartışmalıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-krallik",
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-batiasya"
+      },
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "akhenaton",
+    "ad": "Akhenaton",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Aton kültünü öne çıkaran, başkenti Amarna’ya taşıyan firavun.",
+    "donemler": [
+      {
+        "bas": -1352,
+        "son": -1336,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit",
+      "mitanni"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "suppiluliuma-i",
+    "ad": "I. Şuppiluliuma",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Hitit Krallığı’nı imparatorluğa dönüştüren kral. Mitanni’yi yendi, Suriye’de denetimi ele aldı.",
+    "donemler": [
+      {
+        "bas": -1350,
+        "son": -1322,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "mitanni",
+      "yeni-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "tutankhamon",
+    "ad": "Tutankhamon",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Mezarı neredeyse dokunulmamış bulunan genç firavun.",
+    "donemler": [
+      {
+        "bas": -1336,
+        "son": -1327,
+        "kesinlik": "yaklasik",
+        "not": "Kimi listelerde MÖ 1333–1324."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "mursili-ii",
+    "ad": "II. Murşili",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Arzava’yı yenen, yıllıkları ve veba dualarıyla tanınan kral.",
+    "donemler": [
+      {
+        "bas": -1321,
+        "son": -1295,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "arzava"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "muvatalli-ii",
+    "ad": "II. Muvatalli",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Kadeş’te II. Ramses’in karşısındaki Hitit kralı. Başkenti bir süre Tarhuntaşşa’ya taşıdı.",
+    "donemler": [
+      {
+        "bas": -1295,
+        "son": -1272,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "ramses-ii",
+    "ad": "II. Ramses",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Uzun saltanatıyla tanınan firavun. Hititlerle Kadeş’te savaştı, sonra barış yaptı.",
+    "donemler": [
+      {
+        "bas": -1279,
+        "son": -1213,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "untas-napirisa",
+    "ad": "Untaş-Napirişa",
+    "uygarlik": "elam",
+    "nitelik": "tarihsel",
+    "ozet": "Çoga Zenbil ziguratını yaptıran Elam kralı.",
+    "donemler": [
+      {
+        "bas": -1275,
+        "son": -1240,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "potts-elam"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "hattusili-iii",
+    "ad": "III. Hattuşili",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "II. Ramses’le barış antlaşmasını yapan Hitit kralı. Tahta, yeğenini indirerek çıktı.",
+    "donemler": [
+      {
+        "bas": -1267,
+        "son": -1237,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "tukulti-ninurta-i",
+    "ad": "I. Tukulti-Ninurta",
+    "uygarlik": "orta-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Babil’i alan ve Hititlerle çatışan Asur kralı.",
+    "donemler": [
+      {
+        "bas": -1243,
+        "son": -1207,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "kassit-babil",
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "tudhaliya-iv",
+    "ad": "IV. Tudhaliya",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Yazılıkaya kutsal alanına son biçimini veren kral.",
+    "donemler": [
+      {
+        "bas": -1237,
+        "son": -1209,
+        "kesinlik": "yaklasik",
+        "not": "Başlangıç için MÖ 1245 de önerilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "orta-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "suppiluliuma-ii",
+    "ad": "II. Şuppiluliuma",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Bilinen son Hitit büyük kralı. Alaşiya (Kıbrıs) açıklarında deniz savaşı yaptı.",
+    "donemler": [
+      {
+        "bas": -1207,
+        "son": -1180,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "gec-hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "sutruk-nahhunte",
+    "ad": "Şutruk-Nahhunte",
+    "uygarlik": "elam",
+    "nitelik": "tarihsel",
+    "ozet": "Babil’den Hammurabi stelini Susa’ya götüren Elam kralı.",
+    "donemler": [
+      {
+        "bas": -1185,
+        "son": -1155,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "kassit-babil"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "potts-elam"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ramses-iii",
+    "ad": "III. Ramses",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "ozet": "Deniz Kavimlerini durduran firavun.",
+    "donemler": [
+      {
+        "bas": -1184,
+        "son": -1153,
+        "kesinlik": "yaklasik",
+        "not": "Kimi listelerde MÖ 1186–1155."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "tiglat-pileser-i",
+    "ad": "I. Tiglat-pileser",
+    "uygarlik": "orta-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Akdeniz’e kadar ilerleyen Asur kralı.",
+    "donemler": [
+      {
+        "bas": -1114,
+        "son": -1076,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sosenk-i",
+    "ad": "I. Şoşenk",
+    "uygarlik": "ucuncu-ara-donem",
+    "nitelik": "tarihsel",
+    "ozet": "Libya kökenli 22. Hanedan’ın kurucusu.",
+    "donemler": [
+      {
+        "bas": -945,
+        "son": -924,
+        "kesinlik": "yaklasik",
+        "not": "Kimi listelerde MÖ 943–922."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "assurnasirpal-ii",
+    "ad": "II. Aşşurnasirpal",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Kalhu’yu (Nimrud) başkent yapan kral.",
+    "donemler": [
+      {
+        "bas": -883,
+        "son": -859,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "salmaneser-iii",
+    "ad": "III. Şalmaneser",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Karkar’da savaşan, Urartu’ya sefer düzenleyen kral.",
+    "donemler": [
+      {
+        "bas": -858,
+        "son": -824,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "urartu",
+      "gec-hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sarduri-i",
+    "ad": "I. Sarduri",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "ozet": "Tuşpa’yı başkent yapan Urartu kralı.",
+    "donemler": [
+      {
+        "bas": -834,
+        "son": -828,
+        "kesinlik": "yaklasik",
+        "not": "Kimi listelerde MÖ 840–830."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ispuini",
+    "ad": "İşpuini",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "ozet": "Haldi kültünü devletin merkezine yerleştiren kral.",
+    "donemler": [
+      {
+        "bas": -828,
+        "son": -810,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "menua",
+    "ad": "Menua",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "ozet": "Kaleler ve bugün Şamran denen su kanalını yaptıran kral.",
+    "donemler": [
+      {
+        "bas": -810,
+        "son": -786,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "argisti-i",
+    "ad": "I. Argişti",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "ozet": "Erebuni kalesini kuran ve krallığı kuzeye genişleten kral.",
+    "donemler": [
+      {
+        "bas": -786,
+        "son": -764,
+        "kesinlik": "yaklasik",
+        "not": "Kimi listelerde MÖ 780–756."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sarduri-ii",
+    "ad": "II. Sarduri",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "ozet": "Urartu’yu en geniş sınırlarına ulaştırdı, MÖ 743’te Asur’a yenildi.",
+    "donemler": [
+      {
+        "bas": -764,
+        "son": -735,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "romulus",
+    "ad": "Romulus",
+    "uygarlik": "roma-kralligi",
+    "nitelik": "mitolojik",
+    "ozet": "Roma’nın efsanevi kurucusu ve ilk kralı.",
+    "donemler": [
+      {
+        "bas": -753,
+        "son": -716,
+        "kesinlik": "geleneksel",
+        "not": "Roma geleneğinin verdiği yıllardır."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "1.6–16"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi",
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "piye",
+    "ad": "Piye",
+    "uygarlik": "ucuncu-ara-donem",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ı fetheden Kuş kralı.",
+    "donemler": [
+      {
+        "bas": -747,
+        "son": -716,
+        "kesinlik": "yaklasik",
+        "not": "Bitiş için MÖ 721 de verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "tiglat-pileser-iii",
+    "ad": "III. Tiglat-pileser",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Asur’u eyalet düzeniyle imparatorluğa dönüştüren kral.",
+    "donemler": [
+      {
+        "bas": -745,
+        "son": -727,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "urartu",
+      "gec-hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "midas",
+    "ad": "Midas",
+    "uygarlik": "frigya",
+    "nitelik": "tartismali",
+    "ozet": "Asur metinlerinde Muşkili Mita olarak geçtiği düşünülen Frigya kralı. Yunan anlatılarındaki altın dokunuşlu Midas’la aynı adı taşır.",
+    "donemler": [
+      {
+        "bas": -738,
+        "son": -696,
+        "kesinlik": "tartismali",
+        "not": "Saltanat yılları tartışmalıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "1.14"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "gordion"
+      ],
+      "kahramanlar": [
+        "midas"
+      ],
+      "mitler": [
+        "midas"
+      ]
+    }
+  },
+  {
+    "kimlik": "warpalawas",
+    "ad": "Warpalawas",
+    "uygarlik": "gec-hitit",
+    "nitelik": "tarihsel",
+    "ozet": "İvriz kaya kabartmasında Tarhunza’nın önünde duran Tuvana kralı.",
+    "donemler": [
+      {
+        "bas": -738,
+        "son": -710,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "frigya",
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-gec-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "rusa-i",
+    "ad": "I. Rusa",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "ozet": "II. Sargon’un seferi sırasında tahtta olan kral.",
+    "donemler": [
+      {
+        "bas": -735,
+        "son": -714,
+        "kesinlik": "tartismali",
+        "not": "Rusa adlı kralların sırası tartışmalıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sargon-ii",
+    "ad": "II. Sargon",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Asur kralı. Urartu’ya sefer düzenledi, Geç Hitit krallıklarını Asur’a bağladı.",
+    "donemler": [
+      {
+        "bas": -722,
+        "son": -705,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "urartu",
+      "gec-hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "karkamis"
+      ]
+    }
+  },
+  {
+    "kimlik": "sanherib",
+    "ad": "Sanherib",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Ninova’yı başkent yapan, Babil’i yıkan kral.",
+    "donemler": [
+      {
+        "bas": -705,
+        "son": -681,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "taharka",
+    "ad": "Taharka",
+    "uygarlik": "ucuncu-ara-donem",
+    "nitelik": "tarihsel",
+    "ozet": "Asur işgaliyle karşılaşan Kuşlu firavun.",
+    "donemler": [
+      {
+        "bas": -690,
+        "son": -664,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "asarhaddon",
+    "ad": "Asarhaddon",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ı işgal eden Asur kralı.",
+    "donemler": [
+      {
+        "bas": -681,
+        "son": -669,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ucuncu-ara-donem"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "gyges",
+    "ad": "Gyges",
+    "uygarlik": "lidya",
+    "nitelik": "tarihsel",
+    "ozet": "Mermnad hanedanının kurucusu. Kimmerlerle savaşırken öldü.",
+    "donemler": [
+      {
+        "bas": -680,
+        "son": -644,
+        "kesinlik": "yaklasik",
+        "not": "Ölüm yılı Asur kayıtlarından çıkarılır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.7–14"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "assurbanipal",
+    "ad": "Aşşurbanipal",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "ozet": "Ninova’daki kütüphanesiyle tanınan son güçlü Asur kralı.",
+    "donemler": [
+      {
+        "bas": -669,
+        "son": -631,
+        "kesinlik": "yaklasik",
+        "not": "Bitiş için MÖ 627 de verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "elam",
+      "lidya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "psamtik-i",
+    "ad": "I. Psamtik",
+    "uygarlik": "gec-donem-misir",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ı yeniden birleştiren Sais kralı. İyon ve Karia paralı askerleri kullandı.",
+    "donemler": [
+      {
+        "bas": -664,
+        "son": -610,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "lidya",
+      "karia"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "2.151–157"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "nabopolassar",
+    "ad": "Nabopolassar",
+    "uygarlik": "yeni-babil",
+    "nitelik": "tarihsel",
+    "ozet": "Yeni Babil hanedanının kurucusu. Medlerle birlikte Ninova’yı aldı.",
+    "donemler": [
+      {
+        "bas": -626,
+        "son": -605,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur",
+      "medler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kyaksares",
+    "ad": "Kyaksares",
+    "uygarlik": "medler",
+    "nitelik": "tarihsel",
+    "ozet": "Babil’le birlikte Asur’u yıkan Med kralı.",
+    "donemler": [
+      {
+        "bas": -625,
+        "son": -585,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur",
+      "lidya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.103–106"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "alyattes",
+    "ad": "Alyattes",
+    "uygarlik": "lidya",
+    "nitelik": "tarihsel",
+    "ozet": "Lydia’yı büyük güç yapan kral. Medlerle savaştı; Bin Tepe’deki dev tümülüs ona atfedilir.",
+    "donemler": [
+      {
+        "bas": -610,
+        "son": -560,
+        "kesinlik": "tartismali",
+        "not": "Yeni öneriler MÖ 635–585’i savunur."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "medler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.16–25"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "nebukadnezar-ii",
+    "ad": "II. Nebukadnezar",
+    "uygarlik": "yeni-babil",
+    "nitelik": "tarihsel",
+    "ozet": "Babil’i görkemli yapılarla donatan ve Kudüs’ü alan kral.",
+    "donemler": [
+      {
+        "bas": -605,
+        "son": -562,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "astyages",
+    "ad": "Astyages",
+    "uygarlik": "medler",
+    "nitelik": "tarihsel",
+    "ozet": "Kyros’a yenilen son Med kralı.",
+    "donemler": [
+      {
+        "bas": -585,
+        "son": -550,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.107–130"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "amasis",
+    "ad": "II. Ahmose (Amasis)",
+    "uygarlik": "gec-donem-misir",
+    "nitelik": "tarihsel",
+    "ozet": "Yunanlarla yakın ilişkiler kuran firavun; Polykrates’in dostu olarak anlatılır.",
+    "donemler": [
+      {
+        "bas": -570,
+        "son": -526,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "iyon-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "2.172–182"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "kroisos",
+    "ad": "Kroisos",
+    "uygarlik": "lidya",
+    "nitelik": "tarihsel",
+    "ozet": "Zenginliği dillere destan son Lydia kralı. Delphi’ye adaklar gönderdi, Kyros’a yenildi.",
+    "donemler": [
+      {
+        "bas": -560,
+        "son": -546,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.26–94"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes",
+        "efes",
+        "delphi"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "kyros-ii",
+    "ad": "II. Kyros",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "ozet": "Pers İmparatorluğu’nun kurucusu. Medleri, Lydia’yı ve Babil’i aldı.",
+    "donemler": [
+      {
+        "bas": -559,
+        "son": -530,
+        "kesinlik": "kesin",
+        "not": "MÖ 550’ye kadar Anşan kralıydı."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "medler",
+      "lidya",
+      "yeni-babil"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "briant"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "1.107–214"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler",
+        "ksenophon/kyros-un-egitimi"
+      ]
+    }
+  },
+  {
+    "kimlik": "nabonidus",
+    "ad": "Nabonidus",
+    "uygarlik": "yeni-babil",
+    "nitelik": "tarihsel",
+    "ozet": "Son Babil kralı. Yıllarca Teyma vahasında yaşadı.",
+    "donemler": [
+      {
+        "bas": -556,
+        "son": -539,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "peisistratos",
+    "ad": "Peisistratos",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tarihsel",
+    "ozet": "Atina tiranı. Panathenaia şenliklerini büyüttü.",
+    "donemler": [
+      {
+        "bas": -546,
+        "son": -527,
+        "kesinlik": "kesin",
+        "not": "Daha önce kısa süreli iki yönetimi vardır."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.59–64"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ]
+    }
+  },
+  {
+    "kimlik": "polykrates",
+    "ad": "Polykrates",
+    "uygarlik": "iyon-kentleri",
+    "nitelik": "tarihsel",
+    "ozet": "Samos tiranı. Donanması ve yüzük öyküsüyle tanınır.",
+    "donemler": [
+      {
+        "bas": -538,
+        "son": -522,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "3.39–125"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "samos"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "tarquinius-superbus",
+    "ad": "Tarquinius Superbus",
+    "uygarlik": "roma-kralligi",
+    "nitelik": "tartismali",
+    "ozet": "Geleneğe göre Roma’nın son kralı.",
+    "donemler": [
+      {
+        "bas": -534,
+        "son": -509,
+        "kesinlik": "geleneksel"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "1.49–60"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kambyses-ii",
+    "ad": "II. Kambyses",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ı alan Pers kralı.",
+    "donemler": [
+      {
+        "bas": -530,
+        "son": -522,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "gec-donem-misir"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "3.1–66"
+      },
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "dareios-i",
+    "ad": "I. Dareios",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "ozet": "İmparatorluğu satraplıklarla düzenleyen, Yunanistan’a ilk seferi yollayan kral.",
+    "donemler": [
+      {
+        "bas": -522,
+        "son": -486,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi",
+      "arkaik-yunanistan"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "3.67–7.4"
+      },
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "leonidas-i",
+    "ad": "I. Leonidas",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tarihsel",
+    "ozet": "Thermopylai’de ölen Sparta kralı.",
+    "donemler": [
+      {
+        "bas": -490,
+        "son": -480,
+        "kesinlik": "yaklasik",
+        "not": "Tahta çıkış yılı yaklaşıktır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "7.204–239"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sparta"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "kserkses-i",
+    "ad": "I. Kserkses",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "ozet": "Yunanistan’a büyük seferi düzenleyen Pers kralı.",
+    "donemler": [
+      {
+        "bas": -486,
+        "son": -465,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "7–9"
+      },
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler",
+        "aiskhylos/persler"
+      ]
+    }
+  },
+  {
+    "kimlik": "artakserkses-i",
+    "ad": "I. Artakserkses",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "ozet": "Uzun saltanatı Atina’yla barış görüşmelerine sahne olan kral.",
+    "donemler": [
+      {
+        "bas": -465,
+        "son": -424,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "artakserkses-ii",
+    "ad": "II. Artakserkses",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "ozet": "Kunaksa’da kardeşi Kyros’u yenen, Kral Barışı’nı dayatan kral.",
+    "donemler": [
+      {
+        "bas": -404,
+        "son": -358,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi",
+      "klasik-yunanistan"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "anabasis"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "ksenophon/anabasis",
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "hekatomnos",
+    "ad": "Hekatomnos",
+    "uygarlik": "karia",
+    "nitelik": "tarihsel",
+    "ozet": "Karia satraplığını aile mülkü yapan hanedanın kurucusu.",
+    "donemler": [
+      {
+        "bas": -392,
+        "son": -377,
+        "kesinlik": "yaklasik",
+        "not": "Başlangıç için MÖ 395 de verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "mylasa",
+        "labranda"
+      ]
+    }
+  },
+  {
+    "kimlik": "perikle",
+    "ad": "Perikle",
+    "uygarlik": "likya",
+    "nitelik": "tarihsel",
+    "ozet": "Limyra merkezli Likya hanedan beyi. Likya’nın büyük bölümünü birleştirdi.",
+    "donemler": [
+      {
+        "bas": -380,
+        "son": -360,
+        "kesinlik": "tartismali"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-batiasya"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "limyra"
+      ]
+    }
+  },
+  {
+    "kimlik": "mausolos",
+    "ad": "Mausolos",
+    "uygarlik": "karia",
+    "nitelik": "tarihsel",
+    "ozet": "Başkenti Halikarnassos’a taşıyan satrap. Anıt mezarı “mozole” sözcüğünün kaynağıdır.",
+    "donemler": [
+      {
+        "bas": -377,
+        "son": -353,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "diodoros",
+        "yer": "16.36"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "halikarnassos"
+      ],
+      "eserler": [
+        "diodoros/tarih-kitapligi"
+      ]
+    }
+  },
+  {
+    "kimlik": "philippos-ii",
+    "ad": "II. Philippos",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "ozet": "Makedonya’yı büyük güç yapan kral, İskender’in babası.",
+    "donemler": [
+      {
+        "bas": -359,
+        "son": -336,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "diodoros",
+        "yer": "16"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "diodoros/tarih-kitapligi"
+      ]
+    }
+  },
+  {
+    "kimlik": "artemisia-ii",
+    "ad": "II. Artemisia",
+    "uygarlik": "karia",
+    "nitelik": "tarihsel",
+    "ozet": "Mausolos’un eşi ve kız kardeşi. Onun ölümünden sonra tek başına yönetti.",
+    "donemler": [
+      {
+        "bas": -353,
+        "son": -351,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "diodoros",
+        "yer": "16.36"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "halikarnassos"
+      ]
+    }
+  },
+  {
+    "kimlik": "buyuk-iskender",
+    "ad": "Büyük İskender",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "ozet": "Pers İmparatorluğu’nu yıkan Makedonya kralı. Anadolu’yu Granikos’tan İssos’a kadar geçti.",
+    "donemler": [
+      {
+        "bas": -336,
+        "son": -323,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya-egemenligi",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "gordion",
+        "issos"
+      ],
+      "eserler": [
+        "arrianos/iskenderin-seferi",
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "dareios-iii",
+    "ad": "III. Dareios",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "ozet": "İskender’e yenilen son Ahameniş kralı.",
+    "donemler": [
+      {
+        "bas": -336,
+        "son": -330,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos"
+      },
+      {
+        "kaynak": "curtius"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi",
+        "quintus-curtius-rufus/iskenderin-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "antigonos-i",
+    "ad": "Antigonos Monophthalmos",
+    "uygarlik": "antigonos",
+    "nitelik": "tarihsel",
+    "ozet": "İskender’in komutanı. Krallığını ilan etti, İpsos’ta öldü.",
+    "donemler": [
+      {
+        "bas": -306,
+        "son": -301,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya",
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "lysimakhos",
+    "ad": "Lysimakhos",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "ozet": "Trakya kralı. İpsos’tan sonra Batı Anadolu’yu, son yıllarında Makedonya’yı yönetti.",
+    "donemler": [
+      {
+        "bas": -306,
+        "son": -281,
+        "kesinlik": "kesin",
+        "not": "Makedonya’yı MÖ 285–281 arasında tek başına yönetti."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "antigonos",
+      "seleukos",
+      "pergamon"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "14.1.21"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes"
+      ]
+    }
+  },
+  {
+    "kimlik": "seleukos-i",
+    "ad": "I. Seleukos",
+    "uygarlik": "seleukos",
+    "nitelik": "tarihsel",
+    "ozet": "Seleukos hanedanının kurucusu. Kurupedion’da Lysimakhos’u yendi.",
+    "donemler": [
+      {
+        "bas": -305,
+        "son": -281,
+        "kesinlik": "kesin",
+        "not": "Kral unvanını MÖ 305’te aldı."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "antigonos",
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "seleukeia-pieria"
+      ]
+    }
+  },
+  {
+    "kimlik": "kassandros",
+    "ad": "Kassandros",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "ozet": "İskender sonrası Makedonya kralı. Thessalonike’yi kurdu.",
+    "donemler": [
+      {
+        "bas": -305,
+        "son": -297,
+        "kesinlik": "kesin",
+        "not": "Ülkeyi MÖ 316’dan beri yönetiyordu."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ptolemaios-i",
+    "ad": "I. Ptolemaios",
+    "uygarlik": "ptolemaios",
+    "nitelik": "tarihsel",
+    "ozet": "Ptolemaios hanedanının kurucusu. İskenderiye’deki Musaion’u başlattı.",
+    "donemler": [
+      {
+        "bas": -305,
+        "son": -285,
+        "kesinlik": "kesin",
+        "not": "Mısır’ı MÖ 323’ten beri satrap olarak yönetiyordu."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "zipoites",
+    "ad": "Zipoites",
+    "uygarlik": "bitinya",
+    "nitelik": "tarihsel",
+    "ozet": "Bitinya’nın kral unvanı alan ilk hükümdarı.",
+    "donemler": [
+      {
+        "bas": -297,
+        "son": -278,
+        "kesinlik": "yaklasik",
+        "not": "Önceden yerel bey olarak hüküm sürüyordu."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ptolemaios-ii",
+    "ad": "II. Ptolemaios",
+    "uygarlik": "ptolemaios",
+    "nitelik": "tarihsel",
+    "ozet": "İskenderiye’nin kültür merkezi olduğu dönemin kralı.",
+    "donemler": [
+      {
+        "bas": -285,
+        "son": -246,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "antiokhos-i-soter",
+    "ad": "I. Antiokhos Soter",
+    "uygarlik": "seleukos",
+    "nitelik": "tarihsel",
+    "ozet": "Fil Savaşı’nda Galatları yenen Seleukos kralı.",
+    "donemler": [
+      {
+        "bas": -281,
+        "son": -261,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "galatlar"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "philetairos",
+    "ad": "Philetairos",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "ozet": "Attalos hanedanının kurucusu. Kral unvanı almadan Pergamon’u yönetti.",
+    "donemler": [
+      {
+        "bas": -281,
+        "son": -263,
+        "kesinlik": "yaklasik",
+        "not": "Kimi listelerde MÖ 283’ten başlar."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "13.4"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ]
+    }
+  },
+  {
+    "kimlik": "mithridates-i-pontos",
+    "ad": "I. Mithridates Ktistes",
+    "uygarlik": "pontos",
+    "nitelik": "tarihsel",
+    "ozet": "Pontos Krallığı’nın kurucusu.",
+    "donemler": [
+      {
+        "bas": -281,
+        "son": -266,
+        "kesinlik": "yaklasik",
+        "not": "Beyliği MÖ 302’de başlamış olabilir."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "nikomedes-i",
+    "ad": "I. Nikomedes",
+    "uygarlik": "bitinya",
+    "nitelik": "tarihsel",
+    "ozet": "Galatları Anadolu’ya çağıran ve Nikomedeia’yı kuran kral.",
+    "donemler": [
+      {
+        "bas": -278,
+        "son": -255,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "galatlar"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "livius",
+        "yer": "38.16"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nikomedia"
+      ]
+    }
+  },
+  {
+    "kimlik": "arsakes-i",
+    "ad": "I. Arsakes",
+    "uygarlik": "part",
+    "nitelik": "tarihsel",
+    "ozet": "Part hanedanının kurucusu.",
+    "donemler": [
+      {
+        "bas": -247,
+        "son": -217,
+        "kesinlik": "yaklasik",
+        "not": "Bitiş için MÖ 211 de verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "11.9"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "attalos-i",
+    "ad": "I. Attalos",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "ozet": "Galatları yendikten sonra kral unvanını alan ilk Pergamon hükümdarı.",
+    "donemler": [
+      {
+        "bas": -241,
+        "son": -197,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "galatlar"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "polybios",
+        "yer": "18.41"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ]
+    }
+  },
+  {
+    "kimlik": "prusias-i",
+    "ad": "I. Prusias",
+    "uygarlik": "bitinya",
+    "nitelik": "tarihsel",
+    "ozet": "Hannibal’ı sarayında ağırlayan Bitinya kralı.",
+    "donemler": [
+      {
+        "bas": -228,
+        "son": -182,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pergamon",
+      "kartaca"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "12.4"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "prusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "antiokhos-iii",
+    "ad": "III. Antiokhos",
+    "uygarlik": "seleukos",
+    "nitelik": "tarihsel",
+    "ozet": "Seleukos gücünü doğuda yeniden kuran, Magnesia’da Roma’ya yenilen kral.",
+    "donemler": [
+      {
+        "bas": -223,
+        "son": -187,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pergamon",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "polybios"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "philippos-v",
+    "ad": "V. Philippos",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "ozet": "Kynoskephalai’de Roma’ya yenilen Makedonya kralı.",
+    "donemler": [
+      {
+        "bas": -221,
+        "son": -179,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "eumenes-ii",
+    "ad": "II. Eumenes",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "ozet": "Pergamon’u doruğuna çıkaran kral. Zeus Sunağı genellikle onun dönemine verilir.",
+    "donemler": [
+      {
+        "bas": -197,
+        "son": -159,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "13.4"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ]
+    }
+  },
+  {
+    "kimlik": "artaksias-i",
+    "ad": "I. Artaksias",
+    "uygarlik": "armenia",
+    "nitelik": "tarihsel",
+    "ozet": "Armenia’daki Artaksiad hanedanının kurucusu.",
+    "donemler": [
+      {
+        "bas": -189,
+        "son": -160,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "strabon",
+        "yer": "11.14"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "pharnakes-i",
+    "ad": "I. Pharnakes",
+    "uygarlik": "pontos",
+    "nitelik": "tarihsel",
+    "ozet": "Sinope’yi alan ve başkent yapan Pontos kralı.",
+    "donemler": [
+      {
+        "bas": -185,
+        "son": -160,
+        "kesinlik": "tartismali",
+        "not": "Saltanatı için MÖ 190–155 arası çeşitli öneriler vardır."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "12.3"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sinope"
+      ]
+    }
+  },
+  {
+    "kimlik": "perseus-makedonya",
+    "ad": "Perseus",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "ozet": "Makedonya’nın son kralı. Pydna’da yenildi.",
+    "donemler": [
+      {
+        "bas": -179,
+        "son": -168,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "44"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "antiokhos-iv-epiphanes",
+    "ad": "IV. Antiokhos Epiphanes",
+    "uygarlik": "seleukos",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’a sefer düzenleyen ve Yahudi ayaklanmasıyla karşılaşan Seleukos kralı.",
+    "donemler": [
+      {
+        "bas": -175,
+        "son": -164,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ptolemaios"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "polybios"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "mithridates-i-part",
+    "ad": "I. Mithridates",
+    "uygarlik": "part",
+    "nitelik": "tarihsel",
+    "ozet": "Part devletini imparatorluğa dönüştüren kral.",
+    "donemler": [
+      {
+        "bas": -171,
+        "son": -138,
+        "kesinlik": "tartismali",
+        "not": "Yeni öneriler MÖ 165–132’yi savunur."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ariarathes-v",
+    "ad": "V. Ariarathes",
+    "uygarlik": "kapadokya",
+    "nitelik": "tarihsel",
+    "ozet": "Yunan kültürünü benimseyen Kapadokya kralı. Aristonikos’a karşı savaşta öldü.",
+    "donemler": [
+      {
+        "bas": -163,
+        "son": -130,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pergamon"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ptolemaios-kommagene",
+    "ad": "Ptolemaios",
+    "uygarlik": "kommagene",
+    "nitelik": "tarihsel",
+    "ozet": "Seleukos valisiyken bağımsızlığını ilan eden ilk Kommagene kralı.",
+    "donemler": [
+      {
+        "bas": -163,
+        "son": -130,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "facella"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "attalos-ii",
+    "ad": "II. Attalos",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "ozet": "Attaleia’yı (Antalya) kuran Pergamon kralı.",
+    "donemler": [
+      {
+        "bas": -159,
+        "son": -138,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "14.4"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ]
+    }
+  },
+  {
+    "kimlik": "attalos-iii",
+    "ad": "III. Attalos",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "ozet": "Krallığını Roma’ya bırakan son Pergamon kralı.",
+    "donemler": [
+      {
+        "bas": -138,
+        "son": -133,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "13.4"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ]
+    }
+  },
+  {
+    "kimlik": "mithridates-ii-part",
+    "ad": "II. Mithridates",
+    "uygarlik": "part",
+    "nitelik": "tarihsel",
+    "ozet": "“Kralların kralı” unvanını kullanan Part kralı.",
+    "donemler": [
+      {
+        "bas": -124,
+        "son": -91,
+        "kesinlik": "yaklasik",
+        "not": "Başlangıç için MÖ 121 de verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "armenia"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "mithridates-vi",
+    "ad": "VI. Mithridates",
+    "uygarlik": "pontos",
+    "nitelik": "tarihsel",
+    "ozet": "Roma’ya karşı üç savaş veren Pontos kralı.",
+    "donemler": [
+      {
+        "bas": -120,
+        "son": -63,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sinope"
+      ],
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "tigranes-ii",
+    "ad": "II. Tigranes",
+    "uygarlik": "armenia",
+    "nitelik": "tarihsel",
+    "ozet": "“Büyük” diye anılan Armenia kralı. Tigranakert’i kurdu, Lucullus’a yenildi.",
+    "donemler": [
+      {
+        "bas": -95,
+        "son": -55,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pontos",
+      "seleukos",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "11.14"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "nikomedes-iv",
+    "ad": "IV. Nikomedes",
+    "uygarlik": "bitinya",
+    "nitelik": "tarihsel",
+    "ozet": "Ülkesini vasiyetle Roma’ya bırakan son Bitinya kralı.",
+    "donemler": [
+      {
+        "bas": -94,
+        "son": -74,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pontos",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "antiokhos-i-kommagene",
+    "ad": "I. Antiokhos",
+    "uygarlik": "kommagene",
+    "nitelik": "tarihsel",
+    "ozet": "Nemrut Dağı’ndaki kutsal alanı yaptıran Kommagene kralı.",
+    "donemler": [
+      {
+        "bas": -70,
+        "son": -38,
+        "kesinlik": "yaklasik",
+        "not": "Ölümü için MÖ 38–31 arası çeşitli yıllar önerilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "facella"
+      },
+      {
+        "kaynak": "unesco-nemrut"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nemrut"
+      ]
+    }
+  },
+  {
+    "kimlik": "deiotaros",
+    "ad": "Deiotaros",
+    "uygarlik": "galatlar",
+    "nitelik": "tarihsel",
+    "ozet": "Pompeius’un kral yaptığı Galat tetrarkhı. Cicero’nun savunduğu kral odur.",
+    "donemler": [
+      {
+        "bas": -62,
+        "son": -40,
+        "kesinlik": "yaklasik",
+        "not": "Ölümü için MÖ 42–40 arası verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-anadolu"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "12.5"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "orodes-ii",
+    "ad": "II. Orodes",
+    "uygarlik": "part",
+    "nitelik": "tarihsel",
+    "ozet": "Ordusu Karrhai’de Crassus’u yenen Part kralı.",
+    "donemler": [
+      {
+        "bas": -57,
+        "son": -37,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "40.16–27"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kleopatra-vii",
+    "ad": "VII. Kleopatra",
+    "uygarlik": "ptolemaios",
+    "nitelik": "tarihsel",
+    "ozet": "Mısır’ın son Ptolemaios kraliçesi.",
+    "donemler": [
+      {
+        "bas": -51,
+        "son": -30,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "cassius-dio"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "iulius-caesar",
+    "ad": "Iulius Caesar",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "ozet": "İç savaşı kazanıp diktatör olan komutan.",
+    "donemler": [
+      {
+        "bas": -49,
+        "son": -44,
+        "kesinlik": "kesin",
+        "not": "Diktatörlük yıllarıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ptolemaios"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "suetonius/on-iki-caesarin-yasami",
+        "caesar/galya-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "arkhelaos",
+    "ad": "Arkhelaos",
+    "uygarlik": "kapadokya",
+    "nitelik": "tarihsel",
+    "ozet": "Kapadokya’nın son kralı. Tiberius tarafından Roma’ya çağrıldı ve orada öldü.",
+    "donemler": [
+      {
+        "bas": -36,
+        "son": 17,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "tacitus",
+        "yer": "2.42"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "tacitus/annales"
+      ]
+    }
+  },
+  {
+    "kimlik": "amyntas",
+    "ad": "Amyntas",
+    "uygarlik": "galatlar",
+    "nitelik": "tarihsel",
+    "ozet": "Galatların son kralı. Ölümüyle ülkesi Roma eyaleti oldu.",
+    "donemler": [
+      {
+        "bas": -36,
+        "son": -25,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-anadolu"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "12.6"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "augustus",
+    "ad": "Augustus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "İlk Roma imparatoru. Mısır’ı ve Galatia’yı Roma’ya kattı.",
+    "donemler": [
+      {
+        "bas": -27,
+        "son": 14,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "cassius-dio"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "suetonius/on-iki-caesarin-yasami",
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "tiberius",
+    "ad": "Tiberius",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Kapadokya ve Kommagene’yi eyalete katan imparator.",
+    "donemler": [
+      {
+        "bas": 14,
+        "son": 37,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "tacitus",
+        "yer": "1–6"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "tacitus/annales"
+      ]
+    }
+  },
+  {
+    "kimlik": "antiokhos-iv-kommagene",
+    "ad": "IV. Antiokhos",
+    "uygarlik": "kommagene",
+    "nitelik": "tarihsel",
+    "ozet": "Kommagene’nin son kralı. Caligula tarafından tahta çıkarıldı.",
+    "donemler": [
+      {
+        "bas": 38,
+        "son": 72,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iosephus-savas",
+        "yer": "7.219–243"
+      },
+      {
+        "kaynak": "facella"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "claudius",
+    "ad": "Claudius",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Likya’yı eyalet yapan imparator.",
+    "donemler": [
+      {
+        "bas": 41,
+        "son": 54,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "likya",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "cassius-dio",
+        "yer": "60"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "suetonius/on-iki-caesarin-yasami"
+      ]
+    }
+  },
+  {
+    "kimlik": "vologases-i",
+    "ad": "I. Vologases",
+    "uygarlik": "part",
+    "nitelik": "tarihsel",
+    "ozet": "Kardeşi Tiridates’i Armenia tahtına oturtan Part kralı.",
+    "donemler": [
+      {
+        "bas": 51,
+        "son": 78,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "tacitus",
+        "yer": "12–15"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "tacitus/annales"
+      ]
+    }
+  },
+  {
+    "kimlik": "nero",
+    "ad": "Nero",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Armenia için Partlarla anlaşan imparator.",
+    "donemler": [
+      {
+        "bas": 54,
+        "son": 68,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "tacitus",
+        "yer": "13–16"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "tacitus/annales"
+      ]
+    }
+  },
+  {
+    "kimlik": "vespasianus",
+    "ad": "Vespasianus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Flavius hanedanının kurucusu. Kommagene’yi eyalete kattı.",
+    "donemler": [
+      {
+        "bas": 69,
+        "son": 79,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "kommagene",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "suetonius/on-iki-caesarin-yasami"
+      ]
+    }
+  },
+  {
+    "kimlik": "traianus",
+    "ad": "Traianus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "İmparatorluğu en geniş sınırlarına ulaştıran imparator.",
+    "donemler": [
+      {
+        "bas": 98,
+        "son": 117,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "68"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "hadrianus",
+    "ad": "Hadrianus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Anadolu’yu dolaşan, kentlere büyük yapılar kazandıran imparator.",
+    "donemler": [
+      {
+        "bas": 117,
+        "son": 138,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "69"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes"
+      ],
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "marcus-aurelius",
+    "ad": "Marcus Aurelius",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Filozof imparator; Kendime Düşünceler’in yazarı.",
+    "donemler": [
+      {
+        "bas": 161,
+        "son": 180,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "71"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "septimius-severus",
+    "ad": "Septimius Severus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "İç savaşı Anadolu’da kazanan, Part başkentini alan imparator.",
+    "donemler": [
+      {
+        "bas": 193,
+        "son": 211,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ardesir-i",
+    "ad": "I. Ardeşir",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "ozet": "Sasani hanedanının kurucusu.",
+    "donemler": [
+      {
+        "bas": 224,
+        "son": 242,
+        "kesinlik": "kesin",
+        "not": "Kimi listelerde 241’de biter."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sapur-i",
+    "ad": "I. Şapur",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "ozet": "Valerianus’u esir alan Sasani kralı.",
+    "donemler": [
+      {
+        "bas": 240,
+        "son": 270,
+        "kesinlik": "yaklasik",
+        "not": "Bitiş için 272 de verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "aurelianus",
+    "ad": "Aurelianus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Palmyra’yı alarak imparatorluğu yeniden birleştiren imparator.",
+    "donemler": [
+      {
+        "bas": 270,
+        "son": 275,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "diocletianus",
+    "ad": "Diocletianus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Dörtlü yönetimi kuran imparator. Nikomedeia’dan yönetti.",
+    "donemler": [
+      {
+        "bas": 284,
+        "son": 305,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "sasani"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nikomedia"
+      ]
+    }
+  },
+  {
+    "kimlik": "konstantin-i",
+    "ad": "I. Konstantin",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Konstantinopolis’i yeni başkent yapan imparator. 324’ten sonra tek başına hüküm sürdü.",
+    "donemler": [
+      {
+        "bas": 306,
+        "son": 337,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu",
+      "dogu-roma"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sapur-ii",
+    "ad": "II. Şapur",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "ozet": "Iulianus’un seferini karşılayan Sasani kralı.",
+    "donemler": [
+      {
+        "bas": 309,
+        "son": 379,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ammianus"
+      },
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "ammianus-marcellinus/res-gestae"
+      ]
+    }
+  },
+  {
+    "kimlik": "iulianus",
+    "ad": "Iulianus",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Eski dinleri canlandırmak isteyen imparator. Sasani seferinde öldü.",
+    "donemler": [
+      {
+        "bas": 361,
+        "son": 363,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "sasani"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ammianus",
+        "yer": "22–25"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "ammianus-marcellinus/res-gestae"
+      ]
+    }
+  },
+  {
+    "kimlik": "theodosius-i",
+    "ad": "I. Theodosius",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Birleşik imparatorluğu yöneten son imparator.",
+    "donemler": [
+      {
+        "bas": 379,
+        "son": 395,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "dogu-roma",
+      "bati-roma"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "arcadius",
+    "ad": "Arcadius",
+    "uygarlik": "dogu-roma",
+    "nitelik": "tarihsel",
+    "ozet": "Bölünmeden sonra doğunun ilk imparatoru.",
+    "donemler": [
+      {
+        "bas": 395,
+        "son": 408,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "honorius",
+    "ad": "Honorius",
+    "uygarlik": "bati-roma",
+    "nitelik": "tarihsel",
+    "ozet": "Roma’nın Vizigotlarca yağmalandığı dönemin batı imparatoru.",
+    "donemler": [
+      {
+        "bas": 395,
+        "son": 423,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "theodosius-ii",
+    "ad": "II. Theodosius",
+    "uygarlik": "dogu-roma",
+    "nitelik": "tarihsel",
+    "ozet": "Konstantinopolis’in kara surlarını yaptıran imparator.",
+    "donemler": [
+      {
+        "bas": 408,
+        "son": 450,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "zenon",
+    "ad": "Zenon",
+    "uygarlik": "dogu-roma",
+    "nitelik": "tarihsel",
+    "ozet": "İsaurialı imparator.",
+    "donemler": [
+      {
+        "bas": 474,
+        "son": 491,
+        "kesinlik": "kesin",
+        "not": "475–476’da tahtı Basiliskos’a kaptırdı."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "romulus-augustulus",
+    "ad": "Romulus Augustulus",
+    "uygarlik": "bati-roma",
+    "nitelik": "tarihsel",
+    "ozet": "Geleneksel olarak batının son imparatoru.",
+    "donemler": [
+      {
+        "bas": 475,
+        "son": 476,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  }
+]

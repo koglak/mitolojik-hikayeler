@@ -1,0 +1,203 @@
+---
+import type { AtlasKaydi } from '../../lib/zamanAtlasi/sorgu';
+import { kesinlikler, nitelikler, uygarlikTurleri } from '../../lib/zamanAtlasi/etiketler';
+import { atlasBasi, atlasSonu, aralikYaz } from '../../lib/zamanAtlasi/yil';
+import { aralikKonumu } from '../../lib/zamanAtlasi/konum';
+import type { Olay } from '../../lib/zamanAtlasi/sema';
+import OlayIsareti from './OlayIsareti.astro';
+
+interface Props {
+  oge: AtlasKaydi;
+  ustAd?: string;
+  olaylar?: Olay[];
+  gizli?: boolean;
+}
+
+const { oge, ustAd, olaylar = [], gizli = false } = Astro.props;
+const { tur, kayit } = oge;
+const altYazi = tur === 'uygarlik' ? kayit.yer : ustAd;
+const turAdi = tur === 'uygarlik' ? uygarlikTurleri[kayit.tur] : tur === 'hukumdar' ? 'Hükümdar' : nitelikler[kayit.nitelik];
+const seritSiniflari = [tur, tur === 'uygarlik' ? kayit.tur : kayit.nitelik];
+---
+
+<div class:list={['satir', tur]} data-satir={kayit.kimlik} hidden={gizli}>
+  <button type="button" class="ad" data-sec={kayit.kimlik}>
+    <span class="ad-yazisi">{kayit.ad}</span>
+    <small>{altYazi}</small>
+  </button>
+  <div class="iz" data-iz>
+    {
+      tur === 'olay' ? (
+        <OlayIsareti olay={kayit} />
+      ) : (
+        kayit.donemler.map((donem) => (
+          <button
+            type="button"
+            tabindex="-1"
+            class:list={['serit', ...seritSiniflari, donem.kesinlik]}
+            data-sec={kayit.kimlik}
+            data-bas={donem.bas}
+            data-son={donem.son}
+            data-oncesi={donem.bas < atlasBasi ? '' : undefined}
+            data-sonrasi={donem.son > atlasSonu ? '' : undefined}
+            style={aralikKonumu(donem)}
+            title={`${kayit.ad}, ${aralikYaz(donem.bas, donem.son)}`}
+            aria-label={`${kayit.ad}, ${turAdi}, ${aralikYaz(donem.bas, donem.son)}, ${kesinlikler[donem.kesinlik]}`}
+          >
+            <span>{aralikYaz(donem.bas, donem.son)}</span>
+          </button>
+        ))
+      )
+    }
+    {olaylar.map((olay) => <OlayIsareti olay={olay} uygarlikSatirinda />)}
+  </div>
+</div>
+
+<style>
+  .satir {
+    display: grid;
+    grid-template-columns: var(--ad-genisligi) minmax(0, 1fr);
+    min-height: 46px;
+    border-bottom: 1px solid color-mix(in srgb, var(--cizgi) 60%, transparent);
+  }
+  .ad {
+    position: sticky;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px 5px 14px;
+    text-align: left;
+    line-height: 1.25;
+    background: var(--hero);
+    border: 0;
+    border-right: 1px solid var(--cizgi);
+  }
+  .ad:focus-visible {
+    outline-offset: -3px;
+  }
+  .ad:hover .ad-yazisi,
+  .satir[data-secili] .ad-yazisi {
+    color: var(--vurgu);
+  }
+  .ad-yazisi {
+    font-size: 15px;
+  }
+  .ad small {
+    font-size: 12px;
+    color: var(--soluk);
+  }
+  .hukumdar .ad,
+  .olay .ad {
+    padding-left: 28px;
+  }
+  .hukumdar .ad-yazisi,
+  .olay .ad-yazisi {
+    font: italic 500 18px/1.1 var(--baslik-font);
+  }
+  .iz {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .serit {
+    --gorunen-bas: max(var(--bas), var(--g-bas));
+    --gorunen-son: min(var(--son), var(--g-son));
+    position: absolute;
+    left: calc((var(--gorunen-bas) - var(--g-bas)) / (var(--g-son) - var(--g-bas)) * 100%);
+    width: calc((var(--gorunen-son) - var(--gorunen-bas)) / (var(--g-son) - var(--g-bas)) * 100%);
+    min-width: 6px;
+    height: 24px;
+    top: calc(50% - 12px);
+    padding: 0;
+    container-type: inline-size;
+    color: var(--zemin);
+    background: var(--bolge-rengi);
+    border: 0;
+    border-radius: 2px;
+  }
+  .serit span {
+    display: none;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  @container (min-width: 124px) {
+    .serit span {
+      display: block;
+      padding: 0 9px;
+      text-align: left;
+    }
+  }
+  .serit:hover {
+    filter: brightness(1.12);
+  }
+  .serit:focus-visible {
+    outline-offset: -2px;
+  }
+  .serit.kultur {
+    color: var(--yazi);
+    background: repeating-linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--bolge-rengi) 42%, var(--hero)) 0 5px,
+      color-mix(in srgb, var(--bolge-rengi) 26%, var(--hero)) 5px 9px
+    );
+  }
+  .serit.egemenlik {
+    color: var(--yazi);
+    background: color-mix(in srgb, var(--bolge-rengi) 34%, var(--hero));
+    border: 1px solid var(--bolge-rengi);
+  }
+  .serit.egemenlik span {
+    line-height: 22px;
+  }
+  .serit.hukumdar {
+    height: 12px;
+    top: calc(50% - 6px);
+    background: color-mix(in srgb, var(--bolge-rengi) 70%, var(--yazi));
+  }
+  .serit.hukumdar span {
+    display: none;
+  }
+  .serit.hukumdar.tartismali,
+  .serit.hukumdar.mitolojik,
+  .serit.hukumdar.geleneksel {
+    background: var(--hero);
+    border: 1.5px dashed color-mix(in srgb, var(--bolge-rengi) 70%, var(--yazi));
+  }
+  .serit.uygarlik.tartismali {
+    outline: 1px dashed var(--bolge-rengi);
+    outline-offset: 2px;
+  }
+  .serit[data-secili] {
+    box-shadow: 0 0 0 2px var(--hero), 0 0 0 4px var(--yazi);
+  }
+  .serit[data-oncesi] {
+    clip-path: polygon(8px 0, 100% 0, 100% 100%, 8px 100%, 0 50%);
+  }
+  .serit[data-sonrasi] {
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+  }
+  .serit[data-oncesi][data-sonrasi] {
+    clip-path: polygon(8px 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 8px 100%, 0 50%);
+  }
+  @media (max-width: 620px) {
+    .ad {
+      padding: 5px 8px 5px 10px;
+    }
+    .hukumdar .ad,
+    .olay .ad {
+      padding-left: 16px;
+    }
+    .ad-yazisi {
+      font-size: 14px;
+    }
+    .hukumdar .ad-yazisi,
+    .olay .ad-yazisi {
+      font-size: 16px;
+    }
+  }
+</style>

@@ -1,0 +1,132 @@
+---
+import { atlasBolgeleri } from '../../lib/zamanAtlasi/bolgeler';
+import { olayTurleri, yakinKartSayisi } from '../../lib/zamanAtlasi/etiketler';
+import { yakinOlaylar, type Atlas, type Gorunum } from '../../lib/zamanAtlasi/sorgu';
+import { aralikYaz } from '../../lib/zamanAtlasi/yil';
+import NitelikIsareti from './NitelikIsareti.astro';
+
+interface Props {
+  atlas: Atlas;
+  gorunum: Gorunum;
+  yil: number;
+}
+
+const { atlas, gorunum, yil } = Astro.props;
+const { olaylar } = atlas.veri;
+const gorunenler = new Set(yakinOlaylar(atlas, gorunum.kartlar, yil, yakinKartSayisi));
+---
+
+<section class="kartlar" aria-labelledby="olay-kartlari-basligi">
+  <div class="ust">
+    <h2 id="olay-kartlari-basligi">Dönüm noktaları</h2>
+    <p data-kart-ozeti role="status"></p>
+    <button type="button" class="tumu" data-kartlar-tumu aria-pressed="false">Tümünü göster</button>
+  </div>
+  <ul>
+    {
+      olaylar.map((olay) => {
+        const { bolge, kayit: uygarlik } = atlas.kayitlar.get(olay.uygarlik)!;
+        return (
+          <li data-kart={olay.kimlik} hidden={!gorunenler.has(olay.kimlik)}>
+            <button type="button" data-sec={olay.kimlik}>
+              <span class="tarih">
+                <NitelikIsareti nitelik={olay.nitelik} />
+                {aralikYaz(olay.donemler[0].bas, olay.donemler[0].son)}
+              </span>
+              <strong>{olay.ad}</strong>
+              <small style={`color:${atlasBolgeleri[bolge].renk}`}>{uygarlik.ad}</small>
+              <small>{olayTurleri[olay.tur]}</small>
+            </button>
+          </li>
+        );
+      })
+    }
+  </ul>
+  <p data-kartlar-bos hidden>Bu süzgeçlere uyan olay yok.</p>
+</section>
+
+<style>
+  .kartlar {
+    margin-top: 56px;
+  }
+  .ust {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 20px;
+    margin-bottom: 18px;
+  }
+  .ust p {
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr));
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 16px 18px;
+    text-align: left;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .tumu {
+    min-height: 44px;
+    margin-left: auto;
+    padding: 8px 16px;
+    font-size: 15px;
+    background: none;
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .tumu:hover,
+  li button:hover,
+  li button[data-secili] {
+    border-color: var(--vurgu);
+  }
+  .tarih {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--vurgu);
+  }
+  strong {
+    margin: 6px 0 8px;
+    font: 500 23px/1.1 var(--baslik-font);
+    text-wrap: balance;
+  }
+  small {
+    font-size: 14px;
+    color: var(--soluk);
+  }
+  p {
+    color: var(--soluk);
+  }
+  @media (max-width: 620px) {
+    ul {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    li button {
+      padding: 14px;
+    }
+    strong {
+      font-size: 20px;
+      hyphens: auto;
+    }
+  }
+</style>

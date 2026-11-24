@@ -1,0 +1,142 @@
+---
+import { atlasBolgeAnahtarlari } from '../../lib/zamanAtlasi/bolgeler';
+import { acikBaslayanBolgeler, atlasDonemleri } from '../../lib/zamanAtlasi/etiketler';
+import { gorunumKonumu, yilKonumu } from '../../lib/zamanAtlasi/konum';
+import type { Atlas, Gorunum } from '../../lib/zamanAtlasi/sorgu';
+import { eksenEtiketleri, eksenIsaretleri, yilYaz } from '../../lib/zamanAtlasi/yil';
+import CografiGrup from './CografiGrup.astro';
+
+interface Props {
+  atlas: Atlas;
+  gorunum: Gorunum;
+  yil: number;
+}
+
+const { atlas, gorunum, yil } = Astro.props;
+const [tumCaglar] = atlasDonemleri;
+const isaretler = eksenIsaretleri(tumCaglar.bas, tumCaglar.son);
+const etiketler = eksenEtiketleri(tumCaglar.bas, tumCaglar.son);
+---
+
+<div class="cerceve" data-cizelge-cercevesi tabindex="0" role="region" aria-label="Zaman çizelgesi, kaydırılabilir">
+  <div class="cizelge" data-cizelge style={`${gorunumKonumu(tumCaglar)};${yilKonumu(yil)}`}>
+    <div class="eksen">
+      <span class="eksen-adi">Uygarlıklar</span>
+      <div class="olcek" data-olcek data-iz>
+        {etiketler.map((etiket) => <span style={yilKonumu(etiket)}>{yilYaz(etiket)}</span>)}
+      </div>
+    </div>
+    <div class="izgara" data-izgara aria-hidden="true">
+      {isaretler.map((isaret) => <span style={yilKonumu(isaret)} />)}
+    </div>
+    <div class="ibre-yolu" aria-hidden="true"><span class="ibre"></span></div>
+    {
+      atlasBolgeAnahtarlari.map((bolge) => (
+        <CografiGrup atlas={atlas} bolge={bolge} gorunum={gorunum} acik={acikBaslayanBolgeler.includes(bolge)} />
+      ))
+    }
+    <p class="bos" data-cizelge-bos hidden>Bu süzgeçlere uyan kayıt yok. Aramayı ya da dönemi değiştir.</p>
+  </div>
+</div>
+
+<style>
+  .cerceve {
+    height: clamp(440px, 72vh, 760px);
+    overflow: auto;
+    overscroll-behavior-x: contain;
+    background: var(--hero);
+    border: 1px solid var(--cizgi);
+    border-radius: 0 0 4px 4px;
+    scrollbar-color: var(--cizgi) transparent;
+  }
+  .cerceve:focus-visible {
+    outline: 2px solid var(--vurgu);
+    outline-offset: 2px;
+  }
+  .cizelge {
+    --ad-genisligi: 200px;
+    position: relative;
+    min-width: 900px;
+    min-height: 100%;
+  }
+  .eksen {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    display: grid;
+    grid-template-columns: var(--ad-genisligi) minmax(0, 1fr);
+    height: 42px;
+    background: var(--yuzey);
+    border-bottom: 1px solid var(--cizgi);
+  }
+  .eksen-adi {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    padding-left: 14px;
+    font-size: 13px;
+    line-height: 42px;
+    color: var(--soluk);
+    background: var(--yuzey);
+    border-right: 1px solid var(--cizgi);
+  }
+  .olcek {
+    position: relative;
+    cursor: crosshair;
+  }
+  .olcek :global(span) {
+    position: absolute;
+    left: calc((var(--konum) - var(--g-bas)) / (var(--g-son) - var(--g-bas)) * 100%);
+    font-size: 13px;
+    line-height: 42px;
+    color: var(--soluk);
+    white-space: nowrap;
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+  .olcek :global(span:first-child) {
+    padding-left: 6px;
+    transform: none;
+  }
+  .olcek :global(span:last-child) {
+    padding-right: 6px;
+    transform: translateX(-100%);
+  }
+  .izgara,
+  .ibre-yolu {
+    position: absolute;
+    inset: 42px 0 0 var(--ad-genisligi);
+    pointer-events: none;
+  }
+  .izgara :global(span),
+  .ibre {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc((var(--konum) - var(--g-bas)) / (var(--g-son) - var(--g-bas)) * 100%);
+    border-left: 1px solid color-mix(in srgb, var(--cizgi) 45%, transparent);
+  }
+  .ibre-yolu {
+    z-index: 2;
+    overflow: hidden;
+  }
+  .ibre {
+    border-left: 2px solid var(--vurgu);
+    opacity: 0.85;
+    transform: translateX(-1px);
+  }
+  .bos {
+    position: sticky;
+    left: 0;
+    max-width: 30rem;
+    margin: 0;
+    padding: 40px 20px;
+    color: var(--soluk);
+  }
+  @media (max-width: 620px) {
+    .cizelge {
+      --ad-genisligi: 118px;
+      min-width: 820px;
+    }
+  }
+</style>

@@ -1,0 +1,137 @@
+---
+import { atlasBolgeleri, type AtlasBolgesi } from '../../lib/zamanAtlasi/bolgeler';
+import { bolgeBosluklari, type Atlas, type Gorunum } from '../../lib/zamanAtlasi/sorgu';
+import { aralikKonumu } from '../../lib/zamanAtlasi/konum';
+import { aralikYaz } from '../../lib/zamanAtlasi/yil';
+import CizelgeSatiri from './CizelgeSatiri.astro';
+
+interface Props {
+  atlas: Atlas;
+  bolge: AtlasBolgesi;
+  gorunum: Gorunum;
+  acik: boolean;
+}
+
+const { atlas, bolge, gorunum, acik } = Astro.props;
+const { veri, kayitlar } = atlas;
+const { ad, renk } = atlasBolgeleri[bolge];
+const uygarliklar = veri.uygarliklar.filter((u) => u.bolge === bolge);
+const bosluklar = bolgeBosluklari(atlas, bolge);
+const govdeKimligi = `atlas-grup-${bolge}`;
+---
+
+<section class="grup" data-grup={bolge} style={`--bolge-rengi:${renk}`} aria-label={ad}>
+  <div class="grup-basligi">
+    <button type="button" data-grup-dugmesi={bolge} aria-expanded={String(acik)} aria-controls={govdeKimligi}>
+      <span class="ok" aria-hidden="true"></span>
+      <span>{ad}</span>
+      <small data-grup-sayisi>{gorunum.bolgeler.get(bolge) ?? 0}</small>
+    </button>
+    <div class="iz" data-iz>
+      {
+        bosluklar.map((bosluk) => (
+          <span
+            class="bosluk"
+            data-bas={bosluk.bas}
+            data-son={bosluk.son}
+            style={aralikKonumu(bosluk)}
+            title={`${aralikYaz(bosluk.bas, bosluk.son)}: bu bölge için kayıt yok`}
+          >
+            <span>kayıt yok</span>
+          </span>
+        ))
+      }
+    </div>
+  </div>
+  <div id={govdeKimligi} data-grup-govdesi hidden={!acik}>
+    {
+      uygarliklar.map((uygarlik) => {
+        const hukumdarlar = veri.hukumdarlar.filter((h) => h.uygarlik === uygarlik.kimlik);
+        const olaylar = veri.olaylar.filter((o) => o.uygarlik === uygarlik.kimlik);
+        return (
+          <>
+            <CizelgeSatiri oge={kayitlar.get(uygarlik.kimlik)!} olaylar={olaylar} gizli={!gorunum.satirlar.has(uygarlik.kimlik)} />
+            {[...hukumdarlar, ...olaylar].map(({ kimlik }) => (
+              <CizelgeSatiri oge={kayitlar.get(kimlik)!} ustAd={uygarlik.ad} gizli={!gorunum.satirlar.has(kimlik)} />
+            ))}
+          </>
+        );
+      })
+    }
+  </div>
+</section>
+
+<style>
+  .grup-basligi {
+    display: grid;
+    grid-template-columns: var(--ad-genisligi) minmax(0, 1fr);
+    min-height: 46px;
+    background: var(--yuzey-2);
+    border-bottom: 1px solid var(--cizgi);
+  }
+  button {
+    position: sticky;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 12px 6px 14px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--bolge-rengi);
+    background: var(--yuzey-2);
+    border: 0;
+    border-right: 1px solid var(--cizgi);
+  }
+  button:focus-visible {
+    outline-offset: -3px;
+  }
+  small {
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--soluk);
+  }
+  .ok {
+    flex: none;
+    width: 8px;
+    height: 8px;
+    border: solid currentColor;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+    transition: transform 0.2s;
+  }
+  button[aria-expanded='true'] .ok {
+    transform: rotate(45deg) translate(-2px, -2px);
+  }
+  .iz {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .bosluk {
+    --gorunen-bas: max(var(--bas), var(--g-bas));
+    --gorunen-son: min(var(--son), var(--g-son));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc((var(--gorunen-bas) - var(--g-bas)) / (var(--g-son) - var(--g-bas)) * 100%);
+    width: calc((var(--gorunen-son) - var(--gorunen-bas)) / (var(--g-son) - var(--g-bas)) * 100%);
+    container-type: inline-size;
+    background: repeating-linear-gradient(135deg, rgba(16, 21, 28, 0.6) 0 4px, transparent 4px 9px);
+  }
+  .bosluk span {
+    display: none;
+    font-size: 12px;
+    line-height: 46px;
+    color: var(--soluk);
+    text-align: center;
+  }
+  @container (min-width: 76px) {
+    .bosluk span {
+      display: block;
+    }
+  }
+</style>

@@ -1,0 +1,79 @@
+---
+import { nitelikAnahtarlari, nitelikler, uygarlikTuruAnahtarlari, uygarlikTurleri } from '../../lib/zamanAtlasi/etiketler';
+import NitelikIsareti from './NitelikIsareti.astro';
+---
+
+<ul class="aciklama" aria-label="İşaretlerin anlamı">
+  {
+    uygarlikTuruAnahtarlari.map((tur) => (
+      <li>
+        <span class:list={['ornek', tur]} aria-hidden="true" />
+        {uygarlikTurleri[tur]}
+      </li>
+    ))
+  }
+  <li>
+    <span class="ornek tartisma" aria-hidden="true"></span>
+    Tarihi tartışmalı dönem
+  </li>
+  <li>
+    <span class="ornek hukumdar" aria-hidden="true"></span>
+    Hükümdar
+  </li>
+  <li>
+    <span class="ornek sure" aria-hidden="true"></span>
+    Yıllarca süren olay
+  </li>
+  {
+    nitelikAnahtarlari.map((nitelik) => (
+      <li>
+        <NitelikIsareti nitelik={nitelik} />
+        {nitelikler[nitelik]} olay
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .aciklama {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 22px;
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    color: var(--soluk);
+  }
+  li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ornek {
+    width: 26px;
+    height: 12px;
+    background: var(--soluk);
+    border-radius: 2px;
+  }
+  .ornek.kultur {
+    background: repeating-linear-gradient(135deg, rgba(170, 169, 164, 0.6) 0 4px, rgba(170, 169, 164, 0.28) 4px 7px);
+  }
+  .ornek.egemenlik {
+    background: rgba(170, 169, 164, 0.3);
+    border: 1px solid var(--soluk);
+  }
+  .ornek.tartisma {
+    height: 10px;
+    outline: 1px dashed var(--soluk);
+    outline-offset: 2px;
+  }
+  .ornek.sure {
+    height: 3px;
+    background: var(--yazi);
+  }
+  .ornek.hukumdar {
+    height: 6px;
+    background: var(--yazi);
+  }
+</style>

@@ -29,6 +29,19 @@ Node 22.23.4 veya üstü gerekir.
 2. Tanrı, kahraman ve kent sayfalarındaki `kaynak` satırları bu kayıtlara otomatik bağlanır. Eşleşme `ad`, `digerAdlar` ve `atifAdlari` alanlarıyla yapılır.
 3. `npm test` kuralları denetler.
 
+## Zaman atlası kaydı ekleme
+
+`/kronoloji` sayfasının verisi `src/data/zaman-atlasi/` altındadır: `uygarliklar.json`, `hukumdarlar.json`, `olaylar.json`, `kaynaklar.json`. Alanlar `src/lib/zamanAtlasi/sema.ts` içinde tanımlıdır.
+
+1. Yılları tarihsel yaz: MÖ 1274 için `-1274`, MS 72 için `72`. `0` geçersizdir.
+2. Kesintili bir devlet için `donemler` listesine birden çok dönem ekle.
+3. `kesinlik` tarihin güvenilirliğidir (`kesin`, `yaklasik`, `tartismali`, `geleneksel`). `nitelik` kaydın doğasıdır (`tarihsel`, `tartismali`, `mitolojik`) ve işaretin biçimini belirler.
+4. `kaynakca` satırları `kaynaklar.json` kimliklerini kullanır. Tarihi kaynağıyla karşılaştırdıysan `dogrulama` değerini `dogrulandi` yap.
+5. `baglantilar` site içeriğinin kimliklerini alır: `mitler`, `kentler`, `tanrilar`, `kahramanlar`, `eserler`.
+6. `npm test` kuralları denetler.
+
+Harita eklemek için `document` üzerindeki `zamanatlasi:yil` olayını dinle; `detail.kesit` o yıl var olan kayıtları taşır. Sınırlar için `harita.sinirlar` alanı ayrılmıştır.
+
 ## Sesli anlatım
 
 Sesler Azure AI Speech ile bir kez üretilir ve `public/ses/<slug>/<n>.mp3` olarak repoya eklenir. `0.mp3` kapak, `1.mp3`… kartlardır. Bir kartın ses dosyası yoksa site o kart için ses çalmaz. Hiçbir ses dosyası yoksa ses düğmesi gösterilmez.

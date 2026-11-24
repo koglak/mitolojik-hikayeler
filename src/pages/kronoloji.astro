@@ -1,0 +1,117 @@
+---
+import Temel from '../layouts/Temel.astro';
+import SiteBasligi from '../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+import Aciklama from '../components/zamanAtlasi/Aciklama.astro';
+import Cizelge from '../components/zamanAtlasi/Cizelge.astro';
+import DetayPaneli from '../components/zamanAtlasi/DetayPaneli.astro';
+import EsZamanli from '../components/zamanAtlasi/EsZamanli.astro';
+import Filtreler from '../components/zamanAtlasi/Filtreler.astro';
+import OlayKartlari from '../components/zamanAtlasi/OlayKartlari.astro';
+import YilSecici from '../components/zamanAtlasi/YilSecici.astro';
+import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
+import { atlas } from '../lib/zamanAtlasi/atlas';
+import { katmanAnahtarlari, varsayilanKayit, varsayilanYil } from '../lib/zamanAtlasi/etiketler';
+import { gorunum } from '../lib/zamanAtlasi/sorgu';
+import { atlasBasi, atlasSonu } from '../lib/zamanAtlasi/yil';
+import { kirintiVerisi } from '../lib/yapisalVeri';
+
+const ilkGorunum = gorunum(atlas, {
+  arama: '',
+  bolge: 'tum',
+  katmanlar: new Set(katmanAnahtarlari),
+  bas: atlasBasi,
+  son: atlasSonu,
+});
+const aciklama =
+  'Anadolu, Mezopotamya, Ege, Mısır, İran ve Akdeniz uygarlıkları tek çizelgede. MÖ 3500’den MS 500’e devletler, hükümdarlar, savaşlar ve efsaneler.';
+const yapisalVeri = [kirintiVerisi([{ ad: 'Kronoloji', yol: kronolojiAdresi }])];
+---
+
+<Temel baslik="Antik Dünya Zaman Atlası" aciklama={aciklama} yapisalVeri={yapisalVeri}>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main class="zaman-atlasi" data-zaman-atlasi>
+      <header class="giris">
+        <h1>Antik Dünya Zaman Atlası</h1>
+        <p>Bir yıl seç, o yıl kimlerin var olduğunu gör. Bir devlete, hükümdara ya da olaya dokun, ayrıntısını oku.</p>
+      </header>
+      <Filtreler />
+      <div class="atlas-govdesi">
+        <div class="cizelge-sutunu">
+          <YilSecici yil={varsayilanYil} />
+          <Cizelge atlas={atlas} gorunum={ilkGorunum} yil={varsayilanYil} />
+        </div>
+        <div class="detay-sutunu">
+          <DetayPaneli atlas={atlas} secili={varsayilanKayit} />
+        </div>
+      </div>
+      <Aciklama />
+      <EsZamanli atlas={atlas} yil={varsayilanYil} />
+      <OlayKartlari atlas={atlas} gorunum={ilkGorunum} yil={varsayilanYil} />
+      <p class="veri-notu">
+        Tunç Çağı tarihleri Orta Kronoloji’ye göredir ve yaklaşıktır. Kültürel dönemler siyasi egemenlik anlamına gelmez. Taranmış
+        alanlar, o bölge için henüz kayıt girilmediğini gösterir; o dönemde orada yaşam olmadığı anlamına gelmez. Takvimde sıfır yılı
+        yoktur: MÖ 1’i MS 1 izler.
+      </p>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<script>
+  import '../scripts/zamanAtlasi';
+</script>
+
+<style>
+  .zaman-atlasi {
+    padding-bottom: 60px;
+  }
+  .zaman-atlasi :global([hidden]) {
+    display: none !important;
+  }
+  .giris {
+    padding: 40px 0 26px;
+  }
+  .giris h1 {
+    max-width: 14ch;
+    font: 500 clamp(44px, 7vw, 88px) / 0.95 var(--baslik-font);
+    letter-spacing: -0.03em;
+    margin: 0 0 14px;
+  }
+  .giris p {
+    max-width: 38rem;
+    text-wrap: pretty;
+    margin: 0;
+    color: var(--soluk);
+  }
+  .atlas-govdesi {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 360px;
+    gap: 16px;
+  }
+  .detay-sutunu {
+    position: relative;
+  }
+  .detay-sutunu > :global(aside) {
+    position: absolute;
+    inset: 0;
+  }
+  .veri-notu {
+    max-width: 62rem;
+    margin: 48px 0 0;
+    font-size: 15px;
+    color: var(--soluk);
+    text-wrap: pretty;
+  }
+  @media (max-width: 1099px) {
+    .atlas-govdesi {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0;
+    }
+    .detay-sutunu > :global(aside) {
+      position: fixed;
+      inset: auto 0 0;
+    }
+  }
+</style>

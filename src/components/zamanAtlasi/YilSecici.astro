@@ -1,0 +1,134 @@
+---
+import { atlasDonemleri, hizliDuraklar } from '../../lib/zamanAtlasi/etiketler';
+import { koordinat, yilYaz } from '../../lib/zamanAtlasi/yil';
+
+interface Props {
+  yil: number;
+}
+
+const { yil } = Astro.props;
+const [{ bas, son }] = atlasDonemleri;
+const adimlar = [
+  { adim: -10, isaret: '«', ad: '10 yıl geri' },
+  { adim: -1, isaret: '‹', ad: '1 yıl geri' },
+  { adim: 1, isaret: '›', ad: '1 yıl ileri' },
+  { adim: 10, isaret: '»', ad: '10 yıl ileri' },
+];
+---
+
+<section class="yil-secici" aria-label="Yıl seçimi">
+  <div class="yil-satiri">
+    <output class="yil" data-atlas-yil for="atlas-surgu">{yilYaz(yil)}</output>
+    <div class="adimlar">
+      {
+        adimlar.map(({ adim, isaret, ad }) => (
+          <button type="button" data-adim={adim} aria-label={ad} title={ad}>
+            {isaret}
+          </button>
+        ))
+      }
+    </div>
+    <div class="duraklar">
+      {
+        hizliDuraklar.map(({ ad, kayit, yil: durakYili }) => (
+          <button type="button" data-sec={kayit} title={yilYaz(durakYili)}>
+            {ad}
+          </button>
+        ))
+      }
+    </div>
+  </div>
+  <input
+    id="atlas-surgu"
+    type="range"
+    data-atlas-surgu
+    min={koordinat(bas)}
+    max={koordinat(son)}
+    value={koordinat(yil)}
+    aria-label="Yıl"
+    aria-valuetext={yilYaz(yil)}
+  />
+</section>
+
+<style>
+  .yil-secici {
+    padding: 14px 20px 10px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px 4px 0 0;
+    border-bottom: 0;
+  }
+  .yil-satiri {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 20px;
+  }
+  .yil {
+    min-width: 4.4em;
+    white-space: nowrap;
+    font: 500 40px/1.1 var(--baslik-font);
+    color: var(--vurgu);
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+  .adimlar {
+    display: flex;
+    gap: 6px;
+  }
+  .adimlar button {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    line-height: 1;
+    background: none;
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .adimlar button:hover {
+    border-color: var(--vurgu);
+  }
+  .duraklar {
+    display: flex;
+    gap: 4px 18px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .duraklar button {
+    flex: none;
+    min-height: 44px;
+    padding: 0;
+    font-size: 15px;
+    color: var(--soluk);
+    background: none;
+    border: 0;
+  }
+  .duraklar button:hover {
+    color: var(--vurgu);
+  }
+  .duraklar button:focus-visible {
+    outline-offset: -2px;
+  }
+  input {
+    display: block;
+    width: 100%;
+    height: 36px;
+    margin: 4px 0 0;
+    accent-color: var(--vurgu);
+  }
+  @media (max-width: 620px) {
+    .yil-secici {
+      padding: 12px 14px 6px;
+    }
+    .yil-satiri {
+      column-gap: 10px;
+    }
+    .yil {
+      min-width: 0;
+      flex: 1;
+      font-size: 31px;
+    }
+    .duraklar {
+      width: 100%;
+    }
+  }
+</style>

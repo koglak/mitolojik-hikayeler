@@ -1,0 +1,155 @@
+---
+import { atlasBolgeAnahtarlari, atlasBolgeleri } from '../../lib/zamanAtlasi/bolgeler';
+import { atlasDonemleri, katmanAnahtarlari, katmanlar } from '../../lib/zamanAtlasi/etiketler';
+import { aralikYaz } from '../../lib/zamanAtlasi/yil';
+---
+
+<section class="filtreler" aria-label="Süzgeçler">
+  <div class="dugmeler donemler" role="group" aria-label="Dönem">
+    {
+      atlasDonemleri.map(({ kimlik, ad, bas, son }, sira) => (
+        <button type="button" data-donem={kimlik} aria-pressed={String(sira === 0)} title={aralikYaz(bas, son)}>
+          {ad}
+        </button>
+      ))
+    }
+  </div>
+  <div class="alanlar">
+    <label>
+      <span>Ara</span>
+      <input type="search" data-atlas-ara placeholder="Hitit, Kroisos, Kadeş..." autocomplete="off" />
+    </label>
+    <label>
+      <span>Bölge</span>
+      <select data-atlas-bolge>
+        <option value="tum">Tüm bölgeler</option>
+        {atlasBolgeAnahtarlari.map((bolge) => <option value={bolge}>{atlasBolgeleri[bolge].ad}</option>)}
+      </select>
+    </label>
+  </div>
+  <div class="dugmeler katmanlar" role="group" aria-label="Gösterilen kayıtlar">
+    {
+      katmanAnahtarlari.map((katman) => (
+        <button type="button" class="katman" data-katman={katman} aria-pressed="true">
+          {katmanlar[katman]}
+        </button>
+      ))
+    }
+    <p class="sonuc" data-atlas-sonuc role="status"></p>
+  </div>
+</section>
+
+<style>
+  .filtreler {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 14px 24px;
+    align-items: end;
+    margin-bottom: 18px;
+  }
+  .dugmeler {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .donemler {
+    align-self: end;
+  }
+  .katmanlar {
+    grid-column: 1 / -1;
+    align-items: center;
+  }
+  button {
+    min-height: 44px;
+    padding: 8px 16px;
+    font-size: 15px;
+    color: var(--soluk);
+    background: none;
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  button:hover {
+    border-color: var(--vurgu);
+    color: var(--yazi);
+  }
+  button[aria-pressed='true'] {
+    color: var(--zemin);
+    background: var(--vurgu);
+    border-color: var(--vurgu);
+    font-weight: 500;
+  }
+  .katman[aria-pressed='true'] {
+    color: var(--yazi);
+    background: var(--yuzey-2);
+    border-color: color-mix(in srgb, var(--vurgu) 60%, transparent);
+    font-weight: 400;
+  }
+  .katman::before {
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 9px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+  }
+  .katman[aria-pressed='true']::before {
+    background: var(--vurgu);
+    border-color: var(--vurgu);
+  }
+  .alanlar {
+    display: flex;
+    gap: 12px;
+  }
+  .alanlar span {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 13px;
+    color: var(--soluk);
+  }
+  input,
+  select {
+    width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+    font: 400 16px var(--govde-font);
+    color: var(--yazi);
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  select:focus-visible {
+    outline: 2px solid var(--vurgu);
+    outline-offset: 4px;
+  }
+  label:first-child {
+    width: 260px;
+  }
+  .sonuc {
+    flex: none;
+    margin: 0 0 0 auto;
+    font-size: 14px;
+    color: var(--soluk);
+  }
+  @media (max-width: 1099px) {
+    .filtreler {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .alanlar label {
+      flex: 1;
+      width: auto;
+    }
+  }
+  @media (max-width: 620px) {
+    .dugmeler {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      margin: 0 -18px;
+      padding: 4px 18px;
+      scrollbar-width: none;
+    }
+    .dugmeler button {
+      flex: none;
+    }
+  }
+</style>

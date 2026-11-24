@@ -1,0 +1,5056 @@
+[
+  {
+    "kimlik": "uruk-yazi",
+    "ad": "Uruk’ta erken yazı",
+    "tur": "kultur",
+    "uygarlik": "uruk-donemi",
+    "nitelik": "tarihsel",
+    "yer": "Uruk",
+    "ozet": "Uruk tabletleri, bilinen en eski yazı örnekleri arasındadır.",
+    "donemler": [
+      {
+        "bas": -3200,
+        "son": -3200,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "sumer-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "met"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "misirin-birlesmesi",
+    "ad": "Mısır’ın birleşmesi",
+    "tur": "siyasi",
+    "uygarlik": "erken-hanedanlar",
+    "nitelik": "tarihsel",
+    "ozet": "Yukarı ve Aşağı Mısır’ın tek krallıkta birleşmesi; Narmer paletiyle simgelenir.",
+    "donemler": [
+      {
+        "bas": -3100,
+        "son": -3100,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "gize-piramidi",
+    "ad": "Büyük Gize Piramidi",
+    "tur": "kultur",
+    "uygarlik": "eski-krallik",
+    "nitelik": "tarihsel",
+    "yer": "Gize",
+    "ozet": "Firavun Khufu’nun mezarı olarak yapılan piramit.",
+    "donemler": [
+      {
+        "bas": -2560,
+        "son": -2560,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "akbabalar-steli",
+    "ad": "Lagaş–Umma savaşı",
+    "tur": "savas",
+    "uygarlik": "sumer-kentleri",
+    "nitelik": "tarihsel",
+    "yer": "Güney Mezopotamya",
+    "ozet": "Eannatum’un Umma’ya karşı zaferi. Akbabalar Steli, tarihin en eski savaş anıtlarındandır.",
+    "donemler": [
+      {
+        "bas": -2450,
+        "son": -2450,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "akad-kurulusu",
+    "ad": "Akad İmparatorluğu’nun kuruluşu",
+    "tur": "siyasi",
+    "uygarlik": "akad",
+    "nitelik": "tarihsel",
+    "ozet": "Sargon’un Sümer kentlerini tek yönetim altında toplaması.",
+    "donemler": [
+      {
+        "bas": -2334,
+        "son": -2334,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "sumer-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "akad-cokusu",
+    "ad": "Akad İmparatorluğu’nun çöküşü",
+    "tur": "siyasi",
+    "uygarlik": "akad",
+    "nitelik": "tarihsel",
+    "ozet": "İmparatorluk Guti akınları ve iç çözülmeyle dağıldı.",
+    "donemler": [
+      {
+        "bas": -2154,
+        "son": -2154,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ur-dususu",
+    "ad": "Ur’un düşüşü",
+    "tur": "savas",
+    "uygarlik": "ur-iii",
+    "nitelik": "tarihsel",
+    "yer": "Ur",
+    "ozet": "Elam saldırısı III. Ur Hanedanı’na son verdi. Yıkım Sümer ağıtlarında anlatılır.",
+    "donemler": [
+      {
+        "bas": -2004,
+        "son": -2004,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "elam"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "potts-elam"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "mari-yikimi",
+    "ad": "Mari’nin yıkılışı",
+    "tur": "savas",
+    "uygarlik": "eski-babil",
+    "nitelik": "tarihsel",
+    "yer": "Mari",
+    "ozet": "Hammurabi Mari’yi aldı, kısa süre sonra surlarını yıktırdı.",
+    "donemler": [
+      {
+        "bas": -1760,
+        "son": -1760,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "hammurabi-yasalari",
+    "ad": "Hammurabi yasaları",
+    "tur": "kultur",
+    "uygarlik": "eski-babil",
+    "nitelik": "tarihsel",
+    "yer": "Babil",
+    "ozet": "Hammurabi’nin saltanatının sonlarına doğru taşa yazdırılan hüküm derlemesi.",
+    "donemler": [
+      {
+        "bas": -1750,
+        "son": -1750,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "anitta-hattusa",
+    "ad": "Anitta’nın Hattuşa’yı yakması",
+    "tur": "savas",
+    "uygarlik": "asur-ticaret-kolonileri",
+    "nitelik": "tarihsel",
+    "yer": "Hattuşa",
+    "ozet": "Anitta kenti yıktı ve yeniden iskân edecek olanı lanetledi.",
+    "donemler": [
+      {
+        "bas": -1730,
+        "son": -1730,
+        "kesinlik": "tartismali",
+        "not": "Yıl, kronolojiye göre değişir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hattiler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "hitit-kurulusu",
+    "ad": "Hitit Krallığı’nın oluşumu",
+    "tur": "siyasi",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "yer": "Hattuşa",
+    "ozet": "Hattuşa’yı başkent yapan krallığın ortaya çıkışı.",
+    "donemler": [
+      {
+        "bas": -1650,
+        "son": -1650,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hattiler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "thera-patlamasi",
+    "ad": "Thera patlaması",
+    "tur": "kultur",
+    "uygarlik": "minos",
+    "nitelik": "tartismali",
+    "yer": "Santorini",
+    "ozet": "Santorini yanardağının patlaması. Radyokarbon 17.–16. yüzyılı, geleneksel arkeoloji yaklaşık MÖ 1500’ü işaret eder.",
+    "donemler": [
+      {
+        "bas": -1600,
+        "son": -1600,
+        "kesinlik": "tartismali",
+        "not": "Tarihi tartışmalıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "cline-ege"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "babil-hitit-akini",
+    "ad": "Babil’in Hititlerce yağmalanması",
+    "tur": "savas",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "yer": "Babil",
+    "ozet": "I. Murşili’nin akını Babil’in ilk hanedanına son verdi.",
+    "donemler": [
+      {
+        "bas": -1595,
+        "son": -1595,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji; Kısa Kronoloji’de MÖ 1531."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "eski-babil"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "hyksoslarin-cikarilmasi",
+    "ad": "Hyksosların çıkarılması",
+    "tur": "savas",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "yer": "Avaris",
+    "ozet": "I. Ahmose Avaris’i alarak Mısır’ı birleştirdi.",
+    "donemler": [
+      {
+        "bas": -1540,
+        "son": -1540,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "telipinu-fermani",
+    "ad": "Telipinu Fermanı",
+    "tur": "siyasi",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "Tahta geçişi kurala bağlayan ve cinayetleri yargıya taşıyan metin.",
+    "donemler": [
+      {
+        "bas": -1520,
+        "son": -1520,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "megiddo-savasi",
+    "ad": "Megiddo Savaşı",
+    "tur": "savas",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "yer": "Megiddo",
+    "ozet": "III. Tutmosis Kenan ve Suriye koalisyonunu yendi. Ayrıntısı kaydedilmiş ilk savaşlardandır.",
+    "donemler": [
+      {
+        "bas": -1457,
+        "son": -1457,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "mitanni"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "arzava-seferi",
+    "ad": "Arzava’nın fethi",
+    "tur": "savas",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "yer": "Batı Anadolu",
+    "ozet": "II. Murşili Arzava’yı yenip küçük krallıklara böldü.",
+    "donemler": [
+      {
+        "bas": -1318,
+        "son": -1318,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "arzava"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "alaksandu-antlasmasi",
+    "ad": "Alaksandu Antlaşması",
+    "tur": "antlasma",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "yer": "Viluşa",
+    "ozet": "II. Muvatalli ile Viluşa kralı Alaksandu arasındaki antlaşma. Viluşa’nın Troya olduğu yaygın kabul görür.",
+    "donemler": [
+      {
+        "bas": -1280,
+        "son": -1280,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "troya-vi-viia"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "latacz"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "truva"
+      ]
+    }
+  },
+  {
+    "kimlik": "kades-savasi",
+    "ad": "Kadeş Savaşı",
+    "tur": "savas",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "yer": "Kadeş, Suriye",
+    "ozet": "Hititler ve Mısır, Suriye üzerindeki nüfuz mücadelesinde karşı karşıya geldi.",
+    "donemler": [
+      {
+        "bas": -1274,
+        "son": -1274,
+        "kesinlik": "yaklasik",
+        "not": "Mısır kronolojisine göre."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "kades-antlasmasi",
+    "ad": "Kadeş Barış Antlaşması",
+    "tur": "antlasma",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "ozet": "III. Hattuşili ile II. Ramses arasındaki diplomatik antlaşma.",
+    "donemler": [
+      {
+        "bas": -1259,
+        "son": -1259,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "nihriya-savasi",
+    "ad": "Nihriya Savaşı",
+    "tur": "savas",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "yer": "Yukarı Mezopotamya",
+    "ozet": "Asur, IV. Tudhaliya’nın ordusunu yendi.",
+    "donemler": [
+      {
+        "bas": -1237,
+        "son": -1237,
+        "kesinlik": "tartismali",
+        "not": "MÖ 1245–1230 arası önerilir; Asur kralının kimliği de tartışılır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "orta-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "miken-saraylari",
+    "ad": "Miken saraylarının yıkılışı",
+    "tur": "siyasi",
+    "uygarlik": "miken",
+    "nitelik": "tarihsel",
+    "ozet": "Pylos, Mykenai ve Tiryns saraylarının yıkılmasıyla saray düzeni sona erdi.",
+    "donemler": [
+      {
+        "bas": -1200,
+        "son": -1200,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "cline-ege"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "mykene",
+        "pylos",
+        "tiryns"
+      ]
+    }
+  },
+  {
+    "kimlik": "troya-savasi",
+    "ad": "Troya Savaşı",
+    "tur": "anlati",
+    "uygarlik": "troya-vi-viia",
+    "nitelik": "mitolojik",
+    "yer": "Hisarlık",
+    "ozet": "Geleneksel tarihlendirme; destandaki savaşın tarihsel gerçekliği kesin değildir.",
+    "donemler": [
+      {
+        "bas": -1184,
+        "son": -1184,
+        "kesinlik": "geleneksel",
+        "not": "Eratosthenes’e atfedilen hesap."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "miken"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ilyada"
+      },
+      {
+        "kaynak": "latacz"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "truva"
+      ],
+      "mitler": [
+        "truva-ati"
+      ],
+      "kahramanlar": [
+        "akhilleus",
+        "hektor"
+      ],
+      "eserler": [
+        "homeros/ilyada"
+      ]
+    }
+  },
+  {
+    "kimlik": "hitit-cokusu",
+    "ad": "Hitit merkezi yönetiminin çöküşü",
+    "tur": "siyasi",
+    "uygarlik": "hitit",
+    "nitelik": "tarihsel",
+    "yer": "Hattuşa",
+    "ozet": "Hattuşa’nın terk edilmesi ve merkezi yönetimin dağılması.",
+    "donemler": [
+      {
+        "bas": -1180,
+        "son": -1180,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "gec-hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "bryce-gec-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "deniz-kavimleri",
+    "ad": "Deniz Kavimleriyle savaş",
+    "tur": "savas",
+    "uygarlik": "yeni-krallik",
+    "nitelik": "tarihsel",
+    "yer": "Nil Deltası",
+    "ozet": "III. Ramses, saltanatının sekizinci yılında Deniz Kavimlerini durdurdu.",
+    "donemler": [
+      {
+        "bas": -1177,
+        "son": -1177,
+        "kesinlik": "yaklasik",
+        "not": "Yıl, kullanılan Mısır kronolojisine göre birkaç yıl değişir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kassitlerin-sonu",
+    "ad": "Babil’in Elamlılarca alınması",
+    "tur": "savas",
+    "uygarlik": "kassit-babil",
+    "nitelik": "tarihsel",
+    "yer": "Babil",
+    "ozet": "Elam saldırısı Kassit hanedanına son verdi.",
+    "donemler": [
+      {
+        "bas": -1155,
+        "son": -1155,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "elam"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "potts-elam"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "heraklesogullari",
+    "ad": "Heraklesoğullarının dönüşü",
+    "tur": "anlati",
+    "uygarlik": "miken",
+    "nitelik": "mitolojik",
+    "yer": "Peloponnesos",
+    "ozet": "Dorların Peloponnesos’a gelişini anlatan gelenek. Thukydides bunu Troya’dan seksen yıl sonraya koyar.",
+    "donemler": [
+      {
+        "bas": -1104,
+        "son": -1104,
+        "kesinlik": "geleneksel",
+        "not": "Troya’nın düşüşünden hesaplanan geleneksel yıl."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "thukydides",
+        "yer": "1.12"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kahramanlar": [
+        "herakles"
+      ],
+      "eserler": [
+        "thukydides/peloponnesos-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "karkar-savasi",
+    "ad": "Karkar Savaşı",
+    "tur": "savas",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "yer": "Orontes vadisi",
+    "ozet": "III. Şalmaneser, Şam ve Hama öncülüğündeki koalisyonla savaştı.",
+    "donemler": [
+      {
+        "bas": -853,
+        "son": -853,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kartaca-kurulusu",
+    "ad": "Kartaca’nın kuruluşu",
+    "tur": "anlati",
+    "uygarlik": "kartaca",
+    "nitelik": "mitolojik",
+    "yer": "Kartaca",
+    "ozet": "Tyros’tan kaçan Dido’nun kenti kurduğu anlatılır.",
+    "donemler": [
+      {
+        "bas": -814,
+        "son": -814,
+        "kesinlik": "geleneksel",
+        "not": "Timaios’a dayanan geleneksel yıl."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "vergilius/aeneis"
+      ]
+    }
+  },
+  {
+    "kimlik": "ilk-olimpiyatlar",
+    "ad": "İlk Olimpiyatlar",
+    "tur": "kultur",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tartismali",
+    "yer": "Olympia",
+    "ozet": "Antik yazarların verdiği geleneksel başlangıç. Olympia’daki kutsal alan daha eskidir.",
+    "donemler": [
+      {
+        "bas": -776,
+        "son": -776,
+        "kesinlik": "geleneksel"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "pausanias",
+        "yer": "5.8"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "olympia"
+      ],
+      "eserler": [
+        "pausanias/yunanistanin-tasviri"
+      ]
+    }
+  },
+  {
+    "kimlik": "roma-kurulusu",
+    "ad": "Roma’nın kuruluşu",
+    "tur": "anlati",
+    "uygarlik": "roma-kralligi",
+    "nitelik": "mitolojik",
+    "yer": "Roma",
+    "ozet": "Romulus ve Remus anlatısı. Yıl, Varro’nun hesabıdır.",
+    "donemler": [
+      {
+        "bas": -753,
+        "son": -753,
+        "kesinlik": "geleneksel"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "1.6–7"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "homeros-destanlari",
+    "ad": "Homeros destanları",
+    "tur": "kultur",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tartismali",
+    "yer": "İyonya",
+    "ozet": "İlyada ve Odysseia’nın biçimlendiği dönem. Tarihleri ve tek yazarlığı tartışılır.",
+    "donemler": [
+      {
+        "bas": -750,
+        "son": -700,
+        "kesinlik": "tartismali"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "iyon-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ilyada"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "homeros/ilyada",
+        "homeros/odysseia"
+      ]
+    }
+  },
+  {
+    "kimlik": "kustaspi-savasi",
+    "ad": "Urartu’nun Asur’a yenilmesi",
+    "tur": "savas",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "yer": "Kuzey Suriye sınırı",
+    "ozet": "III. Tiglat-pileser, Sarduri ve bağlaşıklarını Kommagene bölgesinde yendi.",
+    "donemler": [
+      {
+        "bas": -743,
+        "son": -743,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "samaria-dususu",
+    "ad": "Samaria’nın düşüşü",
+    "tur": "savas",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "yer": "Samaria",
+    "ozet": "Asur, İsrail Krallığı’na son verdi.",
+    "donemler": [
+      {
+        "bas": -722,
+        "son": -722,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "urartu-seferi",
+    "ad": "II. Sargon’un Urartu seferi",
+    "tur": "savas",
+    "uygarlik": "urartu",
+    "nitelik": "tarihsel",
+    "ozet": "Asur kralının sekizinci seferi; Musasir tapınağının yağmalanmasıyla anılır.",
+    "donemler": [
+      {
+        "bas": -714,
+        "son": -714,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kudus-kusatmasi",
+    "ad": "Sanherib’in Kudüs kuşatması",
+    "tur": "savas",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "yer": "Kudüs",
+    "ozet": "Asur Yahuda’yı yağmaladı, Kudüs düşmedi.",
+    "donemler": [
+      {
+        "bas": -701,
+        "son": -701,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kimmer-akini",
+    "ad": "Kimmerlerin Frigya’ya akını",
+    "tur": "savas",
+    "uygarlik": "frigya",
+    "nitelik": "tartismali",
+    "yer": "Gordion",
+    "ozet": "Yunan geleneğinde Midas’ın sonunu getiren akın. Gordion’daki büyük yangın bugün yaklaşık MÖ 800’e tarihlenir ve bu akından ayrılır.",
+    "donemler": [
+      {
+        "bas": -696,
+        "son": -696,
+        "kesinlik": "tartismali",
+        "not": "MÖ 696/695 geleneksel yıldır; MÖ 679 ya da 676 da önerilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "lidya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "1.3.21"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "gordion"
+      ],
+      "kahramanlar": [
+        "midas"
+      ]
+    }
+  },
+  {
+    "kimlik": "gygesin-olumu",
+    "ad": "Gyges’in ölümü",
+    "tur": "savas",
+    "uygarlik": "lidya",
+    "nitelik": "tarihsel",
+    "yer": "Sardes",
+    "ozet": "Kimmerler Sardes’e saldırdı, Gyges savaşta öldü.",
+    "donemler": [
+      {
+        "bas": -644,
+        "son": -644,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "kuhrt"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "1.15"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ]
+    }
+  },
+  {
+    "kimlik": "ilk-sikkeler",
+    "ad": "İlk sikkeler",
+    "tur": "kultur",
+    "uygarlik": "lidya",
+    "nitelik": "tarihsel",
+    "ozet": "Batı Anadolu’da elektron sikkelerin basılmaya başlaması.",
+    "donemler": [
+      {
+        "bas": -630,
+        "son": -630,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "iyon-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "1.94"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes",
+        "efes"
+      ]
+    }
+  },
+  {
+    "kimlik": "drakon-yasalari",
+    "ad": "Drakon yasaları",
+    "tur": "siyasi",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Atina",
+    "ozet": "Atina’nın ilk yazılı yasaları.",
+    "donemler": [
+      {
+        "bas": -621,
+        "son": -621,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ]
+    }
+  },
+  {
+    "kimlik": "ninova-dususu",
+    "ad": "Ninova’nın düşüşü",
+    "tur": "savas",
+    "uygarlik": "yeni-asur",
+    "nitelik": "tarihsel",
+    "yer": "Ninova",
+    "ozet": "Medler ve Babilliler Asur başkentini aldı.",
+    "donemler": [
+      {
+        "bas": -612,
+        "son": -612,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "medler",
+      "yeni-babil"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "karkamis-savasi",
+    "ad": "Karkamış Savaşı",
+    "tur": "savas",
+    "uygarlik": "yeni-babil",
+    "nitelik": "tarihsel",
+    "yer": "Karkamış",
+    "ozet": "Nebukadnezar Mısır ordusunu yendi.",
+    "donemler": [
+      {
+        "bas": -605,
+        "son": -605,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "gec-donem-misir"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "karkamis"
+      ]
+    }
+  },
+  {
+    "kimlik": "solon-reformlari",
+    "ad": "Solon reformları",
+    "tur": "siyasi",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Atina",
+    "ozet": "Borç köleliğini kaldıran ve yurttaşları gelire göre sınıflayan düzenlemeler.",
+    "donemler": [
+      {
+        "bas": -594,
+        "son": -594,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ],
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "kudus-dususu",
+    "ad": "Kudüs’ün düşüşü",
+    "tur": "savas",
+    "uygarlik": "yeni-babil",
+    "nitelik": "tarihsel",
+    "yer": "Kudüs",
+    "ozet": "Nebukadnezar kenti ve tapınağı yıktı, halkın bir bölümünü sürdü.",
+    "donemler": [
+      {
+        "bas": -587,
+        "son": -587,
+        "kesinlik": "yaklasik",
+        "not": "MÖ 586 da verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "halys-savasi",
+    "ad": "Halys Savaşı ve tutulma",
+    "tur": "savas",
+    "uygarlik": "lidya",
+    "nitelik": "tartismali",
+    "yer": "Kızılırmak",
+    "ozet": "Herodotos’un anlatısı MÖ 585 tutulmasıyla ilişkilendirilir.",
+    "donemler": [
+      {
+        "bas": -585,
+        "son": -585,
+        "kesinlik": "tartismali",
+        "not": "Tutulmanın hangi yıla ait olduğu tartışılır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "medler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.74"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "efes-artemision",
+    "ad": "Efes Artemis Tapınağı’nın yapımı",
+    "tur": "kultur",
+    "uygarlik": "iyon-kentleri",
+    "nitelik": "tarihsel",
+    "yer": "Efes",
+    "ozet": "Kroisos’un da sütun adadığı büyük tapınak.",
+    "donemler": [
+      {
+        "bas": -550,
+        "son": -550,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "lidya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.92"
+      },
+      {
+        "kaynak": "plinius",
+        "yer": "36"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes"
+      ],
+      "tanrilar": [
+        "artemis"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "sardes-dususu",
+    "ad": "Sardes’in Perslerce alınması",
+    "tur": "savas",
+    "uygarlik": "lidya",
+    "nitelik": "tarihsel",
+    "yer": "Sardes",
+    "ozet": "Kyros, Kroisos’u yenerek Lydia Krallığı’na son verdi.",
+    "donemler": [
+      {
+        "bas": -546,
+        "son": -546,
+        "kesinlik": "yaklasik",
+        "not": "MÖ 547 de önerilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler",
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.79–86"
+      },
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "ksanthos-dususu",
+    "ad": "Ksanthos’un düşüşü",
+    "tur": "savas",
+    "uygarlik": "likya",
+    "nitelik": "tarihsel",
+    "yer": "Ksanthos",
+    "ozet": "Harpagos’un kuşatmasında Ksanthosluların kenti yakıp ölümüne savaştığı anlatılır.",
+    "donemler": [
+      {
+        "bas": -540,
+        "son": -540,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler",
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.176"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "ksanthos"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "babil-dususu",
+    "ad": "Babil’in Perslerce alınması",
+    "tur": "siyasi",
+    "uygarlik": "yeni-babil",
+    "nitelik": "tarihsel",
+    "yer": "Babil",
+    "ozet": "Kyros’un Babil’e girmesiyle Yeni Babil devleti sona erdi.",
+    "donemler": [
+      {
+        "bas": -539,
+        "son": -539,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "briant"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "1.188–191"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "misirin-persler-fethi",
+    "ad": "Mısır’ın Perslerce fethi",
+    "tur": "savas",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "yer": "Pelusion",
+    "ozet": "Kambyses Pelusion’da kazanıp Mısır’ı aldı.",
+    "donemler": [
+      {
+        "bas": -525,
+        "son": -525,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "gec-donem-misir"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "3.1–16"
+      },
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "behistun",
+    "ad": "Behistun yazıtı",
+    "tur": "kultur",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "yer": "Behistun",
+    "ozet": "I. Dareios’un tahta çıkışını anlatan üç dilli kaya yazıtı.",
+    "donemler": [
+      {
+        "bas": -520,
+        "son": -520,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "cumhuriyet-kurulusu",
+    "ad": "Roma Cumhuriyeti’nin kuruluşu",
+    "tur": "siyasi",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tartismali",
+    "yer": "Roma",
+    "ozet": "Geleneğe göre son kralın kovulması.",
+    "donemler": [
+      {
+        "bas": -509,
+        "son": -509,
+        "kesinlik": "geleneksel"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-kralligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "1.57–2.2"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kleisthenes",
+    "ad": "Kleisthenes reformları",
+    "tur": "siyasi",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Atina",
+    "ozet": "Atina demokrasisinin temelini atan düzenlemeler.",
+    "donemler": [
+      {
+        "bas": -508,
+        "son": -508,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "5.66–69"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ]
+    }
+  },
+  {
+    "kimlik": "iyon-ayaklanmasi",
+    "ad": "İyon Ayaklanması",
+    "tur": "savas",
+    "uygarlik": "iyon-kentleri",
+    "nitelik": "tarihsel",
+    "yer": "Batı Anadolu",
+    "ozet": "İyon kentlerinin Pers yönetimine karşı isyanı. Sardes yakıldı, sonunda Miletos yıkıldı.",
+    "donemler": [
+      {
+        "bas": -499,
+        "son": -494,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "5.28–6.32"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "milet",
+        "sardes"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "lade-savasi",
+    "ad": "Lade Deniz Savaşı ve Miletos’un düşüşü",
+    "tur": "savas",
+    "uygarlik": "iyon-kentleri",
+    "nitelik": "tarihsel",
+    "yer": "Lade",
+    "ozet": "İyon donanmasının yenilgisi ayaklanmayı bitirdi.",
+    "donemler": [
+      {
+        "bas": -494,
+        "son": -494,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "6.6–21"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "milet"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "marathon-savasi",
+    "ad": "Marathon Savaşı",
+    "tur": "savas",
+    "uygarlik": "arkaik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Marathon",
+    "ozet": "Atinalılar ve Plataialılar Pers ordusunu yendi.",
+    "donemler": [
+      {
+        "bas": -490,
+        "son": -490,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "6.102–117"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "thermopylai",
+    "ad": "Thermopylai Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Thermopylai",
+    "ozet": "Leonidas ve askerleri Kserkses’in ordusunu geçitte oyaladı.",
+    "donemler": [
+      {
+        "bas": -480,
+        "son": -480,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "7.201–233"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sparta"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "salamis",
+    "ad": "Salamis Deniz Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Salamis",
+    "ozet": "Yunan donanması Persleri yendi. Halikarnassos kraliçesi I. Artemisia Pers safındaydı.",
+    "donemler": [
+      {
+        "bas": -480,
+        "son": -480,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler",
+      "karia"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "8.40–96"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "halikarnassos"
+      ],
+      "eserler": [
+        "aiskhylos/persler",
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "plataia",
+    "ad": "Plataia Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Plataia",
+    "ozet": "Pers kara ordusunun Yunanistan’daki son yenilgisi.",
+    "donemler": [
+      {
+        "bas": -479,
+        "son": -479,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "9.25–85"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "mykale",
+    "ad": "Mykale Savaşı",
+    "tur": "savas",
+    "uygarlik": "iyon-kentleri",
+    "nitelik": "tarihsel",
+    "yer": "Mykale",
+    "ozet": "Yunanların Anadolu kıyısındaki zaferi İyon kentlerini Pers yönetiminden kopardı.",
+    "donemler": [
+      {
+        "bas": -479,
+        "son": -479,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan",
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "9.90–106"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "panionion",
+        "priene"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "delos-birligi",
+    "ad": "Delos Birliği",
+    "tur": "antlasma",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Delos",
+    "ozet": "Atina öncülüğünde Perslere karşı kurulan deniz birliği.",
+    "donemler": [
+      {
+        "bas": -478,
+        "son": -478,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "iyon-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "thukydides",
+        "yer": "1.94–97"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "delos",
+        "atina"
+      ],
+      "eserler": [
+        "thukydides/peloponnesos-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "eurymedon",
+    "ad": "Eurymedon Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Köprüçay",
+    "ozet": "Kimon, Köprüçay ağzında Pers donanmasını ve ordusunu yendi.",
+    "donemler": [
+      {
+        "bas": -466,
+        "son": -466,
+        "kesinlik": "yaklasik",
+        "not": "MÖ 469–466 arası verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "thukydides",
+        "yer": "1.100"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "aspendos"
+      ],
+      "eserler": [
+        "thukydides/peloponnesos-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kallias-barisi",
+    "ad": "Kallias Barışı",
+    "tur": "antlasma",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tartismali",
+    "ozet": "Atina ile Persler arasında yapıldığı söylenen barış. Antik çağda da kuşkuyla karşılanmıştır.",
+    "donemler": [
+      {
+        "bas": -449,
+        "son": -449,
+        "kesinlik": "tartismali"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "diodoros",
+        "yer": "12.4"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "diodoros/tarih-kitapligi"
+      ]
+    }
+  },
+  {
+    "kimlik": "parthenon",
+    "ad": "Parthenon’un yapımı",
+    "tur": "kultur",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Atina",
+    "ozet": "Perikles döneminde Akropolis’te yükselen Athena tapınağı.",
+    "donemler": [
+      {
+        "bas": -447,
+        "son": -432,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ],
+      "tanrilar": [
+        "athena"
+      ],
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "otuz-yil-barisi",
+    "ad": "Otuz Yıl Barışı",
+    "tur": "antlasma",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "ozet": "Atina ile Sparta arasında yapılan, on dört yıl süren barış.",
+    "donemler": [
+      {
+        "bas": -446,
+        "son": -446,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "thukydides",
+        "yer": "1.115"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "sparta"
+      ],
+      "eserler": [
+        "thukydides/peloponnesos-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "peloponnesos-savasi",
+    "ad": "Peloponnesos Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Yunanistan ve Ege",
+    "ozet": "Atina ve Sparta öncülüğündeki birlikler arasındaki savaş. Atina’nın teslim olmasıyla bitti.",
+    "donemler": [
+      {
+        "bas": -431,
+        "son": -404,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "iyon-kentleri",
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "thukydides"
+      },
+      {
+        "kaynak": "hellenika",
+        "yer": "1–2"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "sparta"
+      ],
+      "eserler": [
+        "thukydides/peloponnesos-savasi",
+        "ksenophon/hellenika"
+      ]
+    }
+  },
+  {
+    "kimlik": "nikias-barisi",
+    "ad": "Nikias Barışı",
+    "tur": "antlasma",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "ozet": "Savaşın ilk evresini bitiren, kısa ömürlü barış.",
+    "donemler": [
+      {
+        "bas": -421,
+        "son": -421,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "thukydides",
+        "yer": "5.18–19"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "sparta"
+      ],
+      "eserler": [
+        "thukydides/peloponnesos-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "sicilya-seferi",
+    "ad": "Sicilya Seferi",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Syrakusai",
+    "ozet": "Atina’nın Syrakusai önünde yok olan büyük seferi.",
+    "donemler": [
+      {
+        "bas": -415,
+        "son": -413,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "thukydides",
+        "yer": "6–7"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ],
+      "eserler": [
+        "thukydides/peloponnesos-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "aigospotamoi",
+    "ad": "Aigospotamoi Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Çanakkale Boğazı",
+    "ozet": "Lysandros Atina donanmasını Çanakkale Boğazı’nda yok etti.",
+    "donemler": [
+      {
+        "bas": -405,
+        "son": -405,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "hellenika",
+        "yer": "2.1.20–30"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "lampsakos"
+      ],
+      "eserler": [
+        "ksenophon/hellenika"
+      ]
+    }
+  },
+  {
+    "kimlik": "kunaksa",
+    "ad": "Kunaksa Savaşı ve Onbinler’in dönüşü",
+    "tur": "savas",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "yer": "Mezopotamya ve Anadolu",
+    "ozet": "Genç Kyros öldü; Yunan paralı askerleri Anadolu’yu aşarak Karadeniz’e indi.",
+    "donemler": [
+      {
+        "bas": -401,
+        "son": -399,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "anabasis"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "ksenophon/anabasis"
+      ]
+    }
+  },
+  {
+    "kimlik": "sokrates",
+    "ad": "Sokrates’in ölümü",
+    "tur": "kultur",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Atina",
+    "ozet": "Atina mahkemesinin ölüm cezası verdiği filozof baldıran içti.",
+    "donemler": [
+      {
+        "bas": -399,
+        "son": -399,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina"
+      ],
+      "eserler": [
+        "platon/phaidon",
+        "platon/sokratesin-savunmasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "knidos-savasi",
+    "ad": "Knidos Deniz Savaşı",
+    "tur": "savas",
+    "uygarlik": "pers-egemenligi",
+    "nitelik": "tarihsel",
+    "yer": "Knidos",
+    "ozet": "Konon yönetimindeki Pers donanması Sparta’nın deniz gücünü kırdı.",
+    "donemler": [
+      {
+        "bas": -394,
+        "son": -394,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan",
+      "karia"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "hellenika",
+        "yer": "4.3.10–12"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "knidos"
+      ],
+      "eserler": [
+        "ksenophon/hellenika"
+      ]
+    }
+  },
+  {
+    "kimlik": "galya-yagmasi",
+    "ad": "Roma’nın Galyalılarca yağmalanması",
+    "tur": "savas",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "Roma",
+    "ozet": "Brennus’un Galyalıları kenti aldı.",
+    "donemler": [
+      {
+        "bas": -390,
+        "son": -390,
+        "kesinlik": "tartismali",
+        "not": "Varro’ya göre MÖ 390, Polybios’a göre 387."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "5.35–49"
+      },
+      {
+        "kaynak": "polybios",
+        "yer": "2.18"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kral-barisi",
+    "ad": "Kral Barışı (Antalkidas)",
+    "tur": "antlasma",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Sardes",
+    "ozet": "Batı Anadolu kentlerini Pers kralına bırakan barış.",
+    "donemler": [
+      {
+        "bas": -387,
+        "son": -387,
+        "kesinlik": "kesin",
+        "not": "Antlaşma MÖ 387/386 kışında yürürlüğe girdi."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi",
+      "iyon-kentleri",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "hellenika",
+        "yer": "5.1.31"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "ksenophon/hellenika"
+      ]
+    }
+  },
+  {
+    "kimlik": "leuktra",
+    "ad": "Leuktra Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Leuktra",
+    "ozet": "Epameinondas Sparta’nın kara üstünlüğünü yıktı.",
+    "donemler": [
+      {
+        "bas": -371,
+        "son": -371,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "hellenika",
+        "yer": "6.4.4–15"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "thebai",
+        "sparta"
+      ],
+      "eserler": [
+        "ksenophon/hellenika"
+      ]
+    }
+  },
+  {
+    "kimlik": "satraplar-isyani",
+    "ad": "Satraplar İsyanı",
+    "tur": "savas",
+    "uygarlik": "pers-egemenligi",
+    "nitelik": "tarihsel",
+    "yer": "Anadolu",
+    "ozet": "Anadolu satraplarının Pers kralına karşı ayaklanmaları.",
+    "donemler": [
+      {
+        "bas": -366,
+        "son": -360,
+        "kesinlik": "tartismali",
+        "not": "Tek bir hareket olup olmadığı ve süresi tartışılır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "karia",
+      "likya",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "diodoros",
+        "yer": "15.90–93"
+      },
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "diodoros/tarih-kitapligi"
+      ]
+    }
+  },
+  {
+    "kimlik": "mantineia",
+    "ad": "Mantineia Savaşı",
+    "tur": "savas",
+    "uygarlik": "klasik-yunanistan",
+    "nitelik": "tarihsel",
+    "yer": "Mantineia",
+    "ozet": "Epameinondas’ın ölümüyle Thebai’nin üstünlüğü bitti.",
+    "donemler": [
+      {
+        "bas": -362,
+        "son": -362,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "hellenika",
+        "yer": "7.5"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "thebai"
+      ],
+      "eserler": [
+        "ksenophon/hellenika"
+      ]
+    }
+  },
+  {
+    "kimlik": "artemision-yangini",
+    "ad": "Artemis Tapınağı’nın yakılması",
+    "tur": "kultur",
+    "uygarlik": "iyon-kentleri",
+    "nitelik": "tarihsel",
+    "yer": "Efes",
+    "ozet": "Yangın, adını duyurmak isteyen Herostratos’a bağlanır; payı bugün tartışılır.",
+    "donemler": [
+      {
+        "bas": -356,
+        "son": -356,
+        "kesinlik": "yaklasik",
+        "not": "İskender’in doğumuyla aynı geceye denk getirilmesi gelenektir."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "strabon",
+        "yer": "14.1.22"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes"
+      ],
+      "tanrilar": [
+        "artemis"
+      ]
+    }
+  },
+  {
+    "kimlik": "mausoleion",
+    "ad": "Mausoleion’un yapımı",
+    "tur": "kultur",
+    "uygarlik": "karia",
+    "nitelik": "tarihsel",
+    "yer": "Halikarnassos",
+    "ozet": "Mausolos için Halikarnassos’ta yapılan anıt mezar. Dünyanın yedi harikasından sayıldı.",
+    "donemler": [
+      {
+        "bas": -350,
+        "son": -350,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "plinius",
+        "yer": "36.30–31"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "halikarnassos"
+      ],
+      "eserler": [
+        "yasli-plinius/naturalis-historia"
+      ]
+    }
+  },
+  {
+    "kimlik": "khaironeia",
+    "ad": "Khaironeia Savaşı",
+    "tur": "savas",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "Khaironeia",
+    "ozet": "II. Philippos, Atina ve Thebai’yi yenerek Yunanistan’a egemen oldu.",
+    "donemler": [
+      {
+        "bas": -338,
+        "son": -338,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "diodoros",
+        "yer": "16.84–86"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "thebai"
+      ],
+      "eserler": [
+        "diodoros/tarih-kitapligi"
+      ]
+    }
+  },
+  {
+    "kimlik": "granikos-savasi",
+    "ad": "Granikos Savaşı",
+    "tur": "savas",
+    "uygarlik": "pers-egemenligi",
+    "nitelik": "tarihsel",
+    "yer": "Biga Çayı",
+    "ozet": "İskender’in Anadolu’daki ilk büyük zaferi.",
+    "donemler": [
+      {
+        "bas": -334,
+        "son": -334,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya",
+      "makedonya-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "1.13–16"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "halikarnassos-kusatmasi",
+    "ad": "Halikarnassos kuşatması",
+    "tur": "savas",
+    "uygarlik": "karia",
+    "nitelik": "tarihsel",
+    "yer": "Halikarnassos",
+    "ozet": "İskender kenti Memnon’un savunmasına karşı aldı, Karia’yı Ada’ya bıraktı.",
+    "donemler": [
+      {
+        "bas": -334,
+        "son": -334,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya",
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "1.20–23"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "halikarnassos",
+        "alinda"
+      ],
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "issos-savasi",
+    "ad": "İssos Savaşı",
+    "tur": "savas",
+    "uygarlik": "makedonya-egemenligi",
+    "nitelik": "tarihsel",
+    "yer": "İssos",
+    "ozet": "İskender, Pers kralı III. Dareios’u yendi.",
+    "donemler": [
+      {
+        "bas": -333,
+        "son": -333,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "2.6–12"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "issos"
+      ],
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "gordion-dugumu",
+    "ad": "Gordion düğümü",
+    "tur": "anlati",
+    "uygarlik": "makedonya-egemenligi",
+    "nitelik": "mitolojik",
+    "yer": "Gordion",
+    "ozet": "İskender’e bağlanan geleneksel anlatı: düğümü çözen Asya’ya hükmedecekti.",
+    "donemler": [
+      {
+        "bas": -333,
+        "son": -333,
+        "kesinlik": "geleneksel"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "frigya",
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "2.3"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "gordion"
+      ],
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "tyros-kusatmasi",
+    "ad": "Tyros kuşatması",
+    "tur": "savas",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "Tyros",
+    "ozet": "İskender, ada kentini yedi ayda bir dolgu yol yaparak aldı.",
+    "donemler": [
+      {
+        "bas": -332,
+        "son": -332,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "2.16–24"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "iskenderiye-kurulusu",
+    "ad": "İskenderiye’nin kuruluşu",
+    "tur": "siyasi",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "İskenderiye",
+    "ozet": "İskender’in Nil ağzında kurduğu kent.",
+    "donemler": [
+      {
+        "bas": -331,
+        "son": -331,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ptolemaios"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "3.1"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "gaugamela",
+    "ad": "Gaugamela Savaşı",
+    "tur": "savas",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "Gaugamela",
+    "ozet": "İskender, III. Dareios’u kesin olarak yendi.",
+    "donemler": [
+      {
+        "bas": -331,
+        "son": -331,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "3.8–15"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "persepolis",
+    "ad": "Persepolis’in yakılması",
+    "tur": "savas",
+    "uygarlik": "ahamenisler",
+    "nitelik": "tarihsel",
+    "yer": "Persepolis",
+    "ozet": "İskender’in ordusu Pers törensel başkentini yaktı.",
+    "donemler": [
+      {
+        "bas": -330,
+        "son": -330,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "3.18"
+      },
+      {
+        "kaynak": "curtius",
+        "yer": "5.7"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "iskenderin-olumu",
+    "ad": "İskender’in ölümü",
+    "tur": "siyasi",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "Babil",
+    "ozet": "Babil’deki ölümünden sonra komutanları imparatorluğu paylaştı.",
+    "donemler": [
+      {
+        "bas": -323,
+        "son": -323,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "7.24–28"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "ipsos",
+    "ad": "İpsos Savaşı",
+    "tur": "savas",
+    "uygarlik": "antigonos",
+    "nitelik": "tarihsel",
+    "yer": "Frigya",
+    "ozet": "Antigonos’un ölümüyle İskender’in mirası kalıcı olarak bölündü.",
+    "donemler": [
+      {
+        "bas": -301,
+        "son": -301,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos",
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "kurupedion",
+    "ad": "Kurupedion Savaşı",
+    "tur": "savas",
+    "uygarlik": "seleukos",
+    "nitelik": "tarihsel",
+    "yer": "Sardes yakını",
+    "ozet": "I. Seleukos, Lysimakhos’u Sardes yakınında yendi.",
+    "donemler": [
+      {
+        "bas": -281,
+        "son": -281,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya",
+      "pergamon"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ]
+    }
+  },
+  {
+    "kimlik": "delphi-galat",
+    "ad": "Galatların Delphi akını",
+    "tur": "savas",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "Delphi",
+    "ozet": "Kelt orduları Yunanistan’a girdi, Delphi önünde püskürtüldü.",
+    "donemler": [
+      {
+        "bas": -279,
+        "son": -279,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "galatlar"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "pausanias",
+        "yer": "10.19–23"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "delphi"
+      ],
+      "eserler": [
+        "pausanias/yunanistanin-tasviri"
+      ]
+    }
+  },
+  {
+    "kimlik": "galatlarin-gelisi",
+    "ad": "Galatların Anadolu’ya gelişi",
+    "tur": "siyasi",
+    "uygarlik": "galatlar",
+    "nitelik": "tarihsel",
+    "ozet": "Bitinya kralı I. Nikomedes’in çağırdığı Kelt boyları Anadolu’ya geçti.",
+    "donemler": [
+      {
+        "bas": -278,
+        "son": -278,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "bitinya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-anadolu"
+      },
+      {
+        "kaynak": "livius",
+        "yer": "38.16"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "pon-1",
+    "ad": "Birinci Pön Savaşı",
+    "tur": "savas",
+    "uygarlik": "kartaca",
+    "nitelik": "tarihsel",
+    "yer": "Sicilya",
+    "ozet": "Roma Sicilya’yı aldı ve deniz gücü oldu.",
+    "donemler": [
+      {
+        "bas": -264,
+        "son": -241,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios",
+        "yer": "1"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "kaikos-zaferi",
+    "ad": "I. Attalos’un Galat zaferi",
+    "tur": "savas",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "yer": "Bakırçay",
+    "ozet": "Kaikos (Bakırçay) kaynaklarında kazanılan zafer kral unvanını getirdi.",
+    "donemler": [
+      {
+        "bas": -238,
+        "son": -238,
+        "kesinlik": "yaklasik",
+        "not": "MÖ 238–235 arası verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "galatlar"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios",
+        "yer": "18.41"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ]
+    }
+  },
+  {
+    "kimlik": "pon-2",
+    "ad": "İkinci Pön Savaşı",
+    "tur": "savas",
+    "uygarlik": "kartaca",
+    "nitelik": "tarihsel",
+    "yer": "Batı Akdeniz",
+    "ozet": "Hannibal Alpleri aşıp İtalya’ya girdi; savaş Zama’da bitti.",
+    "donemler": [
+      {
+        "bas": -218,
+        "son": -201,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios"
+      },
+      {
+        "kaynak": "livius",
+        "yer": "21–30"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi",
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "raphia",
+    "ad": "Raphia Savaşı",
+    "tur": "savas",
+    "uygarlik": "ptolemaios",
+    "nitelik": "tarihsel",
+    "yer": "Raphia",
+    "ozet": "IV. Ptolemaios, III. Antiokhos’u yendi.",
+    "donemler": [
+      {
+        "bas": -217,
+        "son": -217,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios",
+        "yer": "5.79–86"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "cannae",
+    "ad": "Cannae Savaşı",
+    "tur": "savas",
+    "uygarlik": "kartaca",
+    "nitelik": "tarihsel",
+    "yer": "Cannae",
+    "ozet": "Hannibal’ın Roma ordusunu kuşatıp yok ettiği savaş.",
+    "donemler": [
+      {
+        "bas": -216,
+        "son": -216,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "22.44–50"
+      },
+      {
+        "kaynak": "polybios",
+        "yer": "3.107–118"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "zama",
+    "ad": "Zama Savaşı",
+    "tur": "savas",
+    "uygarlik": "kartaca",
+    "nitelik": "tarihsel",
+    "yer": "Zama",
+    "ozet": "Scipio, Hannibal’ı yendi.",
+    "donemler": [
+      {
+        "bas": -202,
+        "son": -202,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "30.29–35"
+      },
+      {
+        "kaynak": "polybios",
+        "yer": "15.9–16"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kynoskephalai",
+    "ad": "Kynoskephalai Savaşı",
+    "tur": "savas",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "Tesalya",
+    "ozet": "Roma lejyonları Makedonya phalanksını yendi.",
+    "donemler": [
+      {
+        "bas": -197,
+        "son": -197,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios",
+        "yer": "18.20–27"
+      },
+      {
+        "kaynak": "livius",
+        "yer": "33.7–10"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "rosetta",
+    "ad": "Rosetta Taşı",
+    "tur": "kultur",
+    "uygarlik": "ptolemaios",
+    "nitelik": "tarihsel",
+    "yer": "Memfis",
+    "ozet": "V. Ptolemaios için üç yazıyla kazınan rahip kararı; hiyerogliflerin çözümünü sağladı.",
+    "donemler": [
+      {
+        "bas": -196,
+        "son": -196,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "magnesia",
+    "ad": "Magnesia Savaşı",
+    "tur": "savas",
+    "uygarlik": "seleukos",
+    "nitelik": "tarihsel",
+    "yer": "Manisa",
+    "ozet": "Roma ve Pergamon, III. Antiokhos’u Manisa önünde yendi.",
+    "donemler": [
+      {
+        "bas": -190,
+        "son": -190,
+        "kesinlik": "kesin",
+        "not": "Savaş MÖ 190 sonu ya da 189 başındadır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pergamon",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "37.37–44"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "apameia",
+    "ad": "Apameia Barışı",
+    "tur": "antlasma",
+    "uygarlik": "seleukos",
+    "nitelik": "tarihsel",
+    "yer": "Apameia (Dinar)",
+    "ozet": "Seleukoslar Toros’un batısını bıraktı; topraklar Pergamon ve Rodos’a verildi.",
+    "donemler": [
+      {
+        "bas": -188,
+        "son": -188,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pergamon",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios",
+        "yer": "21.43"
+      },
+      {
+        "kaynak": "livius",
+        "yer": "38.38"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "rodos"
+      ],
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "zeus-sunagi",
+    "ad": "Bergama Zeus Sunağı",
+    "tur": "kultur",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "yer": "Bergama",
+    "ozet": "Tanrılarla devlerin savaşını gösteren büyük frizli sunak.",
+    "donemler": [
+      {
+        "bas": -170,
+        "son": -170,
+        "kesinlik": "tartismali",
+        "not": "MÖ 180–150 arası önerilir."
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ],
+      "tanrilar": [
+        "zeus"
+      ]
+    }
+  },
+  {
+    "kimlik": "pydna",
+    "ad": "Pydna Savaşı",
+    "tur": "savas",
+    "uygarlik": "makedonya",
+    "nitelik": "tarihsel",
+    "yer": "Pydna",
+    "ozet": "Perseus’un yenilgisi Makedonya Krallığı’nı bitirdi.",
+    "donemler": [
+      {
+        "bas": -168,
+        "son": -168,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "44.40–42"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kommagene-kurulusu",
+    "ad": "Kommagene’nin kuruluşu",
+    "tur": "siyasi",
+    "uygarlik": "kommagene",
+    "nitelik": "tarihsel",
+    "ozet": "Vali Ptolemaios’un Seleukoslardan ayrılıp bağımsız yönetim kurması.",
+    "donemler": [
+      {
+        "bas": -163,
+        "son": -163,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "facella"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "pon-3",
+    "ad": "Üçüncü Pön Savaşı ve Kartaca’nın yıkılışı",
+    "tur": "savas",
+    "uygarlik": "kartaca",
+    "nitelik": "tarihsel",
+    "yer": "Kartaca",
+    "ozet": "Roma kenti yıktı, topraklarını Africa eyaleti yaptı.",
+    "donemler": [
+      {
+        "bas": -149,
+        "son": -146,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "korinthos-yikimi",
+    "ad": "Korinthos’un yıkılışı",
+    "tur": "savas",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "Korinthos",
+    "ozet": "Mummius kenti yıktı, Yunanistan Roma denetimine girdi.",
+    "donemler": [
+      {
+        "bas": -146,
+        "son": -146,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "pausanias",
+        "yer": "7.16"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "korinthos"
+      ],
+      "eserler": [
+        "pausanias/yunanistanin-tasviri"
+      ]
+    }
+  },
+  {
+    "kimlik": "pergamon-vasiyeti",
+    "ad": "Pergamon’un Roma’ya bırakılması",
+    "tur": "siyasi",
+    "uygarlik": "pergamon",
+    "nitelik": "tarihsel",
+    "yer": "Bergama",
+    "ozet": "III. Attalos’un vasiyetiyle krallık Roma’ya geçti.",
+    "donemler": [
+      {
+        "bas": -133,
+        "son": -133,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "strabon",
+        "yer": "13.4.2"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ],
+      "eserler": [
+        "strabon/geographika"
+      ]
+    }
+  },
+  {
+    "kimlik": "aristonikos",
+    "ad": "Aristonikos ayaklanması",
+    "tur": "savas",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Batı Anadolu",
+    "ozet": "Pergamon mirasına karşı çıkan ayaklanma. Katılanlar kendilerine Güneş Yurttaşları dedi.",
+    "donemler": [
+      {
+        "bas": -133,
+        "son": -129,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pergamon"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "strabon",
+        "yer": "14.1.38"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama"
+      ],
+      "eserler": [
+        "strabon/geographika"
+      ]
+    }
+  },
+  {
+    "kimlik": "mithridates-savasi-1",
+    "ad": "Birinci Mithridates Savaşı",
+    "tur": "savas",
+    "uygarlik": "pontos",
+    "nitelik": "tarihsel",
+    "yer": "Anadolu ve Yunanistan",
+    "ozet": "VI. Mithridates Asya eyaletini aldı; Sulla onu geri çekilmeye zorladı.",
+    "donemler": [
+      {
+        "bas": -89,
+        "son": -85,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti",
+      "bitinya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "asya-vesperi",
+    "ad": "Asya Vesperi",
+    "tur": "savas",
+    "uygarlik": "pontos",
+    "nitelik": "tarihsel",
+    "yer": "Batı Anadolu",
+    "ozet": "Mithridates’in emriyle Anadolu kentlerindeki on binlerce Romalı ve İtalyan öldürüldü.",
+    "donemler": [
+      {
+        "bas": -88,
+        "son": -88,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes",
+        "bergama"
+      ]
+    }
+  },
+  {
+    "kimlik": "dardanos",
+    "ad": "Dardanos Barışı",
+    "tur": "antlasma",
+    "uygarlik": "pontos",
+    "nitelik": "tarihsel",
+    "yer": "Çanakkale",
+    "ozet": "Sulla ile Mithridates arasındaki barış.",
+    "donemler": [
+      {
+        "bas": -85,
+        "son": -85,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "mithridates-savasi-3",
+    "ad": "Üçüncü Mithridates Savaşı",
+    "tur": "savas",
+    "uygarlik": "pontos",
+    "nitelik": "tarihsel",
+    "yer": "Anadolu",
+    "ozet": "Lucullus ve Pompeius Pontos’u yıktı.",
+    "donemler": [
+      {
+        "bas": -74,
+        "son": -63,
+        "kesinlik": "kesin",
+        "not": "Başlangıç için MÖ 73 de verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti",
+      "armenia",
+      "bitinya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "spartacus",
+    "ad": "Spartacus ayaklanması",
+    "tur": "savas",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "İtalya",
+    "ozet": "Gladyatörlerin başlattığı köle ayaklanması.",
+    "donemler": [
+      {
+        "bas": -73,
+        "son": -71,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "tigranakert",
+    "ad": "Tigranakert Savaşı",
+    "tur": "savas",
+    "uygarlik": "armenia",
+    "nitelik": "tarihsel",
+    "yer": "Güneydoğu Anadolu",
+    "ozet": "Lucullus, II. Tigranes’i yendi ve başkentini yağmaladı.",
+    "donemler": [
+      {
+        "bas": -69,
+        "son": -69,
+        "kesinlik": "kesin",
+        "not": "Kentin yeri tartışılır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti",
+      "pontos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "korsan-seferi",
+    "ad": "Pompeius’un korsan seferi",
+    "tur": "savas",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "Kilikya",
+    "ozet": "Kilikya korsanları üç ayda bastırıldı; bir bölümü Soloi’ye yerleştirildi.",
+    "donemler": [
+      {
+        "bas": -67,
+        "son": -67,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "plutarkhos"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "14.3.3"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "soli-pompeiopolis"
+      ],
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    }
+  },
+  {
+    "kimlik": "karrhai",
+    "ad": "Karrhai Savaşı",
+    "tur": "savas",
+    "uygarlik": "part",
+    "nitelik": "tarihsel",
+    "yer": "Harran",
+    "ozet": "Part süvarileri Crassus’un ordusunu Harran’da yok etti.",
+    "donemler": [
+      {
+        "bas": -53,
+        "son": -53,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "40.16–27"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "harran"
+      ],
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "nemrut-kutsal-alani",
+    "ad": "Nemrut Dağı kutsal alanı",
+    "tur": "kultur",
+    "uygarlik": "kommagene",
+    "nitelik": "tarihsel",
+    "yer": "Nemrut Dağı",
+    "ozet": "I. Antiokhos döneminin yaklaşık tarihlendirilmiş anıtları.",
+    "donemler": [
+      {
+        "bas": -50,
+        "son": -50,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "unesco-nemrut"
+      },
+      {
+        "kaynak": "facella"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nemrut"
+      ]
+    }
+  },
+  {
+    "kimlik": "ic-savas",
+    "ad": "Caesar’ın iç savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "Akdeniz",
+    "ozet": "Rubicon’un geçilmesiyle başlayan, Caesar’ın zaferiyle biten savaş.",
+    "donemler": [
+      {
+        "bas": -49,
+        "son": -45,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ptolemaios"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "suetonius/on-iki-caesarin-yasami"
+      ]
+    }
+  },
+  {
+    "kimlik": "zela",
+    "ad": "Zela Savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Zile",
+    "ozet": "Caesar, II. Pharnakes’i yendi. “Geldim, gördüm, yendim” sözü bu zafere bağlanır.",
+    "donemler": [
+      {
+        "bas": -47,
+        "son": -47,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pontos",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "suetonius/on-iki-caesarin-yasami"
+      ]
+    }
+  },
+  {
+    "kimlik": "caesarin-oldurulmesi",
+    "ad": "Caesar’ın öldürülmesi",
+    "tur": "siyasi",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "Roma",
+    "ozet": "15 Mart’ta senatörlerin suikastı.",
+    "donemler": [
+      {
+        "bas": -44,
+        "son": -44,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "suetonius"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar",
+        "suetonius/on-iki-caesarin-yasami"
+      ]
+    }
+  },
+  {
+    "kimlik": "philippi",
+    "ad": "Philippi Savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "Philippi",
+    "ozet": "Antonius ve Octavianus, Brutus ile Cassius’u yendi.",
+    "donemler": [
+      {
+        "bas": -42,
+        "son": -42,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "47.35–49"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "actium",
+    "ad": "Actium Deniz Savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-cumhuriyeti",
+    "nitelik": "tarihsel",
+    "yer": "Aktion",
+    "ozet": "Octavianus, Antonius ve Kleopatra’yı yendi.",
+    "donemler": [
+      {
+        "bas": -31,
+        "son": -31,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ptolemaios"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "50.31–35"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "misirin-katilmasi",
+    "ad": "Mısır’ın Roma’ya katılması",
+    "tur": "siyasi",
+    "uygarlik": "ptolemaios",
+    "nitelik": "tarihsel",
+    "yer": "İskenderiye",
+    "ozet": "Kleopatra’nın ölümünden sonra Mısır Roma yönetimine girdi.",
+    "donemler": [
+      {
+        "bas": -30,
+        "son": -30,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "51.17"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "augustus-unvani",
+    "ad": "Augustus unvanı",
+    "tur": "siyasi",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Roma",
+    "ozet": "Senato Octavianus’a Augustus unvanını verdi; imparatorluk dönemi başladı.",
+    "donemler": [
+      {
+        "bas": -27,
+        "son": -27,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "53.16"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "galatia-eyaleti",
+    "ad": "Galatia eyaletinin kurulması",
+    "tur": "siyasi",
+    "uygarlik": "galatlar",
+    "nitelik": "tarihsel",
+    "yer": "Orta Anadolu",
+    "ozet": "Amyntas’ın ölümünden sonra ülkesi Roma eyaleti oldu.",
+    "donemler": [
+      {
+        "bas": -25,
+        "son": -25,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "53.26"
+      },
+      {
+        "kaynak": "mitchell-anadolu"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "teutoburg",
+    "ad": "Teutoburg Savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Germania",
+    "ozet": "Cermen kabileleri üç Roma lejyonunu yok etti.",
+    "donemler": [
+      {
+        "bas": 9,
+        "son": 9,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "56.18–23"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kapadokyanin-katilmasi",
+    "ad": "Kapadokya’nın Roma’ya katılması",
+    "tur": "siyasi",
+    "uygarlik": "kapadokya",
+    "nitelik": "tarihsel",
+    "ozet": "Kral Arkhelaos’un ölümünden sonra ülke eyalet oldu.",
+    "donemler": [
+      {
+        "bas": 17,
+        "son": 17,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "tacitus",
+        "yer": "2.42"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "tacitus/annales"
+      ]
+    }
+  },
+  {
+    "kimlik": "asya-depremi",
+    "ad": "Batı Anadolu depremi",
+    "tur": "siyasi",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Batı Anadolu",
+    "ozet": "Sardes başta olmak üzere on iki kenti yıkan deprem. Tiberius yardım etti.",
+    "donemler": [
+      {
+        "bas": 17,
+        "son": 17,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "tacitus",
+        "yer": "2.47"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ],
+      "eserler": [
+        "tacitus/annales"
+      ]
+    }
+  },
+  {
+    "kimlik": "rhandeia",
+    "ad": "Rhandeia Antlaşması",
+    "tur": "antlasma",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Doğu Anadolu",
+    "ozet": "Armenia kralını Partlar seçecek, Roma taçlandıracaktı.",
+    "donemler": [
+      {
+        "bas": 63,
+        "son": 63,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "tacitus",
+        "yer": "15.24–31"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "tacitus/annales"
+      ]
+    }
+  },
+  {
+    "kimlik": "kudus-70",
+    "ad": "Kudüs Tapınağı’nın yıkılışı",
+    "tur": "savas",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Kudüs",
+    "ozet": "Titus’un ordusu Yahudi ayaklanmasını bastırıp tapınağı yıktı.",
+    "donemler": [
+      {
+        "bas": 70,
+        "son": 70,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "iosephus-savas",
+        "yer": "6"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "iosephus/yahudi-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kommagenenin-katilmasi",
+    "ad": "Kommagene’nin Roma’ya katılması",
+    "tur": "siyasi",
+    "uygarlik": "kommagene",
+    "nitelik": "tarihsel",
+    "ozet": "Vespasianus döneminde krallık Suriye eyaletine bağlandı.",
+    "donemler": [
+      {
+        "bas": 72,
+        "son": 72,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iosephus-savas",
+        "yer": "7.219–243"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nemrut"
+      ],
+      "eserler": [
+        "iosephus/yahudi-savasi"
+      ]
+    }
+  },
+  {
+    "kimlik": "vezuv",
+    "ad": "Vezüv’ün patlaması",
+    "tur": "kultur",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Pompeii",
+    "ozet": "Pompeii ve Herculaneum küller altında kaldı.",
+    "donemler": [
+      {
+        "bas": 79,
+        "son": 79,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "traianus-part",
+    "ad": "Traianus’un Part seferi",
+    "tur": "savas",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Mezopotamya",
+    "ozet": "Roma Armenia ve Mezopotamya’yı kısa süreliğine aldı.",
+    "donemler": [
+      {
+        "bas": 114,
+        "son": 117,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "68.17–33"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "celsus",
+    "ad": "Celsus Kütüphanesi",
+    "tur": "kultur",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Efes",
+    "ozet": "Efes’te senatör Celsus’un anısına yapılan kütüphane ve anıt mezar.",
+    "donemler": [
+      {
+        "bas": 117,
+        "son": 117,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes"
+      ]
+    }
+  },
+  {
+    "kimlik": "bar-kohba",
+    "ad": "Bar Kohba ayaklanması",
+    "tur": "savas",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Iudaea",
+    "ozet": "Iudaea’daki son büyük Yahudi ayaklanması.",
+    "donemler": [
+      {
+        "bas": 132,
+        "son": 136,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio",
+        "yer": "69.12–14"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "antoninus-vebasi",
+    "ad": "Antoninus vebası",
+    "tur": "siyasi",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Doğu seferinden dönen orduyla yayılan büyük salgın.",
+    "donemler": [
+      {
+        "bas": 165,
+        "son": 180,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      },
+      {
+        "kaynak": "cassius-dio"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "yurttaslik-fermani",
+    "ad": "Constitutio Antoniniana",
+    "tur": "siyasi",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Caracalla imparatorluğun özgür sakinlerine yurttaşlık verdi.",
+    "donemler": [
+      {
+        "bas": 212,
+        "son": 212,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "hormozdgan",
+    "ad": "Hormozdgan Savaşı",
+    "tur": "savas",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "yer": "İran",
+    "ozet": "I. Ardeşir son Part kralını yendi.",
+    "donemler": [
+      {
+        "bas": 224,
+        "son": 224,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "zeugma-yagmasi",
+    "ad": "Zeugma’nın yağmalanması",
+    "tur": "savas",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "yer": "Zeugma",
+    "ozet": "I. Şapur’un ordusu kenti yaktı.",
+    "donemler": [
+      {
+        "bas": 253,
+        "son": 253,
+        "kesinlik": "tartismali",
+        "not": "252 ve 256 da önerilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "zeugma"
+      ]
+    }
+  },
+  {
+    "kimlik": "edessa",
+    "ad": "Edessa Savaşı",
+    "tur": "savas",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "yer": "Urfa",
+    "ozet": "I. Şapur, imparator Valerianus’u Urfa önünde esir aldı.",
+    "donemler": [
+      {
+        "bas": 260,
+        "son": 260,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "got-akini",
+    "ad": "Gotların Efes’i yağmalaması",
+    "tur": "savas",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Efes",
+    "ozet": "Got donanması Anadolu kıyılarını vurdu, Artemis Tapınağı yakıldı.",
+    "donemler": [
+      {
+        "bas": 262,
+        "son": 262,
+        "kesinlik": "yaklasik",
+        "not": "262/263 verilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-anadolu"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes"
+      ]
+    }
+  },
+  {
+    "kimlik": "palmyra",
+    "ad": "Palmyra’nın alınması",
+    "tur": "savas",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Palmyra",
+    "ozet": "Aurelianus, kraliçe Zenobia’yı esir aldı.",
+    "donemler": [
+      {
+        "bas": 272,
+        "son": 272,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "tetrarkhia",
+    "ad": "Dörtlü yönetim",
+    "tur": "siyasi",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Diocletianus yönetimi iki Augustus ve iki Caesar arasında paylaştırdı.",
+    "donemler": [
+      {
+        "bas": 293,
+        "son": 293,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nikomedia"
+      ]
+    }
+  },
+  {
+    "kimlik": "nisibis-barisi",
+    "ad": "Nisibis Barışı",
+    "tur": "antlasma",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "yer": "Nusaybin",
+    "ozet": "Narseh, Dicle boyundaki bölgeleri Roma’ya bıraktı.",
+    "donemler": [
+      {
+        "bas": 299,
+        "son": 299,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      },
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "milvius",
+    "ad": "Milvius Köprüsü Savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Roma",
+    "ozet": "Konstantin, Maxentius’u yenip Roma’ya girdi.",
+    "donemler": [
+      {
+        "bas": 312,
+        "son": 312,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "eusebios",
+        "yer": "9.9"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "eusebios/kilise-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "milano",
+    "ad": "Milano Fermanı",
+    "tur": "siyasi",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Milano",
+    "ozet": "Hristiyanlara ve bütün inançlara ibadet serbestliği tanındı.",
+    "donemler": [
+      {
+        "bas": 313,
+        "son": 313,
+        "kesinlik": "kesin",
+        "not": "Ferman adı gelenekseldir; metin bir mektuptur."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "eusebios",
+        "yer": "10.5"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "eusebios/kilise-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "khrysopolis",
+    "ad": "Khrysopolis Savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Üsküdar",
+    "ozet": "Konstantin, Licinius’u Üsküdar’da yenerek tek imparator oldu.",
+    "donemler": [
+      {
+        "bas": 324,
+        "son": 324,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "iznik-konsili",
+    "ad": "İznik Konsili",
+    "tur": "kultur",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Nikaia",
+    "ozet": "Konstantin’in topladığı ilk genel kilise konsili.",
+    "donemler": [
+      {
+        "bas": 325,
+        "son": 325,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nikaia"
+      ]
+    }
+  },
+  {
+    "kimlik": "konstantinopolis",
+    "ad": "Konstantinopolis’in açılışı",
+    "tur": "siyasi",
+    "uygarlik": "roma-anadolusu",
+    "nitelik": "tarihsel",
+    "yer": "Konstantinopolis",
+    "ozet": "Konstantin, eski Byzantion’un yerinde kurduğu başkenti açtı.",
+    "donemler": [
+      {
+        "bas": 330,
+        "son": 330,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu",
+      "dogu-roma"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "iulianus-seferi",
+    "ad": "Iulianus’un ölümü ve 363 antlaşması",
+    "tur": "antlasma",
+    "uygarlik": "sasani",
+    "nitelik": "tarihsel",
+    "yer": "Mezopotamya",
+    "ozet": "Sefer başarısız oldu; Iovianus Nisibis’i Sasanilere bıraktı.",
+    "donemler": [
+      {
+        "bas": 363,
+        "son": 363,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ammianus",
+        "yer": "25.3–9"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "ammianus-marcellinus/res-gestae"
+      ]
+    }
+  },
+  {
+    "kimlik": "hadrianopolis-savasi",
+    "ad": "Hadrianopolis Savaşı",
+    "tur": "savas",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "yer": "Edirne",
+    "ozet": "Gotlar Edirne önünde imparator Valens’i öldürdü.",
+    "donemler": [
+      {
+        "bas": 378,
+        "son": 378,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "ammianus",
+        "yer": "31.12–13"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "ammianus-marcellinus/res-gestae"
+      ]
+    }
+  },
+  {
+    "kimlik": "selanik-fermani",
+    "ad": "Selanik Fermanı",
+    "tur": "siyasi",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tarihsel",
+    "ozet": "Nikaia inancı imparatorluğun resmî inancı ilan edildi.",
+    "donemler": [
+      {
+        "bas": 380,
+        "son": 380,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "olimpiyatlarin-sonu",
+    "ad": "Olimpiyatların sonu",
+    "tur": "kultur",
+    "uygarlik": "roma-imparatorlugu",
+    "nitelik": "tartismali",
+    "yer": "Olympia",
+    "ozet": "I. Theodosius’un oyunları yasakladığı söylenir; oyunlar daha sonra bitmiş olabilir.",
+    "donemler": [
+      {
+        "bas": 393,
+        "son": 393,
+        "kesinlik": "geleneksel"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "olympia"
+      ]
+    }
+  },
+  {
+    "kimlik": "roma-bolunmesi",
+    "ad": "Roma yönetiminin bölünmesi",
+    "tur": "siyasi",
+    "uygarlik": "dogu-roma",
+    "nitelik": "tarihsel",
+    "ozet": "I. Theodosius’un ölümünden sonra yönetim iki oğlu arasında ayrıldı.",
+    "donemler": [
+      {
+        "bas": 395,
+        "son": 395,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "bati-roma",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "roma-yagmasi-410",
+    "ad": "Roma’nın Vizigotlarca yağmalanması",
+    "tur": "savas",
+    "uygarlik": "bati-roma",
+    "nitelik": "tarihsel",
+    "yer": "Roma",
+    "ozet": "Alaric’in ordusu kente girdi.",
+    "donemler": [
+      {
+        "bas": 410,
+        "son": 410,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "theodosius-surlari",
+    "ad": "Konstantinopolis’in kara surları",
+    "tur": "kultur",
+    "uygarlik": "dogu-roma",
+    "nitelik": "tarihsel",
+    "yer": "Konstantinopolis",
+    "ozet": "II. Theodosius döneminde tamamlanan surlar.",
+    "donemler": [
+      {
+        "bas": 413,
+        "son": 413,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "efes-konsili",
+    "ad": "Efes Konsili",
+    "tur": "kultur",
+    "uygarlik": "dogu-roma",
+    "nitelik": "tarihsel",
+    "yer": "Efes",
+    "ozet": "Meryem’in “Tanrı doğuran” unvanını onaylayan konsil.",
+    "donemler": [
+      {
+        "bas": 431,
+        "son": 431,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes"
+      ]
+    }
+  },
+  {
+    "kimlik": "katalaunum",
+    "ad": "Katalaunum Savaşı",
+    "tur": "savas",
+    "uygarlik": "bati-roma",
+    "nitelik": "tarihsel",
+    "yer": "Galya",
+    "ozet": "Aetius ve Vizigotlar Attila’yı durdurdu.",
+    "donemler": [
+      {
+        "bas": 451,
+        "son": 451,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "khalkedon-konsili",
+    "ad": "Khalkedon Konsili",
+    "tur": "kultur",
+    "uygarlik": "dogu-roma",
+    "nitelik": "tarihsel",
+    "yer": "Kadıköy",
+    "ozet": "Kadıköy’de toplanan ve kiliseleri bölen konsil.",
+    "donemler": [
+      {
+        "bas": 451,
+        "son": 451,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "kalkhedon"
+      ]
+    }
+  },
+  {
+    "kimlik": "roma-yagmasi-455",
+    "ad": "Roma’nın Vandallarca yağmalanması",
+    "tur": "savas",
+    "uygarlik": "bati-roma",
+    "nitelik": "tarihsel",
+    "yer": "Roma",
+    "ozet": "Geiseric’in donanması kenti on dört gün yağmaladı.",
+    "donemler": [
+      {
+        "bas": 455,
+        "son": 455,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "bati-romanin-sonu",
+    "ad": "Batı Roma’nın sonu",
+    "tur": "siyasi",
+    "uygarlik": "bati-roma",
+    "nitelik": "tarihsel",
+    "ozet": "Odoacer, Romulus Augustulus’u tahttan indirdi. Geleneksel bitiş tarihidir.",
+    "donemler": [
+      {
+        "bas": 476,
+        "son": 476,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "dogu-roma"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  }
+]

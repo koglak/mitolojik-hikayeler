@@ -1,0 +1,2124 @@
+[
+  {
+    "kimlik": "hattiler",
+    "ad": "Hattiler",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Orta Anadolu",
+    "ozet": "Orta Anadolu’nun Hititlerden önceki halkı. Dilleri Hitit tapınak metinlerinde, tanrıları Hitit panteonunda yaşamayı sürdürdü.",
+    "donemler": [
+      {
+        "bas": -2500,
+        "son": -1700,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa"
+      ]
+    }
+  },
+  {
+    "kimlik": "asur-ticaret-kolonileri",
+    "ad": "Asur ticaret kolonileri",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Kültepe (Kaneş)",
+    "ozet": "Aşşurlu tüccarların Anadolu kentlerinde kurduğu ticaret ağı. Kültepe’deki çivi yazılı tabletler Anadolu’nun bilinen en eski yazılı belgeleridir.",
+    "donemler": [
+      {
+        "bas": -1950,
+        "son": -1700,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "eski-asur",
+      "hattiler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "harita": {
+      "merkez": {
+        "enlem": 38.85,
+        "boylam": 35.63
+      }
+    }
+  },
+  {
+    "kimlik": "troya-vi-viia",
+    "ad": "Troya VI–VIIa",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Hisarlık",
+    "ozet": "Hisarlık’taki arkeolojik yerleşim evreleri; kesin bir devletin kuruluş ve yıkılış tarihleri değildir.",
+    "donemler": [
+      {
+        "bas": -1700,
+        "son": -1180,
+        "kesinlik": "yaklasik",
+        "not": "Arkeolojik tabaka tarihleridir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "miken",
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "latacz"
+      },
+      {
+        "kaynak": "sagona-zimansky"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "truva"
+      ],
+      "mitler": [
+        "truva-ati"
+      ],
+      "eserler": [
+        "homeros/ilyada"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 39.9575,
+        "boylam": 26.2389
+      }
+    }
+  },
+  {
+    "kimlik": "hitit",
+    "ad": "Hitit Krallığı",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Hattuşa",
+    "ozet": "Hattuşa merkezli Anadolu krallığı. Geç Tunç Çağı boyunca Kuzey Suriye’ye kadar genişledi ve Mısır’la boy ölçüştü.",
+    "donemler": [
+      {
+        "bas": -1650,
+        "son": -1180,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji esas alınmıştır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hattiler",
+      "mitanni",
+      "yeni-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "hattusa",
+        "sarissa"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 40.0199,
+        "boylam": 34.6154
+      }
+    }
+  },
+  {
+    "kimlik": "arzava",
+    "ad": "Arzava",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Batı Anadolu",
+    "ozet": "Batı Anadolu’da Hititlerle rekabet eden krallık ya da krallıklar birliği. II. Murşili’nin seferiyle Hitit denetimine girdi.",
+    "donemler": [
+      {
+        "bas": -1500,
+        "son": -1315,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "bryce-batiasya"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kizzuvatna",
+    "ad": "Kizzuvatna",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Kilikya",
+    "ozet": "Kilikya’da Hurri ve Luvi geleneklerinin karıştığı krallık. Hititler ile Mitanni arasında denge kurdu, sonra Hitit ülkesine katıldı.",
+    "donemler": [
+      {
+        "bas": -1500,
+        "son": -1350,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit",
+      "mitanni"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "bryce-batiasya"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "lukka",
+    "ad": "Lukka",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Güneybatı Anadolu",
+    "ozet": "Hitit ve Mısır metinlerinde adı geçen, Güneybatı Anadolu’da yaşayan topluluklar. Likya ile bağlantıları kabul görür.",
+    "donemler": [
+      {
+        "bas": -1400,
+        "son": -1200,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit",
+      "likya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      },
+      {
+        "kaynak": "bryce-batiasya"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kaskalar",
+    "ad": "Kaşkalar",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Kuzey Anadolu",
+    "ozet": "Hitit ülkesinin kuzeyindeki dağlı topluluklar. Merkezi devlet kurmadılar, ama Hattuşa’yı defalarca tehdit ettiler.",
+    "donemler": [
+      {
+        "bas": -1400,
+        "son": -1200,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "gec-hitit",
+    "ad": "Geç Hitit krallıkları",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Güneydoğu Anadolu",
+    "ozet": "Hitit merkezinin çöküşünden sonra Karkamış, Malatya ve Kilikya çevresinde süren küçük krallıklar. Çoğu Asur’a bağlandı.",
+    "donemler": [
+      {
+        "bas": -1200,
+        "son": -700,
+        "kesinlik": "yaklasik",
+        "not": "Krallıkların her birinin tarihi farklıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit",
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-gec-hitit"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "karkamis"
+      ]
+    }
+  },
+  {
+    "kimlik": "iyon-kentleri",
+    "ad": "İyon kentleri",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Ege kıyıları",
+    "ozet": "Batı Anadolu kıyısındaki Yunan kentleri. Felsefenin ve destan geleneğinin yurtlarından biri oldu; Lydia’nın, ardından Perslerin yönetimine girdi.",
+    "donemler": [
+      {
+        "bas": -1000,
+        "son": -334,
+        "kesinlik": "yaklasik",
+        "not": "Başlangıç, geleneksel göç anlatısına ve arkeolojiye dayanan yaklaşık tarihtir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "lidya",
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "1.142–148"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "milet",
+        "efes",
+        "priene",
+        "panionion"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "frigya",
+    "ad": "Frigya",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Gordion",
+    "ozet": "Gordion merkezli krallık. En güçlü çağını MÖ 8. yüzyılda yaşadı, sonra Lydia’nın etkisine girdi.",
+    "donemler": [
+      {
+        "bas": -950,
+        "son": -550,
+        "kesinlik": "tartismali",
+        "not": "Gordion’un erken evrelerinin tarihi yeniden ele alınmıştır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "lidya",
+      "gec-hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "1.14"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "gordion",
+        "midas-sehri"
+      ],
+      "mitler": [
+        "midas"
+      ],
+      "kahramanlar": [
+        "midas"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 39.6497,
+        "boylam": 31.9744
+      }
+    }
+  },
+  {
+    "kimlik": "urartu",
+    "ad": "Urartu",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Tuşpa (Van)",
+    "ozet": "Van Gölü çevresinde kurulan krallık. Kaleleri, su kanalları ve madenciliğiyle tanınır; Asur’un başlıca rakibiydi.",
+    "donemler": [
+      {
+        "bas": -860,
+        "son": -590,
+        "kesinlik": "yaklasik",
+        "not": "Yıkılış tarihi tartışmalıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "sagona-zimansky"
+      },
+      {
+        "kaynak": "bryce-batiasya"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "harita": {
+      "merkez": {
+        "enlem": 38.5033,
+        "boylam": 43.3386
+      }
+    }
+  },
+  {
+    "kimlik": "karia",
+    "ad": "Karia",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Güneybatı Anadolu",
+    "ozet": "Kendi dili ve yazısı olan Güneybatı Anadolu halkı ve bölgesi. MÖ 4. yüzyılda Hekatomnos hanedanı Pers satrapı olarak yönetti.",
+    "donemler": [
+      {
+        "bas": -1000,
+        "son": -334,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pers-egemenligi",
+      "iyon-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      },
+      {
+        "kaynak": "bryce-batiasya"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "halikarnassos",
+        "mylasa",
+        "labranda"
+      ]
+    }
+  },
+  {
+    "kimlik": "likya",
+    "ad": "Likya",
+    "tur": "kultur",
+    "bolge": "anadolu",
+    "yer": "Teke Yarımadası",
+    "ozet": "Kendi dili ve kaya mezarlarıyla tanınan bölge. Helenistik çağda kentleri bir birlik kurdu; MS 43’te Roma eyaleti oldu.",
+    "donemler": [
+      {
+        "bas": -700,
+        "son": 43,
+        "kesinlik": "yaklasik",
+        "not": "MS 43’te Claudius döneminde Roma eyaleti oldu."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "lukka",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "strabon",
+        "yer": "14.3"
+      },
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "ksanthos",
+        "patara",
+        "letoon"
+      ],
+      "kahramanlar": [
+        "sarpedon"
+      ],
+      "eserler": [
+        "strabon/geographika"
+      ]
+    }
+  },
+  {
+    "kimlik": "lidya",
+    "ad": "Lidya",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Sardes",
+    "ozet": "Sardes merkezli krallık. Mermnad hanedanı döneminde Batı Anadolu’ya hükmetti ve ilk sikkeleri bastı.",
+    "donemler": [
+      {
+        "bas": -680,
+        "son": -546,
+        "kesinlik": "yaklasik",
+        "not": "Son yıl için MÖ 547 de önerilir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "frigya",
+      "iyon-kentleri",
+      "medler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.6–94"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ],
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 38.4883,
+        "boylam": 28.0403
+      }
+    }
+  },
+  {
+    "kimlik": "pers-egemenligi",
+    "ad": "Pers egemenliği",
+    "tur": "egemenlik",
+    "bolge": "anadolu",
+    "yer": "Anadolu",
+    "ozet": "Anadolu’nun Ahameniş satraplıklarına bölündüğü dönem. Sardes batının yönetim merkeziydi, Kral Yolu oradan Susa’ya uzanırdı.",
+    "donemler": [
+      {
+        "bas": -546,
+        "son": -334,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler",
+      "lidya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "briant"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "5.52–54"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sardes"
+      ]
+    }
+  },
+  {
+    "kimlik": "makedonya-egemenligi",
+    "ad": "Makedonya egemenliği",
+    "tur": "egemenlik",
+    "bolge": "anadolu",
+    "yer": "Anadolu",
+    "ozet": "İskender’in Granikos’taki zaferinden ölümüne kadar süren dönem.",
+    "donemler": [
+      {
+        "bas": -334,
+        "son": -323,
+        "kesinlik": "kesin",
+        "not": "İskender’in ölümünden sonra yönetim komutanları arasında paylaşıldı."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya",
+      "pers-egemenligi"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "arrianos",
+        "yer": "1.11 – 7.28"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "arrianos/iskenderin-seferi"
+      ]
+    }
+  },
+  {
+    "kimlik": "antigonos",
+    "ad": "Antigonos yönetimi",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Batı Asya",
+    "ozet": "İskender’in komutanlarından Antigonos Monophthalmos’un krallığı. İpsos Savaşı’ndaki yenilgiyle sona erdi.",
+    "donemler": [
+      {
+        "bas": -306,
+        "son": -301,
+        "kesinlik": "kesin",
+        "not": "Başlangıç, Antigonos’un krallık unvanını aldığı yıldır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos",
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "seleukos",
+    "ad": "Seleukos egemenliği",
+    "tur": "egemenlik",
+    "bolge": "anadolu",
+    "yer": "Yakın Doğu",
+    "ozet": "İskender’in komutanı Seleukos’un hanedanı. Bir dönem Anadolu’dan Orta Asya’ya uzanan toprakları yönetti.",
+    "donemler": [
+      {
+        "bas": -312,
+        "son": -63,
+        "kesinlik": "yaklasik",
+        "not": "Batı Anadolu, MÖ 188 Apameia Barışı’yla elden çıktı; sonraki dönem Kilikya ve Suriye ağırlıklıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "antigonos",
+      "pergamon",
+      "kommagene",
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "polybios",
+        "yer": "21.43"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "seleukeia-pieria"
+      ],
+      "eserler": [
+        "polybios/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "bitinya",
+    "ad": "Bitinya",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Nikomedya",
+    "ozet": "Kuzeybatı Anadolu krallığı. Son kralı IV. Nikomedes ülkesini vasiyetle Roma’ya bıraktı.",
+    "donemler": [
+      {
+        "bas": -297,
+        "son": -74,
+        "kesinlik": "kesin",
+        "not": "Başlangıç, krallık takviminin ilk yılıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "galatlar",
+      "pontos",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "12.4"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nikomedia",
+        "nikaia"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 40.7655,
+        "boylam": 29.9408
+      }
+    }
+  },
+  {
+    "kimlik": "pergamon",
+    "ad": "Pergamon",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Bergama",
+    "ozet": "Attalos hanedanının krallığı. Kütüphanesi ve Zeus Sunağı’yla Helenistik dünyanın kültür merkezlerinden biriydi.",
+    "donemler": [
+      {
+        "bas": -281,
+        "son": -133,
+        "kesinlik": "yaklasik",
+        "not": "Başlangıç, Philetairos’un Seleukoslara yanaştığı yıldır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos",
+      "galatlar",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "13.4"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "bergama",
+        "asklepion"
+      ],
+      "kahramanlar": [
+        "telephos"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 39.1325,
+        "boylam": 27.1842
+      }
+    }
+  },
+  {
+    "kimlik": "pontos",
+    "ad": "Pontos",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Karadeniz",
+    "ozet": "Karadeniz kıyısında İranlı kökenli bir hanedanın krallığı. VI. Mithridates döneminde Roma’yla uzun savaşlara girdi.",
+    "donemler": [
+      {
+        "bas": -281,
+        "son": -63,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "bitinya",
+      "kapadokya",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "12.3"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "sinope",
+        "komana"
+      ]
+    }
+  },
+  {
+    "kimlik": "galatlar",
+    "ad": "Galatlar",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Orta Anadolu",
+    "ozet": "Balkanlardan gelip Orta Anadolu’ya yerleşen Kelt boyları. MÖ 25’te toprakları Roma’nın Galatia eyaleti oldu.",
+    "donemler": [
+      {
+        "bas": -278,
+        "son": -25,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pergamon",
+      "bitinya",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-anadolu"
+      },
+      {
+        "kaynak": "strabon",
+        "yer": "12.5"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kapadokya",
+    "ad": "Kapadokya",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Mazaka (Kayseri)",
+    "ozet": "İranlı kökenli Ariarathes hanedanının krallığı. Tiberius MS 17’de ülkeyi Roma eyaleti yaptı.",
+    "donemler": [
+      {
+        "bas": -332,
+        "son": 17,
+        "kesinlik": "yaklasik",
+        "not": "İskender sonrasında hanedan kısa süre kesintiye uğradı; kesin sınırları kontrol bekliyor."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "pontos",
+      "seleukos",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "tacitus",
+        "yer": "2.42"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "mokissos"
+      ],
+      "eserler": [
+        "tacitus/annales"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 38.72,
+        "boylam": 35.49
+      }
+    }
+  },
+  {
+    "kimlik": "armenia",
+    "ad": "Armenia Krallığı",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Artaksata ve Tigranakert",
+    "ozet": "Artaksias’ın kurduğu hanedan. II. Tigranes döneminde Hazar’dan Akdeniz’e uzandı.",
+    "donemler": [
+      {
+        "bas": -189,
+        "son": 12,
+        "kesinlik": "yaklasik",
+        "not": "Artaksiad hanedanının dönemidir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos",
+      "pontos",
+      "part",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "strabon",
+        "yer": "11.14"
+      },
+      {
+        "kaynak": "magie"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "strabon/geographika"
+      ]
+    }
+  },
+  {
+    "kimlik": "kommagene",
+    "ad": "Kommagene",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Samosata",
+    "ozet": "Samosata merkezli Helenistik krallık. I. Antiokhos, İran ve Yunan dini geleneklerini birleştiren bir kraliyet kültü oluşturdu. MS 17–38 arasında Roma yönetimindeydi.",
+    "donemler": [
+      {
+        "bas": -163,
+        "son": 17,
+        "kesinlik": "yaklasik",
+        "not": "Kuruluş yılı yaklaşıktır."
+      },
+      {
+        "bas": 38,
+        "son": 72,
+        "kesinlik": "kesin",
+        "not": "Caligula krallığı geri verdi; 72’de Vespasianus eyalete kattı."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos",
+      "part",
+      "roma-anadolusu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "facella"
+      },
+      {
+        "kaynak": "iosephus-savas",
+        "yer": "7.219–243"
+      },
+      {
+        "kaynak": "unesco-nemrut"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "nemrut"
+      ],
+      "eserler": [
+        "iosephus/yahudi-savasi"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 37.5797,
+        "boylam": 38.4814
+      }
+    }
+  },
+  {
+    "kimlik": "roma-anadolusu",
+    "ad": "Roma Anadolu’su",
+    "tur": "egemenlik",
+    "bolge": "anadolu",
+    "yer": "Anadolu",
+    "ozet": "Roma egemenliği Anadolu’ya aşamalı olarak yayıldı: önce Pergamon mirası, ardından Bitinya, Galatia, Kapadokya, Likya ve Kommagene.",
+    "donemler": [
+      {
+        "bas": -133,
+        "son": 395,
+        "kesinlik": "yaklasik",
+        "not": "Roma yönetimi bölgelere farklı tarihlerde yayıldı."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti",
+      "roma-imparatorlugu",
+      "pergamon"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "magie"
+      },
+      {
+        "kaynak": "mitchell-anadolu"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "efes",
+        "afrodisias",
+        "hierapolis"
+      ]
+    }
+  },
+  {
+    "kimlik": "dogu-roma",
+    "ad": "Doğu Roma",
+    "tur": "devlet",
+    "bolge": "anadolu",
+    "yer": "Konstantinopolis",
+    "ozet": "395’teki bölünmeden sonra Konstantinopolis’ten yönetilen Roma devleti. Çizelgede yalnızca ilk yüzyılı görünür.",
+    "donemler": [
+      {
+        "bas": 395,
+        "son": 1453,
+        "kesinlik": "kesin",
+        "not": "Çizelge MS 500’de biter."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-anadolusu",
+      "bati-roma",
+      "sasani"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "harita": {
+      "merkez": {
+        "enlem": 41.0086,
+        "boylam": 28.98
+      }
+    }
+  },
+  {
+    "kimlik": "uruk-donemi",
+    "ad": "Uruk dönemi",
+    "tur": "kultur",
+    "bolge": "mezopotamya",
+    "yer": "Güney Mezopotamya",
+    "ozet": "Kentleşmenin ve yazının ortaya çıktığı dönem. Adını Güney Mezopotamya’daki Uruk kentinden alır.",
+    "donemler": [
+      {
+        "bas": -4000,
+        "son": -3100,
+        "kesinlik": "yaklasik",
+        "not": "Çizelge MÖ 3500’de başlar."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "sumer-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "met"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sumer-kentleri",
+    "ad": "Sümer kent devletleri",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Ur, Uruk, Lagaş",
+    "ozet": "Ur, Uruk, Lagaş ve Kiş gibi bağımsız siyasi merkezler. Şerit Erken Hanedanlar dönemini temsil eder; Sümer kültürü Akad fethinden sonra da sürdü.",
+    "donemler": [
+      {
+        "bas": -2900,
+        "son": -2334,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "uruk-donemi",
+      "akad"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "akad",
+    "ad": "Akad İmparatorluğu",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Akad",
+    "ozet": "Sargon tarafından kurulan Mezopotamya merkezli imparatorluk. Tarihler Orta Kronoloji’ye dayanır.",
+    "donemler": [
+      {
+        "bas": -2334,
+        "son": -2154,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "sumer-kentleri",
+      "ur-iii",
+      "elam"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ur-iii",
+    "ad": "III. Ur Hanedanı",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Ur",
+    "ozet": "Ur-Nammu’nun kurduğu merkezi devlet. Geniş bir yönetim arşivi bıraktı, Elam saldırısıyla yıkıldı.",
+    "donemler": [
+      {
+        "bas": -2112,
+        "son": -2004,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "akad",
+      "elam",
+      "eski-babil"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "eski-asur",
+    "ad": "Eski Asur",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Aşşur",
+    "ozet": "Aşşur kenti çevresindeki devlet. Anadolu’daki ticaret kolonilerinin sahibiydi.",
+    "donemler": [
+      {
+        "bas": -2025,
+        "son": -1364,
+        "kesinlik": "yaklasik",
+        "not": "Alt sınır dönemlendirmeye göre değişir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "asur-ticaret-kolonileri",
+      "orta-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "eski-babil",
+    "ad": "Eski Babil",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Babil",
+    "ozet": "Amurru kökenli hanedanın Babil krallığı. Hammurabi döneminde Mezopotamya’nın büyük bölümünü birleştirdi, Hitit akınıyla sona erdi.",
+    "donemler": [
+      {
+        "bas": -1894,
+        "son": -1595,
+        "kesinlik": "yaklasik",
+        "not": "Orta Kronoloji; Kısa Kronoloji’de tarihler yaklaşık 64 yıl sonradır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ur-iii",
+      "kassit-babil",
+      "hitit"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "kassit-babil",
+    "ad": "Kassit Babil",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Babil",
+    "ozet": "Hitit akınından sonra Babil’i yöneten Kassit hanedanı. Geç Tunç Çağı’nın büyük güçlerinden biriydi.",
+    "donemler": [
+      {
+        "bas": -1595,
+        "son": -1155,
+        "kesinlik": "tartismali",
+        "not": "Kassitlerin Babil’e yerleştiği yıl bilinmez."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "eski-babil",
+      "elam",
+      "orta-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "mitanni",
+    "ad": "Mitanni",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Kuzey Mezopotamya",
+    "ozet": "Hurri nüfuslu krallık. Mısır ve Hititlerle Suriye için yarıştı, I. Şuppiluliuma’nın seferlerinden sonra zayıfladı.",
+    "donemler": [
+      {
+        "bas": -1500,
+        "son": -1300,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit",
+      "kizzuvatna",
+      "yeni-krallik",
+      "orta-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "bryce-batiasya"
+      },
+      {
+        "kaynak": "mieroop"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "harran"
+      ]
+    }
+  },
+  {
+    "kimlik": "orta-asur",
+    "ad": "Orta Asur",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Aşşur",
+    "ozet": "Asur’un Mitanni’den bağımsızlaşıp bölgesel güce dönüştüğü dönem.",
+    "donemler": [
+      {
+        "bas": -1363,
+        "son": -912,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "mitanni",
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "yeni-asur",
+    "ad": "Yeni Asur",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Ninova",
+    "ozet": "Yakın Doğu’nun ilk büyük imparatorluklarından. Mısır’dan Zagros’a uzandı, Medler ve Babillilerin ittifakıyla yıkıldı.",
+    "donemler": [
+      {
+        "bas": -911,
+        "son": -609,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "urartu",
+      "gec-hitit",
+      "yeni-babil",
+      "medler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "harran",
+        "karkamis"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 36.3594,
+        "boylam": 43.1528
+      }
+    }
+  },
+  {
+    "kimlik": "yeni-babil",
+    "ad": "Yeni Babil",
+    "tur": "devlet",
+    "bolge": "mezopotamya",
+    "yer": "Babil",
+    "ozet": "Nabopolassar’ın kurduğu Keldani hanedanı. Asur’un mirasını devraldı, II. Kyros’un fethiyle son buldu.",
+    "donemler": [
+      {
+        "bas": -626,
+        "son": -539,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur",
+      "medler",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mieroop"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "harita": {
+      "merkez": {
+        "enlem": 32.5364,
+        "boylam": 44.4208
+      }
+    }
+  },
+  {
+    "kimlik": "minos",
+    "ad": "Minos uygarlığı",
+    "tur": "kultur",
+    "bolge": "ege",
+    "yer": "Girit",
+    "ozet": "Girit’te saraylar çevresinde gelişen Tunç Çağı uygarlığı. Adını efsanevi Kral Minos’tan alır.",
+    "donemler": [
+      {
+        "bas": -3000,
+        "son": -1100,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "miken"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cline-ege"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "knossos"
+      ],
+      "mitler": [
+        "theseus-ve-minotauros"
+      ],
+      "kahramanlar": [
+        "theseus"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 35.2979,
+        "boylam": 25.1631
+      }
+    }
+  },
+  {
+    "kimlik": "miken",
+    "ad": "Miken uygarlığı",
+    "tur": "kultur",
+    "bolge": "ege",
+    "yer": "Yunanistan",
+    "ozet": "Yunanistan anakarasında saraylar çevresinde gelişen Geç Tunç Çağı uygarlığı. Linear B tabletleri Yunancanın bilinen en eski yazılı belgeleridir.",
+    "donemler": [
+      {
+        "bas": -1600,
+        "son": -1100,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "minos",
+      "troya-vi-viia"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cline-ege"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "mykene",
+        "tiryns",
+        "pylos"
+      ],
+      "kahramanlar": [
+        "agamemnon"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 37.7308,
+        "boylam": 22.7564
+      }
+    }
+  },
+  {
+    "kimlik": "arkaik-yunanistan",
+    "ad": "Arkaik Yunanistan",
+    "tur": "kultur",
+    "bolge": "ege",
+    "yer": "Polisler",
+    "ozet": "Polislerin, kolonilerin ve alfabenin yayıldığı çağ. Homeros ve Hesiodos’a atfedilen destanlar bu dönemde biçimlendi.",
+    "donemler": [
+      {
+        "bas": -800,
+        "son": -480,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan",
+      "iyon-kentleri"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "sparta",
+        "delphi",
+        "olympia"
+      ],
+      "eserler": [
+        "homeros/ilyada"
+      ]
+    }
+  },
+  {
+    "kimlik": "klasik-yunanistan",
+    "ad": "Klasik Yunanistan",
+    "tur": "kultur",
+    "bolge": "ege",
+    "yer": "Polisler",
+    "ozet": "Pers Savaşları’ndan İskender’in ölümüne kadar uzanan çağ. Atina tiyatrosu, felsefesi ve mimarisiyle anılır.",
+    "donemler": [
+      {
+        "bas": -480,
+        "son": -323,
+        "kesinlik": "kesin",
+        "not": "Dönem sınırları modern uzlaşımdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "arkaik-yunanistan",
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "kentler": [
+        "atina",
+        "sparta",
+        "thebai"
+      ]
+    }
+  },
+  {
+    "kimlik": "makedonya",
+    "ad": "Makedonya",
+    "tur": "devlet",
+    "bolge": "ege",
+    "yer": "Pella",
+    "ozet": "II. Philippos ve İskender’le Yunanistan’a, ardından Pers topraklarına hükmeden krallık. Pydna Savaşı’yla Roma’ya yenildi.",
+    "donemler": [
+      {
+        "bas": -359,
+        "son": -168,
+        "kesinlik": "kesin",
+        "not": "Başlangıç II. Philippos’un tahta çıkışıdır; krallık daha eskidir."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "klasik-yunanistan",
+      "makedonya-egemenligi",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "errington"
+      },
+      {
+        "kaynak": "plutarkhos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "plutarkhos/paralel-yasamlar"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 40.76,
+        "boylam": 22.52
+      }
+    }
+  },
+  {
+    "kimlik": "erken-hanedanlar",
+    "ad": "Erken Hanedanlar",
+    "tur": "devlet",
+    "bolge": "misir",
+    "yer": "Nil Vadisi",
+    "ozet": "Yukarı ve Aşağı Mısır’ın birleşmesinden sonraki ilk hanedanlar.",
+    "donemler": [
+      {
+        "bas": -3100,
+        "son": -2686,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "eski-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "eski-krallik",
+    "ad": "Eski Krallık",
+    "tur": "devlet",
+    "bolge": "misir",
+    "yer": "Memfis",
+    "ozet": "Büyük piramitlerin yapıldığı merkezi devlet. Başkenti Memfis’ti.",
+    "donemler": [
+      {
+        "bas": -2686,
+        "son": -2181,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "erken-hanedanlar",
+      "orta-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "orta-krallik",
+    "ad": "Orta Krallık",
+    "tur": "devlet",
+    "bolge": "misir",
+    "yer": "Nil Vadisi",
+    "ozet": "Ülkenin yeniden birleştiği, edebiyatın parladığı dönem. Sonunda Hyksoslar kuzeye yerleşti.",
+    "donemler": [
+      {
+        "bas": -2055,
+        "son": -1650,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "eski-krallik",
+      "yeni-krallik"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "yeni-krallik",
+    "ad": "Yeni Krallık",
+    "tur": "devlet",
+    "bolge": "misir",
+    "yer": "Teb",
+    "ozet": "Mısır’ın Nubya’dan Suriye’ye uzanan imparatorluk çağı. II. Ramses Hititlerle hem savaştı hem barıştı.",
+    "donemler": [
+      {
+        "bas": -1550,
+        "son": -1070,
+        "kesinlik": "yaklasik"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "hitit",
+      "mitanni"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "ucuncu-ara-donem",
+    "ad": "Üçüncü Ara Dönem",
+    "tur": "devlet",
+    "bolge": "misir",
+    "yer": "Nil Vadisi",
+    "ozet": "Mısır’ın farklı merkezlerden yönetildiği dönem. Libya kökenli ve Kuşlu hanedanlar hüküm sürdü.",
+    "donemler": [
+      {
+        "bas": -1069,
+        "son": -664,
+        "kesinlik": "yaklasik",
+        "not": "Bitiş için MÖ 656 da kullanılır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-krallik",
+      "yeni-asur",
+      "gec-donem-misir"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      },
+      {
+        "kaynak": "kuhrt"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "gec-donem-misir",
+    "ad": "Geç Dönem Mısır",
+    "tur": "devlet",
+    "bolge": "misir",
+    "yer": "Sais ve Nil Vadisi",
+    "ozet": "Sais hanedanıyla başlayan, iki Pers işgalini kapsayan ve İskender’in gelişiyle biten dönem.",
+    "donemler": [
+      {
+        "bas": -664,
+        "son": -332,
+        "kesinlik": "kesin",
+        "not": "MÖ 525–404 ve 343–332 arasında Pers yönetimi altındaydı."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "ahamenisler",
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      },
+      {
+        "kaynak": "herodotos",
+        "yer": "2.151–3.16"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "ptolemaios",
+    "ad": "Ptolemaios Krallığı",
+    "tur": "devlet",
+    "bolge": "misir",
+    "yer": "İskenderiye",
+    "ozet": "İskender’in komutanı Ptolemaios’un hanedanı. VII. Kleopatra’nın ölümüyle Mısır Roma’ya katıldı.",
+    "donemler": [
+      {
+        "bas": -305,
+        "son": -30,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "makedonya",
+      "seleukos",
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "shaw"
+      },
+      {
+        "kaynak": "errington"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "harita": {
+      "merkez": {
+        "enlem": 31.2,
+        "boylam": 29.92
+      }
+    }
+  },
+  {
+    "kimlik": "elam",
+    "ad": "Elam",
+    "tur": "devlet",
+    "bolge": "iran",
+    "yer": "Susa",
+    "ozet": "Güneybatı İran’da Susa ve Anşan çevresinde birbirini izleyen krallıklar.",
+    "donemler": [
+      {
+        "bas": -2700,
+        "son": -539,
+        "kesinlik": "tartismali",
+        "not": "Kesintisiz tek bir devlet değildir; ara dönemleri kontrol bekliyor."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "akad",
+      "ur-iii",
+      "kassit-babil",
+      "yeni-asur"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "potts-elam"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "harita": {
+      "merkez": {
+        "enlem": 32.1892,
+        "boylam": 48.2578
+      }
+    }
+  },
+  {
+    "kimlik": "medler",
+    "ad": "Medler",
+    "tur": "devlet",
+    "bolge": "iran",
+    "yer": "Ekbatana",
+    "ozet": "Batı İran’ın Med toplulukları. Babillilerle birlikte Asur’u yıktılar, sonra Kyros’a yenildiler.",
+    "donemler": [
+      {
+        "bas": -650,
+        "son": -550,
+        "kesinlik": "tartismali",
+        "not": "Med devletinin kuruluşu ve yapısı tartışmalıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "yeni-asur",
+      "lidya",
+      "ahamenisler"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "herodotos",
+        "yer": "1.95–130"
+      },
+      {
+        "kaynak": "briant"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 34.8,
+        "boylam": 48.52
+      }
+    }
+  },
+  {
+    "kimlik": "ahamenisler",
+    "ad": "Ahamenişler",
+    "tur": "devlet",
+    "bolge": "iran",
+    "yer": "Pers İmparatorluğu",
+    "ozet": "II. Kyros’un kurduğu Pers imparatorluğu. Ege’den İndus’a uzandı, İskender tarafından yıkıldı.",
+    "donemler": [
+      {
+        "bas": -550,
+        "son": -330,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "medler",
+      "yeni-babil",
+      "pers-egemenligi",
+      "makedonya"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "briant"
+      },
+      {
+        "kaynak": "herodotos"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "herodotos/tarihler"
+      ]
+    }
+  },
+  {
+    "kimlik": "part",
+    "ad": "Part İmparatorluğu",
+    "tur": "devlet",
+    "bolge": "iran",
+    "yer": "İran",
+    "ozet": "Arsakes hanedanının devleti. Yüzyıllar boyunca Roma’nın doğudaki başlıca rakibi oldu.",
+    "donemler": [
+      {
+        "bas": -247,
+        "son": 224,
+        "kesinlik": "kesin",
+        "not": "Başlangıç, Arsakes takviminin ilk yılıdır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "seleukos",
+      "sasani",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "sasani",
+    "ad": "Sasani İmparatorluğu",
+    "tur": "devlet",
+    "bolge": "iran",
+    "yer": "İran",
+    "ozet": "I. Ardeşir’in kurduğu İran imparatorluğu. Roma ve Doğu Roma ile uzun savaşlar yaptı.",
+    "donemler": [
+      {
+        "bas": 224,
+        "son": 651,
+        "kesinlik": "kesin",
+        "not": "Çizelge MS 500’de biter."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "part",
+      "dogu-roma",
+      "roma-imparatorlugu"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "iran-3"
+      },
+      {
+        "kaynak": "ammianus"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  },
+  {
+    "kimlik": "roma-kralligi",
+    "ad": "Roma Krallığı",
+    "tur": "devlet",
+    "bolge": "akdeniz",
+    "yer": "Roma",
+    "ozet": "Roma geleneğinin yedi krallı dönemi. Erken kralların tarihselliği tartışmalıdır.",
+    "donemler": [
+      {
+        "bas": -753,
+        "son": -509,
+        "kesinlik": "geleneksel",
+        "not": "Tarihler Roma geleneğine dayanır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius",
+        "yer": "1"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    }
+  },
+  {
+    "kimlik": "kartaca",
+    "ad": "Kartaca",
+    "tur": "devlet",
+    "bolge": "akdeniz",
+    "yer": "Kuzey Afrika",
+    "ozet": "Fenikeli Tyros’un kolonisi olarak kurulan deniz gücü. Batı Akdeniz için Roma’yla üç savaş yaptı.",
+    "donemler": [
+      {
+        "bas": -814,
+        "son": -146,
+        "kesinlik": "geleneksel",
+        "not": "Kuruluş yılı antik gelenektendir; arkeolojik izler MÖ 8. yüzyıldan başlar."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "polybios",
+        "yer": "1"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "polybios/tarihler",
+        "vergilius/aeneis"
+      ]
+    }
+  },
+  {
+    "kimlik": "roma-cumhuriyeti",
+    "ad": "Roma Cumhuriyeti",
+    "tur": "devlet",
+    "bolge": "akdeniz",
+    "yer": "Roma",
+    "ozet": "Kralların kovulmasından Augustus’a kadar süren yönetim. Bu dönemde Roma Akdeniz’in egemen gücü oldu.",
+    "donemler": [
+      {
+        "bas": -509,
+        "son": -27,
+        "kesinlik": "geleneksel",
+        "not": "Başlangıç, Roma geleneğinin verdiği yıldır."
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu",
+      "pergamon",
+      "pontos"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "livius"
+      },
+      {
+        "kaynak": "ocd"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "livius/roma-tarihi"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 41.8925,
+        "boylam": 12.4853
+      }
+    }
+  },
+  {
+    "kimlik": "roma-imparatorlugu",
+    "ad": "Roma İmparatorluğu",
+    "tur": "devlet",
+    "bolge": "akdeniz",
+    "yer": "Akdeniz",
+    "ozet": "Augustus’la başlayan imparatorluk dönemi. 395’te yönetimi doğu ve batı olarak ayrıldı.",
+    "donemler": [
+      {
+        "bas": -27,
+        "son": 395,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-cumhuriyeti",
+      "roma-anadolusu",
+      "bati-roma",
+      "dogu-roma",
+      "part"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "cassius-dio"
+      },
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor",
+    "baglantilar": {
+      "eserler": [
+        "cassius-dio/roma-tarihi"
+      ]
+    },
+    "harita": {
+      "merkez": {
+        "enlem": 41.8925,
+        "boylam": 12.4853
+      }
+    }
+  },
+  {
+    "kimlik": "bati-roma",
+    "ad": "Batı Roma",
+    "tur": "devlet",
+    "bolge": "akdeniz",
+    "yer": "Batı Akdeniz",
+    "ozet": "Bölünmeden sonra batıda süren imparatorluk. 476’da Romulus Augustulus’un tahttan indirilmesi geleneksel son olarak kabul edilir.",
+    "donemler": [
+      {
+        "bas": 395,
+        "son": 476,
+        "kesinlik": "kesin"
+      }
+    ],
+    "iliskiliUygarliklar": [
+      "roma-imparatorlugu",
+      "dogu-roma"
+    ],
+    "kaynakca": [
+      {
+        "kaynak": "mitchell-gec-roma"
+      }
+    ],
+    "dogrulama": "bekliyor"
+  }
+]

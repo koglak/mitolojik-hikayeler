@@ -1,0 +1,238 @@
+---
+import { kaynakAdresi } from '../../lib/antikKaynaklar';
+import { atlasBolgeleri } from '../../lib/zamanAtlasi/bolgeler';
+import { kesinlikler, nitelikler, olayTurleri, uygarlikTurleri } from '../../lib/zamanAtlasi/etiketler';
+import type { IcerikBaglantisi } from '../../lib/zamanAtlasi/baglantilar';
+import type { Atlas, AtlasKaydi } from '../../lib/zamanAtlasi/sorgu';
+import { aralikYaz } from '../../lib/zamanAtlasi/yil';
+
+interface Props {
+  atlas: Atlas;
+  oge: AtlasKaydi;
+  baglantilar: IcerikBaglantisi[];
+  gizli: boolean;
+}
+
+const { atlas, oge, baglantilar, gizli } = Astro.props;
+const { tur, kayit, bolge } = oge;
+const { veri } = atlas;
+const { ad: bolgeAdi, renk } = atlasBolgeleri[bolge];
+const adiyla = (kimlik: string) => ({ kimlik, ad: atlas.kayitlar.get(kimlik)!.kayit.ad });
+
+const etiketler =
+  tur === 'uygarlik'
+    ? [uygarlikTurleri[kayit.tur]]
+    : tur === 'hukumdar'
+      ? ['Hükümdar', ...(kayit.nitelik === 'tarihsel' ? [] : [nitelikler[kayit.nitelik]])]
+      : [olayTurleri[kayit.tur], nitelikler[kayit.nitelik]];
+
+const ustBilgi = tur === 'uygarlik' ? [...new Set([bolgeAdi, kayit.yer])].join(', ') : ((tur === 'olay' && kayit.yer) || bolgeAdi);
+const iliskiler = [...new Set([...(tur === 'uygarlik' ? [] : [kayit.uygarlik]), ...kayit.iliskiliUygarliklar])].map(adiyla);
+const icindekiler =
+  tur === 'uygarlik'
+    ? [
+        { baslik: 'Hükümdarlar', liste: veri.hukumdarlar.filter((h) => h.uygarlik === kayit.kimlik) },
+        {
+          baslik: 'Olaylar',
+          liste: veri.olaylar.filter((o) => o.uygarlik === kayit.kimlik || o.iliskiliUygarliklar.includes(kayit.kimlik)),
+        },
+      ].filter(({ liste }) => liste.length > 0)
+    : [];
+const kaynakca = kayit.kaynakca.map(({ kaynak, yer }) => ({ ...veri.kaynaklar.find((k) => k.kimlik === kaynak)!, yer }));
+---
+
+<article class="detay" data-detay={kayit.kimlik} hidden={gizli} style={`--bolge-rengi:${renk}`}>
+  <p class="bolge">{ustBilgi}</p>
+  <h2>{kayit.ad}</h2>
+  <ul class="donemler">
+    {
+      kayit.donemler.map(({ bas, son, kesinlik, not }) => (
+        <li>
+          <strong>{aralikYaz(bas, son)}</strong>
+          <span>{kesinlikler[kesinlik]}</span>
+          {not && <small>{not}</small>}
+        </li>
+      ))
+    }
+  </ul>
+  <p class="etiketler">{etiketler.map((etiket) => <span>{etiket}</span>)}</p>
+  <p class="ozet">{kayit.ozet}</p>
+
+  {
+    icindekiler.map(({ baslik, liste }) => (
+      <>
+        <h3>{baslik}</h3>
+        <ul class="secimler">
+          {liste.map(({ kimlik, ad }) => (
+            <li>
+              <button type="button" data-sec={kimlik}>
+                {ad}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))
+  }
+  {
+    iliskiler.length > 0 && (
+      <>
+        <h3>İlişkili uygarlıklar</h3>
+        <ul class="secimler">
+          {iliskiler.map(({ kimlik, ad }) => (
+            <li>
+              <button type="button" data-sec={kimlik}>
+                {ad}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+  {
+    baglantilar.length > 0 && (
+      <>
+        <h3>Sitede oku</h3>
+        <ul class="okumalar">
+          {baglantilar.map(({ ad, tur: icerikTuru, adres }) => (
+            <li>
+              <a href={adres}>{ad}</a> <small>{icerikTuru}</small>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+  <h3>Kaynakça</h3>
+  <ul class="kaynakca">
+    {
+      kaynakca.map(({ ad, yazar, kunye, eser, adres, yer }) => {
+        const hedef = eser ? kaynakAdresi(eser) : adres;
+        return (
+          <li>
+            {yazar && `${yazar}, `}
+            {hedef ? (
+              <a href={hedef} {...(adres ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+                <cite>{ad}</cite>
+              </a>
+            ) : (
+              <cite>{ad}</cite>
+            )}
+            {yer && ` ${yer}`}
+            {kunye && `, ${kunye}`}
+          </li>
+        );
+      })
+    }
+  </ul>
+  {kayit.dogrulama === 'bekliyor' && <p class="dogrulama">Bu kaydın tarihleri henüz kaynaklarıyla karşılaştırılmadı.</p>}
+</article>
+
+<style>
+  .detay {
+    padding: 22px 22px 26px;
+    border-top: 3px solid var(--bolge-rengi);
+  }
+  .bolge {
+    margin: 0 0 4px;
+    padding-right: 48px;
+    font-size: 14px;
+    color: var(--bolge-rengi);
+  }
+  h2 {
+    margin: 0 0 10px;
+    padding-right: 40px;
+    font-size: 34px;
+    line-height: 1.05;
+  }
+  h3 {
+    margin: 20px 0 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--kart-basligi);
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .donemler {
+    display: grid;
+    gap: 6px;
+    font-size: 15px;
+  }
+  .donemler strong {
+    font-weight: 500;
+    margin-right: 8px;
+  }
+  .donemler span,
+  .donemler small {
+    color: var(--soluk);
+  }
+  .donemler small {
+    display: block;
+    font-size: 14px;
+  }
+  .etiketler {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 12px 0;
+  }
+  .etiketler span {
+    padding: 2px 10px;
+    font-size: 13px;
+    color: var(--vurgu);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .ozet {
+    margin: 0;
+    text-wrap: pretty;
+  }
+  .secimler {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .secimler button {
+    min-height: 40px;
+    padding: 4px 12px;
+    font-size: 15px;
+    text-align: left;
+    background: var(--yuzey-2);
+    border: 1px solid var(--cizgi);
+    border-radius: 4px;
+  }
+  .secimler button:hover {
+    border-color: var(--vurgu);
+  }
+  .okumalar,
+  .kaynakca {
+    display: grid;
+    gap: 6px;
+    font-size: 15px;
+  }
+  .kaynakca {
+    font-size: 14px;
+    color: var(--soluk);
+  }
+  .okumalar small {
+    color: var(--soluk);
+  }
+  a {
+    color: var(--yazi);
+    border-bottom: 1px solid var(--vurgu);
+  }
+  a:hover {
+    color: var(--vurgu);
+  }
+  .dogrulama {
+    margin: 18px 0 0;
+    padding-top: 12px;
+    font-size: 14px;
+    color: var(--soluk);
+    border-top: 1px solid var(--cizgi);
+  }
+</style>

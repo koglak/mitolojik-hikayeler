@@ -2,6 +2,8 @@ import { getCollection } from 'astro:content';
 import { kaynakAdresi } from './antikKaynaklar';
 import { bolumAnahtarlari, bolumler, kayitAdresi, mitAdresi } from './bolumler';
 import { eserleriGetir, yazarlariGetir } from './kaynakDizini';
+import { adresYaz, kronolojiAdresi } from './zamanAtlasi/adres';
+import { atlas } from './zamanAtlasi/atlas';
 
 export interface AramaKaydi {
   baslik: string;
@@ -46,6 +48,15 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
       bolum: `Antik eser, ${yazarAdlari.get(data.yazar)}`,
       adres: kaynakAdresi(id),
     });
+  }
+  kayitlar.push({
+    baslik: 'Antik Dünya Zaman Atlası',
+    ozet: 'Kronoloji, zaman çizelgesi, uygarlıklar, hükümdarlar ve savaşlar.',
+    bolum: 'Kronoloji',
+    adres: kronolojiAdresi,
+  });
+  for (const [kimlik, { kayit }] of atlas.kayitlar) {
+    kayitlar.push({ baslik: kayit.ad, ozet: kayit.ozet, bolum: 'Kronoloji', adres: adresYaz({ kayit: kimlik }) });
   }
   return kayitlar;
 }

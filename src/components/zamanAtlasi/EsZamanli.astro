@@ -1,0 +1,108 @@
+---
+import { atlasBolgeAnahtarlari, atlasBolgeleri } from '../../lib/zamanAtlasi/bolgeler';
+import { yilKesiti, type Atlas } from '../../lib/zamanAtlasi/sorgu';
+import { yilYaz } from '../../lib/zamanAtlasi/yil';
+
+interface Props {
+  atlas: Atlas;
+  yil: number;
+}
+
+const { atlas, yil } = Astro.props;
+const kesit = yilKesiti(atlas, yil);
+const varOlanlar = new Set([...kesit.uygarliklar, ...kesit.hukumdarlar].map(({ kimlik }) => kimlik));
+const bolgeler = atlasBolgeAnahtarlari.map((bolge) => {
+  const ogeler = [...atlas.kayitlar.values()].filter((oge) => oge.bolge === bolge && oge.tur !== 'olay');
+  return { bolge, ...atlasBolgeleri[bolge], ogeler, bos: !ogeler.some(({ kayit }) => varOlanlar.has(kayit.kimlik)) };
+});
+---
+
+<section class="es-zamanli" aria-labelledby="es-zamanli-basligi">
+  <h2 id="es-zamanli-basligi"><span data-kesit-yili>{yilYaz(yil)}</span> yılında dünya</h2>
+  <div class="bolgeler">
+    {
+      bolgeler.map(({ bolge, ad, renk, ogeler, bos }) => (
+        <div data-kesit-bolgesi={bolge} style={`--bolge-rengi:${renk}`}>
+          <h3>{ad}</h3>
+          <ul>
+            {ogeler.map(({ tur, kayit }) => (
+              <li data-kesit-kaydi={kayit.kimlik} hidden={!varOlanlar.has(kayit.kimlik)}>
+                <button type="button" class={tur} data-sec={kayit.kimlik} data-yili-koru>
+                  {kayit.ad}
+                </button>
+              </li>
+            ))}
+          </ul>
+          <p data-kesit-bos hidden={!bos}>
+            Bu yıl için kayıt yok.
+          </p>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .es-zamanli {
+    margin-top: 52px;
+  }
+  h2 {
+    margin: 0 0 18px;
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1;
+  }
+  h2 span {
+    color: var(--vurgu);
+    font-variant-numeric: lining-nums;
+  }
+  .bolgeler {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr));
+    gap: 22px 24px;
+  }
+  h3 {
+    margin: 0 0 8px;
+    padding-top: 10px;
+    font: 500 16px/1.3 var(--govde-font);
+    color: var(--bolge-rengi);
+    border-top: 2px solid var(--bolge-rengi);
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  button {
+    display: block;
+    width: 100%;
+    min-height: 36px;
+    padding: 4px 0;
+    text-align: left;
+    line-height: 1.3;
+    background: none;
+    border: 0;
+  }
+  button.hukumdar {
+    padding-left: 14px;
+    font: italic 500 18px/1.2 var(--baslik-font);
+    color: var(--soluk);
+  }
+  button:hover,
+  button.hukumdar:hover {
+    color: var(--vurgu);
+  }
+  p {
+    margin: 4px 0 0;
+    font-size: 15px;
+    color: var(--soluk);
+  }
+  @media (max-width: 620px) {
+    .bolgeler {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px 18px;
+    }
+    button {
+      min-height: 44px;
+    }
+  }
+</style>

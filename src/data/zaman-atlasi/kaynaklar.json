@@ -1,0 +1,282 @@
+[
+  {
+    "kimlik": "mieroop",
+    "ad": "A History of the Ancient Near East, ca. 3000–323 BC",
+    "yazar": "Marc Van De Mieroop",
+    "kunye": "Wiley-Blackwell",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "kuhrt",
+    "ad": "The Ancient Near East, c. 3000–330 BC",
+    "yazar": "Amélie Kuhrt",
+    "kunye": "Routledge, 1995",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "bryce-hitit",
+    "ad": "The Kingdom of the Hittites",
+    "yazar": "Trevor Bryce",
+    "kunye": "Oxford University Press",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "bryce-gec-hitit",
+    "ad": "The World of the Neo-Hittite Kingdoms",
+    "yazar": "Trevor Bryce",
+    "kunye": "Oxford University Press, 2012",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "bryce-batiasya",
+    "ad": "The Routledge Handbook of the Peoples and Places of Ancient Western Asia",
+    "yazar": "Trevor Bryce",
+    "kunye": "Routledge, 2009",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "sagona-zimansky",
+    "ad": "Ancient Turkey",
+    "yazar": "Antonio Sagona ve Paul Zimansky",
+    "kunye": "Routledge, 2009",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "latacz",
+    "ad": "Troy and Homer",
+    "yazar": "Joachim Latacz",
+    "kunye": "Oxford University Press, 2004",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "cline-ege",
+    "ad": "The Oxford Handbook of the Bronze Age Aegean",
+    "yazar": "Eric H. Cline (ed.)",
+    "kunye": "Oxford University Press, 2010",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "shaw",
+    "ad": "The Oxford History of Ancient Egypt",
+    "yazar": "Ian Shaw (ed.)",
+    "kunye": "Oxford University Press, 2000",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "potts-elam",
+    "ad": "The Archaeology of Elam",
+    "yazar": "D. T. Potts",
+    "kunye": "Cambridge University Press",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "briant",
+    "ad": "From Cyrus to Alexander",
+    "yazar": "Pierre Briant",
+    "kunye": "Eisenbrauns, 2002",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "iran-3",
+    "ad": "The Cambridge History of Iran, cilt 3",
+    "yazar": "Ehsan Yarshater (ed.)",
+    "kunye": "Cambridge University Press, 1983",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "errington",
+    "ad": "A History of the Hellenistic World",
+    "yazar": "R. Malcolm Errington",
+    "kunye": "Blackwell, 2008",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "magie",
+    "ad": "Roman Rule in Asia Minor",
+    "yazar": "David Magie",
+    "kunye": "Princeton University Press, 1950",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "mitchell-anadolu",
+    "ad": "Anatolia: Land, Men, and Gods in Asia Minor",
+    "yazar": "Stephen Mitchell",
+    "kunye": "Oxford University Press, 1993",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "mitchell-gec-roma",
+    "ad": "A History of the Later Roman Empire",
+    "yazar": "Stephen Mitchell",
+    "kunye": "Blackwell",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "facella",
+    "ad": "La dinastia degli Orontidi nella Commagene ellenistico-romana",
+    "yazar": "Margherita Facella",
+    "kunye": "Giardini, 2006",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "ocd",
+    "ad": "The Oxford Classical Dictionary",
+    "yazar": "Simon Hornblower ve Antony Spawforth (ed.)",
+    "kunye": "Oxford University Press",
+    "tur": "modern"
+  },
+  {
+    "kimlik": "met",
+    "ad": "Heilbrunn Timeline of Art History",
+    "yazar": "The Metropolitan Museum of Art",
+    "tur": "cevrimici",
+    "adres": "https://www.metmuseum.org/toah/"
+  },
+  {
+    "kimlik": "unesco-nemrut",
+    "ad": "Nemrut Dağ",
+    "yazar": "UNESCO Dünya Mirası Merkezi",
+    "tur": "cevrimici",
+    "adres": "https://whc.unesco.org/en/list/448/"
+  },
+  {
+    "kimlik": "herodotos",
+    "ad": "Tarihler",
+    "yazar": "Herodotos",
+    "tur": "antik",
+    "eser": "herodotos/tarihler"
+  },
+  {
+    "kimlik": "arrianos",
+    "ad": "İskender’in Seferi",
+    "yazar": "Arrianos",
+    "tur": "antik",
+    "eser": "arrianos/iskenderin-seferi"
+  },
+  {
+    "kimlik": "strabon",
+    "ad": "Geographika",
+    "yazar": "Strabon",
+    "tur": "antik",
+    "eser": "strabon/geographika"
+  },
+  {
+    "kimlik": "plutarkhos",
+    "ad": "Paralel Yaşamlar",
+    "yazar": "Plutarkhos",
+    "tur": "antik",
+    "eser": "plutarkhos/paralel-yasamlar"
+  },
+  {
+    "kimlik": "polybios",
+    "ad": "Tarihler",
+    "yazar": "Polybios",
+    "tur": "antik",
+    "eser": "polybios/tarihler"
+  },
+  {
+    "kimlik": "livius",
+    "ad": "Roma Tarihi",
+    "yazar": "Livius",
+    "tur": "antik",
+    "eser": "livius/roma-tarihi"
+  },
+  {
+    "kimlik": "tacitus",
+    "ad": "Annales",
+    "yazar": "Tacitus",
+    "tur": "antik",
+    "eser": "tacitus/annales"
+  },
+  {
+    "kimlik": "suetonius",
+    "ad": "On İki Caesar’ın Yaşamı",
+    "yazar": "Suetonius",
+    "tur": "antik",
+    "eser": "suetonius/on-iki-caesarin-yasami"
+  },
+  {
+    "kimlik": "cassius-dio",
+    "ad": "Roma Tarihi",
+    "yazar": "Cassius Dio",
+    "tur": "antik",
+    "eser": "cassius-dio/roma-tarihi"
+  },
+  {
+    "kimlik": "ammianus",
+    "ad": "Res Gestae",
+    "yazar": "Ammianus Marcellinus",
+    "tur": "antik",
+    "eser": "ammianus-marcellinus/res-gestae"
+  },
+  {
+    "kimlik": "iosephus-savas",
+    "ad": "Yahudi Savaşı",
+    "yazar": "Iosephus",
+    "tur": "antik",
+    "eser": "iosephus/yahudi-savasi"
+  },
+  {
+    "kimlik": "pausanias",
+    "ad": "Yunanistan’ın Tasviri",
+    "yazar": "Pausanias",
+    "tur": "antik",
+    "eser": "pausanias/yunanistanin-tasviri"
+  },
+  {
+    "kimlik": "ilyada",
+    "ad": "İlyada",
+    "yazar": "Homeros",
+    "tur": "antik",
+    "eser": "homeros/ilyada"
+  },
+  {
+    "kimlik": "thukydides",
+    "ad": "Peloponnesos Savaşı",
+    "yazar": "Thukydides",
+    "tur": "antik",
+    "eser": "thukydides/peloponnesos-savasi"
+  },
+  {
+    "kimlik": "hellenika",
+    "ad": "Hellenika",
+    "yazar": "Ksenophon",
+    "tur": "antik",
+    "eser": "ksenophon/hellenika"
+  },
+  {
+    "kimlik": "anabasis",
+    "ad": "Anabasis",
+    "yazar": "Ksenophon",
+    "tur": "antik",
+    "eser": "ksenophon/anabasis"
+  },
+  {
+    "kimlik": "diodoros",
+    "ad": "Tarih Kitaplığı",
+    "yazar": "Diodoros",
+    "tur": "antik",
+    "eser": "diodoros/tarih-kitapligi"
+  },
+  {
+    "kimlik": "eusebios",
+    "ad": "Kilise Tarihi",
+    "yazar": "Eusebios",
+    "tur": "antik",
+    "eser": "eusebios/kilise-tarihi"
+  },
+  {
+    "kimlik": "curtius",
+    "ad": "İskender’in Tarihi",
+    "yazar": "Quintus Curtius Rufus",
+    "tur": "antik",
+    "eser": "quintus-curtius-rufus/iskenderin-tarihi"
+  },
+  {
+    "kimlik": "plinius",
+    "ad": "Naturalis Historia",
+    "yazar": "Yaşlı Plinius",
+    "tur": "antik",
+    "eser": "yasli-plinius/naturalis-historia"
+  }
+]
