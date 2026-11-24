@@ -44,5 +44,15 @@ export function muzelereGrupla<T extends BaglantiliEser>(eserler: T[], muzeler: 
     .filter((grup) => grup.eserler.length > 0);
 }
 
+export function yakinlariGrupla<T extends { x: number; y: number }>(noktalar: T[], uzaklik: number): T[][] {
+  const gruplar: T[][] = [];
+  for (const nokta of noktalar) {
+    const yakinGrup = gruplar.find(([ilk]) => Math.hypot(ilk.x - nokta.x, ilk.y - nokta.y) < uzaklik);
+    if (yakinGrup) yakinGrup.push(nokta);
+    else gruplar.push([nokta]);
+  }
+  return gruplar;
+}
+
 export const ilgiliEserler = <T extends BaglantiliEser>(eserler: T[], alan: BaglantiAlani, kimlik: string) =>
   eserler.filter((eser) => eser.data[baglantiAlanlari[alan]].includes(kimlik));

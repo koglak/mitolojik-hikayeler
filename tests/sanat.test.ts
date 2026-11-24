@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { gorselKumesi, lisansKabul, sanatAdresi, sanatEserAdresi } from '../src/lib/sanat';
-import { ilgiliEserler, muzelereGrupla, sanatSuz } from '../src/lib/sanatSorgu';
+import { ilgiliEserler, muzelereGrupla, sanatSuz, yakinlariGrupla } from '../src/lib/sanatSorgu';
 
 describe('lisansKabul', () => {
   it.each(['Public domain', 'CC0', 'CC BY 2.5', 'CC BY-SA 4.0', 'cc by-sa 3.0'])('%s kabul edilir', (lisans) => {
@@ -63,6 +63,23 @@ describe('muzelereGrupla', () => {
       ['vatikan', ['laokoon', 'atina-okulu']],
       ['zeugma', ['cingene-kizi']],
     ]);
+  });
+});
+
+describe('yakinlariGrupla', () => {
+  const noktalar = [
+    { ad: 'british-museum', x: 100, y: 100 },
+    { ad: 'met', x: 10, y: 120 },
+    { ad: 'national-gallery', x: 100.1, y: 100 },
+  ];
+  const grupla = (uzaklik: number) => yakinlariGrupla(noktalar, uzaklik).map((grup) => grup.map(({ ad }) => ad));
+
+  it('birbirini örten noktaları tek grupta toplar', () => {
+    expect(grupla(20)).toEqual([['british-museum', 'national-gallery'], ['met']]);
+  });
+
+  it('uzaklık yeterliyse her nokta ayrı kalır', () => {
+    expect(grupla(0.05)).toEqual([['british-museum'], ['met'], ['national-gallery']]);
   });
 });
 
