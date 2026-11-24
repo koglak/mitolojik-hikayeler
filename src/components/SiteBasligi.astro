@@ -8,22 +8,18 @@ import AramaPenceresi from './AramaPenceresi.astro';
 import InstagramSimgesi from './InstagramSimgesi.astro';
 import Logo from './Logo.astro';
 import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
-import { bizKimizAdi, bizKimizAdresi, instagramKullaniciAdi, instagramProfilAdresi } from '../lib/site';
+import { instagramKullaniciAdi, instagramProfilAdresi } from '../lib/site';
 import { soyagaciAdresi } from '../lib/soyagaci';
+import { sanatAdi, sanatAdresi } from '../lib/sanat';
 import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
 
-const baglantilar = [
+const anaBaglantilar = [
   {
     href: '/mitler/',
-    ad: 'Mitolojik Hikâyeler',
+    ad: 'Mitler',
     simge:
       '<path d="M24 6h16M26 6v6c-9 3-14 11-14 21 0 13 8 23 20 23s20-10 20-23c0-10-5-18-14-21V6"/>' +
       '<path d="M26 14c-9 0-12 10-6 14M38 14c9 0 12 10 6 14M14 34h36M24 56l-2 4h20l-2-4"/>',
-  },
-  {
-    href: '/antik-kentler/',
-    ad: 'Antik Kentler',
-    simge: '<path d="M6 22 32 6l26 16ZM10 28h44M14 28v24M26 28v24M38 28v24M50 28v24M8 52h48M4 58h56"/>',
   },
   {
     href: '/tanrilar/',
@@ -38,6 +34,14 @@ const baglantilar = [
       '<path d="M12 22C16 6 48 6 52 22"/>',
   },
   {
+    href: '/antik-kentler/',
+    ad: 'Antik Kentler',
+    simge: '<path d="M6 22 32 6l26 16ZM10 28h44M14 28v24M26 28v24M38 28v24M50 28v24M8 52h48M4 58h56"/>',
+  },
+];
+
+const kesfetBaglantilari = [
+  {
     href: soyagaciAdresi,
     ad: 'Soyağacı',
     simge:
@@ -50,20 +54,24 @@ const baglantilar = [
     simge: '<path d="M14 4h36M14 60h36M18 4c0 16 28 18 28 28S18 44 18 60M46 4c0 16-28 18-28 28s28 12 28 28"/>',
   },
   {
+    href: sanatAdresi,
+    ad: sanatAdi,
+    simge:
+      '<path d="M6 12h52v40H6ZM12 18h40v28H12Z"/><path d="m12 40 11-11 9 9 7-6 13 11M24 12l8-8 8 8"/>',
+  },
+  {
     href: antikKaynaklarAdresi,
     ad: antikKaynaklarAdi,
     simge:
       '<path d="M16 14v40a6 6 0 0 0 6 6h30a6 6 0 0 1-6-6V10a6 6 0 0 0-6-6H10a6 6 0 0 1 6 6Z"/>' +
       '<path d="M10 4a6 6 0 0 0-6 6v4h12M26 20h12M26 32h12M26 44h8"/>',
   },
-  {
-    href: bizKimizAdresi,
-    ad: bizKimizAdi,
-    simge: '<circle cx="32" cy="20" r="13"/><path d="M8 58c0-13 10-20 24-20s24 7 24 20Z"/>',
-  },
 ];
 const simdikiYol = Astro.url.pathname;
 const aktifMi = (href: string) => simdikiYol.startsWith(href);
+const guncelSayfa = (href: string) => (aktifMi(href) ? ('page' as const) : undefined);
+const kesfetAktif = kesfetBaglantilari.some((b) => aktifMi(b.href));
+const menuGruplari = [anaBaglantilar, kesfetBaglantilari];
 ---
 
 <header class="baslik-cubugu">
@@ -73,13 +81,34 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   </a>
   <nav class="masaustu-menu" aria-label="Ana menü">
     {
-      baglantilar.map((b) => (
-        <a href={b.href} class:list={{ aktif: aktifMi(b.href) }} aria-current={aktifMi(b.href) ? 'page' : undefined}>
-          <svg class="menu-simgesi" viewBox="0 0 64 64" aria-hidden="true" focusable="false" set:html={b.simge} />
+      anaBaglantilar.map((b) => (
+        <a class:list={['ust-baglanti', { aktif: aktifMi(b.href) }]} href={b.href} aria-current={guncelSayfa(b.href)}>
           {b.ad}
         </a>
       ))
     }
+    <div class="kesfet" data-kesfet>
+      <button
+        class:list={['ust-baglanti', 'kesfet-dugmesi', { aktif: kesfetAktif }]}
+        type="button"
+        data-kesfet-dugmesi
+        aria-expanded="false"
+        aria-controls="kesfet-paneli"
+      >
+        Keşfet
+        <svg class="kesfet-oku" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m2 4 4 4 4-4" /></svg>
+      </button>
+      <div class="kesfet-paneli" id="kesfet-paneli">
+        {
+          kesfetBaglantilari.map((b) => (
+            <a class:list={['simgeli-baglanti', { aktif: aktifMi(b.href) }]} href={b.href} aria-current={guncelSayfa(b.href)}>
+              <svg class="menu-simgesi" viewBox="0 0 64 64" aria-hidden="true" focusable="false" set:html={b.simge} />
+              {b.ad}
+            </a>
+          ))
+        }
+      </div>
+    </div>
   </nav>
   <div class="eylemler">
     {
@@ -106,11 +135,15 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   </div>
   <nav class="mobil-menu" id="mobil-menu" data-mobil-menu aria-label="Mobil menü">
     {
-      baglantilar.map((b) => (
-        <a href={b.href}>
-          <svg class="menu-simgesi" viewBox="0 0 64 64" aria-hidden="true" focusable="false" set:html={b.simge} />
-          {b.ad}
-        </a>
+      menuGruplari.map((grup) => (
+        <div class="mobil-grup">
+          {grup.map((b) => (
+            <a class:list={['simgeli-baglanti', { aktif: aktifMi(b.href) }]} href={b.href} aria-current={guncelSayfa(b.href)}>
+              <svg class="menu-simgesi" viewBox="0 0 64 64" aria-hidden="true" focusable="false" set:html={b.simge} />
+              {b.ad}
+            </a>
+          ))}
+        </div>
       ))
     }
   </nav>
@@ -126,6 +159,31 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   }
   menuDugmesi?.addEventListener('click', () => menuyuAyarla(!mobilMenu?.classList.contains('acik')));
   mobilMenu?.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => menuyuAyarla(false)));
+
+  const kesfet = document.querySelector<HTMLElement>('[data-kesfet]');
+  const kesfetDugmesi = kesfet?.querySelector<HTMLButtonElement>('[data-kesfet-dugmesi]');
+  const kesfetAcikMi = () => kesfetDugmesi?.getAttribute('aria-expanded') === 'true';
+  function kesfetiAyarla(acik: boolean): void {
+    kesfetDugmesi?.setAttribute('aria-expanded', String(acik));
+  }
+  kesfetDugmesi?.addEventListener('click', () => kesfetiAyarla(!kesfetAcikMi()));
+  kesfet?.addEventListener('focusout', (olay) => {
+    if (olay.relatedTarget && !kesfet.contains(olay.relatedTarget as Node)) kesfetiAyarla(false);
+  });
+  document.addEventListener('click', (olay) => {
+    if (!kesfet?.contains(olay.target as Node)) kesfetiAyarla(false);
+  });
+  document.addEventListener('keydown', (olay) => {
+    if (olay.key !== 'Escape') return;
+    if (kesfetAcikMi()) {
+      kesfetiAyarla(false);
+      kesfetDugmesi?.focus();
+    }
+    if (mobilMenu?.classList.contains('acik')) {
+      menuyuAyarla(false);
+      menuDugmesi?.focus();
+    }
+  });
 </script>
 
 <style>
@@ -164,22 +222,78 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   }
   .masaustu-menu {
     display: flex;
-    gap: 22px;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--soluk);
+    align-items: center;
+    gap: 30px;
+    white-space: nowrap;
   }
-  .masaustu-menu a {
+  .ust-baglanti {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 7px;
     padding: 6px 0;
+    background: none;
+    border: 0;
     border-bottom: 1px solid transparent;
+    font: 500 15px/1.6 var(--govde-font);
+    color: var(--soluk);
+  }
+  .ust-baglanti:hover,
+  .ust-baglanti.aktif,
+  .kesfet-dugmesi[aria-expanded='true'] {
+    color: var(--yazi);
+    border-bottom-color: var(--vurgu);
+  }
+  .kesfet {
+    position: relative;
+  }
+  .kesfet-oku {
+    width: 11px;
+    height: 11px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: transform 0.2s;
+  }
+  .kesfet-dugmesi[aria-expanded='true'] .kesfet-oku {
+    transform: rotate(180deg);
+  }
+  .kesfet-paneli {
+    display: none;
+    position: absolute;
+    top: calc(100% + 14px);
+    right: 0;
+    min-width: 230px;
+    flex-direction: column;
+    padding: 10px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-top: 2px solid var(--vurgu);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+    font-size: 15px;
+  }
+  .kesfet-dugmesi[aria-expanded='true'] + .kesfet-paneli {
+    display: flex;
+  }
+  .kesfet-paneli .simgeli-baglanti {
+    padding: 10px 12px;
+  }
+  .kesfet-paneli .simgeli-baglanti:hover {
+    background: var(--yuzey-2);
+  }
+  .simgeli-baglanti {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .simgeli-baglanti.aktif {
+    color: var(--vurgu);
   }
   .menu-simgesi {
     flex: none;
-    width: 17px;
-    height: 17px;
+    width: 20px;
+    height: 20px;
     fill: none;
     stroke: var(--vurgu);
     stroke-width: 4.5;
@@ -188,23 +302,9 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
     opacity: 0.75;
     transition: opacity 0.2s;
   }
-  .masaustu-menu a:hover .menu-simgesi,
-  .masaustu-menu a.aktif .menu-simgesi {
+  .simgeli-baglanti:hover .menu-simgesi,
+  .simgeli-baglanti.aktif .menu-simgesi {
     opacity: 1;
-  }
-  .mobil-menu a {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .mobil-menu .menu-simgesi {
-    width: 20px;
-    height: 20px;
-  }
-  .masaustu-menu a:hover,
-  .masaustu-menu a.aktif {
-    color: var(--yazi);
-    border-bottom-color: var(--vurgu);
   }
   .eylemler {
     display: flex;
@@ -225,7 +325,7 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
   .mobil-menu {
     display: none;
   }
-  @media (max-width: 1420px) {
+  @media (max-width: 1000px) {
     .baslik-cubugu {
       height: 72px;
     }
@@ -245,8 +345,17 @@ const aktifMi = (href: string) => simdikiYol.startsWith(href);
       background: var(--yuzey);
       border: 1px solid var(--cizgi);
       padding: 22px;
-      gap: 20px;
       font-size: 16px;
+    }
+    .mobil-grup {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .mobil-grup + .mobil-grup {
+      margin-top: 22px;
+      padding-top: 22px;
+      border-top: 1px solid var(--cizgi);
     }
     .logo-yazisi {
       font-size: 22px;

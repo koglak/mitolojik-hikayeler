@@ -2,6 +2,8 @@ import { getCollection } from 'astro:content';
 import { kaynakAdresi } from './antikKaynaklar';
 import { bolumAnahtarlari, bolumler, kayitAdresi, mitAdresi } from './bolumler';
 import { eserleriGetir, yazarlariGetir } from './kaynakDizini';
+import { sanatEserAdresi, sanatTurleri } from './sanat';
+import { muzeler, sanatEserleriniGetir } from './sanatDizini';
 import { adresYaz, kronolojiAdresi } from './zamanAtlasi/adres';
 import { atlas } from './zamanAtlasi/atlas';
 
@@ -47,6 +49,15 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
       ozet: [yazarAdlari.get(data.yazar), data.ozet, ...data.digerAdlar].join(' '),
       bolum: `Antik eser, ${yazarAdlari.get(data.yazar)}`,
       adres: kaynakAdresi(id),
+    });
+  }
+  for (const { id, data } of await sanatEserleriniGetir()) {
+    const muze = muzeler[data.muze];
+    kayitlar.push({
+      baslik: data.ad,
+      ozet: [data.ozgunAd, data.sanatci, data.ozet, muze.ad, muze.kent].filter(Boolean).join(' '),
+      bolum: `Sanat eseri, ${sanatTurleri[data.tur].toLocaleLowerCase('tr')}`,
+      adres: sanatEserAdresi(id),
     });
   }
   kayitlar.push({

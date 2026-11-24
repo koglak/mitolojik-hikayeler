@@ -1,5 +1,6 @@
 ---
 import Logo from './Logo.astro';
+import { bizKimizAdi, bizKimizAdresi } from '../lib/site';
 ---
 
 <footer class="alt-bilgi">
@@ -9,6 +10,7 @@ import Logo from './Logo.astro';
   </span>
   <span>Mitoloji ve antik dünya üzerine bir arşiv.</span>
   <span class="sag">
+    <a href={bizKimizAdresi}>{bizKimizAdi}</a>
     <a href="/gizlilik/">Gizlilik ve çerezler</a>
     <span>© {new Date().getFullYear()}</span>
   </span>
@@ -34,6 +36,7 @@ import Logo from './Logo.astro';
   }
   .sag {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
   }
   .sag a {

@@ -1,5 +1,5 @@
 ---
-export type KategoriTuru = 'mitler' | 'kentler' | 'tanrilar' | 'kahramanlar' | 'soyagaci';
+export type KategoriTuru = 'mitler' | 'kentler' | 'tanrilar' | 'kahramanlar' | 'soyagaci' | 'kronoloji';
 
 interface Props {
   tur: KategoriTuru;
@@ -30,6 +30,9 @@ const madalyonlar = [
   { x: 92, y: 238, r: 36, renk: '#ffb3d1', simge: 'M0-18L5-6L18-5L8 4L11 17L0 10L-11 17L-8 4L-18-5L-5-6Z' },
   { x: 508, y: 238, r: 36, renk: '#86b8f7', simge: 'M-15-17H15V0C15 10 7 16 0 20C-7 16-15 10-15 0Z' },
 ];
+const cagNoktalari = [60, 140, 220, 300, 380, 460, 540];
+const tapinakSutunlari = [380, 398, 416, 434, 452];
+const kemerler = [492, 516, 540, 564];
 const yapraklar = [
   { x: 300, y: 138, aci: -48 }, { x: 300, y: 146, aci: 228 }, { x: 300, y: 182, aci: -40 }, { x: 300, y: 190, aci: 220 },
   { x: 212, y: 179, aci: -70 }, { x: 222, y: 188, aci: 150 }, { x: 252, y: 204, aci: -90 }, { x: 264, y: 210, aci: 140 },
@@ -82,6 +85,15 @@ const yapraklar = [
           <>
             <stop offset="0" stop-color="#0b1719" />
             <stop offset="1" stop-color="#2c3a2c" />
+          </>
+        )
+      }
+      {
+        tur === 'kronoloji' && (
+          <>
+            <stop offset="0" stop-color="#0f1526" />
+            <stop offset=".5" stop-color="#3c2c40" />
+            <stop offset=".85" stop-color="#a9694a" />
           </>
         )
       }
@@ -289,6 +301,55 @@ const yapraklar = [
             <path d={simge} fill={renk} />
           </g>
         ))}
+      </g>
+    )
+  }
+
+  {
+    tur === 'kronoloji' && (
+      <g>
+        <g fill="#f7e3bd">
+          <circle cx="46" cy="74" r="1.3" />
+          <circle cx="118" cy="120" r="1" />
+          <circle cx="176" cy="52" r="1.5" />
+          <circle cx="396" cy="58" r="1.1" />
+          <circle cx="468" cy="110" r="1.4" />
+          <circle cx="548" cy="66" r="1" />
+        </g>
+        <path d="M50 330A250 250 0 0 1 550 330" fill="none" stroke="#f1cf91" stroke-width="1.6" stroke-dasharray="2 9" stroke-linecap="round" opacity=".55" />
+        <g class="gok-cismi">
+          <circle cx="300" cy="80" r="62" fill={`url(#${kimlik}-isik)`} />
+          <circle cx="300" cy="80" r="17" fill="#f8d39a" />
+        </g>
+        <g fill="#241d2b">
+          <path d="M8 330L78 236L148 330Z" />
+          <path d="M120 330v-26h14v-22h14v-22h14v-20h36v20h14v22h14v22h14v26Z" />
+          <path d="M366 330v-10h108v10ZM372 274v-12h96v12ZM366 262L420 232L474 262Z" />
+          {tapinakSutunlari.map((x) => <rect x={x - 4} y="274" width="9" height="46" />)}
+          <path d="M484 330v-92h100v30l-8 8 8 10v44Z" />
+        </g>
+        <path d="M78 236L148 330H104Z" fill="#33283a" />
+        <g fill="#a9694a" opacity=".75">
+          {kemerler.map((x) => <path d={`M${x} 328v-22a7 7 0 0 1 14 0v22ZM${x} 282v-18a7 7 0 0 1 14 0v18Z`} />)}
+        </g>
+        <path d="M0 330H600V400H0Z" fill="#16121b" />
+        <path d="M262 134C262 190 292 205 296 225C292 245 262 260 262 316H338C338 260 308 245 304 225C308 205 338 190 338 134Z" fill="#f4e9d7" fill-opacity=".14" stroke="#f4e9d7" stroke-opacity=".55" stroke-width="2" />
+        <path class="ust-kum" d="M269 174H331C325 195 307 208 304 225H296C293 208 275 195 269 174Z" fill="#e8bd78" />
+        <path class="alt-kum" d="M265 315C271 290 290 277 300 272C310 277 329 290 335 315Z" fill="#e8bd78" />
+        <path class="kum-akisi" d="M300 222V276" fill="none" stroke="#ffe2a8" stroke-width="2.6" stroke-dasharray="5 4" />
+        <path d="M274 148C276 176 288 192 292 204" fill="none" stroke="#fff3d6" stroke-width="3" stroke-linecap="round" opacity=".5" />
+        <g fill={`url(#${kimlik}-tunc)`}>
+          <path d="M238 118h124v16H238ZM238 316h124v16H238Z" />
+          <rect x="246" y="134" width="9" height="182" />
+          <rect x="345" y="134" width="9" height="182" />
+          <circle cx="250.5" cy="225" r="8" />
+          <circle cx="349.5" cy="225" r="8" />
+        </g>
+        <path d="M30 351H570" stroke="#c08a4a" stroke-width="2" />
+        <g fill="#16121b" stroke="#f1cf91" stroke-width="2">
+          {cagNoktalari.map((x) => <circle cx={x} cy="351" r="5" />)}
+        </g>
+        <circle class="cag-isareti" cx="60" cy="351" r="5" fill="#ffe2a8" />
       </g>
     )
   }
@@ -526,6 +587,59 @@ const yapraklar = [
     }
     58% {
       opacity: 1;
+    }
+  }
+  .kategori-gorseli .gok-cismi {
+    transform-box: view-box;
+    transform-origin: 300px 330px;
+    animation: gok-doner 16s ease-in-out infinite alternate;
+  }
+  @keyframes gok-doner {
+    from {
+      transform: rotate(-64deg);
+    }
+    to {
+      transform: rotate(64deg);
+    }
+  }
+  .ust-kum {
+    transform-origin: center bottom;
+    animation: kum-azalir 16s linear infinite alternate;
+  }
+  @keyframes kum-azalir {
+    from {
+      transform: scaleY(1);
+    }
+    to {
+      transform: scaleY(0.82);
+    }
+  }
+  .alt-kum {
+    transform-origin: center bottom;
+    animation: kum-artar 16s linear infinite alternate;
+  }
+  @keyframes kum-artar {
+    from {
+      transform: scaleY(0.82);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
+  .kum-akisi {
+    animation: kum-akar 0.5s linear infinite;
+  }
+  @keyframes kum-akar {
+    to {
+      stroke-dashoffset: -9;
+    }
+  }
+  .cag-isareti {
+    animation: cag-ilerler 16s ease-in-out infinite alternate;
+  }
+  @keyframes cag-ilerler {
+    to {
+      transform: translateX(480px);
     }
   }
   .bulut {

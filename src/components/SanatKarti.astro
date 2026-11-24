@@ -1,0 +1,69 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import SanatGorseli from './SanatGorseli.astro';
+import { sanatEserAdresi, sanatTurleri } from '../lib/sanat';
+import { muzeler } from '../lib/sanatDizini';
+
+interface Props {
+  eser: CollectionEntry<'sanat'>;
+}
+
+const { eser } = Astro.props;
+const muze = muzeler[eser.data.muze];
+---
+
+<a class="sanat-karti" href={sanatEserAdresi(eser.id)}>
+  <span class="resim"><SanatGorseli eser={eser} boyut="kart" /></span>
+  <span class="govde">
+    <span class="tur">{sanatTurleri[eser.data.tur]} · {eser.data.tarih}</span>
+    <strong>{eser.data.ad}</strong>
+    {eser.data.sanatci && <span class="sanatci">{eser.data.sanatci}</span>}
+    <span class="yer">{muze.ad}, {muze.kent}</span>
+  </span>
+</a>
+
+<style>
+  .sanat-karti {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .sanat-karti:hover {
+    border-color: var(--vurgu);
+    background: var(--yuzey-2);
+  }
+  .resim {
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-bottom: 2px solid var(--vurgu);
+  }
+  .govde {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 6px;
+    padding: 18px 20px 20px;
+  }
+  .tur {
+    font-size: 13px;
+    color: var(--soluk);
+  }
+  strong {
+    font: 500 28px/1.08 var(--baslik-font);
+    color: var(--kart-basligi);
+  }
+  .sanatci {
+    font: italic 400 17px/1.3 var(--baslik-font);
+    color: var(--vurgu);
+  }
+  .yer {
+    margin-top: auto;
+    padding-top: 10px;
+    font-size: 14px;
+    color: var(--yazi);
+  }
+</style>

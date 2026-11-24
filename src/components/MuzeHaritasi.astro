@@ -1,0 +1,191 @@
+---
+import type { Muze } from '../lib/sanatSemasi';
+
+interface HaritaMuzesi extends Muze {
+  eserler: { ad: string; adres: string }[];
+}
+
+interface Props {
+  muzeler: HaritaMuzesi[];
+}
+
+const { muzeler } = Astro.props;
+---
+
+<section class="muze-haritasi" aria-labelledby="muze-haritasi-basligi">
+  <div class="harita-ust">
+    <h2 id="muze-haritasi-basligi">Nerede görebilirsin?</h2>
+    <p>Bir işarete dokun, oradaki eserleri gör.</p>
+  </div>
+  <div class="harita" data-muzeler={JSON.stringify(muzeler)} role="region" aria-label="Eserlerin bulunduğu müzelerin haritası"></div>
+</section>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  interface IsaretliMuze {
+    ad: string;
+    kent: string;
+    ulke: string;
+    enlem: number;
+    boylam: number;
+    eserler: { ad: string; adres: string }[];
+  }
+
+  const metniGuvenliYap = (metin: string) =>
+    metin.replace(/[&<>"']/g, (karakter) => `&#${karakter.charCodeAt(0)};`);
+
+  for (const haritaAlani of document.querySelectorAll<HTMLElement>('.muze-haritasi .harita')) {
+    const muzeler: IsaretliMuze[] = JSON.parse(haritaAlani.dataset.muzeler ?? '[]');
+    const harita = L.map(haritaAlani, { scrollWheelZoom: false, worldCopyJump: true });
+
+    L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      { maxZoom: 18, attribution: 'Görüntü © Esri, Maxar, Earthstar Geographics' },
+    ).addTo(harita);
+    L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',
+      { maxZoom: 18, opacity: 0.8 },
+    ).addTo(harita);
+
+    const isaretler = L.layerGroup().addTo(harita);
+
+    const isaretleriCiz = (gorunenAdresler: Set<string> | null) => {
+      isaretler.clearLayers();
+      const noktalar: L.LatLng[] = [];
+      for (const muze of muzeler) {
+        const eserler = muze.eserler.filter((eser) => !gorunenAdresler || gorunenAdresler.has(eser.adres));
+        if (eserler.length === 0) continue;
+        const nokta = L.latLng(muze.enlem, muze.boylam);
+        noktalar.push(nokta);
+        const simge = L.divIcon({
+          className: 'muze-isareti',
+          html: `<span>${eserler.length}</span>`,
+          iconSize: [30, 30],
+          iconAnchor: [15, 15],
+          popupAnchor: [0, -16],
+        });
+        const eserListesi = eserler
+          .map((eser) => `<li><a href="${eser.adres}">${metniGuvenliYap(eser.ad)}</a></li>`)
+          .join('');
+        L.marker(nokta, { icon: simge, title: muze.ad, alt: muze.ad })
+          .bindTooltip(metniGuvenliYap(muze.ad), { direction: 'top', offset: [0, -16], className: 'muze-etiketi' })
+          .bindPopup(
+            `<strong>${metniGuvenliYap(muze.ad)}</strong><p>${metniGuvenliYap(`${muze.kent}, ${muze.ulke}`)}</p><ul>${eserListesi}</ul>`,
+            { className: 'muze-penceresi', maxWidth: 280 },
+          )
+          .addTo(isaretler);
+      }
+      if (noktalar.length > 0) harita.fitBounds(L.latLngBounds(noktalar), { padding: [40, 40], maxZoom: 12 });
+      else harita.setView([42, 18], 3);
+    };
+
+    isaretleriCiz(null);
+    document.addEventListener('sanat-suzuldu', (olay) => {
+      const { adresler } = (olay as CustomEvent<{ adresler: string[] }>).detail;
+      isaretleriCiz(new Set(adresler));
+    });
+    haritaAlani.addEventListener('click', () => harita.scrollWheelZoom.enable(), { once: true });
+  }
+</script>
+
+<style>
+  .muze-haritasi {
+    margin-top: 64px;
+  }
+  .harita-ust {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px 32px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: clamp(28px, 3.4vw, 40px);
+    line-height: 1;
+    margin: 0;
+  }
+  .harita-ust p {
+    color: var(--soluk);
+    margin: 0;
+    font-size: 15px;
+  }
+  .harita {
+    height: clamp(340px, 58vh, 560px);
+    background: var(--hero);
+    border: 1px solid var(--cizgi);
+    position: relative;
+    z-index: 0;
+  }
+</style>
+
+<style is:global>
+  .muze-haritasi .muze-isareti span {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--vurgu);
+    color: var(--zemin);
+    border: 2px solid var(--zemin);
+    box-shadow: 0 0 0 2px var(--vurgu), 0 4px 14px rgba(0, 0, 0, 0.6);
+    font: 700 14px/1 var(--govde-font);
+  }
+  .muze-haritasi .muze-etiketi {
+    background: var(--zemin);
+    color: var(--yazi);
+    border: 1px solid var(--cizgi);
+    font: 500 16px/1.2 var(--baslik-font);
+    box-shadow: none;
+  }
+  .muze-haritasi .muze-etiketi::before {
+    border-top-color: var(--zemin);
+  }
+  .muze-haritasi .muze-penceresi .leaflet-popup-content-wrapper,
+  .muze-haritasi .muze-penceresi .leaflet-popup-tip {
+    background: var(--yuzey);
+    color: var(--yazi);
+    border-radius: 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  .muze-haritasi .muze-penceresi .leaflet-popup-content {
+    margin: 16px 18px;
+    font: 14px/1.55 var(--govde-font);
+  }
+  .muze-haritasi .muze-penceresi strong {
+    display: block;
+    font: 500 24px/1.1 var(--baslik-font);
+    margin-bottom: 4px;
+    padding-right: 14px;
+  }
+  .muze-haritasi .muze-penceresi p {
+    margin: 0 0 10px;
+    color: var(--soluk);
+  }
+  .muze-haritasi .muze-penceresi ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 6px;
+    max-height: 180px;
+    overflow-y: auto;
+  }
+  .muze-haritasi .muze-penceresi li a {
+    color: var(--vurgu);
+    border-bottom: 1px solid var(--cizgi);
+  }
+  .muze-haritasi .muze-penceresi a.leaflet-popup-close-button {
+    color: var(--soluk);
+  }
+  .muze-haritasi .leaflet-control-attribution {
+    background: rgba(16, 21, 28, 0.75);
+    color: var(--soluk);
+  }
+  .muze-haritasi .leaflet-control-attribution a {
+    color: var(--yazi);
+  }
+</style>

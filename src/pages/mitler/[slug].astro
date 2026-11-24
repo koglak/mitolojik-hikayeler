@@ -5,6 +5,7 @@ import { getCollection, render } from 'astro:content';
 import Temel from '../../layouts/Temel.astro';
 import KartAkisi from '../../components/KartAkisi.astro';
 import BugunBag from '../../components/BugunBag.astro';
+import SanattaBolumu from '../../components/SanattaBolumu.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
 import { basligiBol } from '../../lib/baslikParcalari';
 import { mitAdresi } from '../../lib/bolumler';
@@ -90,6 +91,7 @@ const yapisalVeri = [
         <summary>Uzun versiyonu oku</summary>
         <div class="metin-govde"><Content /></div>
       </details>
+      <SanattaBolumu alan="mitler" kimlik={slug} />
       <a href="/mitler/" class="dugme-cizgili anasayfa">Tüm mitolojik hikâyeler</a>
     </section>
   </main>

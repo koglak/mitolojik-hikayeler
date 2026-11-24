@@ -9,6 +9,7 @@ import { basligiBol } from '../../lib/baslikParcalari';
 import KayitSimgesi from '../../components/KayitSimgesi.astro';
 import { kayitSimgesi } from '../../lib/kayitSimgeleri';
 import KayitKarti from '../../components/KayitKarti.astro';
+import SanattaBolumu from '../../components/SanattaBolumu.astro';
 import MeanderBant from '../../components/MeanderBant.astro';
 import { bolgeler } from '../../lib/bolgeler';
 import { ilgiliKayitlar } from '../../lib/iliskiler';
@@ -146,6 +147,8 @@ const yapisalVeri = [
           </section>
         )
       }
+
+      <SanattaBolumu alan={bolum} kimlik={kayit.id} />
 
       {
         ilgiliGruplar.map((grup) => (

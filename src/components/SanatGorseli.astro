@@ -1,0 +1,86 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { gorselKumesi } from '../lib/sanat';
+import { sanatSimgeleri } from '../lib/sanatSimgeleri';
+
+interface Props {
+  eser: CollectionEntry<'sanat'>;
+  boyut: 'kart' | 'sayfa';
+}
+
+const { eser, boyut } = Astro.props;
+const { gorsel } = eser.data;
+const sayfada = boyut === 'sayfa';
+const kume = gorsel && gorselKumesi(gorsel);
+const olculer = sayfada ? '(max-width: 900px) 92vw, 1100px' : '(max-width: 740px) 92vw, (max-width: 1050px) 45vw, 400px';
+---
+
+{
+  gorsel && (
+    <img
+      class:list={['sanat-gorseli', boyut]}
+      src={gorsel.adres}
+      srcset={kume}
+      sizes={kume && olculer}
+      width={gorsel.genislik}
+      height={gorsel.yukseklik}
+      alt={sayfada ? gorsel.alt : ''}
+      decoding="async"
+      onerror="this.hidden=true;this.nextElementSibling.hidden=false"
+      loading={sayfada ? 'eager' : 'lazy'}
+      fetchpriority={sayfada ? 'high' : undefined}
+    />
+  )
+}
+<span class:list={['sanat-yedegi', boyut]} hidden={Boolean(gorsel)}>
+  <svg
+    viewBox="0 0 64 64"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+    focusable="false"
+    set:html={sanatSimgeleri[eser.data.tur]}
+  />
+</span>
+
+<style>
+  .sanat-gorseli {
+    display: block;
+  }
+  .kart.sanat-gorseli {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 25%;
+  }
+  .sayfa.sanat-gorseli {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 82vh;
+    margin: 0 auto;
+  }
+  .sanat-yedegi {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--vurgu);
+    background: radial-gradient(circle at 50% 45%, var(--yuzey-2), var(--hero) 75%);
+  }
+  .sanat-gorseli.sanat-gorseli[hidden],
+  .sanat-yedegi.sanat-yedegi[hidden] {
+    display: none;
+  }
+  .sanat-yedegi svg {
+    width: 34%;
+    max-width: 150px;
+    opacity: 0.8;
+  }
+  .sanat-yedegi.sayfa {
+    min-height: 300px;
+  }
+</style>

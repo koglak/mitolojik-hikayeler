@@ -1,0 +1,101 @@
+---
+import MeanderBant from './MeanderBant.astro';
+import { ozluSozler } from '../lib/ozluSozler';
+---
+
+<section class="ozlu-sozler" aria-label="Özlü sözler" data-ozlu-sozler>
+  <div class="sozler" data-soz-sahnesi>
+    {
+      ozluSozler.map((soz, sira) => (
+        <figure class:list={['soz', { etkin: sira === 0 }]} data-soz>
+          <blockquote>
+            <p>“{soz.metin}”</p>
+          </blockquote>
+          <figcaption>
+            {soz.kisi} <span>({soz.kunye})</span>
+          </figcaption>
+        </figure>
+      ))
+    }
+  </div>
+  <button class="soz-dugmesi" type="button" data-soz-dugmesi hidden>Sözleri duraklat</button>
+  <div class="soz-deseni"><MeanderBant kimlik="alinti" /></div>
+</section>
+
+<script>
+  import '../scripts/ozluSozler';
+</script>
+
+<style>
+  .ozlu-sozler {
+    position: relative;
+    margin: 56px 0 24px;
+    padding: 64px 0 0;
+    border-top: 1px solid var(--cizgi);
+    text-align: center;
+  }
+  .ozlu-sozler::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    width: 120px;
+    height: 1px;
+    transform: translateX(-50%);
+    background: var(--vurgu);
+  }
+  .sozler {
+    display: grid;
+    align-items: center;
+  }
+  .soz {
+    grid-area: 1 / 1;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.5s var(--yumusak),
+      visibility 0s 0.5s;
+  }
+  .soz.etkin {
+    opacity: 1;
+    visibility: visible;
+    transition:
+      opacity 0.7s var(--yumusak) 0.4s,
+      visibility 0s 0.4s;
+  }
+  blockquote {
+    margin: 0 auto 28px;
+    max-width: 920px;
+  }
+  blockquote p {
+    font: italic 500 clamp(26px, 3.4vw, 46px) / 1.25 var(--baslik-font);
+    margin: 0;
+    text-wrap: balance;
+  }
+  figcaption {
+    font-size: 15px;
+    color: var(--vurgu);
+    letter-spacing: 0.02em;
+  }
+  figcaption span {
+    color: var(--soluk);
+  }
+  .soz-dugmesi {
+    margin-top: 24px;
+    padding: 8px 14px;
+    border: 0;
+    background: none;
+    color: var(--soluk);
+    font: 400 14px/1.4 var(--govde-font);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+  }
+  .soz-dugmesi:hover {
+    color: var(--vurgu);
+  }
+  .soz-deseni {
+    margin-top: 32px;
+  }
+</style>

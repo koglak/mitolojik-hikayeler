@@ -9,7 +9,7 @@ import '@fontsource/dm-sans/500.css';
 import '@fontsource/dm-sans/700.css';
 import '@fontsource/gfs-didot/400.css';
 import '../styles/tema.css';
-import { mutlakAdres, sayfaBasligi, siteAdi, siteAdresi, siteKisaAdi, varsayilanPaylasimGorseli } from '../lib/site';
+import { gorselTuru, mutlakAdres, sayfaBasligi, siteAdi, siteAdresi, siteKisaAdi, varsayilanPaylasimGorseli } from '../lib/site';
 import { paylasimGenisligi, paylasimYuksekligi } from '../lib/paylasimGorseli';
 
 interface Props {
@@ -17,6 +17,7 @@ interface Props {
   aciklama: string;
   gorsel?: string;
   gorselAciklamasi?: string;
+  gorselBoyutu?: { genislik: number; yukseklik: number };
   tur?: 'website' | 'article';
   yapisalVeri?: Record<string, unknown>[];
   dizinlenmesin?: boolean;
@@ -27,6 +28,7 @@ const {
   aciklama,
   gorsel = varsayilanPaylasimGorseli,
   gorselAciklamasi = siteAdi,
+  gorselBoyutu = { genislik: paylasimGenisligi, yukseklik: paylasimYuksekligi },
   tur = 'website',
   yapisalVeri = [],
   dizinlenmesin = false,
@@ -55,9 +57,9 @@ const yapisalVeriMetni = yapisalVeri.length
     <meta property="og:description" content={aciklama} />
     <meta property="og:url" content={kanonikAdres} />
     <meta property="og:image" content={gorselAdresi} />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content={String(paylasimGenisligi)} />
-    <meta property="og:image:height" content={String(paylasimYuksekligi)} />
+    <meta property="og:image:type" content={gorselTuru(gorsel)} />
+    <meta property="og:image:width" content={String(gorselBoyutu.genislik)} />
+    <meta property="og:image:height" content={String(gorselBoyutu.yukseklik)} />
     <meta property="og:image:alt" content={gorselAciklamasi} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={baslik ?? siteAdi} />

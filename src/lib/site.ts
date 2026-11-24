@@ -17,3 +17,5 @@ export function kanonikYol(yol: string): string {
 }
 
 export const mutlakAdres = (yol: string) => new URL(kanonikYol(yol), siteAdresi).href;
+
+export const gorselTuru = (yol: string) => (/\.jpe?g$/i.test(yol) ? 'image/jpeg' : 'image/png');

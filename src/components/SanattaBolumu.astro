@@ -1,0 +1,48 @@
+---
+import SanatKarti from './SanatKarti.astro';
+import { sanatEserleriniGetir } from '../lib/sanatDizini';
+import { ilgiliEserler, type BaglantiAlani } from '../lib/sanatSorgu';
+
+interface Props {
+  alan: BaglantiAlani;
+  kimlik: string;
+}
+
+const { alan, kimlik } = Astro.props;
+const eserler = ilgiliEserler(await sanatEserleriniGetir(), alan, kimlik);
+---
+
+{
+  eserler.length > 0 && (
+    <section class="sanatta" aria-labelledby="sanatta-baslik">
+      <h2 id="sanatta-baslik">Sanatta</h2>
+      <ul>
+        {eserler.map((eser) => (
+          <li>
+            <SanatKarti eser={eser} />
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .sanatta {
+    margin-top: 64px;
+    border-top: 1px solid var(--cizgi);
+    padding-top: 32px;
+  }
+  h2 {
+    font: 500 36px/1.1 var(--baslik-font);
+    margin: 0 0 24px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+    gap: 20px;
+  }
+</style>

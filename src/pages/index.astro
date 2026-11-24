@@ -4,25 +4,30 @@ import SiteBasligi from '../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
 import AntikKentAnimasyonu from '../components/AntikKentAnimasyonu.astro';
 import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorseli.astro';
-import MeanderBant from '../components/MeanderBant.astro';
+import OzluSozler from '../components/OzluSozler.astro';
 import PapirusRafi from '../components/PapirusRafi.astro';
+import SanatSalonu from '../components/SanatSalonu.astro';
 import PaylasimBaglantilari from '../components/PaylasimBaglantilari.astro';
 import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
 import { bolumler } from '../lib/bolumler';
+import { sanatAdi, sanatAdresi } from '../lib/sanat';
 import { soyagaciAdresi } from '../lib/soyagaci';
 import { mutlakAdres, sayfaBasligi } from '../lib/site';
 import { siteVerisi } from '../lib/yapisalVeri';
+import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
 
 
 const baslik = 'Yunan Mitleri, Tanrılar, Kahramanlar ve Antik Kentler';
 
-const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string }[] = [
+const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat'; ad: string; adres: string }[] = [
   { tur: 'mitler', ad: 'Mitolojik Hikâyeler', adres: '/mitler/' },
   { tur: 'kentler', ad: bolumler.kentler.ad, adres: '/antik-kentler/' },
   { tur: 'tanrilar', ad: bolumler.tanrilar.ad, adres: '/tanrilar/' },
   { tur: 'kahramanlar', ad: bolumler.kahramanlar.ad, adres: '/kahramanlar/' },
   { tur: 'soyagaci', ad: 'Soyağacı', adres: soyagaciAdresi },
   { tur: 'kaynaklar', ad: antikKaynaklarAdi, adres: antikKaynaklarAdresi },
+  { tur: 'kronoloji', ad: 'Kronoloji', adres: kronolojiAdresi },
+  { tur: 'sanat', ad: sanatAdi, adres: sanatAdresi },
 ];
 ---
 
@@ -50,10 +55,12 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string 
       <ul class="kategoriler" aria-label="Bölümler">
         {
           kategoriler.map((kategori) => (
-            <li>
+            <li class:list={{ genis: kategori.tur === 'kronoloji' || kategori.tur === 'sanat' }}>
               <a class="kategori" href={kategori.adres}>
                 <span class="kategori-resmi">
-                  {kategori.tur === 'kaynaklar' ? <PapirusRafi /> : <KategoriGorseli tur={kategori.tur} />}
+                  {kategori.tur === 'kaynaklar' && <PapirusRafi />}
+                  {kategori.tur === 'sanat' && <SanatSalonu kimlik="anasayfa" />}
+                  {kategori.tur !== 'kaynaklar' && kategori.tur !== 'sanat' && <KategoriGorseli tur={kategori.tur} />}
                 </span>
                 <span class="kategori-adi">{kategori.ad}</span>
               </a>
@@ -62,16 +69,7 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string 
         }
       </ul>
 
-      <figure class="alinti">
-        <blockquote>
-          <p>
-            “Bilim, felsefe, kültür, şiir, aritmetik, trigonometri, astronomi gibi aklı akıl yapan ne varsa bu bilgi
-            enerjilerinin hepsi Anadolu’nun yediveren toprağının içinden fışkırmıştır.”
-          </p>
-        </blockquote>
-        <figcaption>Halikarnas Balıkçısı <span>(Cevat Şakir Kabaağaçlı)</span></figcaption>
-        <div class="alinti-deseni"><MeanderBant kimlik="alinti" /></div>
-      </figure>
+      <OzluSozler />
 
       <PaylasimBaglantilari adres={mutlakAdres('/')} baslik={sayfaBasligi(baslik)} />
     </main>
@@ -125,8 +123,11 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string 
     margin: 0;
     padding: 64px 0 24px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 20px;
+  }
+  .kategoriler li {
+    grid-column: span 2;
   }
   .kategori {
     display: block;
@@ -143,6 +144,12 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string 
     aspect-ratio: 3 / 2;
     overflow: hidden;
   }
+  .kategoriler .genis {
+    grid-column: span 3;
+  }
+  .genis .kategori-resmi {
+    aspect-ratio: 16 / 9;
+  }
   .kategori-resmi :global(svg) {
     transition: transform 0.6s var(--yumusak);
   }
@@ -157,47 +164,16 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string 
     border-top: 2px solid var(--vurgu);
   }
 
-  .alinti {
-    position: relative;
-    margin: 56px 0 24px;
-    padding: 64px 0 0;
-    border-top: 1px solid var(--cizgi);
-    text-align: center;
-  }
-  .alinti::before {
-    content: '';
-    position: absolute;
-    top: -1px;
-    left: 50%;
-    width: 120px;
-    height: 1px;
-    transform: translateX(-50%);
-    background: var(--vurgu);
-  }
-  .alinti blockquote {
-    margin: 0 auto 28px;
-    max-width: 920px;
-  }
-  .alinti blockquote p {
-    font: italic 500 clamp(26px, 3.4vw, 46px) / 1.25 var(--baslik-font);
-    margin: 0;
-    text-wrap: balance;
-  }
-  .alinti figcaption {
-    font-size: 15px;
-    color: var(--vurgu);
-    letter-spacing: 0.02em;
-  }
-  .alinti figcaption span {
-    color: var(--soluk);
-  }
-  .alinti-deseni {
-    margin-top: 44px;
-  }
-
   @media (max-width: 1050px) {
     .kategoriler {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .kategoriler li,
+    .kategoriler .genis {
+      grid-column: auto;
+    }
+    .genis .kategori-resmi {
+      aspect-ratio: 3 / 2;
     }
   }
   @media (max-width: 560px) {

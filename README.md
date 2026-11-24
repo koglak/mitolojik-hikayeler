@@ -42,6 +42,25 @@ Node 22.23.4 veya üstü gerekir.
 
 Harita eklemek için `document` üzerindeki `zamanatlasi:yil` olayını dinle; `detail.kesit` o yıl var olan kayıtları taşır. Sınırlar için `harita.sinirlar` alanı ayrılmıştır.
 
+## Sanat eseri ekleme
+
+`/sanat-eserleri/` sayfasının verisi `src/content/sanat/<eser>.md` ve `src/data/muzeler.json` dosyalarındadır.
+
+1. Var olan bir eseri örnek al. Gövdede `## Anlattığı hikâye` ve `## Eserin öyküsü` başlıkları zorunludur.
+2. `muze` alanı `muzeler.json` içindeki bir kimliktir. Yeni müzeyi önce oraya ekle.
+3. MÖ yıllar `siralamaYili` alanında eksi yazılır. `0` geçersizdir.
+4. Fotoğraf için `scripts/sanat-gorsel-listesi.json` dosyasına eseri ekle (`makale`: İngilizce Wikipedia maddesi, `arama`: Commons araması ya da `dosya`: Commons dosyası) ve çalıştır:
+
+```bash
+npm run sanat-gorselleri
+npm run sanat-gorselleri -- laokoon
+npm run sanat-gorselleri -- laokoon --yeniden
+```
+
+Betik fotoğraf indirmez. Yalnızca kamu malı, CC0, CC BY ve CC BY-SA görsellerin Wikimedia adresini, ölçüsünü ve atıfını eser dosyasına yazar; ziyaretçi fotoğrafı doğrudan Wikimedia'dan yükler. Doğru görselin geldiğini gözle kontrol et. Fotoğrafsız eserde çizim simgesi gösterilir.
+
+5. `npm test` kuralları denetler.
+
 ## Sesli anlatım
 
 Sesler Azure AI Speech ile bir kez üretilir ve `public/ses/<slug>/<n>.mp3` olarak repoya eklenir. `0.mp3` kapak, `1.mp3`… kartlardır. Bir kartın ses dosyası yoksa site o kart için ses çalmaz. Hiçbir ses dosyası yoksa ses düğmesi gösterilmez.

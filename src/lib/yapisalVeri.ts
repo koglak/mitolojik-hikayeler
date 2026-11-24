@@ -1,3 +1,4 @@
+import type { Muze } from './sanatSemasi';
 import { mutlakAdres, siteAdi, siteAdresi, siteKisaAdi, varsayilanPaylasimGorseli } from './site';
 
 type Veri = Record<string, unknown>;
@@ -93,4 +94,34 @@ export const makaleVerisi = (secenekler: {
   publisher: { '@id': yayinciKimligi },
   ...(secenekler.bolum ? { articleSection: secenekler.bolum } : {}),
   ...(secenekler.konu ? { about: secenekler.konu } : {}),
+});
+
+export const sanatEseriVerisi = (secenekler: {
+  ad: string;
+  aciklama: string;
+  yol: string;
+  tur: string;
+  malzeme: string;
+  tarih: string;
+  muze: Muze;
+  sanatci?: string;
+  gorsel?: string;
+}): Veri => ({
+  '@type': 'VisualArtwork',
+  '@id': `${mutlakAdres(secenekler.yol)}#eser`,
+  url: mutlakAdres(secenekler.yol),
+  name: secenekler.ad,
+  description: secenekler.aciklama,
+  inLanguage: 'tr-TR',
+  artform: secenekler.tur,
+  artMedium: secenekler.malzeme,
+  temporal: secenekler.tarih,
+  contentLocation: {
+    '@type': 'Place',
+    name: secenekler.muze.ad,
+    address: `${secenekler.muze.kent}, ${secenekler.muze.ulke}`,
+    geo: { '@type': 'GeoCoordinates', latitude: secenekler.muze.enlem, longitude: secenekler.muze.boylam },
+  },
+  ...(secenekler.sanatci ? { creditText: secenekler.sanatci } : {}),
+  ...(secenekler.gorsel ? { image: new URL(secenekler.gorsel, siteAdresi).href } : {}),
 });

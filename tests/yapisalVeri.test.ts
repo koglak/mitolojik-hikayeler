@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { kirintiVerisi, konuVerisi, makaleVerisi } from '../src/lib/yapisalVeri';
+import { gorselTuru } from '../src/lib/site';
+import { kirintiVerisi, konuVerisi, makaleVerisi, sanatEseriVerisi } from '../src/lib/yapisalVeri';
 
 describe('kirintiVerisi', () => {
   it('ana sayfayla başlar ve sırayla numaralanır', () => {
@@ -37,5 +38,38 @@ describe('makaleVerisi', () => {
       mainEntityOfPage: 'https://mitolojikhikayeler.com/mitler/narkissos/',
       image: 'https://mitolojikhikayeler.com/paylasim/mitler/narkissos.png',
     });
+  });
+});
+
+describe('sanatEseriVerisi', () => {
+  const temel = {
+    ad: 'Laokoon ve Oğulları',
+    aciklama: 'Özet',
+    yol: '/sanat-eserleri/laokoon',
+    tur: 'Heykel',
+    malzeme: 'Mermer',
+    tarih: 'MÖ 1. yüzyıl',
+    muze: { ad: 'Vatikan Müzeleri', kent: 'Vatikan', ulke: 'Vatikan', enlem: 41.9, boylam: 12.45 },
+  };
+
+  it('eseri bulunduğu müzeyle tanımlar', () => {
+    expect(sanatEseriVerisi({ ...temel, gorsel: '/paylasim/sanat/laokoon.jpg' })).toMatchObject({
+      '@type': 'VisualArtwork',
+      url: 'https://mitolojikhikayeler.com/sanat-eserleri/laokoon/',
+      image: 'https://mitolojikhikayeler.com/paylasim/sanat/laokoon.jpg',
+      artMedium: 'Mermer',
+      contentLocation: { '@type': 'Place', name: 'Vatikan Müzeleri', geo: { latitude: 41.9, longitude: 12.45 } },
+    });
+  });
+
+  it('görseli olmayan eserde image alanı yoktur', () => {
+    expect(sanatEseriVerisi(temel)).not.toHaveProperty('image');
+  });
+});
+
+describe('gorselTuru', () => {
+  it('uzantıdan içerik türünü verir', () => {
+    expect(gorselTuru('/paylasim/sanat/laokoon.jpg')).toBe('image/jpeg');
+    expect(gorselTuru('/paylasim/site.png')).toBe('image/png');
   });
 });
