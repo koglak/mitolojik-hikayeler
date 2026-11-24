@@ -16,6 +16,14 @@ ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["delphi"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Vognstyreren-fra_Delfi2.jpg/1280px-Vognstyreren-fra_Delfi2.jpg"
+  genislik: 1280
+  yukseklik: 958
+  sahibi: "Gunnar Bach Pedersen"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Vognstyreren-fra_Delfi2.jpg"
+  alt: "Delphi Arabacısı'nın alın bantlı bronz başının yandan görünümü"
 ---
 
 ## Anlattığı hikâye

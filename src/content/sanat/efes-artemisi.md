@@ -18,6 +18,15 @@ ilgiliMitler: []
 ilgiliTanrilar: ["artemis", "kybele"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["efes"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Artemis_of_Ephesus_statue_Ephesus_Museum_2024.jpeg/1280px-Artemis_of_Ephesus_statue_Ephesus_Museum_2024.jpeg"
+  genislik: 1280
+  yukseklik: 1707
+  sahibi: "Furkan Akkurt"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Artemis_of_Ephesus_statue_Ephesus_Museum_2024.jpeg"
+  alt: "Göğsü yumrularla, gövdesi hayvan kabartmalarıyla kaplı Efes Artemisi heykeli"
 ---
 
 ## Anlattığı hikâye

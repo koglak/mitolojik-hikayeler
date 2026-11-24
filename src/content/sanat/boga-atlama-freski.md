@@ -16,6 +16,14 @@ ilgiliMitler: ["theseus-ve-minotauros", "europa"]
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["theseus"]
 ilgiliKentler: ["knossos"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Knossos_bull_leaping_fresco.jpg/1280px-Knossos_bull_leaping_fresco.jpg"
+  genislik: 1280
+  yukseklik: 690
+  sahibi: "Gleb Simonov"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Knossos_bull_leaping_fresco.jpg"
+  alt: "Koşan bir boğa ve sırtında takla atan figürü gösteren fresk"
 ---
 
 ## Anlattığı hikâye

@@ -17,6 +17,14 @@ ilgiliMitler: ["guzellik-yarismasi"]
 ilgiliTanrilar: ["hera", "athena", "afrodit", "hermes", "eros"]
 ilgiliKahramanlar: ["paris"]
 ilgiliKentler: ["truva"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Peter_Paul_Rubens_115.jpg/1280px-Peter_Paul_Rubens_115.jpg"
+  genislik: 1280
+  yukseklik: 667
+  sahibi: "Peter Paul Rubens"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_115.jpg"
+  alt: "Üç tanrıçanın karşısında oturan Paris ve elmayı tutan Hermes"
 ---
 
 ## Anlattığı hikâye

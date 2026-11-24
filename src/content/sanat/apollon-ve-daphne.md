@@ -18,6 +18,15 @@ ilgiliMitler: ["apollon-ve-daphne"]
 ilgiliTanrilar: ["apollon", "eros"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg/1280px-Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg"
+  genislik: 1280
+  yukseklik: 2152
+  sahibi: "Architas"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Apollo_and_Daphne_(Bernini)_(cropped).jpg"
+  alt: "Defne ağacına dönüşen Daphne ve ona uzanan Apollon'un mermer grubu"
 ---
 
 ## Anlattığı hikâye

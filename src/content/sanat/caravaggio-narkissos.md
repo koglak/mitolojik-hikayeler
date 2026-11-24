@@ -17,6 +17,14 @@ ilgiliMitler: ["narkissos"]
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Narcissus-Caravaggio_%281594-96%29_edited.jpg/1280px-Narcissus-Caravaggio_%281594-96%29_edited.jpg"
+  genislik: 1280
+  yukseklik: 1550
+  sahibi: "Caravaggio"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Narcissus-Caravaggio_(1594-96)_edited.jpg"
+  alt: "Suya eğilmiş, yansımasına bakan genç Narkissos"
 ---
 
 ## Anlattığı hikâye

@@ -17,6 +17,15 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["herakles"]
 ilgiliKentler: ["issos"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Alexander_Sarcophagus%2C_Istanbul_Archaeological_Museums_2024_%281%29.jpg/1280px-Alexander_Sarcophagus%2C_Istanbul_Archaeological_Museums_2024_%281%29.jpg"
+  genislik: 1280
+  yukseklik: 960
+  sahibi: "Bjelica"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Alexander_Sarcophagus,_Istanbul_Archaeological_Museums_2024_(1).jpg"
+  alt: "Savaş kabartmalarıyla süslü mermer İskender Lahdi"
 ---
 
 ## Anlattığı hikâye

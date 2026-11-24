@@ -18,6 +18,15 @@ ilgiliMitler: ["apollon-ve-daphne"]
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["delphi"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Apollo_del_Belvedere.jpg/1280px-Apollo_del_Belvedere.jpg"
+  genislik: 1280
+  yukseklik: 2077
+  sahibi: "Livioandronico2013"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Apollo_del_Belvedere.jpg"
+  alt: "Pelerinli, sol kolunu uzatmış mermer Apollon heykeli"
 ---
 
 ## Anlattığı hikâye

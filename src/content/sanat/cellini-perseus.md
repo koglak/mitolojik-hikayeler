@@ -20,6 +20,15 @@ ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliTanrilar: ["athena", "hermes", "zeus"]
 ilgiliKahramanlar: ["perseus", "andromeda", "danae"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Perseus_%28Benvenuto_Cellini%29_2013_February.jpg/1280px-Perseus_%28Benvenuto_Cellini%29_2013_February.jpg"
+  genislik: 1280
+  yukseklik: 1920
+  sahibi: "Morio"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Perseus_(Benvenuto_Cellini)_2013_February.jpg"
+  alt: "Medusa'nın başını havaya kaldıran bronz Perseus"
 ---
 
 ## Anlattığı hikâye

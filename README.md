@@ -61,6 +61,13 @@ Betik fotoğraf indirmez. Yalnızca kamu malı, CC0, CC BY ve CC BY-SA görselle
 
 5. `npm test` kuralları denetler.
 
+## Blog yazısı ekleme
+
+1. `src/content/blog/<slug>.md` dosyası oluştur ve var olan bir yazıyı örnek al. Metin ön bilgiden sonra düz Markdown olarak yazılır.
+2. `gorsel` alanına Wikimedia Commons'taki dosya sayfasından küçük resim adresini, ölçüsünü, sahibini ve lisansını yaz. Yalnızca kamu malı, CC0, CC BY ve CC BY-SA kabul edilir.
+3. `ilgili...` alanları site kayıtlarının kimlikleridir; boş bırakılabilir.
+4. `npm test` kuralları denetler.
+
 ## Sesli anlatım
 
 Sesler Azure AI Speech ile bir kez üretilir ve `public/ses/<slug>/<n>.mp3` olarak repoya eklenir. `0.mp3` kapak, `1.mp3`… kartlardır. Bir kartın ses dosyası yoksa site o kart için ses çalmaz. Hiçbir ses dosyası yoksa ses düğmesi gösterilmez.

@@ -19,6 +19,14 @@ ilgiliMitler: ["titanlar-savasi"]
 ilgiliTanrilar: ["kronos", "rhea", "zeus"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/1280px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg"
+  genislik: 1280
+  yukseklik: 2351
+  sahibi: "Francisco Goya"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg"
+  alt: "Karanlıkta bir bedeni yiyen, gözleri fal taşı gibi açık dev"
 ---
 
 ## Anlattığı hikâye

@@ -19,6 +19,14 @@ ilgiliMitler: ["ikaros"]
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg/1280px-Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg"
+  genislik: 1280
+  yukseklik: 835
+  sahibi: "After Pieter Bruegel the Elder"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels,_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg"
+  alt: "Saban süren çiftçi, deniz ve köşede suya düşmüş İkaros'un bacakları"
 ---
 
 ## Anlattığı hikâye

@@ -17,6 +17,14 @@ ilgiliMitler: ["arakhne", "europa"]
 ilgiliTanrilar: ["athena", "zeus"]
 ilgiliKahramanlar: ["arakhne"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Velazquez-las_hilanderas.jpg/1280px-Velazquez-las_hilanderas.jpg"
+  genislik: 1280
+  yukseklik: 883
+  sahibi: "Diego Velázquez"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Velazquez-las_hilanderas.jpg"
+  alt: "Önde iplik eğiren kadınlar, arkada aydınlık odada halı önünde figürler"
 ---
 
 ## Anlattığı hikâye

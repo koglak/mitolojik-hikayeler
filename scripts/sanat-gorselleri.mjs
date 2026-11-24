@@ -88,8 +88,9 @@ for (const [slug, kayit] of Object.entries(liste)) {
   if (matter(metin).data.gorsel && !yeniden) continue;
   try {
     const gorsel = await ilkUygunGorsel(kayit);
-    writeFileSync(yol, onBilgiyeYaz(metin, { ...gorsel, alt: kayit.alt }));
-    console.log(`✓ ${slug}: ${gorsel.lisans}, ${gorsel.sahibi}`);
+    const sahibi = kayit.sahibi ?? gorsel.sahibi;
+    writeFileSync(yol, onBilgiyeYaz(metin, { ...gorsel, alt: kayit.alt, sahibi }));
+    console.log(`✓ ${slug}: ${gorsel.lisans}, ${sahibi}`);
   } catch (hata) {
     basarisiz.push(slug);
     console.error(`✗ ${slug}: ${hata.message}`);

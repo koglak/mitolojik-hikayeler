@@ -20,6 +20,15 @@ ilgiliMitler: ["eros-ve-psykhe"]
 ilgiliTanrilar: ["eros", "afrodit", "persephone"]
 ilgiliKahramanlar: ["psykhe"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG/1280px-0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG"
+  genislik: 1280
+  yukseklik: 1115
+  sahibi: "Jean-Pol GRANDMONT"
+  lisans: "CC BY 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG"
+  alt: "Kanatlı Eros'un kollarında uyanan Psykhe'nin mermer heykeli"
 ---
 
 ## Anlattığı hikâye

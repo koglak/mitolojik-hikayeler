@@ -18,7 +18,16 @@ kaynakca:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: []
-ilgiliKentler: ["thebai"]
+ilgiliKentler: ["thebai", "tralleis"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Farnese_Bull_MAN_Napoli_Inv6002_n01.jpg/1280px-Farnese_Bull_MAN_Napoli_Inv6002_n01.jpg"
+  genislik: 1280
+  yukseklik: 1600
+  sahibi: "Marie-Lan Nguyen"
+  lisans: "CC BY 2.5"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.5"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Farnese_Bull_MAN_Napoli_Inv6002_n01.jpg"
+  alt: "Şahlanan bir boğa ve çevresindeki figürlerden oluşan büyük mermer grup"
 ---
 
 ## Anlattığı hikâye

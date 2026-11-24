@@ -17,6 +17,15 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: ["bergama"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dying_gaul.jpg/1280px-Dying_gaul.jpg"
+  genislik: 1280
+  yukseklik: 1041
+  sahibi: "antmoose"
+  lisans: "CC BY 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Dying_gaul.jpg"
+  alt: "Yere çökmüş, yaralı Galat savaşçısının mermer heykeli"
 ---
 
 ## Anlattığı hikâye

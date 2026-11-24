@@ -7,6 +7,7 @@ import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorsel
 import OzluSozler from '../components/OzluSozler.astro';
 import PapirusRafi from '../components/PapirusRafi.astro';
 import SanatSalonu from '../components/SanatSalonu.astro';
+import YaziMasasi from '../components/YaziMasasi.astro';
 import PaylasimBaglantilari from '../components/PaylasimBaglantilari.astro';
 import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
 import { bolumler } from '../lib/bolumler';
@@ -14,12 +15,13 @@ import { sanatAdi, sanatAdresi } from '../lib/sanat';
 import { soyagaciAdresi } from '../lib/soyagaci';
 import { mutlakAdres, sayfaBasligi } from '../lib/site';
 import { siteVerisi } from '../lib/yapisalVeri';
+import { blogAdi, blogAdresi } from '../lib/blog';
 import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
 
 
 const baslik = 'Yunan Mitleri, Tanrılar, Kahramanlar ve Antik Kentler';
 
-const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat'; ad: string; adres: string }[] = [
+const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: string; adres: string }[] = [
   { tur: 'mitler', ad: 'Mitolojik Hikâyeler', adres: '/mitler/' },
   { tur: 'kentler', ad: bolumler.kentler.ad, adres: '/antik-kentler/' },
   { tur: 'tanrilar', ad: bolumler.tanrilar.ad, adres: '/tanrilar/' },
@@ -28,6 +30,7 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat'; ad: string; adre
   { tur: 'kaynaklar', ad: antikKaynaklarAdi, adres: antikKaynaklarAdresi },
   { tur: 'kronoloji', ad: 'Kronoloji', adres: kronolojiAdresi },
   { tur: 'sanat', ad: sanatAdi, adres: sanatAdresi },
+  { tur: 'blog', ad: blogAdi, adres: blogAdresi },
 ];
 ---
 
@@ -55,12 +58,13 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat'; ad: string; adre
       <ul class="kategoriler" aria-label="Bölümler">
         {
           kategoriler.map((kategori) => (
-            <li class:list={{ genis: kategori.tur === 'kronoloji' || kategori.tur === 'sanat' }}>
+            <li class:list={{ genis: kategori.tur === 'blog' }}>
               <a class="kategori" href={kategori.adres}>
                 <span class="kategori-resmi">
                   {kategori.tur === 'kaynaklar' && <PapirusRafi />}
                   {kategori.tur === 'sanat' && <SanatSalonu kimlik="anasayfa" />}
-                  {kategori.tur !== 'kaynaklar' && kategori.tur !== 'sanat' && <KategoriGorseli tur={kategori.tur} />}
+                  {kategori.tur === 'blog' && <YaziMasasi kimlik="anasayfa-yazi" />}
+                  {kategori.tur !== 'kaynaklar' && kategori.tur !== 'sanat' && kategori.tur !== 'blog' && <KategoriGorseli tur={kategori.tur} />}
                 </span>
                 <span class="kategori-adi">{kategori.ad}</span>
               </a>
@@ -123,11 +127,8 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat'; ad: string; adre
     margin: 0;
     padding: 64px 0 24px;
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
-  }
-  .kategoriler li {
-    grid-column: span 2;
   }
   .kategori {
     display: block;
@@ -143,12 +144,6 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat'; ad: string; adre
     display: block;
     aspect-ratio: 3 / 2;
     overflow: hidden;
-  }
-  .kategoriler .genis {
-    grid-column: span 3;
-  }
-  .genis .kategori-resmi {
-    aspect-ratio: 16 / 9;
   }
   .kategori-resmi :global(svg) {
     transition: transform 0.6s var(--yumusak);
@@ -168,15 +163,17 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat'; ad: string; adre
     .kategoriler {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    .kategoriler li,
-    .kategoriler .genis {
-      grid-column: auto;
+    .genis {
+      grid-column: 1 / -1;
     }
     .genis .kategori-resmi {
-      aspect-ratio: 3 / 2;
+      aspect-ratio: 2 / 1;
     }
   }
   @media (max-width: 560px) {
+    .genis .kategori-resmi {
+      aspect-ratio: 3 / 2;
+    }
     .sahne {
       height: clamp(420px, 78vh, 620px);
     }

@@ -19,6 +19,15 @@ ilgiliMitler: ["theseus-ve-minotauros"]
 ilgiliTanrilar: ["dionysos", "hephaistos", "zeus", "hera"]
 ilgiliKahramanlar: ["peleus", "akhilleus", "patroklos", "theseus", "aias", "meleagros"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Vaso_fran%C3%A7ois%2C_firenze%2C_01.JPG/1280px-Vaso_fran%C3%A7ois%2C_firenze%2C_01.JPG"
+  genislik: 1280
+  yukseklik: 1707
+  sahibi: "Sailko"
+  lisans: "CC BY 2.5"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.5"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Vaso_fran%C3%A7ois,_firenze,_01.JPG"
+  alt: "Kuşaklar hâlinde figürlerle bezeli siyah figürlü büyük vazo"
 ---
 
 ## Anlattığı hikâye

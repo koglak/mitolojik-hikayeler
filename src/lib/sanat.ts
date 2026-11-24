@@ -35,7 +35,7 @@ export const lisansKabul = (lisans: string) => kabulEdilenLisans.test(lisans.tri
 const gorselGenislikleri = [330, 500, 960, 1280];
 
 export const gorselKumesi = ({ adres, genislik }: { adres: string; genislik: number }) => {
-  const kucukResim = /^(https:\/\/upload\.wikimedia\.org\/.+\/thumb\/.+\/(?:(?:lossy-|lossless-)?page\d+-)?)\d+(px-[^/]+)$/.exec(adres);
+  const kucukResim = /^(https:\/\/(?:upload|thumb)\.wikimedia\.org\/.+\/thumb\/.+\/(?:(?:lossy-|lossless-)?page\d+-)?)\d+(px-[^/]+)$/.exec(adres);
   if (!kucukResim) return undefined;
   const [, bas, son] = kucukResim;
   return [

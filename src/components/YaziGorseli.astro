@@ -1,0 +1,50 @@
+---
+import { gorselKumesi } from '../lib/sanat';
+import type { YaziGorselVerisi } from '../lib/yaziSemasi';
+
+interface Props {
+  gorsel: YaziGorselVerisi;
+  boyut: 'kart' | 'sayfa';
+}
+
+const { gorsel, boyut } = Astro.props;
+const sayfada = boyut === 'sayfa';
+const kume = gorselKumesi(gorsel);
+const olculer = sayfada ? '(max-width: 900px) 92vw, 900px' : '(max-width: 560px) 92vw, (max-width: 1050px) 88vw, 430px';
+---
+
+<img
+  class:list={['yazi-gorseli', boyut]}
+  src={gorsel.adres}
+  srcset={kume}
+  sizes={kume && olculer}
+  width={gorsel.genislik}
+  height={gorsel.yukseklik}
+  alt={sayfada ? gorsel.alt : ''}
+  decoding="async"
+  loading={sayfada ? 'eager' : 'lazy'}
+  fetchpriority={sayfada ? 'high' : undefined}
+  onerror="this.hidden=true"
+/>
+
+<style>
+  .yazi-gorseli {
+    display: block;
+  }
+  .yazi-gorseli[hidden] {
+    display: none;
+  }
+  .kart {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+  }
+  .sayfa {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 78vh;
+    margin: 0 auto;
+  }
+</style>

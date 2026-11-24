@@ -17,6 +17,15 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/1280px-Nofretete_Neues_Museum.jpg"
+  genislik: 1280
+  yukseklik: 1874
+  sahibi: "Philip Pikart"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg"
+  alt: "Yüksek mavi taçlı, boyalı Nefertiti büstü"
 ---
 
 ## Anlattığı hikâye

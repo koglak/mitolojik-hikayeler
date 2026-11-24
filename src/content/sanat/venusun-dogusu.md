@@ -17,6 +17,14 @@ ilgiliMitler: []
 ilgiliTanrilar: ["afrodit", "uranos", "kronos"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+  genislik: 1280
+  yukseklik: 804
+  sahibi: "Sandro Botticelli"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+  alt: "Deniz kabuğu üzerinde kıyıya varan Venüs"
 ---
 
 ## Anlattığı hikâye

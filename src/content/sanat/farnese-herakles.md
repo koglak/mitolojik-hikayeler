@@ -19,6 +19,15 @@ ilgiliMitler: ["herakles"]
 ilgiliTanrilar: ["atlas"]
 ilgiliKahramanlar: ["herakles"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg/1280px-Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg"
+  genislik: 1280
+  yukseklik: 2240
+  sahibi: "Marie-Lan Nguyen"
+  lisans: "CC BY 2.5"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.5"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg"
+  alt: "Sopasına yaslanmış iri yapılı mermer Herakles heykeli"
 ---
 
 ## Anlattığı hikâye

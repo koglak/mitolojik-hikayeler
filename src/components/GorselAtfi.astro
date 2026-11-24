@@ -1,0 +1,31 @@
+---
+import type { YaziGorselVerisi } from '../lib/yaziSemasi';
+
+interface Props {
+  gorsel: YaziGorselVerisi;
+}
+
+const { gorsel } = Astro.props;
+---
+
+<figcaption class="atif">
+  Görsel: {gorsel.sahibi},{' '}
+  {gorsel.lisansAdresi ? <a href={gorsel.lisansAdresi} target="_blank" rel="noopener noreferrer">{gorsel.lisans}</a> : gorsel.lisans},{' '}
+  <a href={gorsel.kaynakAdresi} target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+</figcaption>
+
+<style>
+  .atif {
+    padding: 12px 16px;
+    border-top: 1px solid var(--cizgi);
+    font-size: 13px;
+    color: var(--soluk);
+    overflow-wrap: anywhere;
+  }
+  a {
+    border-bottom: 1px solid var(--cizgi);
+  }
+  a:hover {
+    color: var(--vurgu);
+  }
+</style>

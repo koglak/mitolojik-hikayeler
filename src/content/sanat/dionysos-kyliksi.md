@@ -17,6 +17,15 @@ ilgiliMitler: ["dionysos-ve-korsanlar"]
 ilgiliTanrilar: ["dionysos"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Exekias_Dionysos_Staatliche_Antikensammlungen_2044.jpg/1280px-Exekias_Dionysos_Staatliche_Antikensammlungen_2044.jpg"
+  genislik: 1280
+  yukseklik: 1432
+  sahibi: "MatthiasKabel"
+  lisans: "CC BY 2.5"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.5"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Exekias_Dionysos_Staatliche_Antikensammlungen_2044.jpg"
+  alt: "Asma saran bir gemide uzanan Dionysos ve çevresinde yunuslar"
 ---
 
 ## Anlattığı hikâye

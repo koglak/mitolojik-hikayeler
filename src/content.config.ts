@@ -4,6 +4,7 @@ import { mitSemasi } from './lib/mitSemasi';
 import { kayitSemasi } from './lib/kayitSemasi';
 import { eserSemasi, yazarSemasi } from './lib/kaynakSemasi';
 import { sanatSemasi } from './lib/sanatSemasi';
+import { yaziSemasi } from './lib/yaziSemasi';
 
 const mitler = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/mitler' }),
@@ -31,6 +32,11 @@ const sanat = defineCollection({
   schema: sanatSemasi,
 });
 
+const blog = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/blog' }),
+  schema: yaziSemasi,
+});
+
 export const collections = {
   mitler,
   kentler: kayitKoleksiyonu('kentler'),
@@ -39,4 +45,5 @@ export const collections = {
   yazarlar,
   eserler,
   sanat,
+  blog,
 };

@@ -15,6 +15,15 @@ ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "apollon", "hermes", "helios", "ares", "tyche"]
 ilgiliKahramanlar: ["herakles"]
 ilgiliKentler: ["nemrut"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Mount_Nemrut_-_East_Terrace_%284961323529%29.jpg/1280px-Mount_Nemrut_-_East_Terrace_%284961323529%29.jpg"
+  genislik: 1280
+  yukseklik: 852
+  sahibi: "Klearchos Kapoutsis from Santorini, Greece"
+  lisans: "CC BY 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Mount_Nemrut_-_East_Terrace_(4961323529).jpg"
+  alt: "Nemrut Dağı'nda dev taş heykeller ve başlar"
 ---
 
 ## Anlattığı hikâye

@@ -18,6 +18,15 @@ ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["persephone", "hades", "demeter"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Rape_of_Prosepina_September_2015-3a.jpg/1280px-Rape_of_Prosepina_September_2015-3a.jpg"
+  genislik: 1280
+  yukseklik: 1946
+  sahibi: "Alvesgaspar"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Rape_of_Prosepina_September_2015-3a.jpg"
+  alt: "Hades'in kaldırdığı Persephone'nin direndiği mermer heykel grubu"
 ---
 
 ## Anlattığı hikâye

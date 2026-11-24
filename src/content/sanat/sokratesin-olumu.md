@@ -17,6 +17,14 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: ["atina"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/David_-_The_Death_of_Socrates.jpg/1280px-David_-_The_Death_of_Socrates.jpg"
+  genislik: 1280
+  yukseklik: 841
+  sahibi: "Jacques-Louis David"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:David_-_The_Death_of_Socrates.jpg"
+  alt: "Yatağında oturup eliyle göğü gösteren, kadehe uzanan Sokrates ve öğrencileri"
 ---
 
 ## Anlattığı hikâye

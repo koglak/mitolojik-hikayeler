@@ -17,6 +17,15 @@ ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "athena", "gaia", "nike"]
 ilgiliKahramanlar: ["telephos", "herakles"]
 ilgiliKentler: ["bergama"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Berlin_-_Pergamonmuseum_-_Altar_02.jpg/1280px-Berlin_-_Pergamonmuseum_-_Altar_02.jpg"
+  genislik: 1280
+  yukseklik: 853
+  sahibi: "Lestat (Jan Mehlich)"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Berlin_-_Pergamonmuseum_-_Altar_02.jpg"
+  alt: "Geniş merdiveni ve kabartmalarıyla Bergama Sunağı"
 ---
 
 ## Anlattığı hikâye

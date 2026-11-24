@@ -90,6 +90,13 @@ describe('gorselKumesi', () => {
     );
   });
 
+  it('thumb.wikimedia.org adresini de tanır', () => {
+    const thumb = kok.replace('upload', 'thumb');
+    expect(gorselKumesi({ adres: `${thumb}/A.jpg/500px-A.jpg`, genislik: 500 })).toBe(
+      `${thumb}/A.jpg/330px-A.jpg 330w, ${thumb}/A.jpg/500px-A.jpg 500w`,
+    );
+  });
+
   it('özgün dosya adresinde küme üretmez', () => {
     expect(gorselKumesi({ adres: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/A.jpg', genislik: 800 })).toBeUndefined();
   });

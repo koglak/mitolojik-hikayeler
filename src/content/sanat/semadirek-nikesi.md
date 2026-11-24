@@ -19,6 +19,15 @@ ilgiliMitler: []
 ilgiliTanrilar: ["nike"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/1280px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg"
+  genislik: 1280
+  yukseklik: 1699
+  sahibi: "Shonagon"
+  lisans: "CC0"
+  lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg"
+  alt: "Gemi pruvası üzerinde duran başsız, kanatlı mermer Nike heykeli"
 ---
 
 ## Anlattığı hikâye

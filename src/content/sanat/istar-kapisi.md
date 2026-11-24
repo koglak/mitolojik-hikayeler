@@ -18,6 +18,15 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Berl%C3%ADn%2C_Museo_de_P%C3%A9rgamo_05.jpg/1280px-Berl%C3%ADn%2C_Museo_de_P%C3%A9rgamo_05.jpg"
+  genislik: 1280
+  yukseklik: 796
+  sahibi: "LBM1948"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Berl%C3%ADn,_Museo_de_P%C3%A9rgamo_05.jpg"
+  alt: "Boğa ve ejder kabartmalı, mavi sırlı tuğladan İştar Kapısı"
 ---
 
 ## Anlattığı hikâye

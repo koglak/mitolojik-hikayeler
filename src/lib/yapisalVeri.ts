@@ -81,6 +81,7 @@ export const makaleVerisi = (secenekler: {
   gorsel: string;
   konu?: Veri;
   bolum?: string;
+  yayinTarihi?: Date;
 }): Veri => ({
   '@type': 'Article',
   '@id': `${mutlakAdres(secenekler.yol)}#makale`,
@@ -93,6 +94,7 @@ export const makaleVerisi = (secenekler: {
   author: { '@id': yayinciKimligi },
   publisher: { '@id': yayinciKimligi },
   ...(secenekler.bolum ? { articleSection: secenekler.bolum } : {}),
+  ...(secenekler.yayinTarihi ? { datePublished: secenekler.yayinTarihi.toISOString().slice(0, 10) } : {}),
   ...(secenekler.konu ? { about: secenekler.konu } : {}),
 });
 

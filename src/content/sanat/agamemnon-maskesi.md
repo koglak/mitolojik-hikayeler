@@ -17,6 +17,14 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["agamemnon"]
 ilgiliKentler: ["mykene", "truva"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Athens_%E2%80%94_Mask_of_Agamemnon.jpg/1280px-Athens_%E2%80%94_Mask_of_Agamemnon.jpg"
+  genislik: 1280
+  yukseklik: 1211
+  sahibi: "Gleb Simonov"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Athens_%E2%80%94_Mask_of_Agamemnon.jpg"
+  alt: "Sakallı bir erkek yüzünü gösteren altın ölüm maskesi"
 ---
 
 ## Anlattığı hikâye

@@ -19,6 +19,15 @@ ilgiliMitler: []
 ilgiliTanrilar: ["hermes", "dionysos"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["olympia"]
+gorsel:
+  adres: "https://upload.wikimedia.org/wikipedia/commons/2/26/Hermes_and_the_infant_Dionysus_by_Praxiteles.jpg"
+  genislik: 1262
+  yukseklik: 2237
+  sahibi: "Dwaisman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Hermes_and_the_infant_Dionysus_by_Praxiteles.jpg"
+  alt: "Kolunda bebek Dionysos'u taşıyan mermer Hermes heykeli"
 ---
 
 ## Anlattığı hikâye

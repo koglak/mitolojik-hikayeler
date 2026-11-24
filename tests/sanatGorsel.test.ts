@@ -40,6 +40,14 @@ describe('gorselBilgisi', () => {
     });
   });
 
+  it('özgün dosya istenen genişlikten küçükse büyütülmüş ölçüyü kullanmaz', () => {
+    expect(gorselBilgisi(bilgi('CC0', { width: 488, height: 480, thumburl: 'https://upload.wikimedia.org/a.jpg' }))).toMatchObject({
+      adres: 'https://upload.wikimedia.org/a.jpg',
+      genislik: 488,
+      yukseklik: 480,
+    });
+  });
+
   it('kamu malını Türkçe yazar', () => {
     expect(gorselBilgisi(bilgi('Public domain')).lisans).toBe('Kamu malı');
   });

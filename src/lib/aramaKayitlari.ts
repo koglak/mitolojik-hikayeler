@@ -4,6 +4,8 @@ import { bolumAnahtarlari, bolumler, kayitAdresi, mitAdresi } from './bolumler';
 import { eserleriGetir, yazarlariGetir } from './kaynakDizini';
 import { sanatEserAdresi, sanatTurleri } from './sanat';
 import { muzeler, sanatEserleriniGetir } from './sanatDizini';
+import { yaziAdresi } from './blog';
+import { blogYazilariniGetir } from './blogDizini';
 import { adresYaz, kronolojiAdresi } from './zamanAtlasi/adres';
 import { atlas } from './zamanAtlasi/atlas';
 
@@ -59,6 +61,9 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
       bolum: `Sanat eseri, ${sanatTurleri[data.tur].toLocaleLowerCase('tr')}`,
       adres: sanatEserAdresi(id),
     });
+  }
+  for (const { id, data } of await blogYazilariniGetir()) {
+    kayitlar.push({ baslik: data.baslik, ozet: `${data.konu}. ${data.ozet}`, bolum: 'Blog', adres: yaziAdresi(id) });
   }
   kayitlar.push({
     baslik: 'Antik Dünya Zaman Atlası',

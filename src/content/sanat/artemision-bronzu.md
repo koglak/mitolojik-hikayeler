@@ -16,6 +16,15 @@ ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "poseidon"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Artemision_in_Museum.jpg/1280px-Artemision_in_Museum.jpg"
+  genislik: 1280
+  yukseklik: 960
+  sahibi: "Nikos Kitsakis"
+  lisans: "CC BY 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Artemision_in_Museum.jpg"
+  alt: "Kollarını açmış, silahını fırlatmak üzere olan bronz tanrı"
 ---
 
 ## Anlattığı hikâye

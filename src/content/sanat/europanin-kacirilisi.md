@@ -19,6 +19,14 @@ ilgiliMitler: ["europa"]
 ilgiliTanrilar: ["zeus", "eros"]
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Tizian_085.jpg/1280px-Tizian_085.jpg"
+  genislik: 1280
+  yukseklik: 1122
+  sahibi: "Titian"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tizian_085.jpg"
+  alt: "Beyaz bir boğanın sırtında denizde götürülen Europa"
 ---
 
 ## Anlattığı hikâye

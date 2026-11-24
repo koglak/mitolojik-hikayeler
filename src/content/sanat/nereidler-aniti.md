@@ -16,6 +16,14 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["akhilleus"]
 ilgiliKentler: ["ksanthos"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Reconstruction_Nereid_Monument_BM.jpg/1280px-Reconstruction_Nereid_Monument_BM.jpg"
+  genislik: 1280
+  yukseklik: 1164
+  sahibi: "Jastrow"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Reconstruction_Nereid_Monument_BM.jpg"
+  alt: "British Museum'da kurulu Nereidler Anıtı'nın tapınak biçimli cephesi"
 ---
 
 ## Anlattığı hikâye

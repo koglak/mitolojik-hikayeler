@@ -20,6 +20,14 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: ["issos"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg/1280px-Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg"
+  genislik: 1280
+  yukseklik: 766
+  sahibi: "Unknown author Unknown author"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg"
+  alt: "İskender ile Darius'un karşılaştığı savaş sahnesi mozaiği"
 ---
 
 ## Anlattığı hikâye

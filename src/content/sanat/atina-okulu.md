@@ -18,6 +18,14 @@ ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "athena"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["atina"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
+  genislik: 1280
+  yukseklik: 993
+  sahibi: "Raphael"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
+  alt: "Kemerli bir salonda toplanmış antik düşünürler, ortada Platon ve Aristoteles"
 ---
 
 ## Anlattığı hikâye

@@ -1,0 +1,62 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import YaziGorseli from './YaziGorseli.astro';
+import { okumaSuresi, yaziAdresi } from '../lib/blog';
+
+interface Props {
+  yazi: CollectionEntry<'blog'>;
+}
+
+const { yazi } = Astro.props;
+---
+
+<a class="yazi-karti" href={yaziAdresi(yazi.id)}>
+  <span class="resim"><YaziGorseli gorsel={yazi.data.gorsel} boyut="kart" /></span>
+  <span class="govde">
+    <span class="konu">{yazi.data.konu} · {okumaSuresi(yazi.body ?? '')} dk</span>
+    <strong>{yazi.data.baslik}</strong>
+    <span class="ozet">{yazi.data.ozet}</span>
+  </span>
+</a>
+
+<style>
+  .yazi-karti {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    transition: border-color 0.25s, transform 0.25s var(--yumusak);
+  }
+  .yazi-karti:hover {
+    border-color: var(--vurgu);
+    transform: translateY(-4px);
+  }
+  .resim {
+    display: block;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    border-bottom: 2px solid var(--vurgu);
+    background: var(--hero);
+  }
+  .govde {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 22px 24px;
+  }
+  .konu {
+    font-size: 13px;
+    color: var(--soluk);
+  }
+  strong {
+    font: 500 31px/1.08 var(--baslik-font);
+    color: var(--kart-basligi);
+    text-wrap: balance;
+  }
+  .ozet {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--soluk);
+  }
+</style>

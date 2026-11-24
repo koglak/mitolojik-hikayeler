@@ -15,7 +15,7 @@ export function gorselBilgisi(bilgi) {
   if (!lisansKabul(lisans)) throw new Error(`Kabul edilmeyen lisans: "${lisans}"`);
   if (!/^image\/(jpeg|png|tiff|webp)$/.test(bilgi.mime)) throw new Error(`Kullanılabilir resim değil: ${bilgi.mime}`);
   const lisansAdresi = (ustVeri.LicenseUrl?.value ?? '').replace(/^http:/, 'https:');
-  const kucuk = bilgi.thumburl !== undefined;
+  const kucuk = bilgi.thumburl !== undefined && bilgi.thumbwidth < bilgi.width;
   return {
     adres: (kucuk ? bilgi.thumburl : bilgi.url).replace(/\?.*$/, ''),
     genislik: kucuk ? bilgi.thumbwidth : bilgi.width,

@@ -17,6 +17,15 @@ ilgiliMitler: ["athena-ve-poseidon"]
 ilgiliTanrilar: ["athena", "poseidon", "zeus"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["atina"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Elgin-marbles-jan-2024.jpg/1280px-Elgin-marbles-jan-2024.jpg"
+  genislik: 1280
+  yukseklik: 690
+  sahibi: "Jay.M"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Elgin-marbles-jan-2024.jpg"
+  alt: "British Museum'da Parthenon kabartma ve heykellerinin sergilendiği salon"
 ---
 
 ## Anlattığı hikâye

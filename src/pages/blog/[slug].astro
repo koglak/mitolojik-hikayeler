@@ -1,0 +1,327 @@
+---
+import { getCollection, render } from 'astro:content';
+import Temel from '../../layouts/Temel.astro';
+import SiteBasligi from '../../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
+import GorselAtfi from '../../components/GorselAtfi.astro';
+import MeanderBant from '../../components/MeanderBant.astro';
+import MitGorseli from '../../components/MitGorseli.astro';
+import PaylasimBaglantilari from '../../components/PaylasimBaglantilari.astro';
+import YaziGorseli from '../../components/YaziGorseli.astro';
+import YaziKarti from '../../components/YaziKarti.astro';
+import { kaynakAdresi } from '../../lib/antikKaynaklar';
+import { basligiBol } from '../../lib/baslikParcalari';
+import { bolumAnahtarlari, bolumler, kayitAdresi, mitAdresi } from '../../lib/bolumler';
+import { eserleriGetir, yazarlariGetir } from '../../lib/kaynakDizini';
+import { baglantiAlanlari } from '../../lib/sanatSorgu';
+import { mutlakAdres, sayfaBasligi } from '../../lib/site';
+import { kirintiVerisi, makaleVerisi } from '../../lib/yapisalVeri';
+import { blogYazilariniGetir } from '../../lib/blogDizini';
+import { okumaSuresi, yaziAdresi, blogAdi, blogAdresi } from '../../lib/blog';
+
+export async function getStaticPaths() {
+  const yazilar = await blogYazilariniGetir();
+  return yazilar.map((yazi) => ({
+    params: { slug: yazi.id },
+    props: { yazi, digerleri: yazilar.filter((diger) => diger.id !== yazi.id).slice(0, 3) },
+  }));
+}
+
+const { yazi, digerleri } = Astro.props;
+const { data } = yazi;
+const { Content } = await render(yazi);
+const yol = yaziAdresi(yazi.id);
+const ilgiliMitler = (await getCollection('mitler'))
+  .filter((mit) => data.ilgiliMitler.includes(mit.id))
+  .sort((a, b) => a.data.sira - b.data.sira);
+const kayitGruplari = await Promise.all(
+  bolumAnahtarlari.map(async (bolum) => ({
+    ad: `İlgili ${bolumler[bolum].ad.toLocaleLowerCase('tr')}`,
+    kimlik: bolum as string,
+    ogeler: (await getCollection(bolum))
+      .filter((kayit) => data[baglantiAlanlari[bolum]].includes(kayit.id))
+      .sort((a, b) => a.data.sira - b.data.sira)
+      .map((kayit) => ({ ad: kayit.data.ad, ozet: kayit.data.ozet, adres: kayitAdresi(bolum, kayit.id) })),
+  })),
+);
+const yazarAdlari = new Map((await yazarlariGetir()).map((yazar) => [yazar.id, yazar.data.ad]));
+const kaynakGrubu = {
+  ad: 'Antik kaynaklar',
+  kimlik: 'kaynaklar',
+  ogeler: (await eserleriGetir())
+    .filter((eser) => data.ilgiliEserler.includes(eser.id))
+    .map((eser) => ({
+      ad: `${yazarAdlari.get(eser.data.yazar)}, ${eser.data.ad}`,
+      ozet: eser.data.ozet,
+      adres: kaynakAdresi(eser.id),
+    })),
+};
+const gruplar = [...kayitGruplari, kaynakGrubu].filter((grup) => grup.ogeler.length > 0);
+const yapisalVeri = [
+  makaleVerisi({
+    baslik: data.baslik,
+    aciklama: data.ozet,
+    yol,
+    gorsel: data.gorsel.adres,
+    bolum: blogAdi,
+    yayinTarihi: data.tarih,
+  }),
+  kirintiVerisi([
+    { ad: blogAdi, yol: blogAdresi },
+    { ad: data.baslik, yol },
+  ]),
+];
+---
+
+<Temel
+  baslik={data.baslik}
+  aciklama={data.ozet}
+  tur="article"
+  gorsel={data.gorsel.adres}
+  gorselBoyutu={data.gorsel}
+  gorselAciklamasi={data.gorsel.alt}
+  yapisalVeri={yapisalVeri}
+>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main class="yazi">
+      <nav class="yol" aria-label="Konum">
+        <a href={blogAdresi}>{blogAdi}</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">{data.baslik}</span>
+      </nav>
+
+      <article>
+        <header>
+          <p class="konu">{data.konu} · {okumaSuresi(yazi.body ?? '')} dk</p>
+          <h1>{data.baslik}</h1>
+          <p class="ozet">{data.ozet}</p>
+        </header>
+        <figure>
+          <YaziGorseli gorsel={data.gorsel} boyut="sayfa" />
+          <GorselAtfi gorsel={data.gorsel} />
+        </figure>
+        <div class="metin"><Content /></div>
+      </article>
+
+      <div class="paylasim">
+        <PaylasimBaglantilari adres={mutlakAdres(yol)} baslik={sayfaBasligi(data.baslik)} />
+      </div>
+
+      {
+        ilgiliMitler.length > 0 && (
+          <section class="ilgili" aria-labelledby="ilgili-baslik">
+            <h2 id="ilgili-baslik">Mitini oku</h2>
+            <ul>
+              {ilgiliMitler.map((mit) => {
+                const { ad, altBaslik } = basligiBol(mit.data.baslik);
+                return (
+                  <li>
+                    <a href={mitAdresi(mit.id)}>
+                      <span class="ilgili-resmi">
+                        <MitGorseli slug={mit.id} idEki={`yazi-${yazi.id}`} />
+                      </span>
+                      <span class="ilgili-metni">
+                        <strong>{ad}</strong>
+                        <span>{altBaslik}</span>
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        gruplar.map((grup) => (
+          <section class="baglantilar" aria-labelledby={`baglanti-${grup.kimlik}`}>
+            <h2 id={`baglanti-${grup.kimlik}`}>{grup.ad}</h2>
+            <ul>
+              {grup.ogeler.map((oge) => (
+                <li>
+                  <a href={oge.adres}>
+                    <strong>{oge.ad}</strong>
+                    <span>{oge.ozet}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
+
+      {
+        digerleri.length > 0 && (
+          <section class="digerleri" aria-labelledby="digerleri-baslik">
+            <h2 id="digerleri-baslik">Diğer yazılar</h2>
+            <ul>
+              {digerleri.map((diger) => (
+                <li>
+                  <YaziKarti yazi={diger} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      <div class="kapanis-deseni"><MeanderBant kimlik="yazi-kapanis" /></div>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<style>
+  .yazi {
+    padding: 40px 0 0;
+  }
+  .yol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--soluk);
+    margin-bottom: 36px;
+  }
+  .yol a {
+    border-bottom: 1px solid var(--vurgu);
+  }
+  article {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .konu {
+    font-size: 14px;
+    color: var(--soluk);
+    margin: 0 0 14px;
+  }
+  h1 {
+    font: 500 clamp(42px, 6vw, 76px) / 1 var(--baslik-font);
+    letter-spacing: -0.03em;
+    margin: 0 0 18px;
+  }
+  .ozet {
+    font: italic 400 clamp(21px, 2.6vw, 27px) / 1.4 var(--baslik-font);
+    color: var(--vurgu);
+    margin: 0 0 36px;
+  }
+  figure {
+    margin: 0 0 48px;
+    background: var(--hero);
+    border: 1px solid var(--cizgi);
+  }
+  .metin {
+    max-width: 40rem;
+    margin: 0 auto;
+    font: 400 21px/1.75 var(--baslik-font);
+  }
+  .metin :global(p) {
+    margin: 0 0 1.1em;
+  }
+  .metin :global(h2) {
+    font: 500 36px/1.1 var(--baslik-font);
+    color: var(--kart-basligi);
+    margin: 1.4em 0 0.5em;
+  }
+  .metin :global(a) {
+    border-bottom: 1px solid var(--vurgu);
+  }
+  .metin > :global(p:first-child::first-letter) {
+    float: left;
+    font-size: 4.2em;
+    line-height: 0.8;
+    padding: 6px 10px 0 0;
+    color: var(--vurgu);
+  }
+  .paylasim {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+  .ilgili,
+  .baglantilar,
+  .digerleri {
+    margin-top: 56px;
+    border-top: 1px solid var(--cizgi);
+    padding-top: 30px;
+  }
+  h2 {
+    font: 500 34px/1.1 var(--baslik-font);
+    margin: 0 0 22px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+    gap: 20px;
+  }
+  .digerleri ul {
+    grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  }
+  .baglantilar ul {
+    gap: 12px;
+  }
+  .ilgili a,
+  .baglantilar a {
+    display: block;
+    height: 100%;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    transition: border-color 0.2s;
+  }
+  .baglantilar a {
+    padding: 14px 16px;
+    border-left: 2px solid var(--vurgu);
+  }
+  .ilgili a:hover,
+  .baglantilar a:hover {
+    border-color: var(--vurgu);
+  }
+  .ilgili-resmi {
+    display: block;
+    height: 150px;
+    overflow: hidden;
+  }
+  .ilgili-resmi :global(.mit-gorseli) {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .ilgili-metni {
+    display: block;
+    padding: 16px 18px 18px;
+  }
+  .ilgili-metni strong {
+    display: block;
+    font: 500 26px/1.1 var(--baslik-font);
+  }
+  .ilgili-metni span {
+    font: italic 400 17px/1.3 var(--baslik-font);
+    color: var(--vurgu);
+  }
+  .baglantilar strong {
+    display: block;
+    font: 500 22px/1.15 var(--baslik-font);
+    margin-bottom: 4px;
+  }
+  .baglantilar a > span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--soluk);
+  }
+  .kapanis-deseni {
+    margin-top: 64px;
+  }
+  @media (max-width: 900px) {
+    .metin {
+      font-size: 19px;
+    }
+  }
+</style>

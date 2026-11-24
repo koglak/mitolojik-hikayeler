@@ -16,6 +16,15 @@ ilgiliMitler: []
 ilgiliTanrilar: ["dionysos", "gaia"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["zeugma"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Antep_1250575b.jpg/1280px-Antep_1250575b.jpg"
+  genislik: 1280
+  yukseklik: 833
+  sahibi: "Nevit Dilmen, düzenleme: Durova"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Antep_1250575b.jpg"
+  alt: "Dağınık saçlı, iri gözlü bir yüzü gösteren mozaik parçası"
 ---
 
 ## Anlattığı hikâye

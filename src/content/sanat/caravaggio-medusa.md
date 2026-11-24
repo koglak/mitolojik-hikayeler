@@ -19,6 +19,14 @@ ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["perseus"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg/1280px-Caravaggio_-_Medusa_-_Google_Art_Project.jpg"
+  genislik: 1280
+  yukseklik: 1312
+  sahibi: "Caravaggio"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Medusa_-_Google_Art_Project.jpg"
+  alt: "Yuvarlak kalkan üzerinde ağzı açık, saçları yılanlı Medusa başı"
 ---
 
 ## Anlattığı hikâye

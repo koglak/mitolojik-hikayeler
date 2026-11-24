@@ -1,0 +1,98 @@
+---
+import Temel from '../../layouts/Temel.astro';
+import SiteBasligi from '../../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
+import YaziMasasi from '../../components/YaziMasasi.astro';
+import YaziKarti from '../../components/YaziKarti.astro';
+import { blogYazilariniGetir } from '../../lib/blogDizini';
+import { blogAciklamasi, blogAdi, blogAdresi, yaziAdresi } from '../../lib/blog';
+import { kirintiVerisi, koleksiyonVerisi } from '../../lib/yapisalVeri';
+
+const yazilar = await blogYazilariniGetir();
+const yapisalVeri = [
+  koleksiyonVerisi({
+    ad: blogAdi,
+    aciklama: blogAciklamasi,
+    yol: blogAdresi,
+    ogeler: yazilar.map((yazi) => ({ ad: yazi.data.baslik, yol: yaziAdresi(yazi.id) })),
+  }),
+  kirintiVerisi([{ ad: blogAdi, yol: blogAdresi }]),
+];
+---
+
+<Temel
+  baslik="Antik Dünya Blogu"
+  aciklama={blogAciklamasi}
+  yapisalVeri={yapisalVeri}
+>
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main>
+      <header class="giris">
+        <div>
+          <h1>{blogAdi}</h1>
+          <p>{blogAciklamasi}</p>
+        </div>
+        <div class="giris-resmi"><YaziMasasi kimlik="giris-yazi" /></div>
+      </header>
+
+      <ul class="yazilar" aria-label="Blog yazıları">
+        {
+          yazilar.map((yazi) => (
+            <li>
+              <YaziKarti yazi={yazi} />
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<style>
+  .giris {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding: 56px 0 48px;
+    border-bottom: 1px solid var(--cizgi);
+    margin-bottom: 40px;
+  }
+  .giris > * {
+    min-width: 0;
+  }
+  h1 {
+    font: 500 clamp(52px, 7vw, 96px) / 0.95 var(--baslik-font);
+    letter-spacing: -0.035em;
+    margin: 0 0 20px;
+  }
+  .giris p {
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--soluk);
+    max-width: 30rem;
+    margin: 0;
+  }
+  .giris-resmi {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    border: 1px solid var(--cizgi);
+  }
+  .yazilar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+    gap: 20px;
+  }
+  @media (max-width: 740px) {
+    .giris {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      padding-top: 36px;
+    }
+  }
+</style>

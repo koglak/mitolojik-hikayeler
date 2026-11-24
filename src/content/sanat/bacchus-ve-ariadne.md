@@ -17,6 +17,14 @@ ilgiliMitler: ["theseus-ve-minotauros"]
 ilgiliTanrilar: ["dionysos"]
 ilgiliKahramanlar: ["ariadne", "theseus"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Titian_Bacchus_and_Ariadne.jpg/1280px-Titian_Bacchus_and_Ariadne.jpg"
+  genislik: 1280
+  yukseklik: 1158
+  sahibi: "Titian"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Titian_Bacchus_and_Ariadne.jpg"
+  alt: "Çitaların çektiği arabadan Ariadne'ye doğru atlayan Bacchus"
 ---
 
 ## Anlattığı hikâye

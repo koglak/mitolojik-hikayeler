@@ -29,7 +29,7 @@ export const sanatSemasi = z.object({
   ilgiliKentler: kimlikler,
   gorsel: z
     .object({
-      adres: z.string().regex(/^https:\/\/upload\.wikimedia\.org\/[^\s?]+$/),
+      adres: z.string().regex(/^https:\/\/(?:upload|thumb)\.wikimedia\.org\/[^\s?]+$/),
       genislik: z.number().int().positive(),
       yukseklik: z.number().int().positive(),
       alt: metin,

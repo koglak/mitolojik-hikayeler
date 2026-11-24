@@ -20,6 +20,15 @@ ilgiliMitler: ["truva-ati"]
 ilgiliTanrilar: ["poseidon", "athena"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["truva"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/1280px-Laoco%C3%B6n_and_his_sons_group.jpg"
+  genislik: 1280
+  yukseklik: 1391
+  sahibi: "Wilfredor"
+  lisans: "CC0"
+  lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg"
+  alt: "Yılanlara sarılmış Laokoon ve iki oğlunun mermer heykel grubu"
 ---
 
 ## Anlattığı hikâye

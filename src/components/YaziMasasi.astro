@@ -1,0 +1,163 @@
+---
+interface Props {
+  kimlik: string;
+}
+
+const { kimlik } = Astro.props;
+const satirlar = [
+  { y: 130, son: 372 },
+  { y: 152, son: 384 },
+  { y: 174, son: 360 },
+  { y: 196, son: 380 },
+  { y: 218, son: 368 },
+  { y: 240, son: 332 },
+];
+---
+
+<svg class="yazi-masasi" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id={`${kimlik}-oda`} x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1a22"></stop>
+      <stop offset="1" stop-color="#3b2a1e"></stop>
+    </linearGradient>
+    <linearGradient id={`${kimlik}-tunc`} x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1cf91"></stop>
+      <stop offset=".5" stop-color="#c08a4a"></stop>
+      <stop offset="1" stop-color="#6e4524"></stop>
+    </linearGradient>
+    <radialGradient id={`${kimlik}-isik`}>
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity=".55"></stop>
+      <stop offset="1" stop-color="#ffd9a0" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill={`url(#${kimlik}-oda)`}></rect>
+  <path d="M456 176V58a6 6 0 0 1 6-6h92a6 6 0 0 1 6 6v118Z" fill="#16304a"></path>
+  <g fill="#f7e3bd">
+    <circle cx="476" cy="84" r="1.4"></circle>
+    <circle cx="540" cy="148" r="1.1"></circle>
+    <circle cx="486" cy="146" r="1"></circle>
+  </g>
+  <path d="M534 70a15 15 0 1 0 10 24a13 13 0 0 1-10-24Z" fill="#f6ecdc"></path>
+  <path
+    d="M456 176V58a6 6 0 0 1 6-6h92a6 6 0 0 1 6 6v118M508 52v124M456 116h104M446 178h124"
+    fill="none"
+    stroke="#6e4524"
+    stroke-width="7"
+    stroke-linecap="round"></path>
+  <circle class="nabiz" cx="90" cy="216" r="190" fill={`url(#${kimlik}-isik)`}></circle>
+  <path d="M0 318H600V400H0Z" fill="#2a1a10"></path>
+  <path d="M0 318H600" stroke="#8a5a30" stroke-width="4"></path>
+  <path d="M40 350H300M340 372H580M120 386H240" stroke="#4a2f1c" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M196 92H404V300H196Z" fill="#ead3a4"></path>
+  <path d="M196 92h22v208h-22Z" fill="#c9a871" opacity=".5"></path>
+  <path d="M382 92h22v208h-22Z" fill="#c9a871" opacity=".35"></path>
+  <g fill="none" stroke="#4a2d16" stroke-width="5" stroke-linecap="round">
+    {
+      satirlar.map(({ y, son }, sira) => (
+        <path class="satir" pathLength="1" d={`M232 ${y}H${son}`} style={`--gecikme:${sira * 1.1}s`} />
+      ))
+    }
+  </g>
+  <path d="M182 74h236v26H182ZM182 292h236v26H182Z" fill="#cfad79"></path>
+  <path d="M182 82H418M182 300H418" stroke="#f0dcb4" stroke-width="4" opacity=".7"></path>
+  <path
+    d="M168 79h16v16h-16ZM416 79h16v16h-16ZM168 297h16v16h-16ZM416 297h16v16h-16Z"
+    fill={`url(#${kimlik}-tunc)`}></path>
+  <g class="kalem">
+    <path d="M334 246L343 224L438 112C444 105 453 112 448 119L357 234Z" fill={`url(#${kimlik}-tunc)`}></path>
+    <path d="M334 246L343 224L357 234Z" fill="#2a1a14"></path>
+  </g>
+  <path d="M470 270h52l10 48h-72Z" fill="#8f2f24"></path>
+  <path d="M470 270h52l2 10h-56Z" fill="#b8493a"></path>
+  <ellipse cx="496" cy="270" rx="26" ry="7" fill="#16100c"></ellipse>
+  <path d="M465 298h62" stroke="#f1cf91" stroke-width="2" opacity=".7"></path>
+  <path d="M72 318l8-18h48l8 18Z" fill="#8a5a30"></path>
+  <path
+    d="M46 262C40 246 52 240 66 246H146C164 246 166 262 154 274C142 292 124 302 104 302C78 302 56 288 46 262Z"
+    fill={`url(#${kimlik}-tunc)`}></path>
+  <path d="M152 252C178 246 182 274 152 278" fill="none" stroke="#c08a4a" stroke-width="6" stroke-linecap="round"></path>
+  <ellipse cx="108" cy="248" rx="24" ry="4" fill="#5a3820"></ellipse>
+  <path d="M62 272H146" stroke="#6e4524" stroke-width="2.5" opacity=".7"></path>
+  <g class="alev">
+    <path d="M54 246C36 228 48 208 56 190C62 208 76 226 60 246Z" fill="#f2a03d"></path>
+    <path d="M56 245C48 234 53 224 57 214C61 224 66 235 59 245Z" fill="#fff0c4"></path>
+  </g>
+</svg>
+
+<style>
+  .yazi-masasi {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .yazi-masasi * {
+    transform-box: fill-box;
+  }
+  .nabiz {
+    transform-origin: center;
+    animation: nabiz 6s ease-in-out infinite alternate;
+  }
+  @keyframes nabiz {
+    from {
+      opacity: 0.7;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+  .satir {
+    stroke-dasharray: 1;
+    animation: satir-yazilir 11s linear var(--gecikme) infinite backwards;
+  }
+  @keyframes satir-yazilir {
+    0% {
+      stroke-dashoffset: 1;
+      opacity: 0;
+    }
+    1% {
+      stroke-dashoffset: 1;
+      opacity: 1;
+    }
+    10%,
+    88% {
+      stroke-dashoffset: 0;
+      opacity: 1;
+    }
+    94%,
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0;
+    }
+  }
+  .kalem {
+    transform-origin: left bottom;
+    animation: kalem-oynar 1.1s ease-in-out infinite alternate;
+  }
+  @keyframes kalem-oynar {
+    from {
+      transform: translateX(-6px) rotate(-1.5deg);
+    }
+    to {
+      transform: translateX(6px) rotate(1.5deg);
+    }
+  }
+  .alev {
+    transform-origin: center bottom;
+    animation: alev-titrer 1.6s ease-in-out infinite alternate;
+  }
+  @keyframes alev-titrer {
+    from {
+      transform: scale(0.94, 0.9) rotate(-2deg);
+    }
+    to {
+      transform: scale(1.04, 1.08) rotate(2deg);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .yazi-masasi * {
+      animation: none !important;
+    }
+  }
+</style>

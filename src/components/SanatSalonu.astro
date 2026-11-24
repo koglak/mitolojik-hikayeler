@@ -4,6 +4,24 @@ interface Props {
 }
 
 const { kimlik } = Astro.props;
+const yilanlar = [
+  { yol: 'M690 196c-26-12-22-38-4-40', kok: 'right bottom' },
+  { yol: 'M712 172c-14-18-2-34 12-26', kok: 'center bottom' },
+  { yol: 'M756 172c14-20 4-34-8-30', kok: 'center bottom' },
+  { yol: 'M782 198c26-10 22-36 4-40', kok: 'left bottom' },
+  { yol: 'M694 232c-24 8-26 28-12 36', kok: 'right top' },
+  { yol: 'M776 234c24 8 26 26 12 34', kok: 'left top' },
+];
+const tozlar = [
+  { x: 330, y: 150, r: 2.4 },
+  { x: 372, y: 300, r: 1.8 },
+  { x: 415, y: 90, r: 2 },
+  { x: 498, y: 120, r: 1.8 },
+  { x: 540, y: 260, r: 2.4 },
+  { x: 580, y: 170, r: 2 },
+  { x: 310, y: 380, r: 2 },
+  { x: 600, y: 360, r: 1.8 },
+];
 ---
 
 <svg class="sanat-salonu" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
@@ -20,6 +38,13 @@ const { kimlik } = Astro.props;
       <stop stop-color="#f4e9d7"></stop>
       <stop offset="1" stop-color="#b9a68a"></stop>
     </linearGradient>
+    <linearGradient id={`${kimlik}-parilti`}>
+      <stop stop-color="#fff6e0" stop-opacity="0"></stop>
+      <stop offset=".5" stop-color="#fff6e0" stop-opacity=".38"></stop>
+      <stop offset="1" stop-color="#fff6e0" stop-opacity="0"></stop>
+    </linearGradient>
+    <clipPath id={`${kimlik}-sol-tablo`}><path d="M74.5 134.5h181v221h-181Z"></path></clipPath>
+    <clipPath id={`${kimlik}-sag-tablo`}><path d="M644.5 134.5h181v221h-181Z"></path></clipPath>
   </defs>
   <path fill={`url(#${kimlik}-duvar)`} d="M-600-300h2100V470H-600Z"></path>
   <path fill="#111821" d="M-600 470h2100v430H-600Z"></path>
@@ -29,19 +54,37 @@ const { kimlik } = Astro.props;
     <path fill="#5a3030" d="M640 130h190v230H640Z"></path>
     <path fill="#3d3a2a" d="M-250 150h230v190h-230ZM920 150h230v190H920Z"></path>
   </g>
-  <path fill="#6e8ca3" d="M76 270c40-26 70 20 110-6 28-18 46-6 68 2v88H76Z"></path>
-  <path fill="#e8c9a0" d="M165 178c14 0 20 12 16 26 18 12 16 44 8 74h-46c-8-30-8-62 8-74-4-14 2-26 14-26Z"></path>
-  <path fill="#d9ae75" d="M118 292c30-26 66-26 96 0-30 22-66 22-96 0Z"></path>
+  <g clip-path={`url(#${kimlik}-sol-tablo)`}>
+    <path class="deniz" fill="#6e8ca3" d="M36 270c40-26 70 20 110-6 40-24 76 20 110-4 18-10 30-6 44 0v110H36Z"></path>
+    <g class="venus">
+      <path fill="#e8c9a0" d="M165 178c14 0 20 12 16 26 18 12 16 44 8 74h-46c-8-30-8-62 8-74-4-14 2-26 14-26Z"></path>
+      <path fill="#d9ae75" d="M118 292c30-26 66-26 96 0-30 22-66 22-96 0Z"></path>
+    </g>
+    <path class="parilti" fill={`url(#${kimlik}-parilti)`} d="M120 100h60l-50 290H70Z"></path>
+  </g>
   <path fill="#c98a5a" d="M735 168c34 0 54 26 54 60s-22 72-54 72-54-38-54-72 20-60 54-60Z"></path>
-  <path fill="none" stroke="#2c1717" stroke-width="7" stroke-linecap="round" d="M690 196c-26-12-22-38-4-40M712 172c-14-18-2-34 12-26M756 172c14-20 4-34-8-30M782 198c26-10 22-36 4-40M694 232c-24 8-26 28-12 36M776 234c24 8 26 26 12 34M715 220h14M742 220h14M718 262c10-12 26-12 36 0"></path>
-  <path fill={`url(#${kimlik}-isik)`} d="M300-20h300l90 490H210Z"></path>
+  <g fill="none" stroke="#2c1717" stroke-width="7" stroke-linecap="round">
+    {
+      yilanlar.map(({ yol, kok }, sira) => (
+        <path class="yilan" d={yol} style={`--kok:${kok};--gecikme:${sira * -0.7}s`} />
+      ))
+    }
+    <path d="M715 220h14M742 220h14M718 262c10-12 26-12 36 0"></path>
+  </g>
+  <g clip-path={`url(#${kimlik}-sag-tablo)`}>
+    <path class="parilti ikinci" fill={`url(#${kimlik}-parilti)`} d="M690 100h60l-50 290h-60Z"></path>
+  </g>
+  <path class="isik" fill={`url(#${kimlik}-isik)`} d="M300-20h300l90 490H210Z"></path>
   <g fill={`url(#${kimlik}-mermer)`}>
     <path d="M372 400h156v22H372ZM384 422h132v96H384ZM366 518h168v22H366Z"></path>
-    <path d="M426 214c-52-70-120-84-172-78 22 14 34 24 40 40-14-4-24-2-34 2 20 10 34 22 42 36-12 0-20 4-28 10 34 18 76 28 122 34Z"></path>
-    <path d="M474 214c52-70 120-84 172-78-22 14-34 24-40 40 14-4 24-2 34 2-20 10-34 22-42 36 12 0 20 4 28 10-34 18-76 28-122 34Z"></path>
+    <path class="kanat sol" d="M426 214c-52-70-120-84-172-78 22 14 34 24 40 40-14-4-24-2-34 2 20 10 34 22 42 36-12 0-20 4-28 10 34 18 76 28 122 34Z"></path>
+    <path class="kanat sag" d="M474 214c52-70 120-84 172-78-22 14-34 24-40 40 14-4 24-2 34 2-20 10-34 22-42 36 12 0 20 4 28 10-34 18-76 28-122 34Z"></path>
     <path d="M428 196c10-14 34-14 44 0 16 18 14 44 6 66 20 40 30 90 34 138H396c0-50 10-98 26-138-8-22-8-48 6-66Z"></path>
   </g>
   <path fill="none" stroke="#8d7a60" stroke-width="3" stroke-linecap="round" d="M434 270c-14 40-22 84-24 124M452 262c2 44-4 90-8 132M470 268c14 36 22 78 24 126M430 238c14 10 28 10 42-2"></path>
+  <g fill="#ffe9bf">
+    {tozlar.map(({ x, y, r }, sira) => <circle class="toz" cx={x} cy={y} r={r} style={`--gecikme:${sira * -1.3}s`} />)}
+  </g>
 </svg>
 
 <style>
@@ -49,5 +92,113 @@ const { kimlik } = Astro.props;
     display: block;
     width: 100%;
     height: 100%;
+  }
+  .sanat-salonu * {
+    transform-box: fill-box;
+  }
+  .isik {
+    animation: isik-solur 6s ease-in-out infinite alternate;
+  }
+  @keyframes isik-solur {
+    from {
+      opacity: 0.65;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .kanat {
+    animation: kanat-acilir 4.5s ease-in-out infinite alternate;
+  }
+  .kanat.sol {
+    --aci: 5deg;
+    transform-origin: right bottom;
+  }
+  .kanat.sag {
+    --aci: -5deg;
+    transform-origin: left bottom;
+  }
+  @keyframes kanat-acilir {
+    from {
+      transform: rotate(calc(var(--aci) * -0.4));
+    }
+    to {
+      transform: rotate(var(--aci));
+    }
+  }
+  .deniz {
+    animation: deniz-kayar 5s ease-in-out infinite alternate;
+  }
+  @keyframes deniz-kayar {
+    from {
+      transform: translate(-22px, 3px);
+    }
+    to {
+      transform: translate(22px, -3px);
+    }
+  }
+  .venus {
+    transform-origin: center bottom;
+    animation: venus-sallanir 3.6s ease-in-out infinite alternate;
+  }
+  @keyframes venus-sallanir {
+    from {
+      transform: translateY(4px) rotate(-2deg);
+    }
+    to {
+      transform: translateY(-4px) rotate(2deg);
+    }
+  }
+  .yilan {
+    transform-origin: var(--kok);
+    animation: yilan-kivrilir 2.6s ease-in-out var(--gecikme) infinite alternate;
+  }
+  @keyframes yilan-kivrilir {
+    from {
+      transform: rotate(-12deg);
+    }
+    to {
+      transform: rotate(12deg);
+    }
+  }
+  .parilti {
+    transform: translateX(-190px);
+    animation: parilti-gecer 9s ease-in-out infinite;
+  }
+  .parilti.ikinci {
+    animation-delay: -4s;
+  }
+  @keyframes parilti-gecer {
+    0%,
+    55% {
+      transform: translateX(-190px);
+    }
+    85%,
+    100% {
+      transform: translateX(210px);
+    }
+  }
+  .toz {
+    opacity: 0.5;
+    animation: toz-suzulur 9s ease-in-out var(--gecikme) infinite;
+  }
+  @keyframes toz-suzulur {
+    0% {
+      opacity: 0;
+      transform: translate(0, 24px);
+    }
+    35%,
+    65% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(14px, -46px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sanat-salonu * {
+      animation: none !important;
+    }
   }
 </style>

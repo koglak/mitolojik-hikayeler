@@ -18,6 +18,15 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://upload.wikimedia.org/wikipedia/commons/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG"
+  genislik: 1215
+  yukseklik: 2000
+  sahibi: "Mbzt"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG"
+  alt: "Tepesinde kral ve güneş tanrısı kabartması bulunan yazılı bazalt stel"
 ---
 
 ## Anlattığı hikâye
