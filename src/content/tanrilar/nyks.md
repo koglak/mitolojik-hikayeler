@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Çocukları"
     deger: "Hypnos (Uyku), Thanatos (Ölüm), Düşler, Moiralar, Nemesis, Eris, Hemera (Gündüz)"
 kaynak: "Hesiodos, Theogonia 123–125, 211–225, 744–766; Homeros, İlyada 14.256–261"
-ilgiliMitler: []
+ilgiliMitler: ["guzellik-yarismasi"]
 ilgiliTanrilar: ["atlas", "hera", "khaos", "nemesis", "zeus"]
 ---
 

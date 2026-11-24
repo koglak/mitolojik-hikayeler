@@ -18,7 +18,7 @@ kartlar:
   - metin: "Altın post yıllarca orada parladı. Ta ki bir gün İolkos'tan elli kürekli bir gemi, onu almak için yola çıkana kadar. Geminin adı Argo'ydu."
 bugunBag:
   kelime: "Koç burcu"
-  aciklama: "Antik anlatıya göre bu koç gökyüzüne yükselip Koç takımyıldızı oldu. Takımyıldızın soluk görünmesini de buna bağladılar: Koç, altın postunu Phriksos'a bırakıp göğe postsuz çıkmıştı. Burçlar kuşağı bugün de Koç'la başlar."
+  aciklama: "Antik bir anlatıya göre bu koç gökyüzüne yükselip Koç takımyıldızı oldu. Takımyıldızın soluk görünmesini de buna bağladılar: Koç, altın postunu Phriksos'a bırakıp göğe postsuz çıkmıştı. Burçlar kuşağı bugün de Koç'la başlar."
 ---
 
 Bu hikâye, [Argonotlar](/mitler/argonotlar/) efsanesinin öncesidir. [İason](/kahramanlar/iason/)'un [Iolkos](/antik-kentler/iolkos/)'tan yola çıkıp aradığı altın post, Phriksos'u taşıyan koçun postudur. En derli toplu anlatım Apollodoros'un Kütüphane'sindedir (1.9.1). Rodoslu Apollonios da Argonautika'da olayı birkaç yerde anar.

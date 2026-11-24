@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 37.0819
   boylam: 22.4236
-ilgiliMitler: ["kastor-ve-polydeukes", "truva-ati"]
+ilgiliMitler: ["kastor-ve-polydeukes", "truva-ati", "guzellik-yarismasi"]
 ilgiliTanrilar: ["artemis", "zeus"]
 ilgiliKahramanlar: ["helene", "kastor-ve-polydeukes", "menelaos", "odysseus", "paris"]
 ---

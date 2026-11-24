@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Eşi"
     deger: "Hephaistos"
 kaynak: "Hesiodos, Theogonia 188–206; İşler ve Günler 65–66; Homeros, Odysseia 8.266–366"
-ilgiliMitler: ["truva-ati", "pandora", "eros-ve-psykhe", "hero-ve-leandros", "pygmalion", "atalante"]
+ilgiliMitler: ["truva-ati", "pandora", "eros-ve-psykhe", "hero-ve-leandros", "pygmalion", "atalante", "guzellik-yarismasi"]
 ilgiliKentler: ["afrodisias", "truva"]
 ilgiliTanrilar: ["ares", "athena", "hephaistos", "hera", "kronos", "uranos", "zeus"]
 ilgiliKahramanlar: ["helene", "paris"]

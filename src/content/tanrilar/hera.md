@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Hesiodos, Theogonia 921–923; Homeros, İlyada 14.153–351; Ovidius, Dönüşümler 1.601–746, 3.359–369"
-ilgiliMitler: ["narkissos", "truva-ati", "leto-ve-koyluler", "herakles", "io"]
+ilgiliMitler: ["narkissos", "truva-ati", "leto-ve-koyluler", "herakles", "io", "guzellik-yarismasi"]
 ilgiliKentler: ["argos", "samos", "truva", "olympos-dagi"]
 ilgiliTanrilar: ["afrodit", "ares", "hebe", "hephaistos", "kronos", "poseidon", "rhea", "zeus"]
 ilgiliKahramanlar: ["paris"]

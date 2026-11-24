@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Yazgısı"
     deger: "Ölmeden Elysion ovasına gönderilmek"
 kaynak: "Homeros, İlyada 3.15–382, Odysseia 4.351–592; Apollodoros, Epitome 2.15–16, 6.29; Euripides, Andromakhe 627–631"
-ilgiliMitler: ["truva-ati"]
+ilgiliMitler: ["truva-ati", "guzellik-yarismasi"]
 ilgiliKentler: ["sparta", "truva", "mykene"]
 ilgiliTanrilar: ["afrodit", "zeus"]
 ilgiliKahramanlar: ["agamemnon", "helene", "paris", "pelops"]

@@ -26,7 +26,7 @@ Yarışmanın bilinen en eski izi Homeros'tadır. İlyada'nın son bölümünde 
 
 Kavgayı başlatan Eris, Hesiodos'a göre gecenin tanrıçası [Nyks](/tanrilar/nyks/)'in kızıydı. Elmayı attığı düğün, [Peleus](/kahramanlar/peleus/) ile Thetis'in düğünüydü. Pelion Dağı, [Iolkos](/antik-kentler/iolkos/)'un hemen arkasında yükselir. Bu evlilikten [Akhilleus](/kahramanlar/akhilleus/) doğdu. Böylece Truva'nın en büyük düşmanı da savaşın nedeni de aynı düğünden çıktı.
 
-Yarışmanın geçtiği İda Dağı, bugünkü Kaz Dağları'dır. Strabon daha da kesin bir yer gösterir: [Antandros](/antik-kentler/antandros/)'un üstündeki Aleksandreia adlı dağ (13.1.51). Dağ, adını Paris'in öbür adı olan Aleksandros'tan alır.
+Yarışmanın geçtiği İda Dağı, bugünkü Kaz Dağları'dır. Strabon daha da kesin bir yer gösterir: [Antandros](/antik-kentler/antandros/)'un üstündeki Aleksandreia adlı dağ (13.1.51). Paris'in öbür adı da Aleksandros'tu.
 
 Paris, [Truva](/antik-kentler/truva/) kralı [Priamos](/kahramanlar/priamos/) ile [Hekabe](/kahramanlar/hekabe/)'nin oğluydu. [Zeus](/tanrilar/zeus/)'un buyruğuyla tanrıçaları ona [Hermes](/tanrilar/hermes/) götürdü. Vazo ressamları bu sahneyi çok sevdi: önde Hermes, arkasında sıraya dizilmiş üç tanrıça, karşılarında ürken genç çoban.
 

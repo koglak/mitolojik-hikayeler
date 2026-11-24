@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Maia"
 kaynak: "Homerosçu Hermes İlahisi; Hesiodos, İşler ve Günler 67–82; Homeros, Odysseia 24.1–14"
-ilgiliMitler: ["pandora", "persephone", "perseus-ve-medusa", "sisifos", "pan-ve-syrinx", "hermes", "io", "baukis-ve-philemon", "odysseus"]
+ilgiliMitler: ["pandora", "persephone", "perseus-ve-medusa", "sisifos", "pan-ve-syrinx", "hermes", "io", "baukis-ve-philemon", "odysseus", "altin-koc", "guzellik-yarismasi"]
 ilgiliTanrilar: ["apollon", "persephone", "zeus"]
 ilgiliKahramanlar: ["perseus"]
 ---

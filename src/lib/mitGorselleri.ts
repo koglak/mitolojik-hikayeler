@@ -487,6 +487,38 @@ const gorseller: Record<string, MitGorseli> = {
       '<path d="M330 300c-10-20 0-30 10-34M360 296c4-14 14-20 24-20" fill="none" stroke="{b}" stroke-width="3"/>' +
       '<path d="M60 200q20-10 40 0t40 0M40 240q20-10 40 0t40 0M80 160q20-10 40 0" fill="none" stroke="{c}" stroke-width="3" opacity=".5"/>',
   },
+  'altin-koc': {
+    palet: ['#3a6f88', '#14233a', '#f0cd7c'],
+    figur:
+      '<circle cx="352" cy="66" r="20" fill="{c}" opacity=".5"/>' +
+      '<path d="M122 176c-18-6-30 6-28 22 8 10 22 10 32 2Z" fill="{c}"/>' +
+      '<path d="M128 186c-4-22 14-38 32-34 8-16 32-18 44-6 14-12 36-8 44 6 20-4 36 10 36 28 10 16 0 36-18 40-10 16-32 18-46 8-14 12-38 10-48-2-18 4-36-6-38-20-8-4-10-12-6-20Z" fill="{c}"/>' +
+      '<path d="M256 214c30-6 52-30 56-58l-34-30c-22 14-34 38-34 60Z" fill="{c}"/>' +
+      '<path d="M272 132c16-18 46-18 60 0l36 22c6 6 4 16-6 18l-28 4c-20 4-44 0-58-14Z" fill="{c}"/>' +
+      '<path d="M300 122c-22-12-50 4-48 30 2 24 34 34 48 16 12-16-2-36-18-30-12 4-12 20 0 22" fill="none" stroke="{b}" stroke-width="15" stroke-linecap="round"/>' +
+      '<path d="M300 122c-22-12-50 4-48 30 2 24 34 34 48 16 12-16-2-36-18-30-12 4-12 20 0 22" fill="none" stroke="{c}" stroke-width="8" stroke-linecap="round"/>' +
+      '<circle cx="330" cy="142" r="4" fill="{b}"/>' +
+      '<path d="M252 220l44 18 40-14M228 230l38 30 42-4M160 226l-34 26-38 2M184 232l-28 36-36 8" fill="none" stroke="{c}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '<path d="M150 176q10-12 20 0t20 0M196 170q10-12 20 0t20 0M160 200q10-12 20 0t20 0M208 198q10-12 20 0t20 0" fill="none" stroke="{b}" stroke-width="3" opacity=".7"/>' +
+      '<path d="M40 304q30-12 60 0t60 0 60 0 60 0 60 0 60 0M40 328q30-12 60 0t60 0 60 0 60 0 60 0 60 0" fill="none" stroke="{c}" stroke-width="3" opacity=".6"/>',
+  },
+  'guzellik-yarismasi': {
+    palet: ['#8a4a58', '#2a1626', '#f0cf86'],
+    figur:
+      '<path d="M220 22v30M118 60l20 24M322 60l-20 24M64 150l28 8M376 150l-28 8" stroke="{c}" stroke-width="4" stroke-linecap="round" opacity=".7"/>' +
+      '<g transform="translate(48.4 12) scale(.78)">' +
+      '<path d="M220 112c-20-18-76-16-90 30-14 50 20 112 60 118 12 2 20-4 30-4s18 6 30 4c40-6 74-68 60-118-14-46-70-48-90-30Z" fill="{c}"/>' +
+      '<path d="M220 116c-2-22 4-38 18-50" fill="none" stroke="{c}" stroke-width="8" stroke-linecap="round"/>' +
+      '<path d="M236 88c10-26 38-34 62-26-8 24-36 36-62 26Z" fill="{c}"/>' +
+      '<path d="M198 118q22 14 44 0" fill="none" stroke="{b}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M128 176h184M142 220h156M140 210l14-24 14 24 14-24 14 24 14-24 14 24 14-24 14 24 14-24 14 24 14-24" fill="none" stroke="{b}" stroke-width="4" stroke-linejoin="round"/>' +
+      '<path d="M150 146c4-14 14-22 26-24" fill="none" stroke="{b}" stroke-width="5" stroke-linecap="round" opacity=".5"/>' +
+      '</g>' +
+      '<path d="M90 318l-8-34 18 14 10-22 10 22 18-14-8 34Z" fill="{c}"/>' +
+      '<path d="M192 324v-24c0-18 12-28 28-28s28 10 28 28v24h-18v-18h-20v18Z" fill="{c}"/>' +
+      '<path d="M182 284c2-24 18-36 38-36s36 12 38 36h-9c-4-16-14-22-29-22s-25 6-29 22Z" fill="{c}"/>' +
+      '<path d="M330 320c-34-20-32-44-12-46 8 0 12 6 12 10 0-4 4-10 12-10 20 2 22 26-12 46Z" fill="{c}"/>',
+  },
 };
 
 export function mitGorseli(slug: string): MitGorseli {

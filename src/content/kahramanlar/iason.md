@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Eşi"
     deger: "Medeia"
 kaynak: "Apollonios Rhodios, Argonautika; Apollodoros, Kütüphane 1.9.16–1.9.28; Euripides, Medeia"
-ilgiliMitler: ["argonotlar"]
+ilgiliMitler: ["argonotlar", "altin-koc"]
 ilgiliKentler: ["korinthos", "iolkos"]
 ilgiliTanrilar: ["athena", "hera"]
 ilgiliKahramanlar: ["herakles", "kadmos", "kastor-ve-polydeukes", "medeia", "orpheus"]

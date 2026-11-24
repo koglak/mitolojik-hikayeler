@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Eşleri"
     deger: "İason, sonra Atina kralı Aigeus"
 kaynak: "Apollonios Rhodios, Argonautika 3–4; Euripides, Medeia; Ovidius, Dönüşümler 7.1–424; Apollodoros, Kütüphane 1.9.23–1.9.28"
-ilgiliMitler: ["argonotlar"]
+ilgiliMitler: ["argonotlar", "altin-koc"]
 ilgiliKentler: ["atina", "korinthos", "iolkos"]
 ilgiliTanrilar: ["athena", "hekate", "helios", "hera", "okeanos", "afrodit"]
 ilgiliKahramanlar: ["iason", "theseus"]

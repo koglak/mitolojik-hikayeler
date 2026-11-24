@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Mezarı"
     deger: "Kynossema, yani Köpeğin Mezarı (Gelibolu Yarımadası)"
 kaynak: "Homeros, İlyada 22.79–89, 24.747–760; Euripides, Hekabe; Apollodoros, Kütüphane 3.12.5; Ovidius, Dönüşümler 13.399–575"
-ilgiliMitler: ["truva-ati"]
+ilgiliMitler: ["truva-ati", "guzellik-yarismasi"]
 ilgiliKentler: ["truva"]
 ilgiliKahramanlar: ["akhilleus", "hektor", "kassandra", "odysseus", "paris", "priamos"]
 ---

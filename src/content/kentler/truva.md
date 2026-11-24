@@ -16,7 +16,7 @@ bolge: "troas"
 konum:
   enlem: 39.9575
   boylam: 26.2389
-ilgiliMitler: ["truva-ati", "akhilleus", "odysseus"]
+ilgiliMitler: ["truva-ati", "akhilleus", "odysseus", "guzellik-yarismasi"]
 ilgiliKahramanlar: ["priamos"]
 ---
 

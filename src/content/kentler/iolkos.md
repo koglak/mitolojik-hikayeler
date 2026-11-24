@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 39.3619
   boylam: 22.9425
-ilgiliMitler: ["argonotlar"]
+ilgiliMitler: ["argonotlar", "altin-koc", "guzellik-yarismasi"]
 ilgiliKahramanlar: ["alkestis", "herakles", "kastor-ve-polydeukes", "medeia", "orpheus", "iason"]
 ---
 

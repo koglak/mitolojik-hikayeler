@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Metis"
 kaynak: "Hesiodos, Theogonia 886–900, 924–926; Herodotos, Tarih 8.55"
-ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "arakhne", "athena-ve-poseidon", "argonotlar", "bellerophon", "herakles", "marsyas", "pandora"]
+ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "arakhne", "athena-ve-poseidon", "argonotlar", "bellerophon", "herakles", "marsyas", "pandora", "guzellik-yarismasi"]
 ilgiliKentler: ["atina", "truva"]
 ilgiliTanrilar: ["metis", "poseidon", "zeus"]
 ilgiliKahramanlar: ["odysseus", "perseus"]

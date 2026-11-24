@@ -5,15 +5,20 @@ import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
 import AntikKentAnimasyonu from '../components/AntikKentAnimasyonu.astro';
 import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorseli.astro';
 import MeanderBant from '../components/MeanderBant.astro';
+import PapirusRafi from '../components/PapirusRafi.astro';
+import { antikKaynaklarAdi, antikKaynaklarAdresi } from '../lib/antikKaynaklar';
 import { bolumler } from '../lib/bolumler';
+import { soyagaciAdresi } from '../lib/soyagaci';
 import { siteVerisi } from '../lib/yapisalVeri';
 
 
-const kategoriler: { tur: KategoriTuru; ad: string; adres: string }[] = [
+const kategoriler: { tur: KategoriTuru | 'kaynaklar'; ad: string; adres: string }[] = [
   { tur: 'mitler', ad: 'Mitolojik Hikâyeler', adres: '/mitler/' },
   { tur: 'kentler', ad: bolumler.kentler.ad, adres: '/antik-kentler/' },
   { tur: 'tanrilar', ad: bolumler.tanrilar.ad, adres: '/tanrilar/' },
   { tur: 'kahramanlar', ad: bolumler.kahramanlar.ad, adres: '/kahramanlar/' },
+  { tur: 'soyagaci', ad: 'Soyağacı', adres: soyagaciAdresi },
+  { tur: 'kaynaklar', ad: antikKaynaklarAdi, adres: antikKaynaklarAdresi },
 ];
 ---
 
@@ -44,7 +49,7 @@ const kategoriler: { tur: KategoriTuru; ad: string; adres: string }[] = [
             <li>
               <a class="kategori" href={kategori.adres}>
                 <span class="kategori-resmi">
-                  <KategoriGorseli tur={kategori.tur} />
+                  {kategori.tur === 'kaynaklar' ? <PapirusRafi /> : <KategoriGorseli tur={kategori.tur} />}
                 </span>
                 <span class="kategori-adi">{kategori.ad}</span>
               </a>
@@ -114,7 +119,7 @@ const kategoriler: { tur: KategoriTuru; ad: string; adres: string }[] = [
     margin: 0;
     padding: 64px 0 24px;
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
   }
   .kategori {
@@ -132,10 +137,10 @@ const kategoriler: { tur: KategoriTuru; ad: string; adres: string }[] = [
     aspect-ratio: 3 / 2;
     overflow: hidden;
   }
-  .kategori-resmi :global(.kategori-gorseli) {
+  .kategori-resmi :global(svg) {
     transition: transform 0.6s var(--yumusak);
   }
-  .kategori:hover .kategori-resmi :global(.kategori-gorseli) {
+  .kategori:hover .kategori-resmi :global(svg) {
     transform: scale(1.05);
   }
   .kategori-adi {

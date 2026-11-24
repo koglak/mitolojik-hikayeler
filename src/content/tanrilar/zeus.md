@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Hesiodos, Theogonia 453–506"
-ilgiliMitler: ["prometheus", "pandora", "phaethon", "titanlar-savasi", "europa", "baukis-ve-philemon", "bellerophon", "endymion", "eros-ve-psykhe", "herakles", "hermes", "io", "kastor-ve-polydeukes", "persephone", "perseus-ve-medusa", "sisifos", "tantalos", "teumessos-tilkisi"]
+ilgiliMitler: ["prometheus", "pandora", "phaethon", "titanlar-savasi", "europa", "baukis-ve-philemon", "bellerophon", "endymion", "eros-ve-psykhe", "herakles", "hermes", "io", "kastor-ve-polydeukes", "persephone", "perseus-ve-medusa", "sisifos", "tantalos", "teumessos-tilkisi", "altin-koc", "guzellik-yarismasi"]
 ilgiliTanrilar: ["hades", "kronos", "poseidon", "prometheus", "rhea", "tartaros"]
 ilgiliKentler: ["olympos-dagi"]
 ---

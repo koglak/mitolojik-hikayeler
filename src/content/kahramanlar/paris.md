@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Öldüren"
     deger: "Philoktetes"
 kaynak: "Apollodoros, Kütüphane 3.12.5, Epitome 3.1–5, 5.3, 5.8; Homeros, İlyada 3.15–382"
-ilgiliMitler: ["truva-ati", "akhilleus"]
+ilgiliMitler: ["truva-ati", "akhilleus", "guzellik-yarismasi"]
 ilgiliKentler: ["sparta", "truva"]
 ilgiliTanrilar: ["apollon", "athena", "hera", "zeus", "afrodit"]
 ilgiliKahramanlar: ["akhilleus", "hekabe", "helene", "menelaos", "peleus", "philoktetes", "priamos"]

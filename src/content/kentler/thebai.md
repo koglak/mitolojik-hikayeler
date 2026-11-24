@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 38.3214
   boylam: 23.3189
-ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe"]
+ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe", "altin-koc"]
 ilgiliTanrilar: ["athena", "dionysos", "zeus"]
 ilgiliKahramanlar: ["antigone", "herakles", "kadmos", "oidipus"]
 ---

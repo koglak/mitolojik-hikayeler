@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Hera"
 kaynak: "Homeros, İlyada 5.385–391, 5.825–898; Odysseia 8.266–366"
-ilgiliMitler: ["sisifos"]
+ilgiliMitler: ["sisifos", "altin-koc"]
 ilgiliKentler: ["thebai", "truva", "olympos-dagi"]
 ilgiliTanrilar: ["afrodit", "athena", "hephaistos", "hera", "hermes", "zeus"]
 ilgiliKahramanlar: ["diomedes", "kadmos"]

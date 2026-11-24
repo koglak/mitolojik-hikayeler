@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Hyperion ve Theia"
 kaynak: "Hesiodos, Theogonia 371–374; Homerosçu Demeter İlahisi 62–89; Ovidius, Dönüşümler 1.750–2.400; Pindaros, Olympia Övgüleri 7"
-ilgiliMitler: ["persephone", "phaethon"]
+ilgiliMitler: ["persephone", "phaethon", "altin-koc"]
 ilgiliKentler: ["rodos"]
 ilgiliTanrilar: ["afrodit", "ares", "demeter", "hades", "hephaistos", "hyperion", "okeanos", "persephone", "zeus"]
 ---

@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Truva'ya götüren"
     deger: "Paris"
 kaynak: "Homeros, İlyada 3.121–244, Odysseia 4.120–305; Apollodoros, Kütüphane 3.10.7–9; Herodotos, Tarih 2.112–120; Euripides, Helene"
-ilgiliMitler: ["truva-ati", "kastor-ve-polydeukes"]
+ilgiliMitler: ["truva-ati", "kastor-ve-polydeukes", "guzellik-yarismasi"]
 ilgiliKentler: ["sparta", "truva"]
 ilgiliTanrilar: ["afrodit", "zeus"]
 ilgiliKahramanlar: ["kastor-ve-polydeukes", "menelaos", "odysseus", "paris", "priamos", "theseus"]

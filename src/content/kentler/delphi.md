@@ -16,7 +16,7 @@ bolge: "yunanistan"
 konum:
   enlem: 38.4824
   boylam: 22.5010
-ilgiliMitler: ["oidipus", "herakles", "titanlar-savasi"]
+ilgiliMitler: ["oidipus", "herakles", "titanlar-savasi", "altin-koc"]
 ilgiliTanrilar: ["apollon", "athena", "gaia", "zeus"]
 ilgiliKahramanlar: ["oidipus"]
 ---

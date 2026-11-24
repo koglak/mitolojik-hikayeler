@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Düğün armağanları"
     deger: "Kheiron'un dişbudak mızrağı, Poseidon'un ölümsüz atları Balios ve Ksanthos"
 kaynak: "Apollodoros, Kütüphane 3.12.6–3.13.8; Pindaros, Nemea 4.54–68, 5.25–39"
-ilgiliMitler: ["akhilleus"]
+ilgiliMitler: ["akhilleus", "guzellik-yarismasi"]
 ilgiliKentler: ["truva", "iolkos"]
 ilgiliTanrilar: ["poseidon", "zeus"]
 ilgiliKahramanlar: ["akhilleus", "atalanta"]

@@ -1,5 +1,5 @@
 ---
-export type KategoriTuru = 'mitler' | 'kentler' | 'tanrilar' | 'kahramanlar';
+export type KategoriTuru = 'mitler' | 'kentler' | 'tanrilar' | 'kahramanlar' | 'soyagaci';
 
 interface Props {
   tur: KategoriTuru;
@@ -15,6 +15,29 @@ const kivilcimlar = [
   { x: 120, y: 400 }, { x: 180, y: 410 }, { x: 260, y: 405 }, { x: 330, y: 400 },
   { x: 390, y: 410 }, { x: 450, y: 404 }, { x: 510, y: 400 }, { x: 560, y: 410 },
   { x: 230, y: 400 }, { x: 420, y: 406 },
+];
+const dallar = [
+  'M300 300C300 220 300 160 300 112',
+  'M300 250C286 196 226 206 190 148',
+  'M300 250C314 196 374 206 410 148',
+  'M300 300C262 258 176 300 112 256',
+  'M300 300C338 258 424 300 488 256',
+];
+const madalyonlar = [
+  { x: 300, y: 72, r: 44, renk: '#f2cb5c', simge: 'M6-24L-16 6H-3L-9 25L16-7H3L12-24Z' },
+  { x: 174, y: 118, r: 36, renk: '#d7a0f2', simge: 'M5-18A18 18 0 1 0 17 8A14 14 0 1 1 5-18Z' },
+  { x: 426, y: 118, r: 36, renk: '#4fcab8', simge: 'M0-19L13 0L0 19L-13 0Z' },
+  { x: 92, y: 238, r: 36, renk: '#ffb3d1', simge: 'M0-18L5-6L18-5L8 4L11 17L0 10L-11 17L-8 4L-18-5L-5-6Z' },
+  { x: 508, y: 238, r: 36, renk: '#86b8f7', simge: 'M-15-17H15V0C15 10 7 16 0 20C-7 16-15 10-15 0Z' },
+];
+const yapraklar = [
+  { x: 300, y: 138, aci: -48 }, { x: 300, y: 146, aci: 228 }, { x: 300, y: 182, aci: -40 }, { x: 300, y: 190, aci: 220 },
+  { x: 212, y: 179, aci: -70 }, { x: 222, y: 188, aci: 150 }, { x: 252, y: 204, aci: -90 }, { x: 264, y: 210, aci: 140 },
+  { x: 388, y: 179, aci: 250 }, { x: 378, y: 188, aci: 30 }, { x: 348, y: 204, aci: 270 }, { x: 336, y: 210, aci: 40 },
+  { x: 142, y: 271, aci: -60 }, { x: 152, y: 274, aci: 120 }, { x: 192, y: 279, aci: -70 }, { x: 206, y: 279, aci: 115 },
+  { x: 244, y: 276, aci: -100 }, { x: 254, y: 277, aci: 120 },
+  { x: 458, y: 271, aci: 240 }, { x: 448, y: 274, aci: 60 }, { x: 408, y: 279, aci: 250 }, { x: 394, y: 279, aci: 65 },
+  { x: 356, y: 276, aci: 280 }, { x: 346, y: 277, aci: 60 },
 ];
 ---
 
@@ -51,6 +74,14 @@ const kivilcimlar = [
           <>
             <stop offset="0" stop-color="#2a1a1a" />
             <stop offset="1" stop-color="#5a2a22" />
+          </>
+        )
+      }
+      {
+        tur === 'soyagaci' && (
+          <>
+            <stop offset="0" stop-color="#0b1719" />
+            <stop offset="1" stop-color="#2c3a2c" />
           </>
         )
       }
@@ -218,6 +249,46 @@ const kivilcimlar = [
           <path d="M388 190v40" stroke="#2a1a14" stroke-width="4" />
           <path d="M312 150c40-20 110-20 150 0" fill="none" stroke="#f1cf91" stroke-width="2" opacity=".7" />
         </g>
+      </g>
+    )
+  }
+
+  {
+    tur === 'soyagaci' && (
+      <g>
+        <g fill="#f7e3bd">
+          <circle cx="44" cy="60" r="1.3" />
+          <circle cx="102" cy="150" r="1" />
+          <circle cx="236" cy="40" r="1.2" />
+          <circle cx="380" cy="34" r="1" />
+          <circle cx="512" cy="70" r="1.5" />
+          <circle cx="562" cy="150" r="1.1" />
+        </g>
+        <ellipse cx="300" cy="180" rx="250" ry="170" fill={`url(#${kimlik}-isik)`} class="nabiz" />
+        <path d="M0 372C120 338 210 350 300 346C400 342 500 336 600 368V400H0Z" fill="#111a17" />
+        <path d="M290 240C294 290 290 322 268 346C256 358 236 362 214 366C250 372 276 366 290 356C294 366 292 376 286 388C298 380 304 370 306 358C322 370 350 374 386 366C362 362 344 358 332 346C310 322 306 290 310 240Z" fill={`url(#${kimlik}-tunc)`} />
+        <path d="M297 270C299 310 294 334 280 350M304 280C306 316 312 336 322 350" fill="none" stroke="#5a3820" stroke-width="2" stroke-linecap="round" opacity=".6" />
+        <g fill="none" stroke="#a87840" stroke-width="7" stroke-linecap="round">
+          {dallar.map((dal) => <path d={dal} />)}
+        </g>
+        <g fill="none" stroke="#ffe2a8" stroke-width="2.4" stroke-linecap="round">
+          {dallar.map((dal, i) => <path class="ozsu" pathLength="1" d={dal} style={`--gecikme:${i * 0.5}s`} />)}
+        </g>
+        <g>
+          {yapraklar.map((yaprak, i) => (
+            <g transform={`translate(${yaprak.x} ${yaprak.y}) rotate(${yaprak.aci})`}>
+              <path class="yaprak" d="M0 0C8-9 24-9 34 0C24 7 8 7 0 0Z" fill={i % 2 ? '#7f9468' : '#a3b384'} style={`--gecikme:${(i * 0.37) % 3}s`} />
+            </g>
+          ))}
+        </g>
+        {madalyonlar.map(({ x, y, r, renk, simge }, i) => (
+          <g transform={`translate(${x} ${y})`}>
+            <circle r={r} fill="#131c1b" />
+            <circle r={r} fill="none" stroke={`url(#${kimlik}-tunc)`} stroke-width="6" />
+            <circle class="madalyon-halkasi" r={r - 8} fill="none" stroke={renk} stroke-width="1.5" style={`--gecikme:${i * 0.5}s`} />
+            <path d={simge} fill={renk} />
+          </g>
+        ))}
       </g>
     )
   }
@@ -416,6 +487,45 @@ const kivilcimlar = [
     }
     to {
       transform: rotate(1.5deg);
+    }
+  }
+  .ozsu {
+    stroke-dasharray: 0.22 1;
+    stroke-dashoffset: 0.22;
+    animation: ozsu-yurur 5s ease-in-out var(--gecikme, 0s) infinite;
+  }
+  @keyframes ozsu-yurur {
+    0% {
+      stroke-dashoffset: 0.22;
+    }
+    60%,
+    100% {
+      stroke-dashoffset: -1;
+    }
+  }
+  .yaprak {
+    transform-origin: left center;
+    animation: yaprak-salinir 3.4s ease-in-out var(--gecikme, 0s) infinite alternate;
+  }
+  @keyframes yaprak-salinir {
+    from {
+      transform: rotate(-7deg);
+    }
+    to {
+      transform: rotate(7deg);
+    }
+  }
+  .madalyon-halkasi {
+    animation: madalyon-parlar 5s ease-in-out var(--gecikme, 0s) infinite;
+  }
+  @keyframes madalyon-parlar {
+    0%,
+    40%,
+    100% {
+      opacity: 0.35;
+    }
+    58% {
+      opacity: 1;
     }
   }
   .bulut {

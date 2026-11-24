@@ -16,7 +16,7 @@ bolge: "misya"
 konum:
   enlem: 39.5686
   boylam: 26.7792
-ilgiliMitler: []
+ilgiliMitler: ["guzellik-yarismasi"]
 ---
 
 Antandros, Kaz Dağı'nın, antik adıyla İda Dağı'nın güney eteğinde, Edremit Körfezi'nin kıyısındaydı. Dağın ormanları antik çağ boyunca gemi kerestesiyle ünlüydü.
