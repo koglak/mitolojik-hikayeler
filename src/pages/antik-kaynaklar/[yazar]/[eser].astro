@@ -34,7 +34,8 @@ export async function getStaticPaths() {
 
 const { eser, yazar, atiflar, digerEserler, benzerEserler } = Astro.props;
 const { data } = eser;
-const { Content } = await render(eser);
+const { Content, headings } = await render(eser);
+const bolumBasliklari = headings.filter((baslik) => baslik.depth === 2).map(({ slug, text }) => ({ kimlik: slug, ad: text }));
 const tur = eserTurleri[data.tur];
 const yazarAdi = yazar.data.ad;
 const yazarsiz = yazar.id === 'anonim';
@@ -47,6 +48,7 @@ const yazarsiz = yazar.id === 'anonim';
   sayfaBasligi={yazarsiz ? data.ad : `${data.ad}, ${yazarAdi}`}
   yol={kaynakAdresi(eser.id)}
   ustSayfalar={[{ ad: yazarAdi, yol: kaynakAdresi(yazar.id) }]}
+  bolumBasliklari={bolumBasliklari}
   konu={{
     '@type': 'Book',
     name: data.ad,

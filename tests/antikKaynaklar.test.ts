@@ -60,6 +60,16 @@ describe('eserler', () => {
     expect(new Set(siralar).size).toBe(siralar.length);
   });
 
+  it('gövdedeki site içi bağlantılar var olan sayfalara gider', () => {
+    const klasorler: Record<string, string> = { 'antik-kentler': 'kentler', 'antik-kaynaklar': 'eserler' };
+    for (const eser of eserler) {
+      for (const [, bolum, kimlik] of eser.govde.matchAll(/\]\(\/([^/)]+)\/([^)]+)\/\)/g)) {
+        const dosya = join(icerik, klasorler[bolum] ?? bolum, `${kimlik}.md`);
+        expect(existsSync(dosya), `${eser.kimlik}: /${bolum}/${kimlik}/`).toBe(true);
+      }
+    }
+  });
+
   it('her türden eser var', () => {
     for (const tur of eserTuruAnahtarlari) {
       expect(eserTurleri[tur].length).toBeGreaterThan(0);

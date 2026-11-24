@@ -14,10 +14,11 @@ interface Props {
   sayfaBasligi: string;
   yol: string;
   ustSayfalar?: KirintiOgesi[];
+  bolumBasliklari?: { kimlik: string; ad: string }[];
   konu: Record<string, unknown>;
 }
 
-const { ad, ozgunAd, ozet, sayfaBasligi, yol, ustSayfalar = [], konu } = Astro.props;
+const { ad, ozgunAd, ozet, sayfaBasligi, yol, ustSayfalar = [], bolumBasliklari = [], konu } = Astro.props;
 const ustYollar = [{ ad: antikKaynaklarAdi, yol: antikKaynaklarAdresi }, ...ustSayfalar];
 const ozgunAdDili = /\p{Script=Greek}/u.test(ozgunAd) ? 'grc' : 'la';
 const yapisalVeri = [
@@ -58,6 +59,20 @@ const yapisalVeri = [
       <div class="duzen">
         <aside class="kunye" aria-label="Künye">
           <dl><slot name="kunye" /></dl>
+          {
+            bolumBasliklari.length > 0 && (
+              <nav class="bolumler" aria-labelledby="bolumler-baslik">
+                <p id="bolumler-baslik">Bölümler</p>
+                <ul>
+                  {bolumBasliklari.map((bolum) => (
+                    <li>
+                      <a href={`#${bolum.kimlik}`}>{bolum.ad}</a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )
+          }
         </aside>
         <article class="metin"><slot /></article>
       </div>
@@ -116,6 +131,8 @@ const yapisalVeri = [
   .kunye {
     position: sticky;
     top: 24px;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
     padding: 24px;
     background: var(--yuzey);
     border: 1px solid var(--cizgi);
@@ -139,12 +156,55 @@ const yapisalVeri = [
   dl :global(dd a) {
     border-bottom: 1px solid var(--vurgu);
   }
+  .bolumler {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--cizgi);
+  }
+  .bolumler p {
+    margin: 0 0 4px;
+    font-size: 12px;
+    color: var(--soluk);
+  }
+  .bolumler ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .bolumler a {
+    display: block;
+    padding: 4px 0;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .bolumler a:hover {
+    color: var(--vurgu);
+  }
   .metin {
     max-width: 40rem;
     font: 400 21px/1.75 var(--baslik-font);
   }
   .metin :global(p) {
     margin: 0 0 1.1em;
+  }
+  .metin :global(h2) {
+    font: 500 36px/1.1 var(--baslik-font);
+    color: var(--kart-basligi);
+    margin: 1.4em 0 0.5em;
+    scroll-margin-top: 24px;
+  }
+  .metin :global(a) {
+    border-bottom: 1px solid var(--vurgu);
+  }
+  .metin :global(ul) {
+    list-style: none;
+    margin: 0 0 1.1em;
+    padding: 0;
+  }
+  .metin :global(li) {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--cizgi);
+    line-height: 1.45;
   }
   .metin :global(p:first-child::first-letter) {
     float: left;
@@ -163,6 +223,7 @@ const yapisalVeri = [
     }
     .kunye {
       position: static;
+      max-height: none;
     }
     .metin {
       font-size: 19px;
