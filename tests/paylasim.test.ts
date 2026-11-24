@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { facebookPaylasimAdresi, xPaylasimAdresi } from '../src/lib/paylasim';
+import { facebookPaylasimAdresi, pinterestPaylasimAdresi, whatsappPaylasimAdresi, xPaylasimAdresi } from '../src/lib/paylasim';
 
 const adres = 'https://mitolojikhikayeler.com/';
 
@@ -21,5 +21,24 @@ describe('facebookPaylasimAdresi', () => {
     const sonuc = new URL(facebookPaylasimAdresi(adres));
     expect(sonuc.origin + sonuc.pathname).toBe('https://www.facebook.com/sharer/sharer.php');
     expect(sonuc.searchParams.get('u')).toBe(adres);
+  });
+});
+
+describe('whatsappPaylasimAdresi', () => {
+  it('başlığı ve adresi tek metinde taşır', () => {
+    const sonuc = new URL(whatsappPaylasimAdresi(adres, 'Hikâyeler & Tanrılar'));
+    expect(sonuc.origin + sonuc.pathname).toBe('https://wa.me/');
+    expect(sonuc.searchParams.get('text')).toBe(`Hikâyeler & Tanrılar ${adres}`);
+  });
+});
+
+describe('pinterestPaylasimAdresi', () => {
+  it('adresi, görseli ve açıklamayı kodlanmış olarak taşır', () => {
+    const gorsel = 'https://mitolojikhikayeler.com/paylasim/site.png';
+    const sonuc = new URL(pinterestPaylasimAdresi(adres, 'Yunan Mitleri', gorsel));
+    expect(sonuc.origin + sonuc.pathname).toBe('https://www.pinterest.com/pin/create/button/');
+    expect(sonuc.searchParams.get('url')).toBe(adres);
+    expect(sonuc.searchParams.get('media')).toBe(gorsel);
+    expect(sonuc.searchParams.get('description')).toBe('Yunan Mitleri');
   });
 });

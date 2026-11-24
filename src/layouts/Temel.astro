@@ -9,7 +9,10 @@ import '@fontsource/dm-sans/500.css';
 import '@fontsource/dm-sans/700.css';
 import '@fontsource/gfs-didot/400.css';
 import '../styles/tema.css';
+import { olcumAnahtari } from '../lib/olcum';
+import { rssAdresi } from '../lib/rss';
 import { gorselTuru, mutlakAdres, sayfaBasligi, siteAdi, siteAdresi, siteKisaAdi, varsayilanPaylasimGorseli } from '../lib/site';
+import { blogAdi } from '../lib/blog';
 import { paylasimGenisligi, paylasimYuksekligi } from '../lib/paylasimGorseli';
 
 interface Props {
@@ -69,6 +72,7 @@ const yapisalVeriMetni = yapisalVeri.length
     <meta name="theme-color" content="#10151c" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${siteAdi} · ${blogAdi}`} href={rssAdresi} />
     {yapisalVeriMetni && <script type="application/ld+json" is:inline set:html={yapisalVeriMetni} />}
     <meta name="google-adsense-account" content="ca-pub-8518261734381602" />
     <script
@@ -76,6 +80,16 @@ const yapisalVeriMetni = yapisalVeri.length
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8518261734381602"
       crossorigin="anonymous"></script>
+    {
+      olcumAnahtari && (
+        <script
+          is:inline
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={JSON.stringify({ token: olcumAnahtari })}
+        />
+      )
+    }
   </head>
   <body>
     <slot />

@@ -2,6 +2,7 @@
 import Temel from '../layouts/Temel.astro';
 import SiteBasligi from '../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+import { olcumAnahtari } from '../lib/olcum';
 
 const guncellemeTarihi = '23 Kasım 2026';
 const iletisimAdresi = 'skalerart@gmail.com';
@@ -65,6 +66,22 @@ const iletisimAdresi = 'skalerart@gmail.com';
         Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'den gelen ziyaretçiler için reklam çerezleri, Google'ın onay
         kurallarına göre kullanılır. Size bir onay ekranı gösterildiyse tercihinizi aynı ekrandan değiştirebilirsiniz.
       </p>
+
+      {
+        olcumAnahtari && (
+          <>
+            <h2>Ziyaret ölçümü</h2>
+            <p>
+              Hangi sayfaların okunduğunu görmek için Cloudflare Web Analytics kullanılır. Bu hizmet ölçüm için çerez
+              kullanmaz. Ziyaret ettiğiniz sayfa, sizi yönlendiren site, tarayıcı türü, ülke ve sayfa hızı gibi bilgiler
+              toplu istatistik olarak sunulur. Ölçüm sırasında tarayıcınız Cloudflare sunucularına bağlanır. Ayrıntılar
+              için{' '}
+              <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare Gizlilik Politikası</a>'na
+              bakabilirsiniz.
+            </p>
+          </>
+        )
+      }
 
       <h2>Yazı tipleri</h2>
       <p>

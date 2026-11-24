@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import { blogYazilariniGetir } from '../lib/blogDizini';
+import { yaziAdresi } from '../lib/blog';
+import { bolumAnahtarlari, bolumler, kayitAdresi } from '../lib/bolumler';
+import { miteBagliOgeler } from '../lib/mitIliskileri';
+
+interface Props {
+  mit: string;
+}
+
+const { mit } = Astro.props;
+
+const bolumGruplari = await Promise.all(
+  bolumAnahtarlari.map(async (bolum) => ({
+    kimlik: bolum as string,
+    ad: bolumler[bolum].ad,
+    ogeler: miteBagliOgeler(await getCollection(bolum), mit).map(({ id, data }) => ({
+      ad: data.ad,
+      adres: kayitAdresi(bolum, id),
+    })),
+  })),
+);
+const yaziGrubu = {
+  kimlik: 'blog',
+  ad: 'Blog yazıları',
+  ogeler: (await blogYazilariniGetir())
+    .filter(({ data }) => data.ilgiliMitler.includes(mit))
+    .map(({ id, data }) => ({ ad: data.baslik, adres: yaziAdresi(id) })),
+};
+const gruplar = [...bolumGruplari, yaziGrubu].filter(({ ogeler }) => ogeler.length > 0);
+---
+
+{
+  gruplar.length > 0 && (
+    <section class="mit-baglantilari" aria-labelledby="mit-baglantilari-baslik">
+      <h2 id="mit-baglantilari-baslik">Bu hikâyeyle ilgili</h2>
+      {gruplar.map(({ kimlik, ad, ogeler }) => (
+        <div class="grup">
+          <h3 id={`mit-baglantilari-${kimlik}`}>{ad}</h3>
+          <ul aria-labelledby={`mit-baglantilari-${kimlik}`}>
+            {ogeler.map((oge) => (
+              <li>
+                <a href={oge.adres}>{oge.ad}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+  )
+}
+
+<style>
+  .mit-baglantilari {
+    margin-top: 48px;
+    border-top: 1px solid var(--cizgi);
+    padding-top: 32px;
+  }
+  h2 {
+    font: 500 36px/1.1 var(--baslik-font);
+    margin: 0 0 24px;
+  }
+  .grup {
+    margin-bottom: 22px;
+  }
+  h3 {
+    font: 400 14px/1.4 var(--govde-font);
+    color: var(--soluk);
+    margin: 0 0 10px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 6px 16px;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    font: 500 19px/1.2 var(--baslik-font);
+    transition: border-color 0.2s;
+  }
+  a:hover {
+    border-color: var(--vurgu);
+  }
+</style>

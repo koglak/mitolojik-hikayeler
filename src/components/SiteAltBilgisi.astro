@@ -1,5 +1,6 @@
 ---
 import Logo from './Logo.astro';
+import { rssAdresi } from '../lib/rss';
 import { bizKimizAdi, bizKimizAdresi } from '../lib/site';
 ---
 
@@ -11,6 +12,7 @@ import { bizKimizAdi, bizKimizAdresi } from '../lib/site';
   <span>Mitoloji ve antik dünya üzerine bir arşiv.</span>
   <span class="sag">
     <a href={bizKimizAdresi}>{bizKimizAdi}</a>
+    <a href={rssAdresi}>RSS</a>
     <a href="/gizlilik/">Gizlilik ve çerezler</a>
     <span>© {new Date().getFullYear()}</span>
   </span>

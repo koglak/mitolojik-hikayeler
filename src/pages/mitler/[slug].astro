@@ -5,11 +5,14 @@ import { getCollection, render } from 'astro:content';
 import Temel from '../../layouts/Temel.astro';
 import KartAkisi from '../../components/KartAkisi.astro';
 import BugunBag from '../../components/BugunBag.astro';
+import MitBaglantilari from '../../components/MitBaglantilari.astro';
+import PaylasimBaglantilari from '../../components/PaylasimBaglantilari.astro';
 import SanattaBolumu from '../../components/SanattaBolumu.astro';
 import MitGorseli from '../../components/MitGorseli.astro';
 import { basligiBol } from '../../lib/baslikParcalari';
 import { mitAdresi } from '../../lib/bolumler';
 import { mitPaylasimGorseli } from '../../lib/paylasimGorseli';
+import { mutlakAdres, sayfaBasligi } from '../../lib/site';
 import { kirintiVerisi, makaleVerisi } from '../../lib/yapisalVeri';
 
 export async function getStaticPaths() {
@@ -91,7 +94,14 @@ const yapisalVeri = [
         <summary>Uzun versiyonu oku</summary>
         <div class="metin-govde"><Content /></div>
       </details>
+      <MitBaglantilari mit={slug} />
       <SanattaBolumu alan="mitler" kimlik={slug} />
+      <PaylasimBaglantilari
+        adres={mutlakAdres(mitAdresi(slug))}
+        baslik={sayfaBasligi(mit.data.baslik)}
+        gorsel={paylasimGorseli}
+        ustBaslik="Bu miti paylaş"
+      />
       <a href="/mitler/" class="dugme-cizgili anasayfa">Tüm mitolojik hikâyeler</a>
     </section>
   </main>
