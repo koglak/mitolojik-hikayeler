@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Koios ve Phoibe"
 kaynak: "Homerosçu Apollon İlahisi 25–126; Ovidius, Dönüşümler 6.146–381"
-ilgiliMitler: ["niobe", "leto-ve-koyluler"]
+ilgiliMitler: ["niobe", "leto-ve-koyluler", "orion"]
 ilgiliKentler: ["delos", "letoon", "thebai"]
 ilgiliTanrilar: ["apollon", "artemis", "hera", "zeus"]
 ilgiliKahramanlar: ["niobe"]

@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Leto"
 kaynak: "Kallimakhos, Artemis İlahisi; Ovidius, Dönüşümler 3.138–252; Herodotos, Tarih 1.26"
-ilgiliMitler: ["niobe", "aktaion", "atalante", "kephalos-ve-prokris", "leto-ve-koyluler", "pan-ve-syrinx", "iphigeneia-auliste"]
+ilgiliMitler: ["niobe", "aktaion", "atalante", "kephalos-ve-prokris", "leto-ve-koyluler", "pan-ve-syrinx", "iphigeneia-auliste", "orion"]
 ilgiliKentler: ["efes"]
 ilgiliTanrilar: ["apollon", "leto", "zeus"]
 ilgiliKahramanlar: ["niobe"]

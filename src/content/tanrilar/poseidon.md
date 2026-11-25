@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Homeros, İlyada 15.187–193, 21.441–457; Odysseia 1.19–21, 9.526–535; Ovidius, Dönüşümler 4.794–803"
-ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "odysseus", "athena-ve-poseidon", "titanlar-savasi", "altin-koc"]
+ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "odysseus", "athena-ve-poseidon", "titanlar-savasi", "altin-koc", "orion"]
 ilgiliKentler: ["aigai", "atina", "truva"]
 ilgiliTanrilar: ["apollon", "athena", "hades", "kronos", "rhea", "zeus"]
 ilgiliKahramanlar: ["odysseus"]

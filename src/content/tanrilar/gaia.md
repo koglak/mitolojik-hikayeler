@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Çocukları"
     deger: "Uranos, Pontos, Titanlar, Kykloplar, Hekatonkheirler"
 kaynak: "Hesiodos, Theogonia 116–210, 820–880; Aiskhylos, Eumenides 1–8"
-ilgiliMitler: ["titanlar-savasi"]
+ilgiliMitler: ["titanlar-savasi", "orion"]
 ilgiliTanrilar: ["apollon", "khaos", "kronos", "rhea", "tartaros", "uranos", "zeus"]
 ilgiliKentler: ["delphi"]
 ---

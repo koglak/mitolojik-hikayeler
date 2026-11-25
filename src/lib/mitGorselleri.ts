@@ -467,6 +467,15 @@ const gorseller: Record<string, MitGorseli> = {
       '<circle cx="130" cy="230" r="10" fill="{c}"/>' +
       '<path d="M140 226c20-14 40-14 56-6" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round"/>',
   },
+  orion: {
+    palet: ['#354c75', '#151b33', '#f1d59a'],
+    figur:
+      '<path d="m114 91-28 58 23 56-19 82m19-82 67-20 23 77m-113-113 55 21 48-31 38-59m-86 90 35 15" fill="none" stroke="{c}" stroke-width="3" opacity=".55"/>' +
+      '<path d="M187 88q67 48 38 121m-38-121 38 121" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M85 149h1m27-58h1m-6 114h1m31-35h1m16 8h1m17 7h1m-87 102h1m108-25h1" stroke="{c}" stroke-width="10" stroke-linecap="round"/>' +
+      '<path d="M268 232c12-18 36-15 46 1 19 2 37-11 39-28 2-12-7-24-19-21l-9 6m-53 36-13-14-18 3 10 13m26-14-8-17-16-3m28 46-7 14-18 5m34-17-2 18-12 9m22-29 6 16-8 14" fill="none" stroke="{c}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '<path d="M38 310q65-20 137 0t185 0" fill="none" stroke="{c}" stroke-width="2" opacity=".35"/>',
+  },
   arion: {
     palet: ['#2a5a7a', '#0e1a26', '#ecd8a0'],
     figur:
