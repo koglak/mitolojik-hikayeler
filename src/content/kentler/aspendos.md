@@ -16,6 +16,29 @@ bolge: "pamfilya"
 konum:
   enlem: 36.9389
   boylam: 31.1722
+yapilar:
+  - ad: "Roma Tiyatrosu"
+    aciklama: "Mimar Zenon'un MS 2. yüzyılda yaptığı tiyatronun sahne binası neredeyse tam boyuyla ayakta. Bugün hâlâ konser ve gösteriler için kullanılıyor."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Aspendos_Amphitheatre.jpg/1280px-Aspendos_Amphitheatre.jpg"
+      genislik: 1280
+      yukseklik: 852
+      sahibi: "Saffron Blaze"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aspendos_Amphitheatre.jpg"
+      alt: "Aspendos Roma Tiyatrosu'nun ayakta kalmış sahne binası"
+  - ad: "Su Kemeri"
+    aciklama: "Kentin kuzeyinde uzanan kemer, suyu dağlardan kente taşırdı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Aqueduct_of_Aspendos_03.jpg/1280px-Aqueduct_of_Aspendos_03.jpg"
+      genislik: 1280
+      yukseklik: 853
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aqueduct_of_Aspendos_03.jpg"
+      alt: "Aspendos su kemerinin uzun taş kemerleri"
 ilgiliMitler: []
 ---
 

@@ -1,9 +1,16 @@
 import { z } from 'astro/zod';
 import { bolgeAnahtarlari } from './bolgeler';
+import { gorselSemasi } from './yaziSemasi';
 
 export const tapinakSemasi = z.object({
   ad: z.string().min(1),
   tanrilar: z.array(z.string().min(1)).min(1),
+});
+
+export const yapiSemasi = z.object({
+  ad: z.string().min(1),
+  aciklama: z.string().min(1),
+  gorsel: gorselSemasi.optional(),
 });
 
 export const kayitSemasi = z.object({
@@ -24,6 +31,7 @@ export const kayitSemasi = z.object({
     .optional(),
   bolge: z.enum(bolgeAnahtarlari).optional(),
   tapinaklar: z.array(tapinakSemasi).default([]),
+  yapilar: z.array(yapiSemasi).default([]),
 });
 
 export type Kayit = z.infer<typeof kayitSemasi>;

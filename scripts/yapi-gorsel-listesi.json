@@ -1,0 +1,50 @@
+[
+  {
+    "kent": "efes",
+    "ad": "Celsus Kütüphanesi",
+    "makale": "Library of Celsus",
+    "alt": "Efes'te iki katlı sütunlu cephesiyle Celsus Kütüphanesi"
+  },
+  {
+    "kent": "efes",
+    "ad": "Büyük Tiyatro",
+    "alt": "Efes Büyük Tiyatro'nun yamaca oturan oturma basamakları",
+    "arama": "Ephesus Great Theatre"
+  },
+  {
+    "kent": "efes",
+    "ad": "Artemis Tapınağı",
+    "alt": "Efes'te Artemis Tapınağı'ndan kalan tek sütun",
+    "arama": "Temple of Artemis Ephesus column"
+  },
+  {
+    "kent": "aspendos",
+    "ad": "Roma Tiyatrosu",
+    "makale": "Aspendos Theatre",
+    "alt": "Aspendos Roma Tiyatrosu'nun ayakta kalmış sahne binası"
+  },
+  {
+    "kent": "aspendos",
+    "ad": "Su Kemeri",
+    "alt": "Aspendos su kemerinin uzun taş kemerleri",
+    "arama": "Aspendos aqueduct"
+  },
+  {
+    "kent": "delphi",
+    "ad": "Apollon Tapınağı",
+    "makale": "Temple of Apollo (Delphi)",
+    "alt": "Delphi'de Apollon Tapınağı'nın kalıntıları"
+  },
+  {
+    "kent": "delphi",
+    "ad": "Tiyatro",
+    "alt": "Delphi tiyatrosunun yamaçtaki oturma sıraları",
+    "dosya": "File:Ancient Greek theatre of Delphi 01.jpg"
+  },
+  {
+    "kent": "delphi",
+    "ad": "Stadyum",
+    "alt": "Delphi stadyumunun uzun pisti ve oturma basamakları",
+    "arama": "Delphi stadium"
+  }
+]

@@ -10,7 +10,8 @@
     "test": "vitest run",
     "ses": "node scripts/sesleri-uret.mjs",
     "soyagaci-cek": "node scripts/soyagaci-cek.mjs",
-    "sanat-gorselleri": "node scripts/sanat-gorselleri.mjs"
+    "sanat-gorselleri": "node scripts/sanat-gorselleri.mjs",
+    "yapi-gorselleri": "node scripts/yapi-gorselleri.mjs"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",
