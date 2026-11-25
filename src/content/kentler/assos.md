@@ -25,6 +25,15 @@ ilgiliKahramanlar: ["herakles"]
 yapilar:
   - ad: "Athena Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Assos_Athena_temple_029.jpg/500px-Assos_Athena_temple_029.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Assos_Athena_temple_029.jpg"
+      alt: "Athena Tapınağı – Assos"
   - ad: "Kent Surları ve Batı Kapısı"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Nekropol"

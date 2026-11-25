@@ -28,6 +28,15 @@ ilgiliTanrilar: ["apollon", "athena"]
 yapilar:
   - ad: "Apollon Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Temple_Apollo_Side_Boat.jpg/500px-Temple_Apollo_Side_Boat.jpg"
+      genislik: 500
+      yukseklik: 400
+      sahibi: "Saffron Blaze"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_Apollo_Side_Boat.jpg"
+      alt: "Apollon Tapınağı – Side"
   - ad: "Athena Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Tykhe Tapınağı"

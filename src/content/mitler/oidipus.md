@@ -26,3 +26,5 @@ Oidipus'un hikâyesi bize en etkili biçimde Sophokles'in Kral Oidipus trajedisi
 Homeros'un Odysseia'sında (11.271–280) anlatılan daha eski bir anlatımda Oidipus gerçek ortaya çıktıktan sonra da Thebai'de hüküm sürmeye devam eder. Gözlerini kör etmesi ve sürgüne gitmesi daha sonraki anlatımlarda görülür.
 
 Sfenks'in bilmecesi antik kaynaklarda farklı biçimlerde geçer. Bilmecenin bilinen en eski yazılı biçimi MÖ 5. yüzyıla aittir. Kâhin Teiresias da Yunan mitolojisinin en önemli figürlerinden biridir ve Thebai'nin hikâyelerinde sık sık karşımıza çıkar.
+
+Oidipus'un çocukları Thebai tahtı için savaşır. Savaştan sonra kızının Kreon'a karşı çıkması [Antigone'nin hikâyesini](/mitler/antigone/) başlatır.

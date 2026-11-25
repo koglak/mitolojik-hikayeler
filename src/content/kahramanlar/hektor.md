@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Öldüren"
     deger: "Akhilleus"
 kaynak: "Homeros, İlyada 6.390–502, 16.818–863, 22, 24"
-ilgiliMitler: ["akhilleus", "truva-ati"]
+ilgiliMitler: ["akhilleus", "truva-ati", "aineias-truvadan-kacis"]
 ilgiliKentler: ["truva"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["akhilleus", "andromakhe", "hekabe", "patroklos", "priamos"]

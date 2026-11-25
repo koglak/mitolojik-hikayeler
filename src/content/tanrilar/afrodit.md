@@ -3,6 +3,8 @@ ad: "Afrodit"
 sira: 5
 ozet: "Aşkın ve güzelliğin tanrıçası. Hesiodos'a göre denizin köpüğünden doğdu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Venüs"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Eşi"
     deger: "Hephaistos"
 kaynak: "Hesiodos, Theogonia 188–206; İşler ve Günler 65–66; Homeros, Odysseia 8.266–366"
-ilgiliMitler: ["truva-ati", "pandora", "eros-ve-psykhe", "hero-ve-leandros", "pygmalion", "atalante", "guzellik-yarismasi"]
+ilgiliMitler: ["truva-ati", "pandora", "eros-ve-psykhe", "hero-ve-leandros", "pygmalion", "atalante", "guzellik-yarismasi", "aineias-truvadan-kacis", "afrodit-ve-adonis"]
 ilgiliKentler: ["afrodisias", "truva"]
 ilgiliTanrilar: ["ares", "athena", "hephaistos", "hera", "kronos", "uranos", "zeus"]
 ilgiliKahramanlar: ["helene", "paris"]

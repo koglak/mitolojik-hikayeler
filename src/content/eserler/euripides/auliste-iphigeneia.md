@@ -89,3 +89,6 @@ Akhilleus gelir. Ordu karışmıştır ve kızı koruduğu için onu taşlamaya 
 İkinci haberci anlatır. İphigeneia Artemis korusuna kendi yürümüştür. Agamemnon yüzünü kapatıp ağlamış, kız hiç kimsenin kendisini tutmamasını, kendi isteğiyle teslim olduğunu söylemiştir. Talthybios sessizlik çağrısı yapar. Kalkhas kızın başına çelengi koyar, Akhilleus su serper ve rahip kılıcını çeker. Herkes darbenin sesini duymuş, ama kızın yıkıldığını kimse görmemiştir. Kalkhas, tanrıçanın gönderdiği ceylanı gösterir. Artemis kurbanı kabul etmiş ve kızı tanrılara götürmüştür. Ordu artık Aulis'ten denize açılabilecektir.
 
 Agamemnon karısına kızlarının tanrılar arasında olduğunu söyler, kendisi de Truva'dan dönünce görüşeceklerini ekler. Oyunun bu son bölümünün, yani ceylan mucizesinin sonradan eklendiği düşünülür.
+
+
+Aulis'teki bekleyiş ve kurban kararını [İphigeneia'nın hikâyesi](/mitler/iphigeneia-auliste/) anlatır.

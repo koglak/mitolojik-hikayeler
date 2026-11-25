@@ -3,6 +3,8 @@ ad: "Atlas"
 sira: 43
 ozet: "Göğü omuzlarında taşımaya mahkûm edilen Titan. Herakles onu kandırdı, Perseus ise taşa çevirdi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Anne-baba"
     deger: "Iapetos ve Okeanid Klymene"
   - etiket: "Kardeşleri"

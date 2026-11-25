@@ -26,7 +26,7 @@ yapilar:
   - ad: "Hamam"
     aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
   - ad: "Vaftiz Mağarası"
-    aciklama: "Vaftiz Mağarası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Syedra’da kaya içine açılan ve Hristiyanlık döneminde vaftizle ilişkilendirilen mekân."
   - ad: "Kent Kapısı"
     aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
   - ad: "Bazilika"

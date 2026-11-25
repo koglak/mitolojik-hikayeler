@@ -30,10 +30,19 @@ yapilar:
     aciklama: "Kaynak bölgesiyle tedavi yapısının bulunduğu kesimi bağlayan tonozlu geçit."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/PergamonAsklepieionHofundTheater.jpg/500px-PergamonAsklepieionHofundTheater.jpg"
+      genislik: 500
+      yukseklik: 341
+      sahibi: "Klaus-Peter Simon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:PergamonAsklepieionHofundTheater.jpg"
+      alt: "Tiyatro – Bergama Asklepionu"
   - ad: "Asklepios Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Dairesel Tedavi Yapısı"
-    aciklama: "Dairesel Tedavi Yapısı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Bergama Asklepionu’nun güneydoğu kesiminde, tonozlu geçit ve kutsal kaynakla bağlantılı yuvarlak planlı yapı."
   - ad: "Kuzey Stoa"
     aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
 kunyeGorseli:

@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Katıldığı seferler"
     deger: "Argonotlar ve Kalydon avı"
 kaynak: "Homeros, İlyada 2.711–715, 2.763–767; Aiskhylos, Eumenidler 723–728; Euripides, Alkestis; Platon, Şölen 179b–d; Kallimakhos, İlahiler 2.47–54; Apollodoros, Kütüphane 1.9.14–16, 3.10.4"
-ilgiliMitler: ["argonotlar"]
+ilgiliMitler: ["argonotlar", "alkestis"]
 ilgiliKentler: ["iolkos"]
 ilgiliTanrilar: ["apollon", "artemis", "asklepios", "persephone"]
 ilgiliKahramanlar: ["alkestis", "herakles", "iason", "meleagros", "pelias"]

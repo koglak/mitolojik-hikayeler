@@ -33,17 +33,26 @@ yapilar:
   - ad: "Apollon Maleatas Kutsal Alanı"
     aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
   - ad: "Tholos"
-    aciklama: "Tholos, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Epidauros Asklepios kutsal alanında, altındaki eş merkezli geçitlerle tanınan yuvarlak yapı."
   - ad: "Abaton"
     aciklama: "Şifa arayanların ritüel uykuya yattığı sütunlu yapı."
   - ad: "Büyük Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Epidauros-Theater-1.jpg/500px-Epidauros-Theater-1.jpg"
+      genislik: 500
+      yukseklik: 667
+      sahibi: "DieBuche"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Epidauros-Theater-1.jpg"
+      alt: "Büyük Tiyatro – Epidauros"
   - ad: "Stadyum"
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
   - ad: "Katagogion"
     aciklama: "Kutsal alan ziyaretçilerinin konakladığı yapı kompleksi."
   - ad: "Hestiatorion"
-    aciklama: "Hestiatorion, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Epidauros’ta kutsal alanın tören yemekleriyle bağlantılı, avlulu yapı kompleksi."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Epidauros-Theater-1.jpg/500px-Epidauros-Theater-1.jpg"
   genislik: 500

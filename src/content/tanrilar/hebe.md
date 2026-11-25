@@ -3,6 +3,8 @@ ad: "Hebe"
 sira: 25
 ozet: "Gençliğin tanrıçası. Olimpos'ta tanrılara nektar sunar, Herakles'in eşidir."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Iuventas"
   - etiket: "Alanı"

@@ -15,6 +15,7 @@ kaynak: "Euripides, Alkestis; Apollodoros, Kütüphane 1.9.15; Platon, Şölen 1
 ilgiliKentler: ["iolkos"]
 ilgiliTanrilar: ["apollon", "persephone"]
 ilgiliKahramanlar: ["herakles"]
+ilgiliMitler: ["alkestis"]
 ---
 
 Alkestis, Iolkos kralı Pelias'ın kızıydı. Talipleri çoktu ama Pelias zor bir koşul koydu: kızını, arabasına bir aslan ile bir yaban domuzunu birlikte koşabilen alacaktı. Thessalia'daki Pherai'nin kralı Admetos bunu Apollon'un yardımıyla başardı. Apollon o sırada ceza olarak bir yıl Admetos'un sürülerini gütmüş ve onu çok sevmişti.

@@ -3,6 +3,8 @@ ad: "Hermes"
 sira: 6
 ozet: "Tanrıların habercisi, yolcuların ve hırsızların koruyucusu. Ruhları yeraltına o götürür."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Merkür"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Maia"
 kaynak: "Homerosçu Hermes İlahisi; Hesiodos, İşler ve Günler 67–82; Homeros, Odysseia 24.1–14"
-ilgiliMitler: ["pandora", "persephone", "perseus-ve-medusa", "sisifos", "pan-ve-syrinx", "hermes", "io", "baukis-ve-philemon", "odysseus", "altin-koc", "guzellik-yarismasi"]
+ilgiliMitler: ["pandora", "persephone", "perseus-ve-medusa", "sisifos", "pan-ve-syrinx", "hermes", "io", "baukis-ve-philemon", "odysseus", "altin-koc", "guzellik-yarismasi", "kirke-ve-odysseus"]
 ilgiliTanrilar: ["apollon", "persephone", "zeus"]
 ilgiliKahramanlar: ["perseus"]
 ---

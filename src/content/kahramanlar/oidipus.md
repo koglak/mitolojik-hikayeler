@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Öldüğü yer"
     deger: "Atina yakınındaki Kolonos"
 kaynak: "Sophokles, Kral Oidipus; Sophokles, Oidipus Kolonos'ta; Apollodoros, Kütüphane 3.5.7–3.5.9"
-ilgiliMitler: ["oidipus"]
+ilgiliMitler: ["oidipus", "antigone"]
 ilgiliKentler: ["atina", "korinthos", "thebai", "delphi"]
 ilgiliKahramanlar: ["antigone", "theseus"]
 ---

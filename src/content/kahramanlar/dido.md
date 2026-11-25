@@ -17,6 +17,7 @@ kaynak: "Vergilius, Aeneis 1.335–756, 4, 6.450–476; Ovidius, Mektuplar 7; Iu
 ilgiliKentler: ["truva"]
 ilgiliTanrilar: ["afrodit", "eros", "hera", "hermes", "zeus"]
 ilgiliKahramanlar: ["aineias"]
+ilgiliMitler: ["aineias-truvadan-kacis"]
 ---
 
 Dido, Tyros kralının kızıydı. Kardeşi Pygmalion tahta geçince Dido'nun kocası Sychaeus'u altınları için gizlice öldürttü. Kocasının hayaleti Dido'ya gerçeği anlattı. Dido yandaşlarıyla birlikte hazineyi gemilere yükleyip Afrika kıyısına kaçtı. Oradaki halktan bir öküz derisinin kaplayacağı kadar toprak istedi. Deriyi ince şeritler hâlinde kestirip koca bir tepeyi çevreledi. Kartaca'nın kalesine verilen Byrsa adı bu hikâyeyle açıklanır; sözcük Yunancada deri demektir.

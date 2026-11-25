@@ -3,6 +3,8 @@ ad: "Eros"
 sira: 13
 ozet: "Aşkın ve arzunun tanrısı. Altın oklarıyla vurduğunu karşı konulmaz bir tutkuya düşürür."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Cupido (Amor)"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Afrodit ve Ares (sonraki anlatılar)"
 kaynak: "Hesiodos, Theogonia 116–122; Ovidius, Dönüşümler 1.452–476, 5.363–384; Apuleius, Başkalaşımlar 4.28–6.24"
-ilgiliMitler: ["persephone", "apollon-ve-daphne", "eros-ve-psykhe", "argonotlar"]
+ilgiliMitler: ["persephone", "apollon-ve-daphne", "eros-ve-psykhe", "argonotlar", "afrodit-ve-adonis"]
 ilgiliTanrilar: ["afrodit", "apollon", "ares", "gaia", "hades", "khaos", "persephone"]
 ilgiliKahramanlar: ["psykhe"]
 ---

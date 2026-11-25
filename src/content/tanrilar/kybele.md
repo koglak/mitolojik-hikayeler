@@ -3,6 +3,8 @@ ad: "Kybele"
 sira: 19
 ozet: "Anadolu'nun büyük ana tanrıçası. Aslanların çektiği arabasıyla dağlarda dolaşır."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Anadolu (Frigya)"
   - etiket: "Roma'da"
     deger: "Magna Mater"
   - etiket: "Alanı"

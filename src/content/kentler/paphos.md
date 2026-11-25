@@ -25,6 +25,15 @@ ilgiliKahramanlar: ["pygmalion", "adonis"]
 yapilar:
   - ad: "Afrodit Kutsal Alanı (Palaipaphos)"
     aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg/500px-Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg"
+      genislik: 500
+      yukseklik: 281
+      sahibi: "Nikodem Nijaki"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg"
+      alt: "Afrodit Kutsal Alanı (Palaipaphos) – Paphos (Palaipaphos)"
   - ad: "Dionysos Evi (Nea Paphos)"
     aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
   - ad: "Theseus Villası (Nea Paphos)"

@@ -30,6 +30,15 @@ yapilar:
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Theater_teos.JPG/500px-Theater_teos.JPG"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Philipp Pilhofer"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Theater_teos.JPG"
+      alt: "Tiyatro – Teos"
   - ad: "Bouleuterion"
     aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
   - ad: "Agora"

@@ -20,6 +20,15 @@ yapilar:
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Kaya Mezarları"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Kyaneai_Westnekropole_Akropolis.JPG/500px-Kyaneai_Westnekropole_Akropolis.JPG"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Ansgar Bovet"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kyaneai_Westnekropole_Akropolis.JPG"
+      alt: "Kaya Mezarları – Kyaneai"
   - ad: "Likya Lahitleri"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Kent Surları"

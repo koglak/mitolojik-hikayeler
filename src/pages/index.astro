@@ -2,7 +2,8 @@
 import Temel from '../layouts/Temel.astro';
 import SiteBasligi from '../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
-import AntikKentAnimasyonu from '../components/AntikKentAnimasyonu.astro';
+import MansetSlider from '../components/MansetSlider.astro';
+import AnasayfaSecmeleri from '../components/AnasayfaSecmeleri.astro';
 import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorseli.astro';
 import OzluSozler from '../components/OzluSozler.astro';
 import PapirusRafi from '../components/PapirusRafi.astro';
@@ -43,18 +44,12 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: str
     <SiteBasligi />
   </div>
 
-  <section class="sahne">
-    <AntikKentAnimasyonu />
-    <div class="sahne-metni">
-      <div class="site-kabugu">
-        <h1>Mitler, <em>kentler</em> ve kahramanlar.</h1>
-        <p>Antik dünyayı keşfe çıkalım.</p>
-      </div>
-    </div>
-  </section>
-
   <div class="site-kabugu">
     <main>
+      <h1>Mitler, <em>kentler</em> ve kahramanlar.</h1>
+      <MansetSlider />
+      <AnasayfaSecmeleri />
+
       <ul class="kategoriler" aria-label="Bölümler">
         {
           kategoriler.map((kategori) => (
@@ -88,38 +83,14 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: str
 </script>
 
 <style>
-  .sahne {
-    position: relative;
-    height: clamp(420px, 72vh, 720px);
-    overflow: hidden;
-    background: #070d17;
-  }
-  .sahne :global(.antik-kent) {
-    position: absolute;
-    inset: 0;
-  }
-  .sahne-metni {
-    position: absolute;
-    inset: auto 0 0 0;
-    padding: 120px 0 44px;
-    background: linear-gradient(0deg, rgba(10, 14, 20, 0.92) 0%, rgba(10, 14, 20, 0.55) 55%, transparent 100%);
-    pointer-events: none;
-  }
   h1 {
-    font: 500 clamp(44px, 6vw, 88px) / 0.95 var(--baslik-font);
+    font: 500 clamp(36px, 5vw, 68px) / 1 var(--baslik-font);
     letter-spacing: -0.035em;
-    margin: 0 0 14px;
-    max-width: 14ch;
-    color: #f6ecdc;
+    margin: 32px 0 24px;
   }
   h1 em {
     font-weight: 400;
     color: var(--vurgu);
-  }
-  .sahne-metni p {
-    font: italic 400 clamp(20px, 2.2vw, 28px) / 1.4 var(--baslik-font);
-    color: #e6d2b0;
-    margin: 0;
   }
 
   .kategoriler {
@@ -173,12 +144,6 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: str
   @media (max-width: 560px) {
     .genis .kategori-resmi {
       aspect-ratio: 3 / 2;
-    }
-    .sahne {
-      height: clamp(420px, 78vh, 620px);
-    }
-    .sahne-metni {
-      padding-bottom: 32px;
     }
     .kategoriler {
       grid-template-columns: 1fr;

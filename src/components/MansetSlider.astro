@@ -1,0 +1,126 @@
+---
+import YaziGorseli from './YaziGorseli.astro';
+import { blogAdresi, yaziAdresi } from '../lib/blog';
+import { blogYazilariniGetir } from '../lib/blogDizini';
+
+const yazilar = await blogYazilariniGetir();
+---
+
+{yazilar.length > 0 && (
+  <section class="manset" aria-labelledby="manset-basligi" data-manset>
+    <header>
+      <h2 id="manset-basligi">Blog Manşetleri</h2>
+      <a href={blogAdresi}>Tüm blog yazıları</a>
+    </header>
+    <ul class="slaytlar" id="mansetler" data-rastgele-secim>
+      {yazilar.map(({ id, data }, sira) => {
+        const slayt = (
+          <li>
+            <a class="slayt" href={yaziAdresi(id)}>
+              <YaziGorseli gorsel={data.gorsel} boyut="kart" olculer="(max-width: 780px) 94vw, 1200px" />
+              <span class="metin">
+                <span class="konu">{data.konu}</span>
+                <strong>{data.baslik}</strong>
+              </span>
+            </a>
+          </li>
+        );
+        return sira < 5 ? slayt : <template>{slayt}</template>;
+      })}
+    </ul>
+    <div class="kontroller" data-manset-kontrolleri hidden>
+      <button type="button" aria-controls="mansetler" data-manset-adim="-1">Önceki</button>
+      <span role="status" aria-atomic="true" data-manset-durum></span>
+      <button type="button" aria-controls="mansetler" data-manset-adim="1">Sonraki</button>
+    </div>
+  </section>
+)}
+
+<style>
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  h2 {
+    margin: 0;
+    font: 600 clamp(22px, 3vw, 30px) / 1.15 var(--baslik-font);
+  }
+  header a {
+    font-size: 14px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .slaytlar {
+    position: relative;
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 0;
+    padding: 0;
+  }
+  .slaytlar li {
+    flex: 0 0 100%;
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+  .slayt {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    min-height: clamp(330px, 50vw, 520px);
+    isolation: isolate;
+    background: var(--hero);
+    color: #fff6e5;
+  }
+  .slayt:focus-visible {
+    outline-offset: -4px;
+  }
+  .slayt :global(img),
+  .slayt::before {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+  }
+  .slayt::before {
+    content: '';
+    z-index: -1;
+    background: linear-gradient(0deg, rgb(10 14 20 / 96%), rgb(10 14 20 / 78%) 22%, transparent 78%);
+  }
+  .metin {
+    display: grid;
+    gap: 8px;
+    padding: clamp(20px, 5vw, 52px);
+  }
+  .konu {
+    color: #f3d4a1;
+    font-size: 14px;
+  }
+  strong {
+    font: 600 clamp(32px, 6vw, 66px) / 1.03 var(--baslik-font);
+    text-wrap: balance;
+    max-width: 26ch;
+  }
+  .kontroller:not([hidden]) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  button {
+    min-height: 44px;
+    padding: 8px 14px;
+    color: var(--yazi);
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    font: inherit;
+    cursor: pointer;
+  }
+  button:hover {
+    border-color: var(--vurgu);
+  }
+</style>

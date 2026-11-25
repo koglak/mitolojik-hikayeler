@@ -3,6 +3,8 @@ ad: "Rhea"
 sira: 34
 ozet: "Tanrıların anası. Kronos'u bir taşla kandırıp bebek Zeus'u kurtardı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Ops"
   - etiket: "Anne-baba"

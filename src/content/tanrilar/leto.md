@@ -3,6 +3,8 @@ ad: "Leto"
 sira: 10
 ozet: "Apollon ile Artemis'in annesi olan Titan kızı. Doğum yapacak bir yer bulmak için dünyayı dolaştı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Latona"
   - etiket: "Alanı"

@@ -25,3 +25,5 @@ Atalante'nin koşu hikâyesi Ovidius'un Dönüşümler'inde (10.560–707) Afrod
 Kaynaklarda iki farklı Atalante karışır. Arkadyalı Atalante, Kalydon domuzu avına katılan avcıdır ve kocası Melanion'dur. Boiotialı Atalante ise koşucudur ve Hippomenes ile evlenir. Sonraki yazarlar bu iki figürü çoğunlukla birleştirmiştir.
 
 Kybele'nin arabasını aslanların çektiği, Anadolu'dan Yunanistan'a geçen eski bir tasvir geleneğidir. Ovidius bu geleneği Atalante ile Hippomenes'in dönüşümüyle açıklar.
+
+Ovidius'ta bu yarışı Afrodit anlatır. Sözlerini, avlanmaya hazırlanan [Adonis'e](/mitler/afrodit-ve-adonis/) bir uyarı olarak söyler.

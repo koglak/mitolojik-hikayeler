@@ -41,7 +41,7 @@ yapilar:
   - ad: "Zeus Kynthios ve Athena Kynthia Kutsal Alanı"
     aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
   - ad: "Aslanlar Terası"
-    aciklama: "Aslanlar Terası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Delos’un kutsal gölüne bakan terası, Naxosluların Apollon’a adadığı mermer aslanlarla tanınır."
   - ad: "Dionysos Evi"
     aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
   - ad: "Yunuslar Evi"

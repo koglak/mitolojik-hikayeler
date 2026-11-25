@@ -24,7 +24,7 @@ tapinaklar:
 ilgiliMitler: []
 yapilar:
   - ad: "Zeytinyağı İşliği"
-    aciklama: "Zeytinyağı İşliği, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Klazomenai’de zeytinyağı üretimi için kullanılan Arkaik dönem pres ve ayırma düzeninin ortaya çıkarıldığı atölye."
   - ad: "Nekropol"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Apollon Tapınağı"

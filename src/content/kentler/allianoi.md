@@ -24,6 +24,15 @@ ilgiliTanrilar: ["asklepios"]
 yapilar:
   - ad: "Kaplıca kompleksi"
     aciklama: "Sıcak su kaynağı çevresinde örgütlenen Roma hamam ve tedavi yapıları."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Allianoi_view2007.jpg/500px-Allianoi_view2007.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Josep Lluís"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Allianoi_view2007.jpg"
+      alt: "Kaplıca kompleksi – Allianoi"
   - ad: "Roma Köprüsü"
     aciklama: "Kaplıca yerleşiminin iki yakası arasında geçiş sağlayan köprü kalıntısı."
 kunyeGorseli:

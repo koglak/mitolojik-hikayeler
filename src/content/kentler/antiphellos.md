@@ -18,6 +18,15 @@ ilgiliMitler: []
 yapilar:
   - ad: "Helenistik Tiyatro"
     aciklama: "Denize bakan yamaca oturan tiyatronun taş oturma sıraları korunmuştur."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg/500px-Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "rheins"
+      lisans: "CC BY 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg"
+      alt: "Helenistik Tiyatro – Antiphellos"
   - ad: "Kral Mezarı"
     aciklama: "Kaş merkezinde görülen Likya tipi anıtsal lahit."
   - ad: "Kaya Mezarları"

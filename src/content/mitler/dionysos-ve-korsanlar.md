@@ -24,3 +24,5 @@ Hikâyenin en eski anlatımı Homerosçu Dionysos İlahisi'ndedir (7). Ovidius d
 Antik Yunanlar yunusları insanlara karşı özellikle dost hayvanlar olarak görürdü. Bu hikâye bu yakınlığı açıklar: yunuslar, eskiden insan olan ve pişman olan denizcilerdir.
 
 Dionysos Yunan tanrıları arasında belki de en çok yolculuk eden tanrıdır. Anlatılara göre Anadolu'dan Hindistan'a kadar dolaşmış, gittiği her yere asmayı ve şarabı götürmüştür. Gittiği yerde onu tanımayanlar, bu hikâyedeki korsanlar gibi, sonunda tanrısal gücüyle karşılaşır.
+
+Dionysos, Thebai'de de kimliğini gizler. [Pentheus'un hikâyesi](/mitler/dionysos-ve-pentheus/) tanrıya karşı çıkan kralın başına gelenleri anlatır.

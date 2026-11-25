@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Koruyucusu"
     deger: "Artemis"
 kaynak: "Euripides, Aulis'te İphigeneia; Euripides, Tauris'te İphigeneia; Aiskhylos, Agamemnon 184–247; Apollodoros, Epitome 3.21–22, 6.26–28; Strabon, Coğrafya 12.2.3; Pausanias, Hellas'ın Tasviri 1.43.1, 2.22.6; Lucretius, Evrenin Yapısı 1.80–101"
-ilgiliMitler: ["truva-ati"]
+ilgiliMitler: ["truva-ati", "iphigeneia-auliste"]
 ilgiliKentler: ["komana", "mykene", "truva"]
 ilgiliTanrilar: ["artemis", "athena", "hekate"]
 ilgiliKahramanlar: ["agamemnon", "akhilleus", "elektra", "kalkhas", "klytaimnestra", "orestes"]

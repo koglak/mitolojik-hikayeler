@@ -16,12 +16,12 @@ bolge: "adalar"
 konum:
   enlem: 38.3667
   boylam: 20.7167
-ilgiliMitler: ["odysseus"]
+ilgiliMitler: ["odysseus", "kirke-ve-odysseus"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["odysseus", "penelope"]
 yapilar:
   - ad: "Aetos Yerleşim Kalıntıları"
-    aciklama: "Aetos Yerleşim Kalıntıları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Adanın dar kesimine hâkim tepede antik yerleşim duvarları ve yapı izleri bulunur."
   - ad: "Agios Athanasios Yapı Kalıntıları"
     aciklama: "Yerel olarak Homeros Okulu diye anılan arkeolojik alanda yapı temelleri vardır."
   - ad: "Polis Koyu Mağara Kutsal Alanı"

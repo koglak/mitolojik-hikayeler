@@ -21,6 +21,15 @@ ilgiliTanrilar: ["kronos", "zeus"]
 yapilar:
   - ad: "Aslanlı Kapı"
     aciklama: "Giriş açıklığının üstünde iki aslanın bulunduğu kabartma levhasıyla tanınan ana kapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg/500px-Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg"
+      genislik: 500
+      yukseklik: 337
+      sahibi: "Carole Raddato from FRANKFURT, Germany"
+      lisans: "CC BY-SA 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_13_(cropped).jpg"
+      alt: "Aslanlı Kapı – Hattuşa"
   - ad: "Kral Kapısı"
     aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
   - ad: "Yerkapı ve Sfenksli Kapı"

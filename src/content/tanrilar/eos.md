@@ -3,6 +3,8 @@ ad: "Eos"
 sira: 29
 ozet: "Şafağın tanrıçası. Gül parmaklarıyla her sabah göğün kapılarını açar."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Aurora"
   - etiket: "Alanı"

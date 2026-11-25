@@ -24,6 +24,15 @@ yapilar:
     aciklama: "Orta avlu etrafındaki çok katlı saray, tören mekânları, atölyeler ve depolar içerir."
   - ad: "Taht Odası"
     aciklama: "Knossos sarayında taş tahtın yerinde korunduğu, griffon figürleriyle tanınan oda."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Throne_of_Minos_at_Knossos_Palace.jpg/500px-Throne_of_Minos_at_Knossos_Palace.jpg"
+      genislik: 500
+      yukseklik: 669
+      sahibi: "Jebulon"
+      lisans: "CC0"
+      lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Throne_of_Minos_at_Knossos_Palace.jpg"
+      alt: "Taht Odası – Knossos"
   - ad: "Kuzey Girişi ve Sütunlu Geçit"
     aciklama: "Knossos sarayında kuzeyden gelen geçişin ve ona bitişik sütunlu kesimin kalıntıları."
   - ad: "Batı Depoları"

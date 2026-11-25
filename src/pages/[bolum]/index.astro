@@ -20,6 +20,12 @@ export function getStaticPaths() {
 const { bolum } = Astro.props;
 const { ad, aciklama } = bolumler[bolum];
 const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
+const panteon = (kayit: (typeof kayitlar)[number]) =>
+  kayit.data.bilgiler.find((bilgi) => bilgi.etiket === 'Panteon')?.deger;
+const panteonSecenekleri =
+  bolum === 'tanrilar'
+    ? [...new Set(kayitlar.flatMap((kayit) => panteon(kayit) ?? []))].sort((a, b) => a.localeCompare(b, 'tr'))
+    : [];
 const tapinakTanrilari = (kayit: (typeof kayitlar)[number]) => [
   ...new Set(kayit.data.tapinaklar.flatMap((tapinak) => tapinak.tanrilar)),
 ];
@@ -107,18 +113,26 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
       </header>
       {
         aramaOrnegi && (
-          <>
-            <label class="arama">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
-                <circle cx="10.8" cy="10.8" r="6.8" />
-                <path d="m16 16 5 5" />
-              </svg>
-              <input type="search" data-kayit-ara placeholder={aramaOrnegi} autocomplete="off" aria-label={`${ad} içinde ara`} />
-            </label>
-            <p class="sonuc-yok gizli" data-sonuc-yok aria-live="polite">
-              Bu aramayla eşleşen kayıt yok.
-            </p>
-          </>
+          <label class="arama">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <circle cx="10.8" cy="10.8" r="6.8" />
+              <path d="m16 16 5 5" />
+            </svg>
+            <input type="search" data-kayit-ara placeholder={aramaOrnegi} autocomplete="off" aria-label={`${ad} içinde ara`} />
+          </label>
+        )
+      }
+      {
+        panteonSecenekleri.length > 0 && (
+          <section class="tanri-suzgeci" aria-labelledby="panteon-suzgeci-basligi">
+            <h2 id="panteon-suzgeci-basligi">Panteon</h2>
+            <div class="tanri-dugmeleri" role="group" aria-labelledby="panteon-suzgeci-basligi">
+              <button type="button" class="tanri-dugmesi" data-panteon-dugmesi="" aria-pressed="true">Tümü</button>
+              {panteonSecenekleri.map((ad) => (
+                <button type="button" class="tanri-dugmesi" data-panteon-dugmesi={ad} aria-pressed="false">{ad}</button>
+              ))}
+            </div>
+          </section>
         )
       }
       {
@@ -138,6 +152,11 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
           </section>
         )
       }
+      {aramaOrnegi && (
+        <p class="sonuc-yok gizli" data-sonuc-yok aria-live="polite">
+          Eşleşen kayıt yok.
+        </p>
+      )}
       {haritaKentleri.length > 0 && <KentHaritasi kentler={haritaKentleri} tanriSimgeleri={tanriSimgeleri} />}
       {
         bolgeGruplari.length > 0 ? (
@@ -170,11 +189,11 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
         ) : (
           <ul class="kayitlar">
             {kayitlar.map((kayit) => (
-              <li data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined}>
+              <li data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined} data-panteon={bolum === 'tanrilar' ? panteon(kayit) : undefined}>
                 <KayitKarti
                   adres={kayitAdresi(bolum, kayit.id)}
                   kayit={kayit.data}
-                  bilgiSayisi={3}
+                  bilgiSayisi={bolum === 'tanrilar' ? 4 : 3}
                   gorsel={bolum === 'kentler' ? kayit.data.kunyeGorseli : undefined}
                 >
                   {kayitSimgesi(bolum, kayit.id) && <KayitSimgesi slot="simge" bolum={bolum} slug={kayit.id} />}
@@ -198,6 +217,8 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   const bolgeGruplari = Array.from(document.querySelectorAll<HTMLElement>('[data-bolge-grubu]'));
   const tanriDugmeleri = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-tanri-dugmesi]'));
   const tanriDurumu = document.querySelector<HTMLElement>('[data-tanri-durumu]');
+  const panteonDugmeleri = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-panteon-dugmesi]'));
+  let seciliPanteon = '';
   let seciliTanri: string | null = null;
 
   const suzgeciUygula = () => {
@@ -206,7 +227,8 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
     for (const oge of ogeler) {
       const aramayaUyar = (oge.dataset.aranan ?? '').includes(aranan);
       const tanriyaUyar = !seciliTanri || (oge.dataset.tanrilar ?? '').split(' ').includes(seciliTanri);
-      const eslesir = aramayaUyar && tanriyaUyar;
+      const panteonaUyar = !seciliPanteon || oge.dataset.panteon === seciliPanteon;
+      const eslesir = aramayaUyar && tanriyaUyar && panteonaUyar;
       oge.classList.toggle('gizli', !eslesir);
       if (eslesir) gorunen += 1;
     }
@@ -226,6 +248,15 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   };
 
   kutu?.addEventListener('input', suzgeciUygula);
+  for (const dugme of panteonDugmeleri) {
+    dugme.addEventListener('click', () => {
+      seciliPanteon = dugme.dataset.panteonDugmesi ?? '';
+      for (const diger of panteonDugmeleri) {
+        diger.setAttribute('aria-pressed', String(diger === dugme));
+      }
+      suzgeciUygula();
+    });
+  }
   for (const dugme of tanriDugmeleri) {
     dugme.addEventListener('click', () => {
       seciliTanri = seciliTanri === dugme.dataset.tanriDugmesi ? null : (dugme.dataset.tanriDugmesi ?? null);

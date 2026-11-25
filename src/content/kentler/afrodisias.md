@@ -24,12 +24,48 @@ ilgiliTanrilar: ["afrodit"]
 yapilar:
   - ad: "Afrodit Tapınağı"
     aciklama: "Kentin başlıca kutsal yapısı, geç antik çağda kiliseye dönüştürüldü."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Aphrodisias_-_Temple_of_Aphrodite_02.jpg/500px-Aphrodisias_-_Temple_of_Aphrodite_02.jpg"
+      genislik: 500
+      yukseklik: 353
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aphrodisias_-_Temple_of_Aphrodite_02.jpg"
+      alt: "Afrodit Tapınağı – Afrodisias"
   - ad: "Sebasteion"
     aciklama: "İmparatorluk kültüne adanmış, kabartmalı cepheleri olan tören kompleksi."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Aphrodisias_-_Sebasteion.jpg/500px-Aphrodisias_-_Sebasteion.jpg"
+      genislik: 500
+      yukseklik: 338
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aphrodisias_-_Sebasteion.jpg"
+      alt: "Sebasteion – Afrodisias"
   - ad: "Stadyum"
     aciklama: "Kentin kuzeyinde uzanan, uzun kenarları boyunca oturma sıraları korunan yarış alanı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Aphrodisias_-_Stadium_01.jpg/500px-Aphrodisias_-_Stadium_01.jpg"
+      genislik: 500
+      yukseklik: 330
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aphrodisias_-_Stadium_01.jpg"
+      alt: "Stadyum – Afrodisias"
   - ad: "Tetrapylon"
     aciklama: "Afrodit kutsal alanına açılan süslü anıtsal geçit."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Aphrodisias_-_Tetrapylon_06.jpg/500px-Aphrodisias_-_Tetrapylon_06.jpg"
+      genislik: 500
+      yukseklik: 338
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aphrodisias_-_Tetrapylon_06.jpg"
+      alt: "Tetrapylon – Afrodisias"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Hadrianus Hamamları"

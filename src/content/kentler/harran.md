@@ -26,6 +26,15 @@ yapilar:
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Kümbet Evler"
     aciklama: "Kentin geleneksel, örtüleri konik biçimli konutları."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Harran_beehive_houses_%282%29.JPG/500px-Harran_beehive_houses_%282%29.JPG"
+      genislik: 500
+      yukseklik: 335
+      sahibi: "Zhengan"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Harran_beehive_houses_(2).JPG"
+      alt: "Kümbet Evler – Harran"
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Harran_beehive_houses_%282%29.JPG/500px-Harran_beehive_houses_%282%29.JPG"
   genislik: 500

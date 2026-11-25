@@ -27,6 +27,15 @@ yapilar:
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG/500px-Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Osmanyaylali"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG"
+      alt: "Tiyatro – Pınara"
   - ad: "Kral Mezarı"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Afrodit Tapınağı"

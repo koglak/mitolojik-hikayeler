@@ -10,7 +10,7 @@ bilgiler:
   - etiket: "Armağanı"
     deger: "Üç altın elma"
 kaynak: "Ovidius, Dönüşümler 10.560–707"
-ilgiliMitler: ["atalante"]
+ilgiliMitler: ["atalante", "afrodit-ve-adonis"]
 ilgiliTanrilar: ["afrodit", "kybele"]
 ilgiliKahramanlar: ["atalanta"]
 ---

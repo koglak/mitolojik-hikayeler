@@ -23,6 +23,15 @@ ilgiliMitler: []
 yapilar:
   - ad: "Pazar Binası"
     aciklama: "Agoranın yamaç tarafında yükselen üç katlı ticaret yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/AigaiMarkthalle1.jpg/500px-AigaiMarkthalle1.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Klaus-Peter Simon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:AigaiMarkthalle1.jpg"
+      alt: "Pazar Binası – Aigai"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Bouleuterion"

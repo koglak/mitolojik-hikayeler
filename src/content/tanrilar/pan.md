@@ -3,6 +3,8 @@ ad: "Pan"
 sira: 23
 ozet: "Çobanların, sürülerin ve vahşi doğanın keçi ayaklı tanrısı. Ani korkunun, paniğin kaynağı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Faunus"
   - etiket: "Alanı"

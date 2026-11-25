@@ -25,7 +25,7 @@ yapilar:
   - ad: "Mor boya atölyeleri"
     aciklama: "Deniz salyangozlarından mor boya elde edilen üretim alanları."
   - ad: "Sinagog"
-    aciklama: "Sinagog, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Limanın yakınında bulunan ve menora kabartmasıyla tanımlanan geç antik dönem ibadet yapısı."
   - ad: "Sarnıç"
     aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
 kunyeGorseli:

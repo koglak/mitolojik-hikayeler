@@ -3,6 +3,8 @@ ad: "Hades"
 sira: 3
 ozet: "Yeraltının ve ölülerin efendisi. Adı zamanla yönettiği diyarın adı oldu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Pluton"
   - etiket: "Alanı"

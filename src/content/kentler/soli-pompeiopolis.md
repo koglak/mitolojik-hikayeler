@@ -20,6 +20,15 @@ ilgiliMitler: []
 yapilar:
   - ad: "Sütunlu Cadde"
     aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/ViransehirS%C3%A4ulen.jpg/500px-ViransehirS%C3%A4ulen.jpg"
+      genislik: 500
+      yukseklik: 740
+      sahibi: "Klaus-Peter Simon"
+      lisans: "CC BY 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:ViransehirS%C3%A4ulen.jpg"
+      alt: "Sütunlu Cadde – Soli-Pompeiopolis"
   - ad: "Liman Mendireği"
     aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
   - ad: "Tiyatro"

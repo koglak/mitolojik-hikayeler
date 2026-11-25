@@ -3,6 +3,8 @@ ad: "Prometheus"
 sira: 18
 ozet: "İnsanlara ateşi getiren Titan. Zeus'a kafa tuttuğu için bir kayaya zincirlendi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Türü"
     deger: "Titan"
   - etiket: "Alanı"

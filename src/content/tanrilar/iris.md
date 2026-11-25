@@ -3,6 +3,8 @@ ad: "Iris"
 sira: 26
 ozet: "Gökkuşağının tanrıçası ve Hera'nın habercisi. Rüzgâr hızıyla gökle yer arasında uçar."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Alanı"
     deger: "Gökkuşağı, haberleşme"
   - etiket: "Simgeleri"

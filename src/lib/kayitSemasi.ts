@@ -20,7 +20,7 @@ export const kayitSemasi = z.object({
   bilgiler: z
     .array(z.object({ etiket: z.string().min(1), deger: z.string().min(1) }))
     .min(2)
-    .max(5),
+    .max(6),
   kaynak: z.string().min(1),
   ilgiliMitler: z.array(z.string().min(1)).default([]),
   ilgiliKentler: z.array(z.string().min(1)).default([]),

@@ -21,7 +21,7 @@ yapilar:
   - ad: "Kent Kapıları ve Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Kutsal Havuz"
-    aciklama: "Kutsal Havuz, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Sarissa’nın su düzenlemesinin parçası olan havuz, yerleşimin törensel kullanımıyla ilişkilendirilir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/KusakliH%C3%BCgel.JPG/500px-KusakliH%C3%BCgel.JPG"
   genislik: 500

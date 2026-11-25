@@ -30,9 +30,18 @@ yapilar:
   - ad: "Göl Kapı"
     aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
   - ad: "İznik Ayasofyası"
-    aciklama: "İznik Ayasofyası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Roma ve Bizans kent merkezindeki bazilikal planlı kilise, Osmanlı döneminde camiye dönüştürüldü."
   - ad: "Roma Tiyatrosu"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Nicaea_theatre_990.jpg/500px-Nicaea_theatre_990.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "QuartierLatin1968"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Nicaea_theatre_990.jpg"
+      alt: "Roma Tiyatrosu – Nikaia"
   - ad: "Göl Bazilikası"
     aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:

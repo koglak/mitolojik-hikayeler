@@ -26,6 +26,14 @@ ilgiliTanrilar: ["athena", "selene"]
 yapilar:
   - ad: "Athena Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Heraclea_Latmus_Temple_of_Athena.JPG/500px-Heraclea_Latmus_Temple_of_Athena.JPG"
+      genislik: 500
+      yukseklik: 754
+      sahibi: "Wolfgang Glock"
+      lisans: "Kamu malı"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Heraclea_Latmus_Temple_of_Athena.JPG"
+      alt: "Athena Tapınağı – Herakleia"
   - ad: "Zeus Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Endymion Kutsal Alanı"

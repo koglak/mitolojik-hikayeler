@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Koruyucusu"
     deger: "Athena"
 kaynak: "Homeros, Odysseia; Apollodoros, Epitome 3.7, 5.14–15, 7.1–40"
-ilgiliMitler: ["truva-ati", "sisifos", "odysseus", "akhilleus"]
+ilgiliMitler: ["truva-ati", "sisifos", "odysseus", "akhilleus", "kirke-ve-odysseus"]
 ilgiliKentler: ["truva", "ithaka"]
 ilgiliTanrilar: ["athena", "poseidon"]
 ilgiliKahramanlar: ["penelope"]

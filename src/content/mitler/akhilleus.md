@@ -28,3 +28,5 @@ Kehanete göre Akhilleus ya uzun ve isimsiz bir hayat ya da kısa ve şanlı bir
 Truva'da Agamemnon, Akhilleus'un ganimet olarak aldığı Briseis'i elinden alınca Akhilleus savaştan çekildi. Dostu Patroklos onun zırhıyla savaşırken Hektor tarafından öldürüldü. Akhilleus geri dönüp Hektor'u öldürdü ve cesedini günlerce arabasının arkasında sürükledi. Sonunda Hektor'un babası Kral Priamos'un yalvarışlarına dayanamayıp cesedi geri verdi.
 
 Akhilleus'un ölümü İlyada'da anlatılmaz ama orada önceden haber verilir. Sonraki kaynaklara göre Paris'in Apollon tarafından yönlendirilen oku onu öldürdü.
+
+Akhilleus'un adı, ordu daha Truva'ya yelken açmadan [İphigeneia'yı Aulis'e getirmek](/mitler/iphigeneia-auliste/) için kullanılır.

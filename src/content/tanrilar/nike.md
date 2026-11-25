@@ -3,6 +3,8 @@ ad: "Nike"
 sira: 24
 ozet: "Zaferin kanatlı tanrıçası. Kazananın başına zafer çelengini o koyar."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Victoria"
   - etiket: "Alanı"

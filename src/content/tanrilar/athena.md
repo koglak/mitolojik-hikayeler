@@ -3,6 +3,8 @@ ad: "Athena"
 sira: 2
 ozet: "Bilgeliğin ve savaş stratejisinin tanrıçası. Babasının başından tam zırhlı doğdu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Minerva"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Metis"
 kaynak: "Hesiodos, Theogonia 886–900, 924–926; Herodotos, Tarih 8.55"
-ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "arakhne", "athena-ve-poseidon", "argonotlar", "bellerophon", "herakles", "marsyas", "pandora", "guzellik-yarismasi"]
+ilgiliMitler: ["perseus-ve-medusa", "truva-ati", "arakhne", "athena-ve-poseidon", "argonotlar", "bellerophon", "herakles", "marsyas", "pandora", "guzellik-yarismasi", "kassandra"]
 ilgiliKentler: ["atina", "truva"]
 ilgiliTanrilar: ["metis", "poseidon", "zeus"]
 ilgiliKahramanlar: ["odysseus", "perseus"]

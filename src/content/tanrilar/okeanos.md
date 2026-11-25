@@ -3,6 +3,8 @@ ad: "Okeanos"
 sira: 38
 ozet: "Dünyayı dört bir yandan saran büyük ırmak. Bütün denizlerin, ırmakların ve pınarların kaynağı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Oceanus"
   - etiket: "Anne-baba"

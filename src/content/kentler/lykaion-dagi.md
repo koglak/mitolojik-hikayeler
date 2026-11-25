@@ -23,7 +23,7 @@ ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "pan"]
 yapilar:
   - ad: "Zeus Lykaios Küllü Sunağı"
-    aciklama: "Zeus Lykaios Küllü Sunağı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Zirve yakınındaki açık hava sunağı, yüzyıllar boyunca yakılan sunuların oluşturduğu kül tabakalarıyla tanınır."
   - ad: "Stadyum"
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
   - ad: "Hippodrom"

@@ -22,6 +22,15 @@ ilgiliKahramanlar: ["herakles", "menelaos", "nestor", "odysseus"]
 yapilar:
   - ad: "Nestor Sarayı"
     aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/20190508_088_pylos_nestor.jpg/500px-20190508_088_pylos_nestor.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Jean Housen"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:20190508_088_pylos_nestor.jpg"
+      alt: "Nestor Sarayı – Pylos"
   - ad: "Saray Depoları ve Arşiv Odaları"
     aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
   - ad: "Griffin Savaşçısı Mezarı"

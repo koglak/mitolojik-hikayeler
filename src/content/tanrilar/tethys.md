@@ -3,6 +3,8 @@ ad: "Tethys"
 sira: 39
 ozet: "Denizlerin Titan anası. Okeanos'la birlikte binlerce ırmak ve deniz perisi doğurdu, Hera'yı da büyüttü."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Anne-baba"
     deger: "Uranos ve Gaia"
   - etiket: "Eşi"

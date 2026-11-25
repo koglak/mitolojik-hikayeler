@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Rakibi"
     deger: "Mopsos"
 kaynak: "Homeros, İlyada 1.68–100, 2.299–330; Apollodoros, Epitome 3.21, 6.2–4; Strabon, Coğrafya 14.1.27"
-ilgiliMitler: ["truva-ati"]
+ilgiliMitler: ["truva-ati", "iphigeneia-auliste"]
 ilgiliKentler: ["klaros", "kolophon", "truva"]
 ilgiliTanrilar: ["apollon", "artemis"]
 ilgiliKahramanlar: ["agamemnon", "akhilleus", "mopsos"]

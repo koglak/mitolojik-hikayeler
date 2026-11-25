@@ -3,6 +3,8 @@ ad: "Hephaistos"
 sira: 7
 ozet: "Ateşin, demirciliğin ve zanaatın tanrısı. Olimpos'tan atılan topal usta."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Vulcanus"
   - etiket: "Alanı"

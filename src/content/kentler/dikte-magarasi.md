@@ -21,6 +21,15 @@ ilgiliTanrilar: ["kronos", "rhea", "zeus"]
 yapilar:
   - ad: "Dikte Kutsal Mağarası"
     aciklama: "Doğal mağara, arkeolojik kazılarda ortaya çıkan tunç adaklar sayesinde antik bir kült alanı olarak belgelenmiştir."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cave_Dikti12%28js%29.jpg/500px-Cave_Dikti12%28js%29.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Jerzy Strzelecki"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Cave_Dikti12(js).jpg"
+      alt: "Dikte Kutsal Mağarası – Dikte Mağarası"
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cave_Dikti12%28js%29.jpg/500px-Cave_Dikti12%28js%29.jpg"
   genislik: 500

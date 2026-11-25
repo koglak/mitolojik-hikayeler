@@ -21,8 +21,26 @@ yapilar:
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
   - ad: "Odeon"
     aciklama: "Orkestra zeminindeki Medusa mozaiğiyle tanınan yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Kibyra_Odeon_9946.jpg/500px-Kibyra_Odeon_9946.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kibyra_Odeon_9946.jpg"
+      alt: "Odeon – Kibyra"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kibyra_Theatre_9919.jpg/500px-Kibyra_Theatre_9919.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kibyra_Theatre_9919.jpg"
+      alt: "Tiyatro – Kibyra"
   - ad: "Agora"
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
   - ad: "Roma Hamamı"

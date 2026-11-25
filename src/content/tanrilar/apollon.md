@@ -3,6 +3,8 @@ ad: "Apollon"
 sira: 8
 ozet: "Işığın, müziğin, kehanetin ve okçuluğun tanrısı. Delphoi kahininin efendisi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Apollo"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Leto"
 kaynak: "Homerosçu Apollon İlahisi; Homeros, İlyada 1.43–52; Ovidius, Dönüşümler 1.452–567"
-ilgiliMitler: ["akhilleus", "truva-ati", "orpheus-ve-eurydike", "niobe", "apollon-ve-daphne", "apollon-ve-python", "hermes", "marsyas", "leto-ve-koyluler", "midas"]
+ilgiliMitler: ["akhilleus", "truva-ati", "orpheus-ve-eurydike", "niobe", "apollon-ve-daphne", "apollon-ve-python", "hermes", "marsyas", "leto-ve-koyluler", "midas", "kassandra", "alkestis"]
 ilgiliKentler: ["delos", "didyma", "klaros", "patara", "truva", "delphi"]
 ilgiliTanrilar: ["artemis", "leto", "zeus"]
 ilgiliKahramanlar: ["akhilleus", "orpheus", "paris"]

@@ -41,7 +41,7 @@ yapilar:
   - ad: "Poseidon Pater Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Kallichoron Kuyusu"
-    aciklama: "Kallichoron Kuyusu, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Eleusis kutsal alanının girişindeki kuyu, Demeter’in burada dinlendiğini anlatan gelenekle ilişkilidir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg/500px-%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg"
   genislik: 500

@@ -3,6 +3,8 @@ ad: "Ares"
 sira: 15
 ozet: "Savaşın vahşi ve kanlı yüzünün tanrısı. Olimpos'ta en az sevilen tanrı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Mars"
   - etiket: "Alanı"

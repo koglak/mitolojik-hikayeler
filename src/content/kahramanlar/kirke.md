@@ -10,7 +10,7 @@ bilgiler:
   - etiket: "Annesi"
     deger: "Perseis (Perse)"
 kaynak: "Homeros, Odysseia 10–12; Hesiodos, Theogonia 956–962"
-ilgiliMitler: ["odysseus"]
+ilgiliMitler: ["odysseus", "kirke-ve-odysseus"]
 ilgiliTanrilar: ["helios", "hermes"]
 ilgiliKahramanlar: ["odysseus", "medeia", "teiresias"]
 ---

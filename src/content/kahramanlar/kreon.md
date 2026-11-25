@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Yönettiği kent"
     deger: "Thebai"
 kaynak: "Sophokles, Antigone; Sophokles, Kral Oidipus; Sophokles, Oidipus Kolonos'ta; Euripides, Fenikeli Kadınlar; Euripides, Yakarıcı Kadınlar; Euripides, Çılgın Herakles; Apollodoros, Kütüphane 2.4.6–7, 2.4.11, 3.5.8, 3.6.7, 3.7.1"
-ilgiliMitler: ["oidipus", "teumessos-tilkisi"]
+ilgiliMitler: ["oidipus", "teumessos-tilkisi", "antigone"]
 ilgiliKentler: ["atina", "thebai"]
 ilgiliKahramanlar: ["antigone", "herakles", "iokaste", "oidipus", "polyneikes-ve-eteokles", "teiresias", "theseus"]
 ---

@@ -5,19 +5,20 @@ import type { YaziGorselVerisi } from '../lib/yaziSemasi';
 interface Props {
   gorsel: YaziGorselVerisi;
   boyut: 'kart' | 'sayfa';
+  olculer?: string;
 }
 
-const { gorsel, boyut } = Astro.props;
+const { gorsel, boyut, olculer } = Astro.props;
 const sayfada = boyut === 'sayfa';
 const kume = gorselKumesi(gorsel);
-const olculer = sayfada ? '(max-width: 900px) 92vw, 900px' : '(max-width: 560px) 92vw, (max-width: 1050px) 88vw, 430px';
+const varsayilanOlculer = sayfada ? '(max-width: 900px) 92vw, 900px' : '(max-width: 560px) 92vw, (max-width: 1050px) 88vw, 430px';
 ---
 
 <img
   class:list={['yazi-gorseli', boyut]}
   src={gorsel.adres}
   srcset={kume}
-  sizes={kume && olculer}
+  sizes={kume && (olculer ?? varsayilanOlculer)}
   width={gorsel.genislik}
   height={gorsel.yukseklik}
   alt={sayfada ? gorsel.alt : ''}

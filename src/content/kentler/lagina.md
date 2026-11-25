@@ -27,7 +27,7 @@ yapilar:
   - ad: "Propylon"
     aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
   - ad: "Hekate Sunağı"
-    aciklama: "Hekate Sunağı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Lagina’da Hekate’ye sunuların bırakıldığı tören yapısı."
   - ad: "Stoalar"
     aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
   - ad: "Kutsal Yol"

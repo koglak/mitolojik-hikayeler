@@ -23,8 +23,26 @@ ilgiliMitler: []
 yapilar:
   - ad: "Likya Kaya Mezarları"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Myra_Rock_Tombs.jpg/500px-Myra_Rock_Tombs.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Saffron Blaze"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Myra_Rock_Tombs.jpg"
+      alt: "Likya Kaya Mezarları – Myra"
   - ad: "Roma Tiyatrosu"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Myra_theatre.jpg/500px-Myra_theatre.jpg"
+      genislik: 500
+      yukseklik: 187
+      sahibi: "Ingo Mehling"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Myra_theatre.jpg"
+      alt: "Roma Tiyatrosu – Myra"
   - ad: "Artemis Tapınağı"
     aciklama: "Antik kaynaklarda anılan kutsal yapının yeri kesin olarak belirlenmiş değildir."
   - ad: "Aziz Nikolaos Kilisesi"

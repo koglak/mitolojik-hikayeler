@@ -3,6 +3,8 @@ ad: "Dionysos"
 sira: 11
 ozet: "Şarabın, coşkunun ve tiyatronun tanrısı. İki kez doğan, ölümlü bir annenin oğlu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Bacchus"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Semele"
 kaynak: "Euripides, Bakkhalar; Ovidius, Dönüşümler 3.253–315; Homerosçu Dionysos İlahisi (7)"
-ilgiliMitler: ["dionysos-ve-korsanlar", "midas", "theseus-ve-minotauros"]
+ilgiliMitler: ["dionysos-ve-korsanlar", "midas", "theseus-ve-minotauros", "dionysos-ve-pentheus"]
 ilgiliKentler: ["atina", "teos", "thebai"]
 ilgiliTanrilar: ["hera", "zeus"]
 ilgiliKahramanlar: ["kadmos"]

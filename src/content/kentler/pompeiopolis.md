@@ -19,7 +19,7 @@ konum:
 ilgiliMitler: []
 yapilar:
   - ad: "Mozaikli Peristil Ev"
-    aciklama: "Mozaikli Peristil Ev, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Pompeiopolis’te sütunlu bir iç avlu etrafına yerleşen, mozaik döşemeli Roma konutu."
   - ad: "Roma Köprüsü"
     aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
 kunyeGorseli:

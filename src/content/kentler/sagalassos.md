@@ -24,6 +24,15 @@ ilgiliTanrilar: ["dionysos"]
 yapilar:
   - ad: "Antoninler Çeşmesi"
     aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Sagalassos_Antonine_Fountain_in_2012_2684.jpg/500px-Sagalassos_Antonine_Fountain_in_2012_2684.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sagalassos_Antonine_Fountain_in_2012_2684.jpg"
+      alt: "Antoninler Çeşmesi – Sagalassos"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Yukarı Agora"

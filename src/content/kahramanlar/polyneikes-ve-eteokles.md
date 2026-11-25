@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Savaşları"
     deger: "Thebai'ye Karşı Yediler"
 kaynak: "Aiskhylos, Thebai'ye Karşı Yediler; Sophokles, Oidipus Kolonos'ta 1254–1446; Sophokles, Antigone; Euripides, Fenikeli Kadınlar; Apollodoros, Kütüphane 3.6.1–8, 3.7.1–2; Statius, Thebais 12.429–446"
-ilgiliMitler: ["oidipus"]
+ilgiliMitler: ["oidipus", "antigone"]
 ilgiliKentler: ["argos", "thebai"]
 ilgiliTanrilar: ["ares"]
 ilgiliKahramanlar: ["amphiaraos", "antigone", "iokaste", "kreon", "oidipus", "tydeus"]

@@ -24,12 +24,30 @@ ilgiliKahramanlar: ["agamemnon", "orestes", "perseus"]
 yapilar:
   - ad: "Aslanlı Kapı"
     aciklama: "Giriş açıklığının üstünde iki aslanın bulunduğu kabartma levhasıyla tanınan ana kapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Lion_Gate%2C_Mycenae%2C_201510.jpg/500px-Lion_Gate%2C_Mycenae%2C_201510.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Zde"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Mycenae,_201510.jpg"
+      alt: "Aslanlı Kapı – Mykene"
   - ad: "A Mezar Çemberi"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "B Mezar Çemberi"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Atreus Hazinesi"
     aciklama: "Taş bindirme tekniğiyle örtülen ve uzun bir giriş yoluyla ulaşılan Miken tholos mezarı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Gate_of_the_Treasury_of_Atreus%2C_Mycenae%2C_090939.jpg/500px-Gate_of_the_Treasury_of_Atreus%2C_Mycenae%2C_090939.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Zde"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Gate_of_the_Treasury_of_Atreus,_Mycenae,_090939.jpg"
+      alt: "Atreus Hazinesi – Mykene"
   - ad: "Klytaimnestra Mezarı"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Kraliyet Sarayı"
@@ -37,9 +55,9 @@ yapilar:
   - ad: "Kyklop Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Yeraltı Sarnıcı"
-    aciklama: "Yeraltı Sarnıcı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Mykene kalesinin surları içinden taş merdivenle ulaşılan, suya korunaklı erişim sağlayan düzenleme."
   - ad: "Kült Merkezi"
-    aciklama: "Kült Merkezi, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Mykene surlarının içindeki bir grup oda ve yapı, içlerinde bulunan duvar resimleri ve kült eşyalarıyla tanınır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mycenae_ruins_dsc06390.jpg/500px-Mycenae_ruins_dsc06390.jpg"
   genislik: 500

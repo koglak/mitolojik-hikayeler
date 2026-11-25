@@ -20,6 +20,15 @@ ilgiliMitler: []
 yapilar:
   - ad: "Herodes Atticus Hamamları"
     aciklama: "Kentte Roma döneminden kalan anıtsal hamam kompleksi."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Troas_Therme_2.JPG/500px-Troas_Therme_2.JPG"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Horacio36"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Troas_Therme_2.JPG"
+      alt: "Herodes Atticus Hamamları – Aleksandreia Troas"
   - ad: "Antik liman"
     aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
   - ad: "Kent surları"

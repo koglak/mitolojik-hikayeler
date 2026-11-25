@@ -22,6 +22,15 @@ ilgiliKahramanlar: ["akhilleus"]
 yapilar:
   - ad: "Aphaia Tapınağı"
     aciklama: "Adanın doğusundaki tepede yer alan, Dor düzeninde sütunlu kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Temple_of_Aphaia%2C_Aegina%2C_Greece_2016-08-05.jpg/500px-Temple_of_Aphaia%2C_Aegina%2C_Greece_2016-08-05.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Eric C Gardner"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Aphaia,_Aegina,_Greece_2016-08-05.jpg"
+      alt: "Aphaia Tapınağı – Aigina"
   - ad: "Kolonna Apollon Kutsal Alanı"
     aciklama: "Aigina limanı yakınındaki alanda tapınağın ayakta kalan sütunu görülür."
 kunyeGorseli:

@@ -28,6 +28,15 @@ ilgiliTanrilar: ["athena", "poseidon"]
 yapilar:
   - ad: "Athena Polias Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Temple_of_Athena_at_Priene.jpg/500px-Temple_of_Athena_at_Priene.jpg"
+      genislik: 500
+      yukseklik: 332
+      sahibi: "Ken and Nyetta"
+      lisans: "CC BY 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Athena_at_Priene.jpg"
+      alt: "Athena Polias Tapınağı – Priene"
   - ad: "Demeter Kutsal Alanı"
     aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
   - ad: "Zeus Tapınağı"

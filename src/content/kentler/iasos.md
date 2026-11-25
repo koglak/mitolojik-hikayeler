@@ -27,6 +27,15 @@ yapilar:
     aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
   - ad: "Agora"
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/IasosAgora.jpg/500px-IasosAgora.jpg"
+      genislik: 500
+      yukseklik: 343
+      sahibi: "MM"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:IasosAgora.jpg"
+      alt: "Agora – Iasos"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Kent Surları"

@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Oğlu"
     deger: "Parthenopaios"
 kaynak: "Apollodoros, Kütüphane 1.8.2, 3.9.2; Ovidius, Dönüşümler 8.260–444, 10.560–707"
-ilgiliMitler: ["atalante"]
+ilgiliMitler: ["atalante", "afrodit-ve-adonis"]
 ilgiliTanrilar: ["artemis", "afrodit"]
 ilgiliKahramanlar: ["meleagros", "peleus"]
 ---

@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Ölümü"
     deger: "Paris'in Apollon'un yönlendirdiği oku"
 kaynak: "Homeros, İlyada; Statius, Akhilleis 1.133–134"
-ilgiliMitler: ["akhilleus", "truva-ati", "guzellik-yarismasi"]
+ilgiliMitler: ["akhilleus", "truva-ati", "guzellik-yarismasi", "iphigeneia-auliste"]
 ilgiliKentler: ["truva"]
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["agamemnon", "hektor", "paris", "patroklos", "peleus"]

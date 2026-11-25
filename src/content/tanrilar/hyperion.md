@@ -3,6 +3,8 @@ ad: "Hyperion"
 sira: 40
 ozet: "Işığın Titanı. Güneş, Ay ve Şafak onun çocuklarıdır."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Adının anlamı"
     deger: "Yukarıdan giden, en yüksekteki"
   - etiket: "Anne-baba"

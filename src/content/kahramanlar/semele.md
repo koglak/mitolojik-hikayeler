@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Memleketi"
     deger: "Thebai"
 kaynak: "Hesiodos, Theogonia 940–942; Euripides, Bakkhalar 1–42; Ovidius, Dönüşümler 3.253–315; Apollodoros, Kütüphane 3.4.2–3, 3.5.3; Pausanias, Hellas'ın Tasviri 2.31.2, 2.37.5, 3.24.3–4, 9.12.3"
-ilgiliMitler: ["aktaion", "dionysos-ve-korsanlar"]
+ilgiliMitler: ["aktaion", "dionysos-ve-korsanlar", "dionysos-ve-pentheus"]
 ilgiliKentler: ["thebai"]
 ilgiliTanrilar: ["dionysos", "hades", "hera", "zeus"]
 ilgiliKahramanlar: ["kadmos", "pentheus"]

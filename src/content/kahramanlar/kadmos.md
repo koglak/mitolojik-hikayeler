@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Kurduğu kent"
     deger: "Thebai (Kadmeia kalesi)"
 kaynak: "Apollodoros, Kütüphane 3.1.1, 3.4.1–3.5.4; Herodotos, Tarih 5.58; Ovidius, Dönüşümler 3.1–130"
-ilgiliMitler: ["europa", "aktaion", "altin-koc"]
+ilgiliMitler: ["europa", "aktaion", "altin-koc", "dionysos-ve-pentheus"]
 ilgiliKentler: ["thebai", "delphi"]
 ilgiliTanrilar: ["ares", "athena", "dionysos", "zeus", "afrodit"]
 ---

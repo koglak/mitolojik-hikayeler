@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Öldüren"
     deger: "Akhilleus'un oğlu Neoptolemos"
 kaynak: "Homeros, İlyada 24.159–691; Apollodoros, Kütüphane 2.6.4, 3.12.3–5; Vergilius, Aeneis 2.506–558"
-ilgiliMitler: ["truva-ati", "akhilleus", "guzellik-yarismasi"]
+ilgiliMitler: ["truva-ati", "akhilleus", "guzellik-yarismasi", "kassandra", "aineias-truvadan-kacis"]
 ilgiliKentler: ["truva"]
 ilgiliTanrilar: ["apollon", "hermes", "poseidon", "zeus"]
 ilgiliKahramanlar: ["akhilleus", "hekabe", "hektor", "herakles", "kassandra", "neoptolemos", "paris"]

@@ -25,6 +25,15 @@ ilgiliKahramanlar: ["sisifos"]
 yapilar:
   - ad: "Poseidon Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Temple_of_Poseidon_at_Isthmia%2C_202722.jpg/500px-Temple_of_Poseidon_at_Isthmia%2C_202722.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Zde"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Poseidon_at_Isthmia,_202722.jpg"
+      alt: "Poseidon Tapınağı – Isthmia"
   - ad: "Stadyum"
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
   - ad: "Tiyatro"

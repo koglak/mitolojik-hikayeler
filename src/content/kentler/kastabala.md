@@ -29,6 +29,15 @@ yapilar:
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Kale"
     aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/HierapolisCastabalaBurgberg.jpg/500px-HierapolisCastabalaBurgberg.jpg"
+      genislik: 500
+      yukseklik: 320
+      sahibi: "Klaus-Peter Simon"
+      lisans: "CC BY 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:HierapolisCastabalaBurgberg.jpg"
+      alt: "Kale – Kastabala"
   - ad: "Artemis Perasia Tapınağı"
     aciklama: "Kentte Artemis Perasia kültü bilinir; görülebilen kalıntıların tapınakla eşleştirilmesi kesin değildir."
 kunyeGorseli:

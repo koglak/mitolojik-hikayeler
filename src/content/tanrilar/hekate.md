@@ -3,6 +3,8 @@ ad: "Hekate"
 sira: 21
 ozet: "Büyünün, kavşakların ve gecenin tanrıçası. Elinde meşalelerle yer ile yeraltı arasında dolaşır."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Trivia"
   - etiket: "Alanı"

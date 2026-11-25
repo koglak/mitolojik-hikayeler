@@ -25,6 +25,14 @@ ilgiliKahramanlar: ["marsyas"]
 yapilar:
   - ad: "Bouleuterion"
     aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Alabanda_Bouleuterion.JPG/500px-Alabanda_Bouleuterion.JPG"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Kefaser at Turkish Wikipedia"
+      lisans: "Kamu malı"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Alabanda_Bouleuterion.JPG"
+      alt: "Bouleuterion – Alabanda"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Apollon Isotimos Tapınağı"

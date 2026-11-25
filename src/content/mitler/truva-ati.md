@@ -31,3 +31,5 @@ Laokoon, Vergilius'ta geçen "Timeo Danaos et dona ferentes" ("Armağan getirsel
 Apollon'un kehanet yeteneği verip sonra kimsenin inanmaması ile lanetlediği Kassandra da uyardı. Kimse onu dinlemedi.
 
 At şehre alındı. Gece savaşçılar dışarı çıkıp kapıları açtı ve Truva yağmalanıp yakıldı.
+
+Kentin son gecesini [Kassandra'nın uyarıları](/mitler/kassandra/) ve [Aineias'ın ailesiyle kaçışı](/mitler/aineias-truvadan-kacis/) üzerinden de izleyebilirsin.

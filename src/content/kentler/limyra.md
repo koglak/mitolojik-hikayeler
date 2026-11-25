@@ -29,6 +29,15 @@ yapilar:
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Roma Köprüsü"
     aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bridge_near_Limyra._Pic_04.jpg/500px-Bridge_near_Limyra._Pic_04.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Ralf Rochow"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Bridge_near_Limyra._Pic_04.jpg"
+      alt: "Roma Köprüsü – Limyra"
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bridge_near_Limyra._Pic_04.jpg/500px-Bridge_near_Limyra._Pic_04.jpg"
   genislik: 500

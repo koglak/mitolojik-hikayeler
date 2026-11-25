@@ -13,3 +13,6 @@ ozet: "Odysseus'un Truva'dan İthaka'ya on yıl süren dönüş yolculuğu."
 Anlatı yolculuğun sonuna yakın başlar. Odysseus Kalypso'nun adasında tutulurken oğlu Telemakhos babasından haber arar. Kyklops Polyphemos, Kirke, Seirenler, Skylla ve ölüler ülkesi Odysseus'un Phaiak sarayında kendi ağzından anlattığı serüvenlerdir.
 
 İkinci yarı İthaka'da geçer. Dilenci kılığındaki kral, evini dolduran taliplerin arasından Penelope'ye ulaşır. Sırrı bilen yalnızca ikisinin paylaştığı bir ayrıntı, yatakları, onları yeniden buluşturur.
+
+
+Onuncu kitaptaki Aiaie bölümü [Kirke ve Odysseus](/mitler/kirke-ve-odysseus/) sayfasında ayrı bir hikâye olarak yer alır.

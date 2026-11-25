@@ -3,6 +3,8 @@ ad: "Persephone"
 sira: 17
 ozet: "Baharın kızı ve yeraltının kraliçesi. Her yıl yeraltıyla yeryüzü arasında gidip gelir."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Proserpina"
   - etiket: "Alanı"
@@ -14,7 +16,7 @@ bilgiler:
   - etiket: "Eşi"
     deger: "Hades"
 kaynak: "Homerosçu Demeter İlahisi; Ovidius, Dönüşümler 5.385–571; Apollodoros, Kütüphane 3.14.4"
-ilgiliMitler: ["persephone", "orpheus-ve-eurydike", "sisifos", "eros-ve-psykhe"]
+ilgiliMitler: ["persephone", "orpheus-ve-eurydike", "sisifos", "eros-ve-psykhe", "afrodit-ve-adonis"]
 ilgiliTanrilar: ["afrodit", "demeter", "hades", "zeus"]
 ilgiliKahramanlar: ["orpheus"]
 ---

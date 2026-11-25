@@ -35,6 +35,15 @@ yapilar:
     aciklama: "Olympia’daki Zeus heykelinin yapıldığı atölye; alan geç antik çağda kiliseye dönüştürüldü."
   - ad: "Philippeion"
     aciklama: "Makedonya kraliyet ailesinin heykellerine ayrılmış yuvarlak anıt."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Philippeion_-_Olympia_-_2.jpg/500px-Philippeion_-_Olympia_-_2.jpg"
+      genislik: 500
+      yukseklik: 334
+      sahibi: "Annatsach"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Philippeion_-_Olympia_-_2.jpg"
+      alt: "Philippeion – Olympia"
   - ad: "Palaestra"
     aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
   - ad: "Gymnasion"
@@ -48,7 +57,7 @@ yapilar:
   - ad: "Echo Stoası"
     aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
   - ad: "Hazine Binaları"
-    aciklama: "Hazine Binaları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Olympia’da farklı Yunan kentlerinin adaklarını saklamak için kutsal alana yaptırdığı küçük binalar."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Philippeion_-_Olympia_-_2.jpg/500px-Philippeion_-_Olympia_-_2.jpg"
   genislik: 500

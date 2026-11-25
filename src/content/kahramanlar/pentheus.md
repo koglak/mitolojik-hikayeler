@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Öldüğü yer"
     deger: "Kithairon Dağı"
 kaynak: "Euripides, Bakkhalar; Ovidius, Dönüşümler 3.511–733; Apollodoros, Kütüphane 3.5.2; Pausanias, Hellas'ın Tasviri 2.2.7; Plutarkhos, Crassus 33"
-ilgiliMitler: ["dionysos-ve-korsanlar"]
+ilgiliMitler: ["dionysos-ve-korsanlar", "dionysos-ve-pentheus"]
 ilgiliKentler: ["korinthos", "thebai"]
 ilgiliTanrilar: ["dionysos"]
 ilgiliKahramanlar: ["kadmos", "semele", "teiresias"]

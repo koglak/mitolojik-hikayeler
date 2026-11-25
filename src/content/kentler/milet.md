@@ -28,8 +28,26 @@ ilgiliTanrilar: ["apollon"]
 yapilar:
   - ad: "Büyük Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Theater_of_Miletus.jpg/500px-The_Theater_of_Miletus.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "https://www.flickr.com/photos/jiuguangw/"
+      lisans: "CC BY-SA 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:The_Theater_of_Miletus.jpg"
+      alt: "Büyük Tiyatro – Milet"
   - ad: "Faustina Hamamları"
     aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Miletus_Baths_of_Faustina_in_2007_4610.jpg/500px-Miletus_Baths_of_Faustina_in_2007_4610.jpg"
+      genislik: 500
+      yukseklik: 332
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Miletus_Baths_of_Faustina_in_2007_4610.jpg"
+      alt: "Faustina Hamamları – Milet"
   - ad: "İlyas Bey Camii"
     aciklama: "Yerleşimin İslam dönemine ait ibadet yapısı."
   - ad: "Athena Tapınağı"

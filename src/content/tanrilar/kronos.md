@@ -3,6 +3,8 @@ ad: "Kronos"
 sira: 33
 ozet: "Titanların en küçüğü. Babası Uranos'u devirdi, kendi oğlu tarafından devrilmemek için çocuklarını yuttu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Saturnus"
   - etiket: "Anne-baba"

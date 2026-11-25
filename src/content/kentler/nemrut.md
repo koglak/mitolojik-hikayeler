@@ -29,7 +29,7 @@ yapilar:
   - ad: "Kuzey Terası"
     aciklama: "Nemrut’taki iki ana tören terası arasındaki uzun platform."
   - ad: "Doğu Terası Sunağı"
-    aciklama: "Doğu Terası Sunağı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Nemrut Dağı’nda Doğu Terası’nın heykel dizisinin karşısındaki taş sunak."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Worshipping_Nemrut.jpg/500px-Worshipping_Nemrut.jpg"
   genislik: 500

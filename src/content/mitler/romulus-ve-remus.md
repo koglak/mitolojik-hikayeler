@@ -25,3 +25,5 @@ Romulus ve Remus'un hikâyesi en ayrıntılı biçimde Livius'un Roma Tarihi'nde
 Kaynaklar Remus'un ölümü konusunda ayrılır. Livius iki anlatıma yer verir. Birine göre Romulus onu öfkeyle öldürür, öbürüne göre bir kavgada ölür. Roma'da "lupa" kelimesi hem dişi kurt hem de fahişe anlamına geldiği için Acca Larentia'nın ikizleri emziren gerçek bir kadın olduğu yorumu da yapılmıştır.
 
 Kentin geleneksel kuruluş tarihi MÖ 753'tür. Bu tarihi Romalı bilgin Varro hesaplamıştır. Arkeolojik kazılar Palatinus Tepesi'nde MÖ 8. yüzyıla uzanan kulübe izleri bulmuştur.
+
+Roma'nın kuruluş geleneğinin daha eski bir halkasını [Aineias'ın Truva'dan kaçışı](/mitler/aineias-truvadan-kacis/) anlatır.

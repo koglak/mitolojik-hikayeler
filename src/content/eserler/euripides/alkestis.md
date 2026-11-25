@@ -105,3 +105,6 @@ Herakles, acısının yeni olduğunu ve zamanın onu iyileştireceğini, yeni bi
 Herakles, mezarın başında Ölüm ile dövüşmüş ve Alkestis'i geri almayı başarmıştır. Ancak Alkestis, yeraltı tanrılarına adanmışlığından arınana, üçüncü gün gelene kadar konuşamayacaktır. Admetos çok mutludur. Dostunun kalmasını ister, ama görevi yüzünden Herakles'in acelesi vardır.
 
 Admetos şenlikler ilan eder ve karısıyla sahneden çıkar.
+
+
+Alkestis'in kararını ve Herakles'in dönüşünü [Alkestis'in hikâyesi](/mitler/alkestis/) anlatır.

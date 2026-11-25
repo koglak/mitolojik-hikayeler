@@ -3,6 +3,8 @@ ad: "Themis"
 sira: 41
 ozet: "İlahi düzenin ve törenin Titanı. Zeus'un ikinci eşiydi; Delphoi'nin kehanetini Apollon'dan önce o verdi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Alanı"
     deger: "İlahi düzen, töre, adalet, kehanet"
   - etiket: "Anne-baba"

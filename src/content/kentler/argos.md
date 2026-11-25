@@ -31,6 +31,15 @@ ilgiliKahramanlar: ["danae", "perseus"]
 yapilar:
   - ad: "Antik Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos%2810.07.05%29.JPG/500px-Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos%2810.07.05%29.JPG"
+      genislik: 500
+      yukseklik: 379
+      sahibi: "Karin Helene Pagter Duparc"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos(10.07.05).JPG"
+      alt: "Antik Tiyatro – Argos"
   - ad: "Larisa Kalesi"
     aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
   - ad: "Argos Heraionu"

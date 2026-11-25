@@ -19,7 +19,7 @@ konum:
 tapinaklar:
   - ad: "Apollon Ismenios Tapınağı"
     tanrilar: ["apollon"]
-ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe", "altin-koc"]
+ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe", "altin-koc", "antigone", "dionysos-ve-pentheus"]
 ilgiliTanrilar: ["athena", "dionysos", "zeus"]
 ilgiliKahramanlar: ["antigone", "herakles", "kadmos", "oidipus"]
 yapilar:

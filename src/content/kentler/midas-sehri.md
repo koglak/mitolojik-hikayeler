@@ -21,7 +21,16 @@ ilgiliTanrilar: ["apollon", "kybele"]
 ilgiliKahramanlar: ["midas"]
 yapilar:
   - ad: "Midas Anıtı"
-    aciklama: "Midas Anıtı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Frig kaya anıtının yüksek cephesi geometrik motiflerle işlenmiştir. Cephedeki niş, Ana Tanrıça kültüyle ilişkilendirilir."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Midas_City_Midas_Monument_from_E_%281993%29_01.jpg/500px-Midas_City_Midas_Monument_from_E_%281993%29_01.jpg"
+      genislik: 500
+      yukseklik: 329
+      sahibi: "Mark Landon"
+      lisans: "CC BY 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Midas_City_Midas_Monument_from_E_(1993)_01.jpg"
+      alt: "Midas Anıtı – Midas Şehri"
   - ad: "Bitmemiş Anıt"
     aciklama: "Midas Şehri’nde bezemeli kaya cephesinin yapım aşamalarını gösteren tamamlanmamış anıt."
   - ad: "Kaya Sunakları"

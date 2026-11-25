@@ -3,6 +3,8 @@ ad: "Tartaros"
 sira: 37
 ozet: "Yerin en dibindeki karanlık uçurum. Hem ilk tanrılardan biri hem de Titanların ve büyük günahkârların zindanıydı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Tartarus"
   - etiket: "Ortaya çıkışı"

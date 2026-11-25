@@ -3,6 +3,8 @@ ad: "Selene"
 sira: 30
 ozet: "Ay'ın tanrıçası. Geceleri gümüş arabasıyla gökyüzünü geçer, uyuyan Endymion'a âşıktır."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Luna"
   - etiket: "Alanı"

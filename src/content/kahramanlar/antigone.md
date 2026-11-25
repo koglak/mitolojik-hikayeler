@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Memleketi"
     deger: "Thebai"
 kaynak: "Sophokles, Antigone; Sophokles, Oidipus Kolonos'ta; Aiskhylos, Thebai'ye Karşı Yediler; Apollodoros, Kütüphane 3.7.1"
-ilgiliMitler: ["oidipus"]
+ilgiliMitler: ["oidipus", "antigone"]
 ilgiliKentler: ["argos", "thebai"]
 ilgiliKahramanlar: ["oidipus"]
 ---

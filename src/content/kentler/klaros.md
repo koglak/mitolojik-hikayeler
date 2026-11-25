@@ -26,7 +26,7 @@ yapilar:
   - ad: "Apollon Tapınağı"
     aciklama: "Merdivenle ulaşılan yeraltı odaları kehanet törenleriyle ilişkilidir."
   - ad: "Apollon Sunağı"
-    aciklama: "Apollon Sunağı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Klaros’ta Apollon’a adakların sunulduğu yapı, tapınağın doğusunda yer alır."
   - ad: "Propylon"
     aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
 kunyeGorseli:

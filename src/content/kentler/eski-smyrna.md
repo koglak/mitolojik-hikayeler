@@ -24,6 +24,15 @@ ilgiliTanrilar: ["athena", "dionysos", "nemesis"]
 yapilar:
   - ad: "Athena Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg/500px-%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Ford Prefect Photo"
+      lisans: "CC0"
+      lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg"
+      alt: "Athena Tapınağı – Eski Smyrna"
   - ad: "Kerpiç Kent Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Arkaik Konutlar"

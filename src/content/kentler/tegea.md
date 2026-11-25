@@ -25,6 +25,15 @@ ilgiliKahramanlar: ["atalanta"]
 yapilar:
   - ad: "Athena Alea Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_%282017%2C_image_1%29.jpg/500px-Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_%282017%2C_image_1%29.jpg"
+      genislik: 500
+      yukseklik: 281
+      sahibi: "Gregor Hagedorn"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_(2017,_image_1).jpg"
+      alt: "Athena Alea Tapınağı – Tegea"
   - ad: "Antik Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Agora"

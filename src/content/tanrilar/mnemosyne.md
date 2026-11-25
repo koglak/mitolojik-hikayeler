@@ -3,6 +3,8 @@ ad: "Mnemosyne"
 sira: 42
 ozet: "Belleğin Titanı. Zeus'la dokuz gece geçirdi ve şarkının, şiirin ve bilginin dokuz Musasını doğurdu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Moneta"
   - etiket: "Alanı"

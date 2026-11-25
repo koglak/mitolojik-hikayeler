@@ -29,6 +29,15 @@ ilgiliKahramanlar: ["ariadne", "theseus"]
 yapilar:
   - ad: "Apollon Tapınağı (Portara)"
     aciklama: "Naxos limanı girişindeki adacıkta bulunan tapınaktan kalan anıtsal mermer kapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Naxos_%CE%9D%CE%AC%CE%BE%CE%BF%CF%82_Chora_2020-08-20_28_Portara_%CE%A0%CE%BF%CF%81%CF%84%CE%AC%CF%81%CE%B1.jpg/500px-Naxos_%CE%9D%CE%AC%CE%BE%CE%BF%CF%82_Chora_2020-08-20_28_Portara_%CE%A0%CE%BF%CF%81%CF%84%CE%AC%CF%81%CE%B1.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Manfred Werner (Tsui)"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Naxos_%CE%9D%CE%AC%CE%BE%CE%BF%CF%82_Chora_2020-08-20_28_Portara_%CE%A0%CE%BF%CF%81%CF%84%CE%AC%CF%81%CE%B1.jpg"
+      alt: "Apollon Tapınağı (Portara) – Naxos"
   - ad: "Demeter Tapınağı (Sangri)"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Dionysos Tapınağı (Iria)"

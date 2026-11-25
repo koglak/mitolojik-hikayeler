@@ -22,6 +22,15 @@ ilgiliTanrilar: ["zeus"]
 yapilar:
   - ad: "Zeus Lepsynos Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Euromus_temple.JPG/500px-Euromus_temple.JPG"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Pax:Vobiscum"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Euromus_temple.JPG"
+      alt: "Zeus Lepsynos Tapınağı – Euromos"
   - ad: "Agora"
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
   - ad: "Tiyatro"

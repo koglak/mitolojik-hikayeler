@@ -25,6 +25,15 @@ ilgiliKahramanlar: ["orpheus", "iason"]
 yapilar:
   - ad: "Hieron"
     aciklama: "Samothrake’de Büyük Tanrılar Gizemleri ile ilişkilendirilen tören yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Samothraki_Hieron.jpg/500px-Samothraki_Hieron.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "No machine-readable author provided. Marsyas assumed (based on copyright claims)."
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Samothraki_Hieron.jpg"
+      alt: "Hieron – Samothrake"
   - ad: "Arsinoeion"
     aciklama: "Samothrake kutsal alanında Kraliçe Arsinoe’nin adadığı yuvarlak yapı."
   - ad: "Anaktoron"
@@ -32,7 +41,7 @@ yapilar:
   - ad: "Ptolemaios Propylonu"
     aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
   - ad: "Nike Anıtı’nın Kaidesi"
-    aciklama: "Nike Anıtı’nın Kaidesi, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Samothrake Nike’sini taşıyan, gemi pruvası biçiminde düzenlenmiş anıtın kaidesi."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Stoa"

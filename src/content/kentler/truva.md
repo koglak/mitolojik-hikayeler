@@ -19,15 +19,33 @@ konum:
 tapinaklar:
   - ad: "Athena Tapınağı"
     tanrilar: ["athena"]
-ilgiliMitler: ["truva-ati", "akhilleus", "odysseus", "guzellik-yarismasi"]
+ilgiliMitler: ["truva-ati", "akhilleus", "odysseus", "guzellik-yarismasi", "kassandra", "aineias-truvadan-kacis"]
 ilgiliKahramanlar: ["priamos"]
 yapilar:
   - ad: "Truva II Rampası"
     aciklama: "Erken Tunç Çağı kalesine giden taş döşeli anıtsal giriş rampası."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Troy_II_southwest_gate_and_ramp_from_W_%281991%29.jpg/500px-Troy_II_southwest_gate_and_ramp_from_W_%281991%29.jpg"
+      genislik: 500
+      yukseklik: 340
+      sahibi: "Mark Landon"
+      lisans: "CC BY 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Troy_II_southwest_gate_and_ramp_from_W_(1991).jpg"
+      alt: "Truva II Rampası – Truva"
   - ad: "Truva II Megaronları"
     aciklama: "Erken Tunç Çağı kalesindeki uzun salonlu yapıların kalıntıları."
   - ad: "Truva VI Surları"
     aciklama: "Geç Tunç Çağı kalesinin eğimli taş duvarları ve kuleleri."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Troy_south_gate_2720.jpg/500px-Troy_south_gate_2720.jpg"
+      genislik: 500
+      yukseklik: 753
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Troy_south_gate_2720.jpg"
+      alt: "Truva VI surlarının güney kapısı"
   - ad: "Truva VIIa Konutları"
     aciklama: "Geç Tunç Çağı’nın son evresinde surların iç kesimindeki konut izleri."
   - ad: "Athena Tapınağı"

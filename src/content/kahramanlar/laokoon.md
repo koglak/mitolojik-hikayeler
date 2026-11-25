@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "En ünlü heykeli"
     deger: "Laokoon ve Oğulları, Vatikan"
 kaynak: "Vergilius, Aeneis 2.40–56, 2.199–231; Apollodoros, Epitome 5.16–18; Proklos, Khrestomathia (İlioupersis özeti); Hyginus, Fabulae 135; Yaşlı Plinius, Doğa Tarihi 36.37"
-ilgiliMitler: ["truva-ati"]
+ilgiliMitler: ["truva-ati", "kassandra"]
 ilgiliKentler: ["truva"]
 ilgiliTanrilar: ["apollon", "athena", "poseidon"]
 ilgiliKahramanlar: ["aineias", "kassandra", "odysseus", "priamos"]

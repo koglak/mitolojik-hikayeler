@@ -30,10 +30,19 @@ yapilar:
     aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
   - ad: "Antik Agora"
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Kos-Archaeological_site_quarter_agora-04ASD.jpg/500px-Kos-Archaeological_site_quarter_agora-04ASD.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Asurnipal"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kos-Archaeological_site_quarter_agora-04ASD.jpg"
+      alt: "Antik Agora – Kos"
   - ad: "Roma Odeonu"
     aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
   - ad: "Casa Romana"
-    aciklama: "Casa Romana, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Kos’ta avlular çevresinde düzenlenen, mozaikli odaları olan büyük Roma konutu."
   - ad: "Batı Kazı Alanı Hamamları"
     aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:

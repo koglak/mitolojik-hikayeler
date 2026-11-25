@@ -3,6 +3,8 @@ ad: "Gaia"
 sira: 31
 ozet: "Toprak Ana. Kaos'tan sonra ilk var olan; göğü, dağları, denizi ve tanrıların ilk kuşağını o doğurdu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Terra ya da Tellus"
   - etiket: "Alanı"

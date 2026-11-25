@@ -26,6 +26,15 @@ yapilar:
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Su kemeri"
     aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alinda_Aquaeduct.JPG/500px-Alinda_Aquaeduct.JPG"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Ana al'ain"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Alinda_Aquaeduct.JPG"
+      alt: "Su kemeri – Alinda"
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alinda_Aquaeduct.JPG/500px-Alinda_Aquaeduct.JPG"
   genislik: 500

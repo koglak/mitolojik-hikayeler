@@ -26,7 +26,7 @@ yapilar:
   - ad: "Fırtına Tanrısı Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Uzun Kabartma Duvarı"
-    aciklama: "Uzun Kabartma Duvarı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Karkamış’ın aşağı kentindeki anıtsal geçide dizilmiş kabartmalı taş levhalar."
   - ad: "Kent Tahkimatı"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:

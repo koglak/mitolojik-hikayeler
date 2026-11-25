@@ -27,3 +27,5 @@ Herakles'in on iki görevinin bugün bilinen sırasını en derli toplu biçimde
 Başlangıçta görevlerin on tane olduğu anlatılır. Eurystheus, Hydra'yı İolaos'un yardımıyla öldürdüğü ve Augeias'ın ahırları için ücret istediği gerekçesiyle iki görevi saymadı. Bu yüzden görev sayısı on ikiye çıktı.
 
 Herakles'in ölümü Sophokles'in Trakhisli Kadınlar trajedisinde anlatılır. Karısı Deianeira, onun sevgisini geri kazanacağını sandığı bir iksire bulanmış gömleği ona gönderdi. İksir aslında kentaur Nessos'un zehirli kanıydı. Acıya dayanamayan Herakles kendi odun yığınını hazırlattı ve ateşe verdirdi.
+
+Herakles bir görev yolculuğunda Admetos'un sarayına uğrar. [Alkestis'in hikâyesinde](/mitler/alkestis/) bu ziyaret, onu Ölüm'le karşı karşıya getirir.

@@ -20,6 +20,15 @@ yapilar:
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Kaya Mezarları"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/LycianTombPhellos.jpg/500px-LycianTombPhellos.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Curlymanjaro"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:LycianTombPhellos.jpg"
+      alt: "Kaya Mezarları – Phellos"
   - ad: "Boğa Kabartmalı Mezar"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:

@@ -27,6 +27,15 @@ yapilar:
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Stadyum"
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Nemea_Stadion_2008-09-12.jpg/500px-Nemea_Stadion_2008-09-12.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Michael F. Mehnert"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Nemea_Stadion_2008-09-12.jpg"
+      alt: "Stadyum – Nemea"
   - ad: "Stadyum Tüneli"
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
   - ad: "Hamam"

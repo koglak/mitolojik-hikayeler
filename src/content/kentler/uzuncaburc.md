@@ -24,6 +24,15 @@ ilgiliTanrilar: ["zeus"]
 yapilar:
   - ad: "Zeus Olbios Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Hellenistik_temple_in_Uzuncabur%C3%A7%2C_Turkey.jpg/500px-Hellenistik_temple_in_Uzuncabur%C3%A7%2C_Turkey.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Nedim Ardoğa"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Hellenistik_temple_in_Uzuncabur%C3%A7,_Turkey.jpg"
+      alt: "Zeus Olbios Tapınağı – Uzuncaburç"
   - ad: "Helenistik Kule"
     aciklama: "Yüksekliğiyle çevresindeki açıklığa hâkim olan taş yapı."
   - ad: "Tykhe Tapınağı"

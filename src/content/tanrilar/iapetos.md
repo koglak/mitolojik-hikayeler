@@ -3,6 +3,8 @@ ad: "Iapetos"
 sira: 44
 ozet: "Prometheus'un ve Atlas'ın babası olan Titan. Soy ağacına göre bütün insanların atası sayılır."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Anne-baba"
     deger: "Uranos ve Gaia"
   - etiket: "Eşi"

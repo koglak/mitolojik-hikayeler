@@ -93,3 +93,6 @@ Ulak gelir ve olanları anlatır. Pentheus bir çam ağacına tırmanmış, kad�
 Agaue oğlunun kesik başıyla çıkar. Başını bir aslan yavrusuna ait sanır ve kendi eliyle avladığını söyleyerek övünür. Koro onunla birlikte sevinir. Kadmos oğlunun parçalarını toplatıp getirir. Kızından, elindeki başa bakmasını ister. Agaue yavaş yavaş ayılır ve kesik başın oğluna ait olduğunu anlar.
 
 Dionysos bu kez tanrı olarak görünür. Thebai'nin kendisini reddettiğini, kendisini zincire vurduğunu ve bu yüzden cezalandırıldığını söyler. Kadmos'un karısı Harmonia ile birlikte yılana dönüşeceğini, uzak ülkelerde kentleri yağmalayacağını, sonunda Ares'in onları Mutlular Adaları'na götüreceğini bildirir. Kadmos bağışlanma diler, ama tanrı onları kabul etmekte geç kaldıkları için merhamet etmez. Agaue sürgüne gönderilir. Baba kız vedalaşır ve sahneden çıkar.
+
+
+Pentheus'un dağdaki ayine gidişini [Dionysos ve Pentheus](/mitler/dionysos-ve-pentheus/) sayfasında da okuyabilirsin.

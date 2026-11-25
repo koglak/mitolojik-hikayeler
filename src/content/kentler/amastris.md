@@ -22,6 +22,15 @@ yapilar:
     aciklama: "Yerel olarak Bedesten denilen anıtsal Roma yapısı; yapının özgün işlevi kesin değildir."
   - ad: "Amasra Kalesi"
     aciklama: "Antik kent yarımadasındaki savunma yapısı Bizans ve Ceneviz dönemlerinin izlerini taşır."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Amasra%2C_Turkey%2C_Castle%2C_view_from_the_island.jpg/500px-Amasra%2C_Turkey%2C_Castle%2C_view_from_the_island.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Babbsack"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Amasra,_Turkey,_Castle,_view_from_the_island.jpg"
+      alt: "Amasra Kalesi – Amastris"
   - ad: "Antik limanlar"
     aciklama: "Yarımadanın iki yanındaki doğal koylar kentin limanlarına ev sahipliği yapıyordu."
 kunyeGorseli:

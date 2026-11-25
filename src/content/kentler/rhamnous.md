@@ -32,6 +32,15 @@ yapilar:
     aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Closeup_of_the_Theater_of_Rhamnous.jpg/500px-Closeup_of_the_Theater_of_Rhamnous.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Andreas Kakaris"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Closeup_of_the_Theater_of_Rhamnous.jpg"
+      alt: "Tiyatro – Rhamnous"
   - ad: "Mezar Anıtları"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:

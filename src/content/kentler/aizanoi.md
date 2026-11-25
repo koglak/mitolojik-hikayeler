@@ -22,6 +22,15 @@ ilgiliTanrilar: ["zeus"]
 yapilar:
   - ad: "Zeus Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Aizanoi_Zeus_temple_2120.jpg/500px-Aizanoi_Zeus_temple_2120.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aizanoi_Zeus_temple_2120.jpg"
+      alt: "Zeus Tapınağı – Aizanoi"
   - ad: "Tiyatro ve Stadyum"
     aciklama: "Bitişik inşa edilmiş iki Roma gösteri ve yarış yapısı."
   - ad: "Macellum"

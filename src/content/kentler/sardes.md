@@ -31,10 +31,28 @@ yapilar:
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Hamam ve Gymnasion Kompleksi"
     aciklama: "Yıkanma ve beden eğitimi için kullanılan bölümleri bir araya getiren yapı kompleksi."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/The_Bath-Gymnasium_complex_at_Sardis%2C_late_2nd_-_early_3rd_century_AD%2C_Sardis%2C_Turkey_%2817098680002%29.jpg/500px-The_Bath-Gymnasium_complex_at_Sardis%2C_late_2nd_-_early_3rd_century_AD%2C_Sardis%2C_Turkey_%2817098680002%29.jpg"
+      genislik: 500
+      yukseklik: 332
+      sahibi: "Carole Raddato from FRANKFURT, Germany"
+      lisans: "CC BY-SA 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:The_Bath-Gymnasium_complex_at_Sardis,_late_2nd_-_early_3rd_century_AD,_Sardis,_Turkey_(17098680002).jpg"
+      alt: "Hamam ve Gymnasion Kompleksi – Sardes"
   - ad: "Sinagog"
-    aciklama: "Sinagog, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Hamam ve gymnasion kompleksine bitişik, geniş salonu ve mozaikleriyle tanınan Yahudi ibadet yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sardis_Synagogue%2C_late_3rd_century_AD%2C_Sardis%2C_Lydia%2C_Turkey_%2819331773400%29.jpg/500px-Sardis_Synagogue%2C_late_3rd_century_AD%2C_Sardis%2C_Lydia%2C_Turkey_%2819331773400%29.jpg"
+      genislik: 500
+      yukseklik: 332
+      sahibi: "Carole Raddato from FRANKFURT, Germany"
+      lisans: "CC BY-SA 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sardis_Synagogue,_late_3rd_century_AD,_Sardis,_Lydia,_Turkey_(19331773400).jpg"
+      alt: "Sinagog – Sardes"
   - ad: "Bizans Dükkânları"
-    aciklama: "Bizans Dükkânları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Sardes’te hamam ve gymnasion kompleksinin güney kenarında bir caddeye açılan işlik ve dükkân odaları."
   - ad: "Lidya Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Bin Tepe Tümülüsleri"

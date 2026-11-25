@@ -27,3 +27,5 @@ Odysseus'un dönüş yolculuğu Homeros'a atfedilen Odysseia destanında anlatı
 Penelope'nin sadakati de destanın önemli bir parçasıdır. Penelope taliplere, kayınpederi Laertes için yaptığı kefen bitince birini seçeceğini söyledi. Gündüz dokuduğunu geceleri gizlice söktü ve onları üç yıl oyaladı.
 
 Odysseus'un dönüşü sırasında uğradığı yerlerin gerçek coğrafyada nereye denk geldiği antik çağdan beri tartışılır. Kyklopsların adası çoğunlukla Sicilya ile, Skylla ve Kharybdis ise Messina Boğazı ile özdeşleştirilir.
+
+[Kirke ile Odysseus'un karşılaşması](/mitler/kirke-ve-odysseus/) Aiaie'de yaşananları ve dönüş yolculuğunun nasıl yön değiştirdiğini anlatır.

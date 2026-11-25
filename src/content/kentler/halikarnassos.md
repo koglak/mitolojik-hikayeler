@@ -26,6 +26,15 @@ ilgiliTanrilar: ["hermes", "afrodit"]
 yapilar:
   - ad: "Mausoleion"
     aciklama: "Mausolos’un anıt mezarının kazıyla açığa çıkarılan temelleri."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/The_ruins_of_the_Mausoleum_at_Halicarnassus.jpg/500px-The_ruins_of_the_Mausoleum_at_Halicarnassus.jpg"
+      genislik: 500
+      yukseklik: 332
+      sahibi: "FollowingHadrian"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:The_ruins_of_the_Mausoleum_at_Halicarnassus.jpg"
+      alt: "Mausoleion – Halikarnassos"
   - ad: "Antik Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Myndos Kapısı"

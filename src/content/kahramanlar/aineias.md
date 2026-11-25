@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Vardığı yer"
     deger: "Latium, İtalya"
 kaynak: "Homeros, İlyada 5.297–318, 20.293–308; Vergilius, Aeneis"
-ilgiliMitler: ["truva-ati"]
+ilgiliMitler: ["truva-ati", "aineias-truvadan-kacis"]
 ilgiliKentler: ["truva"]
 ilgiliTanrilar: ["poseidon", "afrodit"]
 ilgiliKahramanlar: ["akhilleus", "diomedes"]

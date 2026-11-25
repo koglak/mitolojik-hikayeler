@@ -25,9 +25,9 @@ yapilar:
   - ad: "Kale Höyüğü Anıtsal Kapısı"
     aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
   - ad: "Mozaikli Megaron"
-    aciklama: "Mozaikli Megaron, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Gordion Kale Höyüğü’ndeki uzun salonlu Frig yapısı, çakıl mozaik döşemesiyle tanınır."
   - ad: "Teras Yapıları"
-    aciklama: "Teras Yapıları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Gordion Kale Höyüğü’nde ocak ve işlik izlerinin bulunduğu teras üzerindeki yapı dizileri."
   - ad: "Diğer Tümülüsler"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:

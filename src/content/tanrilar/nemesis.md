@@ -3,6 +3,8 @@ ad: "Nemesis"
 sira: 27
 ozet: "İlahi adaletin ve haddini aşanların cezasının tanrıçası. Kibirli olanı er geç bulur."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Alanı"
     deger: "İlahi ceza, öç, denge"
   - etiket: "Simgeleri"

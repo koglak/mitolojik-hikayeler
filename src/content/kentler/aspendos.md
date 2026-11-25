@@ -41,14 +41,59 @@ yapilar:
       alt: "Aspendos su kemerinin uzun taş kemerleri"
   - ad: "Bazilika"
     aciklama: "Yukarı kentte, agoranın yanında yer alan Roma kamu yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Aspendos_Basilica_Antalya_Turkey.jpg/500px-Aspendos_Basilica_Antalya_Turkey.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Saffron Blaze"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aspendos_Basilica_Antalya_Turkey.jpg"
+      alt: "Bazilika – Aspendos"
   - ad: "Agora"
     aciklama: "Akropol platosundaki kamusal meydan."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Aspendos_Agora_4698.jpg/500px-Aspendos_Agora_4698.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aspendos_Agora_4698.jpg"
+      alt: "Agora – Aspendos"
   - ad: "Nymphaion"
     aciklama: "Agoraya bakan anıtsal çeşme cephesinden duvarlar ayaktadır."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Aspendos_Nymphaeum_4707.jpg/500px-Aspendos_Nymphaeum_4707.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aspendos_Nymphaeum_4707.jpg"
+      alt: "Nymphaion – Aspendos"
   - ad: "Bouleuterion"
     aciklama: "Üst kentte yer alan meclis yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Aspendos_Bouleuterion_7356.jpg/500px-Aspendos_Bouleuterion_7356.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aspendos_Bouleuterion_7356.jpg"
+      alt: "Bouleuterion – Aspendos"
   - ad: "Stadyum"
     aciklama: "Tiyatro yakınında yer alan yarış alanı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Aspendos_Stadium_3191.jpg/500px-Aspendos_Stadium_3191.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aspendos_Stadium_3191.jpg"
+      alt: "Stadyum – Aspendos"
   - ad: "Kent Kapıları"
     aciklama: "Yukarı kente çıkan güzergâhlarda görülen giriş kalıntıları."
 ilgiliMitler: []

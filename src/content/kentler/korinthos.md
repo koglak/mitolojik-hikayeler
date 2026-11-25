@@ -21,12 +21,21 @@ tapinaklar:
     tanrilar: ["apollon"]
   - ad: "Afrodit Tapınağı (Akrokorinthos)"
     tanrilar: ["afrodit"]
-ilgiliMitler: ["sisifos", "bellerophon", "arion", "argonotlar", "oidipus"]
+ilgiliMitler: ["sisifos", "bellerophon", "arion", "argonotlar", "oidipus", "medeia"]
 ilgiliTanrilar: ["afrodit", "apollon", "athena"]
 ilgiliKahramanlar: ["bellerophon", "medeia", "iason"]
 yapilar:
   - ad: "Apollon Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tempio_di_Apollo_e_Acrocorinto.jpg/500px-Tempio_di_Apollo_e_Acrocorinto.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Davide Mauro"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tempio_di_Apollo_e_Acrocorinto.jpg"
+      alt: "Apollon Tapınağı – Korinthos"
   - ad: "Peirene Çeşmesi"
     aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
   - ad: "Akrokorinthos Tahkimatı"

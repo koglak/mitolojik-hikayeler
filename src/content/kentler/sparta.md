@@ -30,7 +30,7 @@ yapilar:
   - ad: "Athena Khalkioikos Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Menelaion"
-    aciklama: "Menelaion, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Sparta yakınındaki tepede Menelaos ve Helene’ye adakların sunulduğu kutsal alan."
   - ad: "Antik Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Akropol Surları"

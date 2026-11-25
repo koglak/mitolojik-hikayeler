@@ -26,3 +26,5 @@ Argonotların yolculuğunun antik çağdan bize ulaşan en eksiksiz anlatımı, 
 Kolkhis, Karadeniz'in doğu kıyısında, bugünkü Gürcistan'ın batısında yer alan bir bölgeydi. Bazı araştırmacılar altın post efsanesinin, bu bölgede ırmaklardaki altın tozunu koyun postlarıyla toplama geleneğinden doğmuş olabileceğini düşünür.
 
 Hikâyenin devamı karanlıktır. Pelias sözünü tutmadı ve Medeia onu kendi kızlarının eliyle öldürttü. İason ile Medeia Korinthos'a sürgün edildi. Yıllar sonra İason, Medeia'yı bırakıp Korinthos kralının kızıyla evlenmek isteyince Euripides'in Medeia trajedisinde anlatılan felaket yaşandı.
+
+Yolculuktan sonraki hesaplaşmayı [Medeia'nın Korinthos'taki intikamı](/mitler/medeia/) anlatır.

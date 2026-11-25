@@ -59,20 +59,92 @@ yapilar:
     aciklama: "Marmaria’daki Athena kutsal alanının tapınak kalıntıları."
   - ad: "Athena Pronaia Tholos’u"
     aciklama: "Aynı kutsal alandaki, yuvarlak planıyla tanınan ayrı yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Tholos_of_Delphi_03.jpg/500px-Tholos_of_Delphi_03.jpg"
+      genislik: 500
+      yukseklik: 357
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tholos_of_Delphi_03.jpg"
+      alt: "Athena Pronaia Tholos’u – Delphi"
   - ad: "Atinalılar Hazine Binası"
     aciklama: "Apollon kutsal alanında Atinalıların adaklarının yer aldığı küçük Dor yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Treasury_of_the_Athenians_at_Delphi.jpg/500px-Treasury_of_the_Athenians_at_Delphi.jpg"
+      genislik: 500
+      yukseklik: 357
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Treasury_of_the_Athenians_at_Delphi.jpg"
+      alt: "Atinalılar Hazine Binası – Delphi"
   - ad: "Siphnoslular Hazine Binası"
     aciklama: "Siphnos’un Delphi’ye sunduğu, kabartmalarıyla tanınan İon yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Treasury_of_the_Siphnians_at_Delphi%2C_201235.jpg/500px-Treasury_of_the_Siphnians_at_Delphi%2C_201235.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Zde"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Treasury_of_the_Siphnians_at_Delphi,_201235.jpg"
+      alt: "Siphnoslular Hazine Binası – Delphi"
   - ad: "Atinalılar Stoası"
     aciklama: "Kutsal Yol üzerindeki sütunlu yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Stoa_of_the_Athenians_at_Delphi_by_Joy_of_Museums.jpg/500px-Stoa_of_the_Athenians_at_Delphi_by_Joy_of_Museums.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Joyofmuseums"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Stoa_of_the_Athenians_at_Delphi_by_Joy_of_Museums.jpg"
+      alt: "Atinalılar Stoası – Delphi"
   - ad: "Kastalia Çeşmesi"
     aciklama: "Kutsal alana gelenlerin arınma törenleriyle ilişkili kaynak ve çeşme."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Courtyard_of_the_Castalian_spring%2C_Delphi%2C_201265.jpg/500px-Courtyard_of_the_Castalian_spring%2C_Delphi%2C_201265.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Zde"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Courtyard_of_the_Castalian_spring,_Delphi,_201265.jpg"
+      alt: "Kastalia Çeşmesi – Delphi"
   - ad: "Gymnasion"
     aciklama: "Marmaria yakınındaki yamaçta, spor ve antrenman için düzenlenmiş teraslar."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Gymnasium.delphi.jpg/500px-Gymnasium.delphi.jpg"
+      genislik: 500
+      yukseklik: 667
+      sahibi: "KtrnDrta"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Gymnasium.delphi.jpg"
+      alt: "Gymnasion – Delphi"
   - ad: "Polygonal Duvar"
     aciklama: "Apollon Tapınağı terasını taşıyan ve çok sayıda yazıt barındıran istinat duvarı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Polygonal_wall_in_Delphi%2C_201244.jpg/500px-Polygonal_wall_in_Delphi%2C_201244.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Zde"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Polygonal_wall_in_Delphi,_201244.jpg"
+      alt: "Polygonal Duvar – Delphi"
   - ad: "Yılanlı Sütun’un Kaidesi"
     aciklama: "Plataia zaferi için dikilen adağın Delphi’deki yeri. Sütunun günümüze kalan gövdesi İstanbul’dadır."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Delphi_Tripod_%28Replica_of_Serpent_Column%29_%2828256341592%29.jpg/500px-Delphi_Tripod_%28Replica_of_Serpent_Column%29_%2828256341592%29.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Andy Hay from UK"
+      lisans: "CC BY 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Delphi_Tripod_(Replica_of_Serpent_Column)_(28256341592).jpg"
+      alt: "Delphi’deki Yılanlı Sütun kopyası ve kaidesi"
   - ad: "Doğu Hamamları"
     aciklama: "Roma döneminde kullanılan hamam kompleksinden duvarlar ve ısıtma düzenine ait kalıntılar korunmuştur."
 ilgiliMitler: ["oidipus", "herakles", "titanlar-savasi", "altin-koc"]

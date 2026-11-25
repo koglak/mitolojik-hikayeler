@@ -27,6 +27,15 @@ ilgiliKahramanlar: ["bellerophon"]
 yapilar:
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Termessos_-_Theater.jpg/500px-Termessos_-_Theater.jpg"
+      genislik: 500
+      yukseklik: 287
+      sahibi: "Ingo Mehling"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Termessos_-_Theater.jpg"
+      alt: "Tiyatro – Termessos"
   - ad: "Sarnıçlar"
     aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
   - ad: "Nekropol"

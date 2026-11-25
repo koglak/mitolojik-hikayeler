@@ -3,6 +3,8 @@ ad: "Hestia"
 sira: 16
 ozet: "Ocağın ve evin tanrıçası. Kronos'un ilk çocuğu, Olimpos'un en sessiz tanrısı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Vesta"
   - etiket: "Alanı"

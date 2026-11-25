@@ -3,6 +3,8 @@ ad: "Metis"
 sira: 45
 ozet: "Zekânın ve kurnazlığın tanrıçası, Zeus'un ilk eşi. Zeus onu yuttu; kızı Athena babasının başından doğdu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Adının anlamı"
     deger: "Akıl, kurnazlık, öğüt"
   - etiket: "Anne-baba"

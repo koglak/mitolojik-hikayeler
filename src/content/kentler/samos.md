@@ -30,6 +30,15 @@ yapilar:
     aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
   - ad: "Pythagoreion Kent Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/SamosAntiqueFortificationWalls.jpg/500px-SamosAntiqueFortificationWalls.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Christopher Eckert ( de:User:Wikipedia ce )"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:SamosAntiqueFortificationWalls.jpg"
+      alt: "Pythagoreion Kent Surları – Samos"
   - ad: "Roma Hamamları"
     aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:

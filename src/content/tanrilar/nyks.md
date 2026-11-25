@@ -3,6 +3,8 @@ ad: "Nyks"
 sira: 36
 ozet: "Gece. Zeus'un bile korktuğu tek tanrıça; Uyku'yu, Ölüm'ü, Düşleri ve Kader'i o doğurdu."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Nox"
   - etiket: "Annesi"

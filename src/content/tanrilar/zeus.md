@@ -3,6 +3,8 @@ ad: "Zeus"
 sira: 1
 ozet: "Göğün ve yıldırımın tanrısı, Olimpos'un kralı. Babasını devirip tanrıların başına geçti."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Jüpiter"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Kronos ve Rhea"
 kaynak: "Hesiodos, Theogonia 453–506"
-ilgiliMitler: ["prometheus", "pandora", "phaethon", "titanlar-savasi", "europa", "baukis-ve-philemon", "bellerophon", "endymion", "eros-ve-psykhe", "herakles", "hermes", "io", "kastor-ve-polydeukes", "persephone", "perseus-ve-medusa", "sisifos", "tantalos", "teumessos-tilkisi", "altin-koc", "guzellik-yarismasi"]
+ilgiliMitler: ["prometheus", "pandora", "phaethon", "titanlar-savasi", "europa", "baukis-ve-philemon", "bellerophon", "endymion", "eros-ve-psykhe", "herakles", "hermes", "io", "kastor-ve-polydeukes", "persephone", "perseus-ve-medusa", "sisifos", "tantalos", "teumessos-tilkisi", "altin-koc", "guzellik-yarismasi", "dionysos-ve-pentheus"]
 ilgiliTanrilar: ["hades", "kronos", "poseidon", "prometheus", "rhea", "tartaros"]
 ilgiliKentler: ["olympos-dagi"]
 ---

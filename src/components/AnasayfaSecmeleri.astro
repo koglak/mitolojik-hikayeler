@@ -1,0 +1,158 @@
+---
+import { getCollection } from 'astro:content';
+import SanatKarti from './SanatKarti.astro';
+import KayitSimgesi from './KayitSimgesi.astro';
+import { bolumAdresi, bolumler, kayitAdresi } from '../lib/bolumler';
+import { sanatAdi, sanatAdresi } from '../lib/sanat';
+
+const [kentler, eserler, tanrilar, kahramanlar] = await Promise.all([
+  getCollection('kentler'),
+  getCollection('sanat'),
+  getCollection('tanrilar'),
+  getCollection('kahramanlar'),
+]);
+
+const bolumlerVeKayitlar = [
+  { baslik: bolumler.kentler.ad, kimlik: 'secme-kentler', kayitlar: kentler, adresler: [
+    { adres: bolumAdresi('kentler'), ad: 'Tüm kentler' },
+  ] },
+  { baslik: sanatAdi, kimlik: 'secme-eserler', kayitlar: eserler, adresler: [
+    { adres: sanatAdresi, ad: 'Tüm sanat eserleri' },
+  ] },
+  { baslik: 'Tanrılar ve Kahramanlar', kimlik: 'secme-figurler', kayitlar: [...tanrilar, ...kahramanlar], adresler: [
+    { adres: bolumAdresi('tanrilar'), ad: 'Tüm tanrılar' },
+    { adres: bolumAdresi('kahramanlar'), ad: 'Tüm kahramanlar' },
+  ] },
+];
+---
+
+{bolumlerVeKayitlar.map(({ baslik, kimlik, kayitlar, adresler }) => (
+  <section class="secmeler" aria-labelledby={kimlik}>
+    <header>
+      <h2 id={kimlik}>{baslik}</h2>
+      <div class="baglantilar">
+        {adresler.map(({ adres, ad }) => <a href={adres}>{ad}</a>)}
+      </div>
+    </header>
+    <ul data-rastgele-secim>
+      {kayitlar.map((kayit, sira) => {
+        const kart = (
+          <li>
+            {kayit.collection === 'sanat' ? <SanatKarti eser={kayit} /> : (
+              <a class="kayit" href={kayitAdresi(kayit.collection, kayit.id)}>
+                {kayit.collection === 'kentler' && kayit.data.kunyeGorseli ? (
+                  <img
+                    src={kayit.data.kunyeGorseli.adres}
+                    alt=""
+                    width={kayit.data.kunyeGorseli.genislik}
+                    height={kayit.data.kunyeGorseli.yukseklik}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : kayit.collection !== 'kentler' && (
+                  <span class="simge"><KayitSimgesi bolum={kayit.collection} slug={kayit.id} /></span>
+                )}
+                <span class="kayit-metni">
+                  <span class="tur">{bolumler[kayit.collection].tekil}</span>
+                  <strong>{kayit.data.ad}</strong>
+                </span>
+                {kayit.collection === 'kentler' && kayit.data.kunyeGorseli && (
+                  <small>{kayit.data.kunyeGorseli.sahibi} · {kayit.data.kunyeGorseli.lisans}</small>
+                )}
+              </a>
+            )}
+          </li>
+        );
+        return sira < 5 ? kart : <template>{kart}</template>;
+      })}
+    </ul>
+  </section>
+))}
+
+<style>
+  .secmeler {
+    margin-top: clamp(32px, 6vw, 68px);
+  }
+  header,
+  .baglantilar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px 18px;
+  }
+  header {
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cizgi);
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+  }
+  h2 {
+    margin: 0;
+    font: 600 clamp(30px, 4vw, 46px) / 1.05 var(--baslik-font);
+  }
+  .baglantilar a {
+    font-size: 14px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+    gap: 14px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  li {
+    min-width: 0;
+  }
+  .kayit {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    border-top: 2px solid var(--vurgu);
+  }
+  .kayit:hover {
+    border-color: var(--vurgu);
+    background: var(--yuzey-2);
+  }
+  img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+  .simge {
+    width: 44px;
+    height: 44px;
+    margin: 16px 16px 0;
+    color: var(--vurgu);
+  }
+  .simge:empty {
+    display: none;
+  }
+  .kayit-metni {
+    display: grid;
+    gap: 4px;
+    padding: 14px 16px;
+  }
+  .tur,
+  small {
+    color: var(--soluk);
+  }
+  .tur {
+    font-size: 14px;
+  }
+  small {
+    margin: auto 16px 12px;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+  strong {
+    font: 600 26px / 1.05 var(--baslik-font);
+    color: var(--kart-basligi);
+    overflow-wrap: anywhere;
+  }
+</style>

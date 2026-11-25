@@ -24,6 +24,15 @@ yapilar:
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Kale Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Sinop_Hellenistic_tower_of_north_walls_9555.jpg/500px-Sinop_Hellenistic_tower_of_north_walls_9555.jpg"
+      genislik: 500
+      yukseklik: 332
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sinop_Hellenistic_tower_of_north_walls_9555.jpg"
+      alt: "Kale Surları – Sinope"
   - ad: "Balatlar Kilisesi"
     aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
   - ad: "Antik Liman"

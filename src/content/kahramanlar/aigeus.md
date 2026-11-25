@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Adını verdiği yer"
     deger: "Ege Denizi"
 kaynak: "Euripides, Medeia 663–758; Plutarkhos, Theseus 3, 12, 17, 22; Apollodoros, Kütüphane 3.15.5–3.16.1, Epitome 1.5–10; Pausanias, Hellas'ın Tasviri 1.5.2, 1.22.5"
-ilgiliMitler: ["theseus-ve-minotauros"]
+ilgiliMitler: ["theseus-ve-minotauros", "medeia"]
 ilgiliKentler: ["atina", "delphi"]
 ilgiliTanrilar: ["apollon", "poseidon"]
 ilgiliKahramanlar: ["medeia", "minos", "theseus"]

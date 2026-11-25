@@ -24,6 +24,15 @@ ilgiliKahramanlar: ["kalkhas"]
 yapilar:
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/SelgeTheater.jpg/500px-SelgeTheater.jpg"
+      genislik: 500
+      yukseklik: 342
+      sahibi: "Klaus-Peter Simon"
+      lisans: "CC BY 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:SelgeTheater.jpg"
+      alt: "Tiyatro – Selge"
   - ad: "Stadyum"
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
   - ad: "Agora"

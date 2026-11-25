@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Öldüğü yer"
     deger: "Boiotia'daki Tilphussa pınarı"
 kaynak: "Homeros, Odysseia 10.490–495, 11.90–151; Sophokles, Kral Oidipus; Sophokles, Antigone; Euripides, Bakkhalar; Kallimakhos, İlahiler 5.57–130; Ovidius, Dönüşümler 3.316–350; Apollodoros, Kütüphane 3.6.7, 3.7.3; Pausanias, Hellas'ın Tasviri 9.33.1"
-ilgiliMitler: ["narkissos", "odysseus", "oidipus"]
+ilgiliMitler: ["narkissos", "odysseus", "oidipus", "antigone", "dionysos-ve-pentheus", "kirke-ve-odysseus"]
 ilgiliKentler: ["klaros", "thebai"]
 ilgiliTanrilar: ["athena", "hera", "persephone", "zeus"]
 ilgiliKahramanlar: ["antigone", "kreon", "mopsos", "odysseus", "oidipus"]

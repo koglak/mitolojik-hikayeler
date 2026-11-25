@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Çocukları"
     deger: "İphigeneia, Elektra, Orestes, Khrysothemis"
 kaynak: "Homeros, İlyada 1; Homeros, Odysseia 11.405–434; Aiskhylos, Agamemnon; Euripides, Aulis'te İphigeneia"
-ilgiliMitler: ["truva-ati", "akhilleus"]
+ilgiliMitler: ["truva-ati", "akhilleus", "iphigeneia-auliste", "kassandra"]
 ilgiliKentler: ["mykene", "sparta", "truva"]
 ilgiliTanrilar: ["apollon", "artemis"]
 ilgiliKahramanlar: ["akhilleus", "elektra", "helene", "kalkhas", "kassandra", "menelaos", "orestes", "paris", "pelops"]

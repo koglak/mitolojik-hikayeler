@@ -21,7 +21,7 @@ yapilar:
   - ad: "Bazilika"
     aciklama: "Antik bazilikal planlı yapının temelleri ve mimari kalıntıları."
   - ad: "Roma Kuşatma Rampası"
-    aciklama: "Roma Kuşatma Rampası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Kremna’yı kuşatan Roma kuvvetlerinin tahkimata yaklaşmak için kurduğu toprak ve taş rampa."
   - ad: "Kent Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:

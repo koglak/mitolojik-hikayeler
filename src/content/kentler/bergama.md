@@ -34,12 +34,30 @@ ilgiliTanrilar: ["asklepios", "zeus"]
 yapilar:
   - ad: "Zeus Sunağı"
     aciklama: "Helenistik krallığın anıtsal sunağı; kabartmalı parçalarının büyük bir bölümü Berlin’dedir."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Berlin_-_Pergamonmuseum_-_Altar_01.jpg/500px-Berlin_-_Pergamonmuseum_-_Altar_01.jpg"
+      genislik: 500
+      yukseklik: 152
+      sahibi: "Lestat (Jan Mehlich)"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Berlin_-_Pergamonmuseum_-_Altar_01.jpg"
+      alt: "Zeus Sunağı – Bergama"
   - ad: "Athena Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Dionysos Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Trajaneum"
-    aciklama: "Trajaneum, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Bergama akropolünün üst terasında Traianus ve Zeus Philios kültleriyle ilişkilendirilen Roma tapınağı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Temple_of_Trajan%2C_Pergamon_01.jpg/500px-Temple_of_Trajan%2C_Pergamon_01.jpg"
+      genislik: 500
+      yukseklik: 362
+      sahibi: "Bernard Gagnon"
+      lisans: "CC BY-SA 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Trajan,_Pergamon_01.jpg"
+      alt: "Trajaneum – Bergama"
   - ad: "Hera Basileia Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Demeter Kutsal Alanı"
@@ -55,7 +73,16 @@ yapilar:
   - ad: "Aşağı Agora"
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
   - ad: "Kızıl Avlu"
-    aciklama: "Kızıl Avlu, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Bergama’daki büyük Roma tapınak kompleksi, kırmızı tuğla duvarlarıyla tanınır. Kompleks Mısır kökenli tanrıların kültleriyle ilişkilendirilir."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Red_Basilica_Pergamon_3_%282020%29.jpg/500px-Red_Basilica_Pergamon_3_%282020%29.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Antoloji"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Red_Basilica_Pergamon_3_(2020).jpg"
+      alt: "Kızıl Avlu – Bergama"
   - ad: "Asklepion"
     aciklama: "Akropolün dışında yer alan sağlık ve kült merkezi; ayrıntıları ayrı kent kaydında ele alınır."
 kunyeGorseli:

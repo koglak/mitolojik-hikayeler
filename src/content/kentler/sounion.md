@@ -32,7 +32,7 @@ yapilar:
   - ad: "Kıyı Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Gemi Barınakları"
-    aciklama: "Gemi Barınakları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Sounion’un duvarlarla korunan kıyısında gemilerin karaya çekildiği eğimli barınaklar."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg/500px-Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg"
   genislik: 500

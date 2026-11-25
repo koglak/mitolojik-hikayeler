@@ -27,6 +27,15 @@ yapilar:
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Örtülü Galeriler"
     aciklama: "Bir yamacın veya yapı kütlesinin içinden geçen örtülü güzergâh."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg/500px-Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg"
+      genislik: 500
+      yukseklik: 667
+      sahibi: "Alun Salt"
+      lisans: "CC BY-SA 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg"
+      alt: "Örtülü Galeriler – Tiryns"
   - ad: "Saray Megaronu"
     aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
   - ad: "Saray Avluları"

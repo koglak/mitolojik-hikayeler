@@ -3,6 +3,8 @@ ad: "Demeter"
 sira: 14
 ozet: "Tarımın, tahılın ve bereketin tanrıçası. Kızı Persephone'yi ararken dünyayı kıtlığa sürükledi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Ceres"
   - etiket: "Alanı"

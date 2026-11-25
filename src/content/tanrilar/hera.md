@@ -3,6 +3,8 @@ ad: "Hera"
 sira: 4
 ozet: "Evliliğin ve kadınların koruyucusu, Olimpos'un kraliçesi. Zeus'un hem eşi hem kız kardeşi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Juno"
   - etiket: "Alanı"

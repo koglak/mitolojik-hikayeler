@@ -26,6 +26,15 @@ yapilar:
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Notion_theatre_7.jpg/500px-Notion_theatre_7.jpg"
+      genislik: 500
+      yukseklik: 376
+      sahibi: "Isabeau"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Notion_theatre_7.jpg"
+      alt: "Tiyatro – Notion"
   - ad: "Kent Surları"
     aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
   - ad: "Olası Athena Tapınağı"

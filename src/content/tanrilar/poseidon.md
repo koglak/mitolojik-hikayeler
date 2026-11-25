@@ -3,6 +3,8 @@ ad: "Poseidon"
 sira: 12
 ozet: "Denizlerin, depremlerin ve atların tanrısı. Üç dişli mızrağıyla denizi kabartır, yeri sarsar."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Neptün"
   - etiket: "Alanı"

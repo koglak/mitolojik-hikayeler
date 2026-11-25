@@ -3,6 +3,8 @@ ad: "Tyche"
 sira: 28
 ozet: "Şansın ve talihin tanrıçası. Bir kentin kaderi onun elindedir."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Fortuna"
   - etiket: "Alanı"

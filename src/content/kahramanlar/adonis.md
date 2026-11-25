@@ -14,7 +14,7 @@ bilgiler:
   - etiket: "Çiçeği"
     deger: "Anemon (Manisa lalesi)"
 kaynak: "Theokritos, İdiller 15; Bion, Adonis'e Ağıt; Platon, Phaidros 276b; Ovidius, Dönüşümler 10.298–559, 10.705–739; Apollodoros, Kütüphane 3.14.3–4; Plutarkhos, Nikias 13; Lukianos, Suriye Tanrıçası 6–8"
-ilgiliMitler: ["atalante", "persephone"]
+ilgiliMitler: ["atalante", "persephone", "afrodit-ve-adonis"]
 ilgiliKentler: ["kelenderis"]
 ilgiliTanrilar: ["afrodit", "ares", "artemis", "persephone", "zeus"]
 ilgiliKahramanlar: ["pygmalion"]

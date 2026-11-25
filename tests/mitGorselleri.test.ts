@@ -21,6 +21,16 @@ describe('mit görselleri', () => {
     expect(gorsel.figur.length).toBeGreaterThan(0);
   });
 
+  it('yeni hikâyelerin kapakları birbirinden ve yedek görselden farklı', () => {
+    const yeniMitler = [
+      'antigone', 'medeia', 'iphigeneia-auliste', 'kassandra', 'dionysos-ve-pentheus',
+      'alkestis', 'aineias-truvadan-kacis', 'afrodit-ve-adonis', 'kirke-ve-odysseus',
+    ];
+    const figurlar = yeniMitler.map((slug) => mitGorseli(slug).figur);
+    expect(figurlar).not.toContain(mitGorseli('olmayan-mit').figur);
+    expect(new Set(figurlar).size).toBe(yeniMitler.length);
+  });
+
   it('figürler palet yer tutucularını kullanır, sabit renk içermez', () => {
     for (const slug of sluglar) {
       expect(mitGorseli(slug).figur, slug).not.toMatch(/#[0-9a-fA-F]{3,6}/);

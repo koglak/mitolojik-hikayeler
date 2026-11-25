@@ -3,6 +3,8 @@ ad: "Artemis"
 sira: 9
 ozet: "Avın, vahşi doğanın ve genç kızların tanrıçası. Apollon'un ikiz kız kardeşi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Diana"
   - etiket: "Alanı"
@@ -12,7 +14,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Leto"
 kaynak: "Kallimakhos, Artemis İlahisi; Ovidius, Dönüşümler 3.138–252; Herodotos, Tarih 1.26"
-ilgiliMitler: ["niobe", "aktaion", "atalante", "kephalos-ve-prokris", "leto-ve-koyluler", "pan-ve-syrinx"]
+ilgiliMitler: ["niobe", "aktaion", "atalante", "kephalos-ve-prokris", "leto-ve-koyluler", "pan-ve-syrinx", "iphigeneia-auliste"]
 ilgiliKentler: ["efes"]
 ilgiliTanrilar: ["apollon", "leto", "zeus"]
 ilgiliKahramanlar: ["niobe"]

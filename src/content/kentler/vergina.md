@@ -21,6 +21,15 @@ ilgiliTanrilar: []
 yapilar:
   - ad: "Aigai Sarayı"
     aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Vergina_Palace_%281990%29_-_04.jpg/500px-Vergina_Palace_%281990%29_-_04.jpg"
+      genislik: 500
+      yukseklik: 311
+      sahibi: "Mark Landon"
+      lisans: "CC BY 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Vergina_Palace_(1990)_-_04.jpg"
+      alt: "Aigai Sarayı – Vergina (Aigai)"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Büyük Tümülüs ve Kraliyet Mezarları"

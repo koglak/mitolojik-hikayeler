@@ -29,6 +29,15 @@ yapilar:
     aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
   - ad: "Stadyum"
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Perge_Stadium_in_2018_5908.jpg/500px-Perge_Stadium_in_2018_5908.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Perge_Stadium_in_2018_5908.jpg"
+      alt: "Stadyum – Perge"
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Agora ve Macellum"

@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Öldüren"
     deger: "Klytaimnestra, Mykenai'de"
 kaynak: "Aiskhylos, Agamemnon 1035–1330; Apollodoros, Kütüphane 3.12.5, Epitome 5.17–23; Vergilius, Aeneis 2.246–247, 2.403–406"
-ilgiliMitler: ["truva-ati"]
+ilgiliMitler: ["truva-ati", "kassandra"]
 ilgiliKentler: ["sparta", "truva", "mykene"]
 ilgiliTanrilar: ["apollon", "athena"]
 ilgiliKahramanlar: ["agamemnon", "aias", "hekabe", "paris", "priamos"]

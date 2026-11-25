@@ -20,6 +20,15 @@ yapilar:
     aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kadyanda_Theatre_7563.jpg/500px-Kadyanda_Theatre_7563.jpg"
+      genislik: 500
+      yukseklik: 333
+      sahibi: "Dosseman"
+      lisans: "CC BY-SA 4.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kadyanda_Theatre_7563.jpg"
+      alt: "Tiyatro – Kadyanda"
   - ad: "Hamam"
     aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
   - ad: "Kaya Mezarları"

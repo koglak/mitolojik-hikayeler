@@ -34,6 +34,15 @@ yapilar:
     aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
   - ad: "Roma Forumu"
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/047Zypern_Kourion_Forum_%2814039478186%29.jpg/500px-047Zypern_Kourion_Forum_%2814039478186%29.jpg"
+      genislik: 500
+      yukseklik: 322
+      sahibi: "Rüdiger Stehn from Kiel, Deutschland"
+      lisans: "CC BY-SA 2.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:047Zypern_Kourion_Forum_(14039478186).jpg"
+      alt: "Roma Forumu – Kourion"
   - ad: "Erken Hristiyanlık Bazilikası"
     aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
   - ad: "Stadyum"

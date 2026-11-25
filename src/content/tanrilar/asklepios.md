@@ -3,6 +3,8 @@ ad: "Asklepios"
 sira: 20
 ozet: "Hekimliğin ve iyileştirmenin tanrısı. Ölüleri diriltecek kadar usta olduğu için yıldırımla cezalandırıldı."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Aesculapius"
   - etiket: "Alanı"

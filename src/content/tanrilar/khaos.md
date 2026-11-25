@@ -3,6 +3,8 @@ ad: "Khaos"
 sira: 35
 ozet: "Her şeyden önce var olan boşluk. Ondan karanlık ve gece doğdu; evrenin hikâyesi onunla başlar."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Chaos"
   - etiket: "Adının anlamı"

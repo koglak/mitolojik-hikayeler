@@ -3,6 +3,8 @@ ad: "Uranos"
 sira: 32
 ozet: "Yıldızlı gök. Evrenin ilk kralıydı; çocuklarını toprağın derinliklerine hapsedince en küçük oğlu Kronos onu devirdi."
 bilgiler:
+  - etiket: "Panteon"
+    deger: "Yunan"
   - etiket: "Roma'da"
     deger: "Caelus"
   - etiket: "Alanı"

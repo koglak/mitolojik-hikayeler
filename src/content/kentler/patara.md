@@ -28,12 +28,21 @@ yapilar:
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Nero Deniz Feneri"
     aciklama: "Patara’nın antik liman girişini işaretleyen Roma deniz feneri."
+    gorsel:
+      adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Patara_-_the_lighthouse_-_panoramio.jpg/500px-Patara_-_the_lighthouse_-_panoramio.jpg"
+      genislik: 500
+      yukseklik: 375
+      sahibi: "Angela Stefanoni"
+      lisans: "CC BY 3.0"
+      lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+      kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Patara_-_the_lighthouse_-_panoramio.jpg"
+      alt: "Nero Deniz Feneri – Patara"
   - ad: "Apollon Tapınağı"
     aciklama: "Apollon’un Patara’daki kültü ve kehaneti tarihsel kaynaklarda bilinir; tapınağın yeri kesinleşmemiştir."
   - ad: "Mettius Modestus Takı"
-    aciklama: "Mettius Modestus Takı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Patara’nın kuzeyindeki Roma dönemi kent girişinde yer alan üç açıklıklı anıtsal tak."
   - ad: "Hadrianus Tahıl Ambarı"
-    aciklama: "Hadrianus Tahıl Ambarı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+    aciklama: "Roma döneminde Patara limanında depolama için inşa edilen çok bölmeli granarium."
   - ad: "Sütunlu Cadde"
     aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
   - ad: "Liman Hamamı"

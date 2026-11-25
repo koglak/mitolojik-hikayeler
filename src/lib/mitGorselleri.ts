@@ -519,6 +519,107 @@ const gorseller: Record<string, MitGorseli> = {
       '<path d="M182 284c2-24 18-36 38-36s36 12 38 36h-9c-4-16-14-22-29-22s-25 6-29 22Z" fill="{c}"/>' +
       '<path d="M330 320c-34-20-32-44-12-46 8 0 12 6 12 10 0-4 4-10 12-10 20 2 22 26-12 46Z" fill="{c}"/>',
   },
+  antigone: {
+    palet: ['#74637d', '#241d2c', '#eccb9b'],
+    figur:
+      '<path d="M79 297q61-21 100-12l50-24q47-16 122 23l20 13Z" fill="{c}" opacity=".38"/>' +
+      '<path d="M87 304h269m-191-17q62-25 124-7" stroke="{c}" stroke-width="4" fill="none"/>' +
+      '<g transform="rotate(32 212 149)">' +
+      '<path d="M192 84h40v13h-40Zm5 14h30v37c0 9 32 29 32 56 0 22-20 37-47 37s-47-15-47-37c0-27 32-47 32-56Z" fill="{c}"/>' +
+      '<path d="M228 126c42-32 67 29 25 46" fill="none" stroke="{c}" stroke-width="10"/>' +
+      '<path d="M175 176h74m-78 17h82m-75 12h68" stroke="{b}" stroke-width="4"/>' +
+      '</g>' +
+      '<path d="M222 92q-58 1-82 49t-15 122" fill="none" stroke="{c}" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 12"/>' +
+      '<path d="m306 145 16 12-16 12-16-12Z" fill="{c}" opacity=".8"/>',
+  },
+  medeia: {
+    palet: ['#8c4a47', '#321b2d', '#ffd28f'],
+    figur:
+      '<circle cx="220" cy="128" r="61" fill="none" stroke="{c}" stroke-width="3" opacity=".56"/>' +
+      '<path d="M220 52V39m0 178v-24m-76-65h-16m184 0h-16m-129-53-14-14m134 134-14-14m0-106 14-14m-134 134 14-14" stroke="{c}" stroke-width="4"/>' +
+      '<circle cx="200" cy="106" r="14" fill="{c}"/>' +
+      '<path d="M192 123c-17 12-20 38-28 72h46l-3-55 24 21 23-8-3-7-18 4-24-26Z" fill="{c}"/>' +
+      '<path d="M129 188q55 16 132 0l-13 42h-97Z" fill="{c}"/>' +
+      '<circle cx="184" cy="252" r="26" fill="{b}" stroke="{c}" stroke-width="8"/>' +
+      '<path d="M159 252h50m-25-25v50M250 213q56 36 79-5c17-29-44-30-39-60 4-21 29-18 42-12M307 190l28-25-8 23 25-7-18 26" fill="none" stroke="{c}" stroke-width="7" stroke-linejoin="round"/>' +
+      '<path d="M330 129l22 8-16 8Z" fill="{c}"/>',
+  },
+  'iphigeneia-auliste': {
+    palet: ['#5b696a', '#1e3136', '#f1d5a7'],
+    figur:
+      '<path d="M126 268h186v14H126Zm14 14h158v22H140Z" fill="{c}"/>' +
+      '<path d="M162 220c-10-26 21-49 70-43l32 5 20-47 20-13 23 10-17 16-12 1-17 61-21 14-11 39h-10l-3-43-42-5-20 49h-11l9-47Zm-1-10-21-13 14-5 13 10Z" fill="{c}"/>' +
+      '<path d="M292 132c-15-17-22-38-17-58m1 32-18-12m38 33c8-16 12-38 2-58m5 35 15-14" fill="none" stroke="{c}" stroke-width="5" stroke-linecap="round"/>' +
+      '<circle cx="310" cy="133" r="2.5" fill="{b}"/>' +
+      '<path d="M163 73c-15 16-12 39 9 47-33 9-50-33-9-47Z" fill="{c}"/>' +
+      '<path d="M105 238q17-51 68-93m-35 102q8-34 37-65" fill="none" stroke="{c}" stroke-width="3" opacity=".55"/>',
+  },
+  kassandra: {
+    palet: ['#864d60', '#281b2f', '#f4cda4'],
+    figur:
+      '<path d="M94 275v-88h20v-19h22v19h22v-19h22v19h80v-19h22v19h22v-19h22v19h20v88Z" fill="{c}"/>' +
+      '<path d="M195 275v-41a25 25 0 0 1 50 0v41Zm-83-63h13v24h-13Zm203 0h13v24h-13Z" fill="{b}"/>' +
+      '<path d="M126 244h45m98 0h45m-157 15h24m78 0h24" stroke="{b}" stroke-width="3" opacity=".7"/>' +
+      '<path d="M142 110q78-79 156 0-78 79-156 0Z" fill="none" stroke="{c}" stroke-width="6"/>' +
+      '<circle cx="220" cy="110" r="24" fill="{c}"/><circle cx="220" cy="110" r="10" fill="{b}"/>' +
+      '<path d="M220 43v18m-49-6 10 14m88-14-10 14M151 142l-16 13m154-13 16 13" stroke="{c}" stroke-width="4" stroke-linecap="round"/>' +
+      '<path d="M81 294h278" stroke="{c}" stroke-width="5"/>',
+  },
+  'dionysos-ve-pentheus': {
+    palet: ['#5b5269', '#20282d', '#dece91'],
+    figur:
+      '<path d="M102 298q49-41 89-54 30 13 69 2 36 16 77 52Z" fill="{c}" opacity=".45"/>' +
+      '<path d="M170 291 264 116" fill="none" stroke="{c}" stroke-width="11" stroke-linecap="round"/>' +
+      '<path d="M249 118q-16-28 34-58 22 53-9 68Z" fill="{c}"/>' +
+      '<path d="m263 93 19 9m-23 3 19 9m-8-30 14 7" stroke="{b}" stroke-width="3"/>' +
+      '<path d="M205 221c50 5 74-32 55-48-14-11-31 3-25 15m-21 14c-28-27-53-39-68-21-10 12 1 27 12 22" fill="none" stroke="{c}" stroke-width="5"/>' +
+      '<path d="M156 185q-43-2-46-34 33-2 46 34Zm105 24q11-42 47-33-13 31-47 33Z" fill="{c}"/>' +
+      '<path d="M132 263v-39m-27 19 27-43 28 43Zm180 24v-30m-25 15 25-40 24 40Z" fill="{c}"/>',
+  },
+  alkestis: {
+    palet: ['#676782', '#222437', '#edd5b2'],
+    figur:
+      '<path d="M151 291V153a69 69 0 0 1 138 0v138m-116 0V153a47 47 0 0 1 94 0v138M132 292h176" fill="none" stroke="{c}" stroke-width="9"/>' +
+      '<path d="M198 163q22-28 44 0l24 105h-92Z" fill="{c}"/>' +
+      '<path d="M205 172q15 13 30 0m-36 25-9 59m23-66-4 66m17-66 4 66m10-59 9 59" fill="none" stroke="{b}" stroke-width="4"/>' +
+      '<path d="M307 270l19-93 20 4-20 93-9 9Z" fill="{c}"/>' +
+      '<path d="m330 184 14-13m-10 37 12-8" stroke="{c}" stroke-width="6" stroke-linecap="round"/>' +
+      '<path d="M220 58v14m-21-9 5 12m37-12-5 12" stroke="{c}" stroke-width="4" stroke-linecap="round"/>',
+  },
+  'aineias-truvadan-kacis': {
+    palet: ['#a35440', '#34212b', '#f3cd94'],
+    figur:
+      '<path d="M68 255V155h24v-18h19v18h22v-18h19v18h24v100Zm211 0v-87h26v-20h21v20h25v-20h20v107Z" fill="{c}" opacity=".32"/>' +
+      '<path d="M82 136c-20-28 16-38 11-62 30 37 23 54 10 66m216 10c-26-28 9-45 5-69 27 25 27 53 10 73" fill="{c}" opacity=".55"/>' +
+      '<circle cx="225" cy="131" r="16" fill="{c}"/>' +
+      '<path d="M209 149q-23 7-31 50l-10 41 15 5 18-32-2 25-30 55 13 8 41-49 16 13 10 33 16-4-5-44-23-30-5-51 26 26 22 3 2-11-16-5-21-30Z" fill="{c}"/>' +
+      '<circle cx="169" cy="119" r="14" fill="{c}"/>' +
+      '<path d="M161 135c-22 4-36 28-31 55l39 17 14-33 22-21-7-11-25 14Z" fill="{c}"/>' +
+      '<path d="m151 156 24 15m-37 9 28 13" stroke="{b}" stroke-width="4"/>' +
+      '<circle cx="299" cy="205" r="12" fill="{c}"/>' +
+      '<path d="m280 188 18 32 26 24-6 7-18-12 2 17 13 32-11 5-15-28-10 27-11-4 8-41 5-23-11-25Z" fill="{c}"/>' +
+      '<path d="m291 69 5 13 13 5-13 5-5 13-5-13-13-5 13-5Z" fill="{c}"/>',
+  },
+  'afrodit-ve-adonis': {
+    palet: ['#93515b', '#341e34', '#f7ceae'],
+    figur:
+      '<path d="M218 169c-14 47-11 86 13 129m-18-63c-43 5-68-13-76-35 34-3 66 12 76 35Zm9 38c37-6 59-30 57-54-31 7-54 24-57 54Z" fill="none" stroke="{c}" stroke-width="7" stroke-linejoin="round"/>' +
+      '<path d="M220 123C194 88 218 56 240 71c15 10 8 31-4 51 32-24 60-10 56 13-3 19-30 22-53 14 28 28 15 54-8 50-18-3-22-26-18-48-16 29-41 36-54 20-14-17 3-36 41-37-26-8-40-30-27-46 17-19 40 1 47 35Z" fill="{c}"/>' +
+      '<circle cx="220" cy="138" r="15" fill="{b}"/>' +
+      '<path d="M289 281q17-23 38-26l15-20 5 17 18 11-7 13-20-3-17 12-12 13h-18l9-14Zm52-7 14 13 2-15" fill="{c}" opacity=".8"/>' +
+      '<path d="M103 108q21-14 50-12m-60 32q19-10 43-9" stroke="{c}" stroke-width="4" stroke-linecap="round" fill="none" opacity=".7"/>',
+  },
+  'kirke-ve-odysseus': {
+    palet: ['#4d746f', '#202d36', '#e6d4a8'],
+    figur:
+      '<path d="M135 144h170l-14 38c-15 42-41 63-70 63s-56-21-72-63Zm78 96h16v37l48 12v10H165v-10l48-12Z" fill="{c}"/>' +
+      '<path d="M139 155c-53-15-58 37 36 57m126-57c53-15 58 37-36 57" fill="none" stroke="{c}" stroke-width="8"/>' +
+      '<path d="M155 170h130m-119 17h108m-94 21 13-13 13 13 14-13 14 13 13-13 13 13" stroke="{b}" stroke-width="4" fill="none"/>' +
+      '<path d="M226 141q15-38-5-73m11 44q22-22 42-10-16 17-42 10Zm-3 11q-31-4-35-23 27-1 35 23Z" fill="none" stroke="{c}" stroke-width="4"/>' +
+      '<path d="M221 66c-29 2-23-19-8-16-7-17 12-23 15-5 14-11 26 6 9 13 9 13-9 22-16 8Z" fill="{c}"/>' +
+      '<circle cx="224" cy="57" r="4" fill="{b}"/>' +
+      '<path d="m111 102 4 12 12 4-12 4-4 12-4-12-12-4 12-4Zm215-22 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z" fill="{c}"/>',
+  },
 };
 
 export function mitGorseli(slug: string): MitGorseli {

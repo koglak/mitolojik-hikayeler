@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Simgeleri"
     deger: "Nemea aslanının postu, sopa, yay"
 kaynak: "Apollodoros, Kütüphane 2.4.8–2.7.7"
-ilgiliMitler: ["prometheus", "herakles", "argonotlar"]
+ilgiliMitler: ["prometheus", "herakles", "argonotlar", "alkestis"]
 ilgiliKentler: ["thebai"]
 ilgiliTanrilar: ["hebe", "hera", "prometheus", "zeus"]
 ---
