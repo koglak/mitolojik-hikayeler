@@ -4,6 +4,7 @@ import SiteBasligi from '../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
 import MansetSlider from '../components/MansetSlider.astro';
 import AnasayfaSecmeleri from '../components/AnasayfaSecmeleri.astro';
+import MeanderBant from '../components/MeanderBant.astro';
 import KategoriGorseli, { type KategoriTuru } from '../components/KategoriGorseli.astro';
 import OzluSozler from '../components/OzluSozler.astro';
 import PapirusRafi from '../components/PapirusRafi.astro';
@@ -49,6 +50,7 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: str
       <h1>Mitler, <em>kentler</em> ve kahramanlar.</h1>
       <MansetSlider />
       <AnasayfaSecmeleri />
+      <div class="secme-deseni"><MeanderBant kimlik="anasayfa-secmeleri" /></div>
 
       <ul class="kategoriler" aria-label="Bölümler">
         {
@@ -91,6 +93,10 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: str
   h1 em {
     font-weight: 400;
     color: var(--vurgu);
+  }
+
+  .secme-deseni {
+    margin-top: clamp(24px, 4vw, 48px);
   }
 
   .kategoriler {

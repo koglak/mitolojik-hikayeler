@@ -27,5 +27,12 @@
   "prado": { "ad": "Prado Müzesi", "kent": "Madrid", "ulke": "İspanya", "enlem": 40.4138, "boylam": -3.6921 },
   "bruksel": { "ad": "Belçika Kraliyet Güzel Sanatlar Müzeleri", "kent": "Brüksel", "ulke": "Belçika", "enlem": 50.8417, "boylam": 4.3582 },
   "met": { "ad": "Metropolitan Sanat Müzesi", "kent": "New York", "ulke": "ABD", "enlem": 40.7794, "boylam": -73.9632 },
-  "gardner": { "ad": "Isabella Stewart Gardner Müzesi", "kent": "Boston", "ulke": "ABD", "enlem": 42.3382, "boylam": -71.0991 }
+  "gardner": { "ad": "Isabella Stewart Gardner Müzesi", "kent": "Boston", "ulke": "ABD", "enlem": 42.3382, "boylam": -71.0991 },
+  "anadolu-medeniyetleri": {
+    "ad": "Anadolu Medeniyetleri Müzesi",
+    "kent": "Ankara",
+    "ulke": "Türkiye",
+    "enlem": 39.9388,
+    "boylam": 32.8618
+  }
 }

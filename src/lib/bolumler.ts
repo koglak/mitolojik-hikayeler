@@ -20,7 +20,7 @@ export const bolumler: Record<BolumAnahtari, Bolum> = {
     ad: 'Tanrılar',
     yol: 'tanrilar',
     tekil: 'Tanrı',
-    aciklama: 'Olimposlular ve yeraltının efendisi. Neyi yönettikleri, nasıl tanındıkları, hangi hikâyelerde karşımıza çıktıkları.',
+    aciklama: 'Yunan, Mısır, Mezopotamya ve Anadolu tanrıları. Neyi yönettikleri, nasıl tanındıkları, hangi hikâyelerde karşımıza çıktıkları.',
   },
   kahramanlar: {
     ad: 'Kahramanlar',

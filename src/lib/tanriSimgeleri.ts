@@ -320,6 +320,54 @@ const simgeler: Record<string, string> = {
     yildiz(24, 30, 2.5) +
     yildiz(40, 30, 2.5) +
     '<circle cx="12" cy="49" r="1.2" fill="currentColor"/><circle cx="52" cy="49" r="1.2" fill="currentColor"/>',
+  ra:
+    '<circle cx="32" cy="23" r="14"/><path d="M5 39c8 10 17 14 27 14s19-4 27-14M7 40h50"/>' +
+    '<circle cx="32" cy="23" r="2" fill="currentColor"/>',
+
+  osiris:
+    '<path d="m17 56 24-39c6-10-6-15-11-7-2 3-1 6 1 8M47 56 24 18V8m0 10c-3 4-5 6-9 8m9-8c1 5 0 8-2 11m2-11c5 3 7 6 8 10"/>',
+
+  isis:
+    '<path d="M18 11h14v13h14v24H18ZM18 24h14M14 53h36M12 58h40"/>',
+
+  horus:
+    '<path d="M6 28c9-9 17-12 26-12s18 3 26 12c-8 8-17 12-26 12S15 36 6 28Z"/>' +
+    '<circle cx="32" cy="28" r="8"/><path d="M25 39v14m12-14c3 7 8 10 14 10 5 0 6 7 0 7-3 0-4-2-4-4M10 17c10-9 25-12 41-8"/>',
+
+  set:
+    '<path d="M26 55V37L12 35l-6-9c9 3 16 2 22-3l3-17h7l2 16h5l3-14h7l-2 19 4 8-9 8v12Z"/>' +
+    '<circle cx="37" cy="29" r="2" fill="currentColor"/>',
+
+  anubis:
+    '<path d="M25 56V36L8 33l2-7 19-4 3-16 10 12 8-10-1 15 7 10-10 12v11Z"/>' +
+    '<circle cx="36" cy="27" r="2" fill="currentColor"/>',
+
+  thoth:
+    '<path d="M29 55V35l-4-12C17 26 11 33 7 42c0-13 5-23 17-28 3-7 12-10 18-6 9 5 8 15 1 21l5 26Z"/>' +
+    '<circle cx="33" cy="16" r="2" fill="currentColor"/>',
+
+  hathor:
+    '<circle cx="32" cy="19" r="11"/><path d="M24 54V44C9 39 7 25 12 13c1 14 8 21 20 23 12-2 19-9 20-23 5 12 3 26-12 31v10Z"/>',
+
+  sekhmet:
+    '<circle cx="32" cy="12" r="8"/><path d="m17 29-5-6 8-3 5 5h14l5-5 8 3-5 6 3 15-9 11H23l-9-11Z"/>' +
+    '<path d="m27 42 5 4 5-4m-5 4v5m-11-16h5m12 0h5"/>',
+
+  bastet:
+    '<path d="M17 28 15 9l14 11h6L49 9l-2 19 4 12-8 12H21l-8-12Z"/>' +
+    '<path d="M22 33h5m10 0h5m-14 9 4 3 4-3m-4 3v5M18 42l-12-4m12 8H5m41-4 12-4m-12 8h13"/>',
+
+  amun:
+    '<path d="M31 43V9c-7-8-13-4-13 5v29m15 0V9c7-8 13-4 13 5v29M15 43h34v12H15ZM24 16v21m16-21v21"/>',
+
+  maat:
+    '<path d="M20 57C20 37 40 25 46 7 33 2 22 12 19 24l-2 15 9-4m-4 12c11-3 20-13 24-26l-8 4m-20 7 11-5"/>',
+
+  ptah:
+    '<path d="M25 53V23a9 9 0 0 1 18 0v3l3 4-3 3v20Zm0-28h18M20 54h28M14 54V24m-5 0h10m-9-6h8"/>',
+
+  neftis:
+    '<path d="M12 36h40l-6 15H18Zm10 0V17h20v19m-14 0V25h8v11M15 44h34M15 55h34"/>',
 };
 
 export const tanriSimgesi = (slug: string): string | undefined => simgeler[slug];
