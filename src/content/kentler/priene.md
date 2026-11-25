@@ -25,6 +25,29 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "poseidon"]
+yapilar:
+  - ad: "Athena Polias Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Demeter Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Zeus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Kutsal Stoa"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
+  - ad: "Prytaneion"
+    aciklama: "Kentin yönetim görevlilerinin kullandığı kamusal yapı."
+  - ad: "Aşağı Gymnasion ve Stadyum"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Yukarı Gymnasion"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Temple_of_Athena_at_Priene.jpg/500px-Temple_of_Athena_at_Priene.jpg"
   genislik: 500

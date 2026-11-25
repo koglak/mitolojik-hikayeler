@@ -22,6 +22,19 @@ tapinaklar:
 ilgiliMitler: ["bellerophon"]
 ilgiliTanrilar: ["hephaistos"]
 ilgiliKahramanlar: ["bellerophon"]
+yapilar:
+  - ad: "Tapınak Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Liman Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Piskoposluk Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Hephaistos Kutsal Alanı (Yanartaş)"
+    aciklama: "Doğal alevleriyle tanınan kaya yamacı Olympos’un kuzeyindedir ve Hephaistos kültüyle ilişkilendirilir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Aerial_View_of_Olympus_%28Lycia%29_from_the_west.jpg/500px-Aerial_View_of_Olympus_%28Lycia%29_from_the_west.jpg"
   genislik: 500

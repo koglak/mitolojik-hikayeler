@@ -19,6 +19,13 @@ konum:
 ilgiliMitler: ["theseus-ve-minotauros"]
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["theseus"]
+yapilar:
+  - ad: "Atinalılar Tümülüsü (Soros)"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Plataia Mezar Alanı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Marathon Zafer Anıtı"
+    aciklama: "Marathon Zafer Anıtı, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://upload.wikimedia.org/wikipedia/commons/9/97/Ac.marathon.jpg"
   genislik: 500

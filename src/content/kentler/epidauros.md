@@ -25,6 +25,25 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios", "apollon", "artemis"]
+yapilar:
+  - ad: "Asklepios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Artemis Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Apollon Maleatas Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Tholos"
+    aciklama: "Tholos, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Abaton"
+    aciklama: "Şifa arayanların ritüel uykuya yattığı sütunlu yapı."
+  - ad: "Büyük Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Katagogion"
+    aciklama: "Kutsal alan ziyaretçilerinin konakladığı yapı kompleksi."
+  - ad: "Hestiatorion"
+    aciklama: "Hestiatorion, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Epidauros-Theater-1.jpg/500px-Epidauros-Theater-1.jpg"
   genislik: 500

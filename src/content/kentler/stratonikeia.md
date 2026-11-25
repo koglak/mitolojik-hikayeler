@@ -21,6 +21,23 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hekate", "zeus"]
+yapilar:
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Kuzey Kent Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Gymnasion"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Hamamlar"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Osmanlı Evleri"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Panamara Zeus Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Stratonicee_Sebasteion.JPG/500px-Stratonicee_Sebasteion.JPG"
   genislik: 500

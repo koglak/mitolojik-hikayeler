@@ -24,6 +24,17 @@ tapinaklar:
 ilgiliMitler: ["kastor-ve-polydeukes", "truva-ati", "guzellik-yarismasi"]
 ilgiliTanrilar: ["artemis", "zeus"]
 ilgiliKahramanlar: ["helene", "kastor-ve-polydeukes", "menelaos", "odysseus", "paris"]
+yapilar:
+  - ad: "Artemis Orthia Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Athena Khalkioikos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Menelaion"
+    aciklama: "Menelaion, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Antik Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Akropol Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sparta.jpg/500px-Sparta.jpg"
   genislik: 500

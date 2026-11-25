@@ -18,6 +18,9 @@ konum:
   boylam: 33.7606
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "asklepios"]
+yapilar:
+  - ad: "Apollon Tapınağı"
+    aciklama: "Lukianos, Glykon kültünün başlangıcını anlatırken yapımı süren bu tapınaktan söz eder. Yapının yeri metinde belirtilmez."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/03_Inebolu2005_0804_133337a%28AydinTiryaki%29.JPG/500px-03_Inebolu2005_0804_133337a%28AydinTiryaki%29.JPG"
   genislik: 500

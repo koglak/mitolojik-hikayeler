@@ -27,6 +27,25 @@ tapinaklar:
     tanrilar: ["afrodit"]
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
+yapilar:
+  - ad: "Yuvarlak Afrodit Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Dionysos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Demeter Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Aşağı Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Yukarı Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Ticaret Limanı"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Askerî Liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Knidos-H%C3%A4fen.jpg/500px-Knidos-H%C3%A4fen.jpg"
   genislik: 500

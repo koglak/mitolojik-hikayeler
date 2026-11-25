@@ -22,6 +22,13 @@ tapinaklar:
 ilgiliMitler: ["atalante"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["atalanta"]
+yapilar:
+  - ad: "Athena Alea Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Antik Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_%282017%2C_image_1%29.jpg/500px-Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_%282017%2C_image_1%29.jpg"
   genislik: 500

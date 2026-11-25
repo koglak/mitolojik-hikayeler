@@ -16,7 +16,7 @@ kaynakca:
     adres: "https://www.collezionegalleriaborghese.it/en/opere/apollo-and-daphne"
 ilgiliMitler: ["apollon-ve-daphne"]
 ilgiliTanrilar: ["apollon", "eros"]
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["daphne"]
 ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg/1280px-Apollo_and_Daphne_%28Bernini%29_%28cropped%29.jpg"

@@ -20,6 +20,17 @@ tapinaklar:
   - ad: "Demeter ve Kore Tapınağı"
     tanrilar: ["demeter", "persephone"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Pazar Binası"
+    aciklama: "Agoranın yamaç tarafında yükselen üç katlı ticaret yapısı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Athena Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Demeter ve Kore Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/AigaiMarkthalle1.jpg/500px-AigaiMarkthalle1.jpg"
   genislik: 500

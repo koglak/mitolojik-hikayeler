@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["orestes"]
+yapilar:
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kale"
+    aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+  - ad: "Artemis Perasia Tapınağı"
+    aciklama: "Kentte Artemis Perasia kültü bilinir; görülebilen kalıntıların tapınakla eşleştirilmesi kesin değildir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/HierapolisCastabalaBurgberg.jpg/500px-HierapolisCastabalaBurgberg.jpg"
   genislik: 500

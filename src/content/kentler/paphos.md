@@ -22,6 +22,21 @@ tapinaklar:
 ilgiliMitler: ["pygmalion"]
 ilgiliTanrilar: ["afrodit"]
 ilgiliKahramanlar: ["pygmalion", "adonis"]
+yapilar:
+  - ad: "Afrodit Kutsal Alanı (Palaipaphos)"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Dionysos Evi (Nea Paphos)"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Theseus Villası (Nea Paphos)"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Aion Evi (Nea Paphos)"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Orpheus Evi (Nea Paphos)"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Krallar Mezarları (Nea Paphos)"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Odeon (Nea Paphos)"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg/500px-Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg"
   genislik: 500

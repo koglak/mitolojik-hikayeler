@@ -21,6 +21,15 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "pan"]
+yapilar:
+  - ad: "Zeus Lykaios Küllü Sunağı"
+    aciklama: "Zeus Lykaios Küllü Sunağı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Hippodrom"
+    aciklama: "At ve araba yarışları için düzenlenen yarış alanı."
+  - ad: "Alt Kutsal Alan Stoası"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Lykaion_looking_East.jpg/500px-Lykaion_looking_East.jpg"
   genislik: 500

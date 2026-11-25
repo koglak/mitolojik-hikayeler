@@ -18,6 +18,9 @@ konum:
   boylam: 29.025
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+yapilar:
+  - ad: "Azize Euphemia Bazilikası"
+    aciklama: "451’deki Kalkhedon Konsili’nin toplandığı tarihsel kilise. Eski yapının yeri ve kalıntıları bugünkü kiliseyle özdeşleştirilmemelidir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Kadikoy_4img.jpg/500px-Kadikoy_4img.jpg"
   genislik: 500

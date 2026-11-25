@@ -19,6 +19,13 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["hades"]
 ilgiliKahramanlar: ["herakles"]
+yapilar:
+  - ad: "Cehennemağzı Mağaraları"
+    aciklama: "Doğal mağaraların bir bölümünde antik ve geç antik kullanıma ait izler bulunur."
+  - ad: "Kent Kalesi"
+    aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+  - ad: "Antik liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Heraclea-Pontica.png/500px-Heraclea-Pontica.png"
   genislik: 500

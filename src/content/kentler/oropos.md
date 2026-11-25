@@ -19,6 +19,17 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios"]
 ilgiliKahramanlar: ["amphiaraos", "polyneikes-ve-eteokles"]
+yapilar:
+  - ad: "Amphiaraos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Büyük Stoa"
+    aciklama: "Sütunlu ön cephesiyle geniş bir örtülü dolaşım alanı sağlayan kamu yapısı."
+  - ad: "Kutsal Pınar ve Çeşme"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Sunak"
+    aciklama: "Antik kült törenlerinde sunuların bırakıldığı yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Amfiareio_Archaeological_Site.jpg/500px-Amfiareio_Archaeological_Site.jpg"
   genislik: 500

@@ -24,6 +24,27 @@ tapinaklar:
 ilgiliMitler: ["sisifos", "bellerophon", "arion", "argonotlar", "oidipus"]
 ilgiliTanrilar: ["afrodit", "apollon", "athena"]
 ilgiliKahramanlar: ["bellerophon", "medeia", "iason"]
+yapilar:
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Peirene Çeşmesi"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Akrokorinthos Tahkimatı"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Afrodit Tapınağı (Akrokorinthos)"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Roma Forumu"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Octavia Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Lechaion Yolu"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Odeon"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Bema"
+    aciklama: "Roma Korinthos’unda forumda konuşma ve kamu duyuruları için kullanılan yükseltilmiş kürsü."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tempio_di_Apollo_e_Acrocorinto.jpg/500px-Tempio_di_Apollo_e_Acrocorinto.jpg"
   genislik: 500

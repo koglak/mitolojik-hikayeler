@@ -23,6 +23,31 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["hades", "kybele"]
+yapilar:
+  - ad: "Plutonion"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Roma Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Nekropol"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Aziz Philippos Martyrionu"
+    aciklama: "Aziz Philippos Martyrionu, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Aziz Philippos Kilisesi ve Mezarı"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Frontinus Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Frontinus Caddesi"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Büyük Hamam"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Hamam Bazilikası"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Nymphaion"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/The_Roman_theatre%2C_built_in_the_2nd_century_AD_under_Hadrian_on_the_ruins_of_an_earlier_theatre%2C_later_renovated_under_Septimius_Severus%2C_Hierapolis%2C_Turkey_-_17033895960.jpg/500px-thumbnail.jpg"
   genislik: 500

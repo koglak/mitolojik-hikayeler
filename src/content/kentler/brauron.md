@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["iphigeneia"]
+yapilar:
+  - ad: "Artemis Brauronia Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Büyük Stoa"
+    aciklama: "Kutsal alanın avlusunu çevreleyen sütunlu yapı."
+  - ad: "Taş Köprü"
+    aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
+  - ad: "Iphigeneia ile İlişkilendirilen Mezar"
+    aciklama: "Kutsal alanda geleneksel olarak Iphigeneia ile ilişkilendirilen bölüm."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%CE%9D%CE%B1%CF%8C%CF%82_%CE%91%CF%81%CF%84%CE%AD%CE%BC%CE%B9%CE%B4%CE%B1%CF%82_%CF%83%CF%84%CE%B7_%CE%92%CF%81%CE%B1%CF%85%CF%81%CF%8E%CE%BD%CE%B1_5241.jpg/500px-%CE%9D%CE%B1%CF%8C%CF%82_%CE%91%CF%81%CF%84%CE%AD%CE%BC%CE%B9%CE%B4%CE%B1%CF%82_%CF%83%CF%84%CE%B7_%CE%92%CF%81%CE%B1%CF%85%CF%81%CF%8E%CE%BD%CE%B1_5241.jpg"
   genislik: 500

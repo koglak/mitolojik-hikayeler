@@ -19,6 +19,13 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["agamemnon", "orestes"]
+yapilar:
+  - ad: "Kırık Kilise"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Ma Kutsal Alanı"
+    aciklama: "Strabon’un anlattığı tapınak, Komana’nın dinî ve siyasal yaşamının merkezindeydi."
+  - ad: "Ala Kapı"
+    aciklama: "Şar’daki anıtsal taş kapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sar-Comana.jpg/500px-Sar-Comana.jpg"
   genislik: 500

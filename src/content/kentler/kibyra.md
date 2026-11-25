@@ -16,6 +16,17 @@ konum:
   boylam: 29.4917
 ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliKahramanlar: ["perseus"]
+yapilar:
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Odeon"
+    aciklama: "Orkestra zeminindeki Medusa mozaiğiyle tanınan yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kibyra_Theatre_9919.jpg/500px-Kibyra_Theatre_9919.jpg"
   genislik: 500

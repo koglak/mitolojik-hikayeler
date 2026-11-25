@@ -15,6 +15,15 @@ konum:
   enlem: 36.7353
   boylam: 29.255
 ilgiliMitler: []
+yapilar:
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Hamam"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kadyanda_Theatre_7563.jpg/500px-Kadyanda_Theatre_7563.jpg"
   genislik: 500

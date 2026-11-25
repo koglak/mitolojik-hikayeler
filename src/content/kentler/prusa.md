@@ -17,6 +17,11 @@ konum:
   enlem: 40.1833
   boylam: 29.0611
 ilgiliMitler: []
+yapilar:
+  - ad: "Hisar Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Kaplıca Yapıları"
+    aciklama: "Prusa çevresindeki sıcak su kaynakları antik çağdan beri bilinir; günümüzdeki kaplıca binalarının önemli bir kısmı daha geç tarihlidir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Monnaie_-_Bronze%2C_Prusa_Ad_Olympum%2C_Bithynie_-_btv1b10316093x_%281_of_2%29.jpg/500px-Monnaie_-_Bronze%2C_Prusa_Ad_Olympum%2C_Bithynie_-_btv1b10316093x_%281_of_2%29.jpg"
   genislik: 500

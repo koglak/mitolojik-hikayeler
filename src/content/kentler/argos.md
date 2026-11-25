@@ -28,6 +28,23 @@ tapinaklar:
 ilgiliMitler: ["perseus-ve-medusa", "io"]
 ilgiliTanrilar: ["hera", "zeus"]
 ilgiliKahramanlar: ["danae", "perseus"]
+yapilar:
+  - ad: "Antik Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Larisa Kalesi"
+    aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+  - ad: "Argos Heraionu"
+    aciklama: "Kent merkezinin dışındaki bölgesel Hera kutsal alanı."
+  - ad: "Zeus Larisaios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Athena Polias Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Apollon Deiradiotes Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Roma Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos%2810.07.05%29.JPG/500px-Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos%2810.07.05%29.JPG"
   genislik: 500

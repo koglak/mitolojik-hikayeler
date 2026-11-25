@@ -21,6 +21,25 @@ tapinaklar:
     tanrilar: ["afrodit"]
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
+yapilar:
+  - ad: "Afrodit Tapınağı"
+    aciklama: "Kentin başlıca kutsal yapısı, geç antik çağda kiliseye dönüştürüldü."
+  - ad: "Sebasteion"
+    aciklama: "İmparatorluk kültüne adanmış, kabartmalı cepheleri olan tören kompleksi."
+  - ad: "Stadyum"
+    aciklama: "Kentin kuzeyinde uzanan, uzun kenarları boyunca oturma sıraları korunan yarış alanı."
+  - ad: "Tetrapylon"
+    aciklama: "Afrodit kutsal alanına açılan süslü anıtsal geçit."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Hadrianus Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Kuzey Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Güney Agora ve anıtsal havuz"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Aphrodisias_turkey.jpg/500px-Aphrodisias_turkey.jpg"
   genislik: 500

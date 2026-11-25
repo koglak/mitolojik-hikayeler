@@ -24,6 +24,31 @@ tapinaklar:
 ilgiliMitler: ["herakles", "tantalos"]
 ilgiliTanrilar: ["hera", "kronos", "zeus"]
 ilgiliKahramanlar: ["herakles", "pelops"]
+yapilar:
+  - ad: "Zeus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Heraion"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Pheidias Atölyesi"
+    aciklama: "Olympia’daki Zeus heykelinin yapıldığı atölye; alan geç antik çağda kiliseye dönüştürüldü."
+  - ad: "Philippeion"
+    aciklama: "Makedonya kraliyet ailesinin heykellerine ayrılmış yuvarlak anıt."
+  - ad: "Palaestra"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Gymnasion"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Leonidaion"
+    aciklama: "Olympia’da seçkin ziyaretçilerin konaklaması için kullanılan büyük avlulu yapı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Prytaneion"
+    aciklama: "Kentin yönetim görevlilerinin kullandığı kamusal yapı."
+  - ad: "Echo Stoası"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
+  - ad: "Hazine Binaları"
+    aciklama: "Hazine Binaları, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Philippeion_-_Olympia_-_2.jpg/500px-Philippeion_-_Olympia_-_2.jpg"
   genislik: 500

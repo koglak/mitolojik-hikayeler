@@ -17,6 +17,15 @@ konum:
   enlem: 39.7531
   boylam: 26.1592
 ilgiliMitler: []
+yapilar:
+  - ad: "Herodes Atticus Hamamları"
+    aciklama: "Kentte Roma döneminden kalan anıtsal hamam kompleksi."
+  - ad: "Antik liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Kent surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Forum"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Troas_Therme_2.JPG/500px-Troas_Therme_2.JPG"
   genislik: 500

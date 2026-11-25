@@ -17,6 +17,13 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["midas"]
+yapilar:
+  - ad: "Amyntas Kaya Mezarı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Likya Lahitleri ve Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Tomb_of_Amyntas_2020-03-15-2.jpg/500px-Tomb_of_Amyntas_2020-03-15-2.jpg"
   genislik: 500

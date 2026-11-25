@@ -18,6 +18,15 @@ konum:
   boylam: 22.5233
 ilgiliMitler: []
 ilgiliTanrilar: []
+yapilar:
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Kraliyet Sarayı"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Dionysos Evi"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Helene’nin Kaçırılışı Evi"
+    aciklama: "Adını tabanındaki çakıl mozaikle anlatılan mitolojik sahneden alan konut."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Pella_House_atrium.jpg/500px-Pella_House_atrium.jpg"
   genislik: 500

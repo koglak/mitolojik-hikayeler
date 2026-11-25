@@ -18,6 +18,11 @@ konum:
   boylam: 27.0008
 ilgiliMitler: []
 ilgiliTanrilar: ["nike"]
+yapilar:
+  - ad: "Nekropol"
+    aciklama: "Pişmiş toprak figürinlerin çıkarıldığı antik mezarlık."
+  - ad: "Akropol Tepelerindeki Yerleşim Kalıntıları"
+    aciklama: "Akropol Tepelerindeki Yerleşim Kalıntıları, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Erkmen_se_MarchesAliagaTurkey.jpg/500px-Erkmen_se_MarchesAliagaTurkey.jpg"
   genislik: 500

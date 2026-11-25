@@ -17,6 +17,25 @@ konum:
   enlem: 40.5075
   boylam: 43.5728
 ilgiliMitler: []
+yapilar:
+  - ad: "Ani Katedrali"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Ebu’l Menuçehr Camii"
+    aciklama: "Yerleşimin İslam dönemine ait ibadet yapısı."
+  - ad: "Tigran Honents Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Kent surları ve kapılar"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Aziz Prkitch Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Havariler Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Gagikaşen Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Bakireler Manastırı"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Arpaçay Köprüsü kalıntıları"
+    aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Ani_seen_from_Armenia.jpg/500px-Ani_seen_from_Armenia.jpg"
   genislik: 500

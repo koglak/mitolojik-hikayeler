@@ -18,6 +18,13 @@ konum:
   boylam: 27.3956
 ilgiliMitler: []
 ilgiliTanrilar: ["athena"]
+yapilar:
+  - ad: "Akropol Tahkimatı"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Athena Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Leleg Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%D0%9F%D0%B5%D0%B4%D0%B0%D1%81%D0%B0.jpg/500px-%D0%9F%D0%B5%D0%B4%D0%B0%D1%81%D0%B0.jpg"
   genislik: 500

@@ -18,6 +18,13 @@ konum:
   boylam: 27.8833
 ilgiliMitler: ["argonotlar"]
 ilgiliKahramanlar: ["iason"]
+yapilar:
+  - ad: "Hadrianus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Amfitiyatro"
+    aciklama: "Arenanın çevresinde yükselen oturma sıralarına sahip antik gösteri yapısı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Bandirma_Cyzicus_2874.jpg/500px-Bandirma_Cyzicus_2874.jpg"
   genislik: 500

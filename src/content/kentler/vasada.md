@@ -17,6 +17,9 @@ konum:
   enlem: 37.5021
   boylam: 31.9118
 ilgiliMitler: []
+yapilar:
+  - ad: "Antik Tiyatro"
+    aciklama: "1969’da ortaya çıkan yapı kalıntılarının ardından yapılan kazılarda tiyatronun bölümleri açığa çıkarıldı."
 kunyeGorseli:
   adres: "/kent-haritalari/vasada.png"
   genislik: 500

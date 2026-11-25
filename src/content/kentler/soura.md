@@ -21,6 +21,13 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Apollon Sourios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Lahitler"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Soura_7368.jpeg/500px-Soura_7368.jpeg"
   genislik: 500

@@ -19,6 +19,15 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["minos"]
+yapilar:
+  - ad: "Batı Evi"
+    aciklama: "Denizcilik sahneli minyatür frizin bulunduğu Tunç Çağı konutu."
+  - ad: "Xeste 3"
+    aciklama: "Safran toplayan figürleri gösteren freskleriyle tanınan çok katlı yapı."
+  - ad: "Delta Yapı Kompleksi"
+    aciklama: "İlkbahar Freski’nin bulunduğu yapı grubudur."
+  - ad: "Xeste 4"
+    aciklama: "Merdiveni ve duvar resimleriyle tanınan büyük Tunç Çağı yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Akrotiri_minoan_town.jpg/500px-Akrotiri_minoan_town.jpg"
   genislik: 500

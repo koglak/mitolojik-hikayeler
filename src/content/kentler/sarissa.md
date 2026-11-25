@@ -15,6 +15,13 @@ konum:
   enlem: 39.3011
   boylam: 36.7392
 ilgiliMitler: []
+yapilar:
+  - ad: "Tapınak Kalıntıları"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kent Kapıları ve Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Kutsal Havuz"
+    aciklama: "Kutsal Havuz, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/KusakliH%C3%BCgel.JPG/500px-KusakliH%C3%BCgel.JPG"
   genislik: 500

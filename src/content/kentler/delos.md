@@ -29,6 +29,31 @@ tapinaklar:
     tanrilar: ["zeus", "athena"]
 ilgiliMitler: ["leto-ve-koyluler"]
 ilgiliTanrilar: ["apollon", "artemis", "dionysos", "hera", "leto", "zeus"]
+yapilar:
+  - ad: "Apollon Tapınakları"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Artemision"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Leto Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Heraion"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Zeus Kynthios ve Athena Kynthia Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Aslanlar Terası"
+    aciklama: "Aslanlar Terası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Dionysos Evi"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Yunuslar Evi"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Maskeler Evi"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "İtalyanlar Agorası"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "İsis Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Ruines_de_D%C3%A9los.jpg/500px-Ruines_de_D%C3%A9los.jpg"
   genislik: 500

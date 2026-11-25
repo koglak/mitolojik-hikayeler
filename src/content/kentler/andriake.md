@@ -17,6 +17,17 @@ konum:
   enlem: 36.2283
   boylam: 29.9614
 ilgiliMitler: []
+yapilar:
+  - ad: "Hadrianus Tahıl Ambarı"
+    aciklama: "Kentin limanındaki Roma tahıl deposu bugün Likya Uygarlıkları Müzesi’ne ev sahipliği yapar."
+  - ad: "Liman Agorası"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Mor boya atölyeleri"
+    aciklama: "Deniz salyangozlarından mor boya elde edilen üretim alanları."
+  - ad: "Sinagog"
+    aciklama: "Sinagog, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Sarnıç"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Ruins_in_Andriake%2C_Myra%2C_Turkey.jpg/500px-Ruins_in_Andriake%2C_Myra%2C_Turkey.jpg"
   genislik: 500

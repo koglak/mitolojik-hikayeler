@@ -17,6 +17,15 @@ konum:
   enlem: 40.7656
   boylam: 29.9408
 ilgiliMitler: []
+yapilar:
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Sarnıçlar"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+  - ad: "Çukurbağ Kazı Alanı"
+    aciklama: "Roma anıtsal mimarisine ait boyalı kabartmaların ve yapı kalıntılarının bulunduğu alan."
+  - ad: "Diocletianus Sarayı"
+    aciklama: "İmparatorluk başkentindeki saray antik metinlerde anılır; kalıntıların sınırları kesin değildir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Karte_Nikomedia.png/500px-Karte_Nikomedia.png"
   genislik: 500

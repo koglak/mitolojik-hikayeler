@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis", "dionysos"]
 ilgiliKahramanlar: ["iphigeneia", "orestes", "pylades"]
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Bizans Bazilikaları"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Chersonesos_ruins.jpg/500px-Chersonesos_ruins.jpg"
   genislik: 500

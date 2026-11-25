@@ -18,6 +18,15 @@ konum:
   boylam: 22.3197
 ilgiliMitler: []
 ilgiliTanrilar: []
+yapilar:
+  - ad: "Aigai Sarayı"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Büyük Tümülüs ve Kraliyet Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Kraliyet Nekropolü"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Verginia_WHS.jpg/500px-Verginia_WHS.jpg"
   genislik: 500

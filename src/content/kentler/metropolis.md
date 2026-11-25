@@ -18,6 +18,17 @@ tapinaklar:
   - ad: "Ares Tapınağı"
     tanrilar: ["ares"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Hamam ve Palaestra"
+    aciklama: "Yıkanma ve beden eğitimi için kullanılan bölümleri bir araya getiren yapı kompleksi."
+  - ad: "Ares Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Stoa"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Metropolis_from_the_east.jpg/500px-Metropolis_from_the_east.jpg"
   genislik: 500

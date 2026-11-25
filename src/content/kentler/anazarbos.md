@@ -20,6 +20,17 @@ tapinaklar:
   - ad: "Zeus Lepsynos Tapınağı"
     tanrilar: ["zeus"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Zafer Takı"
+    aciklama: "Kente giriş sağlayan çok kemerli Roma anıtı."
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Anavarza Kalesi"
+    aciklama: "Antik kente hâkim kayalık sırttaki tahkimat çeşitli dönemlerde kullanıldı."
+  - ad: "Zeus Lepsynos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kaya Nekropolü"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Anazarbus_klikya_city_south_gate.jpg/500px-Anazarbus_klikya_city_south_gate.jpg"
   genislik: 500

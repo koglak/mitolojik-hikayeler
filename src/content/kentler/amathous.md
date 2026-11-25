@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: ["theseus-ve-minotauros"]
 ilgiliTanrilar: ["afrodit"]
 ilgiliKahramanlar: ["theseus", "ariadne"]
+yapilar:
+  - ad: "Afrodit Tapınağı"
+    aciklama: "Akropolis üzerindeki başlıca kült yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Akropolis tahkimatı"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Amathus.jpg/500px-Amathus.jpg"
   genislik: 500

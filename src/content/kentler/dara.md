@@ -17,6 +17,15 @@ konum:
   enlem: 37.1764
   boylam: 40.9469
 ilgiliMitler: []
+yapilar:
+  - ad: "Sarnıçlar"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+  - ad: "Kaya Nekropolü"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Su Bendi"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Dara_P1030851_20080424091200.JPG/500px-Dara_P1030851_20080424091200.JPG"
   genislik: 500

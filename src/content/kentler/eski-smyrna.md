@@ -21,6 +21,13 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "dionysos", "nemesis"]
+yapilar:
+  - ad: "Athena Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kerpiç Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Arkaik Konutlar"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg/500px-%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg"
   genislik: 500

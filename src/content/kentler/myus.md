@@ -21,6 +21,9 @@ tapinaklar:
     tanrilar: ["dionysos"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
+yapilar:
+  - ad: "Dionysos Tapınağı"
+    aciklama: "Kente ait görülebilen tapınak temelleri Dionysos kültüyle ilişkilendirilir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Myus1.jpg/500px-Myus1.jpg"
   genislik: 500

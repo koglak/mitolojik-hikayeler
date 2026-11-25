@@ -17,6 +17,11 @@ konum:
   enlem: 38.1086
   boylam: 27.1400
 ilgiliMitler: ["arakhne"]
+yapilar:
+  - ad: "Kent Surları"
+    aciklama: "İç kesimdeki yerleşimin tahkimat kalıntıları."
+  - ad: "Akropol Yapı Kalıntıları"
+    aciklama: "Antik Kolophon’un tepe üstündeki yerleşimine ait kalıntılar."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Colophon4.jpg/500px-Colophon4.jpg"
   genislik: 500

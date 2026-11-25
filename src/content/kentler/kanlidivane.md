@@ -18,6 +18,13 @@ konum:
   boylam: 34.1797
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+yapilar:
+  - ad: "Helenistik Kule"
+    aciklama: "Yüksekliğiyle çevresindeki açıklığa hâkim olan taş yapı."
+  - ad: "Obruk Çevresindeki Bazilikalar"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Kaya Mezarları ve Kabartmalar"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Kanlidivane_sinkhole.JPG/500px-Kanlidivane_sinkhole.JPG"
   genislik: 500

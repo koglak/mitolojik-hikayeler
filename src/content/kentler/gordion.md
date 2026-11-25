@@ -19,6 +19,17 @@ konum:
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["apollon", "pan", "zeus"]
 ilgiliKahramanlar: ["midas"]
+yapilar:
+  - ad: "Midas Tümülüsü"
+    aciklama: "Gordion’un en büyük tümülüslerinden biri; içindeki ahşap mezar odası korunmuştur."
+  - ad: "Kale Höyüğü Anıtsal Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Mozaikli Megaron"
+    aciklama: "Mozaikli Megaron, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Teras Yapıları"
+    aciklama: "Teras Yapıları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Diğer Tümülüsler"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Gordion_Antik_Kenti_%281%29.jpg/500px-Gordion_Antik_Kenti_%281%29.jpg"
   genislik: 500

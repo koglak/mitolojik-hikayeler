@@ -17,6 +17,13 @@ konum:
   enlem: 40.97
   boylam: 27.955
 ilgiliMitler: []
+yapilar:
+  - ad: "Akropol Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Bizans Kilise Kalıntıları"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Head_of_a_youth%2C_perhaps_Hermes_%28SK_Dresden_73%29_01.jpg/500px-Head_of_a_youth%2C_perhaps_Hermes_%28SK_Dresden_73%29_01.jpg"
   genislik: 500

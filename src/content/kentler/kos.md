@@ -23,6 +23,19 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios", "apollon"]
+yapilar:
+  - ad: "Asklepieion"
+    aciklama: "Tapınakları, stoaları ve merdivenleriyle üç terasa yayılan şifa kutsal alanı."
+  - ad: "Apollon Kyparissios Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Antik Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Roma Odeonu"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Casa Romana"
+    aciklama: "Casa Romana, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Batı Kazı Alanı Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Kos-Archaeological_site_quarter_agora-04ASD.jpg/500px-Kos-Archaeological_site_quarter_agora-04ASD.jpg"
   genislik: 500

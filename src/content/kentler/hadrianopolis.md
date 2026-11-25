@@ -17,6 +17,13 @@ konum:
   enlem: 41.0525
   boylam: 32.5378
 ilgiliMitler: []
+yapilar:
+  - ad: "Mozaikli Kiliseler"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Roma Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Mozaikli Villa"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Hadrianapolis_Dec_2025_02.jpg/500px-Hadrianapolis_Dec_2025_02.jpg"
   genislik: 500

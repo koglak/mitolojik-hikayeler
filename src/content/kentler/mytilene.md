@@ -22,6 +22,13 @@ tapinaklar:
 ilgiliMitler: ["orpheus-ve-eurydike", "arion"]
 ilgiliTanrilar: ["apollon", "dionysos"]
 ilgiliKahramanlar: ["orpheus"]
+yapilar:
+  - ad: "Antik Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Mytilene Kalesi"
+    aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+  - ad: "Apollon Maloeis Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mytilene_Montage_L.png/500px-Mytilene_Montage_L.png"
   genislik: 500

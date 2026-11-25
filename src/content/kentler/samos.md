@@ -21,6 +21,17 @@ tapinaklar:
     tanrilar: ["hera"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hera", "zeus"]
+yapilar:
+  - ad: "Heraion"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Eupalinos Tüneli"
+    aciklama: "Samos’un antik kentine su iletmek için dağın iki tarafından başlayarak kazılan tünel."
+  - ad: "Polykrates Limanı ve Mendireği"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Pythagoreion Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Roma Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/SamosAntiqueFortificationWalls.jpg/500px-SamosAntiqueFortificationWalls.jpg"
   genislik: 500

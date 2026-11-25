@@ -27,6 +27,21 @@ tapinaklar:
     tanrilar: ["poseidon"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["demeter", "hades", "persephone", "zeus"]
+yapilar:
+  - ad: "Telesterion"
+    aciklama: "Eleusis Gizemleri’nin kapalı mekân törenlerinde kullanılan büyük salon."
+  - ad: "Büyük Propylaia"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Küçük Propylaia"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Ploutonion"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Artemis Propylaia Tapınağı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Poseidon Pater Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kallichoron Kuyusu"
+    aciklama: "Kallichoron Kuyusu, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg/500px-%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg"
   genislik: 500

@@ -17,6 +17,9 @@ konum:
   enlem: 40.3447
   boylam: 26.6856
 ilgiliMitler: []
+yapilar:
+  - ad: "Antik Liman"
+    aciklama: "Çanakkale Boğazı kıyısında tarihsel kaynaklarda anlatılan liman yerleşimi."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Stater_Zeus_Lampsacus_CdM.jpg/500px-Stater_Zeus_Lampsacus_CdM.jpg"
   genislik: 500

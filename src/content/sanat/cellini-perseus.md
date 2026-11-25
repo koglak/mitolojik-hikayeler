@@ -18,7 +18,7 @@ kaynakca:
     adres: "https://www.visittuscany.com/en/attractions/cellinis-perseus-with-the-head-of-medusa/"
 ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliTanrilar: ["athena", "hermes", "zeus"]
-ilgiliKahramanlar: ["perseus", "andromeda", "danae"]
+ilgiliKahramanlar: ["perseus", "andromeda", "danae", "medusa"]
 ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Perseus_%28Benvenuto_Cellini%29_2013_February.jpg/1280px-Perseus_%28Benvenuto_Cellini%29_2013_February.jpg"

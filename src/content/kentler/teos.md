@@ -23,6 +23,23 @@ tapinaklar:
     tanrilar: ["demeter", "persephone"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
+yapilar:
+  - ad: "Dionysos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Demeter ve Kore Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Sarnıç"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Güney Limanı"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Theater_teos.JPG/500px-Theater_teos.JPG"
   genislik: 500

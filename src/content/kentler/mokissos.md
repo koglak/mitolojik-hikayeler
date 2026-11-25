@@ -17,6 +17,11 @@ konum:
   enlem: 38.1856
   boylam: 34.2072
 ilgiliMitler: []
+yapilar:
+  - ad: "Taş Konutlar"
+    aciklama: "Yamaçtaki mahallelerde geç antik kentin taş duvarlı konutları görülür."
+  - ad: "Kiliseler"
+    aciklama: "Yerleşimin çeşitli kesimlerine dağılmış geç antik kilise kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mokisos_%28Viran%C5%9Fehir%29_with_Hasan_Da%C4%9F%C4%B1.jpg/500px-Mokisos_%28Viran%C5%9Fehir%29_with_Hasan_Da%C4%9F%C4%B1.jpg"
   genislik: 500

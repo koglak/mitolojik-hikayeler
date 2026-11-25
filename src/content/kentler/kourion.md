@@ -21,6 +21,23 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Apollon Hylates Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Eustolios Evi"
+    aciklama: "Kourion’da mozaikli avluları ve küçük hamamları olan geç antik yapı kompleksi."
+  - ad: "Akhilleus Evi"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Gladyatörler Evi"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Roma Forumu"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Erken Hristiyanlık Bazilikası"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/047Zypern_Kourion_Forum_%2814039478186%29.jpg/500px-047Zypern_Kourion_Forum_%2814039478186%29.jpg"
   genislik: 500

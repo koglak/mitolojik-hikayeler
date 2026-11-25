@@ -22,6 +22,17 @@ tapinaklar:
   - ad: "Afrodit Tapınağı (Urla)"
     tanrilar: ["afrodit"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Zeytinyağı İşliği"
+    aciklama: "Zeytinyağı İşliği, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Nekropol"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Afrodit Tapınağı (Urla)"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Arkaik Konut Kalıntıları"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Klazomenai_4th_cent_houses_%281991%29.jpg/500px-Klazomenai_4th_cent_houses_%281991%29.jpg"
   genislik: 500

@@ -18,6 +18,17 @@ konum:
   boylam: 30.1700
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Perikles Heroonu"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Gaius Caesar Kenotafı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kaya Nekropolleri"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Roma Köprüsü"
+    aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bridge_near_Limyra._Pic_04.jpg/500px-Bridge_near_Limyra._Pic_04.jpg"
   genislik: 500

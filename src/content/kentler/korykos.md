@@ -21,6 +21,17 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: ["prometheus"]
 ilgiliTanrilar: ["gaia", "hermes", "zeus"]
+yapilar:
+  - ad: "Kızkalesi"
+    aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+  - ad: "Kara Kalesi"
+    aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+  - ad: "Zeus Korykios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Meryem Ana Kilisesi (Cennet Obruğu)"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Nekropol"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Fortressarmenians5.jpg/500px-Fortressarmenians5.jpg"
   genislik: 500

@@ -19,6 +19,19 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+yapilar:
+  - ad: "Zeus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Tiyatro ve Stadyum"
+    aciklama: "Bitişik inşa edilmiş iki Roma gösteri ve yarış yapısı."
+  - ad: "Macellum"
+    aciklama: "Fiyat fermanıyla tanınan yuvarlak pazar yapısı."
+  - ad: "Roma Köprüleri"
+    aciklama: "Kocaçay üzerinde kentin iki yakasını bağlayan taş köprüler."
+  - ad: "Hamamlar"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Aizanoi_Zeus_temple_2120.jpg/500px-Aizanoi_Zeus_temple_2120.jpg"
   genislik: 500

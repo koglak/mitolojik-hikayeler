@@ -21,6 +21,11 @@ tapinaklar:
     tanrilar: ["asklepios"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios"]
+yapilar:
+  - ad: "Kaplıca kompleksi"
+    aciklama: "Sıcak su kaynağı çevresinde örgütlenen Roma hamam ve tedavi yapıları."
+  - ad: "Roma Köprüsü"
+    aciklama: "Kaplıca yerleşiminin iki yakası arasında geçiş sağlayan köprü kalıntısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Allianoi_view2007.jpg/500px-Allianoi_view2007.jpg"
   genislik: 500

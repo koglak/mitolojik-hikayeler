@@ -25,6 +25,13 @@ tapinaklar:
     tanrilar: ["asklepios"]
 ilgiliMitler: ["titanlar-savasi"]
 ilgiliTanrilar: ["apollon", "hephaistos", "hera", "kronos", "zeus"]
+yapilar:
+  - ad: "Zeus Olympios Kutsal Alanı (Dion)"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Demeter Kutsal Alanı (Dion)"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Asklepios Kutsal Alanı (Dion)"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Mt_Olympus_aerial_2.jpg/500px-Mt_Olympus_aerial_2.jpg"
   genislik: 500

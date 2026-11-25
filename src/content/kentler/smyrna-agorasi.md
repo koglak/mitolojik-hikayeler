@@ -16,6 +16,15 @@ konum:
   boylam: 27.1394
 ilgiliMitler: []
 ilgiliTanrilar: ["demeter", "nemesis", "poseidon"]
+yapilar:
+  - ad: "Agora Bazilikası"
+    aciklama: "Kemerli alt katı, antik duvar yazılarıyla tanınır."
+  - ad: "Batı Stoa"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
+  - ad: "Faustina Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Agora Avlusu"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Agora_of_Smyrna.jpg/500px-Agora_of_Smyrna.jpg"
   genislik: 500

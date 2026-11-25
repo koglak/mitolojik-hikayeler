@@ -18,6 +18,17 @@ konum:
   boylam: 38.0156
 ilgiliMitler: []
 ilgiliTanrilar: ["kybele"]
+yapilar:
+  - ad: "Büyük Merdiven"
+    aciklama: "Aşağı kentten akropol yönüne çıkan anıtsal geçiş."
+  - ad: "Kral Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Fırtına Tanrısı Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Uzun Kabartma Duvarı"
+    aciklama: "Uzun Kabartma Duvarı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Kent Tahkimatı"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Museum_of_Anatolian_Civilizations091.jpg/500px-Museum_of_Anatolian_Civilizations091.jpg"
   genislik: 500

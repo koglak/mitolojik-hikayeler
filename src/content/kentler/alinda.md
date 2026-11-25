@@ -17,6 +17,15 @@ konum:
   enlem: 37.5583
   boylam: 27.8306
 ilgiliMitler: []
+yapilar:
+  - ad: "Pazar Binası"
+    aciklama: "Yamacın eğimini değerlendiren üç katlı pazar yapısı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kent surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Su kemeri"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alinda_Aquaeduct.JPG/500px-Alinda_Aquaeduct.JPG"
   genislik: 500

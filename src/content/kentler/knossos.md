@@ -19,6 +19,21 @@ konum:
 ilgiliMitler: ["ikaros", "theseus-ve-minotauros", "europa"]
 ilgiliTanrilar: ["poseidon", "zeus"]
 ilgiliKahramanlar: ["ariadne", "theseus"]
+yapilar:
+  - ad: "Minos Sarayı"
+    aciklama: "Orta avlu etrafındaki çok katlı saray, tören mekânları, atölyeler ve depolar içerir."
+  - ad: "Taht Odası"
+    aciklama: "Knossos sarayında taş tahtın yerinde korunduğu, griffon figürleriyle tanınan oda."
+  - ad: "Kuzey Girişi ve Sütunlu Geçit"
+    aciklama: "Knossos sarayında kuzeyden gelen geçişin ve ona bitişik sütunlu kesimin kalıntıları."
+  - ad: "Batı Depoları"
+    aciklama: "Knossos sarayında büyük küplerin dizildiği dar ve uzun depo odaları."
+  - ad: "Büyük Merdiven"
+    aciklama: "Knossos sarayının doğu kanadındaki katlar arasında bağlantı kuran merdiven."
+  - ad: "Kraliyet Villası"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Küçük Saray"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Knossos_-_North_Portico_02.jpg/500px-Knossos_-_North_Portico_02.jpg"
   genislik: 500

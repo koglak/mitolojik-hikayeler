@@ -19,6 +19,11 @@ konum:
 ilgiliMitler: ["tantalos", "niobe"]
 ilgiliTanrilar: ["apollon", "artemis", "leto"]
 ilgiliKahramanlar: ["niobe", "pelops", "tantalos"]
+yapilar:
+  - ad: "Taş Suret Kabartması"
+    aciklama: "Spil Dağı’nın eteğinde kayaya işlenmiş Tunç Çağı anıtı."
+  - ad: "Tantalos ile İlişkilendirilen Mezar"
+    aciklama: "Pausanias, Sipylos’ta Tantalos’un mezarının gösterildiğini aktarır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mount_Sipylus_Manisa_Turkey_Atalani_Lake.jpg/500px-Mount_Sipylus_Manisa_Turkey_Atalani_Lake.jpg"
   genislik: 500

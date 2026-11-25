@@ -19,6 +19,15 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["poseidon"]
 ilgiliKahramanlar: ["herakles", "menelaos", "nestor", "odysseus"]
+yapilar:
+  - ad: "Nestor Sarayı"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Saray Depoları ve Arşiv Odaları"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Griffin Savaşçısı Mezarı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Tholos Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/20190508_088_pylos_nestor.jpg/500px-20190508_088_pylos_nestor.jpg"
   genislik: 500

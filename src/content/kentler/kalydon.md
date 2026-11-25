@@ -24,6 +24,17 @@ tapinaklar:
 ilgiliMitler: ["atalante"]
 ilgiliTanrilar: ["artemis", "apollon"]
 ilgiliKahramanlar: ["meleagros", "atalanta", "deianeira", "tydeus"]
+yapilar:
+  - ad: "Laphrion Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Artemis Laphria Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Apollon Laphrios ile İlişkilendirilen Tapınak"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Heroon"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Calydon_Aetolia_2010.JPG/500px-Calydon_Aetolia_2010.JPG"
   genislik: 500

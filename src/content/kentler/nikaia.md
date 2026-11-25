@@ -18,6 +18,23 @@ konum:
   boylam: 29.7211
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
+yapilar:
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "İstanbul Kapı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Lefke Kapı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Yenişehir Kapı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Göl Kapı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "İznik Ayasofyası"
+    aciklama: "İznik Ayasofyası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Roma Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Göl Bazilikası"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Nicaea_theatre_990.jpg/500px-Nicaea_theatre_990.jpg"
   genislik: 500

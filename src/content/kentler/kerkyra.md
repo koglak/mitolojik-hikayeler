@@ -24,6 +24,13 @@ tapinaklar:
 ilgiliMitler: ["perseus-ve-medusa", "odysseus", "argonotlar"]
 ilgiliTanrilar: ["artemis", "hera"]
 ilgiliKahramanlar: ["perseus", "odysseus", "iason", "medeia"]
+yapilar:
+  - ad: "Artemis Tapınağı"
+    aciklama: "Gorgon alınlığıyla tanınan Dor tapınağı."
+  - ad: "Heraion"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Palaiopolis Bazilikası"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Stgeorgetemple.jpg/500px-Stgeorgetemple.jpg"
   genislik: 500

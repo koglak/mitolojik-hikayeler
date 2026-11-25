@@ -16,6 +16,17 @@ konum:
   boylam: 27.0703
 ilgiliMitler: []
 ilgiliTanrilar: ["eros", "afrodit"]
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Odeon"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Nekropol"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Plan_des_ruines_de_Parium_-_Choiseul-gouffier_Gabriel_Florent_Auguste_De_-_1822.jpg/500px-Plan_des_ruines_de_Parium_-_Choiseul-gouffier_Gabriel_Florent_Auguste_De_-_1822.jpg"
   genislik: 500

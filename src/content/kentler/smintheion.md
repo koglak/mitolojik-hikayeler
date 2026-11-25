@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: ["truva-ati", "akhilleus"]
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["agamemnon", "akhilleus"]
+yapilar:
+  - ad: "Apollon Smintheus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kutsal Yol"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Roma Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Su Depoları"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Smintheion_2025-08-30_16-18-29.jpg/500px-Smintheion_2025-08-30_16-18-29.jpg"
   genislik: 500

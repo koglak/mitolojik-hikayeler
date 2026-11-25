@@ -21,6 +21,13 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Kent surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Yarımada Köprüsü"
+    aciklama: "Gölyazı yarımadasını karaya bağlayan geçiş."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik kentin Apollon kültüyle ilişkilendirilen kutsal yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollonia_ad_Rhyndacum%2C_Tor_der_byzantinischen_Burg.jpg/500px-Apollonia_ad_Rhyndacum%2C_Tor_der_byzantinischen_Burg.jpg"
   genislik: 500

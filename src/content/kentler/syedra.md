@@ -18,6 +18,19 @@ konum:
   boylam: 32.1506
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "ares", "hermes"]
+yapilar:
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Sarnıçlar"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+  - ad: "Hamam"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Vaftiz Mağarası"
+    aciklama: "Vaftiz Mağarası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Kent Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Bazilika"
+    aciklama: "Antik bazilikal planlı yapının temelleri ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Syedra_-_panoramio_-_matzi01.jpg/500px-Syedra_-_panoramio_-_matzi01.jpg"
   genislik: 500

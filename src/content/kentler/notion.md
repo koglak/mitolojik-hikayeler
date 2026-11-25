@@ -21,6 +21,15 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Olası Athena Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Notion_theatre_7.jpg/500px-Notion_theatre_7.jpg"
   genislik: 500

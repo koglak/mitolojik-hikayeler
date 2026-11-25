@@ -22,6 +22,13 @@ tapinaklar:
 ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe", "altin-koc"]
 ilgiliTanrilar: ["athena", "dionysos", "zeus"]
 ilgiliKahramanlar: ["antigone", "herakles", "kadmos", "oidipus"]
+yapilar:
+  - ad: "Kadmeia Miken Sarayı"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Apollon Ismenios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Miken Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Thebes-1.jpg/500px-Thebes-1.jpg"
   genislik: 500

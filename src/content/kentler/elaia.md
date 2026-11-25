@@ -17,6 +17,9 @@ konum:
   enlem: 38.9369
   boylam: 27.0442
 ilgiliMitler: []
+yapilar:
+  - ad: "Antik Liman ve Mendirekler"
+    aciklama: "Bergama’nın kıyı bağlantısını sağlayan limanın kısmen su altında kalan yapıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ruins_in_Elaea.jpg/500px-Ruins_in_Elaea.jpg"
   genislik: 500

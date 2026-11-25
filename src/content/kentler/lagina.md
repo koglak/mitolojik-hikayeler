@@ -21,6 +21,17 @@ tapinaklar:
     tanrilar: ["hekate"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hekate", "zeus"]
+yapilar:
+  - ad: "Hekate Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Propylon"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Hekate Sunağı"
+    aciklama: "Hekate Sunağı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Stoalar"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
+  - ad: "Kutsal Yol"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Lagina-1-CTH.JPG/500px-Lagina-1-CTH.JPG"
   genislik: 500

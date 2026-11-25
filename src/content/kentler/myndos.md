@@ -15,6 +15,13 @@ konum:
   enlem: 37.0567
   boylam: 27.2367
 ilgiliMitler: []
+yapilar:
+  - ad: "Liman Kalıntıları"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Tavşan Adası Yapı Kalıntıları"
+    aciklama: "Tavşan Adası Yapı Kalıntıları, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Myndos_%28Tav%C5%9Fan_Adas%C4%B1%29.jpg/500px-Myndos_%28Tav%C5%9Fan_Adas%C4%B1%29.jpg"
   genislik: 500

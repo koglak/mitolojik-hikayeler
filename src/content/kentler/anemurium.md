@@ -17,6 +17,17 @@ konum:
   enlem: 36.0247
   boylam: 32.8017
 ilgiliMitler: []
+yapilar:
+  - ad: "Nekropol"
+    aciklama: "Yerleşimin yamacına yayılan, bazıları çok odalı ve tonozlu mezar yapıları."
+  - ad: "Hamamlar"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Odeon"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kent surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Turkey%2C_Anamur_-_Anemurion_01.jpg/500px-Turkey%2C_Anamur_-_Anemurion_01.jpg"
   genislik: 500

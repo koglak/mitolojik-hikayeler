@@ -18,6 +18,9 @@ konum:
   boylam: 25.4453
 ilgiliMitler: ["titanlar-savasi"]
 ilgiliTanrilar: ["kronos", "rhea", "zeus"]
+yapilar:
+  - ad: "Dikte Kutsal Mağarası"
+    aciklama: "Doğal mağara, arkeolojik kazılarda ortaya çıkan tunç adaklar sayesinde antik bir kült alanı olarak belgelenmiştir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cave_Dikti12%28js%29.jpg/500px-Cave_Dikti12%28js%29.jpg"
   genislik: 500

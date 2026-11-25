@@ -17,6 +17,9 @@ konum:
   enlem: 37.7864
   boylam: 29.2614
 ilgiliMitler: []
+yapilar:
+  - ad: "Kolossai Höyüğü"
+    aciklama: "Yerleşim katmanlarını örten höyük, kentin görülebilen başlıca arkeolojik alanıdır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Colossae.jpg/500px-Colossae.jpg"
   genislik: 500

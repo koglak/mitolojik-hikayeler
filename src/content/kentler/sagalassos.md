@@ -21,6 +21,31 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
+yapilar:
+  - ad: "Antoninler Çeşmesi"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Yukarı Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Aşağı Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Dor Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Hadrianus ve Antoninus Pius Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Neon Kütüphanesi"
+    aciklama: "Yazılı eserlerin saklanması ve okunması için kullanılan antik yapı."
+  - ad: "Helenistik Çeşme"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Macellum"
+    aciklama: "Alışveriş ve ürünlerin dağıtımı için düzenlenen kamusal ticaret yapısı."
+  - ad: "Kaya Nekropolü"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Sagalassos_Overview.jpg/500px-Sagalassos_Overview.jpg"
   genislik: 500

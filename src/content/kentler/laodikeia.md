@@ -20,6 +20,25 @@ tapinaklar:
   - ad: "Zeus Tapınağı"
     tanrilar: ["zeus"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Suriye Caddesi"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Batı Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kuzey Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Laodikeia Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Zeus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Merkez Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Güney Hamamı ve Gymnasionu"
+    aciklama: "Yıkanma ve beden eğitimi için kullanılan bölümleri bir araya getiren yapı kompleksi."
+  - ad: "Nymphaionlar"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/S%C3%BCtun.jpg/500px-S%C3%BCtun.jpg"
   genislik: 500

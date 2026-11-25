@@ -19,6 +19,15 @@ konum:
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["apollon", "kybele"]
 ilgiliKahramanlar: ["midas"]
+yapilar:
+  - ad: "Midas Anıtı"
+    aciklama: "Midas Anıtı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Bitmemiş Anıt"
+    aciklama: "Midas Şehri’nde bezemeli kaya cephesinin yapım aşamalarını gösteren tamamlanmamış anıt."
+  - ad: "Kaya Sunakları"
+    aciklama: "Antik kült törenlerinde sunuların bırakıldığı yapı."
+  - ad: "Kaya Basamakları ve Sarnıçlar"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Midas_City_Midas_Monument_from_E_%281993%29_01.jpg/500px-Midas_City_Midas_Monument_from_E_%281993%29_01.jpg"
   genislik: 500

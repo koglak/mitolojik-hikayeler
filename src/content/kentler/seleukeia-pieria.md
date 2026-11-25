@@ -17,6 +17,13 @@ konum:
   enlem: 36.1236
   boylam: 35.9311
 ilgiliMitler: []
+yapilar:
+  - ad: "Vespasianus–Titus Tüneli"
+    aciklama: "Bir yamacın veya yapı kütlesinin içinden geçen örtülü güzergâh."
+  - ad: "Beşikli Mağara Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Antik Liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/S%C3%A9leucie.jpg/500px-S%C3%A9leucie.jpg"
   genislik: 500

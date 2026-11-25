@@ -22,6 +22,13 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["kalkhas", "mopsos"]
+yapilar:
+  - ad: "Apollon Tapınağı"
+    aciklama: "Merdivenle ulaşılan yeraltı odaları kehanet törenleriyle ilişkilidir."
+  - ad: "Apollon Sunağı"
+    aciklama: "Apollon Sunağı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Propylon"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/500px-Klaros01.jpg"
   genislik: 500

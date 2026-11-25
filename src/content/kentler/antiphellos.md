@@ -15,6 +15,13 @@ konum:
   enlem: 36.1997
   boylam: 29.6347
 ilgiliMitler: []
+yapilar:
+  - ad: "Helenistik Tiyatro"
+    aciklama: "Denize bakan yamaca oturan tiyatronun taş oturma sıraları korunmuştur."
+  - ad: "Kral Mezarı"
+    aciklama: "Kaş merkezinde görülen Likya tipi anıtsal lahit."
+  - ad: "Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg/500px-Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg"
   genislik: 500

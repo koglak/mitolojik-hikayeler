@@ -18,6 +18,13 @@ konum:
   boylam: 33.3236
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
+yapilar:
+  - ad: "Odeon"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Anıt Mezar"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Liman Yapıları"
+    aciklama: "Kıyı yerleşiminin limanı, kenti betimleyen geç antik mozaikte de görülür."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kelenderis1.jpg/500px-Kelenderis1.jpg"
   genislik: 500

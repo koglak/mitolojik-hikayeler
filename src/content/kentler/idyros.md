@@ -15,6 +15,9 @@ konum:
   enlem: 36.6017
   boylam: 30.5636
 ilgiliMitler: []
+yapilar:
+  - ad: "Mozaikli Bizans Bazilikası"
+    aciklama: "Kemer’deki kazılarda ortaya çıkarılan kilisenin tabanında desenli mozaikler bulunur."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kemerayisigi.jpg/500px-Kemerayisigi.jpg"
   genislik: 500

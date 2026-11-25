@@ -22,6 +22,21 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["herakles"]
+yapilar:
+  - ad: "Athena Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kent Surları ve Batı Kapısı"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Nekropol"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Gymnasion"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Assos_Athena_temple_029.jpg/500px-Assos_Athena_temple_029.jpg"
   genislik: 500

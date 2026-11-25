@@ -15,6 +15,13 @@ konum:
   enlem: 39.7186
   boylam: 26.2381
 ilgiliMitler: []
+yapilar:
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Aiol Tapınağı"
+    aciklama: "Aiol tipi sütun başlıklarıyla tanınan tapınaktan temel izleri kalmıştır."
+  - ad: "Kayaya Oyulmuş Yollar"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
 kunyeGorseli:
   adres: "https://upload.wikimedia.org/wikipedia/commons/4/45/Aeolic_capital_from_Neandria.jpg"
   genislik: 500

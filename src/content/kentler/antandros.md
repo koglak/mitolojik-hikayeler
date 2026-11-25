@@ -17,6 +17,11 @@ konum:
   enlem: 39.5686
   boylam: 26.7792
 ilgiliMitler: ["guzellik-yarismasi"]
+yapilar:
+  - ad: "Roma Villası"
+    aciklama: "Yamaçtaki villada mozaik döşemeler ve boyalı duvarlar ortaya çıkarıldı."
+  - ad: "Nekropol"
+    aciklama: "Kent mezarlığında farklı dönemlere ait gömü biçimleri görülebilir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Antandros3.jpg/500px-Antandros3.jpg"
   genislik: 500

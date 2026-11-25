@@ -17,6 +17,15 @@ konum:
   enlem: 36.7369
   boylam: 34.5417
 ilgiliMitler: []
+yapilar:
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Liman Mendireği"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Soli Höyüğü"
+    aciklama: "Kıyıdaki Roma yapılarından daha eski iskân katmanlarını barındıran höyük."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/ViransehirS%C3%A4ulen.jpg/500px-ViransehirS%C3%A4ulen.jpg"
   genislik: 500

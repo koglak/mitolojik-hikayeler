@@ -23,6 +23,13 @@ tapinaklar:
     tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Apollon Tapınağı"
+    aciklama: "Açık avlulu, anıtsal İon tapınağı ve kehanet merkezi."
+  - ad: "Artemis Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kutsal Yol"
+    aciklama: "Milet ile Didyma arasındaki tören güzergâhı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Didim_RB10.jpg/500px-Didim_RB10.jpg"
   genislik: 500

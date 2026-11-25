@@ -21,6 +21,9 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Apollon Epikourios Tapınağı"
+    aciklama: "Dor dış dizisini, İon iç düzenini ve Korinth başlığını bir araya getiren tapınak."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/1972_bassai_temple.jpg/500px-1972_bassai_temple.jpg"
   genislik: 500

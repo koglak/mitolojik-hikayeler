@@ -24,6 +24,15 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "poseidon"]
 ilgiliKahramanlar: ["menelaos"]
+yapilar:
+  - ad: "Poseidon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Athena Sounias Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kıyı Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Gemi Barınakları"
+    aciklama: "Gemi Barınakları, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg/500px-Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg"
   genislik: 500

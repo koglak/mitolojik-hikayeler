@@ -32,6 +32,31 @@ tapinaklar:
 ilgiliMitler: ["theseus-ve-minotauros", "athena-ve-poseidon"]
 ilgiliTanrilar: ["athena", "dionysos", "poseidon"]
 ilgiliKahramanlar: ["theseus"]
+yapilar:
+  - ad: "Parthenon"
+    aciklama: "Akropolis’in Athena’ya adanmış Dor düzenindeki büyük tapınağı."
+  - ad: "Erekhtheion"
+    aciklama: "Erekhtheion, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Athena Nike Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Propylaia"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Hephaisteion"
+    aciklama: "Hephaisteion, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Olympieion"
+    aciklama: "Olympieion, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Dionysos Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Dionysos Eleuthereus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Herodes Atticus Odeonu"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Attalos Stoası"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
+  - ad: "Panathenaik Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Rüzgârlar Kulesi"
+    aciklama: "Yüksekliğiyle çevresindeki açıklığa hâkim olan taş yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg/500px-Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg"
   genislik: 500

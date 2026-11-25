@@ -18,6 +18,21 @@ tapinaklar:
   - ad: "Apollon Lairbenos Tapınağı"
     tanrilar: ["apollon"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Kapalı Pazar Yeri"
+    aciklama: "Alışveriş ve ürünlerin dağıtımı için düzenlenen kamusal ticaret yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Anıtsal Çeşme"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tripolis_in_Phrygia_Buldan_Denizli2.jpg/500px-Tripolis_in_Phrygia_Buldan_Denizli2.jpg"
   genislik: 500

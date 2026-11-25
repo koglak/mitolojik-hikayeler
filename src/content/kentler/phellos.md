@@ -15,6 +15,13 @@ konum:
   enlem: 36.2111
   boylam: 29.6436
 ilgiliMitler: []
+yapilar:
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Boğa Kabartmalı Mezar"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/LycianTombPhellos.jpg/500px-LycianTombPhellos.jpg"
   genislik: 500

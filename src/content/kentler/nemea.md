@@ -22,6 +22,17 @@ tapinaklar:
 ilgiliMitler: ["herakles"]
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["herakles"]
+yapilar:
+  - ad: "Zeus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Stadyum Tüneli"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Hamam"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Erken Hristiyanlık Bazilikası"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Nemea_Stadion_2008-09-12.jpg/500px-Nemea_Stadion_2008-09-12.jpg"
   genislik: 500

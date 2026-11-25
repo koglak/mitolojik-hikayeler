@@ -39,6 +39,18 @@ yapilar:
       lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
       kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aqueduct_of_Aspendos_03.jpg"
       alt: "Aspendos su kemerinin uzun taş kemerleri"
+  - ad: "Bazilika"
+    aciklama: "Yukarı kentte, agoranın yanında yer alan Roma kamu yapısı."
+  - ad: "Agora"
+    aciklama: "Akropol platosundaki kamusal meydan."
+  - ad: "Nymphaion"
+    aciklama: "Agoraya bakan anıtsal çeşme cephesinden duvarlar ayaktadır."
+  - ad: "Bouleuterion"
+    aciklama: "Üst kentte yer alan meclis yapısı."
+  - ad: "Stadyum"
+    aciklama: "Tiyatro yakınında yer alan yarış alanı."
+  - ad: "Kent Kapıları"
+    aciklama: "Yukarı kente çıkan güzergâhlarda görülen giriş kalıntıları."
 ilgiliMitler: []
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Aspendos_Amphitheatre.jpg/500px-Aspendos_Amphitheatre.jpg"

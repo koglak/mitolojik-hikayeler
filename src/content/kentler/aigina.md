@@ -19,6 +19,11 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["akhilleus"]
+yapilar:
+  - ad: "Aphaia Tapınağı"
+    aciklama: "Adanın doğusundaki tepede yer alan, Dor düzeninde sütunlu kutsal yapı."
+  - ad: "Kolonna Apollon Kutsal Alanı"
+    aciklama: "Aigina limanı yakınındaki alanda tapınağın ayakta kalan sütunu görülür."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Temple_of_Aphaia%2C_Aegina%2C_Greece_2016-08-05.jpg/500px-Temple_of_Aphaia%2C_Aegina%2C_Greece_2016-08-05.jpg"
   genislik: 500

@@ -20,6 +20,15 @@ tapinaklar:
   - ad: "Apollon Tapınağı"
     tanrilar: ["apollon"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Antik Liman"
+    aciklama: "Kıyı yerleşiminin deniz yoluyla ulaşımına hizmet eden antik liman düzenlemesi."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "İsis Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ancient_City_Cyme-12.jpg/500px-Ancient_City_Cyme-12.jpg"
   genislik: 500

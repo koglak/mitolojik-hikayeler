@@ -18,6 +18,21 @@ konum:
   boylam: 29.3186
 ilgiliMitler: ["bellerophon", "leto-ve-koyluler"]
 ilgiliKahramanlar: ["glaukos", "sarpedon"]
+yapilar:
+  - ad: "Harpy Anıtı"
+    aciklama: "Harpy Anıtı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Nereidler Anıtı"
+    aciklama: "Anıtın temeli ören yerinde, mimari ve heykel parçaları British Museum’dadır."
+  - ad: "Yazıtlı Dikme"
+    aciklama: "Ksanthos’ta antik kentin tarihinde önemli yeri olan Likçe ve Yunanca metinleri taşıyan anıt."
+  - ad: "Likya Lahitleri"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Roma Agorası"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Bazilika"
+    aciklama: "Antik bazilikal planlı yapının temelleri ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Entrance_into_theatre_of_Xanthos.jpg/500px-Entrance_into_theatre_of_Xanthos.jpg"
   genislik: 500

@@ -21,6 +21,25 @@ tapinaklar:
     tanrilar: ["hera", "athena"]
 ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliKahramanlar: ["agamemnon", "orestes", "perseus"]
+yapilar:
+  - ad: "Aslanlı Kapı"
+    aciklama: "Giriş açıklığının üstünde iki aslanın bulunduğu kabartma levhasıyla tanınan ana kapı."
+  - ad: "A Mezar Çemberi"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "B Mezar Çemberi"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Atreus Hazinesi"
+    aciklama: "Taş bindirme tekniğiyle örtülen ve uzun bir giriş yoluyla ulaşılan Miken tholos mezarı."
+  - ad: "Klytaimnestra Mezarı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Kraliyet Sarayı"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Kyklop Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Yeraltı Sarnıcı"
+    aciklama: "Yeraltı Sarnıcı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Kült Merkezi"
+    aciklama: "Kült Merkezi, ören yerinin belgelenen mimari kalıntıları arasındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mycenae_ruins_dsc06390.jpg/500px-Mycenae_ruins_dsc06390.jpg"
   genislik: 500

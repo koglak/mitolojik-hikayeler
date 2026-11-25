@@ -21,6 +21,21 @@ tapinaklar:
     tanrilar: ["asklepios"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "asklepios", "zeus"]
+yapilar:
+  - ad: "Kutsal Yol"
+    aciklama: "Bergama’dan şifa merkezine ulaşan tören yolu."
+  - ad: "Kutsal Kaynak"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Yeraltı Geçidi"
+    aciklama: "Kaynak bölgesiyle tedavi yapısının bulunduğu kesimi bağlayan tonozlu geçit."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Asklepios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Dairesel Tedavi Yapısı"
+    aciklama: "Dairesel Tedavi Yapısı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Kuzey Stoa"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/PergamonAsklepieionHofundTheater.jpg/500px-PergamonAsklepieionHofundTheater.jpg"
   genislik: 500

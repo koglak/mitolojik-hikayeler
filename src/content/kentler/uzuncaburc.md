@@ -21,6 +21,21 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+yapilar:
+  - ad: "Zeus Olbios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Helenistik Kule"
+    aciklama: "Yüksekliğiyle çevresindeki açıklığa hâkim olan taş yapı."
+  - ad: "Tykhe Tapınağı"
+    aciklama: "Kentin talih ve koruyucu tanrıçası Tykhe ile ilişkilendirilen kutsal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Zafer Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Anıt Mezar"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Hellenistik_temple_in_Uzuncabur%C3%A7%2C_Turkey.jpg/500px-Hellenistik_temple_in_Uzuncabur%C3%A7%2C_Turkey.jpg"
   genislik: 500

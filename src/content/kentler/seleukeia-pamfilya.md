@@ -15,6 +15,13 @@ konum:
   enlem: 36.8525
   boylam: 31.5636
 ilgiliMitler: []
+yapilar:
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "İki Katlı Pazar Binası"
+    aciklama: "Alışveriş ve ürünlerin dağıtımı için düzenlenen kamusal ticaret yapısı."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Seleukia%28Turkey%292012.jpg/500px-Seleukia%28Turkey%292012.jpg"
   genislik: 500

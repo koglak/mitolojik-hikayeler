@@ -21,6 +21,19 @@ tapinaklar:
     tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliKahramanlar: ["kalkhas"]
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Oluk Köprü"
+    aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
+  - ad: "Zeus ile İlişkilendirilen Tapınak"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Artemis ile İlişkilendirilen Tapınak"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/SelgeTheater.jpg/500px-SelgeTheater.jpg"
   genislik: 500

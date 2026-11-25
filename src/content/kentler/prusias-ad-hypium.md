@@ -17,6 +17,15 @@ konum:
   enlem: 40.905
   boylam: 31.1531
 ilgiliMitler: []
+yapilar:
+  - ad: "Antik Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Atlı Kapı"
+    aciklama: "Konuralp’te, bugün görülebilen sur ve geçit kalıntılarından biri."
+  - ad: "Su Kemerleri"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Prusias_ad_Hypium_10.jpg/500px-Prusias_ad_Hypium_10.jpg"
   genislik: 500

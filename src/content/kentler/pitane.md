@@ -17,6 +17,11 @@ konum:
   enlem: 38.9336
   boylam: 26.9364
 ilgiliMitler: []
+yapilar:
+  - ad: "Antik Yerleşim Alanı"
+    aciklama: "Antik kentin kalıntıları, büyük bölümü modern Çandarlı dokusunun altında kalan yarımadadadır."
+  - ad: "Çandarlı Kalesi"
+    aciklama: "Antik Pitane yarımadasında yer alan daha geç tarihli tahkimat."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bergama_Museum_Kouros_147.jpg/500px-Bergama_Museum_Kouros_147.jpg"
   genislik: 500

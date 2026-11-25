@@ -22,6 +22,21 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["herakles", "hippolyte", "omphale"]
+yapilar:
+  - ad: "Zeus Labraundos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Mausolos Andronu"
+    aciklama: "Mausolos Andronu, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Idrieus Andronu"
+    aciklama: "Idrieus Andronu, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Anıtsal Merdiven"
+    aciklama: "Anıtsal Merdiven, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Propylonlar"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Kutsal Yol"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Anıt Mezar"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%D0%9B%D0%B0%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D0%B0._%D0%A2%D0%B5%D1%80%D1%80%D0%B0%D1%81%D0%B0.jpg/500px-%D0%9B%D0%B0%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D0%B0._%D0%A2%D0%B5%D1%80%D1%80%D0%B0%D1%81%D0%B0.jpg"
   genislik: 500

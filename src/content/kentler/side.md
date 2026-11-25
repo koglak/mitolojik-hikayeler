@@ -25,6 +25,27 @@ tapinaklar:
     tanrilar: ["tyche"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "athena"]
+yapilar:
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Athena Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Tykhe Tapınağı"
+    aciklama: "Kentin talih ve koruyucu tanrıçası Tykhe ile ilişkilendirilen kutsal yapı."
+  - ad: "Büyük Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Ticaret Agorası"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Devlet Agorası"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Agora Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Anıtsal Çeşme"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Kent Kapıları ve Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Liman Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Side.Great_Gate%2802%29.jpg/500px-Side.Great_Gate%2802%29.jpg"
   genislik: 500

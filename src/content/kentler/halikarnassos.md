@@ -23,6 +23,19 @@ tapinaklar:
     tanrilar: ["afrodit", "hermes"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hermes", "afrodit"]
+yapilar:
+  - ad: "Mausoleion"
+    aciklama: "Mausolos’un anıt mezarının kazıyla açığa çıkarılan temelleri."
+  - ad: "Antik Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Myndos Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Bodrum Kalesi"
+    aciklama: "Orta Çağ kalesinde Mausoleion’dan alınmış taşlar da kullanıldı."
+  - ad: "Ares Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Salmakis Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/The_ruins_of_the_Mausoleum_at_Halicarnassus.jpg/500px-The_ruins_of_the_Mausoleum_at_Halicarnassus.jpg"
   genislik: 500

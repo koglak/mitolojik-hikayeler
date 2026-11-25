@@ -17,6 +17,13 @@ konum:
   enlem: 37.9651
   boylam: 33.1053
 ilgiliMitler: []
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Bizans Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Çocuk Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Monnaie_-_Bronze%2C_Savatra%2C_Lycaonie%2C_Antonin_Le_Pieux_-_btv1b8516632g_%282_of_2%29.jpg/500px-Monnaie_-_Bronze%2C_Savatra%2C_Lycaonie%2C_Antonin_Le_Pieux_-_btv1b8516632g_%282_of_2%29.jpg"
   genislik: 500

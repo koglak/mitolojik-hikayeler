@@ -22,6 +22,17 @@ tapinaklar:
 ilgiliMitler: ["akhilleus", "perseus-ve-medusa"]
 ilgiliTanrilar: ["dionysos", "poseidon"]
 ilgiliKahramanlar: ["akhilleus", "andromeda", "ariadne", "odysseus", "perseus"]
+yapilar:
+  - ad: "Poseidon Villası"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Euphrates Villası"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Dionysos Villası"
+    aciklama: "Yerleşimin konut mimarisini gösteren yapı veya yapı kalıntıları."
+  - ad: "Tykhe Tapınağı"
+    aciklama: "Kentin talih ve koruyucu tanrıçası Tykhe ile ilişkilendirilen kutsal yapı."
+  - ad: "Fırat Geçişi"
+    aciklama: "Antik kaynaklarda kentin iki yakasını birleştiren köprüyle anılan geçiş noktası."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Zeugma.jpg/500px-Zeugma.jpg"
   genislik: 500

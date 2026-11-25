@@ -17,6 +17,19 @@ konum:
   enlem: 36.4842
   boylam: 34.1728
 ilgiliMitler: []
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Su Kemeri"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+  - ad: "Tapınak Cepheli Anıt Mezarlar"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Roma Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Bizans Bazilikası"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Elaiussa_Sebaste%2C_Cilicia%2C_Turkey_%2839344774672%29.jpg/500px-Elaiussa_Sebaste%2C_Cilicia%2C_Turkey_%2839344774672%29.jpg"
   genislik: 500

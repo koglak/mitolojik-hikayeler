@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: ["herakles", "bellerophon"]
 ilgiliTanrilar: ["hades", "hera"]
 ilgiliKahramanlar: ["herakles"]
+yapilar:
+  - ad: "Kyklop Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Örtülü Galeriler"
+    aciklama: "Bir yamacın veya yapı kütlesinin içinden geçen örtülü güzergâh."
+  - ad: "Saray Megaronu"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Saray Avluları"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg/500px-Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg"
   genislik: 500

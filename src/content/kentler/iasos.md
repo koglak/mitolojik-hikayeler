@@ -22,6 +22,21 @@ tapinaklar:
   - ad: "Zeus Megistos Kutsal Alanı"
     tanrilar: ["zeus"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Artemis Astias Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Zeus Megistos Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Balık Pazarı Anıt Mezarı"
+    aciklama: "Alışveriş ve ürünlerin dağıtımı için düzenlenen kamusal ticaret yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/IasosAgora.jpg/500px-IasosAgora.jpg"
   genislik: 500

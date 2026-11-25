@@ -22,7 +22,7 @@ kaynakca:
     adres: "https://catalogo.fondazionezeri.unibo.it/scheda/opera/108422/Anonimo%20sec.%20III%2C%20Atena"
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "nike", "poseidon"]
-ilgiliKahramanlar: ["perseus"]
+ilgiliKahramanlar: ["perseus", "medusa"]
 ilgiliKentler: ["atina"]
 gorsel:
   adres: "https://upload.wikimedia.org/wikipedia/commons/b/bb/NAMA_Ath%C3%A9na_Varvakeion.jpg"

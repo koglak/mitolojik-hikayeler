@@ -18,6 +18,27 @@ konum:
   boylam: 34.6156
 ilgiliMitler: []
 ilgiliTanrilar: ["kronos", "zeus"]
+yapilar:
+  - ad: "Aslanlı Kapı"
+    aciklama: "Giriş açıklığının üstünde iki aslanın bulunduğu kabartma levhasıyla tanınan ana kapı."
+  - ad: "Kral Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Yerkapı ve Sfenksli Kapı"
+    aciklama: "Hattuşa’nın güneyindeki yapay set, alt geçit ve üstteki sfenksli kent kapısı."
+  - ad: "Büyük Tapınak"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Büyükkale Saray Kompleksi"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
+  - ad: "Yazılıkaya Açık Hava Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Nişantepe"
+    aciklama: "Hattuşa’da kaya yüzeyine oyulan Luvi hiyeroglifli yazıtın bulunduğu alan."
+  - ad: "Güneykale Yapıları"
+    aciklama: "Hattuşa’da kaya odaları ve yazıtların bulunduğu anıtsal Hitit kompleksi."
+  - ad: "Aşağı Şehir Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Yukarı Şehir Tapınakları"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg/500px-Lion_Gate%2C_Hattusa_13_%28cropped%29.jpg"
   genislik: 500

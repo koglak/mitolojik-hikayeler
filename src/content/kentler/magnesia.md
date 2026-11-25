@@ -23,6 +23,19 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis", "dionysos"]
+yapilar:
+  - ad: "Artemis Leukophryene Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Zeus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Theatron"
+    aciklama: "Magnesia’da oturma sıraları bulunan, tiyatrodan ayrı bir yapı olarak kazılan alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B5%D1%81%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%9C%D0%B5%D0%B0%D0%BD%D0%B4%D1%80%D0%B5._%D0%9F%D1%80%D0%BE%D0%BF%D0%B8%D0%BB%D0%B5%D0%B8.jpg/500px-%D0%9C%D0%B0%D0%B3%D0%BD%D0%B5%D1%81%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%9C%D0%B5%D0%B0%D0%BD%D0%B4%D1%80%D0%B5._%D0%9F%D1%80%D0%BE%D0%BF%D0%B8%D0%BB%D0%B5%D0%B8.jpg"
   genislik: 500

@@ -18,6 +18,15 @@ tapinaklar:
   - ad: "Demeter Tapınağı"
     tanrilar: ["demeter"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Kent Kapısı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Demeter Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/BlaundosFachwerk.jpg/500px-BlaundosFachwerk.jpg"
   genislik: 500

@@ -18,6 +18,11 @@ konum:
   boylam: 22.9425
 ilgiliMitler: ["argonotlar", "altin-koc", "guzellik-yarismasi"]
 ilgiliKahramanlar: ["alkestis", "herakles", "kastor-ve-polydeukes", "medeia", "orpheus", "iason"]
+yapilar:
+  - ad: "Dimini Miken Yapıları"
+    aciklama: "Iolkos ile ilişkilendirilen Dimini’deki geç Tunç Çağı yapı kalıntıları."
+  - ad: "Kastro Tepesi Miken Yapısı"
+    aciklama: "Volos’taki bu yerleşim de antik Iolkos için önerilen konumlardan biridir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Dimini_DSC_2044a.jpg/500px-Dimini_DSC_2044a.jpg"
   genislik: 500

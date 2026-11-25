@@ -15,6 +15,13 @@ konum:
   enlem: 37.1747
   boylam: 30.4864
 ilgiliMitler: []
+yapilar:
+  - ad: "Üç Kemerli Kent Kapısı"
+    aciklama: "Roma kent girişinin üç kemerli cephesi ayaktadır."
+  - ad: "Anıt Mezarlar"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Hamam"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ariassos_6.jpg/500px-Ariassos_6.jpg"
   genislik: 500

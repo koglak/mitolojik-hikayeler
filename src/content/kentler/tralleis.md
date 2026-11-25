@@ -20,6 +20,15 @@ konum:
   boylam: 27.8333
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "asklepios", "nike"]
+yapilar:
+  - ad: "Üç Gözler Gymnasionu"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Tralles.jpg/500px-Tralles.jpg"
   genislik: 500

@@ -21,6 +21,25 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+yapilar:
+  - ad: "Likya Birliği Meclis Binası"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Nero Deniz Feneri"
+    aciklama: "Patara’nın antik liman girişini işaretleyen Roma deniz feneri."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Apollon’un Patara’daki kültü ve kehaneti tarihsel kaynaklarda bilinir; tapınağın yeri kesinleşmemiştir."
+  - ad: "Mettius Modestus Takı"
+    aciklama: "Mettius Modestus Takı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Hadrianus Tahıl Ambarı"
+    aciklama: "Hadrianus Tahıl Ambarı, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Sütunlu Cadde"
+    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+  - ad: "Liman Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Nekropol"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Ancient_city_of_Patara%2C_Lycia%2C_Turkey_10_46_37_291000.jpeg/500px-Ancient_city_of_Patara%2C_Lycia%2C_Turkey_10_46_37_291000.jpeg"
   genislik: 500

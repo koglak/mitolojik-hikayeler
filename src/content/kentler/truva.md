@@ -21,6 +21,23 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: ["truva-ati", "akhilleus", "odysseus", "guzellik-yarismasi"]
 ilgiliKahramanlar: ["priamos"]
+yapilar:
+  - ad: "Truva II Rampası"
+    aciklama: "Erken Tunç Çağı kalesine giden taş döşeli anıtsal giriş rampası."
+  - ad: "Truva II Megaronları"
+    aciklama: "Erken Tunç Çağı kalesindeki uzun salonlu yapıların kalıntıları."
+  - ad: "Truva VI Surları"
+    aciklama: "Geç Tunç Çağı kalesinin eğimli taş duvarları ve kuleleri."
+  - ad: "Truva VIIa Konutları"
+    aciklama: "Geç Tunç Çağı’nın son evresinde surların iç kesimindeki konut izleri."
+  - ad: "Athena Tapınağı"
+    aciklama: "Helenistik ve Roma dönemi İlion’unun başlıca kutsal yapısı."
+  - ad: "Odeon"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Roma Tiyatrosu"
+    aciklama: "Kazı planlarında Tiyatro C olarak geçen yapının oturma sıralarının bir kısmı eski surların üzerine oturur."
 kunyeGorseli:
   adres: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Troy1.jpg"
   genislik: 500

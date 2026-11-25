@@ -26,6 +26,19 @@ tapinaklar:
 ilgiliMitler: ["argonotlar"]
 ilgiliTanrilar: ["athena", "zeus"]
 ilgiliKahramanlar: ["odysseus"]
+yapilar:
+  - ad: "Zeus Naios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Themis Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Afrodit Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dodona-Greece-April-2008-107.JPG/500px-Dodona-Greece-April-2008-107.JPG"
   genislik: 500

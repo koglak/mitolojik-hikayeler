@@ -22,6 +22,13 @@ tapinaklar:
 ilgiliMitler: ["argonotlar"]
 ilgiliTanrilar: ["hephaistos"]
 ilgiliKahramanlar: ["philoktetes", "iason"]
+yapilar:
+  - ad: "Hephaistia Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kabeirion"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Poliochni Yerleşim Yapıları"
+    aciklama: "Ada üzerindeki ayrı bir Tunç Çağı yerleşiminde konut ve ortak kullanım yapıları açığa çıkarılmıştır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ancient_Hephaistia_Lemnos_ruins.jpg/500px-Ancient_Hephaistia_Lemnos_ruins.jpg"
   genislik: 500

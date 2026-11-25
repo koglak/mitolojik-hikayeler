@@ -18,6 +18,9 @@ konum:
   boylam: 29.1561
 ilgiliMitler: ["argonotlar"]
 ilgiliKahramanlar: ["herakles"]
+yapilar:
+  - ad: "Antik Liman"
+    aciklama: "Bugünkü Gemlik Körfezi’nin iç ucunda Strabon’un söz ettiği antik limanın bulunduğu kıyı kesimi."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Gemlik_liman%C4%B1_gemlik_bursa_-_panoramio.jpg/500px-Gemlik_liman%C4%B1_gemlik_bursa_-_panoramio.jpg"
   genislik: 500

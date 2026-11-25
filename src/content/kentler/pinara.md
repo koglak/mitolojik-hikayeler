@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["menelaos"]
+yapilar:
+  - ad: "Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kral Mezarı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Afrodit Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG/500px-Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG"
   genislik: 500

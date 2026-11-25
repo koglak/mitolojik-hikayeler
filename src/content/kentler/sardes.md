@@ -24,6 +24,21 @@ tapinaklar:
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["artemis", "dionysos"]
 ilgiliKahramanlar: ["midas"]
+yapilar:
+  - ad: "Artemis Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Athena Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Hamam ve Gymnasion Kompleksi"
+    aciklama: "Yıkanma ve beden eğitimi için kullanılan bölümleri bir araya getiren yapı kompleksi."
+  - ad: "Sinagog"
+    aciklama: "Sinagog, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Bizans Dükkânları"
+    aciklama: "Bizans Dükkânları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Lidya Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Bin Tepe Tümülüsleri"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/The_Bath-Gymnasium_complex_at_Sardis%2C_late_2nd_-_early_3rd_century_AD%2C_Sardis%2C_Turkey_%2817098680002%29.jpg/500px-The_Bath-Gymnasium_complex_at_Sardis%2C_late_2nd_-_early_3rd_century_AD%2C_Sardis%2C_Turkey_%2817098680002%29.jpg"
   genislik: 500

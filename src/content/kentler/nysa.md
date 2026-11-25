@@ -21,6 +21,23 @@ tapinaklar:
     tanrilar: ["hades", "persephone"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["dionysos", "hades", "persephone"]
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Kütüphane"
+    aciklama: "Yazılı eserlerin saklanması ve okunması için kullanılan antik yapı."
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Dere Tüneli"
+    aciklama: "Bir yamacın veya yapı kütlesinin içinden geçen örtülü güzergâh."
+  - ad: "Roma Köprüleri"
+    aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
+  - ad: "Gymnasion"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Akharaka Plutonionu"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Nysa%2C_Anatolia.JPG/500px-Nysa%2C_Anatolia.JPG"
   genislik: 500

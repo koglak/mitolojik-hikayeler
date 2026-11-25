@@ -17,6 +17,11 @@ konum:
   enlem: 36.97
   boylam: 36.19
 ilgiliMitler: []
+yapilar:
+  - ad: "Su Kemeri"
+    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+  - ad: "Tiyatro Kalıntıları"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Epiphaneia%2C_Cilicia%2C_Turkey_%2836836049395%29.jpg/500px-Epiphaneia%2C_Cilicia%2C_Turkey_%2836836049395%29.jpg"
   genislik: 500

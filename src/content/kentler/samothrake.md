@@ -22,6 +22,21 @@ tapinaklar:
 ilgiliMitler: ["argonotlar"]
 ilgiliTanrilar: ["demeter", "persephone", "hades", "hermes"]
 ilgiliKahramanlar: ["orpheus", "iason"]
+yapilar:
+  - ad: "Hieron"
+    aciklama: "Samothrake’de Büyük Tanrılar Gizemleri ile ilişkilendirilen tören yapısı."
+  - ad: "Arsinoeion"
+    aciklama: "Samothrake kutsal alanında Kraliçe Arsinoe’nin adadığı yuvarlak yapı."
+  - ad: "Anaktoron"
+    aciklama: "Samothrake’de inisiyasyon törenleriyle ilişkilendirilen dikdörtgen planlı salon."
+  - ad: "Ptolemaios Propylonu"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Nike Anıtı’nın Kaidesi"
+    aciklama: "Nike Anıtı’nın Kaidesi, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Stoa"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Samothraki_Hieron.jpg/500px-Samothraki_Hieron.jpg"
   genislik: 500

@@ -21,6 +21,15 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+yapilar:
+  - ad: "Gümüşkesen Anıt Mezarı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Baltalı Kapı"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Zeus Osogo Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Zeus Karios Tapınağı Sütunu"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Milas_%C3%87ar%C5%9F%C4%B1s%C4%B1_01.jpg/500px-Milas_%C3%87ar%C5%9F%C4%B1s%C4%B1_01.jpg"
   genislik: 500

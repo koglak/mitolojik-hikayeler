@@ -15,6 +15,11 @@ konum:
   enlem: 37.9533
   boylam: 28.3583
 ilgiliMitler: []
+yapilar:
+  - ad: "Roma Amfitiyatrosu"
+    aciklama: "Ortadaki arenayı iki yandan çevreleyen oturma sıralarına sahip oval planlı Roma gösteri yapısı."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Mastaura_Roma_Hamam%C4%B1_4.jpg/500px-Mastaura_Roma_Hamam%C4%B1_4.jpg"
   genislik: 500

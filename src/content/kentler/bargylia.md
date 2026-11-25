@@ -21,6 +21,15 @@ tapinaklar:
     tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
+yapilar:
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Odeon"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Stoa"
+    aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
+  - ad: "Artemis Kindyas Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Fluted_columns_at_Bargylia.jpg/500px-Fluted_columns_at_Bargylia.jpg"
   genislik: 500

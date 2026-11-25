@@ -15,6 +15,15 @@ konum:
   enlem: 37.4964
   boylam: 30.6911
 ilgiliMitler: []
+yapilar:
+  - ad: "Forum"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Bazilika"
+    aciklama: "Antik bazilikal planlı yapının temelleri ve mimari kalıntıları."
+  - ad: "Roma Kuşatma Rampası"
+    aciklama: "Roma Kuşatma Rampası, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/KremnaAntikKenti1.jpg/500px-KremnaAntikKenti1.jpg"
   genislik: 500

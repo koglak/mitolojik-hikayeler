@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: ["sisifos"]
 ilgiliTanrilar: ["poseidon"]
 ilgiliKahramanlar: ["sisifos"]
+yapilar:
+  - ad: "Poseidon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Roma Hamamı"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Temple_of_Poseidon_at_Isthmia%2C_202722.jpg/500px-Temple_of_Poseidon_at_Isthmia%2C_202722.jpg"
   genislik: 500

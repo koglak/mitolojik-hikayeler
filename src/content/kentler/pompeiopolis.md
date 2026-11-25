@@ -17,6 +17,11 @@ konum:
   enlem: 41.5131
   boylam: 34.2214
 ilgiliMitler: []
+yapilar:
+  - ad: "Mozaikli Peristil Ev"
+    aciklama: "Mozaikli Peristil Ev, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Roma Köprüsü"
+    aciklama: "Bir derenin veya başka bir doğal engelin aşılması amacıyla yapılan geçiş yapısı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Pompeiopolis_-_M%C3%BCnzkabinett%2C_Berlin_-_5501767.jpg/500px-Pompeiopolis_-_M%C3%BCnzkabinett%2C_Berlin_-_5501767.jpg"
   genislik: 500

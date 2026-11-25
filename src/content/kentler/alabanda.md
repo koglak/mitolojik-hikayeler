@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["marsyas"]
+yapilar:
+  - ad: "Bouleuterion"
+    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Apollon Isotimos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Zeus Khrysaoreus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Alabanda_Bouleuterion.JPG/500px-Alabanda_Bouleuterion.JPG"
   genislik: 500

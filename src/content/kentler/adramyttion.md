@@ -18,6 +18,11 @@ konum:
   boylam: 26.9550
 ilgiliMitler: []
 ilgiliKahramanlar: ["akhilleus", "andromakhe", "hektor"]
+yapilar:
+  - ad: "Antik liman"
+    aciklama: "Edremit Körfezi kıyısındaki kentin deniz ticaretiyle bağlantısını sağlayan liman alanı."
+  - ad: "Kıyıdaki kent kalıntıları"
+    aciklama: "Bugünkü Ören çevresinde antik yerleşimin kıyıya uzanan bölümünden kalan yapı izleri."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Burhaniye_Tarihi.JPG/500px-Burhaniye_Tarihi.JPG"
   genislik: 500

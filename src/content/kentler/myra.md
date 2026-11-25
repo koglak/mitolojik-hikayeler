@@ -20,6 +20,17 @@ tapinaklar:
   - ad: "Artemis Tapınağı"
     tanrilar: ["artemis"]
 ilgiliMitler: []
+yapilar:
+  - ad: "Likya Kaya Mezarları"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Roma Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Artemis Tapınağı"
+    aciklama: "Antik kaynaklarda anılan kutsal yapının yeri kesin olarak belirlenmiş değildir."
+  - ad: "Aziz Nikolaos Kilisesi"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
+  - ad: "Andriake Limanı"
+    aciklama: "Myra’nın kıyıdaki limanı ve depoları ayrı Andriake kaydında ele alınır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Myra_theatre.jpg/500px-Myra_theatre.jpg"
   genislik: 500

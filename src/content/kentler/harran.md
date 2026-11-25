@@ -17,6 +17,15 @@ konum:
   enlem: 36.8653
   boylam: 39.0311
 ilgiliMitler: []
+yapilar:
+  - ad: "Ulu Cami"
+    aciklama: "Yerleşimin İslam dönemine ait ibadet yapısı."
+  - ad: "Harran Kalesi"
+    aciklama: "Yerleşimi gözetmek ve savunmak için kullanılan tahkimat."
+  - ad: "Kent Surları ve Kapılar"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
+  - ad: "Kümbet Evler"
+    aciklama: "Kentin geleneksel, örtüleri konik biçimli konutları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Harran_beehive_houses_%282%29.JPG/500px-Harran_beehive_houses_%282%29.JPG"
   genislik: 500

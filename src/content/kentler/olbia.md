@@ -24,6 +24,17 @@ tapinaklar:
 ilgiliMitler: ["akhilleus"]
 ilgiliTanrilar: ["apollon", "zeus"]
 ilgiliKahramanlar: ["akhilleus"]
+yapilar:
+  - ad: "Apollon Delphinios Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Zeus Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Hamam"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Kent Surları"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/AncientTownOlvia.jpg/500px-AncientTownOlvia.jpg"
   genislik: 500

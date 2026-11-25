@@ -19,6 +19,13 @@ konum:
 ilgiliMitler: ["odysseus"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["odysseus", "penelope"]
+yapilar:
+  - ad: "Aetos Yerleşim Kalıntıları"
+    aciklama: "Aetos Yerleşim Kalıntıları, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Agios Athanasios Yapı Kalıntıları"
+    aciklama: "Yerel olarak Homeros Okulu diye anılan arkeolojik alanda yapı temelleri vardır."
+  - ad: "Polis Koyu Mağara Kutsal Alanı"
+    aciklama: "Doğal mağarada bırakılan antik adaklar, buranın kült işlevini gösterir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/On_top_of_the_world_%2810445519213%29.jpg/500px-On_top_of_the_world_%2810445519213%29.jpg"
   genislik: 500

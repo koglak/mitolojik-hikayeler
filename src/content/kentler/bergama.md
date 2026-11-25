@@ -31,6 +31,33 @@ tapinaklar:
     tanrilar: ["demeter"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios", "zeus"]
+yapilar:
+  - ad: "Zeus Sunağı"
+    aciklama: "Helenistik krallığın anıtsal sunağı; kabartmalı parçalarının büyük bir bölümü Berlin’dedir."
+  - ad: "Athena Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Dionysos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Trajaneum"
+    aciklama: "Trajaneum, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Hera Basileia Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Demeter Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Akropol Tiyatrosu"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Bergama Kütüphanesi"
+    aciklama: "Yazılı eserlerin saklanması ve okunması için kullanılan antik yapı."
+  - ad: "Gymnasion"
+    aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
+  - ad: "Yukarı Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Aşağı Agora"
+    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
+  - ad: "Kızıl Avlu"
+    aciklama: "Kızıl Avlu, ören yerinin belgelenen mimari kalıntıları arasındadır."
+  - ad: "Asklepion"
+    aciklama: "Akropolün dışında yer alan sağlık ve kült merkezi; ayrıntıları ayrı kent kaydında ele alınır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Temple_of_Trajan%2C_Pergamon_01.jpg/500px-Temple_of_Trajan%2C_Pergamon_01.jpg"
   genislik: 500

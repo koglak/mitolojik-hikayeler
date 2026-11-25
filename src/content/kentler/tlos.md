@@ -21,6 +21,21 @@ tapinaklar:
     tanrilar: ["kronos"]
 ilgiliMitler: ["bellerophon"]
 ilgiliKahramanlar: ["bellerophon"]
+yapilar:
+  - ad: "Bellerophon Kaya Mezarı"
+    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Stadyum"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Kronos Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Roma Hamamları"
+    aciklama: "Ziyaretçilerin yıkanması için birden çok mekândan oluşan yapı."
+  - ad: "Kent Bazilikası"
+    aciklama: "Yerleşimdeki bazilikal planlı kilisenin mimari kalıntıları."
+  - ad: "Akropol Tahkimatı"
+    aciklama: "Yerleşimi ve geçiş noktalarını savunan duvar ve tahkimat kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tlos_ruins_Turkey.jpg/500px-Tlos_ruins_Turkey.jpg"
   genislik: 500

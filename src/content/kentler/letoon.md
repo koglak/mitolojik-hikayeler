@@ -25,6 +25,19 @@ tapinaklar:
     tanrilar: ["leto"]
 ilgiliMitler: ["leto-ve-koyluler"]
 ilgiliTanrilar: ["apollon", "artemis", "hera", "leto"]
+yapilar:
+  - ad: "Leto Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Apollon Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Artemis Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Nymphaion"
+    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+  - ad: "Tiyatro"
+    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+  - ad: "Erken Hristiyanlık Bazilikası"
+    aciklama: "Yerleşimin Hristiyanlık dönemine ait yapı ve mimari kalıntıları."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Letoon_Temple_Area_2019.jpg/500px-Letoon_Temple_Area_2019.jpg"
   genislik: 500

@@ -21,6 +21,11 @@ tapinaklar:
     tanrilar: ["poseidon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["poseidon"]
+yapilar:
+  - ad: "Poseidon Helikonios Kutsal Alanı"
+    aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
+  - ad: "Toplantı Yeri"
+    aciklama: "İon Birliği’nin toplandığı kutsal alandaki oturma sıralı yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Panionium_theatre.jpg/500px-Panionium_theatre.jpg"
   genislik: 500

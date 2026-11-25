@@ -17,7 +17,7 @@ kaynakca:
     adres: "https://www.uffizi.it/en/video-stories/uffizi-in-sign-language"
 ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliTanrilar: ["athena"]
-ilgiliKahramanlar: ["perseus"]
+ilgiliKahramanlar: ["perseus", "medusa"]
 ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg/1280px-Caravaggio_-_Medusa_-_Google_Art_Project.jpg"

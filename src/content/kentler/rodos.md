@@ -25,6 +25,21 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: ["phaethon"]
 ilgiliTanrilar: ["apollon", "helios", "zeus"]
+yapilar:
+  - ad: "Apollon Pythios Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Athena Polias ve Zeus Polieus Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Lindos Athena Lindia Tapınağı"
+    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+  - ad: "Lindos Propylonu"
+    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+  - ad: "Rodos Akropolü Stadyumu"
+    aciklama: "Koşu ve atletizm yarışları için düzenlenen uzun yarış alanı."
+  - ad: "Rodos Akropolü Odeonu"
+    aciklama: "Müzik, dinleti veya toplantı için kullanılan küçük boyutlu gösteri yapısı."
+  - ad: "Şövalyeler Sarayı"
+    aciklama: "Yerleşimin yönetim ve temsil işlevleriyle bağlantılı anıtsal yapı."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Acropolis_of_Rhodes_overview.JPG/500px-Acropolis_of_Rhodes_overview.JPG"
   genislik: 500
