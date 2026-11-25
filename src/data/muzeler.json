@@ -15,6 +15,7 @@
   "heraklion": { "ad": "Heraklion Arkeoloji Müzesi", "kent": "Heraklion, Girit", "ulke": "Yunanistan", "enlem": 35.3389, "boylam": 25.1372 },
   "istanbul-arkeoloji": { "ad": "İstanbul Arkeoloji Müzeleri", "kent": "İstanbul", "ulke": "Türkiye", "enlem": 41.0117, "boylam": 28.9814 },
   "izmir-arkeoloji": { "ad": "İzmir Arkeoloji Müzesi", "kent": "İzmir", "ulke": "Türkiye", "enlem": 38.4143, "boylam": 27.1283 },
+  "antalya-arkeoloji": { "ad": "Antalya Arkeoloji Müzesi", "kent": "Antalya", "ulke": "Türkiye", "enlem": 36.8856, "boylam": 30.6797 },
   "efes-muzesi": { "ad": "Efes Müzesi", "kent": "Selçuk, İzmir", "ulke": "Türkiye", "enlem": 37.9491, "boylam": 27.3676 },
   "zeugma": { "ad": "Zeugma Mozaik Müzesi", "kent": "Gaziantep", "ulke": "Türkiye", "enlem": 37.0757, "boylam": 37.3861 },
   "sanliurfa": { "ad": "Şanlıurfa Arkeoloji ve Mozaik Müzesi", "kent": "Şanlıurfa", "ulke": "Türkiye", "enlem": 37.1536, "boylam": 38.7817 },

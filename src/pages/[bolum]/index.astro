@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import Temel from '../../layouts/Temel.astro';
 import SiteBasligi from '../../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
+import DizinSayfalari from '../../components/DizinSayfalari.astro';
+import { sayfaBoyu } from '../../lib/sayfalama';
 import KayitKarti from '../../components/KayitKarti.astro';
 import KategoriGorseli from '../../components/KategoriGorseli.astro';
 import KentHaritasi from '../../components/KentHaritasi.astro';
@@ -18,6 +20,7 @@ export function getStaticPaths() {
 }
 
 const { bolum } = Astro.props;
+const sayfali = bolum !== 'kentler';
 const { ad, aciklama } = bolumler[bolum];
 const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
 const panteon = (kayit: (typeof kayitlar)[number]) =>
@@ -48,7 +51,7 @@ const haritaKentleri =
           : [];
       })
     : [];
-const bolgeGruplari = kayitlar.some((kayit) => kayit.data.bolge)
+const bolgeGruplari = !sayfali && kayitlar.some((kayit) => kayit.data.bolge)
   ? [
       ...bolgeAnahtarlari.map((anahtar) => ({
         baslik: bolgeler[anahtar].ad,
@@ -103,7 +106,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
 <Temel baslik={ad} aciklama={aciklama} yapisalVeri={yapisalVeri}>
   <div class="site-kabugu">
     <SiteBasligi />
-    <main>
+    <main data-sayfali-dizin={sayfali ? '' : undefined}>
       <header class="bolum-girisi">
         <div class="bolum-metni">
           <h1>{ad}</h1>
@@ -188,8 +191,13 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
           ))
         ) : (
           <ul class="kayitlar">
-            {kayitlar.map((kayit) => (
-              <li data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined} data-panteon={bolum === 'tanrilar' ? panteon(kayit) : undefined}>
+            {kayitlar.map((kayit, sira) => (
+              <li
+                class:list={{ gizli: sayfali && sira >= sayfaBoyu }}
+                data-sayfa-disi={sayfali && sira >= sayfaBoyu ? '' : undefined}
+                data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined}
+                data-panteon={bolum === 'tanrilar' ? panteon(kayit) : undefined}
+              >
                 <KayitKarti
                   adres={kayitAdresi(bolum, kayit.id)}
                   kayit={kayit.data}
@@ -203,6 +211,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
           </ul>
         )
       }
+      {sayfali && <DizinSayfalari ad={`${ad} sayfaları`} />}
     </main>
     <SiteAltBilgisi />
   </div>
@@ -211,14 +220,12 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
 <script>
   import { aramaIcinSadelestir } from '../../lib/aramaMetni';
 
-  const kutu = document.querySelector<HTMLInputElement>('[data-kayit-ara]');
+  const kutu = document.querySelector<HTMLInputElement>('main:not([data-sayfali-dizin]) [data-kayit-ara]');
   const ogeler = Array.from(document.querySelectorAll<HTMLElement>('[data-aranan]'));
   const sonucYok = document.querySelector<HTMLElement>('[data-sonuc-yok]');
   const bolgeGruplari = Array.from(document.querySelectorAll<HTMLElement>('[data-bolge-grubu]'));
   const tanriDugmeleri = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-tanri-dugmesi]'));
   const tanriDurumu = document.querySelector<HTMLElement>('[data-tanri-durumu]');
-  const panteonDugmeleri = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-panteon-dugmesi]'));
-  let seciliPanteon = '';
   let seciliTanri: string | null = null;
 
   const suzgeciUygula = () => {
@@ -227,8 +234,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
     for (const oge of ogeler) {
       const aramayaUyar = (oge.dataset.aranan ?? '').includes(aranan);
       const tanriyaUyar = !seciliTanri || (oge.dataset.tanrilar ?? '').split(' ').includes(seciliTanri);
-      const panteonaUyar = !seciliPanteon || oge.dataset.panteon === seciliPanteon;
-      const eslesir = aramayaUyar && tanriyaUyar && panteonaUyar;
+      const eslesir = aramayaUyar && tanriyaUyar;
       oge.classList.toggle('gizli', !eslesir);
       if (eslesir) gorunen += 1;
     }
@@ -248,15 +254,6 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   };
 
   kutu?.addEventListener('input', suzgeciUygula);
-  for (const dugme of panteonDugmeleri) {
-    dugme.addEventListener('click', () => {
-      seciliPanteon = dugme.dataset.panteonDugmesi ?? '';
-      for (const diger of panteonDugmeleri) {
-        diger.setAttribute('aria-pressed', String(diger === dugme));
-      }
-      suzgeciUygula();
-    });
-  }
   for (const dugme of tanriDugmeleri) {
     dugme.addEventListener('click', () => {
       seciliTanri = seciliTanri === dugme.dataset.tanriDugmesi ? null : (dugme.dataset.tanriDugmesi ?? null);

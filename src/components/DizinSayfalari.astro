@@ -1,0 +1,60 @@
+---
+const { ad } = Astro.props;
+---
+
+<p class="sayfa-durumu gizli" tabindex="-1" aria-live="polite" data-dizin-durumu></p>
+<nav class="sayfalar gizli" aria-label={ad} data-dizin-sayfalari></nav>
+
+<noscript>
+  <style is:inline>
+    [data-sayfa-disi].gizli {
+      display: list-item !important;
+    }
+  </style>
+</noscript>
+
+<script>
+  import '../scripts/dizinSayfalari';
+</script>
+
+<style>
+  .sayfa-durumu {
+    color: var(--soluk);
+    text-align: center;
+    margin: 32px 0 0;
+  }
+  .sayfalar {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .sayfalar :global(a),
+  .sayfalar :global(span) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 44px;
+    min-width: 0;
+    min-height: 44px;
+    font: 500 15px/1 var(--govde-font);
+  }
+  .sayfalar :global(a) {
+    background: var(--yuzey);
+    border: 1px solid var(--cizgi);
+    transition: border-color 0.2s;
+  }
+  .sayfalar :global(a:hover) {
+    border-color: var(--vurgu);
+  }
+  .sayfalar :global(a[aria-current='page']) {
+    background: var(--vurgu);
+    border-color: var(--vurgu);
+    color: var(--zemin);
+  }
+  @media (max-width: 740px) {
+    .sayfalar {
+      gap: 4px;
+    }
+  }
+</style>

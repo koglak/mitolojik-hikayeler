@@ -26,3 +26,84 @@ const siniflar = ['vazo-sahnesi', sinif].filter(Boolean).join(' ');
   <rect y="264" width="400" height="22" fill="url(#meander)"></rect>
   <rect y="288" width="400" height="3" fill="#121010"></rect>
 </svg>
+
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    :global(.aktif) .vazo-sahnesi :global(.sahne-alev) {
+      transform-box: fill-box;
+      transform-origin: center bottom;
+      animation: alev 650ms ease-in-out 4 alternate;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-egil) {
+      transform-box: fill-box;
+      transform-origin: center bottom;
+      animation: egil 1.8s ease-in-out;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-yaklas) {
+      animation: yaklas 1.5s ease-out;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-parilti) {
+      animation: parilti 850ms ease-in-out 2;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-son) {
+      transform-box: fill-box;
+      transform-origin: center bottom;
+      animation: son 1.8s ease-in forwards;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-duman) {
+      animation: duman 1.8s ease-out both;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-inis) {
+      animation: inis 1.6s ease-out;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-gunduz) {
+      animation: devir 1.6s ease-in-out 4 alternate;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-gece) {
+      animation: devir 1.6s ease-in-out 4 alternate-reverse;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-ok) {
+      animation: ok 800ms ease-out both;
+    }
+    :global(.aktif) .vazo-sahnesi :global(.sahne-uzaklas) {
+      animation: uzaklas 700ms 650ms ease-in both;
+    }
+  }
+
+  @keyframes alev {
+    to { transform: skewX(-7deg) scale(0.93, 1.12); }
+  }
+  @keyframes egil {
+    50% { transform: rotate(6deg); }
+  }
+  @keyframes yaklas {
+    from { transform: translateX(-18px); }
+  }
+  @keyframes parilti {
+    50% { opacity: 0.35; }
+  }
+  @keyframes son {
+    30% { transform: scaleY(1.08); }
+    to { transform: scaleY(0.2); opacity: 0; }
+  }
+  @keyframes duman {
+    from { opacity: 0; transform: translateY(12px); }
+    45% { opacity: 0.8; }
+    to { opacity: 0; transform: translateY(-14px); }
+  }
+  @keyframes inis {
+    from { transform: translate(-45px, -20px); }
+  }
+  @keyframes devir {
+    to { opacity: 0.1; }
+  }
+  @keyframes ok {
+    from { transform: translate(-53px, 11px); opacity: 0; }
+    30% { opacity: 1; }
+    85% { opacity: 1; }
+    to { opacity: 0; }
+  }
+  @keyframes uzaklas {
+    to { transform: translate(30px, 28px); opacity: 0; }
+  }
+</style>

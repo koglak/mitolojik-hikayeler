@@ -5,10 +5,12 @@ import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
 import SanatKarti from '../../components/SanatKarti.astro';
 import SanatSalonu from '../../components/SanatSalonu.astro';
 import MuzeHaritasi from '../../components/MuzeHaritasi.astro';
+import DizinSayfalari from '../../components/DizinSayfalari.astro';
 import { gorselKokenleri, sanatAciklamasi, sanatAdi, sanatAdresi, sanatEserAdresi, sanatTuruAnahtarlari, sanatTurleri } from '../../lib/sanat';
 import { muzeler, sanatEserleriniGetir } from '../../lib/sanatDizini';
 import { muzelereGrupla } from '../../lib/sanatSorgu';
 import { aramaIcinSadelestir } from '../../lib/aramaMetni';
+import { sayfaBoyu } from '../../lib/sayfalama';
 import { kirintiVerisi, koleksiyonVerisi } from '../../lib/yapisalVeri';
 
 const ilkSatirKartSayisi = 3;
@@ -42,7 +44,7 @@ const yapisalVeri = [
 <Temel baslik={sanatAdi} aciklama={sanatAciklamasi} yapisalVeri={yapisalVeri} onBaglantilar={onBaglantilar}>
   <div class="site-kabugu">
     <SiteBasligi />
-    <main data-sanat-galerisi>
+    <main data-sayfali-dizin="sanat">
       <header class="giris">
         <div class="giris-metni">
           <h1>{sanatAdi}</h1>
@@ -57,7 +59,7 @@ const yapisalVeri = [
             <circle cx="10.8" cy="10.8" r="6.8"></circle>
             <path d="m16 16 5 5"></path>
           </svg>
-          <input type="search" data-sanat-ara placeholder="Eser, sanatçı ya da kent ara" autocomplete="off" aria-label="Sanat eserlerinde ara" />
+          <input type="search" data-kayit-ara placeholder="Eser, sanatçı ya da kent ara" autocomplete="off" aria-label="Sanat eserlerinde ara" />
         </label>
         <label class="muze-secimi">
           <span>Müze</span>
@@ -94,7 +96,8 @@ const yapisalVeri = [
         {
           eserler.map((eser, sira) => (
             <li
-              data-sanat-ogesi
+              class:list={{ gizli: sira >= sayfaBoyu }}
+              data-sayfa-disi={sira >= sayfaBoyu ? '' : undefined}
               data-aranan={aranacakMetin(eser)}
               data-tur={eser.data.tur}
               data-muze={eser.data.muze}
@@ -105,16 +108,13 @@ const yapisalVeri = [
           ))
         }
       </ul>
+      <DizinSayfalari ad="Sanat eserleri sayfaları" />
 
       <MuzeHaritasi muzeler={haritaMuzeleri} />
     </main>
     <SiteAltBilgisi />
   </div>
 </Temel>
-
-<script>
-  import '../../scripts/sanat';
-</script>
 
 <style>
   .giris {

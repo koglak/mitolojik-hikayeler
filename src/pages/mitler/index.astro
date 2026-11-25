@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import Temel from '../../layouts/Temel.astro';
 import SiteBasligi from '../../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../../components/SiteAltBilgisi.astro';
+import DizinSayfalari from '../../components/DizinSayfalari.astro';
+import { sayfaBoyu } from '../../lib/sayfalama';
 import MitGorseli from '../../components/MitGorseli.astro';
 import KategoriGorseli from '../../components/KategoriGorseli.astro';
 import { basligiBol } from '../../lib/baslikParcalari';
@@ -25,7 +27,7 @@ const yapisalVeri = [
 <Temel baslik="Kısa Yunan Mitleri" aciklama={sayfaAciklamasi} yapisalVeri={yapisalVeri}>
   <div class="site-kabugu">
     <SiteBasligi />
-    <main>
+    <main data-sayfali-dizin="mitler">
       <header class="bolum-girisi">
         <div class="bolum-metni">
           <h1>Mitolojik Hikâyeler</h1>
@@ -39,16 +41,20 @@ const yapisalVeri = [
           <circle cx="10.8" cy="10.8" r="6.8" />
           <path d="m16 16 5 5" />
         </svg>
-        <input type="search" data-hikaye-ara placeholder="Hikâyelerde ara: Medusa, ateş, nar..." autocomplete="off" aria-label="Hikâyelerde ara" />
+        <input type="search" data-kayit-ara placeholder="Hikâyelerde ara: Medusa, ateş, nar..." autocomplete="off" aria-label="Hikâyelerde ara" />
       </label>
       <p class="sonuc-yok gizli" data-sonuc-yok aria-live="polite">Bu aramayla eşleşen hikâye yok.</p>
 
       <ul class="hikayeler">
         {
-          mitler.map((mit) => {
+          mitler.map((mit, sira) => {
             const { ad, altBaslik } = basligiBol(mit.data.baslik);
             return (
-              <li data-aranan={[mit.data.baslik, mit.data.ozet, mit.data.tur, mit.data.bugunBag.kelime].join(' ').toLocaleLowerCase('tr')}>
+              <li
+                class:list={{ gizli: sira >= sayfaBoyu }}
+                data-sayfa-disi={sira >= sayfaBoyu ? '' : undefined}
+                data-aranan={[mit.data.baslik, mit.data.ozet, mit.data.tur, mit.data.bugunBag.kelime].join(' ').toLocaleLowerCase('tr')}
+              >
                 <a class="hikaye" href={mitAdresi(mit.id)} data-slug={mit.id}>
                   <span class="hikaye-resmi">
                     <MitGorseli slug={mit.id} />
@@ -70,6 +76,7 @@ const yapisalVeri = [
           })
         }
       </ul>
+      <DizinSayfalari ad="Mitler sayfaları" />
     </main>
     <SiteAltBilgisi />
   </div>
@@ -81,20 +88,6 @@ const yapisalVeri = [
   for (const slug of ilerlemeOku().okunanlar) {
     document.querySelector(`[data-slug="${CSS.escape(slug)}"] [data-okundu]`)?.classList.remove('gizli');
   }
-
-  const kutu = document.querySelector<HTMLInputElement>('[data-hikaye-ara]');
-  const ogeler = Array.from(document.querySelectorAll<HTMLElement>('[data-aranan]'));
-  const sonucYok = document.querySelector<HTMLElement>('[data-sonuc-yok]');
-  kutu?.addEventListener('input', () => {
-    const aranan = kutu.value.trim().toLocaleLowerCase('tr');
-    let gorunen = 0;
-    for (const oge of ogeler) {
-      const eslesir = (oge.dataset.aranan ?? '').includes(aranan);
-      oge.classList.toggle('gizli', !eslesir);
-      if (eslesir) gorunen += 1;
-    }
-    sonucYok?.classList.toggle('gizli', gorunen > 0);
-  });
 </script>
 
 <style>

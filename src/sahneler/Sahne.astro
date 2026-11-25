@@ -8,9 +8,10 @@ interface Props {
   numara: number;
   sinif?: string;
   kirp?: boolean;
+  varsa?: boolean;
 }
 
-const { slug, numara, sinif, kirp } = Astro.props;
+const { slug, numara, sinif, kirp, varsa = false } = Astro.props;
 const sahneModulleri = import.meta.glob<{ default: AstroComponentFactory }>('/src/sahneler/*/[0-9]*.astro', {
   eager: true,
 });
@@ -21,6 +22,6 @@ const SahneBileseni = sahneModulleri[sahneYolu(slug, numara)]?.default;
   SahneBileseni ? (
     <SahneBileseni sinif={sinif} kirp={kirp} />
   ) : (
-    <VazoSahnesi slug={slug} numara={numara} sinif={sinif} kirp={kirp} />
+    !varsa && <VazoSahnesi slug={slug} numara={numara} sinif={sinif} kirp={kirp} />
   )
 }

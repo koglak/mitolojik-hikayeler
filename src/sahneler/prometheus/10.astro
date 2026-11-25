@@ -21,7 +21,9 @@ const ozellikler = Astro.props;
     <path d="M-14 -118 L-26 -60 L-18 -60 L-10 -112 Z" fill="#121010" />
     <path d="M-6 -158 L-4 -152 M2 -160 L4 -154 M-22 -96 L-18 -94 M-20 -80 L-16 -78" stroke="#c8662f" stroke-width="1.3" />
   </Insan>
-  <Kartal x={226} y={112} olcek={0.85} kanatlar="inen" />
-  <path d="M168 120 L206 112" stroke="#121010" stroke-width="2" />
-  <path d="M210 111 L200 108 L202 116 Z" fill="#121010" />
+  <g class="sahne-uzaklas"><Kartal x={226} y={112} olcek={0.85} kanatlar="inen" /></g>
+  <g class="sahne-ok">
+    <path d="M168 120 L206 112" stroke="#121010" stroke-width="2" />
+    <path d="M210 111 L200 108 L202 116 Z" fill="#121010" />
+  </g>
 </VazoSahnesi>

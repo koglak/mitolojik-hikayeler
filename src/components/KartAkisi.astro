@@ -1,5 +1,7 @@
 ---
 import MitGorseli from './MitGorseli.astro';
+import SvgTanimlari from './SvgTanimlari.astro';
+import Sahne from '../sahneler/Sahne.astro';
 import { romaRakami } from '../lib/romaRakami';
 import { basligiBol } from '../lib/baslikParcalari';
 
@@ -18,6 +20,8 @@ const sesVar = sesYollari.some(Boolean);
 const { ad, altBaslik } = basligiBol(baslik);
 const toplam = romaRakami(kartlar.length);
 ---
+
+<SvgTanimlari />
 
 <header class="ust">
   <a href="/" class="geri" aria-label="Ana sayfaya dön"><span aria-hidden="true">✺</span></a>
@@ -54,6 +58,7 @@ const toplam = romaRakami(kartlar.length);
       <div class="ust-yazi">
         {romaRakami(i + 1)} / {toplam}
       </div>
+      <Sahne slug={slug} numara={i + 1} sinif="kart-sahnesi" varsa />
       <p class="metin">{kart.metin}</p>
     </section>
   ))
@@ -194,6 +199,14 @@ const toplam = romaRakami(kartlar.length);
     color: var(--vurgu);
     opacity: 0.07;
     pointer-events: none;
+  }
+  .anlati :global(.kart-sahnesi) {
+    position: relative;
+    display: block;
+    width: min(100%, 24rem, 40dvh);
+    height: auto;
+    margin: 14px 0 0;
+    border: 1px solid var(--cizgi);
   }
   .metin {
     position: relative;
