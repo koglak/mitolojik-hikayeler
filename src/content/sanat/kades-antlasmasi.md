@@ -2,7 +2,7 @@
 ad: "Kadeş Antlaşması"
 ozgunAd: "Treaty of Kadesh"
 sira: 42
-tur: kabartma
+tur: tablet
 tarih: "MÖ 1259 dolayları"
 siralamaYili: -1259
 malzeme: "Pişmiş toprak, Akadca çivi yazısı"

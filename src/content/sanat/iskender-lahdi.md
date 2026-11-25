@@ -1,7 +1,7 @@
 ---
 ad: "İskender Lahdi"
 sira: 15
-tur: kabartma
+tur: lahit
 tarih: "MÖ 4. yüzyılın sonu"
 siralamaYili: -320
 malzeme: "Pentelikon mermeri, boya izleri"

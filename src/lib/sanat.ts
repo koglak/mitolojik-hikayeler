@@ -13,6 +13,8 @@ export const sanatTuruAnahtarlari = [
   'vazo',
   'maden',
   'mekanizma',
+  'tablet',
+  'lahit',
 ] as const;
 export type SanatTuru = (typeof sanatTuruAnahtarlari)[number];
 
@@ -26,6 +28,8 @@ export const sanatTurleri: Record<SanatTuru, string> = {
   vazo: 'Vazo',
   maden: 'Maden işi',
   mekanizma: 'Mekanizma',
+  tablet: 'Tablet',
+  lahit: 'Lahit',
 };
 
 export const sanatEserAdresi = (kimlik: string) => `${sanatAdresi}${kimlik}/`;
