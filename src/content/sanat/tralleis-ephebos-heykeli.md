@@ -1,7 +1,7 @@
 ---
 ad: "Tralleis Ephebos Heykeli"
 ozgunAd: "Ephebe of Tralles"
-sira: 66
+sira: 78
 tur: heykel
 tarih: "MÖ 1. yüzyıl sonu – MS 1. yüzyıl başı"
 siralamaYili: -10

@@ -17,9 +17,9 @@ kaynakca:
   - ad: "Metropolitan Museum of Art, Pergamon and the Hellenistic Kingdoms of the Ancient World"
     adres: "https://resources.metmuseum.org/resources/metpublications/pdf/Pergamon_and_the_Hellenistic_Kingdoms_of_the_Ancient_World.pdf"
 ilgiliMitler: []
-ilgiliTanrilar: ["zeus", "ammon"]
+ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["herakles", "akhilleus"]
-ilgiliKentler: ["pergamon", "troya", "issos", "iskenderiye"]
+ilgiliKentler: ["issos"]
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/IAM_1138T_-_Bust_of_Alexander.jpg/960px-IAM_1138T_-_Bust_of_Alexander.jpg"
   genislik: 960

@@ -15,7 +15,7 @@ kaynakca:
   - ad: "Kültür Varlıkları ve Müzeler Genel Müdürlüğü, İstanbul Arkeoloji Müzeleri Heykel Koleksiyonu"
     adres: "https://artsandculture.google.com/story/HwWBlXaYCqyofQ?hl=tr"
 ilgiliMitler: []
-ilgiliTanrilar: ["tykhe", "demeter", "okeanos", "plutos"]
+ilgiliTanrilar: ["tyche", "demeter", "okeanos"]
 ilgiliKahramanlar: []
 ilgiliKentler: ["prusias-ad-hypium"]
 gorsel:

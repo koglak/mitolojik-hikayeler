@@ -19,7 +19,7 @@ kaynakca:
 ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
-ilgiliKentler: ["sayda"]
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Istanbul_Archaeological_Museum_Satrap_Sarcophagus_Long_side_Satrap_about_to_go_on_a_journey_4023.jpg/1280px-Istanbul_Archaeological_Museum_Satrap_Sarcophagus_Long_side_Satrap_about_to_go_on_a_journey_4023.jpg"
   genislik: 1280

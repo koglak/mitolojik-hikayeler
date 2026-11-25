@@ -18,8 +18,8 @@ kaynakca:
     adres: "https://real.mtak.hu/52338/1/aarch.65.2014.2.4.pdf"
 ilgiliMitler: ["romulus-ve-remus"]
 ilgiliTanrilar: ["athena", "nike", "ares"]
-ilgiliKahramanlar: ["romulus", "remus"]
-ilgiliKentler: ["roma", "hierapytna"]
+ilgiliKahramanlar: []
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Statue_of_Emperor_Hadrian%2C_marble%2C_Hierapytna_Crete%2C_117-138_CE.jpg/960px-Statue_of_Emperor_Hadrian%2C_marble%2C_Hierapytna_Crete%2C_117-138_CE.jpg"
   genislik: 960

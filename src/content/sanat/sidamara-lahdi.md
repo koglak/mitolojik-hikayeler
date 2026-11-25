@@ -18,8 +18,8 @@ kaynakca:
     adres: "https://belleten.gov.tr/tam-metin/2337/tur"
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis", "demeter", "eros"]
-ilgiliKahramanlar: ["kastor", "polydeukes"]
-ilgiliKentler: ["sidamara"]
+ilgiliKahramanlar: ["kastor-ve-polydeukes"]
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Sidamara_Sarcophagus_from_Ambararasi.jpg/1280px-Sidamara_Sarcophagus_from_Ambararasi.jpg"
   genislik: 1280

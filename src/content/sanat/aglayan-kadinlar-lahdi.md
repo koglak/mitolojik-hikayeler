@@ -19,7 +19,7 @@ kaynakca:
 ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
-ilgiliKentler: ["sayda"]
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/A%C4%9Flayan_Kad%C4%B1nlar_Lahdi.jpg/1280px-A%C4%9Flayan_Kad%C4%B1nlar_Lahdi.jpg"
   genislik: 1280

@@ -17,9 +17,9 @@ kaynakca:
   - ad: "Wikimedia Commons, Sappho Portrait, İstanbul Arkeoloji Müzeleri, 358 T"
     adres: "https://commons.wikimedia.org/wiki/File:Sappho_portrait_Istanbul_Archaeological_Museum_-_inv._358_T_01.jpg"
 ilgiliMitler: []
-ilgiliTanrilar: ["aphrodite", "eros", "zeus"]
+ilgiliTanrilar: ["afrodit", "eros", "zeus"]
 ilgiliKahramanlar: []
-ilgiliKentler: ["smyrna", "mytilene"]
+ilgiliKentler: ["mytilene"]
 gorsel:
   adres: "https://upload.wikimedia.org/wikipedia/commons/9/98/Sappho_portrait_Istanbul_Archaeological_Museum_-_inv._358_T_01.jpg"
   genislik: 3648

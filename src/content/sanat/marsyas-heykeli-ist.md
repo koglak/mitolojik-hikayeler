@@ -16,10 +16,10 @@ kaynakca:
     adres: "https://dcc.dickinson.edu/palaephatus/marsyas"
   - ad: "Arkeofili, İstanbul Arkeoloji Müzeleri’nde Görülmesi Gereken 25 Heykel"
     adres: "https://arkeofili.com/istanbul-arkeoloji-muzelerinde-gorulmesi-gereken-25-heykel/"
-ilgiliMitler: ["apollon-ve-marsyas"]
+ilgiliMitler: ["marsyas"]
 ilgiliTanrilar: ["apollon", "athena"]
 ilgiliKahramanlar: ["marsyas"]
-ilgiliKentler: ["tarsus", "kelainai"]
+ilgiliKentler: []
 gorsel:
   adres: "https://upload.wikimedia.org/wikipedia/commons/e/e2/IAM_400T_-_Statue_of_Marsyas.jpg"
   genislik: 2724

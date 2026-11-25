@@ -17,9 +17,9 @@ kaynakca:
   - ad: "University of Queensland, Mythbusting Ancient Rome – The Emperor Nero"
     adres: "https://hpi.uq.edu.au/article/2016/09/mythbusting-ancient-rome-%E2%80%93-emperor-nero"
 ilgiliMitler: []
-ilgiliTanrilar: ["fortuna"]
+ilgiliTanrilar: []
 ilgiliKahramanlar: []
-ilgiliKentler: ["roma", "smyrna"]
+ilgiliKentler: []
 ---
 
 ## Anlattığı hikâye

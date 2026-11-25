@@ -19,7 +19,7 @@ kaynakca:
 ilgiliMitler: []
 ilgiliTanrilar: ["inanna", "dumuzi", "enlil"]
 ilgiliKahramanlar: []
-ilgiliKentler: ["nippur", "ur"]
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_Love_Song_of_Shu-Sin_%28Shu-Suen_B%29_%E2%80%93_Istanbul_2461_cropped.jpg/960px-A_Love_Song_of_Shu-Sin_%28Shu-Suen_B%29_%E2%80%93_Istanbul_2461_cropped.jpg"
   genislik: 960

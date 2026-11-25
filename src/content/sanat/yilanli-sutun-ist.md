@@ -21,7 +21,7 @@ kaynakca:
 ilgiliMitler: ["apollon-ve-python"]
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: []
-ilgiliKentler: ["delphi", "plataia", "konstantinopolis", "sparta", "atina"]
+ilgiliKentler: ["delphi", "sparta", "atina"]
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Istanbul_Archaeology_Museum_serpent_head_from_Delphi_about_478_BC_then_Hippodrome_Istanbul_4103.jpg/1280px-Istanbul_Archaeology_Museum_serpent_head_from_Delphi_about_478_BC_then_Hippodrome_Istanbul_4103.jpg"
   genislik: 1280

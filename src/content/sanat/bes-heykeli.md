@@ -19,9 +19,9 @@ kaynakca:
   - ad: "İstanbul Üniversitesi, XIX. Yüzyılın İkinci Yarısında Kıbrıs’ta Diplomat Arkeologların Eski Eser Araştırmaları"
     adres: "https://dergipark.org.tr/tr/download/article-file/2283672"
 ilgiliMitler: []
-ilgiliTanrilar: ["bes", "bastet", "sekhmet"]
+ilgiliTanrilar: []
 ilgiliKahramanlar: ["herakles"]
-ilgiliKentler: ["amathus"]
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/IAM_3317T_-_Statue_of_Bes.jpg/960px-IAM_3317T_-_Statue_of_Bes.jpg"
   genislik: 960

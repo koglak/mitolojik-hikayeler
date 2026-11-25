@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Zeus ve Leto"
 kaynak: "Homerosçu Apollon İlahisi; Homeros, İlyada 1.43–52; Ovidius, Dönüşümler 1.452–567"
-ilgiliMitler: ["akhilleus", "truva-ati", "orpheus-ve-eurydike", "niobe", "apollon-ve-daphne", "hermes", "marsyas", "leto-ve-koyluler", "midas"]
+ilgiliMitler: ["akhilleus", "truva-ati", "orpheus-ve-eurydike", "niobe", "apollon-ve-daphne", "apollon-ve-python", "hermes", "marsyas", "leto-ve-koyluler", "midas"]
 ilgiliKentler: ["delos", "didyma", "klaros", "patara", "truva", "delphi"]
 ilgiliTanrilar: ["artemis", "leto", "zeus"]
 ilgiliKahramanlar: ["akhilleus", "orpheus", "paris"]

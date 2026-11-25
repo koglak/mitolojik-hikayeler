@@ -16,10 +16,10 @@ kaynakca:
     adres: "https://www.academia.edu/43840258/Moshe_L_Fischer_Marble_Studies"
   - ad: "Kültür ve Turizm Bakanlığı, İstanbul Arkeoloji Müzeleri"
     adres: "https://turkishmuseums.kprod.kultur.gov.tr/museum/detail/2066-istanbul-archaeological-museums/2066/4"
-ilgiliMitler: ["titanomakhia"]
+ilgiliMitler: ["titanlar-savasi"]
 ilgiliTanrilar: ["zeus", "kronos", "rhea", "poseidon", "hades"]
 ilgiliKahramanlar: []
-ilgiliKentler: ["gazze"]
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Colossal_statue_of_Zeus%2C_Istanbul_Archaeological_Museums%2C_September_2025_01.jpg/960px-Colossal_statue_of_Zeus%2C_Istanbul_Archaeological_Museums%2C_September_2025_01.jpg"
   genislik: 960

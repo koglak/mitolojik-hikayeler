@@ -48,6 +48,9 @@
     {"kimlik":"hades","ad":"Hades","tur":"tanri","cinsiyet":"erkek","kayit":{"bolum":"tanrilar","kimlik":"hades"}},
     {"kimlik":"eros","ad":"Eros","tur":"tanri","cinsiyet":"erkek","kayit":{"bolum":"tanrilar","kimlik":"eros"},"not":"Hesiodos'ta (Theogonia 116–122) Khaos, Gaia ve Tartaros'la birlikte anılan ilk varlıklardandır ve anne babası yoktur. Sonraki anlatılarda Afrodit'in oğludur."},
     {"kimlik":"kybele","ad":"Kybele","tur":"tanri","cinsiyet":"kadin","kayit":{"bolum":"tanrilar","kimlik":"kybele"},"not":"Frig kökenli ana tanrıça. Yunanlar onu Rhea ile özdeşleştirdi; Yunan soyağacında ayrı bir yeri yoktur."},
+    {"kimlik":"inanna","ad":"Inanna","tur":"tanri","cinsiyet":"kadin","kayit":{"bolum":"tanrilar","kimlik":"inanna"},"not":"Sümer aşk ve savaş tanrıçası. Mezopotamya panteonundandır, Yunan soyağacında ayrı bir yeri yoktur."},
+    {"kimlik":"dumuzi","ad":"Dumuzi","tur":"tanri","cinsiyet":"erkek","kayit":{"bolum":"tanrilar","kimlik":"dumuzi"},"not":"Sümer çoban tanrısı, Inanna'nın eşi. Mezopotamya panteonundandır, Yunan soyağacında ayrı bir yeri yoktur."},
+    {"kimlik":"enlil","ad":"Enlil","tur":"tanri","cinsiyet":"erkek","kayit":{"bolum":"tanrilar","kimlik":"enlil"},"not":"Sümer rüzgâr ve hava tanrısı. Mezopotamya panteonundandır, Yunan soyağacında ayrı bir yeri yoktur."},
     {"kimlik":"persephone","ad":"Persephone","tur":"tanri","cinsiyet":"kadin","kayit":{"bolum":"tanrilar","kimlik":"persephone"}},
     {"kimlik":"hebe","ad":"Hebe","tur":"tanri","cinsiyet":"kadin","kayit":{"bolum":"tanrilar","kimlik":"hebe"}},
     {"kimlik":"hekate","ad":"Hekate","tur":"tanri","cinsiyet":"kadin","kayit":{"bolum":"tanrilar","kimlik":"hekate"}},
@@ -1614,6 +1617,7 @@
     {"tur":"es","kisiler":["proitos","stheneboia"],"kaynak":"Apollodoros, Kütüphane 2.2.1"},
     {"tur":"es","kisiler":["oinomaos","sterope"],"kaynak":"Apollodoros, Kütüphane 3.10.1"},
     {"tur":"es","kisiler":["akhilleus","briseis"],"kaynak":"Homeros, İlyada 9.336–343","birliktelik":true},
-    {"tur":"es","kisiler":["aineias","dido"],"kaynak":"Vergilius, Aeneis 4.160–172","birliktelik":true}
+    {"tur":"es","kisiler":["aineias","dido"],"kaynak":"Vergilius, Aeneis 4.160–172","birliktelik":true},
+    {"tur":"es","kisiler":["dumuzi","inanna"],"kaynak":"Inanna'nın Yeraltına İnişi (Sümer şiiri)"}
   ]
 }

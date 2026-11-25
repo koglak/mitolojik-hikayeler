@@ -195,6 +195,22 @@ const simgeler: Record<string, string> = {
     '<circle cx="54" cy="10" r="1.5" fill="currentColor"/><circle cx="10" cy="54" r="1.5" fill="currentColor"/>' +
     '<circle cx="56" cy="52" r="1" fill="currentColor"/><circle cx="8" cy="12" r="1" fill="currentColor"/>',
 
+  inanna:
+    '<path d="' + isinlar(32, 32, 7, 26, 8) + '"/>' +
+    '<path d="' + isinlar(32, 32, 7, 17, 8, 22.5) + '"/>' +
+    '<circle cx="32" cy="32" r="5"/>',
+
+  dumuzi:
+    '<path d="M24 58V20a11 11 0 1 1 22 0v4"/>' +
+    '<path d="M12 42c0-5 5-8 10-6M8 46h18"/>' +
+    '<path d="M40 58h14M44 50c0-4 3-6 6-6s5 2 5 6"/>',
+
+  enlil:
+    '<path d="M6 22c10-6 22-6 30 0s14 4 20-2"/>' +
+    '<path d="M10 34c8-5 18-5 26 0 5 3 11 3 18 0"/>' +
+    '<path d="M14 46c6-4 14-4 20 0 4 2 8 3 12 1"/>' +
+    '<path d="M32 8c-4 4-4 8 0 12M44 8c4 4 4 8 0 12"/>',
+
   kronos:
     dolu('M47 12C30 3 10 14 10 36c7-14 21-20 35-16Z') +
     '<path d="M45 16 29 58"/>' +
