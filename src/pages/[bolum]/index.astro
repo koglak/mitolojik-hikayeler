@@ -54,11 +54,12 @@ const haritaKentleri =
 const bolgeGruplari = !sayfali && kayitlar.some((kayit) => kayit.data.bolge)
   ? [
       ...bolgeAnahtarlari.map((anahtar) => ({
+        anahtar,
         baslik: bolgeler[anahtar].ad,
         renk: bolgeler[anahtar].renk,
         kayitlar: kayitlar.filter((kayit) => kayit.data.bolge === anahtar),
       })),
-      { baslik: 'Diğer', renk: undefined, kayitlar: kayitlar.filter((kayit) => !kayit.data.bolge) },
+      { anahtar: 'diger', baslik: 'Diğer', renk: undefined, kayitlar: kayitlar.filter((kayit) => !kayit.data.bolge) },
     ].filter((grup) => grup.kayitlar.length > 0)
   : [];
 const tanriKayitlari = bolum === 'kentler' ? await getCollection('tanrilar') : [];
@@ -168,7 +169,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
               <h2>
                 <span class="bolge-noktasi" aria-hidden="true" />
                 {grup.baslik}
-                <span class="bolge-sayisi">{grup.kayitlar.length} kent</span>
+                <span class="bolge-sayisi">{grup.kayitlar.length} {grup.anahtar === 'prehistorya' ? 'yerleşim' : 'kent'}</span>
               </h2>
               <ul class="kayitlar">
                 {grup.kayitlar.map((kayit) => (

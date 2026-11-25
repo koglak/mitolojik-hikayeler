@@ -14,7 +14,7 @@ export const bolumler: Record<BolumAnahtari, Bolum> = {
     ad: 'Antik Kentler',
     yol: 'antik-kentler',
     tekil: 'Kent',
-    aciklama: 'Mitlerin geçtiği, tanrılara tapınakların yapıldığı yerler. Bugün nerede oldukları ve ne kaldığıyla.',
+    aciklama: 'Tarihöncesi yerleşimler, mitlerin geçtiği kentler ve antik kutsal alanlar. Bugün nerede oldukları ve ne kaldığıyla.',
   },
   tanrilar: {
     ad: 'Tanrılar',

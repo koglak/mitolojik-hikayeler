@@ -1,4 +1,5 @@
 export const bolgeAnahtarlari = [
+  'prehistorya',
   'attika',
   'peloponnesos',
   'orta-yunanistan',
@@ -38,6 +39,7 @@ export interface Bolge {
 }
 
 export const bolgeler: Record<BolgeAnahtari, Bolge> = {
+  prehistorya: { ad: 'Prehistorya', renk: '#e5bd87' },
   attika: { ad: 'Attika', renk: '#00e5ff' },
   peloponnesos: { ad: 'Peloponnesos', renk: '#00bfa5' },
   'orta-yunanistan': { ad: 'Orta Yunanistan', renk: '#448aff' },
