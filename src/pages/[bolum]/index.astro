@@ -155,7 +155,13 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
                     data-adres={kayitAdresi(bolum, kayit.id)}
                     data-tanrilar={tapinakTanrilari(kayit).join(' ')}
                   >
-                    <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3} vurguRengi={bolgeRengi(kayit)} />
+                    <KayitKarti
+                      adres={kayitAdresi(bolum, kayit.id)}
+                      kayit={kayit.data}
+                      bilgiSayisi={3}
+                      vurguRengi={bolgeRengi(kayit)}
+                      gorsel={bolum === 'kentler' ? kayit.data.kunyeGorseli : undefined}
+                    />
                   </li>
                 ))}
               </ul>
@@ -165,7 +171,12 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
           <ul class="kayitlar">
             {kayitlar.map((kayit) => (
               <li data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined}>
-                <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3}>
+                <KayitKarti
+                  adres={kayitAdresi(bolum, kayit.id)}
+                  kayit={kayit.data}
+                  bilgiSayisi={3}
+                  gorsel={bolum === 'kentler' ? kayit.data.kunyeGorseli : undefined}
+                >
                   {kayitSimgesi(bolum, kayit.id) && <KayitSimgesi slot="simge" bolum={bolum} slug={kayit.id} />}
                 </KayitKarti>
               </li>

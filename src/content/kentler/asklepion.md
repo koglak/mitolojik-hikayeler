@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["asklepios"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "asklepios", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/PergamonAsklepieionHofundTheater.jpg/500px-PergamonAsklepieionHofundTheater.jpg"
+  genislik: 500
+  yukseklik: 341
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:PergamonAsklepieionHofundTheater.jpg"
+  alt: "Bergama Asklepionu görseli"
+  wikidata: "Q630373"
 ---
 
 Asklepion, Bergama akropolünün güneybatısındaki ovada, Asklepios'a adanmış bir şifa merkeziydi. Pausanias'a göre kutsal alanı, Asklepios kültünü Epidauros'tan getiren Arkhias adında bir Bergamalı kurdu.

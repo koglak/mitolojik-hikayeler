@@ -22,6 +22,16 @@ tapinaklar:
   - ad: "Zeus Megistos Kutsal Alanı"
     tanrilar: ["zeus"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/IasosAgora.jpg/500px-IasosAgora.jpg"
+  genislik: 500
+  yukseklik: 343
+  sahibi: "MM"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:IasosAgora.jpg"
+  alt: "Iasos görseli"
+  wikidata: "Q279048"
 ---
 
 Iasos, Güllük Körfezi'nde, bir zamanlar ada olan küçük bir yarımadanın üstüne kurulmuştu. Strabon'a göre toprağı verimsizdi; kentin geçimi denizden, balıkçılıktan gelirdi.

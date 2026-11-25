@@ -24,6 +24,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "poseidon"]
 ilgiliKahramanlar: ["menelaos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg/500px-Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "A.Savin"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg"
+  alt: "Sounion görseli"
+  wikidata: "Q1136637"
 ---
 
 Sounion, Attika yarımadasının en güney ucunda, denize doğru altmış metre kadar yükselen bir kayalığın tepesindedir. Atina'dan gemiyle Ege'ye açılan ya da Ege'den Atina'ya dönen bir yolcu, anakarayı önce bu burunda görürdü. Tapınak bu yüzden hem bir kutsal alan hem de kıyıdan okunan bir yön işaretiydi.

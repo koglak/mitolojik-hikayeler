@@ -20,6 +20,16 @@ konum:
   boylam: 27.8333
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "asklepios", "nike"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Tralles.jpg/500px-Tralles.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "Mustaffaa 3"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tralles.jpg"
+  alt: "Tralleis görseli"
+  wikidata: "Q462630"
 ---
 
 Tralleis, bugünkü Aydın'ın hemen kuzeyinde, eski adı Mesogis olan dağların eteğindeki yüksek bir düzlükte kuruluydu. Strabon'a göre kenti Argoslular ile Trakyalı Tralleisliler kurdu; adı da bunlardan geliyordu. Strabon burayı Asia'nın varlıklı insanı en bol kentlerinden biri sayar.

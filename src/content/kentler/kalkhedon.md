@@ -18,6 +18,16 @@ konum:
   boylam: 29.025
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Kadikoy_4img.jpg/500px-Kadikoy_4img.jpg"
+  genislik: 500
+  yukseklik: 666
+  sahibi: "Kadiköymodadtrassenbahn.jpg : User:Acp Bagdad_Caddesi-davidbenito.jpg : davidbenito from istanbul, turkey Haydarpasa_train_station.jpg : User:Starliner KadıköyAtatürk.JPG : Ail Subway derivative work: Chicoutimi"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kadikoy_4img.jpg"
+  alt: "Kalkhedon görseli"
+  wikidata: "Q932886"
 ---
 
 Kalkhedon, İstanbul Boğazı'nın Asya yakasında, bugünkü Kadıköy'ün yerinde Megaralı göçmenler tarafından kuruldu. Bizantion, yani sonraki İstanbul, ondan on yedi yıl sonra karşı kıyıda kuruldu.

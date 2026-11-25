@@ -25,6 +25,16 @@ tapinaklar:
     tanrilar: ["tyche"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "athena"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Side.Great_Gate%2802%29.jpg/500px-Side.Great_Gate%2802%29.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Bilinmiyor"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Side.Great_Gate(02).jpg"
+  alt: "Side görseli"
+  wikidata: "Q152405"
 ---
 
 Side, Manavgat'ın güneyinde denize uzanan dar bir burnun üstündedir. Kentin adı, buranın eski yerli dilinde "nar" anlamına gelir; sikkelerinin üstünde de bir nar görülür.

@@ -18,6 +18,16 @@ konum:
   boylam: 33.3236
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kelenderis1.jpg/500px-Kelenderis1.jpg"
+  genislik: 500
+  yukseklik: 339
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kelenderis1.jpg"
+  alt: "Kelenderis görseli"
+  wikidata: "Q1738167"
 ---
 
 Kelenderis, Kıbrıs'a bakan dağlık Kilikya kıyısında, küçük bir koyun çevresine kurulmuş bir liman kentiydi. Kıbrıs'a en yakın limanlardan biri olduğu için ada ile Anadolu arasındaki geçişin önemli duraklarından biriydi.

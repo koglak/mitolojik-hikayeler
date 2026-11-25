@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["herakles", "hippolyte", "omphale"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%D0%9B%D0%B0%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D0%B0._%D0%A2%D0%B5%D1%80%D1%80%D0%B0%D1%81%D0%B0.jpg/500px-%D0%9B%D0%B0%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D0%B0._%D0%A2%D0%B5%D1%80%D1%80%D0%B0%D1%81%D0%B0.jpg"
+  genislik: 500
+  yukseklik: 307
+  sahibi: "Vadimph"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B0%D0%B1%D1%80%D0%B0%D0%BD%D0%B4%D0%B0._%D0%A2%D0%B5%D1%80%D1%80%D0%B0%D1%81%D0%B0.jpg"
+  alt: "Labranda görseli"
+  wikidata: "Q1799531"
 ---
 
 Labranda, Milas'ın kuzeyindeki dağların yamacında, Zeus'a adanmış bir kutsal alandır. Mylasa'dan buraya, Strabon'un zamanında kurbanlık hayvanların götürüldüğü taş döşeli bir kutsal yol çıkardı.

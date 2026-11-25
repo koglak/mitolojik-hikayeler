@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["aias"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Salamis.jpg/500px-Salamis.jpg"
+  genislik: 500
+  yukseklik: 319
+  sahibi: "No machine-readable author provided. Gustavobw assumed (based on copyright claims)."
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Salamis.jpg"
+  alt: "Salamis (Kıbrıs) görseli"
+  wikidata: "Q767089"
 ---
 
 Salamis, Kıbrıs'ın doğu kıyısında, bugün Gazimağusa'nın hemen kuzeyindeki kumsalın arkasındadır. Strabon, kentin Troya'dan dönen Teukros, yani Telamonlu Aias'ın kardeşi tarafından kurulduğunu ve adını yurdundaki Salamis Adası'ndan aldığını yazar. Kent kısa sürede adanın en güçlü krallığı oldu.

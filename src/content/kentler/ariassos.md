@@ -15,6 +15,16 @@ konum:
   enlem: 37.1747
   boylam: 30.4864
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ariassos_6.jpg/500px-Ariassos_6.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Sarah Murray from Lincoln, NE, USA (Αρχικό) Wolfymoza (Ανέβασμα)"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ariassos_6.jpg"
+  alt: "Ariassos görseli"
+  wikidata: "Q656904"
 ---
 
 Ariassos, Antalya'dan Burdur'a giden yolun hemen yanında, iki yamaç arasındaki dar bir vadiye kurulmuş bir Pisidia kentiydi. Kentin adının "-assos" eki, Labranda ve Arykanda'daki gibi Yunanlılardan önceki Anadolu dillerinden gelir.

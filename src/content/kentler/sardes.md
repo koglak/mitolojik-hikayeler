@@ -24,6 +24,16 @@ tapinaklar:
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["artemis", "dionysos"]
 ilgiliKahramanlar: ["midas"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/The_Bath-Gymnasium_complex_at_Sardis%2C_late_2nd_-_early_3rd_century_AD%2C_Sardis%2C_Turkey_%2817098680002%29.jpg/500px-The_Bath-Gymnasium_complex_at_Sardis%2C_late_2nd_-_early_3rd_century_AD%2C_Sardis%2C_Turkey_%2817098680002%29.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Carole Raddato from FRANKFURT, Germany"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:The_Bath-Gymnasium_complex_at_Sardis,_late_2nd_-_early_3rd_century_AD,_Sardis,_Turkey_(17098680002).jpg"
+  alt: "Sardes görseli"
+  wikidata: "Q232615"
 ---
 
 Sardes, Bozdağ'ın, antik adıyla Tmolos'un eteğinde, Lydia krallığının başkentiydi. Kentin içinden geçen Paktolos Çayı altın tozu taşırdı. Lydialılar bu altınla tarihte ilk sikkeleri bastı. Son kralları Kroisos, zenginliğiyle atasözüne girdi.

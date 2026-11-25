@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "helios", "hermes", "zeus"]
 ilgiliKahramanlar: ["herakles"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Worshipping_Nemrut.jpg/500px-Worshipping_Nemrut.jpg"
+  genislik: 500
+  yukseklik: 198
+  sahibi: "saipal"
+  lisans: "CC BY 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Worshipping_Nemrut.jpg"
+  alt: "Nemrut Dağı görseli"
+  wikidata: "Q207917"
 ---
 
 Nemrut Dağı'nın 2100 metreyi aşan zirvesinde, insan eliyle küçük taşlardan yığılmış dev bir tümülüs yükselir. Bunu MÖ 1. yüzyılda Kommagene kralı I. Antiokhos, kendi mezarı ve tanrılarla buluşacağı bir kutsal alan olarak yaptırdı. Kommagene küçük bir krallıktı ama kralı, soyunu baba tarafından Pers krallarına, anne tarafından Büyük İskender'e bağlıyordu.

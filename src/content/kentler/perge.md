@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["kalkhas", "mopsos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Perge_city_overview.jpg/500px-Perge_city_overview.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Saffron Blaze"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Perge_city_overview.jpg"
+  alt: "Perge görseli"
+  wikidata: "Q719815"
 ---
 
 Perge, Aksu Çayı'nın, antik adıyla Kestros'un yakınında, düz bir ovada kurulmuştu. Pergeliler kentlerinin Truva Savaşı'ndan sonra kurulduğuna inanırdı: anlatıya göre savaştan dönen kâhinler Kalkhas ve Mopsos, yanlarındaki halkı buraya getirmişti. MS 2. yüzyılda kentin zengin kadın hayırseveri Plancia Magna, kent kapısının avlusuna bu efsanevi kurucuların heykellerini diktirdi.

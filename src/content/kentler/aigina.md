@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["akhilleus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Temple_of_Aphaia%2C_Aegina%2C_Greece_2016-08-05.jpg/500px-Temple_of_Aphaia%2C_Aegina%2C_Greece_2016-08-05.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Eric C Gardner"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Aphaia,_Aegina,_Greece_2016-08-05.jpg"
+  alt: "Aigina’daki Aphaia Tapınağı"
+  wikidata: "Q191082"
 ---
 
 Aigina, Atina'nın yaklaşık yirmi beş kilometre güneybatısında, Saronik Körfez'de küçük ve kayalık bir adadır. MÖ 6. ve 5. yüzyıllarda Atina'ya rakip bir deniz gücüydü. Yunan dünyasında ilk sikkelerden birini basanlar arasındaydı. Paranın üstündeki deniz kaplumbağası adanın simgesiydi.

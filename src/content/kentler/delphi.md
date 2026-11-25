@@ -58,6 +58,16 @@ yapilar:
 ilgiliMitler: ["oidipus", "herakles", "titanlar-savasi", "altin-koc"]
 ilgiliTanrilar: ["apollon", "athena", "gaia", "zeus"]
 ilgiliKahramanlar: ["oidipus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Delfi_Apollons_tempel.jpg/500px-Delfi_Apollons_tempel.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Helen Simonsson"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Delfi_Apollons_tempel.jpg"
+  alt: "Delphi görseli"
+  wikidata: "Q75459"
 ---
 
 Delphi, Parnassos dağının güney yamacında, iki dev kayalığın dibine kuruldu. Aşağıda zeytinliklerle kaplı bir vadi denize doğru iner. Mitlere göre Zeus dünyanın ortasını bulmak için iki kartalı iki uçtan uçurdu. Kartallar Delphi'nin üstünde buluştu. Burada "omphalos" denen göbek biçimli bir taş, dünyanın merkezini gösterirdi.

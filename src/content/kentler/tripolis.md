@@ -18,6 +18,16 @@ tapinaklar:
   - ad: "Apollon Lairbenos Tapınağı"
     tanrilar: ["apollon"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tripolis_in_Phrygia_Buldan_Denizli2.jpg/500px-Tripolis_in_Phrygia_Buldan_Denizli2.jpg"
+  genislik: 500
+  yukseklik: 304
+  sahibi: "Mr. Arif Solak"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tripolis_in_Phrygia_Buldan_Denizli2.jpg"
+  alt: "Tripolis görseli"
+  wikidata: "Q117411"
 ---
 
 Tripolis, Büyük Menderes'in kuzey kıyısında, üç bölgenin sınırında kurulmuştu: Lydia, Frigya ve Karya. Kentin adının "üç kent" anlamına gelmesi, kimi araştırmacılara göre bu konumla, kimilerine göre de kurulurken birleşen yerleşimlerle ilgilidir.

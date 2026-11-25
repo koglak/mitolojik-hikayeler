@@ -17,6 +17,16 @@ konum:
   enlem: 36.4842
   boylam: 34.1728
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Elaiussa_Sebaste%2C_Cilicia%2C_Turkey_%2839344774672%29.jpg/500px-Elaiussa_Sebaste%2C_Cilicia%2C_Turkey_%2839344774672%29.jpg"
+  genislik: 500
+  yukseklik: 331
+  sahibi: "Carole Raddato from FRANKFURT, Germany"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Elaiussa_Sebaste,_Cilicia,_Turkey_(39344774672).jpg"
+  alt: "Elaiussa Sebaste görseli"
+  wikidata: "Q1324870"
 ---
 
 Elaiussa, Kızkalesi'nin birkaç kilometre doğusunda, kıyının hemen açığındaki küçük bir adada kuruldu. Zamanla ada ile kara arasını kum doldurdu ve ada bir yarımadaya dönüştü. Adı, Yunanca "zeytin" kelimesinden gelir.

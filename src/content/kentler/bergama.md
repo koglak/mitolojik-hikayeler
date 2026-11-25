@@ -31,6 +31,16 @@ tapinaklar:
     tanrilar: ["demeter"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Temple_of_Trajan%2C_Pergamon_01.jpg/500px-Temple_of_Trajan%2C_Pergamon_01.jpg"
+  genislik: 500
+  yukseklik: 362
+  sahibi: "Bernard Gagnon"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Trajan,_Pergamon_01.jpg"
+  alt: "Bergama görseli"
+  wikidata: "Q18986"
 ---
 
 Antik adıyla Pergamon, MÖ 3. yüzyılda Attalos hanedanının başkenti oldu. Krallar kenti 300 metrelik bir tepenin yamacına, teraslar hâlinde kurdu. Tiyatrosu antik dünyanın en dik tiyatrolarından biridir.

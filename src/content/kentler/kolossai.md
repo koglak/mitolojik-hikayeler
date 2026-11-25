@@ -17,6 +17,16 @@ konum:
   enlem: 37.7864
   boylam: 29.2614
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Colossae.jpg/500px-Colossae.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Skylight 555"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Colossae.jpg"
+  alt: "Kolossai görseli"
+  wikidata: "Q1001370"
 ---
 
 Kolossai, Honaz Dağı'nın eteğinde, Lykos Çayı'nın kıyısındaki bir höyüğün üstündedir. Herodotos, Pers kralı Kserkses'in ordusuyla Kolossai'den geçtiğini ve burada Lykos'un bir yarığa girip yeraltında kaybolduğunu, sonra yeniden yüzeye çıktığını yazar.

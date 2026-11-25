@@ -17,6 +17,16 @@ konum:
   enlem: 36.7369
   boylam: 34.5417
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/ViransehirS%C3%A4ulen.jpg/500px-ViransehirS%C3%A4ulen.jpg"
+  genislik: 500
+  yukseklik: 740
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:ViransehirS%C3%A4ulen.jpg"
+  alt: "Soli-Pompeiopolis görseli"
+  wikidata: "Q656954"
 ---
 
 Soli, Mersin'in batısında, denize açılan bir koyun kıyısında kuruldu. Strabon'a göre kenti Akhalar ve Rodos'taki Lindos'tan gelen göçmenler kurdu. Yerli halkın arasında yaşayan Solililerin Yunancası zamanla bozuldu. Dilbilgisi hatasına bugün de "solesizm" denir; kelime, Yunanca "Soli'liler gibi konuşmak" anlamındaki "soloikizein"den gelir.

@@ -17,6 +17,16 @@ konum:
   enlem: 36.8653
   boylam: 39.0311
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Harran_beehive_houses_%282%29.JPG/500px-Harran_beehive_houses_%282%29.JPG"
+  genislik: 500
+  yukseklik: 335
+  sahibi: "Zhengan"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Harran_beehive_houses_(2).JPG"
+  alt: "Harran görseli"
+  wikidata: "Q199547"
 ---
 
 Harran, Mezopotamya ovasında, dünyanın en eski sürekli yerleşimlerinden biridir. Binlerce yıl boyunca ay tanrısı Sin'in kutsal kenti oldu. Asurlular, Babilliler ve sonra Romalılar bu tanrının tapınağına saygı gösterdi. Tevrat'a göre İbrahim, Kenan'a gitmeden önce ailesiyle bir süre Harran'da yaşadı.

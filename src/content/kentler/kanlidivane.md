@@ -18,6 +18,15 @@ konum:
   boylam: 34.1797
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Kanlidivane_sinkhole.JPG/500px-Kanlidivane_sinkhole.JPG"
+  genislik: 500
+  yukseklik: 340
+  sahibi: "U.S. Air Force photo by Senior Airman Daniel Phelps/Released"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kanlidivane_sinkhole.JPG"
+  alt: "Kanlıdivane görseli"
+  wikidata: "Q202974"
 ---
 
 Kanlıdivane, Erdemli'nin kuzeyindeki kireçtaşı arazide, yaklaşık altmış metre derinliğinde, duvarları dik bir obruğun kenarına kurulmuştu. Obruğun güney ucunda, Hellenistik dönemde yapılmış bir kule durur. Duvarlara oyulmuş kabartmalarda bir aile topluluğu ve bir asker görülür. Bugünkü adı, suçluların obruğa atıldığını anlatan bir halk söylencesinden gelir.

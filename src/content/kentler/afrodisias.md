@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["afrodit"]
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Aphrodisias_turkey.jpg/500px-Aphrodisias_turkey.jpg"
+  genislik: 500
+  yukseklik: 301
+  sahibi: "Brocken Inaglory"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aphrodisias_turkey.jpg"
+  alt: "Afrodisias görseli"
+  wikidata: "Q618495"
 ---
 
 Afrodisias, Karya'nın iç kesiminde, Babadağ'ın eteğindeki bir yaylada kuruldu. Kent, adını aldığı aşk ve güzellik tanrıçası Aphrodite'nin kutsal alanının çevresinde büyüdü.

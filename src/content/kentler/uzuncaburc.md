@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Hellenistik_temple_in_Uzuncabur%C3%A7%2C_Turkey.jpg/500px-Hellenistik_temple_in_Uzuncabur%C3%A7%2C_Turkey.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Nedim Ardoğa"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Hellenistik_temple_in_Uzuncabur%C3%A7,_Turkey.jpg"
+  alt: "Uzuncaburç görseli"
+  wikidata: "Q1226761"
 ---
 
 Uzuncaburç, Silifke'nin kuzeyindeki yaylada, Olba rahip-krallığının kutsal merkeziydi. Roma döneminde Diokaisareia, yani "Zeus'un ve Sezar'ın kenti" adını aldı. Bölgenin asıl kenti Olba, birkaç kilometre doğudaki Ura'daydı.

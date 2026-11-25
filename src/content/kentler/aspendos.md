@@ -40,6 +40,16 @@ yapilar:
       kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aqueduct_of_Aspendos_03.jpg"
       alt: "Aspendos su kemerinin uzun taş kemerleri"
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Aspendos_Amphitheatre.jpg/500px-Aspendos_Amphitheatre.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Saffron Blaze"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aspendos_Amphitheatre.jpg"
+  alt: "Aspendos görseli"
+  wikidata: "Q633757"
 ---
 
 Aspendos, Köprüçay'ın, antik adıyla Eurymedon'un kıyısındaki bir tepeye kurulmuştu. Strabon'a göre kenti Argos'tan gelenler kurdu. Irmak o zamanlar gemilerin kente kadar çıkabileceği kadar derindi. MÖ 466 civarında Atinalı komutan Kimon, Pers donanmasını ve ordusunu bu ırmağın ağzında aynı gün içinde yendi.

@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: ["ikaros", "theseus-ve-minotauros", "europa"]
 ilgiliTanrilar: ["poseidon", "zeus"]
 ilgiliKahramanlar: ["ariadne", "theseus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Knossos_-_North_Portico_02.jpg/500px-Knossos_-_North_Portico_02.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Bernard Gagnon"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Knossos_-_North_Portico_02.jpg"
+  alt: "Knossos görseli"
+  wikidata: "Q173527"
 ---
 
 Knossos, Girit'in kuzey kıyısına yakın, alçak bir tepede kuruldu. Burada Avrupa'nın ilk büyük sarayı yükseldi. Yüzlerce odası, merdivenleri, ışık kuyuları ve dolambaçlı koridorlarıyla bu saray, sonraki Yunanlar'ın anlattığı labirentin aslı olabilir. Duvarlarında boğanın üstünden takla atan gençler ve yunuslar resmedilmişti.

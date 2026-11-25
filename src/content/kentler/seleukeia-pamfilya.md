@@ -15,6 +15,16 @@ konum:
   enlem: 36.8525
   boylam: 31.5636
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Seleukia%28Turkey%292012.jpg/500px-Seleukia%28Turkey%292012.jpg"
+  genislik: 500
+  yukseklik: 315
+  sahibi: "Vwpolonia75 (Jens K. Müller)"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Seleukia(Turkey)2012.jpg"
+  alt: "Seleukeia (Pamfilya) görseli"
+  wikidata: "Q362627"
 ---
 
 Bu Seleukeia, Manavgat'ın kuzeydoğusunda, Toros eteklerindeki ormanlık bir tepenin üstündedir. Adı, Büyük İskender'den sonra bölgeye hükmeden Selevkos krallarından gelir. Aynı adı taşıyan başka kentler de vardı; Kilikya'daki Silifke'nin antik adı da Seleukeia'dır.

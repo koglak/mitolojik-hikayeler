@@ -25,6 +25,16 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: ["phaethon"]
 ilgiliTanrilar: ["apollon", "helios", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Acropolis_of_Rhodes_overview.JPG/500px-Acropolis_of_Rhodes_overview.JPG"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "MattiPaavola"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Acropolis_of_Rhodes_overview.JPG"
+  alt: "Rodos görseli"
+  wikidata: "Q3557443"
 ---
 
 Rodos kenti, adanın kuzey ucunda, Marmaris'in tam karşısında kuruldu. Adanın üç eski kenti, Lindos, Ialysos ve Kameiros, MÖ 408'de birleşip bu yeni kenti yaptı. Yollarını bir ızgara gibi çizdiler ve iki limanı olan zengin bir deniz kenti kurdular.

@@ -17,6 +17,16 @@ konum:
   enlem: 40.7656
   boylam: 29.9408
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Karte_Nikomedia.png/500px-Karte_Nikomedia.png"
+  genislik: 500
+  yukseklik: 450
+  sahibi: "Bilinmiyor"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Karte_Nikomedia.png"
+  alt: "Nikomedia görseli"
+  wikidata: "Q209349"
 ---
 
 Nikomedia, İzmit Körfezi'nin doğu ucunda, MÖ 264'te Bithynia kralı I. Nikomedes tarafından kuruldu ve krallığın başkenti oldu. Romalılardan kaçan Kartacalı komutan Hannibal, Bithynia'ya sığınmıştı. Plutarkhos'a göre Romalılar onu teslim almak için geldiğinde Hannibal, Nikomedia'nın yakınındaki Libyssa'da, bugünkü Gebze'de, zehir içip öldü.

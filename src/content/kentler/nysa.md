@@ -21,6 +21,15 @@ tapinaklar:
     tanrilar: ["hades", "persephone"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["dionysos", "hades", "persephone"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Nysa%2C_Anatolia.JPG/500px-Nysa%2C_Anatolia.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Musti at English Wikipedia"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Nysa,_Anatolia.JPG"
+  alt: "Nysa görseli"
+  wikidata: "Q1779332"
 ---
 
 Nysa, Büyük Menderes vadisinin kuzeyinde, bir derenin iki yakasına kurulmuş bir kentti. Kentin iki yarısı, derenin üstüne yapılmış dev bir tünelle birbirine bağlanıyordu. Nysa adı, mitlerde bebek Dionysos'u büyüten perilerin yaşadığı dağın ve kimi anlatılara göre onun dadısının adıdır. Coğrafyacı Strabon, gençliğinde burada eğitim gördü.

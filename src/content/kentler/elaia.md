@@ -17,6 +17,16 @@ konum:
   enlem: 38.9369
   boylam: 27.0442
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ruins_in_Elaea.jpg/500px-Ruins_in_Elaea.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Evilemperorzorg"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ruins_in_Elaea.jpg"
+  alt: "Elaia görseli"
+  wikidata: "Q779669"
 ---
 
 Elaia, Bakırçay'ın Çandarlı Körfezi'ne döküldüğü yerin yakınında, Bergama'nın yaklaşık yirmi beş kilometre güneybatısındaydı. Adı, Yunanca zeytin anlamına gelen "elaia" kelimesinden gelir. Bugün antik kentin üstündeki köyün adı da Zeytindağ'dır.

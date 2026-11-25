@@ -17,6 +17,16 @@ konum:
   enlem: 41.0525
   boylam: 32.5378
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Hadrianapolis_Dec_2025_02.jpg/500px-Hadrianapolis_Dec_2025_02.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "İmmortalance"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Hadrianapolis_Dec_2025_02.jpg"
+  alt: "Hadrianopolis görseli"
+  wikidata: "Q1301195"
 ---
 
 Hadrianopolis, Eskipazar'ın yakınında, Paflagonya'nın iç kesimindeki bir vadide kurulmuş bir Roma kentiydi. Adını, Anadolu'da birçok kente adını vermiş olan İmparator Hadrianus'tan alır.

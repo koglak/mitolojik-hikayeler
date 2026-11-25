@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["atalante"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["atalanta"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_%282017%2C_image_1%29.jpg/500px-Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_%282017%2C_image_1%29.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "Gregor Hagedorn"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Archaeological_site_of_the_Temple_of_Athena_Alea_at_Tegea_(2017,_image_1).jpg"
+  alt: "Tegea görseli"
+  wikidata: "Q645234"
 ---
 
 Tegea, Peloponnesos'un ortasındaki yaylada, Sparta'ya karşı direnen Arkadia kentlerinin en güçlüsüydü. Kenti bir arada tutan şey, Athena Alea'nın kutsal alanıydı. Aleos efsanevi kuruculardan biri olarak anılırdı. Tanrıçanın adı ise "sığınma" anlamına gelen bir sözcükle ilişkilendirilirdi.

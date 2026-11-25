@@ -45,6 +45,7 @@ export async function getStaticPaths() {
 
 const { bolum, kayit, ayniBolgedekiler } = Astro.props;
 const kentSayfasi = bolum === 'kentler';
+const kunyeGorseli = kentSayfasi ? kayit.data.kunyeGorseli : undefined;
 const soyagacindakiKisi = bolum === 'kentler' ? undefined : kayittanKisi(hamSoyagaci as unknown as Soyagaci, bolum, kayit.id);
 const kaynakParcalari = await bagliKaynak(kayit.data.kaynak);
 const ilgiliGruplar = await ilgiliKayitlar(bolum, kayit.id);
@@ -115,6 +116,19 @@ const yapisalVeri = [
 
       <div class="duzen">
         <aside class="kunye" aria-label="Künye">
+          {kunyeGorseli && (
+            <figure class="kunye-gorseli">
+              <img
+                src={kunyeGorseli.adres}
+                width={kunyeGorseli.genislik}
+                height={kunyeGorseli.yukseklik}
+                alt={kunyeGorseli.alt}
+                loading="lazy"
+                decoding="async"
+              />
+              <GorselAtfi gorsel={kunyeGorseli} wikidata={kunyeGorseli.wikidata} />
+            </figure>
+          )}
           <dl>
             {
               kayit.data.bilgiler.map((bilgi: { etiket: string; deger: string }) => (
@@ -350,6 +364,17 @@ const yapisalVeri = [
     margin: 0;
     display: grid;
     gap: 16px;
+  }
+  .kunye-gorseli {
+    margin: 0 0 20px;
+    border: 1px solid var(--cizgi);
+  }
+  .kunye-gorseli img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
   }
   .kunye dt {
     font-size: 12px;

@@ -21,6 +21,15 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hekate", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Stratonicee_Sebasteion.JPG/500px-Stratonicee_Sebasteion.JPG"
+  genislik: 500
+  yukseklik: 373
+  sahibi: "gabri331"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Stratonicee_Sebasteion.JPG"
+  alt: "Stratonikeia görseli"
+  wikidata: "Q1361187"
 ---
 
 Stratonikeia, Selevkos hanedanından Antiokhos I'in kurduğu ve karısı Stratonike'nin adını verdiği bir kenttir. Strabon, kentin Selevkos krallarının yaptırdığı yapılarla süslendiğini yazar.

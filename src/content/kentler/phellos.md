@@ -15,6 +15,16 @@ konum:
   enlem: 36.2111
   boylam: 29.6436
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/LycianTombPhellos.jpg/500px-LycianTombPhellos.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Curlymanjaro"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:LycianTombPhellos.jpg"
+  alt: "Phellos görseli"
+  wikidata: "Q7181244"
 ---
 
 Phellos, Kaş'ın kuzeyinde, deniz seviyesinden yüzlerce metre yüksekteki bir sırtta kurulmuş bir Likya kentiydi. Strabon onu kıyıdaki Antiphellos ile birlikte anar; Antiphellos onun limanıydı.

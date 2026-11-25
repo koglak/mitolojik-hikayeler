@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Notion_theatre_7.jpg/500px-Notion_theatre_7.jpg"
+  genislik: 500
+  yukseklik: 376
+  sahibi: "Isabeau"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Notion_theatre_7.jpg"
+  alt: "Notion antik tiyatrosu"
+  wikidata: "Q119771"
 ---
 
 Notion, Ahmetbeyli Çayı'nın denize döküldüğü yerin hemen doğusunda, denize bakan iki tepenin üstüne kurulmuştu. Klaros'taki Apollon kutsal alanına deniz yoluyla gelenler buradan karaya çıkardı. İlginç biçimde Herodotos, Notion'u İon değil Aiol kentleri arasında sayar.

@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["truva-ati", "akhilleus"]
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["agamemnon", "akhilleus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Smintheion_2025-08-30_16-18-29.jpg/500px-Smintheion_2025-08-30_16-18-29.jpg"
+  genislik: 500
+  yukseklik: 225
+  sahibi: "Özgür Arda BAYRAM"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Smintheion_2025-08-30_16-18-29.jpg"
+  alt: "Smintheion görseli"
+  wikidata: "Q65072495"
 ---
 
 İlyada şöyle başlar: Akhalar, Apollon'un rahibi Khryses'in kızını esir almıştır. Yaşlı rahip kızını geri ister, Agamemnon onu aşağılayıp kovar. Khryses deniz kıyısına iner ve tanrıya "Smintheus" diye seslenerek yalvarır. Apollon gümüş yayını alır, dokuz gün boyunca ordunun üstüne veba okları yağdırır. Akhilleus ile Agamemnon'un büyük kavgası da bu yüzden başlar.

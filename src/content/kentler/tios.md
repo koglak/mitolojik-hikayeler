@@ -18,6 +18,16 @@ konum:
   boylam: 32.0244
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Filyos_Tios_%C3%96renyeri.jpg/500px-Filyos_Tios_%C3%96renyeri.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "kültür portalı"
+  lisans: "CC0"
+  lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Filyos_Tios_%C3%96renyeri.jpg"
+  alt: "Filyos’taki Tios ören yeri"
+  wikidata: "Q11951926"
 ---
 
 Tios, Batı Karadeniz kıyısında, Filyos Çayı'nın, antik adıyla Billaios'un denize döküldüğü yerin yanında kuruldu. Karadeniz'e onlarca koloni gönderen Milet'in kurduğu yerleşimlerden biriydi. Bithynia ile Paflagonya'nın sınırında yer aldığı için iki bölgenin kenti olarak da anılır.

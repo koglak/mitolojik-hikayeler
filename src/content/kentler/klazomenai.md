@@ -22,6 +22,16 @@ tapinaklar:
   - ad: "Afrodit Tapınağı (Urla)"
     tanrilar: ["afrodit"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Klazomenai_4th_cent_houses_%281991%29.jpg/500px-Klazomenai_4th_cent_houses_%281991%29.jpg"
+  genislik: 500
+  yukseklik: 328
+  sahibi: "Mark Landon"
+  lisans: "CC BY 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Klazomenai_4th_cent_houses_(1991).jpg"
+  alt: "Klazomenai görseli"
+  wikidata: "Q536598"
 ---
 
 Klazomenai, Urla'nın kıyısında kurulmuş bir İon kentiydi. Pausanias'a göre Persler'den korkan Klazomenaililer kıyının hemen açığındaki küçük bir adaya taşındı. Sonraları Büyük İskender, adayı karaya bir toprak yolla bağlattı; bugünkü Karantina Adası'na giden yol bu eski bağlantının yerindedir.

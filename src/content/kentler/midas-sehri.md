@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["apollon", "kybele"]
 ilgiliKahramanlar: ["midas"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Midas_City_Midas_Monument_from_E_%281993%29_01.jpg/500px-Midas_City_Midas_Monument_from_E_%281993%29_01.jpg"
+  genislik: 500
+  yukseklik: 329
+  sahibi: "Mark Landon"
+  lisans: "CC BY 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Midas_City_Midas_Monument_from_E_(1993)_01.jpg"
+  alt: "Midas Anıtı’nın kaya cephesi"
+  wikidata: "Q110661070"
 ---
 
 Midas Şehri, Eskişehir'in güneyindeki Frigya dağlık bölgesinde, tüf kayalardan oluşan bir platonun üstündeki antik yerleşimdir. Kentin simgesi, kayalığın yüzüne oyulmuş, yaklaşık on yedi metre yüksekliğindeki Midas Anıtı'dır. Anıtın yüzeyi baştan aşağı geometrik desenlerle kaplıdır; ortasındaki niş, Frigyaların Ana Tanrıçası Matar'ın heykelinin durduğu yer olarak düşünülür.

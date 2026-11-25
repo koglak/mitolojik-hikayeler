@@ -18,6 +18,15 @@ konum:
   boylam: 33.7606
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "asklepios"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/03_Inebolu2005_0804_133337a%28AydinTiryaki%29.JPG/500px-03_Inebolu2005_0804_133337a%28AydinTiryaki%29.JPG"
+  genislik: 500
+  yukseklik: 259
+  sahibi: "Aydin Tiryaki"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:03_Inebolu2005_0804_133337a(AydinTiryaki).JPG"
+  alt: "Abonuteichos görseli"
+  wikidata: "Q322910"
 ---
 
 Abonuteichos, Karadeniz kıyısında küçük bir Paflagonya kentiydi. MS 2. yüzyılda Aleksandros adında bir adam burada yeni bir tanrı ortaya çıkardı. Yazar Lukianos, onun hikâyesini bütün hileleriyle birlikte anlatır.

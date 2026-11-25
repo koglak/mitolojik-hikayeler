@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/047Zypern_Kourion_Forum_%2814039478186%29.jpg/500px-047Zypern_Kourion_Forum_%2814039478186%29.jpg"
+  genislik: 500
+  yukseklik: 322
+  sahibi: "Rüdiger Stehn from Kiel, Deutschland"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:047Zypern_Kourion_Forum_(14039478186).jpg"
+  alt: "Kourion forumunun kalıntıları"
+  wikidata: "Q1785592"
 ---
 
 Kourion, Kıbrıs'ın güney kıyısında, denizden yüz metreden fazla yüksekte bir burunda kurulmuştur. Herodotos kentin Argos'tan gelen Yunanlılarca kurulduğunu yazar. Kent bu yüzden Yunan dünyasıyla bağını hep güçlü tuttu.

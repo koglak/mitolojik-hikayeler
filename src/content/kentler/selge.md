@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliKahramanlar: ["kalkhas"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/SelgeTheater.jpg/500px-SelgeTheater.jpg"
+  genislik: 500
+  yukseklik: 342
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:SelgeTheater.jpg"
+  alt: "Selge görseli"
+  wikidata: "Q769197"
 ---
 
 Selge, Köprülü Kanyon'un üstündeki dağlarda, bin metreyi aşan bir yükseklikte kurulmuştu. Strabon'a göre kentin ilk kurucusu, Truva'dan dönen kâhin Kalkhas'tı; sonra Spartalılar gelip yerleşti. Selgeliler kendilerini Sparta'nın akrabası sayardı.

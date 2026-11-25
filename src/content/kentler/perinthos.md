@@ -17,6 +17,16 @@ konum:
   enlem: 40.97
   boylam: 27.955
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Head_of_a_youth%2C_perhaps_Hermes_%28SK_Dresden_73%29_01.jpg/500px-Head_of_a_youth%2C_perhaps_Hermes_%28SK_Dresden_73%29_01.jpg"
+  genislik: 500
+  yukseklik: 727
+  sahibi: "Mark Landon"
+  lisans: "CC BY 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Head_of_a_youth,_perhaps_Hermes_(SK_Dresden_73)_01.jpg"
+  alt: "Perinthos’la ilişkilendirilen genç erkek başı heykeli"
+  wikidata: "Q11815679"
 ---
 
 Perinthos, Marmara Denizi'nin kuzey kıyısında, bir yarımadanın üstüne kurulmuş bir limandı. Kenti Sisam Adası'ndan gelen göçmenler kurdu.

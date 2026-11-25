@@ -24,6 +24,16 @@ tapinaklar:
 ilgiliMitler: ["herakles", "tantalos"]
 ilgiliTanrilar: ["hera", "kronos", "zeus"]
 ilgiliKahramanlar: ["herakles", "pelops"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Philippeion_-_Olympia_-_2.jpg/500px-Philippeion_-_Olympia_-_2.jpg"
+  genislik: 500
+  yukseklik: 334
+  sahibi: "Annatsach"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Philippeion_-_Olympia_-_2.jpg"
+  alt: "Olympia’daki Philippeion kalıntıları"
+  wikidata: "Q38888"
 ---
 
 Olympia bir kent değil, Alpheios ırmağının kıyısında, çam ağaçlı Kronos tepesinin eteğinde bir kutsal alandı. Burada Zeus'a adanmış tapınaklar, sunaklar ve armağan binaları vardı. Dört yılda bir bütün Yunan dünyası buraya gelirdi. Oyunlar sürerken savaşlar durur, yollar güvenli olurdu.

@@ -17,6 +17,15 @@ konum:
   enlem: 41.5131
   boylam: 34.2214
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Pompeiopolis_-_M%C3%BCnzkabinett%2C_Berlin_-_5501767.jpg/500px-Pompeiopolis_-_M%C3%BCnzkabinett%2C_Berlin_-_5501767.jpg"
+  genislik: 500
+  yukseklik: 227
+  sahibi: "Reinhard Saczewski"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Pompeiopolis_-_M%C3%BCnzkabinett,_Berlin_-_5501767.jpg"
+  alt: "Paflagonya’daki Pompeiopolis’te basılan antik sikke"
+  wikidata: "Q1899754"
 ---
 
 Pompeiopolis, Gökırmak'ın, antik adıyla Amnias'ın kıyısında kuruldu. MÖ 64'te Pontos kralı Mithridates'i yenen Romalı komutan Pompeius, bölgeyi yeniden düzenledi ve bu kente kendi adını verdi. Roma döneminde kent, Paflagonya eyaletinin başkenti oldu.

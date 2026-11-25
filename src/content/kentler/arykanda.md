@@ -20,6 +20,16 @@ tapinaklar:
   - ad: "Helios Tapınağı"
     tanrilar: ["helios"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Arykanda_Wine_pressing_house_4864.jpg/500px-Arykanda_Wine_pressing_house_4864.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Dosseman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Arykanda_Wine_pressing_house_4864.jpg"
+  alt: "Arykanda görseli"
+  wikidata: "Q137769858"
 ---
 
 Arykanda, Finike'den Elmalı'ya çıkan yolun üstünde, Akdağ'ın sarp yamacına oturur. Kent beş büyük teras halinde yamaca yerleştirilmiştir: en üstte stadyum, onun altında tiyatro ve agora, en altta hamamlar. Her teras aşağıdaki vadiye ve karşı dağlara bakar.

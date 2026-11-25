@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["orestes"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/HierapolisCastabalaBurgberg.jpg/500px-HierapolisCastabalaBurgberg.jpg"
+  genislik: 500
+  yukseklik: 320
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:HierapolisCastabalaBurgberg.jpg"
+  alt: "Kastabala görseli"
+  wikidata: "Q948243"
 ---
 
 Kastabala, Çukurova'nın doğu kenarında, Ceyhan Irmağı'nın kollarından birinin yakınında kurulmuştu. Hellenistik dönemde Hierapolis, yani "kutsal kent" adını da aldı; bu yüzden Hierapolis-Kastabala diye de anılır.

@@ -18,6 +18,16 @@ konum:
   boylam: 30.1700
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bridge_near_Limyra._Pic_04.jpg/500px-Bridge_near_Limyra._Pic_04.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Ralf Rochow"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Bridge_near_Limyra._Pic_04.jpg"
+  alt: "Limyra görseli"
+  wikidata: "Q780117"
 ---
 
 Limyra, Toçak Dağı'nın eteğinde, dağın dibinden kaynayan suların oluşturduğu bir ovada kuruldu. MÖ 4. yüzyılın başında Likya'nın büyük bölümünü birleştiren kral Perikles burayı başkent yaptı. Dağın yamacındaki anıt mezarı, kadın heykelli sütunlarla taşınan bir tapınak biçimindeydi; heykelleri bugün Antalya Müzesi'ndedir.

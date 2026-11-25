@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["kalkhas", "mopsos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Klaros01.jpg/500px-Klaros01.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "User:Nikater"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Klaros01.jpg"
+  alt: "Klaros görseli"
+  wikidata: "Q1933754"
 ---
 
 Klaros, Kolophon kentine bağlı, Apollon'a adanmış bir kehanet merkeziydi. Pausanias'a göre Thebai düştükten sonra kör kâhin Teiresias'ın kızı Manto buraya geldi ve kutsal alanı kurdu.

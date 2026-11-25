@@ -23,6 +23,16 @@ tapinaklar:
     tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Didim_RB10.jpg/500px-Didim_RB10.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Bilinmiyor"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Didim_RB10.jpg"
+  alt: "Didyma görseli"
+  wikidata: "Q671358"
 ---
 
 Didyma bir kent değil, Milet'e bağlı bir kutsal alandı. İki yer arasında, iki yanı heykellerle dizili yaklaşık yirmi kilometrelik bir Kutsal Yol uzanırdı.

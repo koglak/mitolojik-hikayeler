@@ -6,13 +6,27 @@ interface Props {
   kayit: Kayit;
   bilgiSayisi?: number;
   vurguRengi?: string;
+  gorsel?: Kayit['kunyeGorseli'];
 }
 
-const { adres, kayit, bilgiSayisi = 2, vurguRengi } = Astro.props;
+const { adres, kayit, bilgiSayisi = 2, vurguRengi, gorsel } = Astro.props;
 const gosterilenBilgiler = kayit.bilgiler.slice(0, bilgiSayisi);
 ---
 
 <a class="etiket-karti" href={adres} style={vurguRengi ? `--kart-vurgu: ${vurguRengi}` : undefined}>
+  {gorsel && (
+    <figure class="kart-gorseli">
+      <img
+        src={gorsel.adres}
+        width={gorsel.genislik}
+        height={gorsel.yukseklik}
+        alt={gorsel.alt}
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>{gorsel.sahibi} · {gorsel.lisans}</figcaption>
+    </figure>
+  )}
   {
     Astro.slots.has('simge') && (
       <span class="simge">
@@ -49,6 +63,23 @@ const gosterilenBilgiler = kayit.bilgiler.slice(0, bilgiSayisi);
   .etiket-karti:hover {
     border-color: var(--vurgu);
     background: var(--yuzey-2);
+  }
+  .kart-gorseli {
+    margin: 0 0 16px;
+  }
+  .kart-gorseli img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    background: var(--yuzey-2);
+  }
+  .kart-gorseli figcaption {
+    margin-top: 6px;
+    color: var(--soluk);
+    font-size: 11px;
+    overflow-wrap: anywhere;
   }
   .simge {
     display: block;

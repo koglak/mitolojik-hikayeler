@@ -23,6 +23,16 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["hades", "kybele"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/The_Roman_theatre%2C_built_in_the_2nd_century_AD_under_Hadrian_on_the_ruins_of_an_earlier_theatre%2C_later_renovated_under_Septimius_Severus%2C_Hierapolis%2C_Turkey_-_17033895960.jpg/500px-thumbnail.jpg"
+  genislik: 500
+  yukseklik: 331
+  sahibi: "Carole Raddato"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:The_Roman_theatre,_built_in_the_2nd_century_AD_under_Hadrian_on_the_ruins_of_an_earlier_theatre,_later_renovated_under_Septimius_Severus,_Hierapolis,_Turkey_-_17033895960.jpg"
+  alt: "Hierapolis görseli"
+  wikidata: "Q7428276"
 ---
 
 Hierapolis, "kutsal kent" demektir. Pamukkale'nin bembeyaz travertenlerinin hemen üstündeki düzlükte kuruldu. Travertenleri oluşturan kireçli sıcak sular, Roma döneminde kenti ünlü bir kaplıca merkezi yaptı.

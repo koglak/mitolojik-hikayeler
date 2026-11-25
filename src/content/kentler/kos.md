@@ -23,6 +23,16 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios", "apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Kos-Archaeological_site_quarter_agora-04ASD.jpg/500px-Kos-Archaeological_site_quarter_agora-04ASD.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Asurnipal"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kos-Archaeological_site_quarter_agora-04ASD.jpg"
+  alt: "Kos antik agorasındaki kalıntılar"
+  wikidata: "Q187027"
 ---
 
 Kos, Anadolu kıyısındaki Bodrum ve Knidos'un tam karşısında, Karya kıyısına birkaç mil uzaklıkta bir adadır. Hippokrates MÖ 5. yüzyılda burada doğdu. Tıp okulu Kos'ta kuruldu, öğrencileri Yunan dünyasına yayıldı.

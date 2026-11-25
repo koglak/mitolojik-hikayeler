@@ -18,6 +18,16 @@ konum:
   boylam: 38.0156
 ilgiliMitler: []
 ilgiliTanrilar: ["kybele"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Museum_of_Anatolian_Civilizations091.jpg/500px-Museum_of_Anatolian_Civilizations091.jpg"
+  genislik: 500
+  yukseklik: 599
+  sahibi: "Georges Jansoone ( JoJan )"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations091.jpg"
+  alt: "Karkamış görseli"
+  wikidata: "Q283680"
 ---
 
 Karkamış, Fırat'ın batı kıyısında, bugün Suriye sınırının hemen üstündeki bir höyüktür. Hitit İmparatorluğu yıkıldıktan sonra burada Geç Hitit krallıklarının en güçlülerinden biri yaşadı. Kentin tanrıçası Kubaba'ydı; bu tanrıçanın sonradan Frigyaların Kybele'sine dönüştüğü düşünülür.

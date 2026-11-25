@@ -18,6 +18,16 @@ konum:
   boylam: 32.1506
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "ares", "hermes"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Syedra_-_panoramio_-_matzi01.jpg/500px-Syedra_-_panoramio_-_matzi01.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "matzi01"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Syedra_-_panoramio_-_matzi01.jpg"
+  alt: "Syedra görseli"
+  wikidata: "Q1431866"
 ---
 
 Syedra, Alanya'nın güneydoğusunda, denize bakan bir tepenin üstüne kurulmuş bir kentti. Pamfilya ile Kilikya'nın sınırında, korsanların yuvası olarak bilinen dağlık kıyının başlangıcındaydı.

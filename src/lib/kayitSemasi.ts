@@ -30,6 +30,14 @@ export const kayitSemasi = z.object({
     .object({ enlem: z.number().min(-90).max(90), boylam: z.number().min(-180).max(180) })
     .optional(),
   bolge: z.enum(bolgeAnahtarlari).optional(),
+  kunyeGorseli: gorselSemasi
+    .extend({
+      adres: gorselSemasi.shape.adres.or(z.string().regex(/^\/kent-haritalari\/[a-z0-9-]+\.png$/)),
+      lisans: gorselSemasi.shape.lisans.or(z.enum(['Free Art License', 'ODbL 1.0'])),
+      kaynakAdi: z.literal('OpenStreetMap').optional(),
+      wikidata: z.string().regex(/^Q[1-9]\d*$/),
+    })
+    .optional(),
   tapinaklar: z.array(tapinakSemasi).default([]),
   yapilar: z.array(yapiSemasi).default([]),
 });

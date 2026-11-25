@@ -19,6 +19,15 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ancient_city_Kedriai_Tower.jpg/500px-Ancient_city_Kedriai_Tower.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Maur"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ancient_city_Kedriai_Tower.jpg"
+  alt: "Kedrai görseli"
+  wikidata: "Q6816371"
 ---
 
 Kedrai, Gökova Körfezi'nin kuzey kıyısına yakın, bugün Sedir Adası denen küçük bir adadaydı. Ksenophon'a göre Peloponnesos Savaşı'nın sonlarında Spartalı komutan Lysandros, Atina'nın müttefiki olan Kedrai'yi saldırıyla aldı ve halkını köle olarak sattı.

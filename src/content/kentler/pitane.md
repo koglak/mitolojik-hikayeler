@@ -17,6 +17,16 @@ konum:
   enlem: 38.9336
   boylam: 26.9364
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bergama_Museum_Kouros_147.jpg/500px-Bergama_Museum_Kouros_147.jpg"
+  genislik: 500
+  yukseklik: 750
+  sahibi: "Dosseman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Bergama_Museum_Kouros_147.jpg"
+  alt: "Pitane’de bulunan ve Bergama Müzesi’nde sergilenen kouros"
+  wikidata: "Q752699"
 ---
 
 Pitane, Çandarlı Körfezi'ne uzanan küçük bir yarımadanın üzerindeydi. Strabon, kentin iki limanı olduğunu yazar; yarımadanın iki yanındaki koylar bugün de liman olarak kullanılır.

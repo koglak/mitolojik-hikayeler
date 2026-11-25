@@ -20,6 +20,16 @@ tapinaklar:
   - ad: "Apollon Tapınağı"
     tanrilar: ["apollon"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ancient_City_Cyme-12.jpg/500px-Ancient_City_Cyme-12.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Ollios"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ancient_City_Cyme-12.jpg"
+  alt: "Kyme görseli"
+  wikidata: "Q679305"
 ---
 
 Kyme, Çandarlı Körfezi'nin güney kıyısında, iki küçük tepenin arasındaki bir limana kurulmuştu. Herodotos, Aiolların anakaradaki on bir kentini sayarken listeye Kyme'yle başlar; Strabon da onu Aiol kentlerinin en büyüğü ve en iyisi diye anar.

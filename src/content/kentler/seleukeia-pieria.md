@@ -17,6 +17,16 @@ konum:
   enlem: 36.1236
   boylam: 35.9311
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/S%C3%A9leucie.jpg/500px-S%C3%A9leucie.jpg"
+  genislik: 500
+  yukseklik: 248
+  sahibi: "cgb"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:S%C3%A9leucie.jpg"
+  alt: "Seleukeia Pieria görseli"
+  wikidata: "Q1605894"
 ---
 
 Seleukeia Pieria, Asi Nehri'nin denize döküldüğü yerin kuzeyinde, Musa Dağı'nın eteğinde kurulmuştu. Kenti Selevkos krallığının kurucusu I. Selevkos kurdu ve kendi adını verdi. Appianos'a göre Selevkos öldükten sonra buraya gömüldü. Kent, birkaç saat içerideki başkent Antakya'nın limanıydı.

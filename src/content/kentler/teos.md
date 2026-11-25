@@ -23,6 +23,16 @@ tapinaklar:
     tanrilar: ["demeter", "persephone"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Theater_teos.JPG/500px-Theater_teos.JPG"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Philipp Pilhofer"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Theater_teos.JPG"
+  alt: "Teos görseli"
+  wikidata: "Q17586"
 ---
 
 Teos, bir yarımadanın boynunda, iki yanında birer liman olacak şekilde kurulmuştu. Herodotos'a göre Persler İonya'yı ele geçirdiğinde Teoslular gemilerine binip Trakya'ya göç etti ve orada Abdera kentini kurdu. Kent sonradan yeniden canlandı.

@@ -25,6 +25,16 @@ tapinaklar:
     tanrilar: ["leto"]
 ilgiliMitler: ["leto-ve-koyluler"]
 ilgiliTanrilar: ["apollon", "artemis", "hera", "leto"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Letoon_Temple_Area_2019.jpg/500px-Letoon_Temple_Area_2019.jpg"
+  genislik: 500
+  yukseklik: 326
+  sahibi: "Bjørn Christian Tørrissen"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Letoon_Temple_Area_2019.jpg"
+  alt: "Letoon görseli"
+  wikidata: "Q703480"
 ---
 
 Letoon bir kent değil, Ksanthos'un birkaç kilometre güneyinde, bataklıkla çevrili bir kutsal alandır. Burada yan yana üç tapınak durur: biri Leto'ya, biri Apollon'a, biri Artemis'e adanmıştır.

@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["apollon", "pan", "zeus"]
 ilgiliKahramanlar: ["midas"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Gordion_Antik_Kenti_%281%29.jpg/500px-Gordion_Antik_Kenti_%281%29.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Canercangul"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Gordion_Antik_Kenti_(1).jpg"
+  alt: "Gordion görseli"
+  wikidata: "Q542854"
 ---
 
 Gordion, Sakarya Irmağı'nın kıyısında, Frigya krallığının başkentiydi. Anlatıya göre Frigyalılara, krallarının kente öküz arabasıyla gelecek ilk adam olacağı söylenmişti. Gordios adında bir köylü arabasıyla geldi ve kral yapıldı. Oğlu Midas, arabayı Zeus'a adayıp kaleye koydu. Arabanın okunu boyunduruğa bağlayan düğüm o kadar karmaşıktı ki ucu görünmüyordu; onu çözenin bütün Asya'ya hükmedeceği söyleniyordu.

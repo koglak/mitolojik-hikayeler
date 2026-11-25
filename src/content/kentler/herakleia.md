@@ -23,6 +23,15 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: ["endymion"]
 ilgiliTanrilar: ["athena", "selene"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Heraclea_Latmus_Temple_of_Athena.JPG/500px-Heraclea_Latmus_Temple_of_Athena.JPG"
+  genislik: 500
+  yukseklik: 754
+  sahibi: "Wolfgang Glock"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Heraclea_Latmus_Temple_of_Athena.JPG"
+  alt: "Herakleia görseli"
+  wikidata: "Q1313279"
 ---
 
 Herakleia, Beşparmak Dağları'nın, antik adıyla Latmos'un granit kayalıkları ile Bafa Gölü'nün arasında kurulmuştu. Göl o zamanlar Ege'nin bir körfeziydi; Büyük Menderes'in taşıdığı alüvyon körfezin ağzını kapatınca göle dönüştü.

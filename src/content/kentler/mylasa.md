@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Milas_%C3%87ar%C5%9F%C4%B1s%C4%B1_01.jpg/500px-Milas_%C3%87ar%C5%9F%C4%B1s%C4%B1_01.jpg"
+  genislik: 500
+  yukseklik: 587
+  sahibi: "Gargarapalvin"
+  lisans: "CC BY 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Milas_%C3%87ar%C5%9F%C4%B1s%C4%B1_01.jpg"
+  alt: "Mylasa görseli"
+  wikidata: "Q924252"
 ---
 
 Mylasa, bugünkü Milas'ın altında yatar. MÖ 4. yüzyılın başında Karya'yı Persler adına yöneten Hekatomnos ailesinin başkentiydi. Ailenin en ünlü üyesi Mausolos, başkenti sonradan denize, Halikarnassos'a taşıdı.

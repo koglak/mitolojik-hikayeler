@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["agamemnon", "orestes"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sar-Comana.jpg/500px-Sar-Comana.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Katpatuka"
+  lisans: "Free Art License"
+  lisansAdresi: "https://artlibre.org/licence/lal/en/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sar-Comana.jpg"
+  alt: "Şar’daki Komana kalıntıları"
+  wikidata: "Q952748"
 ---
 
 Komana, Toros Dağları'nın kuzeyinde, Seyhan'ın bir kolunun kıyısındaki dar bir vadide kurulmuştu. Strabon'a göre burada savaş tanrıçası Ma'nın büyük bir tapınağı vardı. Tapınağın baş rahibi Kapadokya kralından sonra ülkenin en güçlü kişisi sayılır, tapınakta altı binden fazla hizmetkâr çalışırdı.

@@ -18,6 +18,15 @@ tapinaklar:
   - ad: "Ares Tapınağı"
     tanrilar: ["ares"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Metropolis_from_the_east.jpg/500px-Metropolis_from_the_east.jpg"
+  genislik: 500
+  yukseklik: 326
+  sahibi: "DiaboloDave at English Wikipedia"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Metropolis_from_the_east.jpg"
+  alt: "Metropolis görseli"
+  wikidata: "Q1497156"
 ---
 
 Metropolis, Küçük Menderes ovasına bakan bir tepenin üstüne kurulmuş, Efes ile Smyrna arasındaki yolun üstünde bir kentti. Adı, "Ana'nın kenti" demektir ve Anadolu'nun çok eski Ana Tanrıça kültüyle ilişkilendirilir. Strabon, kentin bölgedeki şarabıyla anıldığını yazar.

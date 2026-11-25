@@ -18,6 +18,16 @@ konum:
   boylam: 29.1561
 ilgiliMitler: ["argonotlar"]
 ilgiliKahramanlar: ["herakles"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Gemlik_liman%C4%B1_gemlik_bursa_-_panoramio.jpg/500px-Gemlik_liman%C4%B1_gemlik_bursa_-_panoramio.jpg"
+  genislik: 500
+  yukseklik: 305
+  sahibi: "Mustafa DUMAN"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Gemlik_liman%C4%B1_gemlik_bursa_-_panoramio.jpg"
+  alt: "Kios görseli"
+  wikidata: "Q753752"
 ---
 
 Kios, Gemlik Körfezi'nin iç ucunda kurulmuş bir liman kentiydi. Strabon'a göre adını, Herakles'le birlikte Argonautların gemisinde yolculuk eden Kios'tan aldı.

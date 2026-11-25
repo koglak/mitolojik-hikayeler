@@ -32,6 +32,16 @@ tapinaklar:
 ilgiliMitler: ["theseus-ve-minotauros", "athena-ve-poseidon"]
 ilgiliTanrilar: ["athena", "dionysos", "poseidon"]
 ilgiliKahramanlar: ["theseus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg/500px-Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg"
+  genislik: 500
+  yukseklik: 313
+  sahibi: "A.Savin"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg"
+  alt: "Atina görseli"
+  wikidata: "Q131013"
 ---
 
 Atina, Attika ovasının ortasında, düz tepeli bir kayanın, Akropolis'in çevresinde büyüdü. Mitlere göre kentin ilk kralı Kekrops'un zamanında Athena ile Poseidon kentin koruyucusu olmak için yarıştı. Poseidon üç dişli mızrağını kayaya vurdu ve tuzlu bir pınar fışkırttı. Athena toprağa dokundu ve ilk zeytin ağacını büyüttü. Kentliler zeytini seçti, kent de tanrıçanın adını aldı. Herodotos, Persler Akropolis'i yaktıktan bir gün sonra bu kutsal zeytin ağacından yeni bir filiz çıktığını yazar.

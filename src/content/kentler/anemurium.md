@@ -17,6 +17,16 @@ konum:
   enlem: 36.0247
   boylam: 32.8017
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Turkey%2C_Anamur_-_Anemurion_01.jpg/500px-Turkey%2C_Anamur_-_Anemurion_01.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Островский Александр, Киев"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Turkey,_Anamur_-_Anemurion_01.jpg"
+  alt: "Anemurium görseli"
+  wikidata: "Q529237"
 ---
 
 Anemurium, Anadolu'nun en güney noktası olan Anamur Burnu'nun üstüne kuruldu. Strabon, burnun Kıbrıs'a çok yakın olduğunu, karşıdaki Krommyon Burnu'na yalnızca kısa bir deniz yolculuğu uzaklıkta durduğunu yazar.

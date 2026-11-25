@@ -16,6 +16,15 @@ konum:
   boylam: 27.0703
 ilgiliMitler: []
 ilgiliTanrilar: ["eros", "afrodit"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Plan_des_ruines_de_Parium_-_Choiseul-gouffier_Gabriel_Florent_Auguste_De_-_1822.jpg/500px-Plan_des_ruines_de_Parium_-_Choiseul-gouffier_Gabriel_Florent_Auguste_De_-_1822.jpg"
+  genislik: 500
+  yukseklik: 280
+  sahibi: "Marie-Gabriel-Florent-Auguste Comte de Choiseul-Gouffier"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Plan_des_ruines_de_Parium_-_Choiseul-gouffier_Gabriel_Florent_Auguste_De_-_1822.jpg"
+  alt: "Parion kalıntılarının 1822 tarihli planı"
+  wikidata: "Q1411652"
 ---
 
 Parion, Marmara Denizi'nin güney kıyısında, Çanakkale Boğazı'nın girişine yakın bir limandı. Strabon'a göre kenti Miletliler, Erythraililer ve Paros Adası'ndan gelenler birlikte kurdu.

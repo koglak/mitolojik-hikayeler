@@ -15,6 +15,15 @@ konum:
   enlem: 39.7186
   boylam: 26.2381
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://upload.wikimedia.org/wikipedia/commons/4/45/Aeolic_capital_from_Neandria.jpg"
+  genislik: 500
+  yukseklik: 338
+  sahibi: "Fletcher, Banister, 1833-1899. A history of architecture on the comparative method"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aeolic_capital_from_Neandria.jpg"
+  alt: "Neandria’da bulunan Aiol tipi sütun başlığı"
+  wikidata: "Q6984286"
 ---
 
 Neandria, Truva ovasının güneyindeki Çığrı Dağı'nın granit kayalarla kaplı tepesine kurulmuştu. Kentin çevresinde kilometrelerce uzanan surların temelleri hâlâ izlenebilir.

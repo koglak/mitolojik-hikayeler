@@ -28,6 +28,16 @@ tapinaklar:
 ilgiliMitler: ["perseus-ve-medusa", "io"]
 ilgiliTanrilar: ["hera", "zeus"]
 ilgiliKahramanlar: ["danae", "perseus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos%2810.07.05%29.JPG/500px-Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos%2810.07.05%29.JPG"
+  genislik: 500
+  yukseklik: 379
+  sahibi: "Karin Helene Pagter Duparc"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Gr%C3%A6kenlands_%C3%A6ldste_teater_i_Argos(10.07.05).JPG"
+  alt: "Argos görseli"
+  wikidata: "Q13533353"
 ---
 
 Argos, Argolis ovasının batı kenarında, Larisa denen sivri bir tepenin dibinde kuruldu. Yunanistan'ın hiç terk edilmemiş en eski kentlerinden biridir. Kentin koruyucusu Hera'ydı. Ovanın öbür yanındaki büyük tapınağına her yıl gelin alayları giderdi.

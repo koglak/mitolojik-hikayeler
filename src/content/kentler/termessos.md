@@ -24,6 +24,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["bellerophon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Termessos_-_Theater.jpg/500px-Termessos_-_Theater.jpg"
+  genislik: 500
+  yukseklik: 287
+  sahibi: "Ingo Mehling"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Termessos_-_Theater.jpg"
+  alt: "Termessos görseli"
+  wikidata: "Q599462"
 ---
 
 Termessos, Antalya ovasına bakan Güllük Dağı'nın, deniz seviyesinden bin metreyi aşan bir yüksekliğindeki dağ kentidir. Tiyatrosu bir uçurumun kenarına kurulmuştur; seyirciler sahnenin arkasında uzanan dağları ve ovayı görürdü.

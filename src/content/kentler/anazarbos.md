@@ -20,6 +20,16 @@ tapinaklar:
   - ad: "Zeus Lepsynos Tapınağı"
     tanrilar: ["zeus"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Anazarbus_klikya_city_south_gate.jpg/500px-Anazarbus_klikya_city_south_gate.jpg"
+  genislik: 500
+  yukseklik: 336
+  sahibi: "MUSTAFA TOR at English Wikipedia"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Anazarbus_klikya_city_south_gate.jpg"
+  alt: "Anazarbos (Anavarza) görseli"
+  wikidata: "Q219525"
 ---
 
 Anazarbos, Çukurova'nın kuzeydoğusunda, ovanın ortasından birden yükselen sarp bir kayalığın dibine kurulmuştu. Roma döneminde Kilikya'nın başkentliği için Tarsus'la yarıştı ve sonunda "metropolis" unvanını aldı.

@@ -27,6 +27,16 @@ tapinaklar:
     tanrilar: ["afrodit"]
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Knidos-H%C3%A4fen.jpg/500px-Knidos-H%C3%A4fen.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Tischbeinahe"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Knidos-H%C3%A4fen.jpg"
+  alt: "Knidos görseli"
+  wikidata: "Q690575"
 ---
 
 Knidos, Datça Yarımadası'nın en batı ucunda, karaya ince bir kıstakla bağlı bir burnun iki yanına kurulmuştu. Kıstağın iki yanındaki koylar kente iki liman sağlıyordu. Herodotos'a göre Knidoslular Persler'e karşı kendilerini korumak için yarımadayı kıstaktan kesip bir adaya çevirmeye kalkıştılar ama Delphoi kâhini onları vazgeçirdi.

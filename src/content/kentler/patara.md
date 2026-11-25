@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Ancient_city_of_Patara%2C_Lycia%2C_Turkey_10_46_37_291000.jpeg/500px-Ancient_city_of_Patara%2C_Lycia%2C_Turkey_10_46_37_291000.jpeg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Roman_Zacharij"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ancient_city_of_Patara,_Lycia,_Turkey_10_46_37_291000.jpeg"
+  alt: "Patara görseli"
+  wikidata: "Q233121"
 ---
 
 Patara, Ksanthos ırmağının denize döküldüğü yerde kurulmuş bir limandı. Antik yazarlar kenti Apollon'la birlikte anar: Herodotos'a göre Patara'daki tapınakta kehanet veren rahibe, tanrının orada bulunduğu zamanlarda geceleri tapınağa kapatılırdı.

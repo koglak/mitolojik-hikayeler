@@ -24,6 +24,16 @@ tapinaklar:
 ilgiliMitler: ["sisifos", "bellerophon", "arion", "argonotlar", "oidipus"]
 ilgiliTanrilar: ["afrodit", "apollon", "athena"]
 ilgiliKahramanlar: ["bellerophon", "medeia", "iason"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tempio_di_Apollo_e_Acrocorinto.jpg/500px-Tempio_di_Apollo_e_Acrocorinto.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Davide Mauro"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tempio_di_Apollo_e_Acrocorinto.jpg"
+  alt: "Korinthos görseli"
+  wikidata: "Q1363688"
 ---
 
 Korinthos, Yunanistan'ı Peloponnesos'a bağlayan dar kara parçasının, Kıstak'ın başında kuruldu. Bir yanında Korinthos Körfezi, öbür yanında Saronikos Körfezi vardı. Gemiler bir denizden öbürüne kızaklar üstünde karadan çekilerek taşınırdı. Bu ticaret kenti çok zengin yaptı. Kentin üstünde, Akrokorinthos denen sarp bir kayanın tepesinde Afrodit'in tapınağı dururdu.

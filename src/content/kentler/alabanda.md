@@ -22,6 +22,15 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["marsyas"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Alabanda_Bouleuterion.JPG/500px-Alabanda_Bouleuterion.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Kefaser at Turkish Wikipedia"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Alabanda_Bouleuterion.JPG"
+  alt: "Alabanda görseli"
+  wikidata: "Q778224"
 ---
 
 Alabanda, Çine Çayı'nın, antik adıyla Marsyas'ın vadisinde, iki tepenin arasındaki bir düzlüğe kurulmuştu. Strabon, kentin bu görünümünü heybeleri yüklenmiş bir eşeğe benzetir.

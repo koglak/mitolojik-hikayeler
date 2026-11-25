@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["hera"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hera", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/SamosAntiqueFortificationWalls.jpg/500px-SamosAntiqueFortificationWalls.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Christopher Eckert ( de:User:Wikipedia ce )"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:SamosAntiqueFortificationWalls.jpg"
+  alt: "Samos görseli"
+  wikidata: "Q1915216"
 ---
 
 Samos, Kuşadası'nın hemen karşısında, Anadolu'dan yalnızca bir buçuk kilometrelik bir boğazla ayrılan dağlık bir adadır. Antik dönemde İonya'nın on iki kentinden biriydi; Efes ve Milet'le aynı dünyaya aitti.

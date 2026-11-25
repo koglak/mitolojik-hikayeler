@@ -20,6 +20,15 @@ tapinaklar:
   - ad: "Athena Tapınağı"
     tanrilar: ["athena"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Rhodiapolis.JPG/500px-Rhodiapolis.JPG"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Gunthram"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Rhodiapolis.JPG"
+  alt: "Rhodiapolis görseli"
+  wikidata: "Q2148209"
 ---
 
 Rhodiapolis, Kumluca'nın kuzeyindeki bir tepeye kurulmuş küçük bir Likya kentiydi. Adı, "Rodosluların kenti" anlamına gelir ve kentin Rodos'tan gelen göçmenlerle ilişkili olduğu düşünülür.

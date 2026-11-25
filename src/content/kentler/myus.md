@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["dionysos"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Myus1.jpg/500px-Myus1.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Isabeau"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Myus1.jpg"
+  alt: "Myus görseli"
+  wikidata: "Q1195800"
 ---
 
 Myus, İon Birliği'nin on iki kentinin en küçüğüydü. Büyük Menderes'in eskiden körfez olan ağzına yakın, küçük bir tepenin üstünde kurulmuştu.

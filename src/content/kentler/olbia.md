@@ -24,6 +24,15 @@ tapinaklar:
 ilgiliMitler: ["akhilleus"]
 ilgiliTanrilar: ["apollon", "zeus"]
 ilgiliKahramanlar: ["akhilleus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/AncientTownOlvia.jpg/500px-AncientTownOlvia.jpg"
+  genislik: 500
+  yukseklik: 340
+  sahibi: "Ivengo(RUS) at Russian Wikipedia"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:AncientTownOlvia.jpg"
+  alt: "Olbia (Parutyne) görseli"
+  wikidata: "Q1143233"
 ---
 
 Olbia, Dinyeper ve Bug nehirlerinin ortak ağzında, Karadeniz'in kuzeyinde Miletos'un kurduğu bir ticaret kentiydi. Herodotos Olbia'yı, Skythlerle yapılan tahıl, kürk ve köle ticaretinin merkezi olarak anar. Kent, İskit kralı Skyles'in Yunan gizemlerine katıldığı anlatısıyla da hatırlanır.

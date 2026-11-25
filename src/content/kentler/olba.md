@@ -18,6 +18,16 @@ konum:
   boylam: 33.9667
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/UzuncaburcZeus.jpg/500px-UzuncaburcZeus.jpg"
+  genislik: 500
+  yukseklik: 342
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:UzuncaburcZeus.jpg"
+  alt: "Olba görseli"
+  wikidata: "Q157816"
 ---
 
 Olba, Silifke'nin kuzeyindeki Toros yaylasında, derin bir vadinin iki yanına kurulmuş bir dağ kentiydi. Birkaç kilometre batıdaki Uzuncaburç, onun Zeus kutsal alanıydı. Olba'yı yöneten rahip-krallar, Kilikya'nın dağlık bölgesinin tamamına hükmederdi.

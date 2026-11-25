@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["herakles"]
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["herakles"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Nemea_Stadion_2008-09-12.jpg/500px-Nemea_Stadion_2008-09-12.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Michael F. Mehnert"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Nemea_Stadion_2008-09-12.jpg"
+  alt: "Nemea görseli"
+  wikidata: "Q748108"
 ---
 
 Nemea, Korinthia ile Argolis'in arasında, tepelerle çevrili küçük bir vadidir. Apollodoros'a göre Herakles'in ilk görevi buradaki aslanı öldürmekti. Hayvanın postu hiçbir silahla delinmiyordu, kahraman onu çıplak elleriyle boğdu ve postunu giyindi. Zeus'un kutsal alanı bu söylencenin geçtiği toprakta kuruldu.

@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["theseus-ve-minotauros"]
 ilgiliTanrilar: ["afrodit"]
 ilgiliKahramanlar: ["theseus", "ariadne"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Amathus.jpg/500px-Amathus.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "de Oude Grieken"
+  lisans: "CC0"
+  lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Amathus.jpg"
+  alt: "Amathous görseli"
+  wikidata: "Q2343313"
 ---
 
 Amathous, Limasol'un biraz doğusunda, kıyıdaki bir tepede kurulmuştu. MÖ 11. yüzyıldan beri yerleşim gören kent, Kıbrıs'ın eski krallıklarından biriydi ve Strabon da onu adanın kentleri arasında sayar.

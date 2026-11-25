@@ -17,6 +17,16 @@ konum:
   enlem: 39.5686
   boylam: 26.7792
 ilgiliMitler: ["guzellik-yarismasi"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Antandros3.jpg/500px-Antandros3.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Antandros3.jpg"
+  alt: "Antandros görseli"
+  wikidata: "Q571082"
 ---
 
 Antandros, Kaz Dağı'nın, antik adıyla İda Dağı'nın güney eteğinde, Edremit Körfezi'nin kıyısındaydı. Dağın ormanları antik çağ boyunca gemi kerestesiyle ünlüydü.

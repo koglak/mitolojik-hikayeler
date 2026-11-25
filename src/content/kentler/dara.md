@@ -17,6 +17,16 @@ konum:
   enlem: 37.1764
   boylam: 40.9469
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Dara_P1030851_20080424091200.JPG/500px-Dara_P1030851_20080424091200.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Nevit Dilmen"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Dara_P1030851_20080424091200.JPG"
+  alt: "Dara görseli"
+  wikidata: "Q585145"
 ---
 
 Dara, Mardin'in güneydoğusunda, Mezopotamya ovasının kenarında kuruldu. Bizans imparatoru I. Anastasios, 6. yüzyılın başında Pers sınırına karşı güçlü bir kale kenti olsun diye burayı yaptırdı ve kent bir süre onun adıyla Anastasiupolis diye anıldı.

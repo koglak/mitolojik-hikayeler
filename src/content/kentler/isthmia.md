@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["sisifos"]
 ilgiliTanrilar: ["poseidon"]
 ilgiliKahramanlar: ["sisifos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Temple_of_Poseidon_at_Isthmia%2C_202722.jpg/500px-Temple_of_Poseidon_at_Isthmia%2C_202722.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Zde"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Poseidon_at_Isthmia,_202722.jpg"
+  alt: "Isthmia görseli"
+  wikidata: "Q18385210"
 ---
 
 Isthmia, Peloponnesos'u anakaraya bağlayan dar kıstağın üstündeki kutsal alandır. Bir yanda Korinth Körfezi, öbür yanda Saron Körfezi görünür. Denizin tanrısı Poseidon'a bu yüzden burada tapınılırdı. Korinthos kenti de aynı kıstağın hemen yanındadır.

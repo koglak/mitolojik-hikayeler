@@ -24,6 +24,16 @@ tapinaklar:
 ilgiliMitler: ["kastor-ve-polydeukes", "truva-ati", "guzellik-yarismasi"]
 ilgiliTanrilar: ["artemis", "zeus"]
 ilgiliKahramanlar: ["helene", "kastor-ve-polydeukes", "menelaos", "odysseus", "paris"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sparta.jpg/500px-Sparta.jpg"
+  genislik: 500
+  yukseklik: 268
+  sahibi: "Napoleon Vier at Dutch Wikipedia"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sparta.jpg"
+  alt: "Sparta görseli"
+  wikidata: "Q5690"
 ---
 
 Sparta, Peloponnesos'un güneyinde, Eurotas ırmağının vadisinde kuruldu. Bir yanında Taygetos dağları yükselir. Antik yazarlar Sparta'nın yüzyıllarca sur yapmadığını, kentin duvarlarının askerleri olduğunu söyler.

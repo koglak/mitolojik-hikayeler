@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis", "dionysos"]
 ilgiliKahramanlar: ["iphigeneia", "orestes", "pylades"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Chersonesos_ruins.jpg/500px-Chersonesos_ruins.jpg"
+  genislik: 500
+  yukseklik: 283
+  sahibi: "Dmitry A. Mottl"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Chersonesos_ruins.jpg"
+  alt: "Khersonesos görseli"
+  wikidata: "Q638445"
 ---
 
 Khersonesos, Kırım yarımadasının güneybatı ucunda, Karadeniz kıyısında Dor Yunanlı sömürgeciler tarafından kurulmuştu. Kaynaklar Herakleia Pontike'den gelen kolonicileri anar. Kent, antik dünyanın kuzey Karadeniz'deki en önemli limanlarından biri olarak MS 14. yüzyıla dek ayakta kaldı.

@@ -19,6 +19,15 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["hades"]
 ilgiliKahramanlar: ["herakles"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Heraclea-Pontica.png/500px-Heraclea-Pontica.png"
+  genislik: 500
+  yukseklik: 374
+  sahibi: "Myself, done with Photoshop"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Heraclea-Pontica.png"
+  alt: "Herakleia Pontike görseli"
+  wikidata: "Q302511"
 ---
 
 Herakleia Pontike, yani "Karadeniz'deki Herakleia", MÖ 6. yüzyılda Megaralı ve Boiotialı göçmenler tarafından, denize uzanan bir burnun yanında kuruldu. Kente adını veren kahraman Herakles'ti ve bunun bir sebebi vardı.

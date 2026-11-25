@@ -15,6 +15,16 @@ konum:
   enlem: 37.0567
   boylam: 27.2367
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Myndos_%28Tav%C5%9Fan_Adas%C4%B1%29.jpg/500px-Myndos_%28Tav%C5%9Fan_Adas%C4%B1%29.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Koray"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Myndos_(Tav%C5%9Fan_Adas%C4%B1).jpg"
+  alt: "Myndos görseli"
+  wikidata: "Q18823111"
 ---
 
 Myndos, Bodrum Yarımadası'nın batı ucunda, bugün Gümüşlük denen koyun kıyısındaydı. MÖ 4. yüzyılda Karya'yı yöneten Mausolos, kenti güçlü surlarla yeniden kurdu.

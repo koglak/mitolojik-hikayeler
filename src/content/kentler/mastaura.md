@@ -15,6 +15,16 @@ konum:
   enlem: 37.9533
   boylam: 28.3583
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Mastaura_Roma_Hamam%C4%B1_4.jpg/500px-Mastaura_Roma_Hamam%C4%B1_4.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "Erdalkara"
+  lisans: "CC0"
+  lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Mastaura_Roma_Hamam%C4%B1_4.jpg"
+  alt: "Mastaura görseli"
+  wikidata: "Q15119905"
 ---
 
 Mastaura, Nazilli'nin kuzeyinde, Büyük Menderes vadisine bakan yamaçta kurulmuş küçük bir kentti. Batısındaki Nysa ile aynı vadiyi paylaşıyordu ve iki kentin çevresi zeytin ve incir bahçeleriyle doluydu.

@@ -17,6 +17,16 @@ konum:
   enlem: 38.1086
   boylam: 27.1400
 ilgiliMitler: ["arakhne"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Colophon4.jpg/500px-Colophon4.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Isabeau"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Colophon4.jpg"
+  alt: "Kolophon görseli"
+  wikidata: "Q1142488"
 ---
 
 Kolophon, iç kesimde, Klaros kutsal alanının birkaç saat kuzeyindeki tepelerde kurulmuş bir İon kentiydi. Strabon'a göre Kolophonluların güçlü bir donanması ve özellikle ünlü bir süvari birliği vardı. Bitmek bilmeyen bir savaşta süvarileri yardıma geldiğinde savaş hemen sona ererdi. Bu yüzden bir işi kesin olarak bitirmeye "üstüne Kolophon'u koymak" denirdi.

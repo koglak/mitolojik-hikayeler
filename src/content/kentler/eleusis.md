@@ -27,6 +27,16 @@ tapinaklar:
     tanrilar: ["poseidon"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["demeter", "hades", "persephone", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg/500px-%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "Christina Gkioka"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg"
+  alt: "Eleusis görseli"
+  wikidata: "Q38280957"
 ---
 
 Eleusis, Atina'nın batısında, Saronikos Körfezi'nin kıyısında kuruldu. Atina'dan buraya Kutsal Yol denen bir yol uzanırdı. Her sonbahar binlerce kişi bu yoldan yürüyerek gizemlere katılmaya gelirdi.

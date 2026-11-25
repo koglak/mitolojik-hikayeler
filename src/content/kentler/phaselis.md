@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["akhilleus"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["akhilleus", "hektor"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Phaselis_axb01.jpg/500px-Phaselis_axb01.jpg"
+  genislik: 500
+  yukseklik: 342
+  sahibi: "Alexander Buschorn at de.wikipedia"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Phaselis_axb01.jpg"
+  alt: "Phaselis görseli"
+  wikidata: "Q595329"
 ---
 
 Phaselis, Tahtalı Dağı'nın eteğinde denize uzanan küçük bir burnun üstündeydi. Burnun iki yanındaki koylar ve kuzeydeki sığ körfez kente üç ayrı liman sağlıyordu. Kenti MÖ 7. yüzyılda Rodos'taki Lindos'tan gelen göçmenler kurdu; Likya kıyısında olmasına rağmen uzun süre bir Yunan ticaret kenti olarak kaldı.

@@ -20,6 +20,16 @@ tapinaklar:
   - ad: "Demeter ve Kore Tapınağı"
     tanrilar: ["demeter", "persephone"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/AigaiMarkthalle1.jpg/500px-AigaiMarkthalle1.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:AigaiMarkthalle1.jpg"
+  alt: "Aigai görseli"
+  wikidata: "Q404200"
 ---
 
 Aigai, Yuntdağı'nın yamacında, ormanlık bir tepenin üstüne kurulmuştu. Herodotos onu anakaradaki on bir Aiol kentinden biri olarak sayar.

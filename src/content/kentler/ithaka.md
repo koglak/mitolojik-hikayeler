@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: ["odysseus"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["odysseus", "penelope"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/On_top_of_the_world_%2810445519213%29.jpg/500px-On_top_of_the_world_%2810445519213%29.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Andy / Andrew Fogg from near Cambridge, UK"
+  lisans: "CC BY 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:On_top_of_the_world_(10445519213).jpg"
+  alt: "Ithaka görseli"
+  wikidata: "Q187471"
 ---
 
 Ithaka, Yunanistan'ın batısında, Kefalonya'nın hemen yanında, ince bir boyunla ikiye ayrılmış küçük bir adadır. Odysseus onu şöyle anlatır: "Kayalık bir ada, at koşturmaya elverişsiz, ama iyi gençler yetiştirir. İnsanın kendi yurdundan daha tatlı bir şey göremem."

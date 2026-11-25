@@ -18,6 +18,16 @@ konum:
   boylam: 29.7211
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Nicaea_theatre_990.jpg/500px-Nicaea_theatre_990.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "QuartierLatin1968"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Nicaea_theatre_990.jpg"
+  alt: "Nikaia görseli"
+  wikidata: "Q739037"
 ---
 
 Nikaia, İznik Gölü'nün doğu kıyısında kuruldu. Strabon'a göre kenti önce Antigonos kurdu ve kendi adını verdi; ardından Lysimakhos, karısı Nikaia'nın adıyla yeniden adlandırdı. Kent kare planlıydı; Strabon, ortadaki gymnasionun bir taşının üstünde durunca dört kapının dördünün de görülebildiğini yazar.

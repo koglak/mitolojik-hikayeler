@@ -18,6 +18,16 @@ tapinaklar:
   - ad: "Demeter Tapınağı"
     tanrilar: ["demeter"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/BlaundosFachwerk.jpg/500px-BlaundosFachwerk.jpg"
+  genislik: 500
+  yukseklik: 329
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:BlaundosFachwerk.jpg"
+  alt: "Blaundos görseli"
+  wikidata: "Q263669"
 ---
 
 Blaundos, Ulubey Kanyonu'nun derin vadilerinin arasında kalan bir tepe düzlüğüne kurulmuştu. Üç yanı sarp yamaçlarla çevrili olan kente yalnızca bir yönden ulaşılabiliyordu.

@@ -15,6 +15,16 @@ konum:
   enlem: 36.6017
   boylam: 30.5636
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kemerayisigi.jpg/500px-Kemerayisigi.jpg"
+  genislik: 500
+  yukseklik: 319
+  sahibi: "MyName (Knut Thieme)"
+  lisans: "CC BY-SA 2.0 de"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kemerayisigi.jpg"
+  alt: "Idyros kazı alanının yakınındaki Ayışığı Koyu, Kemer"
+  wikidata: "Q19568927"
 ---
 
 Idyros, Likya ile Pamfilya'nın sınırında, Toros Dağları'nın denize indiği kıyıdaki küçük bir liman yerleşimiydi. Plinius, Pamfilya kıyısındaki yerleri sayarken onun adını anar.

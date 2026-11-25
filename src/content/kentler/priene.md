@@ -25,6 +25,16 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "poseidon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Temple_of_Athena_at_Priene.jpg/500px-Temple_of_Athena_at_Priene.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Ken and Nyetta"
+  lisans: "CC BY 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Temple_of_Athena_at_Priene.jpg"
+  alt: "Priene görseli"
+  wikidata: "Q142819"
 ---
 
 Priene, bugün Samsun Dağı denen Mykale'nin sarp yamacına yaslanır. Kent, MÖ 4. yüzyılda bugünkü yerine taşınırken baştan planlandı: dik açıyla kesişen sokaklar, eğimli yamaçta teraslar boyunca sıralanan evler, ortada agora.

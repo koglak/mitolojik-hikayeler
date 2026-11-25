@@ -15,6 +15,16 @@ konum:
   enlem: 36.1997
   boylam: 29.6347
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg/500px-Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "rheins"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Antiphellus_Ancient_Theatre_-_2014.10_-_panoramio.jpg"
+  alt: "Antiphellos görseli"
+  wikidata: "Q4775098"
 ---
 
 Antiphellos, adı "Phellos'un karşısındaki" anlamına gelen, dağdaki Phellos kentinin limanıydı. Zamanla limanı, dağdaki kentten daha önemli hâle geldi. Bugün Kaş'ın evleri ve sokakları antik kentin üstündedir.

@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: ["truva-ati", "akhilleus", "odysseus", "guzellik-yarismasi"]
 ilgiliKahramanlar: ["priamos"]
+kunyeGorseli:
+  adres: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Troy1.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Bilinmiyor"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Troy1.jpg"
+  alt: "Truva görseli"
+  wikidata: "Q22647"
 ---
 
 Truva, Çanakkale Boğazı'nın girişine bakan Hisarlık Tepesi'ndedir. Burada yaklaşık 3500 yıl boyunca, her yeni kent bir öncekinin kalıntıları üzerine kuruldu. Arkeologlar bu yerleşimleri Truva I'den Truva IX'a kadar numaralandırır.

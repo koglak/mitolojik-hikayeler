@@ -19,6 +19,16 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Aizanoi_Zeus_temple_2120.jpg/500px-Aizanoi_Zeus_temple_2120.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Dosseman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aizanoi_Zeus_temple_2120.jpg"
+  alt: "Aizanoi görseli"
+  wikidata: "Q411571"
 ---
 
 Aizanoi, Kocaçay'ın, antik adıyla Penkalas'ın iki yakasına kurulmuş bir Frigya kentiydi. Pausanias'a göre Aizanoililer kendilerini, Arkadia kralı Arkas'ın oğlu Azan'ın soyundan sayar ve bu yüzden Yunanistan'daki Arkadia ile akrabalık bağı kurardı. Pausanias, kentin yakınındaki Steunos mağarasının tanrıların anasına adandığını da yazar.

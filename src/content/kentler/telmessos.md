@@ -17,6 +17,16 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["midas"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Tomb_of_Amyntas_2020-03-15-2.jpg/500px-Tomb_of_Amyntas_2020-03-15-2.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Alexey Komarov"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tomb_of_Amyntas_2020-03-15-2.jpg"
+  alt: "Telmessos görseli"
+  wikidata: "Q1145385"
 ---
 
 Telmessos, bugünkü Fethiye'nin altında yatar. Kentin üstündeki kayalığa oyulmuş, İon tapınağı cepheli mezarların en büyüğü, üzerindeki yazıttan dolayı Amyntas Mezarı diye anılır ve Fethiye'nin simgesidir.

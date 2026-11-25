@@ -25,6 +25,16 @@ tapinaklar:
     tanrilar: ["asklepios"]
 ilgiliMitler: ["titanlar-savasi"]
 ilgiliTanrilar: ["apollon", "hephaistos", "hera", "kronos", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Mt_Olympus_aerial_2.jpg/500px-Mt_Olympus_aerial_2.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "kallerna"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Mt_Olympus_aerial_2.jpg"
+  alt: "Olympos Dağı görseli"
+  wikidata: "Q80344"
 ---
 
 Olympos, Thessalia ile Makedonya'nın arasında, Ege kıyısından birden yükselen bir dağdır. Zirvesi yılın büyük bölümünde karla, çoğu zaman da bulutla örtülüdür. Antik insanlar en tepeye çıkmaya pek kalkışmadı. Zirveye ilk kez 1913'te tırmanıldı.

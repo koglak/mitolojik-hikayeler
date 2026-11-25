@@ -15,6 +15,16 @@ konum:
   enlem: 39.3011
   boylam: 36.7392
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/KusakliH%C3%BCgel.JPG/500px-KusakliH%C3%BCgel.JPG"
+  genislik: 500
+  yukseklik: 331
+  sahibi: "Klaus-Peter Simon"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:KusakliH%C3%BCgel.JPG"
+  alt: "Sarissa görseli"
+  wikidata: "Q1040082"
 ---
 
 Sarissa, Sivas'ın güneyindeki yaylada, Hitit İmparatorluğu'nun doğu sınırına yakın bir eyalet merkeziydi. Kent, planlı olarak tek seferde kurulmuş; dört kapılı, yuvarlak bir surla çevrilmişti.

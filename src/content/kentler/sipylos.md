@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: ["tantalos", "niobe"]
 ilgiliTanrilar: ["apollon", "artemis", "leto"]
 ilgiliKahramanlar: ["niobe", "pelops", "tantalos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mount_Sipylus_Manisa_Turkey_Atalani_Lake.jpg/500px-Mount_Sipylus_Manisa_Turkey_Atalani_Lake.jpg"
+  genislik: 500
+  yukseklik: 283
+  sahibi: "Mr. V. Yuksel"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Mount_Sipylus_Manisa_Turkey_Atalani_Lake.jpg"
+  alt: "Sipylos görseli"
+  wikidata: "Q532698"
 ---
 
 Sipylos, bugünkü Manisa'nın hemen arkasında yükselen Spil Dağı'dır. Mitlere göre burası Tantalos'un krallığıydı. Tantalos tanrıları sofrasına davet etti ve onları sınamak için kendi oğlu Pelops'u pişirip önlerine koydu. Cezası, yeraltında boğazına kadar suyun içinde, başının üstünde meyve dalları varken sonsuza dek aç ve susuz kalmaktı. Pausanias, Tantalos'un mezarının Sipylos'ta gösterildiğini yazar.

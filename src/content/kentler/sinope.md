@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: ["argonotlar"]
 ilgiliTanrilar: ["apollon", "zeus"]
 ilgiliKahramanlar: ["herakles"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Sinop_Hellenistic_tower_of_north_walls_9555.jpg/500px-Sinop_Hellenistic_tower_of_north_walls_9555.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Dosseman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sinop_Hellenistic_tower_of_north_walls_9555.jpg"
+  alt: "Sinope’nin kuzey surlarındaki Helenistik kule"
+  wikidata: "Q599416"
 ---
 
 Sinope, Anadolu'nun en kuzey ucuna yakın, denize uzanan bir yarımadanın boynunda kuruldu. Miletliler burayı Karadeniz'deki en önemli kolonilerinden biri yaptı; iki yanındaki limanlar onu Karadeniz ticaretinin merkezine dönüştürdü.

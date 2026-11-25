@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["hera", "athena"]
 ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliKahramanlar: ["agamemnon", "orestes", "perseus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mycenae_ruins_dsc06390.jpg/500px-Mycenae_ruins_dsc06390.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "David Monniaux"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Mycenae_ruins_dsc06390.jpg"
+  alt: "Mykene görseli"
+  wikidata: "Q132564"
 ---
 
 Mykene, Argolis ovasına bakan kayalık bir tepenin üstünde kuruldu. Duvarları öyle büyük taşlardan örülmüştü ki sonraki Yunanlar bunları insanların değil, tek gözlü dev Kykloplar'ın yaptığına inandı. Kentin girişindeki kapının üstünde, bir sütunun iki yanında şaha kalkmış iki aslan durur. Avrupa'nın ayakta kalan en eski anıtsal heykeli budur.

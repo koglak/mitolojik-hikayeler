@@ -18,6 +18,16 @@ konum:
   boylam: 29.3186
 ilgiliMitler: ["bellerophon", "leto-ve-koyluler"]
 ilgiliKahramanlar: ["glaukos", "sarpedon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Entrance_into_theatre_of_Xanthos.jpg/500px-Entrance_into_theatre_of_Xanthos.jpg"
+  genislik: 500
+  yukseklik: 753
+  sahibi: "Pot Noodle"
+  lisans: "CC BY 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Entrance_into_theatre_of_Xanthos.jpg"
+  alt: "Ksanthos görseli"
+  wikidata: "Q464936"
 ---
 
 Ksanthos, adını aldığı ırmağın, bugünkü Eşen Çayı'nın kıyısındaki bir tepeye kurulmuştu. İlyada'da Truva'ya yardıma gelen Likyalıları Sarpedon ve Glaukos yönetir; Homeros onların "uzak Likya'dan, girdaplı Ksanthos'un kıyısından" geldiğini söyler.

@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus", "pan"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Lykaion_looking_East.jpg/500px-Lykaion_looking_East.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Danno1"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Lykaion_looking_East.jpg"
+  alt: "Lykaion Dağı görseli"
+  wikidata: "Q1878690"
 ---
 
 Lykaion, Arkadia'nın güneybatısında, bin dört yüz metreyi aşan bir dağdır. Pausanias, Arkadialıların Zeus'un burada doğduğunu söylediğini yazar. Zirvedeki alana girmek yasaktı ve içeri girenlerin gölgesi olmazdı denirdi.

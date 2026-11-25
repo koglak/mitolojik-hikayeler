@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["akhilleus", "perseus-ve-medusa"]
 ilgiliTanrilar: ["dionysos", "poseidon"]
 ilgiliKahramanlar: ["akhilleus", "andromeda", "ariadne", "odysseus", "perseus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Zeugma.jpg/500px-Zeugma.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Anadolu"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Zeugma.jpg"
+  alt: "Zeugma görseli"
+  wikidata: "Q196987"
 ---
 
 Zeugma, Yunanca "köprü" ya da "boyunduruk" demektir. Büyük İskender'in komutanlarından Selevkos, Fırat'ın batı yakasında Seleukeia'yı, karşı yakada Apameia'yı kurdu ve iki kenti bir köprüyle bağladı. Roma döneminde burası bir lejyonun üssü ve Doğu ile Batı arasındaki ticaretin önemli bir geçidiydi.

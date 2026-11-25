@@ -55,6 +55,16 @@ yapilar:
       alt: "Efes'te Artemis Tapınağı'ndan kalan tek sütun"
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Ephesus_Celsus_Library_Fa%C3%A7ade.jpg/500px-Ephesus_Celsus_Library_Fa%C3%A7ade.jpg"
+  genislik: 500
+  yukseklik: 387
+  sahibi: "Benh LIEU SONG"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg"
+  alt: "Efes görseli"
+  wikidata: "Q47611"
 ---
 
 Efes, Küçük Menderes'in denize döküldüğü yerde kurulmuş bir liman kentiydi. Antik yazarlara göre kenti İon göçmenleri kurdu, ama bölgedeki yerleşim çok daha eskiye gider.

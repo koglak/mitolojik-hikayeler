@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["menelaos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG/500px-Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Osmanyaylali"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Pinara_Amphitheatre_Fethiye_Mugla_Turkiye.JPG"
+  alt: "Pınara görseli"
+  wikidata: "Q1318876"
 ---
 
 Pınara, Ksanthos vadisinin batı kenarında, Akdağların eteğindeydi. Kentin arkasında yükselen kayalığın yüzü yüzlerce küçük kaya mezarıyla oyulmuştur; uzaktan bakınca kaya bir petek gibi görünür. Mezarlara ancak iple sarkıtılarak ulaşılabildiği düşünülür.

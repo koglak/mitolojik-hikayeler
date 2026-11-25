@@ -17,6 +17,15 @@ konum:
   enlem: 40.1833
   boylam: 29.0611
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Monnaie_-_Bronze%2C_Prusa_Ad_Olympum%2C_Bithynie_-_btv1b10316093x_%281_of_2%29.jpg/500px-Monnaie_-_Bronze%2C_Prusa_Ad_Olympum%2C_Bithynie_-_btv1b10316093x_%281_of_2%29.jpg"
+  genislik: 500
+  yukseklik: 500
+  sahibi: "Prusa ad Olympum (Bithynie ; atelier monétaire). Atelier monétaire"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Monnaie_-_Bronze,_Prusa_Ad_Olympum,_Bithynie_-_btv1b10316093x_(1_of_2).jpg"
+  alt: "Prusa ad Olympum’da basılan bronz sikke"
+  wikidata: "Q3228826"
 ---
 
 Prusa, antik çağda Misya Olimposu denen Uludağ'ın kuzey eteğine kuruldu. Bu dağ, Yunanistan'daki tanrıların dağı Olimpos'la aynı adı taşıyordu ve tanrılarla ilişkilendirilirdi. Kent adını Bithynia kralı Prusias'tan aldı.

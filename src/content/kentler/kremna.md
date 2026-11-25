@@ -15,6 +15,16 @@ konum:
   enlem: 37.4964
   boylam: 30.6911
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/KremnaAntikKenti1.jpg/500px-KremnaAntikKenti1.jpg"
+  genislik: 500
+  yukseklik: 889
+  sahibi: "Basak"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:KremnaAntikKenti1.jpg"
+  alt: "Kremna görseli"
+  wikidata: "Q917259"
 ---
 
 Kremna, Aksu vadisine bakan, üç yanı uçurumla çevrili bir tepenin üstündedir. Adı Yunanca "uçurum" demektir. İmparator Augustus burayı Roma askerlerinin yerleştirildiği bir koloni yaptı.

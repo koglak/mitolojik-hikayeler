@@ -17,6 +17,16 @@ konum:
   enlem: 37.5583
   boylam: 27.8306
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Alinda_Aquaeduct.JPG/500px-Alinda_Aquaeduct.JPG"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Ana al'ain"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Alinda_Aquaeduct.JPG"
+  alt: "Alinda görseli"
+  wikidata: "Q1848789"
 ---
 
 Alinda, Karpuzlu'nun üstündeki sarp bir tepeye kurulmuştu. Mausolos'un kız kardeşi Ada, kocası ve kardeşi İdrieus'un ölümünden sonra Karya'yı yönetti, ama küçük kardeşi tarafından tahttan indirildi ve Alinda'ya çekildi.

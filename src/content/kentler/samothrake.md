@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["argonotlar"]
 ilgiliTanrilar: ["demeter", "persephone", "hades", "hermes"]
 ilgiliKahramanlar: ["orpheus", "iason"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Samothraki_Hieron.jpg/500px-Samothraki_Hieron.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "No machine-readable author provided. Marsyas assumed (based on copyright claims)."
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Samothraki_Hieron.jpg"
+  alt: "Samothrake görseli"
+  wikidata: "Q1791563"
 ---
 
 Samothrake, Trakya kıyısının karşısında, 1600 metreyi aşan bir dağı olan sarp bir adadır. Kuzey Ege'nin denizcileri adayı uzaktan görür. Burası, Yunan dünyasının en gizemli kutsal alanlarından birine ev sahipliği yaptı.

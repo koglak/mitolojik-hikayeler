@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: ["theseus-ve-minotauros"]
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["theseus"]
+kunyeGorseli:
+  adres: "https://upload.wikimedia.org/wikipedia/commons/9/97/Ac.marathon.jpg"
+  genislik: 500
+  yukseklik: 310
+  sahibi: "Adam Carr"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ac.marathon.jpg"
+  alt: "Marathon görseli"
+  wikidata: "Q212150"
 ---
 
 Marathon, Attika'nın kuzeydoğusunda, denize doğru açılan geniş bir ovadır. MÖ 490'da Pers ordusu burada karaya çıktı. Atinalılar ve Plataialılar Miltiades'in komutasında onları ovada karşıladı ve yendi. Herodotos'a göre Atinalılar 192 asker kaybetti.

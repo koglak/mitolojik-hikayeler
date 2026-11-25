@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["athena"]
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "dionysos", "nemesis"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg/500px-%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Ford Prefect Photo"
+  lisans: "CC0"
+  lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%80%D0%B0%D0%BC_%D0%90%D1%84%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BC%D0%B8%D1%80%D0%BD%D0%B5.jpg"
+  alt: "Eski Smyrna görseli"
+  wikidata: "Q108923214"
 ---
 
 Eski Smyrna, İzmir Körfezi'nin kuzeydoğu köşesinde, bugün Bayraklı'nın apartmanları arasında kalan bir höyüğün üstündedir. Herodotos'a göre kent ilk önce Aiol kentiydi. Bir gün Smyrnalılar kent dışında Dionysos için şenlik yaparken, sığındıkları Kolophonlu sürgünler kapıları kapatıp kenti ele geçirdi. Bundan sonra Smyrna İon kentlerinden biri sayıldı.

@@ -2,16 +2,18 @@
 import type { YaziGorselVerisi } from '../lib/yaziSemasi';
 
 interface Props {
-  gorsel: YaziGorselVerisi;
+  gorsel: YaziGorselVerisi & { kaynakAdi?: string };
+  wikidata?: string;
 }
 
-const { gorsel } = Astro.props;
+const { gorsel, wikidata } = Astro.props;
 ---
 
 <figcaption class="atif">
   Görsel: {gorsel.sahibi},{' '}
   {gorsel.lisansAdresi ? <a href={gorsel.lisansAdresi} target="_blank" rel="noopener noreferrer">{gorsel.lisans}</a> : gorsel.lisans},{' '}
-  <a href={gorsel.kaynakAdresi} target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+  <a href={gorsel.kaynakAdresi} target="_blank" rel="noopener noreferrer">{gorsel.kaynakAdi ?? 'Wikimedia Commons'}</a>
+  {wikidata && <>, <a href={`https://www.wikidata.org/wiki/${wikidata}`} target="_blank" rel="noopener noreferrer">Wikidata</a></>}
 </figcaption>
 
 <style>

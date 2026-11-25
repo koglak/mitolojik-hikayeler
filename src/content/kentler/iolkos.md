@@ -18,6 +18,16 @@ konum:
   boylam: 22.9425
 ilgiliMitler: ["argonotlar", "altin-koc", "guzellik-yarismasi"]
 ilgiliKahramanlar: ["alkestis", "herakles", "kastor-ve-polydeukes", "medeia", "orpheus", "iason"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Dimini_DSC_2044a.jpg/500px-Dimini_DSC_2044a.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Kritheus"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Dimini_DSC_2044a.jpg"
+  alt: "Iolkos ile ilişkilendirilen Dimini kazı alanı"
+  wikidata: "Q662613"
 ---
 
 Iolkos, Thessalia'nın Pagasai Körfezi'nde, Pelion dağının eteğinde kuruldu. Bugün burada Volos kenti var. Arkasındaki ormanlık Pelion'da, mitlere göre yarı insan yarı at Kentaurlar yaşardı.

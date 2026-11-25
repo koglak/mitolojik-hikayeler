@@ -26,6 +26,16 @@ tapinaklar:
 ilgiliMitler: ["argonotlar"]
 ilgiliTanrilar: ["athena", "zeus"]
 ilgiliKahramanlar: ["odysseus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Dodona-Greece-April-2008-107.JPG/500px-Dodona-Greece-April-2008-107.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Marcus Cyron"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Dodona-Greece-April-2008-107.JPG"
+  alt: "Dodona görseli"
+  wikidata: "Q382317"
 ---
 
 Dodona, kuzeybatı Yunanistan'ın dağlarında, Tomaros dağının eteğindeki yüksek bir vadide kuruldu. Kışları sert, yazları serin bir yerdi. Burada bir tapınak yoktu, ilk zamanlarda yalnızca yaşlı bir meşe ağacı vardı. Zeus'un sesi bu ağaçtan gelirdi.

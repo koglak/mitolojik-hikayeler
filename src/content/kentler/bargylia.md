@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Fluted_columns_at_Bargylia.jpg/500px-Fluted_columns_at_Bargylia.jpg"
+  genislik: 500
+  yukseklik: 667
+  sahibi: "Hwhorwood"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Fluted_columns_at_Bargylia.jpg"
+  alt: "Bargylia görseli"
+  wikidata: "Q808168"
 ---
 
 Bargylia, Güllük Körfezi'nin iç ucundaki bir koyun kıyısında, bugün kuş cenneti olan sulak alanların yanında kurulmuştu. Kentin kalıntıları sazlıklara bakan iki tepenin üstündedir.

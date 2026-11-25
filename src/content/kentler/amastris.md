@@ -17,6 +17,16 @@ konum:
   enlem: 41.7469
   boylam: 32.3864
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Amasra%2C_Turkey%2C_Castle%2C_view_from_the_island.jpg/500px-Amasra%2C_Turkey%2C_Castle%2C_view_from_the_island.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Babbsack"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Amasra,_Turkey,_Castle,_view_from_the_island.jpg"
+  alt: "Amastris görseli"
+  wikidata: "Q455458"
 ---
 
 Amastris, bir yarımada ile önündeki adanın iki yanında birer liman oluşturduğu bir kıyıda kuruldu. İlyada'daki Truva'ya yardıma gelen halklar listesinde Paflagonyalıların Sesamos'tan ve Kytoros'tan geldiği söylenir; Sesamos, bugünkü Amasra'nın yerindeki eski yerleşimdi.

@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["orpheus-ve-eurydike", "arion"]
 ilgiliTanrilar: ["apollon", "dionysos"]
 ilgiliKahramanlar: ["orpheus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mytilene_Montage_L.png/500px-Mytilene_Montage_L.png"
+  genislik: 500
+  yukseklik: 746
+  sahibi: "SilentResident (compilation, sources to attribute see above; if any of the sources used in the Montage are removed from Wikimedia Commons, or better ones are found, please inform its creator so that they can update it. You can contact the creator by leaving a message here: [1] )"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Mytilene_Montage_L.png"
+  alt: "Mytilene görseli"
+  wikidata: "Q189059"
 ---
 
 Mytilene, Lesbos adasının doğu kıyısında, Anadolu'ya bakan bir yarımadada kuruldu. Ayvalık'tan bakınca karşıda görünen bu ada, Aiolis kıyılarıyla aynı dili konuşur, aynı kökleri paylaşırdı. Bugün Türkçede Midilli diye bilinir.

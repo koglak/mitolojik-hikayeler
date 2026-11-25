@@ -17,6 +17,15 @@ konum:
   enlem: 40.3447
   boylam: 26.6856
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Stater_Zeus_Lampsacus_CdM.jpg/500px-Stater_Zeus_Lampsacus_CdM.jpg"
+  genislik: 500
+  yukseklik: 500
+  sahibi: "Bilinmiyor"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Stater_Zeus_Lampsacus_CdM.jpg"
+  alt: "Lampsakos görseli"
+  wikidata: "Q1229422"
 ---
 
 Lampsakos, Çanakkale Boğazı'nın Asya yakasında, karşı kıyıdaki Gelibolu'ya bakan bir limandı. Herodotos'a göre kentin eski adı Pityussa, yani "çamlık"tı. Lydia kralı Kroisos bir gün Lampsakoslulara, onları "çam ağacı gibi keseceğini" söyleyerek göz dağı verdi. Kimse ne demek istediğini anlamadı; sonunda yaşlı biri, çamın kesilince bir daha filiz vermediğini, kralın kenti kökünden yok etmekle tehdit ettiğini açıkladı.

@@ -25,6 +25,16 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios", "apollon", "artemis"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Epidauros-Theater-1.jpg/500px-Epidauros-Theater-1.jpg"
+  genislik: 500
+  yukseklik: 667
+  sahibi: "DieBuche"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Epidauros-Theater-1.jpg"
+  alt: "Epidauros görseli"
+  wikidata: "Q233576"
 ---
 
 Epidauros, Argolis'te yeşil bir vadide, Asklepios'un doğduğuna inanılan topraklarda kuruldu. Pausanias'a göre Apollon'un sevgilisi Koronis, çocuğunu Titthion Dağı'nda dünyaya getirdi ve bebeği oraya bıraktı. Bir keçi onu emzirdi, bir köpek başında bekledi. Çocuk büyüyüp şifacıların tanrısı olunca kutsal alan bu dağın eteğinde yükseldi.

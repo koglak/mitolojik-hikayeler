@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: []
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["herakles"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Erythrae%2C_Ionia%2C_Turkey_-_53784207272.jpg/500px-Erythrae%2C_Ionia%2C_Turkey_-_53784207272.jpg"
+  genislik: 500
+  yukseklik: 334
+  sahibi: "Following Hadrian"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Erythrae,_Ionia,_Turkey_-_53784207272.jpg"
+  alt: "Erythrai görseli"
+  wikidata: "Q723091"
 ---
 
 Erythrai, Çeşme Yarımadası'nın kuzeyinde, Sakız Adası'na bakan bir koyun kıyısındaydı. Akropolden bugün hâlâ koyun ve önündeki adacıkların bütün manzarası görülür.

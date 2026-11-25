@@ -23,6 +23,16 @@ tapinaklar:
     tanrilar: ["themis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["nemesis", "themis"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Closeup_of_the_Theater_of_Rhamnous.jpg/500px-Closeup_of_the_Theater_of_Rhamnous.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Andreas Kakaris"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Closeup_of_the_Theater_of_Rhamnous.jpg"
+  alt: "Rhamnous tiyatrosunun kalıntıları"
+  wikidata: "Q1768553"
 ---
 
 Rhamnous, Attika'nın kuzeydoğu kıyısında, Euboia Boğazı'na bakan küçük bir kale kentiydi. Atina'nın en uzak demoslarından biriydi ve bugün de ıssızdır. Burası, yarışmacıları ve hedefleri aşan kibrin cezalandırıldığı yer olarak anıldı.

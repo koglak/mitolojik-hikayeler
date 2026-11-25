@@ -18,6 +18,16 @@ konum:
   boylam: 22.3197
 ilgiliMitler: []
 ilgiliTanrilar: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Verginia_WHS.jpg/500px-Verginia_WHS.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "No machine-readable author provided. Elswhs assumed (based on copyright claims)."
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Verginia_WHS.jpg"
+  alt: "Vergina (Aigai) görseli"
+  wikidata: "Q213916"
 ---
 
 Vergina, Selanik'in yaklaşık 75 kilometre batısında, Pieria Dağları'nın eteğinde bir kasabadır. Antik adı Aigai olan kent, Makedonya krallarının ilk başkenti ve mezar yeriydi. Argead hanedanının kuruluş efsanesi de buraya bağlanır.

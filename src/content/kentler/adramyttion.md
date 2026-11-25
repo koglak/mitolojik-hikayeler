@@ -18,6 +18,16 @@ konum:
   boylam: 26.9550
 ilgiliMitler: []
 ilgiliKahramanlar: ["akhilleus", "andromakhe", "hektor"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Burhaniye_Tarihi.JPG/500px-Burhaniye_Tarihi.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Ollios"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Burhaniye_Tarihi.JPG"
+  alt: "Adramyttion görseli"
+  wikidata: "Q3605584"
 ---
 
 Adramyttion, Edremit Körfezi'nin doğu kıyısında kurulmuş bir liman kentiydi. Bugünkü Edremit hem adını hem de körfezin adını ondan alır.

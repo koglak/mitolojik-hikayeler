@@ -24,6 +24,16 @@ tapinaklar:
   - ad: "Zeus Soteros Tapınağı?"
     tanrilar: ["zeus"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/DALYAN-KAUNOS_-_panoramio.jpg/500px-DALYAN-KAUNOS_-_panoramio.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "HALUK COMERTEL"
+  lisans: "CC BY 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:DALYAN-KAUNOS_-_panoramio.jpg"
+  alt: "Kaunos görseli"
+  wikidata: "Q608095"
 ---
 
 Kaunos, Köyceğiz Gölü'nü denize bağlayan Dalyan Çayı'nın kıyısındaydı. Kentin karşısındaki kayalığa oyulmuş, tapınak cephesi biçiminde mezarlar bugün Dalyan'ın simgesidir.

@@ -26,6 +26,16 @@ tapinaklar:
 ilgiliMitler: ["theseus-ve-minotauros"]
 ilgiliTanrilar: ["apollon", "demeter", "dionysos"]
 ilgiliKahramanlar: ["ariadne", "theseus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Naxos_%CE%9D%CE%AC%CE%BE%CE%BF%CF%82_Chora_2020-08-20_28_Portara_%CE%A0%CE%BF%CF%81%CF%84%CE%AC%CF%81%CE%B1.jpg/500px-Naxos_%CE%9D%CE%AC%CE%BE%CE%BF%CF%82_Chora_2020-08-20_28_Portara_%CE%A0%CE%BF%CF%81%CF%84%CE%AC%CF%81%CE%B1.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Manfred Werner (Tsui)"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Naxos_%CE%9D%CE%AC%CE%BE%CE%BF%CF%82_Chora_2020-08-20_28_Portara_%CE%A0%CE%BF%CF%81%CF%84%CE%AC%CF%81%CE%B1.jpg"
+  alt: "Naxos’taki Apollon Tapınağı’nın anıtsal kapısı Portara"
+  wikidata: "Q188527"
 ---
 
 Naxos, Kikladlar'ın en büyük ve en verimli adasıdır. Mermeri ve şarabıyla ünlüydü. Herodotos, adanın MÖ 6. yüzyılda Yunan dünyasının en zengin adalarından biri olduğunu yazar.

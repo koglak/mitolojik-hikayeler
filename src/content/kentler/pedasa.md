@@ -18,6 +18,16 @@ konum:
   boylam: 27.3956
 ilgiliMitler: []
 ilgiliTanrilar: ["athena"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%D0%9F%D0%B5%D0%B4%D0%B0%D1%81%D0%B0.jpg/500px-%D0%9F%D0%B5%D0%B4%D0%B0%D1%81%D0%B0.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "Vano111ru"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D0%B4%D0%B0%D1%81%D0%B0.jpg"
+  alt: "Pedasa görseli"
+  wikidata: "Q11944106"
 ---
 
 Pedasa, Bodrum Yarımadası'nın iç kesimindeki bir tepede, Karyalılardan önce bölgede yaşadığı söylenen Leleglerin kentiydi. Kalıntılar, kuru taş duvarlarla çevrili bir akropolden ve çevredeki yuvarlak Leleg mezarlarından oluşur.

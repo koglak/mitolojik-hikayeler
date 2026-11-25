@@ -25,6 +25,16 @@ tapinaklar:
     tanrilar: ["asklepios"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Theater_of_Miletus.jpg/500px-The_Theater_of_Miletus.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "https://www.flickr.com/photos/jiuguangw/"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:The_Theater_of_Miletus.jpg"
+  alt: "Milet görseli"
+  wikidata: "Q169460"
 ---
 
 Milet, Büyük Menderes'in ağzında, dört limanı olan bir yarımadaya kurulmuştu. Pausanias'a göre kente adını, Apollon'un oğlu Miletos verdi; Girit'ten kaçıp buraya yerleşmişti.

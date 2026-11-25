@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["hekate"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hekate", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Lagina-1-CTH.JPG/500px-Lagina-1-CTH.JPG"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "CTHOE"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Lagina-1-CTH.JPG"
+  alt: "Lagina görseli"
+  wikidata: "Q1532991"
 ---
 
 Lagina, Stratonikeia'nın kuzeyinde, Hekate'ye adanmış bir kutsal alandı. Strabon, burada tanrıça adına her yıl büyük şenlikler yapıldığını yazar. Stratonikeia ile Lagina arasında taş döşeli bir kutsal yol uzanırdı.

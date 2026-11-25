@@ -19,6 +19,16 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Euromus_temple.JPG/500px-Euromus_temple.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Pax:Vobiscum"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Euromus_temple.JPG"
+  alt: "Euromos görseli"
+  wikidata: "Q1375099"
 ---
 
 Euromos, Milas ile Bafa Gölü arasındaki zeytinliklerin içinde, Labranda'ya giden yolun yakınındaki bir Karya kentiydi. Strabon onu Mylasa'nın çevresindeki kentler arasında sayar.

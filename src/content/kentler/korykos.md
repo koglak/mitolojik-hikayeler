@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["zeus"]
 ilgiliMitler: ["prometheus"]
 ilgiliTanrilar: ["gaia", "hermes", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Fortressarmenians5.jpg/500px-Fortressarmenians5.jpg"
+  genislik: 500
+  yukseklik: 266
+  sahibi: "The original uploader was Artaxiad at English Wikipedia ."
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Fortressarmenians5.jpg"
+  alt: "Korykos görseli"
+  wikidata: "Q2167586"
 ---
 
 Korykos, Kilikya kıyısında, bugünkü Kızkalesi'nin karşısında kurulmuş bir liman kentiydi. Biraz içerideki kireçtaşı arazide, yer çökmüş ve devasa obruklar oluşmuştur. Bunlardan biri, bugün Cennet Obruğu denen Korykos Mağarası'dır. Strabon, bu çukurun dibinde bir mağara bulunduğunu, içinden yeraltı ırmağının aktığını ve çevresinde dünyanın en iyi safranının yetiştiğini yazar.

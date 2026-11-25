@@ -24,6 +24,16 @@ tapinaklar:
 ilgiliMitler: ["atalante"]
 ilgiliTanrilar: ["artemis", "apollon"]
 ilgiliKahramanlar: ["meleagros", "atalanta", "deianeira", "tydeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Calydon_Aetolia_2010.JPG/500px-Calydon_Aetolia_2010.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Vasarchit"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Calydon_Aetolia_2010.JPG"
+  alt: "Kalydon görseli"
+  wikidata: "Q750313"
 ---
 
 Kalydon, Aitolia'da Evenos Nehri'nin batı kıyısında, denize yaklaşık dokuz kilometre uzaklıktaki bir kentti. Homeros'un Ilyada'sında Phoinix, Meleagros'un hikâyesini anlatır. Oineus tanrıça Artemis'i unuttuğu için tanrıça Kalydon topraklarına bir yabandomuzu salmıştı. Avı Atalante'nin de bulunduğu kahramanlar sürdü.

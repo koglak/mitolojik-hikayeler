@@ -16,6 +16,16 @@ konum:
   boylam: 27.1394
 ilgiliMitler: []
 ilgiliTanrilar: ["demeter", "nemesis", "poseidon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Agora_of_Smyrna.jpg/500px-Agora_of_Smyrna.jpg"
+  genislik: 500
+  yukseklik: 419
+  sahibi: "Agora_vue_générale.jpg : Didier Laroche derivative work: IgnisFatuus ( talk )"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Agora_of_Smyrna.jpg"
+  alt: "Smyrna Agorası görseli"
+  wikidata: "Q2827071"
 ---
 
 Pausanias'a göre Büyük İskender, Pagos Dağı'nda, bugünkü Kadifekale'de avlandıktan sonra uyudu. Rüyasında iki Nemesis tanrıçası ona, Smyrnalılara bu dağın eteğinde yeni bir kent kurmalarını söylemesini buyurdu. Yeni Smyrna, Bayraklı'daki eski höyüğün yerine buraya kuruldu ve agorası kentin merkezi oldu.

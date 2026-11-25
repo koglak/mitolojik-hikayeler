@@ -15,6 +15,16 @@ konum:
   enlem: 36.2647
   boylam: 29.8247
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Kyaneai_Westnekropole_Akropolis.JPG/500px-Kyaneai_Westnekropole_Akropolis.JPG"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Ansgar Bovet"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kyaneai_Westnekropole_Akropolis.JPG"
+  alt: "Kyaneai görseli"
+  wikidata: "Q1762663"
 ---
 
 Kyaneai, Kaş ile Demre arasındaki dağlık arazide, bir tepenin üstüne kuruldu. Adı Yunanca "lacivert" anlamındaki kyanos kelimesinden gelir.

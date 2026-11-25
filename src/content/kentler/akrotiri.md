@@ -19,6 +19,15 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["minos"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Akrotiri_minoan_town.jpg/500px-Akrotiri_minoan_town.jpg"
+  genislik: 500
+  yukseklik: 338
+  sahibi: "unknown minoan artist"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Akrotiri_minoan_town.jpg"
+  alt: "Thera’daki Akrotiri kazı alanı"
+  wikidata: "Q421232"
 ---
 
 Akrotiri, Santorini'nin güney ucunda, volkan küllerinin altında kalan Tunç Çağı şehridir. Yerleşim MÖ 5. binyıldan beri kesintisiz sürmüştü. Şehir Girit'le Kıbrıs arasındaki bakır ticaretinde önemli bir duraktı.

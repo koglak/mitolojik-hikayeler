@@ -18,6 +18,16 @@ konum:
   boylam: 25.4453
 ilgiliMitler: ["titanlar-savasi"]
 ilgiliTanrilar: ["kronos", "rhea", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cave_Dikti12%28js%29.jpg/500px-Cave_Dikti12%28js%29.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Jerzy Strzelecki"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Cave_Dikti12(js).jpg"
+  alt: "Dikte Mağarası görseli"
+  wikidata: "Q1643807"
 ---
 
 Dikte Mağarası, Girit'in doğusunda, dağlarla çevrili Lasithi yaylasının kenarında, bir yamacın içine açılır. Dar bir girişten aşağı inilince sarkıtlarla dolu karanlık bir salona, en dipte de küçük bir yeraltı gölüne varılır. Kazılarda burada yüzlerce tunç bıçak, iğne ve heykelcik bulundu. Bunlar binlerce yıl boyunca tanrıya bırakılmış armağanlardı.

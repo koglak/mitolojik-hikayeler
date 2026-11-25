@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["kronos"]
 ilgiliMitler: ["bellerophon"]
 ilgiliKahramanlar: ["bellerophon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tlos_ruins_Turkey.jpg/500px-Tlos_ruins_Turkey.jpg"
+  genislik: 500
+  yukseklik: 341
+  sahibi: "Toksave"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Tlos_ruins_Turkey.jpg"
+  alt: "Tlos görseli"
+  wikidata: "Q1325973"
 ---
 
 Tlos, Likya'nın en eski yerleşimlerinden biridir. Akropol, Eşen Vadisi'ne hâkim sarp bir kayalığın üstündedir; kayanın yüzü tapınak cephesi biçiminde oyulmuş mezarlarla doludur.

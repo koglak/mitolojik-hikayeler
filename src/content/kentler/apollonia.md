@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Apollonia_ad_Rhyndacum%2C_Tor_der_byzantinischen_Burg.jpg/500px-Apollonia_ad_Rhyndacum%2C_Tor_der_byzantinischen_Burg.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Christian1311"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Apollonia_ad_Rhyndacum,_Tor_der_byzantinischen_Burg.jpg"
+  alt: "Apollonia ad Rhyndacum’daki Bizans kalesinin kapısı"
+  wikidata: "Q619312"
 ---
 
 Apollonia, antik adı Apollonia ad Rhyndacum, Uluabat Gölü'nün içine uzanan küçük bir yarımadanın üstüne kurulmuştu. Göl, antik çağda Apollonia Gölü diye anılırdı; Rhyndakos, yani bugünkü Mustafakemalpaşa Çayı, gölden çıkıp Marmara'ya akardı.

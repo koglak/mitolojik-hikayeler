@@ -15,6 +15,16 @@ konum:
   enlem: 36.7353
   boylam: 29.255
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kadyanda_Theatre_7563.jpg/500px-Kadyanda_Theatre_7563.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "Dosseman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Kadyanda_Theatre_7563.jpg"
+  alt: "Kadyanda görseli"
+  wikidata: "Q1720985"
 ---
 
 Kadyanda, Üzümlü'nün üstünde yükselen bir dağın düzlüğüne kurulmuştu. Kentin adının sonundaki "-anda" eki, Yunanlılardan önce Anadolu'da konuşulan dillere özgüdür; kentin Likçe adı Kadawãti idi.

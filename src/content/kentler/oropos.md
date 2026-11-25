@@ -19,6 +19,16 @@ konum:
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios"]
 ilgiliKahramanlar: ["amphiaraos", "polyneikes-ve-eteokles"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Amfiareio_Archaeological_Site.jpg/500px-Amfiareio_Archaeological_Site.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Dimap1981"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Amfiareio_Archaeological_Site.jpg"
+  alt: "Oropos (Amphiareion) görseli"
+  wikidata: "Q474656"
 ---
 
 Oropos, Attika'nın kuzey sınırında, Euboia Boğazı'na bakan bir bölgedir. Amphiaraos, Thebai'ye karşı yedi kahramandan biriydi. Pausanias'a göre yer yarıldı ve Amphiaraos atıyla birlikte yerin dibine girdi. O yerin kutsal sayılması buradan çıkar.

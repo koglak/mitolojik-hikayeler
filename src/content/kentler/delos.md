@@ -29,6 +29,16 @@ tapinaklar:
     tanrilar: ["zeus", "athena"]
 ilgiliMitler: ["leto-ve-koyluler"]
 ilgiliTanrilar: ["apollon", "artemis", "dionysos", "hera", "leto", "zeus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Ruines_de_D%C3%A9los.jpg/500px-Ruines_de_D%C3%A9los.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Romain Delanoë"
+  lisans: "CC BY 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ruines_de_D%C3%A9los.jpg"
+  alt: "Delos görseli"
+  wikidata: "Q173148"
 ---
 
 Delos, Kikladlar'ın ortasında, bir ucundan öbür ucuna yürüyerek yarım saatte geçilen küçük, kayalık bir adadır. Çevresindeki adalar onun etrafında bir halka çizer; Kikladlar adı da buradan gelir.

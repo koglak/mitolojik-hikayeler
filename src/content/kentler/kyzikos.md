@@ -18,6 +18,16 @@ konum:
   boylam: 27.8833
 ilgiliMitler: ["argonotlar"]
 ilgiliKahramanlar: ["iason"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Bandirma_Cyzicus_2874.jpg/500px-Bandirma_Cyzicus_2874.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Dosseman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Bandirma_Cyzicus_2874.jpg"
+  alt: "Kyzikos görseli"
+  wikidata: "Q615449"
 ---
 
 Kyzikos, Marmara'da bugünkü Kapıdağ Yarımadası'nın karaya bağlandığı yerde kuruldu. Strabon'un zamanında Kapıdağ bir adaydı ve kente iki köprüyle bağlanıyordu; sonradan aradaki dar boğaz kumla dolup yarımadaya dönüştü.

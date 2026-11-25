@@ -18,6 +18,16 @@ konum:
   boylam: 27.0008
 ilgiliMitler: []
 ilgiliTanrilar: ["nike"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Erkmen_se_MarchesAliagaTurkey.jpg/500px-Erkmen_se_MarchesAliagaTurkey.jpg"
+  genislik: 500
+  yukseklik: 364
+  sahibi: "User: Erkmen Senan, http://wowturkey.com , en:Cretanforever"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Erkmen_se_MarchesAliagaTurkey.jpg"
+  alt: "Myrina görseli"
+  wikidata: "Q609532"
 ---
 
 Myrina, Güzelhisar Çayı'nın denize döküldüğü yerde, iki alçak tepenin üstüne kurulmuş küçük bir Aiol kentiydi. Herodotos onu anakaradaki on bir Aiol kentinden biri olarak sayar.

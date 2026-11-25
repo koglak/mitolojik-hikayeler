@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["poseidon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["poseidon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Panionium_theatre.jpg/500px-Panionium_theatre.jpg"
+  genislik: 500
+  yukseklik: 332
+  sahibi: "Isabeau"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Panionium_theatre.jpg"
+  alt: "Panionion görseli"
+  wikidata: "Q1310950"
 ---
 
 Panionion, "bütün İonların yeri" demektir. Mykale Dağı'nın, bugünkü Dilek Yarımadası'nın kuzey yamacındaydı. Herodotos'a göre on iki İon kenti burada Poseidon Helikonios adına toplanır, ortak şenlikler yapar ve önemli kararları birlikte alırdı.

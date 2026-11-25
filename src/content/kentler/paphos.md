@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["pygmalion"]
 ilgiliTanrilar: ["afrodit"]
 ilgiliKahramanlar: ["pygmalion", "adonis"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg/500px-Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "Nikodem Nijaki"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Sanctuary_Aphrodite_Kouklia_Cyprus_05.jpg"
+  alt: "Paphos (Palaipaphos) görseli"
+  wikidata: "Q53556453"
 ---
 
 Paphos, Kıbrıs'ın güneybatı kıyısında, deniz kıyısındaki bir tepenin eteğindedir. Hesiodos, Afrodit'in Kronos'un attığı Uranos'un uzuvlarından çıkan köpükten doğduğunu, önce Kythera'ya, sonra Kıbrıs'a ulaştığını yazar. Kıbrıslılar tanrıçanın karaya çıktığı yerin Paphos kıyısı olduğunu söylerdi.

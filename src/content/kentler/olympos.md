@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["bellerophon"]
 ilgiliTanrilar: ["hephaistos"]
 ilgiliKahramanlar: ["bellerophon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Aerial_View_of_Olympus_%28Lycia%29_from_the_west.jpg/500px-Aerial_View_of_Olympus_%28Lycia%29_from_the_west.jpg"
+  genislik: 500
+  yukseklik: 281
+  sahibi: "Seckinevcim"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Olympus_(Lycia)_from_the_west.jpg"
+  alt: "Olympos görseli"
+  wikidata: "Q1380189"
 ---
 
 Olympos, Tahtalı Dağı'nın eteğinden denize inen bir derenin iki yakasına kurulmuştu. Kalıntılar bugün defne ve zakkum ağaçlarının arasında, ormanın içinde dağınık durur.

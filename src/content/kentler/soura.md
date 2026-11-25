@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Soura_7368.jpeg/500px-Soura_7368.jpeg"
+  genislik: 500
+  yukseklik: 667
+  sahibi: "Aerdemsenturk"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Soura_7368.jpeg"
+  alt: "Soura görseli"
+  wikidata: "Q1437057"
 ---
 
 Soura, Myra ile limanı Andriake arasında, sazlık bir koyun kıyısında Apollon'a adanmış bir kutsal alandı. Tapınağın kalıntıları bugün, eskiden su ile dolu olan alçak bir düzlüğün kenarında durur.

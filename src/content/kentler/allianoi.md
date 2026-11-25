@@ -21,6 +21,16 @@ tapinaklar:
     tanrilar: ["asklepios"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Allianoi_view2007.jpg/500px-Allianoi_view2007.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Josep Lluís"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Allianoi_view2007.jpg"
+  alt: "Allianoi görseli"
+  wikidata: "Q1758695"
 ---
 
 Allianoi, Bergama'nın kuzeydoğusunda, Kaikos'un bir kolunun kıyısında, sıcak su kaynaklarının çevresinde kurulmuş bir Roma kaplıca yerleşimiydi. Hatip Aelius Aristides, Bergama Asklepionu'ndaki tedavisi sırasında yakındaki bir kaplıcaya gönderildiğini anlatır; burası Allianoi ile ilişkilendirilir.

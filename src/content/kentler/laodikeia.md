@@ -20,6 +20,16 @@ tapinaklar:
   - ad: "Zeus Tapınağı"
     tanrilar: ["zeus"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/S%C3%BCtun.jpg/500px-S%C3%BCtun.jpg"
+  genislik: 500
+  yukseklik: 331
+  sahibi: "Arkiyolok"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:S%C3%BCtun.jpg"
+  alt: "Laodikeia görseli"
+  wikidata: "Q849709"
 ---
 
 Laodikeia, Lykos Çayı'nın vadisinde, Pamukkale'nin travertenlerine bakan bir yayla üstüne kuruldu. Kenti Selevkos kralı II. Antiokhos kurdu ve karısı Laodike'nin adını verdi.

@@ -20,6 +20,16 @@ tapinaklar:
   - ad: "Artemis Tapınağı"
     tanrilar: ["artemis"]
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Myra_theatre.jpg/500px-Myra_theatre.jpg"
+  genislik: 500
+  yukseklik: 187
+  sahibi: "Ingo Mehling"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Myra_theatre.jpg"
+  alt: "Myra görseli"
+  wikidata: "Q652024"
 ---
 
 Myra, Demre Çayı'nın oluşturduğu verimli ovanın kenarında, dik bir kayalığın eteğinde kuruldu. Kayalığın yüzü, ahşap evleri taklit eden cepheli mezarlarla kaplıdır. Hemen yanında yarım daire biçiminde büyük bir Roma tiyatrosu durur.

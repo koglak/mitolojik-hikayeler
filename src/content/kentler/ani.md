@@ -17,6 +17,16 @@ konum:
   enlem: 40.5075
   boylam: 43.5728
 ilgiliMitler: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Ani_seen_from_Armenia.jpg/500px-Ani_seen_from_Armenia.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "haigoes"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ani_seen_from_Armenia.jpg"
+  alt: "Ani görseli"
+  wikidata: "Q546010"
 ---
 
 Ani, Kars'ın doğusunda, Arpaçay'ın derin kanyonu ile bir dere vadisinin birleştiği üçgen bir düzlüğe kuruldu. Kanyonun karşı yakası bugün Ermenistan'dır. 10. yüzyılın ortasında Bagratlı hanedanından Ermeni kralı III. Aşot başkenti buraya taşıdı. Kent kısa sürede büyüdü; o kadar çok kilisesi vardı ki "bin bir kilisenin kenti" diye anılmaya başladı.

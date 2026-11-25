@@ -22,6 +22,16 @@ tapinaklar:
 ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe", "altin-koc"]
 ilgiliTanrilar: ["athena", "dionysos", "zeus"]
 ilgiliKahramanlar: ["antigone", "herakles", "kadmos", "oidipus"]
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Thebes-1.jpg/500px-Thebes-1.jpg"
+  genislik: 500
+  yukseklik: 333
+  sahibi: "J. Matthew Harrington"
+  lisans: "CC BY-SA 3.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/3.0/"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Thebes-1.jpg"
+  alt: "Thebai görseli"
+  wikidata: "Q1276854"
 ---
 
 Thebai, Boiotia ovasının ortasında, Kadmeia denen alçak bir tepenin üstünde kuruldu. Tepenin adı kentin kurucusu Kadmos'tan gelir. Mitlere göre Kadmos, Zeus'un kaçırdığı kız kardeşi Europe'yi ararken bir ineği izledi ve ineğin yere çöktüğü yerde kenti kurdu. Orada bir ejderhayı öldürdü ve Athena'nın sözüyle onun dişlerini toprağa ekti. Topraktan silahlı savaşçılar fışkırdı. Birbirlerini öldürdüler, yalnızca beşi kaldı. Thebai'nin soylu aileleri bu beş savaşçıdan geldiğine inandı.

@@ -18,6 +18,15 @@ konum:
   boylam: 22.5233
 ilgiliMitler: []
 ilgiliTanrilar: []
+kunyeGorseli:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Pella_House_atrium.jpg/500px-Pella_House_atrium.jpg"
+  genislik: 500
+  yukseklik: 375
+  sahibi: "Brian Donovan"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Pella_House_atrium.jpg"
+  alt: "Pella görseli"
+  wikidata: "Q213679"
 ---
 
 Pella, Makedonya ovasında, o zamanlar denize bir lagünle bağlanan bir kentti. MÖ 5. yüzyılın sonunda Kral Arkhelaos Makedonya'nın başkentini Aigai'den buraya taşıdı. II. Philippos ve oğlu Alexandros zamanında kent hızla büyüdü.
