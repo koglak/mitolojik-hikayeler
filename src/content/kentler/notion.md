@@ -16,6 +16,9 @@ bolge: "ionya"
 konum:
   enlem: 37.9947
   boylam: 27.1975
+tapinaklar:
+  - ad: "Athena Tapınağı?"
+    tanrilar: ["athena"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ---

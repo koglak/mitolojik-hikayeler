@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Iason, Pelias, Alkestis"
 kaynak: "Pindaros, Pythia Odaları 4; Apollonios Rhodios, Argonautika 1; Euripides, Medeia ve Alkestis; Ovidius, Metamorphoses 7.297–349"
-bolge: "yunanistan"
+bolge: "kuzey-yunanistan"
 konum:
   enlem: 39.3619
   boylam: 22.9425

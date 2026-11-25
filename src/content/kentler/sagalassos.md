@@ -16,6 +16,9 @@ bolge: "pisidia"
 konum:
   enlem: 37.6775
   boylam: 30.5169
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
 ---

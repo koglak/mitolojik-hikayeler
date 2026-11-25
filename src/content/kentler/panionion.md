@@ -16,6 +16,9 @@ bolge: "ionya"
 konum:
   enlem: 37.711
   boylam: 27.25
+tapinaklar:
+  - ad: "Poseidon Helikonios Kutsal Alanı"
+    tanrilar: ["poseidon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["poseidon"]
 ---

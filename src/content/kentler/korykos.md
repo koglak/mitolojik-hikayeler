@@ -16,6 +16,9 @@ bolge: "kilikya"
 konum:
   enlem: 36.4636
   boylam: 34.1544
+tapinaklar:
+  - ad: "Zeus Korykios Tapınağı (Cennet Mağarası üstü)"
+    tanrilar: ["zeus"]
 ilgiliMitler: ["prometheus"]
 ilgiliTanrilar: ["gaia", "hermes", "zeus"]
 ---

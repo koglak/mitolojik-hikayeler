@@ -16,6 +16,9 @@ bolge: "likya"
 konum:
   enlem: 36.5244
   boylam: 30.5522
+tapinaklar:
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: ["akhilleus"]
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["akhilleus", "hektor"]

@@ -1,5 +1,12 @@
 export const bolgeAnahtarlari = [
-  'yunanistan',
+  'attika',
+  'peloponnesos',
+  'orta-yunanistan',
+  'kuzey-yunanistan',
+  'adalar',
+  'girit',
+  'kibris',
+  'kuzey-karadeniz',
   'trakya',
   'bithynia',
   'paflagonya',
@@ -31,7 +38,14 @@ export interface Bolge {
 }
 
 export const bolgeler: Record<BolgeAnahtari, Bolge> = {
-  yunanistan: { ad: 'Yunanistan', renk: '#00e5ff' },
+  attika: { ad: 'Attika', renk: '#00e5ff' },
+  peloponnesos: { ad: 'Peloponnesos', renk: '#00bfa5' },
+  'orta-yunanistan': { ad: 'Orta Yunanistan', renk: '#448aff' },
+  'kuzey-yunanistan': { ad: 'Kuzey Yunanistan', renk: '#b2ff59' },
+  adalar: { ad: 'Yunan Adaları', renk: '#ff80ab' },
+  girit: { ad: 'Girit', renk: '#ffab40' },
+  kibris: { ad: 'Kıbrıs', renk: '#ffd600' },
+  'kuzey-karadeniz': { ad: 'Kuzey Karadeniz', renk: '#9575cd' },
   trakya: { ad: 'Trakya', renk: '#90a4ae' },
   bithynia: { ad: 'Bithynia', renk: '#3d5afe' },
   paflagonya: { ad: 'Paflagonya', renk: '#a5d6a7' },

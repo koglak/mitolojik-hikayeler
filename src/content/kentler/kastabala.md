@@ -16,6 +16,9 @@ bolge: "kilikya"
 konum:
   enlem: 37.2167
   boylam: 36.1083
+tapinaklar:
+  - ad: "Artemis Perasia Tapınağı"
+    tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["orestes"]

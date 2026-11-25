@@ -12,10 +12,19 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Danae, Perseus, Danaos ve kızları"
 kaynak: "Apollodoros, Bibliotheke 2.1–2.4; Aiskhylos, Yakaranlar; Pausanias, Hellados Periegesis 2.19–24; Ovidius, Metamorphoses 4.611"
-bolge: "yunanistan"
+bolge: "peloponnesos"
 konum:
   enlem: 37.6316
   boylam: 22.7195
+tapinaklar:
+  - ad: "Hera Tapınağı (Argos Heraionu)"
+    tanrilar: ["hera"]
+  - ad: "Zeus Larisaios Tapınağı"
+    tanrilar: ["zeus"]
+  - ad: "Athena Polias Tapınağı"
+    tanrilar: ["athena"]
+  - ad: "Apollon Deiradiotes Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: ["perseus-ve-medusa", "io"]
 ilgiliTanrilar: ["hera", "zeus"]
 ilgiliKahramanlar: ["danae", "perseus"]

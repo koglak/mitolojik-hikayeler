@@ -14,6 +14,11 @@ bolge: "pisidia"
 konum:
   enlem: 37.2297
   boylam: 31.1317
+tapinaklar:
+  - ad: "Zeus Tapınağı?"
+    tanrilar: ["zeus"]
+  - ad: "Artemis Tapınağı?"
+    tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliKahramanlar: ["kalkhas"]
 ---

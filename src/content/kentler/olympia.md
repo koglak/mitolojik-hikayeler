@@ -12,10 +12,15 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1989"
 kaynak: "Pindaros, Olympia Odaları 1 ve 10; Pausanias, Hellados Periegesis 5–6; Apollodoros, Epitome 2.3–9; Strabon, Geographika 8.3.30"
-bolge: "yunanistan"
+bolge: "peloponnesos"
 konum:
   enlem: 37.6383
   boylam: 21.6300
+tapinaklar:
+  - ad: "Zeus Tapınağı"
+    tanrilar: ["zeus"]
+  - ad: "Hera Tapınağı (Heraion)"
+    tanrilar: ["hera"]
 ilgiliMitler: ["herakles", "tantalos"]
 ilgiliTanrilar: ["hera", "kronos", "zeus"]
 ilgiliKahramanlar: ["herakles", "pelops"]

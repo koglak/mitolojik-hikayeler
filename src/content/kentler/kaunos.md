@@ -16,6 +16,13 @@ bolge: "karya"
 konum:
   enlem: 36.8264
   boylam: 28.6211
+tapinaklar:
+  - ad: "Demeter Tapınağı"
+    tanrilar: ["demeter"]
+  - ad: "Apollon Tapınağı?"
+    tanrilar: ["apollon"]
+  - ad: "Zeus Soteros Tapınağı?"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ---
 

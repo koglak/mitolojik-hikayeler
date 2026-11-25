@@ -14,6 +14,11 @@ bolge: "aiolis"
 konum:
   enlem: 38.8475
   boylam: 27.1789
+tapinaklar:
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
+  - ad: "Demeter ve Kore Tapınağı"
+    tanrilar: ["demeter", "persephone"]
 ilgiliMitler: []
 ---
 

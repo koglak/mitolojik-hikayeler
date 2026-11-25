@@ -12,10 +12,21 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1990"
 kaynak: "Homeros'a atfedilen Apollon İlahisi 30–126; Kallimakhos, Delos İlahisi; Thukydides 3.104; Strabon, Geographika 10.5.2"
-bolge: "yunanistan"
+bolge: "adalar"
 konum:
   enlem: 37.3964
   boylam: 25.2681
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Artemision (Artemis Tapınağı)"
+    tanrilar: ["artemis"]
+  - ad: "Letoon (Leto Tapınağı)"
+    tanrilar: ["leto"]
+  - ad: "Hera Tapınağı (Heraion)"
+    tanrilar: ["hera"]
+  - ad: "Zeus Kynthios ve Athena Kynthia Kutsal Alanı"
+    tanrilar: ["zeus", "athena"]
 ilgiliMitler: ["leto-ve-koyluler"]
 ilgiliTanrilar: ["apollon", "artemis", "dionysos", "hera", "leto", "zeus"]
 ---

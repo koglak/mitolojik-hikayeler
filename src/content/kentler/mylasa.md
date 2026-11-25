@@ -16,6 +16,9 @@ bolge: "karya"
 konum:
   enlem: 37.3150
   boylam: 27.7775
+tapinaklar:
+  - ad: "Zeus Osogo Kutsal Alanı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ---

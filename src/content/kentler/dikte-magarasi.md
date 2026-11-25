@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Rhea, bebek Zeus, keçi Amaltheia, Kouretler"
 kaynak: "Hesiodos, Theogonia 453–491; Apollodoros, Bibliotheke 1.1.5–7; Kallimakhos, Zeus İlahisi 4–54; Diodoros 5.70"
-bolge: "yunanistan"
+bolge: "girit"
 konum:
   enlem: 35.1625
   boylam: 25.4453

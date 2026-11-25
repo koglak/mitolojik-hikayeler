@@ -20,11 +20,15 @@ export function getStaticPaths() {
 const { bolum } = Astro.props;
 const { ad, aciklama } = bolumler[bolum];
 const kayitlar = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
+const tapinakTanrilari = (kayit: (typeof kayitlar)[number]) => [
+  ...new Set(kayit.data.tapinaklar.flatMap((tapinak) => tapinak.tanrilar)),
+];
 const bolgeRengi = (kayit: (typeof kayitlar)[number]) => (kayit.data.bolge ? bolgeler[kayit.data.bolge].renk : undefined);
 const haritaKentleri =
   bolum === 'kentler'
-    ? kayitlar.flatMap(({ id, data }) =>
-        data.konum
+    ? kayitlar.flatMap((kayit) => {
+        const { id, data } = kayit;
+        return data.konum
           ? [
               {
                 ad: data.ad,
@@ -32,10 +36,11 @@ const haritaKentleri =
                 adres: kayitAdresi(bolum, id),
                 ...data.konum,
                 bolge: data.bolge ? { anahtar: data.bolge, ...bolgeler[data.bolge] } : bolgesizKent,
+                tanrilar: tapinakTanrilari(kayit),
               },
             ]
-          : [],
-      )
+          : [];
+      })
     : [];
 const bolgeGruplari = kayitlar.some((kayit) => kayit.data.bolge)
   ? [
@@ -47,6 +52,21 @@ const bolgeGruplari = kayitlar.some((kayit) => kayit.data.bolge)
       { baslik: 'Diğer', renk: undefined, kayitlar: kayitlar.filter((kayit) => !kayit.data.bolge) },
     ].filter((grup) => grup.kayitlar.length > 0)
   : [];
+const tanriKayitlari = bolum === 'kentler' ? await getCollection('tanrilar') : [];
+const tanriSecenekleri = tanriKayitlari
+  .map((tanri) => ({
+    anahtar: tanri.id,
+    ad: tanri.data.ad,
+    kentSayisi: kayitlar.filter((kayit) => tapinakTanrilari(kayit).includes(tanri.id)).length,
+  }))
+  .filter((tanri) => tanri.kentSayisi > 0)
+  .sort((a, b) => b.kentSayisi - a.kentSayisi || a.ad.localeCompare(b.ad, 'tr'));
+const tanriSimgeleri = Object.fromEntries(
+  tanriSecenekleri.flatMap((tanri) => {
+    const cizim = kayitSimgesi('tanrilar', tanri.anahtar);
+    return cizim ? [[tanri.anahtar, cizim]] : [];
+  }),
+);
 const aramaOrnekleri: Partial<Record<typeof bolum, string>> = {
   kentler: 'Kentlerde ara: Efes, Likya, Bodrum, Medusa...',
   tanrilar: 'Tanrılarda ara: Zeus, deniz, Titan...',
@@ -69,6 +89,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
       kayit.data.ozet,
       kayit.data.bolge ? bolgeler[kayit.data.bolge].ad : '',
       ...kayit.data.bilgiler.flatMap((bilgi) => [bilgi.etiket, bilgi.deger]),
+      ...kayit.data.tapinaklar.map((tapinak) => tapinak.ad),
     ].join(' '),
   );
 ---
@@ -100,7 +121,24 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
           </>
         )
       }
-      {haritaKentleri.length > 0 && <KentHaritasi kentler={haritaKentleri} />}
+      {
+        tanriSecenekleri.length > 0 && (
+          <section class="tanri-suzgeci" aria-labelledby="tanri-suzgeci-basligi">
+            <h2 id="tanri-suzgeci-basligi">Tapınağa göre kentler</h2>
+            <div class="tanri-dugmeleri" role="group" aria-label="Tapınağı olan tanrıya göre süz">
+              {tanriSecenekleri.map((tanri) => (
+                <button type="button" class="tanri-dugmesi" data-tanri-dugmesi={tanri.anahtar} data-tanri-adi={tanri.ad} aria-pressed="false">
+                  <KayitSimgesi bolum="tanrilar" slug={tanri.anahtar} sinif="tanri-simgesi" />
+                  {tanri.ad}
+                  <span class="tanri-sayisi">{tanri.kentSayisi}</span>
+                </button>
+              ))}
+            </div>
+            <p class="tanri-durumu" data-tanri-durumu aria-live="polite" />
+          </section>
+        )
+      }
+      {haritaKentleri.length > 0 && <KentHaritasi kentler={haritaKentleri} tanriSimgeleri={tanriSimgeleri} />}
       {
         bolgeGruplari.length > 0 ? (
           bolgeGruplari.map((grup) => (
@@ -112,7 +150,11 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
               </h2>
               <ul class="kayitlar">
                 {grup.kayitlar.map((kayit) => (
-                  <li data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined} data-adres={kayitAdresi(bolum, kayit.id)}>
+                  <li
+                    data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined}
+                    data-adres={kayitAdresi(bolum, kayit.id)}
+                    data-tanrilar={tapinakTanrilari(kayit).join(' ')}
+                  >
                     <KayitKarti adres={kayitAdresi(bolum, kayit.id)} kayit={kayit.data} bilgiSayisi={3} vurguRengi={bolgeRengi(kayit)} />
                   </li>
                 ))}
@@ -143,11 +185,17 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   const ogeler = Array.from(document.querySelectorAll<HTMLElement>('[data-aranan]'));
   const sonucYok = document.querySelector<HTMLElement>('[data-sonuc-yok]');
   const bolgeGruplari = Array.from(document.querySelectorAll<HTMLElement>('[data-bolge-grubu]'));
-  kutu?.addEventListener('input', () => {
-    const aranan = aramaIcinSadelestir(kutu.value.trim());
+  const tanriDugmeleri = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-tanri-dugmesi]'));
+  const tanriDurumu = document.querySelector<HTMLElement>('[data-tanri-durumu]');
+  let seciliTanri: string | null = null;
+
+  const suzgeciUygula = () => {
+    const aranan = aramaIcinSadelestir((kutu?.value ?? '').trim());
     let gorunen = 0;
     for (const oge of ogeler) {
-      const eslesir = (oge.dataset.aranan ?? '').includes(aranan);
+      const aramayaUyar = (oge.dataset.aranan ?? '').includes(aranan);
+      const tanriyaUyar = !seciliTanri || (oge.dataset.tanrilar ?? '').split(' ').includes(seciliTanri);
+      const eslesir = aramayaUyar && tanriyaUyar;
       oge.classList.toggle('gizli', !eslesir);
       if (eslesir) gorunen += 1;
     }
@@ -155,11 +203,27 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
     for (const grup of bolgeGruplari) {
       grup.classList.toggle('gizli', !grup.querySelector('[data-aranan]:not(.gizli)'));
     }
-    const eslesenAdresler = aranan
-      ? ogeler.filter((oge) => !oge.classList.contains('gizli')).flatMap((oge) => oge.dataset.adres ?? [])
-      : null;
-    document.dispatchEvent(new CustomEvent('kentler-suzuldu', { detail: { eslesenAdresler } }));
-  });
+    if (tanriDurumu) {
+      const secili = tanriDugmeleri.find((dugme) => dugme.dataset.tanriDugmesi === seciliTanri);
+      tanriDurumu.textContent = secili ? `${secili.dataset.tanriAdi} tapınağı olan ${gorunen} kent gösteriliyor.` : '';
+    }
+    const eslesenAdresler =
+      aranan || seciliTanri
+        ? ogeler.filter((oge) => !oge.classList.contains('gizli')).flatMap((oge) => oge.dataset.adres ?? [])
+        : null;
+    document.dispatchEvent(new CustomEvent('kentler-suzuldu', { detail: { eslesenAdresler, tanri: seciliTanri } }));
+  };
+
+  kutu?.addEventListener('input', suzgeciUygula);
+  for (const dugme of tanriDugmeleri) {
+    dugme.addEventListener('click', () => {
+      seciliTanri = seciliTanri === dugme.dataset.tanriDugmesi ? null : (dugme.dataset.tanriDugmesi ?? null);
+      for (const diger of tanriDugmeleri) {
+        diger.setAttribute('aria-pressed', String(diger.dataset.tanriDugmesi === seciliTanri));
+      }
+      suzgeciUygula();
+    });
+  }
 </script>
 
 <style>
@@ -189,6 +253,59 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   }
   .arama input::placeholder {
     color: var(--soluk);
+  }
+  .tanri-suzgeci {
+    margin-bottom: 36px;
+  }
+  .tanri-suzgeci h2 {
+    font-size: clamp(22px, 2.6vw, 28px);
+    line-height: 1;
+    margin: 0 0 14px;
+  }
+  .tanri-dugmeleri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tanri-dugmesi {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 40px;
+    padding: 0 14px;
+    border: 1px solid var(--cizgi);
+    background: var(--yuzey);
+    color: inherit;
+    font: 400 15px/1 var(--govde-font);
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s, color 0.2s;
+  }
+  .tanri-dugmesi:hover,
+  .tanri-dugmesi:focus-visible {
+    border-color: var(--vurgu);
+  }
+  .tanri-dugmesi[aria-pressed='true'] {
+    border-color: var(--vurgu);
+    background: var(--vurgu);
+    color: var(--yuzey);
+  }
+  .tanri-dugmesi :global(.tanri-simgesi) {
+    width: 24px;
+    height: 24px;
+    flex: none;
+  }
+  .tanri-sayisi {
+    font-size: 13px;
+    color: var(--soluk);
+  }
+  .tanri-dugmesi[aria-pressed='true'] .tanri-sayisi {
+    color: inherit;
+  }
+  .tanri-durumu {
+    min-height: 1.4em;
+    margin: 12px 0 0;
+    color: var(--soluk);
+    font-size: 15px;
   }
   .sonuc-yok {
     color: var(--soluk);

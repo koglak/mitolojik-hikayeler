@@ -12,10 +12,17 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Zeus, Hera ve Olymposlu tanrılar, Musalar"
 kaynak: "Homeros, İlyada 1.493–611, 5.749–751; Homeros, Odysseia 6.41–46; Hesiodos, Theogonia 62–118, 617–735"
-bolge: "yunanistan"
+bolge: "kuzey-yunanistan"
 konum:
   enlem: 40.0859
   boylam: 22.3583
+tapinaklar:
+  - ad: "Zeus Olympios Tapınağı (Dion)"
+    tanrilar: ["zeus"]
+  - ad: "Demeter Tapınağı (Dion)"
+    tanrilar: ["demeter"]
+  - ad: "Asklepios Tapınağı (Dion)"
+    tanrilar: ["asklepios"]
 ilgiliMitler: ["titanlar-savasi"]
 ilgiliTanrilar: ["apollon", "hephaistos", "hera", "kronos", "zeus"]
 ---

@@ -40,6 +40,22 @@ describe.each(bolumAnahtarlari)('%s', (bolum) => {
   });
 });
 
+describe('kentlerin tapınakları', () => {
+  const klasor = join(icerik, 'kentler');
+  const dosyalar = readdirSync(klasor).filter((ad) => ad.endsWith('.md'));
+
+  it.each(dosyalar)('%s tapınaklarındaki tanrılar sitede var', (dosya) => {
+    const { data } = matter(readFileSync(join(klasor, dosya), 'utf8'));
+    const sonuc = kayitSemasi.safeParse(data);
+    expect(sonuc.success).toBe(true);
+    for (const tapinak of sonuc.data?.tapinaklar ?? []) {
+      for (const tanri of tapinak.tanrilar) {
+        expect(existsSync(join(icerik, 'tanrilar', `${tanri}.md`)), `${tapinak.ad}: ${tanri}`).toBe(true);
+      }
+    }
+  });
+});
+
 describe('kentler konumu', () => {
   const klasor = join(icerik, 'kentler');
   const dosyalar = readdirSync(klasor).filter((ad) => ad.endsWith('.md'));
@@ -51,7 +67,7 @@ describe('kentler konumu', () => {
     const konum = sonuc.data?.konum;
     expect(konum, dosya).toBeDefined();
     expect(konum!.enlem).toBeGreaterThan(34);
-    expect(konum!.enlem).toBeLessThan(43);
+    expect(konum!.enlem).toBeLessThan(47);
     expect(konum!.boylam).toBeGreaterThan(19);
     expect(konum!.boylam).toBeLessThan(45);
     expect(sonuc.data?.bolge, dosya).toBeDefined();

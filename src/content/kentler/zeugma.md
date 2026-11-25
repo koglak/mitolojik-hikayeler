@@ -16,6 +16,9 @@ bolge: "kommagene"
 konum:
   enlem: 37.0578
   boylam: 37.8697
+tapinaklar:
+  - ad: "Tykhe Tapınağı"
+    tanrilar: ["tyche"]
 ilgiliMitler: ["akhilleus", "perseus-ve-medusa"]
 ilgiliTanrilar: ["dionysos", "poseidon"]
 ilgiliKahramanlar: ["akhilleus", "andromeda", "ariadne", "odysseus", "perseus"]

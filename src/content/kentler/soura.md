@@ -16,6 +16,9 @@ bolge: "likya"
 konum:
   enlem: 36.244
   boylam: 29.946
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ---

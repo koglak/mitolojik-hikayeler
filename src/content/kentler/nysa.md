@@ -16,6 +16,9 @@ bolge: "karya"
 konum:
   enlem: 37.9006
   boylam: 28.1461
+tapinaklar:
+  - ad: "Pluton ve Kore Tapınağı (Akharaka)"
+    tanrilar: ["hades", "persephone"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["dionysos", "hades", "persephone"]
 ---

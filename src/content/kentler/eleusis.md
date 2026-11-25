@@ -12,10 +12,19 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Kral Keleos, Triptolemos, oyun yazarı Aiskhylos"
 kaynak: "Homeros'a atfedilen Demeter İlahisi; Pausanias, Hellados Periegesis 1.38; Apollodoros, Bibliotheke 1.5.1–3"
-bolge: "yunanistan"
+bolge: "attika"
 konum:
   enlem: 38.0411
   boylam: 23.5383
+tapinaklar:
+  - ad: "Telesterion (Demeter ve Kore)"
+    tanrilar: ["demeter", "persephone"]
+  - ad: "Ploutonion (Pluton Mağarası)"
+    tanrilar: ["hades"]
+  - ad: "Artemis Propylaia Tapınağı"
+    tanrilar: ["artemis"]
+  - ad: "Poseidon Pater Tapınağı"
+    tanrilar: ["poseidon"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["demeter", "hades", "persephone", "zeus"]
 ---

@@ -16,6 +16,11 @@ bolge: "ionya"
 konum:
   enlem: 38.3644
   boylam: 26.7714
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Afrodit Tapınağı (Urla)"
+    tanrilar: ["afrodit"]
 ilgiliMitler: []
 ---
 

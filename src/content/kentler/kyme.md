@@ -16,6 +16,9 @@ bolge: "aiolis"
 konum:
   enlem: 38.7612
   boylam: 26.9380
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: []
 ---
 

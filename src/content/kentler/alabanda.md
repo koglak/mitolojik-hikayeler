@@ -14,6 +14,11 @@ bolge: "karya"
 konum:
   enlem: 37.5928
   boylam: 27.9853
+tapinaklar:
+  - ad: "Apollon Isotimos Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Zeus Khrysaoreus Tapınağı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["marsyas"]

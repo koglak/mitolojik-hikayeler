@@ -14,6 +14,9 @@ bolge: "ionya"
 konum:
   enlem: 38.1206
   boylam: 27.3142
+tapinaklar:
+  - ad: "Ares Tapınağı"
+    tanrilar: ["ares"]
 ilgiliMitler: []
 ---
 

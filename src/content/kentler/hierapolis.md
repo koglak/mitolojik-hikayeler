@@ -16,6 +16,11 @@ bolge: "frigya"
 konum:
   enlem: 37.9256
   boylam: 29.1253
+tapinaklar:
+  - ad: "Plutonion (Pluton ve Kore Tapınağı)"
+    tanrilar: ["hades", "persephone"]
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: ["persephone"]
 ilgiliTanrilar: ["hades", "kybele"]
 ---

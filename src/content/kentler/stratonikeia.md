@@ -16,6 +16,9 @@ bolge: "karya"
 konum:
   enlem: 37.3133
   boylam: 28.0630
+tapinaklar:
+  - ad: "Zeus Panamaros Kutsal Alanı (Panamara)"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hekate", "zeus"]
 ---

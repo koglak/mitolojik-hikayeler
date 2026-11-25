@@ -16,6 +16,9 @@ bolge: "kilikya"
 konum:
   enlem: 37.2636
   boylam: 35.9017
+tapinaklar:
+  - ad: "Zeus Lepsynos Tapınağı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ---
 

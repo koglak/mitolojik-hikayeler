@@ -12,10 +12,23 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1987 (Akropolis)"
 kaynak: "Herodotos, Historiai 8.55; Apollodoros, Bibliotheke 3.14.1; Plutarkhos, Theseus; Pausanias, Hellados Periegesis 1"
-bolge: "yunanistan"
+bolge: "attika"
 konum:
   enlem: 37.9715
   boylam: 23.7257
+tapinaklar:
+  - ad: "Parthenon (Athena Parthenos Tapınağı)"
+    tanrilar: ["athena"]
+  - ad: "Athena Nike Tapınağı"
+    tanrilar: ["athena", "nike"]
+  - ad: "Erekhtheion"
+    tanrilar: ["athena", "poseidon"]
+  - ad: "Hephaisteion"
+    tanrilar: ["hephaistos", "athena"]
+  - ad: "Olympieion (Zeus Olympios Tapınağı)"
+    tanrilar: ["zeus"]
+  - ad: "Dionysos Eleuthereus Tapınağı"
+    tanrilar: ["dionysos"]
 ilgiliMitler: ["theseus-ve-minotauros", "athena-ve-poseidon"]
 ilgiliTanrilar: ["athena", "dionysos", "poseidon"]
 ilgiliKahramanlar: ["theseus"]

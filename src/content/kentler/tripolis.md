@@ -14,6 +14,9 @@ bolge: "lidya"
 konum:
   enlem: 38.0436
   boylam: 28.9675
+tapinaklar:
+  - ad: "Apollon Lairbenos Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: []
 ---
 

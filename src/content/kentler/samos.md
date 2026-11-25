@@ -12,10 +12,13 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1992"
 kaynak: "Pausanias, Hellados Periegesis 7.4.4; Herodotos, Historiai 3.39–60; Athenaios, Deipnosophistai 15.672; Strabon, Geographika 14.1.14–16"
-bolge: "yunanistan"
+bolge: "adalar"
 konum:
   enlem: 37.6720
   boylam: 26.8856
+tapinaklar:
+  - ad: "Hera Tapınağı (Heraion)"
+    tanrilar: ["hera"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hera", "zeus"]
 ---

@@ -16,6 +16,9 @@ bolge: "kilikya"
 konum:
   enlem: 36.5806
   boylam: 33.9258
+tapinaklar:
+  - ad: "Zeus Olbios Tapınağı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ---

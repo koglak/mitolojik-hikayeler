@@ -12,10 +12,17 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1988 (Ortaçağ kenti)"
 kaynak: "Pindaros, Olympia Odaları 7.54–76; Plinius, Naturalis Historia 34.41; Strabon, Geographika 14.2.5; Diodoros 20.81–100"
-bolge: "yunanistan"
+bolge: "adalar"
 konum:
   enlem: 36.4349
   boylam: 28.2176
+tapinaklar:
+  - ad: "Athena Polias ve Zeus Polieus Tapınağı"
+    tanrilar: ["athena", "zeus"]
+  - ad: "Apollon Pythios Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Lindos Athena Lindia Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: ["phaethon"]
 ilgiliTanrilar: ["apollon", "helios", "zeus"]
 ---

@@ -16,6 +16,9 @@ bolge: "ionya"
 konum:
   enlem: 37.6247
   boylam: 27.4339
+tapinaklar:
+  - ad: "Dionysos Tapınağı"
+    tanrilar: ["dionysos"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
 ---

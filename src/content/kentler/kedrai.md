@@ -14,6 +14,9 @@ bolge: "karya"
 konum:
   enlem: 36.9497
   boylam: 28.2208
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ---

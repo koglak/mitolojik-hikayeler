@@ -16,6 +16,11 @@ bolge: "ionya"
 konum:
   enlem: 37.8528
   boylam: 27.5272
+tapinaklar:
+  - ad: "Artemis Tapınağı"
+    tanrilar: ["artemis"]
+  - ad: "Zeus Tapınağı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis", "dionysos"]
 ---

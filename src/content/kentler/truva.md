@@ -16,6 +16,9 @@ bolge: "troas"
 konum:
   enlem: 39.9575
   boylam: 26.2389
+tapinaklar:
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: ["truva-ati", "akhilleus", "odysseus", "guzellik-yarismasi"]
 ilgiliKahramanlar: ["priamos"]
 ---

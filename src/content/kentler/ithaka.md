@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Odysseus, Penelope, Telemakhos"
 kaynak: "Homeros, Odysseia 1–2, 9.21–28, 13, 19–24; Strabon, Geographika 10.2.11"
-bolge: "yunanistan"
+bolge: "adalar"
 konum:
   enlem: 38.3667
   boylam: 20.7167

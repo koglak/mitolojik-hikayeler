@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Kral Minos, Ariadne, Daidalos"
 kaynak: "Homeros, Odysseia 19.178–179; Apollodoros, Bibliotheke 3.1, 3.15.8; Ovidius, Metamorphoses 8.152–182; Plutarkhos, Theseus 15–19"
-bolge: "yunanistan"
+bolge: "girit"
 konum:
   enlem: 35.2980
   boylam: 25.1631

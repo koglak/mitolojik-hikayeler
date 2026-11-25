@@ -16,6 +16,9 @@ bolge: "likya"
 konum:
   enlem: 36.5161
   boylam: 30.0581
+tapinaklar:
+  - ad: "Helios Tapınağı"
+    tanrilar: ["helios"]
 ilgiliMitler: []
 ---
 

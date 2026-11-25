@@ -16,6 +16,9 @@ bolge: "likya"
 konum:
   enlem: 36.5531
   boylam: 29.4211
+tapinaklar:
+  - ad: "Kronos Tapınağı"
+    tanrilar: ["kronos"]
 ilgiliMitler: ["bellerophon"]
 ilgiliKahramanlar: ["bellerophon"]
 ---

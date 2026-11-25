@@ -16,6 +16,11 @@ bolge: "karya"
 konum:
   enlem: 37.0379
   boylam: 27.4241
+tapinaklar:
+  - ad: "Ares Tapınağı"
+    tanrilar: ["ares"]
+  - ad: "Afrodit ve Hermes Kutsal Alanı (Salmakis)"
+    tanrilar: ["afrodit", "hermes"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hermes", "afrodit"]
 ---

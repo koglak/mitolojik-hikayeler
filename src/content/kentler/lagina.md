@@ -16,6 +16,9 @@ bolge: "karya"
 konum:
   enlem: 37.3786
   boylam: 28.0478
+tapinaklar:
+  - ad: "Hekate Tapınağı"
+    tanrilar: ["hekate"]
 ilgiliMitler: []
 ilgiliTanrilar: ["hekate", "zeus"]
 ---

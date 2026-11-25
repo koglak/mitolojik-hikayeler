@@ -16,6 +16,9 @@ bolge: "misya"
 konum:
   enlem: 39.1194
   boylam: 27.1653
+tapinaklar:
+  - ad: "Asklepios Tapınağı"
+    tanrilar: ["asklepios"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "asklepios", "zeus"]
 ---

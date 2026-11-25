@@ -16,6 +16,9 @@ bolge: "likya"
 konum:
   enlem: 36.4886
   boylam: 29.2575
+tapinaklar:
+  - ad: "Afrodit Tapınağı"
+    tanrilar: ["afrodit"]
 ilgiliMitler: []
 ilgiliTanrilar: ["athena"]
 ilgiliKahramanlar: ["menelaos"]

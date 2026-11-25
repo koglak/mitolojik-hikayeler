@@ -16,6 +16,9 @@ bolge: "troas"
 konum:
   enlem: 39.4806
   boylam: 26.1408
+tapinaklar:
+  - ad: "Apollon Smintheus Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: ["truva-ati", "akhilleus"]
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["agamemnon", "akhilleus"]

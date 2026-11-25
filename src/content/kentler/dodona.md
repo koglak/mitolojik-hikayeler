@@ -12,10 +12,17 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Selloi rahipleri, Odysseus"
 kaynak: "Homeros, İlyada 16.233–235; Homeros, Odysseia 14.327–328; Herodotos, Historiai 2.54–57; Apollonios Rhodios, Argonautika 1.524–527"
-bolge: "yunanistan"
+bolge: "kuzey-yunanistan"
 konum:
   enlem: 39.5464
   boylam: 20.7878
+tapinaklar:
+  - ad: "Zeus Naios Tapınağı"
+    tanrilar: ["zeus"]
+  - ad: "Themis Tapınağı"
+    tanrilar: ["themis"]
+  - ad: "Afrodit Tapınağı"
+    tanrilar: ["afrodit"]
 ilgiliMitler: ["argonotlar"]
 ilgiliTanrilar: ["athena", "zeus"]
 ilgiliKahramanlar: ["odysseus"]

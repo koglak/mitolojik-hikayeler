@@ -16,6 +16,11 @@ bolge: "lidya"
 konum:
   enlem: 38.4883
   boylam: 28.0400
+tapinaklar:
+  - ad: "Artemis Tapınağı"
+    tanrilar: ["artemis"]
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["artemis", "dionysos"]
 ilgiliKahramanlar: ["midas"]

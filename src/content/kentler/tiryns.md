@@ -12,10 +12,13 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1999"
 kaynak: "Homeros, İlyada 2.559; Apollodoros, Bibliotheke 2.4.12–2.5.12; Pausanias, Hellados Periegesis 2.25.8; Strabon, Geographika 8.6.11"
-bolge: "yunanistan"
+bolge: "peloponnesos"
 konum:
   enlem: 37.5995
   boylam: 22.7998
+tapinaklar:
+  - ad: "Hera Tapınağı?"
+    tanrilar: ["hera"]
 ilgiliMitler: ["herakles", "bellerophon"]
 ilgiliTanrilar: ["hades", "hera"]
 ilgiliKahramanlar: ["herakles"]

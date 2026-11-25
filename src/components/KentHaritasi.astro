@@ -8,13 +8,15 @@ interface HaritaKenti {
   enlem: number;
   boylam: number;
   bolge: Bolge & { anahtar: string };
+  tanrilar?: string[];
 }
 
 interface Props {
   kentler: HaritaKenti[];
+  tanriSimgeleri?: Record<string, string>;
 }
 
-const { kentler } = Astro.props;
+const { kentler, tanriSimgeleri = {} } = Astro.props;
 
 const googleEarthAdresi = (enlem: number, boylam: number) =>
   `https://earth.google.com/web/@${enlem},${boylam},150a,1800d,35y,0h,55t,0r`;
@@ -46,7 +48,7 @@ const gorunenBolgeler = [
     }
   </div>
   <div class="harita-cercevesi">
-    <div class="harita" data-kentler={JSON.stringify(haritaVerisi)} role="region" aria-label="Antik kentlerin uydu haritası"></div>
+    <div class="harita" data-kentler={JSON.stringify(haritaVerisi)} data-tanri-simgeleri={JSON.stringify(tanriSimgeleri)} role="region" aria-label="Antik kentlerin uydu haritası"></div>
   </div>
 </section>
 
@@ -62,6 +64,7 @@ const gorunenBolgeler = [
     boylam: number;
     earth: string;
     bolge: { anahtar: string; ad: string; renk: string };
+    tanrilar?: string[];
   }
 
   const metniGuvenliYap = (metin: string) =>
@@ -72,6 +75,7 @@ const gorunenBolgeler = [
     if (!haritaAlani) continue;
 
     const kentler: IsaretliKent[] = JSON.parse(haritaAlani.dataset.kentler ?? '[]');
+    const tanriSimgeleri: Record<string, string> = JSON.parse(haritaAlani.dataset.tanriSimgeleri ?? '{}');
     const harita = L.map(haritaAlani, { scrollWheelZoom: false, worldCopyJump: true });
 
     L.tileLayer(
@@ -83,7 +87,24 @@ const gorunenBolgeler = [
       { maxZoom: 18, opacity: 0.8 },
     ).addTo(harita);
 
-    const isaretler: { adres: string; bolge: string; isaret: L.Marker }[] = [];
+    const isaretler: {
+      adres: string;
+      bolge: string;
+      tanrilar: string[];
+      isaret: L.Marker;
+      duzIsaret: L.DivIcon;
+      renk: string;
+    }[] = [];
+    let seciliTanri: string | null = null;
+
+    const tanriIsareti = (renk: string, tanri: string) =>
+      L.divIcon({
+        className: 'kent-isareti kent-isareti-tanrili',
+        html: `<span style="--bolge-rengi: ${renk}"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${tanriSimgeleri[tanri] ?? ''}</svg></span>`,
+        iconSize: [34, 34],
+        iconAnchor: [17, 17],
+        popupAnchor: [0, -18],
+      });
     const gorunurBolgeler = new Set(kentler.map((kent) => kent.bolge.anahtar));
     let eslesenAdresler: Set<string> | null = null;
 
@@ -110,13 +131,21 @@ const gorunenBolgeler = [
            </div>`,
           { className: 'kent-penceresi', maxWidth: 280 },
         );
-      isaretler.push({ adres: kent.adres, bolge: kent.bolge.anahtar, isaret: isaretci });
+      isaretler.push({
+        adres: kent.adres,
+        bolge: kent.bolge.anahtar,
+        tanrilar: kent.tanrilar ?? [],
+        isaret: isaretci,
+        duzIsaret: isaret,
+        renk: kent.bolge.renk,
+      });
       return nokta;
     });
 
     const isaretleriGuncelle = (gorunenlereYaklas: boolean) => {
       const gorunenNoktalar: L.LatLng[] = [];
-      for (const { adres, bolge, isaret } of isaretler) {
+      for (const { adres, bolge, tanrilar, isaret, duzIsaret, renk } of isaretler) {
+        isaret.setIcon(seciliTanri && tanrilar.includes(seciliTanri) ? tanriIsareti(renk, seciliTanri) : duzIsaret);
         const gorunur = gorunurBolgeler.has(bolge) && (!eslesenAdresler || eslesenAdresler.has(adres));
         if (gorunur) {
           isaret.addTo(harita);
@@ -131,8 +160,11 @@ const gorunenBolgeler = [
     };
 
     document.addEventListener('kentler-suzuldu', (olay) => {
-      const adresler = (olay as CustomEvent<{ eslesenAdresler: string[] | null }>).detail.eslesenAdresler;
+      const { eslesenAdresler: adresler, tanri } = (
+        olay as CustomEvent<{ eslesenAdresler: string[] | null; tanri?: string | null }>
+      ).detail;
       eslesenAdresler = adresler ? new Set(adresler) : null;
+      seciliTanri = tanri ?? null;
       isaretleriGuncelle(true);
     });
 
@@ -245,6 +277,18 @@ const gorunenBolgeler = [
       0 0 0 2px var(--bolge-rengi, var(--vurgu)),
       0 4px 14px rgba(0, 0, 0, 0.6);
     transition: transform 0.2s var(--yumusak);
+  }
+  .kent-haritasi .kent-isareti-tanrili span {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    color: var(--zemin);
+  }
+  .kent-haritasi .kent-isareti-tanrili svg {
+    width: 20px;
+    height: 20px;
+    overflow: visible;
   }
   .kent-haritasi .kent-isareti:hover span,
   .kent-haritasi .kent-isareti:focus-visible span {

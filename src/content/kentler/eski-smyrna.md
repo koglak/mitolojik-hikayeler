@@ -16,6 +16,9 @@ bolge: "aiolis"
 konum:
   enlem: 38.4628
   boylam: 27.1658
+tapinaklar:
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "dionysos", "nemesis"]
 ---

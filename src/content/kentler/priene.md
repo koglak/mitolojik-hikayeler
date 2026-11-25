@@ -16,6 +16,13 @@ bolge: "ionya"
 konum:
   enlem: 37.6597
   boylam: 27.2975
+tapinaklar:
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
+  - ad: "Demeter Tapınağı"
+    tanrilar: ["demeter"]
+  - ad: "Zeus Tapınağı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["athena", "poseidon"]
 ---

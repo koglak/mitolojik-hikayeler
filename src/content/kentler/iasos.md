@@ -16,6 +16,11 @@ bolge: "karya"
 konum:
   enlem: 37.2778
   boylam: 27.5869
+tapinaklar:
+  - ad: "Artemis Astias Kutsal Alanı"
+    tanrilar: ["artemis"]
+  - ad: "Zeus Megistos Kutsal Alanı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ---
 

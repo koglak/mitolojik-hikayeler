@@ -16,6 +16,9 @@ bolge: "misya"
 konum:
   enlem: 39.1708
   boylam: 27.2861
+tapinaklar:
+  - ad: "Asklepios Kutsal Alanı?"
+    tanrilar: ["asklepios"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios"]
 ---

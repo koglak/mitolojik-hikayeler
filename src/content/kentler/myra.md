@@ -16,6 +16,9 @@ bolge: "likya"
 konum:
   enlem: 36.2590
   boylam: 29.9855
+tapinaklar:
+  - ad: "Artemis Tapınağı"
+    tanrilar: ["artemis"]
 ilgiliMitler: []
 ---
 

@@ -46,6 +46,16 @@ const kentSayfasi = bolum === 'kentler';
 const soyagacindakiKisi = bolum === 'kentler' ? undefined : kayittanKisi(hamSoyagaci as unknown as Soyagaci, bolum, kayit.id);
 const kaynakParcalari = await bagliKaynak(kayit.data.kaynak);
 const ilgiliGruplar = await ilgiliKayitlar(bolum, kayit.id);
+const tanrininTapinaklari =
+  bolum === 'tanrilar'
+    ? (await getCollection('kentler'))
+        .sort((a, b) => a.data.sira - b.data.sira)
+        .flatMap((kent) =>
+          kent.data.tapinaklar
+            .filter((tapinak) => tapinak.tanrilar.includes(kayit.id))
+            .map((tapinak) => ({ ad: tapinak.ad, kent })),
+        )
+    : [];
 const kentinBolgesi = kayit.data.bolge ? bolgeler[kayit.data.bolge] : undefined;
 const { Content } = await render(kayit);
 const simgeVar = Boolean(kayitSimgesi(bolum, kayit.id));
@@ -113,6 +123,20 @@ const yapisalVeri = [
               ))
             }
           </dl>
+          {
+            kayit.data.tapinaklar.length > 0 && (
+              <div class="tapinaklar">
+                <span>Tapınaklar</span>
+                <ul>
+                  {kayit.data.tapinaklar.map((tapinak: { ad: string; tanrilar: string[] }) => (
+                    <li>
+                      <a href={kayitAdresi('tanrilar', tapinak.tanrilar[0])}>{tapinak.ad}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
           <p class="kaynak"><span>Kaynak</span>{kaynakParcalari.map(({ metin, adres }) => (adres ? <a href={adres}>{metin}</a> : metin))}</p>
           {soyagacindakiKisi && <a class="soyagaci-baglantisi" href={kisiAdresi(soyagacindakiKisi)}>Soyağacında gör</a>}
         </aside>
@@ -149,6 +173,27 @@ const yapisalVeri = [
       }
 
       <SanattaBolumu alan={bolum} kimlik={kayit.id} />
+
+      {
+        tanrininTapinaklari.length > 0 && (
+          <section class="baglantilar" aria-labelledby="tapinaklar-baslik">
+            <h2 id="tapinaklar-baslik">{kayit.data.ad} tapınakları</h2>
+            <ul>
+              {tanrininTapinaklari.map(({ ad, kent }) => {
+                const kentBolgesi = kent.data.bolge ? bolgeler[kent.data.bolge] : undefined;
+                return (
+                  <li>
+                    <a href={kayitAdresi('kentler', kent.id)}>
+                      <strong>{ad}</strong>
+                      <span>{kentBolgesi ? `${kent.data.ad} · ${kentBolgesi.ad}` : kent.data.ad}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )
+      }
 
       {
         ilgiliGruplar.map((grup) => (
@@ -277,6 +322,32 @@ const yapisalVeri = [
     margin: 0;
     font-size: 15px;
     line-height: 1.5;
+  }
+  .tapinaklar {
+    margin: 20px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid var(--cizgi);
+  }
+  .tapinaklar span {
+    display: block;
+    font-size: 12px;
+    color: var(--soluk);
+    margin-bottom: 8px;
+  }
+  .tapinaklar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .tapinaklar a {
+    border-bottom: 1px solid var(--cizgi);
+  }
+  .tapinaklar a:hover {
+    border-bottom-color: var(--vurgu);
   }
   .kaynak {
     margin: 20px 0 0;

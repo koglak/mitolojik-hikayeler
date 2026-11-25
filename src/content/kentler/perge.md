@@ -16,6 +16,9 @@ bolge: "pamfilya"
 konum:
   enlem: 36.9614
   boylam: 30.8539
+tapinaklar:
+  - ad: "Artemis Tapınağı"
+    tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ilgiliKahramanlar: ["kalkhas", "mopsos"]

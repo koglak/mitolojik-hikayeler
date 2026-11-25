@@ -16,6 +16,11 @@ bolge: "ionya"
 konum:
   enlem: 38.1775
   boylam: 26.7850
+tapinaklar:
+  - ad: "Dionysos Tapınağı"
+    tanrilar: ["dionysos"]
+  - ad: "Demeter ve Kore Tapınağı"
+    tanrilar: ["demeter", "persephone"]
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
 ---

@@ -16,6 +16,9 @@ bolge: "karya"
 konum:
   enlem: 37.7083
   boylam: 28.7231
+tapinaklar:
+  - ad: "Afrodit Tapınağı"
+    tanrilar: ["afrodit"]
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
 ---

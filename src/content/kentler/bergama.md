@@ -16,6 +16,19 @@ bolge: "misya"
 konum:
   enlem: 39.1323
   boylam: 27.1841
+tapinaklar:
+  - ad: "Zeus Sunağı"
+    tanrilar: ["zeus"]
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
+  - ad: "Dionysos (Caracalla) Tapınağı"
+    tanrilar: ["dionysos"]
+  - ad: "Trajaneum (Traianus ve Zeus Philios Tapınağı)"
+    tanrilar: ["zeus"]
+  - ad: "Hera Basileia Tapınağı"
+    tanrilar: ["hera"]
+  - ad: "Demeter Kutsal Alanı"
+    tanrilar: ["demeter"]
 ilgiliMitler: []
 ilgiliTanrilar: ["asklepios", "zeus"]
 ---

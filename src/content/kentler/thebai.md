@@ -12,10 +12,13 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Kadmos, Oidipus, Antigone, Teiresias"
 kaynak: "Sophokles, Kral Oidipus ve Antigone; Aiskhylos, Thebai'ye Karşı Yediler; Euripides, Bakkhalar; Apollodoros, Bibliotheke 3.4–3.7"
-bolge: "yunanistan"
+bolge: "orta-yunanistan"
 konum:
   enlem: 38.3214
   boylam: 23.3189
+tapinaklar:
+  - ad: "Apollon Ismenios Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: ["oidipus", "teumessos-tilkisi", "aktaion", "europa", "niobe", "altin-koc"]
 ilgiliTanrilar: ["athena", "dionysos", "zeus"]
 ilgiliKahramanlar: ["antigone", "herakles", "kadmos", "oidipus"]

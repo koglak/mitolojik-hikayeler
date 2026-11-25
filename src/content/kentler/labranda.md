@@ -16,6 +16,9 @@ bolge: "karya"
 konum:
   enlem: 37.4153
   boylam: 27.8228
+tapinaklar:
+  - ad: "Zeus Tapınağı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["herakles", "hippolyte", "omphale"]

@@ -12,10 +12,15 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Sisyphos, Bellerophon, Medeia ile Iason"
 kaynak: "Pindaros, Olympia Odaları 13.63–92; Euripides, Medeia; Apollodoros, Bibliotheke 1.9.3, 2.3.1; Pausanias, Hellados Periegesis 2.1–5; Strabon, Geographika 8.6.20"
-bolge: "yunanistan"
+bolge: "peloponnesos"
 konum:
   enlem: 37.9056
   boylam: 22.8786
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Afrodit Tapınağı (Akrokorinthos)"
+    tanrilar: ["afrodit"]
 ilgiliMitler: ["sisifos", "bellerophon", "arion", "argonotlar", "oidipus"]
 ilgiliTanrilar: ["afrodit", "apollon", "athena"]
 ilgiliKahramanlar: ["bellerophon", "medeia", "iason"]

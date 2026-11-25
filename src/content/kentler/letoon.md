@@ -16,6 +16,13 @@ bolge: "likya"
 konum:
   enlem: 36.3333
   boylam: 29.2897
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Artemis Tapınağı"
+    tanrilar: ["artemis"]
+  - ad: "Leto Tapınağı"
+    tanrilar: ["leto"]
 ilgiliMitler: ["leto-ve-koyluler"]
 ilgiliTanrilar: ["apollon", "artemis", "hera", "leto"]
 ---

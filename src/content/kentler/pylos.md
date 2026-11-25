@@ -12,7 +12,7 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Kral Neleus, Nestor"
 kaynak: "Homeros, İlyada 11.670–761; Homeros, Odysseia 3; Apollodoros, Bibliotheke 1.9.9; Pausanias, Hellados Periegesis 4.36"
-bolge: "yunanistan"
+bolge: "peloponnesos"
 konum:
   enlem: 37.0272
   boylam: 21.6953

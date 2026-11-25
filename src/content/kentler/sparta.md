@@ -12,10 +12,15 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Menelaos, Helene, Kral Leonidas"
 kaynak: "Homeros, Odysseia 4; Herodotos, Historiai 7.204–228; Plutarkhos, Lykurgos; Pausanias, Hellados Periegesis 3"
-bolge: "yunanistan"
+bolge: "peloponnesos"
 konum:
   enlem: 37.0819
   boylam: 22.4236
+tapinaklar:
+  - ad: "Artemis Orthia Tapınağı"
+    tanrilar: ["artemis"]
+  - ad: "Athena Khalkioikos Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: ["kastor-ve-polydeukes", "truva-ati", "guzellik-yarismasi"]
 ilgiliTanrilar: ["artemis", "zeus"]
 ilgiliKahramanlar: ["helene", "kastor-ve-polydeukes", "menelaos", "odysseus", "paris"]

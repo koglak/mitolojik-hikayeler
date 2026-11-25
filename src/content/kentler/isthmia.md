@@ -1,0 +1,31 @@
+---
+ad: "Isthmia"
+sira: 160
+ozet: "Korinth Kıstağı'nda Poseidon'a adanmış kutsal alan. İki denizin arasındaki bu dar şeritte Isthmos Oyunları yapılırdı."
+bilgiler:
+  - etiket: "Bugün"
+    deger: "Korinth Kıstağı, Korinthia, Yunanistan"
+  - etiket: "Dönem"
+    deger: "MÖ 8. yüzyıldan MS 4. yüzyıla"
+  - etiket: "Öne çıkan"
+    deger: "Poseidon Tapınağı, stadyum, tiyatro"
+  - etiket: "Oyunlar"
+    deger: "İki yılda bir, Panhellen oyunlarından biri"
+kaynak: "Pausanias, Hellados Perihegesis 2.1.3–2.2.2"
+bolge: "peloponnesos"
+konum:
+  enlem: 37.9071
+  boylam: 22.9941
+tapinaklar:
+  - ad: "Poseidon Tapınağı"
+    tanrilar: ["poseidon"]
+ilgiliMitler: ["sisifos"]
+ilgiliTanrilar: ["poseidon"]
+ilgiliKahramanlar: ["sisifos"]
+---
+
+Isthmia, Peloponnesos'u anakaraya bağlayan dar kıstağın üstündeki kutsal alandır. Bir yanda Korinth Körfezi, öbür yanda Saron Körfezi görünür. Denizin tanrısı Poseidon'a bu yüzden burada tapınılırdı. Korinthos kenti de aynı kıstağın hemen yanındadır.
+
+Isthmos Oyunları, Olympia, Delphi ve Nemea'nınkilerle birlikte dört büyük Panhellen oyunundan biriydi. Pausanias, oyunların boğulan çocuk Melikertes'in, yani Palaimon'un anısına kurulduğunu söyler. Bazı anlatılara göre bunu kurduran Sisyphos'tur. Kazananlara bir dönem çam, bir dönem kereviz çelengi verilirdi.
+
+Poseidon Tapınağı Arkaik dönemde yapıldı, MÖ 5. yüzyılın başında yandı ve yeniden kuruldu. Çevresinde yarışlar için bir stadyum, bir tiyatro ve adak yapıları vardı. Kıstağın bir ucunda taş döşeli bir yol, Diolkos, küçük gemileri karadan bir denizden diğerine taşımaya yarardı.

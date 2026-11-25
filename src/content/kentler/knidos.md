@@ -16,6 +16,15 @@ bolge: "karya"
 konum:
   enlem: 36.6858
   boylam: 27.3747
+tapinaklar:
+  - ad: "Dionysos Tapınağı"
+    tanrilar: ["dionysos"]
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Demeter Tapınağı"
+    tanrilar: ["demeter"]
+  - ad: "Afrodit Tapınağı"
+    tanrilar: ["afrodit"]
 ilgiliMitler: []
 ilgiliTanrilar: ["afrodit"]
 ---

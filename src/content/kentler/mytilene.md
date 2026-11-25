@@ -12,10 +12,13 @@ bilgiler:
   - etiket: "Ünlüleri"
     deger: "Sappho, Alkaios, Pittakos"
 kaynak: "Ovidius, Metamorphoses 11.50–60; Phanokles, fragman 1; Lukianos, Cahile Karşı 11; Strabon, Geographika 13.2.2–3"
-bolge: "yunanistan"
+bolge: "adalar"
 konum:
   enlem: 39.1047
   boylam: 26.5548
+tapinaklar:
+  - ad: "Apollon Maloeis Kutsal Alanı"
+    tanrilar: ["apollon"]
 ilgiliMitler: ["orpheus-ve-eurydike", "arion"]
 ilgiliTanrilar: ["apollon", "dionysos"]
 ilgiliKahramanlar: ["orpheus"]

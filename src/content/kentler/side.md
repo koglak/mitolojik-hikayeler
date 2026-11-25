@@ -16,6 +16,13 @@ bolge: "pamfilya"
 konum:
   enlem: 36.7675
   boylam: 31.3889
+tapinaklar:
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Tykhe Tapınağı"
+    tanrilar: ["tyche"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon", "athena"]
 ---

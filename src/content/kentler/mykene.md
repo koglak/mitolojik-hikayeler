@@ -12,10 +12,13 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1999"
 kaynak: "Homeros, İlyada 2.569–580; Aiskhylos, Agamemnon; Pausanias, Hellados Periegesis 2.15–16; Apollodoros, Bibliotheke 2.4.4"
-bolge: "yunanistan"
+bolge: "peloponnesos"
 konum:
   enlem: 37.7308
   boylam: 22.7561
+tapinaklar:
+  - ad: "Hera veya Athena Tapınağı?"
+    tanrilar: ["hera", "athena"]
 ilgiliMitler: ["perseus-ve-medusa"]
 ilgiliKahramanlar: ["agamemnon", "orestes", "perseus"]
 ---

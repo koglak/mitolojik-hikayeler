@@ -16,6 +16,9 @@ bolge: "karya"
 konum:
   enlem: 37.2236
   boylam: 27.5883
+tapinaklar:
+  - ad: "Artemis Tapınağı"
+    tanrilar: ["artemis"]
 ilgiliMitler: []
 ilgiliTanrilar: ["artemis"]
 ---

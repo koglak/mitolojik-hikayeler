@@ -16,6 +16,9 @@ bolge: "ionya"
 konum:
   enlem: 38.0047
   boylam: 27.1925
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ilgiliKahramanlar: ["kalkhas", "mopsos"]

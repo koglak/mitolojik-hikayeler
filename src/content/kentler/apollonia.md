@@ -16,6 +16,9 @@ bolge: "misya"
 konum:
   enlem: 40.1795
   boylam: 28.6672
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
 ilgiliMitler: []
 ilgiliTanrilar: ["apollon"]
 ---

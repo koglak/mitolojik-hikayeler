@@ -12,10 +12,15 @@ bilgiler:
   - etiket: "UNESCO"
     deger: "1987"
 kaynak: "Homeros'a atfedilen Apollon İlahisi 277–374; Herodotos, Historiai 1.46–55; Pausanias, Hellados Periegesis 10.5–32; Strabon, Geographika 9.3.6"
-bolge: "yunanistan"
+bolge: "orta-yunanistan"
 konum:
   enlem: 38.4824
   boylam: 22.5010
+tapinaklar:
+  - ad: "Apollon Tapınağı"
+    tanrilar: ["apollon"]
+  - ad: "Athena Pronaia Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: ["oidipus", "herakles", "titanlar-savasi", "altin-koc"]
 ilgiliTanrilar: ["apollon", "athena", "gaia", "zeus"]
 ilgiliKahramanlar: ["oidipus"]

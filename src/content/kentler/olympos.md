@@ -16,6 +16,9 @@ bolge: "likya"
 konum:
   enlem: 36.3967
   boylam: 30.4728
+tapinaklar:
+  - ad: "Hephaistos Kutsal Alanı (Yanartaş)"
+    tanrilar: ["hephaistos"]
 ilgiliMitler: ["bellerophon"]
 ilgiliTanrilar: ["hephaistos"]
 ilgiliKahramanlar: ["bellerophon"]

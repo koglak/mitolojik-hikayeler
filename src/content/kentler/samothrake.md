@@ -1,0 +1,31 @@
+---
+ad: "Samothrake"
+sira: 171
+ozet: "Kuzey Ege'nin dağ adasında, Büyük Tanrılar'a adanmış gizem kültü. Argonautlar yolculuğa çıkmadan önce burada inisiyasyondan geçti."
+bilgiler:
+  - etiket: "Bugün"
+    deger: "Samothraki Adası, Yunanistan"
+  - etiket: "Dönem"
+    deger: "MÖ 7. yüzyıldan MS 4. yüzyıla"
+  - etiket: "Öne çıkan"
+    deger: "Büyük Tanrılar Kutsal Alanı, Hieron, Arsinoeion"
+  - etiket: "Sanat"
+    deger: "Samothrake Nike'si buradan çıktı"
+kaynak: "Herodotos, Tarihler 2.51; Apollonios Rhodios, Argonautika 1.915–921"
+bolge: "adalar"
+konum:
+  enlem: 40.4999
+  boylam: 25.5276
+tapinaklar:
+  - ad: "Büyük Tanrılar Kutsal Alanı?"
+    tanrilar: ["demeter", "persephone", "hades", "hermes"]
+ilgiliMitler: ["argonotlar"]
+ilgiliTanrilar: ["demeter", "persephone", "hades", "hermes"]
+ilgiliKahramanlar: ["orpheus", "iason"]
+---
+
+Samothrake, Trakya kıyısının karşısında, 1600 metreyi aşan bir dağı olan sarp bir adadır. Kuzey Ege'nin denizcileri adayı uzaktan görür. Burası, Yunan dünyasının en gizemli kutsal alanlarından birine ev sahipliği yaptı.
+
+Herodotos, Kabeiroi gizemlerinin Samothrake'de yapıldığını yazar. Apollonios Rhodios, Argonautlar'ın Orpheus'un önerisiyle adaya uğrayıp ayinlere katıldığını anlatır. Büyük Tanrılar, Yunan dünyasında Demeter, Persephone, Hades ve Hermes'le özdeşleştirilirdi. Kimlikleri hâlâ tartışmalıdır, bu yüzden tapınağı soru işaretiyle yazdım.
+
+Kutsal alan adanın kuzey kıyısında, bir dere vadisine yayılır. Hieron adlı büyük salonda ikinci derece inisiyasyon yapılırdı. Kralların ve denizcilerin buraya adaklar bırakması, kutsal alanın Yunan dünyasındaki yerini gösterir.

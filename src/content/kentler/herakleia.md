@@ -16,6 +16,11 @@ bolge: "karya"
 konum:
   enlem: 37.4986
   boylam: 27.5275
+tapinaklar:
+  - ad: "Zeus Tapınağı"
+    tanrilar: ["zeus"]
+  - ad: "Athena Tapınağı"
+    tanrilar: ["athena"]
 ilgiliMitler: ["endymion"]
 ilgiliTanrilar: ["athena", "selene"]
 ---

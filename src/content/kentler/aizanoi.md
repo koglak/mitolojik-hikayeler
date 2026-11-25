@@ -14,6 +14,9 @@ bolge: "frigya"
 konum:
   enlem: 39.1997
   boylam: 29.6114
+tapinaklar:
+  - ad: "Zeus Tapınağı"
+    tanrilar: ["zeus"]
 ilgiliMitler: []
 ilgiliTanrilar: ["zeus"]
 ---

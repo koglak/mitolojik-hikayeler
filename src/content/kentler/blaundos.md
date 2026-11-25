@@ -14,6 +14,9 @@ bolge: "lidya"
 konum:
   enlem: 38.5714
   boylam: 29.3047
+tapinaklar:
+  - ad: "Demeter Tapınağı"
+    tanrilar: ["demeter"]
 ilgiliMitler: []
 ---
 
