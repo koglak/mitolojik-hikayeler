@@ -40,7 +40,30 @@ const quizVerisi = eserler.map(({ id, ad, gorsel, adres, alt, ozet, baglantilar 
         <p class="ust-baslik">MYTHOS · OYUN ALANI</p>
         <h1>Sanatın <i>İzinde</i></h1>
         <p class="aciklama">Bir esere bak, mitolojik izleri yakala. Bildikçe seviye atla.</p>
+        <button class="cevrimici-ac" type="button" data-online-open>Arkadaşınla çevrimiçi oyna</button>
       </header>
+
+      <section class="online-panel" data-online hidden aria-label="Çevrimiçi oyun">
+        <button class="online-kapat" type="button" data-online-close>← Tek kişilik oyuna dön</button>
+        <div class="online-lobi" data-lobby>
+          <p class="ust-baslik">İKİ KİŞİLİK ODA</p>
+          <h2>Arkadaşını davet et</h2>
+          <p class="online-aciklama">Bir oda kurup bağlantı linkini arkadaşına gönder. İkiniz de aynı eserleri görüp cevaplayın.</p>
+          <label class="oyuncu-etiket">Adın<input data-player-name maxlength="24" placeholder="Oyuncu 1" autocomplete="nickname"></label>
+          <div class="online-eylemler"><button class="sonraki" data-room-create type="button">Oda kur</button><button class="oda-katil" data-room-join type="button">Linkteki odaya katıl</button></div>
+          <div class="davet" data-invite hidden><span data-invite-url></span><button class="oda-katil" data-copy-invite type="button">Linki kopyala</button></div>
+          <p class="online-durum" data-online-status aria-live="polite">Oda kur ya da davet linkini aç.</p>
+        </div>
+        <div class="online-oyun" data-online-game hidden>
+          <div class="online-skor"><span data-host-score>Oyuncu 1: 0</span><b>·</b><span data-guest-score>Oyuncu 2: 0</span></div>
+          <p class="online-tur" data-online-round></p>
+          <figure class="eser"><div class="eser-gorsel" data-online-artwork></div><figcaption data-online-caption></figcaption></figure>
+          <h2 data-online-question></h2>
+          <div class="secenekler" data-online-options></div>
+          <p class="online-durum" data-online-feedback aria-live="polite"></p>
+          <button class="sonraki" data-online-next type="button" hidden>Sonraki eser →</button>
+        </div>
+      </section>
 
       <section class="oyun-kart" aria-label="Sanat bilgi yarışması">
         <aside class="ilerleme">
@@ -72,6 +95,9 @@ const quizVerisi = eserler.map(({ id, ad, gorsel, adres, alt, ozet, baglantilar 
     <SiteAltBilgisi />
   </div>
 </Temel>
+
+<script type="application/json" id="online-quiz-data">{JSON.stringify(quizVerisi)}</script>
+<script src="../scripts/cevrimiciOyun.ts"></script>
 
 <script define:vars={{ quizVerisi }}>
   const data = quizVerisi;
@@ -155,6 +181,30 @@ const quizVerisi = eserler.map(({ id, ad, gorsel, adres, alt, ozet, baglantilar 
   .geri { color: var(--soluk); font-size: 14px; text-decoration: none; }
   .geri:hover { color: var(--vurgu); }
   .oyun-baslik { text-align: center; padding: 46px 0 38px; }
+  .cevrimici-ac { margin-top: 22px; min-height: 42px; padding: 0 18px; border: 1px solid var(--vurgu); color: var(--vurgu); background: transparent; cursor: pointer; font: 700 11px var(--govde-font); letter-spacing: .04em; }
+  .cevrimici-ac:hover,.oda-katil:hover { background: color-mix(in srgb, var(--vurgu) 10%, transparent); }
+  .online-panel { max-width: 760px; margin: 0 auto 36px; padding: 28px clamp(18px, 4vw, 42px); border: 1px solid var(--cizgi); background: var(--yuzey); }
+  .online-panel[hidden] { display: none; }
+  .online-kapat { padding: 0; border: 0; background: none; color: var(--soluk); cursor: pointer; font: 13px var(--govde-font); }
+  .online-lobi { max-width: 480px; margin: 34px auto 10px; text-align: center; }
+  .online-lobi h2,.online-oyun h2 { font: 500 32px/1.1 var(--baslik-font); margin: 0 0 12px; }
+  .online-aciklama { color: var(--soluk); font-size: 14px; line-height: 1.6; }
+  .oyuncu-etiket { display: grid; gap: 7px; margin: 22px 0 14px; text-align: left; color: var(--soluk); font: 700 10px var(--govde-font); letter-spacing: .1em; }
+  .oyuncu-etiket input { width: 100%; min-height: 44px; padding: 0 12px; border: 1px solid var(--cizgi); color: var(--yazi); background: var(--hero); font: 14px var(--govde-font); }
+  .online-eylemler { display: flex; justify-content: center; gap: 9px; flex-wrap: wrap; }
+  .oda-katil { min-height: 46px; padding: 0 18px; border: 1px solid var(--cizgi); color: var(--yazi); background: transparent; cursor: pointer; font: 700 11px var(--govde-font); }
+  .davet { display: flex; gap: 9px; align-items: center; margin-top: 16px; padding: 10px; border: 1px solid var(--cizgi); }
+  .davet[hidden] { display:none; }
+  .davet span { min-width: 0; flex: 1; overflow-wrap: anywhere; color: var(--soluk); font-size: 12px; text-align: left; }
+  .online-durum { min-height: 22px; color: var(--vurgu); font-size: 13px; }
+  .online-oyun { max-width: 620px; margin: 26px auto 0; }
+  .online-oyun[hidden] { display:none; }
+  .online-skor { display: flex; justify-content: center; gap: 12px; margin-bottom: 10px; font: 700 12px var(--govde-font); }
+  .online-skor b { color: var(--soluk); }
+  .online-tur { color: var(--soluk); text-align: center; font: 700 10px var(--govde-font); letter-spacing: .12em; }
+  .online-oyun .eser-gorsel { height: clamp(260px, 42vw, 420px); }
+  .online-oyun h2 { font-size: 26px; }
+  .online-oyun .secenekler { grid-template-columns: 1fr 1fr; }
   .ust-baslik { color: var(--vurgu); font: 700 11px var(--govde-font); letter-spacing: .2em; margin: 0 0 12px; }
   h1 { font: 500 clamp(52px, 7vw, 82px)/.95 var(--baslik-font); letter-spacing: -.04em; margin: 0; }
   h1 i { color: var(--vurgu); font-weight: 400; }
@@ -197,5 +247,5 @@ const quizVerisi = eserler.map(({ id, ad, gorsel, adres, alt, ozet, baglantilar 
   .bitis p:not(.ust-baslik) { color: var(--soluk); margin: 0 0 24px; }
   .bitis .sonraki { margin: auto; }
   .oyun-notu { color: var(--soluk); font-size: 12px; text-align: center; margin-top: 16px; }
-  @media(max-width: 760px) { .oyun { padding: 22px 16px 50px; } .oyun-kart { grid-template-columns: 1fr; } .ilerleme { padding: 18px; border-right: 0; border-bottom: 1px solid var(--cizgi); } .seviye-baslik { padding-bottom: 14px; } .seviye-listesi { grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 12px 0; } .seviye-listesi span { padding: 8px 4px; } .seviye-listesi b { margin-left: 3px; } .puan { padding-top: 10px; display: flex; align-items: center; justify-content: space-between; } .puan strong { margin: 0; } .soru-alani { padding: 20px 16px 24px; } .soru-ust { font-size: 8px; } .secenekler { grid-template-columns: 1fr; } }
+  @media(max-width: 760px) { .oyun { padding: 22px 16px 50px; } .oyun-kart { grid-template-columns: 1fr; } .ilerleme { padding: 18px; border-right: 0; border-bottom: 1px solid var(--cizgi); } .seviye-baslik { padding-bottom: 14px; } .seviye-listesi { grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 12px 0; } .seviye-listesi span { padding: 8px 4px; } .seviye-listesi b { margin-left: 3px; } .puan { padding-top: 10px; display: flex; align-items: center; justify-content: space-between; } .puan strong { margin: 0; } .soru-alani { padding: 20px 16px 24px; } .soru-ust { font-size: 8px; } .secenekler,.online-oyun .secenekler { grid-template-columns: 1fr; } .davet { align-items: stretch; flex-direction: column; } }
 </style>
