@@ -1,34 +1,42 @@
 ---
-ad: "Perge Athena Heykeli"
-ozgunAd: "Athena (Minerva) from Perge"
-sira: 131
+ad: Perge Athena Heykeli
+ozgunAd: Athena (Minerva) from Perge
+sira: 358
 tur: heykel
-tarih: "MS 2. yüzyıl"
+tarih: MS 2. yüzyıl
 siralamaYili: 150
-malzeme: "Mermer"
+malzeme: Mermer
 muze: antalya-arkeoloji
-konumNotu: "Perge, Güney Hamamı; envanter no. 1.22.82"
-ozet: "Perge Güney Hamamı'nda bulunan, miğferli ve aegisli Roma dönemi Athena heykeli Antalya Müzesi'nde sergilenir."
+konumNotu: 'Perge, Güney Hamamı; envanter no. 1.22.82'
+ozet: >-
+  Perge Güney Hamamı'nda bulunan, miğferli ve aegisli Roma dönemi Athena heykeli
+  Antalya Müzesi'nde sergilenir.
 kaynakca:
-  - ad: "Antalya Müzesi, koleksiyon kataloğu"
-    adres: "https://www.academia.edu/20284928/Catalogue_of_the_Antalya_Museum"
-  - ad: "Kültür Portalı, Antalya Müzesi"
-    adres: "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/antalya-muzesi"
-  - ad: "Wikimedia Commons, Athena fotoğrafı ve lisans bilgisi"
-    adres: "https://commons.wikimedia.org/wiki/File:Antalya_museum_Athena_3090.jpg"
+  - ad: 'Antalya Müzesi, koleksiyon kataloğu'
+    adres: 'https://www.academia.edu/20284928/Catalogue_of_the_Antalya_Museum'
+  - ad: 'Kültür Portalı, Antalya Müzesi'
+    adres: >-
+      https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/antalya-muzesi
+  - ad: 'Wikimedia Commons, Athena fotoğrafı ve lisans bilgisi'
+    adres: 'https://commons.wikimedia.org/wiki/File:Antalya_museum_Athena_3090.jpg'
 ilgiliMitler: []
-ilgiliTanrilar: ["athena"]
+ilgiliTanrilar:
+  - athena
 ilgiliKahramanlar: []
-ilgiliKentler: ["perge"]
+ilgiliKentler:
+  - perge
 gorsel:
-  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Antalya_museum_Athena_3090.jpg/960px-Antalya_museum_Athena_3090.jpg"
+  adres: >-
+    https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Antalya_museum_Athena_3090.jpg/960px-Antalya_museum_Athena_3090.jpg
   genislik: 960
   yukseklik: 639
-  sahibi: "Dosseman"
-  lisans: "CC BY-SA 4.0"
-  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0/"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Antalya_museum_Athena_3090.jpg"
-  alt: "Antalya Müzesi'nde sergilenen, Perge'den gelmiş miğferli mermer Athena heykeli"
+  sahibi: Dosseman
+  lisans: CC BY-SA 4.0
+  lisansAdresi: 'https://creativecommons.org/licenses/by-sa/4.0/'
+  kaynakAdresi: 'https://commons.wikimedia.org/wiki/File:Antalya_museum_Athena_3090.jpg'
+  alt: >-
+    Antalya Müzesi'nde sergilenen, Perge'den gelmiş miğferli mermer Athena
+    heykeli
 ---
 
 ## Eserin öyküsü

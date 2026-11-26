@@ -120,7 +120,7 @@ const quizVerisi = eserler.map(({ id, ad, gorsel, adres, alt, ozet, baglantilar 
     choices.forEach((value, index) => {
       const button = document.createElement('button');
       button.type = 'button'; button.className = 'secenek';
-      button.innerHTML = `<span>${String.fromCharCode(65 + index)}.</span><b></b>`;
+      button.innerHTML = `<span>${String.fromCharCode(65 + index)}.&nbsp;</span><b></b>`;
       button.querySelector('b').textContent = value;
       button.addEventListener('click', () => cevapla(button, value, dogruYanit));
       secenekler.append(button);
@@ -176,9 +176,9 @@ const quizVerisi = eserler.map(({ id, ad, gorsel, adres, alt, ozet, baglantilar 
   .soru-ust { display: flex; align-items: center; gap: 13px; color: var(--soluk); font: 700 9px var(--govde-font); letter-spacing: .12em; }
   .cizgi { height: 1px; background: var(--cizgi); flex: 1; }
   .eser { margin: 22px 0 20px; }
-  .eser-gorsel { height: clamp(300px, 44vw, 490px); display: grid; place-items: center; overflow: hidden; background: var(--hero); border: 1px solid var(--cizgi); color: var(--soluk); }
-  .eser-gorsel :global(a) { width: 100%; height: 100%; display: grid; place-items: center; overflow: hidden; }
-  .eser-gorsel :global(img) { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+  .eser-gorsel { height: clamp(300px, 44vw, 490px); min-width: 0; display: grid; place-items: center; overflow: hidden; background: var(--hero); border: 1px solid var(--cizgi); color: var(--soluk); }
+  .eser-gorsel :global(a) { width: 100%; height: 100%; min-width: 0; min-height: 0; display: grid; place-items: center; overflow: hidden; }
+  .eser-gorsel :global(img) { display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; object-fit: contain; object-position: center; }
   figcaption { color: var(--soluk); font-size: 11px; padding-top: 8px; }
   h2 { font: 500 29px/1.1 var(--baslik-font); margin: 0 0 16px; }
   .secenekler { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }

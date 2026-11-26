@@ -1,30 +1,34 @@
 ---
-ad: "Capitoline Hermesi"
-ozgunAd: "Statue of Hermes (MC 60)"
+ad: Capitoline Hermesi
+ozgunAd: Statue of Hermes (MC 60)
 sira: 132
 tur: heykel
-sanatci: "Bilinmiyor"
-tarih: "Roma dönemi kopyası; özgün Yunan modeli MÖ 4. yüzyıl başı"
+sanatci: Bilinmiyor
+tarih: Roma dönemi kopyası; özgün Yunan modeli MÖ 4. yüzyıl başı
 siralamaYili: 100
-malzeme: "Mermer"
+malzeme: Mermer
 muze: kapitol-muzeleri
-konumNotu: "Palazzo Nuovo, birinci kat galerisi; envanter no. MC 60"
-ozet: "Roma dönemi mermer Hermes, erken klasik döneme ait bir Yunan özgününü tekrarlar."
+konumNotu: 'Palazzo Nuovo, birinci kat galerisi; envanter no. MC 60'
+ozet: >-
+  Roma dönemi mermer Hermes, erken klasik döneme ait bir Yunan özgününü
+  tekrarlar.
 kaynakca:
-  - ad: "Wikimedia Commons, Hermes Musei Capitolini MC60"
-    adres: "https://commons.wikimedia.org/wiki/File:Hermes_Musei_Capitolini_MC60.jpg"
+  - ad: 'Wikimedia Commons, Hermes Musei Capitolini MC60'
+    adres: 'https://commons.wikimedia.org/wiki/File:Hermes_Musei_Capitolini_MC60.jpg'
 ilgiliMitler: []
-ilgiliTanrilar: ["hermes"]
+ilgiliTanrilar:
+  - hermes
 ilgiliKahramanlar: []
-ilgiliKentler: ["roma"]
+ilgiliKentler: []
 gorsel:
-  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Hermes_Musei_Capitolini_MC60.jpg/960px-Hermes_Musei_Capitolini_MC60.jpg"
+  adres: >-
+    https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Hermes_Musei_Capitolini_MC60.jpg/960px-Hermes_Musei_Capitolini_MC60.jpg
   genislik: 960
   yukseklik: 1974
-  sahibi: "Jastrow"
-  lisans: "Kamu malı"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Hermes_Musei_Capitolini_MC60.jpg"
-  alt: "Miğferli Hermes heykeli, bir elinde asa, diğer elinde kese tutuyor"
+  sahibi: Jastrow
+  lisans: Kamu malı
+  kaynakAdresi: 'https://commons.wikimedia.org/wiki/File:Hermes_Musei_Capitolini_MC60.jpg'
+  alt: 'Miğferli Hermes heykeli, bir elinde asa, diğer elinde kese tutuyor'
 ---
 
 ## Eserin öyküsü

@@ -793,4 +793,10 @@ const simgeler: Record<string, string> = {
     '<path d="M8 59h48m-43 0v-7m39 7v-7"/>',
 };
 
-export const kahramanSimgesi = (slug: string): string | undefined => simgeler[slug];
+const genelKahramanSimgesi =
+  '<path d="M32 5 9 18v28l23 13 23-13V18L32 5Zm0 7 16 9v20l-16 9-16-9V21l16-9Zm0 7a7 7 0 1 0 0 14 7 7 0 0 0 0-14Zm-12 24c2-6 6-9 12-9s10 3 12 9"/>';
+
+const simgesiOlmayanKahramanlar = new Set(['aetes', 'deukalion-ve-pyrrha', 'harmonia', 'ino', 'kheiron', 'pasiphae', 'silenos']);
+
+export const kahramanSimgesi = (slug: string): string | undefined =>
+  simgeler[slug] ?? (simgesiOlmayanKahramanlar.has(slug) ? genelKahramanSimgesi : undefined);

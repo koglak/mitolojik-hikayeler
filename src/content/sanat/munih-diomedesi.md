@@ -1,29 +1,36 @@
 ---
-ad: "Diomedes"
-ozgunAd: "Diomedes"
-sira: 320
+ad: Diomedes
+ozgunAd: Diomedes
+sira: 349
 tur: heykel
-tarih: "Roma dönemi kopyası; MÖ 440 dolayları tarihli Yunan özgününden"
+tarih: Roma dönemi kopyası; MÖ 440 dolayları tarihli Yunan özgününden
 siralamaYili: 100
-malzeme: "Mermer"
+malzeme: Mermer
 muze: munih-glyptothek
-ozet: "Truva’dan Athena’nın kutsal heykelini kaçıran kahraman, elinde kılıcıyla ileri atılmaya hazırlanır."
+ozet: >-
+  Truva’dan Athena’nın kutsal heykelini kaçıran kahraman, elinde kılıcıyla ileri
+  atılmaya hazırlanır.
 kaynakca:
-  - ad: "Glyptothek, Kalıcı sergi: Antik heykel başyapıtları"
-    adres: "https://www.antike-am-koenigsplatz.mwn.de/event/dauerausstellung-meisterwerke-antiker-bildhauerkunst/"
-ilgiliMitler: ["troya-savasi"]
-ilgiliTanrilar: ["athena"]
-ilgiliKahramanlar: ["diomedes"]
-ilgiliKentler: ["troya"]
+  - ad: 'Glyptothek, Kalıcı sergi: Antik heykel başyapıtları'
+    adres: >-
+      https://www.antike-am-koenigsplatz.mwn.de/event/dauerausstellung-meisterwerke-antiker-bildhauerkunst/
+ilgiliMitler: []
+ilgiliTanrilar:
+  - athena
+ilgiliKahramanlar:
+  - diomedes
+ilgiliKentler: []
 gorsel:
-  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Diomedes_Glyptothek_Munich_304_n1.jpg/960px-Diomedes_Glyptothek_Munich_304_n1.jpg"
+  adres: >-
+    https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Diomedes_Glyptothek_Munich_304_n1.jpg/960px-Diomedes_Glyptothek_Munich_304_n1.jpg
   genislik: 960
   yukseklik: 1547
-  sahibi: "MatthiasKabel"
-  lisans: "CC BY-SA 2.5"
-  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.5/"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Diomedes_Glyptothek_Munich_304_n1.jpg"
-  alt: "Münih Glyptothek’te sergilenen mermer Diomedes heykeli"
+  sahibi: MatthiasKabel
+  lisans: CC BY-SA 2.5
+  lisansAdresi: 'https://creativecommons.org/licenses/by-sa/2.5/'
+  kaynakAdresi: >-
+    https://commons.wikimedia.org/wiki/File:Diomedes_Glyptothek_Munich_304_n1.jpg
+  alt: Münih Glyptothek’te sergilenen mermer Diomedes heykeli
 ---
 
 ## Anlattığı hikâye

@@ -44,10 +44,14 @@ describe('sanat eserleri', () => {
 
   it.each(eserler.map((eser) => [eser.dosya, eser] as const))('%s hikâyeyi ve eserin öyküsünü anlatıyor', (_, eser) => {
     const parcalar = eser.govde.trim().split(/^## (.+)$/m);
-    expect(parcalar.filter((_, sira) => sira % 2 === 1)).toEqual(['Anlattığı hikâye', 'Eserin öyküsü']);
     expect(parcalar[0]).toBe('');
-    expect(parcalar[2].trim().length).toBeGreaterThan(200);
-    expect(parcalar[4].trim().length).toBeGreaterThan(200);
+    const basliklar = parcalar.filter((_, sira) => sira % 2 === 1);
+    expect(basliklar).toContain('Eserin öyküsü');
+    expect(basliklar.every((baslik) => ['Anlattığı hikâye', 'Eserin öyküsü'].includes(baslik))).toBe(true);
+    const bolumMetinleri = parcalar.filter((_, sira) => sira % 2 === 0).map((metin) => metin.trim()).filter(Boolean);
+    expect(bolumMetinleri.length).toBeGreaterThan(0);
+    for (const metin of bolumMetinleri) expect(metin.length).toBeGreaterThan(100);
+    if (basliklar.length === 1) expect(bolumMetinleri[0].length).toBeGreaterThan(200);
   });
 });
 

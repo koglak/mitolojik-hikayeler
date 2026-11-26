@@ -1,20 +1,28 @@
 ---
-ad: "Silenos"
-sira: 119
-ozet: "Dionysos'un yaşlı öğretmeni ve yoldaşı. Midas onu şarapla yakalayıp yaşamın sırrını sordu."
+ad: Silenos
+sira: 129
+ozet: >-
+  Dionysos'un yaşlı öğretmeni ve yoldaşı. Midas onu şarapla yakalayıp yaşamın
+  sırrını sordu.
 bilgiler:
-  - etiket: "Bağı"
-    deger: "Dionysos'un öğretmeni ve yoldaşı"
-  - etiket: "Doğası"
-    deger: "Yaşlı satir; şarap ve bilgelikle anılır"
-  - etiket: "Midas'la karşılaşması"
-    deger: "Midas, içtiği pınara şarap karıştırarak onu yakaladı"
-  - etiket: "Ünlü sözü"
-    deger: "İnsan için en iyisi hiç doğmamış olmak; doğmuş olan içinse erken ölmektir"
-kaynak: "Aristoteles, Eudemos (fr. 6 Ross), Plutarkhos'un Apollonios'a Teselli 115b–e aktarımında; Pausanias, Yunanistan'ın Tasviri 1.4.1"
-ilgiliMitler: ["silenos-ve-midas", "midas", "kyklops"]
-ilgiliTanrilar: ["dionysos"]
-ilgiliKahramanlar: ["midas"]
+  - etiket: Bağı
+    deger: Dionysos'un öğretmeni ve yoldaşı
+  - etiket: Doğası
+    deger: Yaşlı satir; şarap ve bilgelikle anılır
+  - etiket: Midas'la karşılaşması
+    deger: 'Midas, içtiği pınara şarap karıştırarak onu yakaladı'
+  - etiket: Ünlü sözü
+    deger: İnsan için en iyisi hiç doğmamış olmak; doğmuş olan içinse erken ölmektir
+kaynak: >-
+  Aristoteles, Eudemos (fr. 6 Ross), Plutarkhos'un Apollonios'a Teselli 115b–e
+  aktarımında; Pausanias, Yunanistan'ın Tasviri 1.4.1
+ilgiliMitler:
+  - silenos-ve-midas
+  - midas
+ilgiliTanrilar:
+  - dionysos
+ilgiliKahramanlar:
+  - midas
 ---
 
 Silenos, Dionysos'un yaşlı öğretmeni ve yoldaşı olan bir satirdi. Çoğu anlatıda şarapla, taşkın şenliklerle ve yaşlılığın getirdiği bilgelikle ilişkilendirilir. Euripides'in *Kyklops* oyununda Sicilya'da, Kyklops'un yanında esir düşmüş halde görünür.

@@ -1,27 +1,30 @@
 ---
-ad: "Deniz Kızı"
-ozgunAd: "A Mermaid"
-sira: 122
+ad: Deniz Kızı
+ozgunAd: A Mermaid
+sira: 366
 tur: resim
-sanatci: "John William Waterhouse"
-tarih: "1900"
+sanatci: John William Waterhouse
+tarih: '1900'
 siralamaYili: 1900
-malzeme: "Tuval üzerine yağlıboya"
+malzeme: Tuval üzerine yağlıboya
 muze: royal-academy
-ozet: "Kayalık kıyıda tek başına oturan deniz kızı, uzun kızıl saçlarını tarar."
+ozet: 'Kayalık kıyıda tek başına oturan deniz kızı, uzun kızıl saçlarını tarar.'
 kaynakca:
-  - ad: "Royal Academy of Arts, A Mermaid"
-    adres: "https://www.royalacademy.org.uk/art-artists/work-of-art/a-mermaid"
-  - ad: "Royal Academy of Arts, Google Arts & Culture koleksiyon kaydı"
-    adres: "https://artsandculture.google.com/asset/a-mermaid-john-william-waterhouse-ra/0wGJTrnhYkSPyA?hl=en-GB"
+  - ad: 'Royal Academy of Arts, A Mermaid'
+    adres: 'https://www.royalacademy.org.uk/art-artists/work-of-art/a-mermaid'
+  - ad: 'Royal Academy of Arts, Google Arts & Culture koleksiyon kaydı'
+    adres: >-
+      https://artsandculture.google.com/asset/a-mermaid-john-william-waterhouse-ra/0wGJTrnhYkSPyA?hl=en-GB
 gorsel:
-  adres: "https://upload.wikimedia.org/wikipedia/commons/5/55/John_William_Waterhouse_A_Mermaid.jpg"
+  adres: >-
+    https://upload.wikimedia.org/wikipedia/commons/5/55/John_William_Waterhouse_A_Mermaid.jpg
   genislik: 825
   yukseklik: 1200
-  sahibi: "John William Waterhouse"
-  lisans: "Kamu malı"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_A_Mermaid.jpg"
-  alt: "Kayalık bir kıyıda saçlarını tarayan deniz kızı ve yanında bir deniz kabuğu"
+  sahibi: John William Waterhouse
+  lisans: Kamu malı
+  kaynakAdresi: >-
+    https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_A_Mermaid.jpg
+  alt: Kayalık bir kıyıda saçlarını tarayan deniz kızı ve yanında bir deniz kabuğu
 ---
 
 ## Anlattığı hikâye

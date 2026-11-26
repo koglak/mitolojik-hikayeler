@@ -1,31 +1,37 @@
 ---
-ad: "Marsyas Heykeli (Capitoline Müzeleri)"
-ozgunAd: "Statua di Marsia"
-sira: 313
+ad: Marsyas Heykeli (Capitoline Müzeleri)
+ozgunAd: Statua di Marsia
+sira: 346
 tur: heykel
-tarih: "Roma dönemi kopyası; MÖ 4. yüzyıl Yunan özgününden"
+tarih: Roma dönemi kopyası; MÖ 4. yüzyıl Yunan özgününden
 siralamaYili: 100
-malzeme: "Mermer"
+malzeme: Mermer
 muze: kapitol
-konumNotu: "Palazzo dei Conservatori, Horti Maecenatiani Salonu; envanter no. MC 1077"
-ozet: "Bileklerinden asılmış Marsyas, Apollon’la müzik yarışmasını kaybettikten sonraki cezayı beklerken betimlenir."
+konumNotu: 'Palazzo dei Conservatori, Horti Maecenatiani Salonu; envanter no. MC 1077'
+ozet: >-
+  Bileklerinden asılmış Marsyas, Apollon’la müzik yarışmasını kaybettikten
+  sonraki cezayı beklerken betimlenir.
 kaynakca:
-  - ad: "Capitoline Müzeleri, Marsyas Heykeli"
-    adres: "https://www.museicapitolini.org/it/opera/statua-di-marsia?tema=1"
-  - ad: "Capitoline Müzeleri, Marsyas heykeli"
-    adres: "https://www.museicapitolini.org/en/opera/statua-di-marsia"
-ilgiliMitler: ["marsyas"]
-ilgiliTanrilar: ["apollon"]
-ilgiliKahramanlar: ["marsyas"]
+  - ad: 'Capitoline Müzeleri, Marsyas Heykeli'
+    adres: 'https://www.museicapitolini.org/it/opera/statua-di-marsia?tema=1'
+  - ad: 'Capitoline Müzeleri, Marsyas heykeli'
+    adres: 'https://www.museicapitolini.org/en/opera/statua-di-marsia'
+ilgiliMitler:
+  - marsyas
+ilgiliTanrilar:
+  - apollon
+ilgiliKahramanlar:
+  - marsyas
 ilgiliKentler: []
 gorsel:
-  adres: "https://www.museicapitolini.org/sites/default/files/storage/images/musei/musei_capitolini/percorsi/percorsi_per_sale/museo_del_palazzo_dei_conservatori/sale_degli_horti_di_mecenate/statua_di_marsia/10831-12-ita-IT/statua_di_marsia.jpg"
+  adres: >-
+    https://www.museicapitolini.org/sites/default/files/storage/images/musei/musei_capitolini/percorsi/percorsi_per_sale/museo_del_palazzo_dei_conservatori/sale_degli_horti_di_mecenate/statua_di_marsia/10831-12-ita-IT/statua_di_marsia.jpg
   genislik: 5369
   yukseklik: 8053
-  sahibi: "Musei Capitolini"
-  lisans: "Telif hakkı saklı"
-  kaynakAdresi: "https://www.museicapitolini.org/en/opera/statua-di-marsia"
-  alt: "Palazzo dei Conservatori’deki Horti Maecenatiani Salonu’nda Marsyas heykeli"
+  sahibi: Musei Capitolini
+  lisans: Telif hakkı saklı
+  kaynakAdresi: 'https://www.museicapitolini.org/en/opera/statua-di-marsia'
+  alt: Palazzo dei Conservatori’deki Horti Maecenatiani Salonu’nda Marsyas heykeli
 ---
 
 ## Anlattığı hikâye

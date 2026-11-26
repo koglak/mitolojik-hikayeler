@@ -1,25 +1,29 @@
 ---
-ad: "Azize Eulalia"
-ozgunAd: "Saint Eulalia"
-sira: 123
+ad: Azize Eulalia
+ozgunAd: Saint Eulalia
+sira: 364
 tur: resim
-sanatci: "John William Waterhouse"
-tarih: "1885"
+sanatci: John William Waterhouse
+tarih: '1885'
 siralamaYili: 1885
-malzeme: "Tuval üzerine yağlıboya"
+malzeme: Tuval üzerine yağlıboya
 muze: tate-britain
-ozet: "Waterhouse, Eulalia’nın ölümünü karla örtülü bir meydanda betimler."
+ozet: 'Waterhouse, Eulalia’nın ölümünü karla örtülü bir meydanda betimler.'
 kaynakca:
-  - ad: "Tate, Saint Eulalia"
-    adres: "https://shop.tate.org.uk/waterhouse-saint-eulalia/johwat001.html"
+  - ad: 'Tate, Saint Eulalia'
+    adres: 'https://shop.tate.org.uk/waterhouse-saint-eulalia/johwat001.html'
 gorsel:
-  adres: "https://upload.wikimedia.org/wikipedia/commons/1/14/John_William_Waterhouse_-_Saint_Eulalia_-_1885.jpg"
+  adres: >-
+    https://upload.wikimedia.org/wikipedia/commons/1/14/John_William_Waterhouse_-_Saint_Eulalia_-_1885.jpg
   genislik: 1743
   yukseklik: 2872
-  sahibi: "John William Waterhouse"
-  lisans: "Kamu malı"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_-_Saint_Eulalia_-_1885.jpg"
-  alt: "Karlı meydanda yatan Eulalia, çevresindeki beyaz kuşlar ve arkada duran kalabalık"
+  sahibi: John William Waterhouse
+  lisans: Kamu malı
+  kaynakAdresi: >-
+    https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_-_Saint_Eulalia_-_1885.jpg
+  alt: >-
+    Karlı meydanda yatan Eulalia, çevresindeki beyaz kuşlar ve arkada duran
+    kalabalık
 ---
 
 ## Anlattığı hikâye

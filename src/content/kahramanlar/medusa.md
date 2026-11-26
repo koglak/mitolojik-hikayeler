@@ -1,18 +1,26 @@
 ---
-ad: "Medusa"
-sira: 120
-ozet: "Bakışı insanları taşa çeviren, üç Gorgon kardeşin ölümlü olanı."
+ad: Medusa
+sira: 127
+ozet: 'Bakışı insanları taşa çeviren, üç Gorgon kardeşin ölümlü olanı.'
 bilgiler:
-  - etiket: "Kardeşleri"
-    deger: "Stheno ve Euryale"
-  - etiket: "Çocukları"
-    deger: "Pegasos ve Khrysaor"
-  - etiket: "Başını alan"
-    deger: "Perseus"
-kaynak: "Hesiodos, Theogonia 270–286; Apollodoros, Kütüphane 2.4.2–3; Ovidius, Dönüşümler 4.772–803"
-ilgiliMitler: ["perseus-ve-medusa"]
-ilgiliTanrilar: ["athena", "poseidon", "hermes"]
-ilgiliKahramanlar: ["perseus", "andromeda"]
+  - etiket: Kardeşleri
+    deger: Stheno ve Euryale
+  - etiket: Çocukları
+    deger: Pegasos ve Khrysaor
+  - etiket: Başını alan
+    deger: Perseus
+kaynak: >-
+  Hesiodos, Theogonia 270–286; Apollodoros, Kütüphane 2.4.2–3; Ovidius,
+  Dönüşümler 4.772–803
+ilgiliMitler:
+  - perseus-ve-medusa
+ilgiliTanrilar:
+  - athena
+  - poseidon
+  - hermes
+ilgiliKahramanlar:
+  - perseus
+  - andromeda
 ---
 
 Hesiodos, Medusa'yı üç Gorgon arasında ölümlü olan tek kardeş olarak tanıtır. Ovidius ise saçlarının bir zamanlar güzelliğiyle ünlü olduğunu anlatır. Bu anlatıda Poseidon ona Athena'nın tapınağında saldırır ve tanrıça Medusa'nın saçlarını yılanlara dönüştürür.

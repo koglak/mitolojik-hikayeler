@@ -1,31 +1,37 @@
 ---
-ad: "Velletri Athena'sı"
-ozgunAd: "Pallas de Velletri"
-sira: 124
+ad: Velletri Athena'sı
+ozgunAd: Pallas de Velletri
+sira: 356
 tur: heykel
-tarih: "MS 1. yüzyıl"
+tarih: MS 1. yüzyıl
 siralamaYili: 50
-malzeme: "Taşoz mermeri; restorasyon parçaları Carrara mermeri"
+malzeme: Taşoz mermeri; restorasyon parçaları Carrara mermeri
 muze: louvre
-ozet: "Louvre'daki dev mermer Athena, Kresilas'a atfedilen MÖ 5. yüzyıl bronz heykel tipinin Roma dönemi kopyasıdır."
+ozet: >-
+  Louvre'daki dev mermer Athena, Kresilas'a atfedilen MÖ 5. yüzyıl bronz heykel
+  tipinin Roma dönemi kopyasıdır.
 kaynakca:
-  - ad: "Louvre koleksiyon kataloğu, Pallas de Velletri"
-    adres: "https://collections.louvre.fr/en/ark:/53355/cl010278203"
-  - ad: "Wikimedia Commons, heykel fotoğrafı ve lisans bilgisi"
-    adres: "https://commons.wikimedia.org/wiki/File:Statue_of_Athena,_MA_464_2010.jpg"
+  - ad: 'Louvre koleksiyon kataloğu, Pallas de Velletri'
+    adres: 'https://collections.louvre.fr/en/ark:/53355/cl010278203'
+  - ad: 'Wikimedia Commons, heykel fotoğrafı ve lisans bilgisi'
+    adres: 'https://commons.wikimedia.org/wiki/File:Statue_of_Athena,_MA_464_2010.jpg'
 ilgiliMitler: []
-ilgiliTanrilar: ["athena"]
+ilgiliTanrilar:
+  - athena
 ilgiliKahramanlar: []
 ilgiliKentler: []
 gorsel:
-  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Statue_of_Athena%2C_MA_464_2010.jpg/960px-Statue_of_Athena%2C_MA_464_2010.jpg"
+  adres: >-
+    https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Statue_of_Athena%2C_MA_464_2010.jpg/960px-Statue_of_Athena%2C_MA_464_2010.jpg
   genislik: 960
   yukseklik: 1280
-  sahibi: "Rodney (rjhuttondfw)"
-  lisans: "CC BY 2.0"
-  lisansAdresi: "https://creativecommons.org/licenses/by/2.0/"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Statue_of_Athena,_MA_464_2010.jpg"
-  alt: "Louvre'daki Velletri Pallas'ı: miğferi ve aegisiyle ayakta duran dev mermer Athena"
+  sahibi: Rodney (rjhuttondfw)
+  lisans: CC BY 2.0
+  lisansAdresi: 'https://creativecommons.org/licenses/by/2.0/'
+  kaynakAdresi: 'https://commons.wikimedia.org/wiki/File:Statue_of_Athena,_MA_464_2010.jpg'
+  alt: >-
+    Louvre'daki Velletri Pallas'ı: miğferi ve aegisiyle ayakta duran dev mermer
+    Athena
 ---
 
 ## Eserin öyküsü

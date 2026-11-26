@@ -1,28 +1,33 @@
 ---
-ad: "Rondanini Aleksandros’u"
-ozgunAd: "Alexander Rondanini"
+ad: Rondanini Aleksandros’u
+ozgunAd: Alexander Rondanini
 sira: 321
 tur: heykel
-tarih: "Roma dönemi"
+tarih: Roma dönemi
 siralamaYili: 100
-malzeme: "Mermer"
+malzeme: Mermer
 muze: munih-glyptothek
-ozet: "Büyük İskender’in yaşam boyutlarında korunmuş nadir heykel tasvirlerinden biri."
+ozet: >-
+  Büyük İskender’in yaşam boyutlarında korunmuş nadir heykel tasvirlerinden
+  biri.
 kaynakca:
-  - ad: "Glyptothek, Kalıcı sergi: Antik heykel başyapıtları"
-    adres: "https://www.antike-am-koenigsplatz.mwn.de/event/dauerausstellung-meisterwerke-antiker-bildhauerkunst/"
+  - ad: 'Glyptothek, Kalıcı sergi: Antik heykel başyapıtları'
+    adres: >-
+      https://www.antike-am-koenigsplatz.mwn.de/event/dauerausstellung-meisterwerke-antiker-bildhauerkunst/
 ilgiliMitler: []
 ilgiliTanrilar: []
-ilgiliKahramanlar: ["buyuk-iskender"]
+ilgiliKahramanlar: []
 ilgiliKentler: []
 gorsel:
-  adres: "https://upload.wikimedia.org/wikipedia/commons/3/33/Alexander_Rondanini_Glyptothek_Munich_298_n2.jpg"
+  adres: >-
+    https://upload.wikimedia.org/wikipedia/commons/3/33/Alexander_Rondanini_Glyptothek_Munich_298_n2.jpg
   genislik: 960
   yukseklik: 2616
-  sahibi: "Bibi Saint-Pol"
-  lisans: "Kamu malı"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Alexander_Rondanini_Glyptothek_Munich_298_n2.jpg"
-  alt: "Münih Glyptothek’te sergilenen, ayakta duran mermer Rondanini Aleksandros’u"
+  sahibi: Bibi Saint-Pol
+  lisans: Kamu malı
+  kaynakAdresi: >-
+    https://commons.wikimedia.org/wiki/File:Alexander_Rondanini_Glyptothek_Munich_298_n2.jpg
+  alt: 'Münih Glyptothek’te sergilenen, ayakta duran mermer Rondanini Aleksandros’u'
 ---
 
 ## Eserin öyküsü

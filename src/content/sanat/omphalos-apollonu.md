@@ -1,33 +1,40 @@
 ---
-ad: "Omphalos Apollonu"
-ozgunAd: "Apollo Omphalos"
-sira: 140
+ad: Omphalos Apollonu
+ozgunAd: Apollo Omphalos
+sira: 354
 tur: heykel
-sanatci: "Bilinmiyor; özgün heykel Kalamis'e atfedilir"
-tarih: "Roma dönemi kopyası, MS 2. yüzyıl; özgün model MÖ 480–460"
+sanatci: Bilinmiyor; özgün heykel Kalamis'e atfedilir
+tarih: 'Roma dönemi kopyası, MS 2. yüzyıl; özgün model MÖ 480–460'
 siralamaYili: 150
-malzeme: "Mermer"
+malzeme: Mermer
 muze: atina-arkeoloji
-konumNotu: "Atina Ulusal Arkeoloji Müzesi, envanter no. 45"
-ozet: "Omphalos yanında betimlenen Apollon heykeli, Kalamis'e atfedilen erken klasik bir özgünün Roma dönemi kopyasıdır."
+konumNotu: 'Atina Ulusal Arkeoloji Müzesi, envanter no. 45'
+ozet: >-
+  Omphalos yanında betimlenen Apollon heykeli, Kalamis'e atfedilen erken klasik
+  bir özgünün Roma dönemi kopyasıdır.
 kaynakca:
-  - ad: "Capitoline Müzeleri, Apollon Heykeli (Omphalos tipi)"
-    adres: "https://www.museicapitolini.org/en/opera/statua-di-apollo-1"
-  - ad: "Wikimedia Commons, Omphalos Apollo, NAMA 45"
-    adres: "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos,_Athens,_2nd_C._AD.jpg"
+  - ad: 'Capitoline Müzeleri, Apollon Heykeli (Omphalos tipi)'
+    adres: 'https://www.museicapitolini.org/en/opera/statua-di-apollo-1'
+  - ad: 'Wikimedia Commons, Omphalos Apollo, NAMA 45'
+    adres: >-
+      https://commons.wikimedia.org/wiki/File:Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos,_Athens,_2nd_C._AD.jpg
 ilgiliMitler: []
-ilgiliTanrilar: ["apollon"]
+ilgiliTanrilar:
+  - apollon
 ilgiliKahramanlar: []
-ilgiliKentler: ["atina"]
+ilgiliKentler:
+  - atina
 gorsel:
-  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos%2C_Athens%2C_2nd_C._AD.jpg/960px-Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos%2C_Athens%2C_2nd_C._AD.jpg"
+  adres: >-
+    https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos%2C_Athens%2C_2nd_C._AD.jpg/960px-Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos%2C_Athens%2C_2nd_C._AD.jpg
   genislik: 960
   yukseklik: 1440
-  sahibi: "Gary Todd"
-  lisans: "CC0"
-  lisansAdresi: "https://creativecommons.org/publicdomain/zero/1.0/"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos,_Athens,_2nd_C._AD.jpg"
-  alt: "Atina Ulusal Arkeoloji Müzesi'ndeki mermer Omphalos Apollonu heykeli"
+  sahibi: Gary Todd
+  lisans: CC0
+  lisansAdresi: 'https://creativecommons.org/publicdomain/zero/1.0/'
+  kaynakAdresi: >-
+    https://commons.wikimedia.org/wiki/File:Ancient_Greece_Pentelic_Marble_%22Omphalos_Apollo%22_Statue_found_in_Theater_of_Dionysos,_Athens,_2nd_C._AD.jpg
+  alt: Atina Ulusal Arkeoloji Müzesi'ndeki mermer Omphalos Apollonu heykeli
 ---
 
 ## Eserin öyküsü

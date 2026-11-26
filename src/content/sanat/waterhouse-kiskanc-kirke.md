@@ -1,26 +1,30 @@
 ---
-ad: "Kıskanç Kirke"
-ozgunAd: "Circe Invidiosa"
-sira: 121
+ad: Kıskanç Kirke
+ozgunAd: Circe Invidiosa
+sira: 367
 tur: resim
-sanatci: "John William Waterhouse"
-tarih: "1892"
+sanatci: John William Waterhouse
+tarih: '1892'
 siralamaYili: 1892
-malzeme: "Tuval üzerine yağlıboya"
+malzeme: Tuval üzerine yağlıboya
 muze: guney-avustralya-sanat
-ozet: "Kirke, Skylla’nın yıkandığı suya yeşil bir iksir döker."
+ozet: 'Kirke, Skylla’nın yıkandığı suya yeşil bir iksir döker.'
 kaynakca:
-  - ad: "Art Gallery of South Australia, Circe Invidiosa"
-    adres: "https://www.agsa.sa.gov.au/collection-publications/collection/works/_/24983/"
-ilgiliKahramanlar: ["kirke"]
+  - ad: 'Art Gallery of South Australia, Circe Invidiosa'
+    adres: >-
+      https://www.agsa.sa.gov.au/collection-publications/collection/works/_/24983/
+ilgiliKahramanlar:
+  - kirke
 gorsel:
-  adres: "https://upload.wikimedia.org/wikipedia/commons/6/63/Circe_Invidiosa_-_John_William_Waterhouse.jpg"
+  adres: >-
+    https://upload.wikimedia.org/wikipedia/commons/6/63/Circe_Invidiosa_-_John_William_Waterhouse.jpg
   genislik: 2179
   yukseklik: 4612
-  sahibi: "John William Waterhouse"
-  lisans: "Kamu malı"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Circe_Invidiosa_-_John_William_Waterhouse.jpg"
-  alt: "Kirke, iki eliyle tuttuğu kaptan yeşil iksiri kayalık kıyıdaki suya döküyor"
+  sahibi: John William Waterhouse
+  lisans: Kamu malı
+  kaynakAdresi: >-
+    https://commons.wikimedia.org/wiki/File:Circe_Invidiosa_-_John_William_Waterhouse.jpg
+  alt: 'Kirke, iki eliyle tuttuğu kaptan yeşil iksiri kayalık kıyıdaki suya döküyor'
 ---
 
 ## Anlattığı hikâye

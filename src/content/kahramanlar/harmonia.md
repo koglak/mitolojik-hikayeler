@@ -1,23 +1,34 @@
 ---
-ad: "Harmonia"
-sira: 121
-ozet: "Ares ile Aphrodite'nin kızı, Kadmos'un eşi ve Thebai hanedanının annesi. Tanrıların düğün armağanları talihsizliğiyle ünlendi."
+ad: Harmonia
+sira: 125
+ozet: >-
+  Ares ile Aphrodite'nin kızı, Kadmos'un eşi ve Thebai hanedanının annesi.
+  Tanrıların düğün armağanları talihsizliğiyle ünlendi.
 bilgiler:
-  - etiket: "Anne-baba"
-    deger: "Ares ve Aphrodite"
-  - etiket: "Eşi"
-    deger: "Thebai'nin kurucusu Kadmos"
-  - etiket: "Çocukları"
-    deger: "Semele, İno, Agaue, Autonoe ve Polydoros"
-  - etiket: "Ünlü armağanları"
-    deger: "Harmonia'nın kolyesi ve peplosu"
-  - etiket: "Sonu"
-    deger: "Kadmos'la birlikte yılana dönüştü"
-kaynak: "Apollodoros, Kütüphane 3.4.2–3, 3.5.4; Hesiodos, Theogonia 975–978; Pausanias, Hellas'ın Tasviri 9.5.3"
-ilgiliMitler: ["ino-ve-melikertes", "dionysos-ve-pentheus"]
-ilgiliKentler: ["thebai"]
-ilgiliTanrilar: ["aphrodite", "ares"]
-ilgiliKahramanlar: ["kadmos", "semele", "ino"]
+  - etiket: Anne-baba
+    deger: Ares ve Aphrodite
+  - etiket: Eşi
+    deger: Thebai'nin kurucusu Kadmos
+  - etiket: Çocukları
+    deger: 'Semele, İno, Agaue, Autonoe ve Polydoros'
+  - etiket: Ünlü armağanları
+    deger: Harmonia'nın kolyesi ve peplosu
+  - etiket: Sonu
+    deger: Kadmos'la birlikte yılana dönüştü
+kaynak: >-
+  Apollodoros, Kütüphane 3.4.2–3, 3.5.4; Hesiodos, Theogonia 975–978; Pausanias,
+  Hellas'ın Tasviri 9.5.3
+ilgiliMitler:
+  - ino-ve-melikertes
+  - dionysos-ve-pentheus
+ilgiliKentler:
+  - thebai
+ilgiliTanrilar:
+  - ares
+ilgiliKahramanlar:
+  - kadmos
+  - semele
+  - ino
 ---
 
 Harmonia, Ares ile Aphrodite'nin kızıydı. Kadmos ejderhayı öldürdüğü için Ares'e yıllarca hizmet ettikten sonra, tanrılar onu Harmonia'yla evlendirdi. Thebai'deki düğünlerine tanrılar katıldı; Harmonia'ya peplos ve kolye armağan edildi. Kolyenin lanet getirdiği söylenir: onu taşıyanların başına felaketler geldi.

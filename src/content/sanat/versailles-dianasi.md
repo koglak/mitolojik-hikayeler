@@ -1,33 +1,38 @@
 ---
-ad: "Versailles Dianası"
-ozgunAd: "Diane de Versailles"
-sira: 133
+ad: Versailles Dianası
+ozgunAd: Diane de Versailles
+sira: 363
 tur: heykel
-sanatci: "Bilinmiyor"
-tarih: "MS 125–150; Roma dönemi kopyası"
+sanatci: Bilinmiyor
+tarih: MS 125–150; Roma dönemi kopyası
 siralamaYili: 138
-malzeme: "Mermer"
+malzeme: Mermer
 muze: louvre
-konumNotu: "Sully Kanadı, Salon 348; envanter no. Ma 589"
-ozet: "Geyikle birlikte ilerleyen avcı tanrıça Artemis, Roma döneminde mermerden kopyalanmıştır."
+konumNotu: 'Sully Kanadı, Salon 348; envanter no. Ma 589'
+ozet: >-
+  Geyikle birlikte ilerleyen avcı tanrıça Artemis, Roma döneminde mermerden
+  kopyalanmıştır.
 kaynakca:
-  - ad: "Louvre Koleksiyonları, Diane de Versailles"
-    adres: "https://collections.louvre.fr/ark:/53355/cl010278930"
-  - ad: "Wikimedia Commons, Diana of Versailles"
-    adres: "https://commons.wikimedia.org/wiki/File:Diana_of_Versailles.jpg"
+  - ad: 'Louvre Koleksiyonları, Diane de Versailles'
+    adres: 'https://collections.louvre.fr/ark:/53355/cl010278930'
+  - ad: 'Wikimedia Commons, Diana of Versailles'
+    adres: 'https://commons.wikimedia.org/wiki/File:Diana_of_Versailles.jpg'
 ilgiliMitler: []
-ilgiliTanrilar: ["artemis"]
+ilgiliTanrilar:
+  - artemis
 ilgiliKahramanlar: []
-ilgiliKentler: ["roma", "atina"]
+ilgiliKentler:
+  - atina
 gorsel:
-  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Diana_of_Versailles.jpg/960px-Diana_of_Versailles.jpg"
+  adres: >-
+    https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Diana_of_Versailles.jpg/960px-Diana_of_Versailles.jpg
   genislik: 960
   yukseklik: 1830
-  sahibi: "Commonists"
-  lisans: "CC BY-SA 4.0"
-  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0/"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Diana_of_Versailles.jpg"
-  alt: "Yay taşıyan Artemis, yanında bir geyikle adım atarken"
+  sahibi: Commonists
+  lisans: CC BY-SA 4.0
+  lisansAdresi: 'https://creativecommons.org/licenses/by-sa/4.0/'
+  kaynakAdresi: 'https://commons.wikimedia.org/wiki/File:Diana_of_Versailles.jpg'
+  alt: 'Yay taşıyan Artemis, yanında bir geyikle adım atarken'
 ---
 
 ## Eserin öyküsü

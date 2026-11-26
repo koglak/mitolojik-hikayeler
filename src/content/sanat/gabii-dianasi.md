@@ -1,36 +1,52 @@
 ---
-ad: "Gabii Diana'sı"
-ozgunAd: "Diane de Gabies"
-sira: 336
+ad: Gabii Diana'sı
+ozgunAd: Diane de Gabies
+sira: 345
 tur: heykel
-sanatci: "Geleneksel olarak Praksiteles'e atfedilen Yunan özgününün Roma dönemi kopyası"
-tarih: "Roma İmparatorluk dönemi; özgün model MÖ 4. yüzyılın son çeyreği"
+sanatci: Geleneksel olarak Praksiteles'e atfedilen Yunan özgününün Roma dönemi kopyası
+tarih: Roma İmparatorluk dönemi; özgün model MÖ 4. yüzyılın son çeyreği
 siralamaYili: 50
-malzeme: "Paros mermeri"
+malzeme: Paros mermeri
 muze: louvre
-konumNotu: "Sully Kanadı, 348. Salon; envanter no. Ma 529 (MR 154, N 750)"
-ozet: "Artemis, giysisini omzunda tuttururken betimlenir. Louvre'daki Roma dönemi mermer kopyası, geleneksel olarak Praksiteles'e atfedilen bir Yunan özgününü izler."
-aramaTerimleri: ["Diana of Gabii", "Diane de Gabies", "Artemis of Gabii", "Gabii Diana'sı", "Gabies Diana'sı", "Praksiteles", "Praxiteles", "Ma 529", "MR 154", "N 750"]
+konumNotu: 'Sully Kanadı, 348. Salon; envanter no. Ma 529 (MR 154, N 750)'
+ozet: >-
+  Artemis, giysisini omzunda tuttururken betimlenir. Louvre'daki Roma dönemi
+  mermer kopyası, geleneksel olarak Praksiteles'e atfedilen bir Yunan özgününü
+  izler.
+aramaTerimleri:
+  - Diana of Gabii
+  - Diane de Gabies
+  - Artemis of Gabii
+  - Gabii Diana'sı
+  - Gabies Diana'sı
+  - Praksiteles
+  - Praxiteles
+  - Ma 529
+  - MR 154
+  - N 750
 kaynakca:
-  - ad: "Louvre Koleksiyonları, Diane de Gabies (Ma 529)"
-    adres: "https://collections.louvre.fr/ark:/53355/cl010278726"
-  - ad: "Louvre, Praksiteles sergisi: Diana of Gabies"
-    adres: "https://mini-site.louvre.fr/praxitele/html/1.4.4.2_en.html"
-  - ad: "Wikimedia Commons, fotoğraf ve lisans bilgisi"
-    adres: "https://commons.wikimedia.org/wiki/File:Diana_of_Gabies.jpg"
+  - ad: 'Louvre Koleksiyonları, Diane de Gabies (Ma 529)'
+    adres: 'https://collections.louvre.fr/ark:/53355/cl010278726'
+  - ad: 'Louvre, Praksiteles sergisi: Diana of Gabies'
+    adres: 'https://mini-site.louvre.fr/praxitele/html/1.4.4.2_en.html'
+  - ad: 'Wikimedia Commons, fotoğraf ve lisans bilgisi'
+    adres: 'https://commons.wikimedia.org/wiki/File:Diana_of_Gabies.jpg'
 ilgiliMitler: []
-ilgiliTanrilar: ["artemis"]
+ilgiliTanrilar:
+  - artemis
 ilgiliKahramanlar: []
 ilgiliKentler: []
 gorsel:
-  adres: "https://upload.wikimedia.org/wikipedia/commons/b/be/Diana_of_Gabies.jpg"
+  adres: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Diana_of_Gabies.jpg'
   genislik: 513
   yukseklik: 1200
-  sahibi: "Eric Gaba (Sting)"
-  lisans: "CC BY-SA 2.5"
-  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.5/"
-  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Diana_of_Gabies.jpg"
-  alt: "Louvre'daki Gabii Diana'sı, giysisini omzunda tuttururken betimlenen mermer Artemis heykeli"
+  sahibi: Eric Gaba (Sting)
+  lisans: CC BY-SA 2.5
+  lisansAdresi: 'https://creativecommons.org/licenses/by-sa/2.5/'
+  kaynakAdresi: 'https://commons.wikimedia.org/wiki/File:Diana_of_Gabies.jpg'
+  alt: >-
+    Louvre'daki Gabii Diana'sı, giysisini omzunda tuttururken betimlenen mermer
+    Artemis heykeli
 ---
 
 ## Eserin öyküsü
