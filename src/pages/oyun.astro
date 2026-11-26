@@ -1,0 +1,201 @@
+---
+import { getCollection } from 'astro:content';
+import Temel from '../layouts/Temel.astro';
+import SiteBasligi from '../components/SiteBasligi.astro';
+import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+import { muzeler } from '../lib/sanatDizini';
+import { sanatEserAdresi } from '../lib/sanat';
+
+const eserler = (await getCollection('sanat'))
+  .filter((eser) => eser.data.gorsel && (eser.data.ilgiliMitler?.length || eser.data.ilgiliTanrilar?.length || eser.data.ilgiliKahramanlar?.length))
+  .map((eser) => ({
+    id: eser.id,
+    ad: eser.data.ad,
+    sanatci: eser.data.sanatci ?? 'Bilinmiyor',
+    muze: muzeler[eser.data.muze]?.ad ?? eser.data.muze,
+    gorsel: eser.data.gorsel?.adres,
+    adres: sanatEserAdresi(eser.id),
+    alt: eser.data.gorsel?.alt,
+    ozet: eser.data.ozet,
+    baglantilar: [...(eser.data.ilgiliMitler ?? []), ...(eser.data.ilgiliTanrilar ?? []), ...(eser.data.ilgiliKahramanlar ?? [])],
+    eser,
+  }));
+const varliklar = [
+  ...(await getCollection('mitler')).map((x) => ({ id: x.id, ad: x.data.ad })),
+  ...(await getCollection('tanrilar')).map((x) => ({ id: x.id, ad: x.data.ad })),
+  ...(await getCollection('kahramanlar')).map((x) => ({ id: x.id, ad: x.data.ad })),
+];
+const quizVerisi = eserler.map(({ id, ad, gorsel, adres, alt, ozet, baglantilar }) => ({
+  id, ad, gorsel, adres, alt, ozet,
+  hedef: varliklar.find((v) => baglantilar.includes(v.id))?.ad ?? ad,
+}));
+---
+
+<Temel baslik="Sanatın İzinde · Oyun" aciklama="Sanat eserlerindeki mitolojik izleri bul, bilgi yarışmasında seviyeni yükselt.">
+  <div class="site-kabugu">
+    <SiteBasligi />
+    <main class="oyun">
+      <a class="geri" href="/sanat-eserleri/">← Sanat eserlerine dön</a>
+      <header class="oyun-baslik">
+        <p class="ust-baslik">MYTHOS · OYUN ALANI</p>
+        <h1>Sanatın <i>İzinde</i></h1>
+        <p class="aciklama">Bir esere bak, mitolojik izleri yakala. Bildikçe seviye atla.</p>
+      </header>
+
+      <section class="oyun-kart" aria-label="Sanat bilgi yarışması">
+        <aside class="ilerleme">
+          <div class="seviye-baslik"><span class="rozet">✦</span><div><small>BİLGİ SEVİYEN</small><strong data-level>Çırak</strong></div></div>
+          <div class="seviye-listesi" aria-label="Seviyeler">
+            <span class="aktif" data-level-step="0">01 <b>Çırak</b></span>
+            <span data-level-step="1">02 <b>Usta</b></span>
+            <span data-level-step="2">03 <b>Üstat</b></span>
+          </div>
+          <div class="puan"><span>DOĞRU CEVAP</span><strong><b data-score>0</b> <small>/ 5</small></strong></div>
+        </aside>
+
+        <div class="soru-alani" data-quiz>
+          <div class="soru-ust"><span data-question-count>SORU 01 / 05</span><span class="cizgi"></span><span data-level-label>ÇIRAK · SAHNEYİ OKU</span></div>
+          <figure class="eser"><div class="eser-gorsel" data-artwork><span>Bir eser yükleniyor…</span></div><figcaption data-caption></figcaption></figure>
+          <h2 data-question>Bu sahnede kimi görüyorsun?</h2>
+          <div class="secenekler" data-options role="group" aria-label="Cevap seçenekleri"></div>
+          <p class="geri-bildirim" data-feedback aria-live="polite"></p>
+          <button class="sonraki" data-next type="button" disabled>Yanıtı seç</button>
+        </div>
+        <div class="bitis" data-finish hidden>
+          <span class="bitis-simge">✦</span><p class="ust-baslik">TUR TAMAMLANDI</p>
+          <h2 data-result>Harika bir tur!</h2><p data-result-copy></p>
+          <button class="sonraki" data-restart type="button">Yeniden oyna</button>
+        </div>
+      </section>
+      <p class="oyun-notu">Sorular, koleksiyondaki görseli bulunan eserlerden hazırlanır. Eser sayfasına gitmek için görsele tıklayabilirsin.</p>
+    </main>
+    <SiteAltBilgisi />
+  </div>
+</Temel>
+
+<script define:vars={{ quizVerisi }}>
+  const data = quizVerisi;
+  const soruAlani = document.querySelector('[data-quiz]');
+  const bitis = document.querySelector('[data-finish]');
+  const imgAlani = document.querySelector('[data-artwork]');
+  const secenekler = document.querySelector('[data-options]');
+  const sonraki = document.querySelector('[data-next]');
+  let sira = 0;
+  let dogru = 0;
+  let secilen = null;
+  let sorular = [];
+  const karistir = (liste) => [...liste].sort(() => Math.random() - 0.5);
+  const seviye = (i) => i < 2 ? 0 : i < 4 ? 1 : 2;
+  const etiketler = ['SAHNEYİ OKU', 'AYRINTIYI YAKALA', 'MİTİ ÇÖZ'];
+
+  function turuKur() {
+    sorular = karistir(data).slice(0, 5);
+    sira = 0; dogru = 0;
+    soruAlani.hidden = false; bitis.hidden = true;
+    goster();
+  }
+  function goster() {
+    secilen = null;
+    const eser = sorular[sira];
+    const dogruYanit = eser.hedef;
+    document.querySelector('[data-score]').textContent = dogru;
+    document.querySelector('[data-level]').textContent = ['Çırak', 'Usta', 'Üstat'][seviye(sira)];
+    document.querySelector('[data-question-count]').textContent = `SORU ${String(sira + 1).padStart(2, '0')} / 05`;
+    document.querySelector('[data-level-label]').textContent = `${['ÇIRAK', 'USTA', 'ÜSTAT'][seviye(sira)]} · ${etiketler[seviye(sira)]}`;
+    document.querySelectorAll('[data-level-step]').forEach((el, i) => el.classList.toggle('aktif', i === seviye(sira)));
+    document.querySelector('[data-question]').textContent = ['Bu eserde hangi mitolojik kişi ya da sahne anlatılıyor?', 'Resimdeki ipuçları hangi mitolojik kişiye işaret ediyor?', 'Bu sahnenin merkezindeki mitolojik figür kim?'][seviye(sira)];
+    document.querySelector('[data-caption]').textContent = 'Eserdeki figürlere ve ayrıntılara dikkatle bak.';
+    imgAlani.replaceChildren();
+    const image = document.createElement('img');
+    image.src = eser.gorsel;
+    image.alt = 'Mitolojik bir sanat eseri';
+    image.onerror = () => { image.remove(); const fallback = document.createElement('span'); fallback.textContent = 'Eser görseli'; imgAlani.append(fallback); };
+    const link = document.createElement('a');
+    link.href = eser.adres;
+    link.setAttribute('aria-label', `${eser.ad} eser sayfasını aç`);
+    link.append(image);
+    imgAlani.append(link);
+    const choices = karistir([dogruYanit, ...karistir(data.filter((x) => x.hedef && x.hedef !== dogruYanit).map((x) => x.hedef)).filter((x, i, all) => all.indexOf(x) === i).slice(0, 3)]);
+    secenekler.replaceChildren();
+    choices.forEach((value, index) => {
+      const button = document.createElement('button');
+      button.type = 'button'; button.className = 'secenek';
+      button.innerHTML = `<span>${String.fromCharCode(65 + index)}.</span><b></b>`;
+      button.querySelector('b').textContent = value;
+      button.addEventListener('click', () => cevapla(button, value, dogruYanit));
+      secenekler.append(button);
+    });
+    document.querySelector('[data-feedback]').textContent = '';
+    sonraki.disabled = true; sonraki.textContent = 'Yanıtı seç';
+  }
+  function cevapla(button, value, answer) {
+    if (secilen) return;
+    secilen = value;
+    const buttons = [...secenekler.children];
+    buttons.forEach((b) => { b.disabled = true; if (b.querySelector('b').textContent === answer) b.classList.add('dogru'); });
+    if (value === answer) { dogru++; button.classList.add('dogru'); document.querySelector('[data-feedback]').textContent = 'Doğru cevap! Güzel gözlem.'; }
+    else { button.classList.add('yanlis'); document.querySelector('[data-feedback]').textContent = `Doğru cevap: ${answer}`; }
+    document.querySelector('[data-score]').textContent = dogru;
+    sonraki.disabled = false;
+    sonraki.textContent = sira === 4 ? 'Sonucu gör' : 'Sonraki soru →';
+  }
+  sonraki.addEventListener('click', () => {
+    if (sira < 4) { sira++; goster(); return; }
+    soruAlani.hidden = true; bitis.hidden = false;
+    document.querySelector('[data-result]').textContent = dogru >= 4 ? 'Mitoloji gözün keskin!' : 'Güzel bir başlangıç!';
+    document.querySelector('[data-result-copy]').textContent = `5 soruda ${dogru} doğru yaptın. Bir tur daha oynayıp yeni eserlerle kendini dene.`;
+  });
+  document.querySelector('[data-restart]').addEventListener('click', turuKur);
+  if (data.length >= 4) turuKur();
+  else { document.querySelector('[data-question]').textContent = 'Yarışma için yeterli eser bulunamadı.'; sonraki.hidden = true; }
+</script>
+
+<style>
+  .oyun { max-width: 1120px; margin: 0 auto; padding: 28px 0 80px; }
+  .geri { color: var(--soluk); font-size: 14px; text-decoration: none; }
+  .geri:hover { color: var(--vurgu); }
+  .oyun-baslik { text-align: center; padding: 46px 0 38px; }
+  .ust-baslik { color: var(--vurgu); font: 700 11px var(--govde-font); letter-spacing: .2em; margin: 0 0 12px; }
+  h1 { font: 500 clamp(52px, 7vw, 82px)/.95 var(--baslik-font); letter-spacing: -.04em; margin: 0; }
+  h1 i { color: var(--vurgu); font-weight: 400; }
+  .aciklama { color: var(--soluk); font-size: 16px; margin: 17px 0 0; }
+  .oyun-kart { display: grid; grid-template-columns: 245px 1fr; border: 1px solid var(--cizgi); background: var(--yuzey); min-height: 600px; }
+  .ilerleme { padding: 30px 24px; border-right: 1px solid var(--cizgi); display: flex; flex-direction: column; }
+  .seviye-baslik { display: flex; gap: 13px; align-items: center; padding-bottom: 28px; border-bottom: 1px solid var(--cizgi); }
+  .rozet { display: grid; place-items: center; border: 1px solid var(--vurgu); color: var(--vurgu); width: 40px; height: 40px; border-radius: 50%; font-size: 21px; }
+  .seviye-baslik small,.puan span { display: block; color: var(--soluk); font: 700 9px var(--govde-font); letter-spacing: .13em; }
+  .seviye-baslik strong { font: 500 23px var(--baslik-font); }
+  .seviye-listesi { display: grid; gap: 12px; padding: 26px 0; }
+  .seviye-listesi span { color: var(--soluk); font: 500 12px var(--govde-font); padding: 10px 9px; border-left: 2px solid var(--cizgi); }
+  .seviye-listesi b { font-weight: 500; margin-left: 10px; }
+  .seviye-listesi .aktif { color: var(--vurgu); border-color: var(--vurgu); background: color-mix(in srgb, var(--vurgu) 8%, transparent); }
+  .puan { margin-top: auto; padding-top: 20px; border-top: 1px solid var(--cizgi); }
+  .puan strong { display: block; font: 500 32px var(--baslik-font); margin-top: 5px; }
+  .puan small { font-size: 17px; color: var(--soluk); }
+  .soru-alani { padding: 28px clamp(20px, 5vw, 58px) 34px; min-width: 0; }
+  .soru-ust { display: flex; align-items: center; gap: 13px; color: var(--soluk); font: 700 9px var(--govde-font); letter-spacing: .12em; }
+  .cizgi { height: 1px; background: var(--cizgi); flex: 1; }
+  .eser { margin: 22px 0 20px; }
+  .eser-gorsel { height: clamp(300px, 44vw, 490px); display: grid; place-items: center; overflow: hidden; background: var(--hero); border: 1px solid var(--cizgi); color: var(--soluk); }
+  .eser-gorsel :global(a) { width: 100%; height: 100%; display: grid; place-items: center; overflow: hidden; }
+  .eser-gorsel :global(img) { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+  figcaption { color: var(--soluk); font-size: 11px; padding-top: 8px; }
+  h2 { font: 500 29px/1.1 var(--baslik-font); margin: 0 0 16px; }
+  .secenekler { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+  .secenek { display: flex; align-items: center; gap: 12px; text-align: left; min-height: 50px; padding: 9px 12px; color: var(--yazi); background: transparent; border: 1px solid var(--cizgi); cursor: pointer; font: 14px var(--govde-font); }
+  .secenek:hover:not(:disabled) { border-color: var(--vurgu); }
+  .secenek > span { display: grid; place-items: center; width: 25px; height: 25px; flex: 0 0 25px; border: 1px solid var(--cizgi); color: var(--soluk); font-size: 11px; }
+  .secenek b { font-weight: 400; }
+  .secenek.dogru { border-color: #7e9d77; background: color-mix(in srgb, #7e9d77 12%, transparent); }
+  .secenek.yanlis { border-color: #b86f63; background: color-mix(in srgb, #b86f63 10%, transparent); }
+  .geri-bildirim { min-height: 20px; margin: 10px 0; color: var(--vurgu); font-size: 13px; }
+  .sonraki { display: block; margin-left: auto; min-height: 46px; padding: 0 22px; border: 1px solid var(--vurgu); background: var(--vurgu); color: var(--zemin); font: 700 12px var(--govde-font); cursor: pointer; }
+  .sonraki:disabled { opacity: .45; cursor: default; }
+  .bitis { grid-column: 1/-1; align-self: center; justify-self: center; text-align: center; padding: 50px 20px; }
+  .bitis-simge { display: block; color: var(--vurgu); font-size: 44px; margin-bottom: 20px; }
+  .bitis h2 { font-size: 40px; }
+  .bitis p:not(.ust-baslik) { color: var(--soluk); margin: 0 0 24px; }
+  .bitis .sonraki { margin: auto; }
+  .oyun-notu { color: var(--soluk); font-size: 12px; text-align: center; margin-top: 16px; }
+  @media(max-width: 760px) { .oyun { padding: 22px 16px 50px; } .oyun-kart { grid-template-columns: 1fr; } .ilerleme { padding: 18px; border-right: 0; border-bottom: 1px solid var(--cizgi); } .seviye-baslik { padding-bottom: 14px; } .seviye-listesi { grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 12px 0; } .seviye-listesi span { padding: 8px 4px; } .seviye-listesi b { margin-left: 3px; } .puan { padding-top: 10px; display: flex; align-items: center; justify-content: space-between; } .puan strong { margin: 0; } .soru-alani { padding: 20px 16px 24px; } .soru-ust { font-size: 8px; } .secenekler { grid-template-columns: 1fr; } }
+</style>
