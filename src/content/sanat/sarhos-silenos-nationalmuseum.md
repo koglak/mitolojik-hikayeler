@@ -1,5 +1,5 @@
 ---
-ad: "Sarhoş Silenos ve Alayı"
+ad: "Sarhoş Silenos"
 ozgunAd: "Drunken Silenus"
 sira: 219
 tur: resim
@@ -15,6 +15,14 @@ ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["dionysos"]
 ilgiliKahramanlar: ["midas"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Drunken_Silenus_-_Nationalmuseum_-_17615.tif/lossy-page1-1280px-Drunken_Silenus_-_Nationalmuseum_-_17615.tif.jpg"
+  genislik: 3504
+  yukseklik: 2720
+  sahibi: "Peter Paul Rubens çevresi"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://collection.nationalmuseum.se/en/collection/item/17615/"
+  alt: "Peter Paul Rubens çevresine atfedilen, sarhoş Silenos’u gösteren tablo"
 ---
 
 ## Anlattığı hikâye

@@ -15,7 +15,7 @@ kartlar:
   - metin: "Atreus hanesinin öyküsü, Yunan tragedyalarında adalet ve intikamın iç içe geçtiği bir lanete dönüştü."
 bugunBag:
   kelime: "Atreus Hanesi"
-  aciklama: "Aiskhylos'un Oresteia üçlemesi, Atreus soyundaki cinayet ve intikam döngüsünü sahneye taşır. Bu yüzden 'Atreus Hanes' trajik aile lanetlerinin simgesi hâline gelmiştir."
+  aciklama: "Aiskhylos'un Oresteia üçlemesi, Atreus soyundaki cinayet ve intikam döngüsünü sahneye taşır. Bu yüzden 'Atreus Hanesi' trajik aile lanetlerinin simgesi hâline gelmiştir."
 ---
 
 Atreus ile Thyestes'in hikâyesi antik tragedya yazarlarının farklı biçimlerde işlediği bir mit döngüsüdür. Ziyafet motifi, kardeş kavgasını geri dönülmez bir aile suçuna dönüştürür.

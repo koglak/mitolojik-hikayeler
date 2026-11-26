@@ -17,6 +17,17 @@ kaynakca:
   - ad: "Antalya İl Kültür ve Turizm Müdürlüğü, Antalya Müzesi koleksiyonu"
     adres: "https://antalya.ktb.gov.tr/Eklenti/8700%2C7kurumsalyapipdf.pdf?0="
 ilgiliTanrilar: ["athena"]
+ilgiliKahramanlar: []
+ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Lykia_-_500_BC_-_silver_stater_-_forepart_of_boar_-_incusum_-_London_BM.jpg/1280px-Lykia_-_500_BC_-_silver_stater_-_forepart_of_boar_-_incusum_-_London_BM.jpg"
+  genislik: 1280
+  yukseklik: 1280
+  sahibi: "ArchaiOptix"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Lykia_-_500_BC_-_silver_stater_-_forepart_of_boar_-_incusum_-_London_BM.jpg"
+  alt: "Antik Likya ve Yunan kentlerinin gümüş sikkeleri; Elmalı definesindekilere benzer sikke türleri"
 ---
 
 ## Anlattığı hikâye

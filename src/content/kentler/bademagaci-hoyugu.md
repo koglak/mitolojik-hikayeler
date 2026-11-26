@@ -14,6 +14,14 @@ bolge: "prehistorya"
 konum:
   enlem: 37.22
   boylam: 30.49
+kunyeGorseli:
+  adres: "/kent-gorselleri/bademagaci-hoyugu.png"
+  genislik: 1536
+  yukseklik: 1024
+  sahibi: "OpenAI (yapay zekâ ile üretilmiş temsili çizim)"
+  lisans: "AI-generated (OpenAI)"
+  kaynakAdresi: "https://openai.com/policies/terms-of-use/"
+  alt: "Bademağacı Höyüğü için temsili Neolitik kazı alanı illüstrasyonu; gerçek saha fotoğrafı değildir"
 ---
 
 Bademağacı Höyüğü, Torosların kuzeyindeki küçük bir ovada yer alır. Kazılarda Erken Neolitik döneme ait çok sayıda yapı katı ile daha geç dönemlerin yerleşim izleri ortaya çıkarıldı.

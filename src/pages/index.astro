@@ -19,9 +19,12 @@ import { mutlakAdres, sayfaBasligi } from '../lib/site';
 import { siteVerisi } from '../lib/yapisalVeri';
 import { blogAdi, blogAdresi } from '../lib/blog';
 import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
+import { getCollection } from 'astro:content';
 
 
 const baslik = 'Yunan Mitleri, Tanrılar, Kahramanlar ve Antik Kentler';
+const mitler = await getCollection('mitler');
+const bugununMiti = mitler[Math.floor(Math.random() * mitler.length)];
 
 const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: string; adres: string }[] = [
   { tur: 'mitler', ad: 'Mitolojik Hikâyeler', adres: '/mitler/' },
@@ -50,6 +53,10 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: str
       <h1>Mitler, <em>kentler</em> ve kahramanlar.</h1>
       <MansetSlider />
       <AnasayfaSecmeleri />
+      {bugununMiti && <section class="bugunun-miti" aria-labelledby="bugunun-miti-baslik">
+        <div><p>Her gün yeni bir hikâye</p><h2 id="bugunun-miti-baslik">Bugün Bir Mit Öğren</h2></div>
+        <a href={`/mitler/${bugununMiti.id}/`}><strong>{bugununMiti.data.baslik}</strong><span>{bugununMiti.data.ozet}</span><b>Mitin tamamını oku</b></a>
+      </section>}
       <div class="secme-deseni"><MeanderBant kimlik="anasayfa-secmeleri" /></div>
 
       <ul class="kategoriler" aria-label="Bölümler">
@@ -98,6 +105,14 @@ const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: str
   .secme-deseni {
     margin-top: clamp(24px, 4vw, 48px);
   }
+  .bugunun-miti { margin-top: clamp(36px, 6vw, 72px); padding: clamp(22px, 4vw, 44px); background: var(--yuzey); border: 1px solid var(--cizgi); display: grid; grid-template-columns: 1fr 2fr; gap: 24px; }
+  .bugunun-miti p { color: var(--vurgu); margin: 0 0 8px; font-size: 15px; }
+  .bugunun-miti h2 { margin: 0; font: 600 clamp(28px, 4vw, 42px)/1.05 var(--baslik-font); }
+  .bugunun-miti a { display: grid; gap: 10px; text-decoration: none; }
+  .bugunun-miti strong { font: 600 30px/1.1 var(--baslik-font); color: var(--kart-basligi); }
+  .bugunun-miti span { line-height: 1.6; }
+  .bugunun-miti b { color: var(--vurgu); }
+  @media (max-width: 560px) { .bugunun-miti { grid-template-columns: 1fr; } }
 
   .kategoriler {
     list-style: none;

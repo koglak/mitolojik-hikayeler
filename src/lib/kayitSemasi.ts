@@ -32,8 +32,10 @@ export const kayitSemasi = z.object({
   bolge: z.enum(bolgeAnahtarlari).optional(),
   kunyeGorseli: gorselSemasi
     .extend({
-      adres: gorselSemasi.shape.adres.or(z.string().regex(/^\/kent-haritalari\/[a-z0-9-]+\.png$/)),
-      lisans: gorselSemasi.shape.lisans.or(z.enum(['Free Art License', 'ODbL 1.0'])),
+      adres: gorselSemasi.shape.adres
+        .or(z.string().regex(/^\/kent-haritalari\/[a-z0-9-]+\.png$/))
+        .or(z.string().regex(/^\/kent-gorselleri\/[a-z0-9-]+\.png$/)),
+      lisans: gorselSemasi.shape.lisans.or(z.enum(['Free Art License', 'ODbL 1.0', 'AI-generated (OpenAI)'])),
       kaynakAdi: z.literal('OpenStreetMap').optional(),
       wikidata: z.string().regex(/^Q[1-9]\d*$/).optional(),
     })

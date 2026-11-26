@@ -18,6 +18,15 @@ ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: []
 ilgiliKentler: []
+gorsel:
+  adres: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Wounded_Amazon._Rome%2C_Capitoline_Museums._%285493687664%29.jpg"
+  genislik: 530
+  yukseklik: 850
+  sahibi: "Sergey Sosnovskiy from Saint-Petersburg, Russia"
+  lisans: "CC BY-SA 2.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/2.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Wounded_Amazon._Rome,_Capitoline_Museums._(5493687664).jpg"
+  alt: "Yaralı Amazon’un mermer heykel kopyası"
 ---
 
 ## Anlattığı hikâye

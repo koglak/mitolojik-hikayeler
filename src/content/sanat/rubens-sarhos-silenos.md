@@ -16,6 +16,15 @@ ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["dionysos"]
 ilgiliKahramanlar: ["midas"]
 ilgiliKentler: []
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Drunken_Silenus_-_Peter_Paul_Rubens.jpg/1280px-The_Drunken_Silenus_-_Peter_Paul_Rubens.jpg"
+  genislik: 1280
+  yukseklik: 1261
+  sahibi: "GoldenArtists"
+  lisans: "CC BY 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:The_Drunken_Silenus_-_Peter_Paul_Rubens.jpg"
+  alt: "Rubens’in Sarhoş Silenos tablosu"
 ---
 
 ## Anlattığı hikâye

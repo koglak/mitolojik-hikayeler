@@ -13,6 +13,15 @@ kaynakca:
   - ad: "Antalya İl Kültür ve Turizm Müdürlüğü, Antalya Müzesi koleksiyonu"
     adres: "https://antalya.ktb.gov.tr/Eklenti/8700%2C7kurumsalyapipdf.pdf?0="
 ilgiliKentler: ["limyra"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Antalya_museum_Heroon_of_Pericles_Pericles_statue_Limyra%27s_monuments_3238.jpg/1280px-Antalya_museum_Heroon_of_Pericles_Pericles_statue_Limyra%27s_monuments_3238.jpg"
+  genislik: 1280
+  yukseklik: 1924
+  sahibi: "Dosseman"
+  lisans: "CC BY-SA 4.0"
+  lisansAdresi: "https://creativecommons.org/licenses/by-sa/4.0"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Antalya_museum_Heroon_of_Pericles_Pericles_statue_Limyra%27s_monuments_3238.jpg"
+  alt: "Limyra Perikles Heroonu’ndan karyatid heykeli"
 ---
 
 ## Anlattığı hikâye

@@ -49,6 +49,16 @@
     "makale": "Hermes and the Infant Dionysus",
     "alt": "Kolunda bebek Dionysos'u taşıyan mermer Hermes heykeli"
   },
+  "silenos-bebek-dionysos-louvre": {
+    "makale": "Silenus Holding the Child Dionysus, Louvre Museum, Paris",
+    "sahibi": "Thierry Ollivier / Musée du Louvre",
+    "alt": "Louvre'daki mermer Silenos heykeli kucağında bebek Dionysos'u taşırken"
+  },
+  "vatikan-silenos": {
+    "dosya": "File:Sileno del 100-150 con testa di età flavia, da originali del primo ellenismo della cerchia di lisisppo.JPG",
+    "sahibi": "Sailko",
+    "alt": "Pio-Clementino Müzesi'ndeki mermer Silenos heykeli, üzüm salkımı ve kadeh tutarken"
+  },
   "bergama-sunagi": {
     "dosya": "File:Berlin - Pergamonmuseum - Altar 02.jpg",
     "alt": "Geniş merdiveni ve kabartmalarıyla Bergama Sunağı"
@@ -251,9 +261,8 @@
     "alt": "Saçları bir bantla toplanmış, burnu kısmen kırılmış, Sappho ile özdeşleştirilen anıtsal mermer kadın başı"
   },
   "nero-heykeli-ist": {
-    "dosya": "File:Headless statue of Emperor Nero Istanbul Archaeological Museum Smyrna cornucopia.jpg",
-    "sahibi": "Unknown",
-    "alt": "Askerî giysileriyle bereket boynuzuna yaslanan, başı eksik mermer İmparator Nero heykeli"
+    "arama": "Nero headless statue Smyrna Istanbul",
+    "alt": "İstanbul Arkeoloji Müzeleri’ndeki başsız Nero heykeli"
   },
   "iskender-bustu-ist": {
     "dosya": "File:IAM 1138T - Bust of Alexander.jpg",
@@ -310,7 +319,7 @@
     "dosya": "File:Statue of Puzur-Ishtar, from Mari in Syria, found in Babylon, Iraq. Ancient Orient Museum, Istanbul.jpg"
   },
   "hadad-steli": {
-    "arama": "Hadad stele Ancient Orient Museum Istanbul Luwian",
+    "arama": "Hadad stele",
     "alt": "Fırtına tanrısı Hadad'ı gösteren bazalt stel"
   },
   "okeanos-heykeli-ist": {
@@ -327,8 +336,8 @@
     "alt": "Ayakta duran bronz Demeter heykeli"
   },
   "teos-dionysos-tapinagi-frizi": {
-    "arama": "Teos Dionysos temple frieze Izmir Archaeological Museum",
-    "alt": "Dionysos ile Ariadne'yi merkezde gösteren mermer Teos Dionysos Tapınağı frizi"
+    "arama": "Teos ancient city Dionysus temple relief",
+    "alt": "Teos Dionysos Tapınağı’ndan figürlü mermer friz"
   },
   "izmir-klazomenai-lahdi": {
     "alt": "İzmir Arkeoloji Müzesi'nde sergilenen boyalı pişmiş toprak Klazomenai lahitlerinden biri",
@@ -354,5 +363,69 @@
   "altintepe-fildisi-aslani": {
     "dosya": "File:Museum of Anatolian Civilizations Urartu Ivory furniture ornaments couchant lion (from Altıntepe) in 2011 01.jpg",
     "alt": "Ön ayaklarını ileri uzatmış, parçalı fildişi gövdeli Urartu aslanı"
+  },
+  "bernini-aeneas-anchises-ascanius": {
+    "arama": "Bernini Aeneas Anchises Ascanius sculpture",
+    "alt": "Aeneas, Anchises ve Ascanius figürlerinin mermer heykel grubu"
+  },
+  "bernini-medusa": {
+    "arama": "Bernini Medusa bust Capitoline Museums",
+    "alt": "Bernini’ye atfedilen Medusa mermer büstü"
+  },
+  "constantinus-kolossal-heykeli": {
+    "arama": "Colossus of Constantine head hand Rome",
+    "alt": "Konstantin’in devasa heykelinden günümüze kalan mermer baş"
+  },
+  "elmali-sikkeleri": {
+    "arama": "ancient Greek silver coins Lycian stater",
+    "alt": "Antik Likya ve Yunan kentlerinin gümüş sikkeleri; Elmalı definesindekilere benzer sikke türleri"
+  },
+  "kapitol-hermafrodit-eros": {
+    "arama": "Capitoline Eros sculpture",
+    "alt": "Eros figürüyle birlikte uzanan uyuyan Hermafrodit heykeli"
+  },
+  "klaros-homeros-heykeli": {
+    "arama": "Klaros Homer statue",
+    "alt": "Klaros’ta bulunmuş Homeros heykeli"
+  },
+  "ksanthos-aslanli-mezar-kabartmasi": {
+    "arama": "Xanthos lion",
+    "alt": "Ksanthos Aslanlı Mezar’dan taş kabartma"
+  },
+  "limyra-perikles-karyatidi": {
+    "arama": "Limyra Pericles heroon Caryatid",
+    "alt": "Limyra Perikles Heroonu’ndan karyatid heykeli"
+  },
+  "rubens-sarhos-silenos": {
+    "arama": "Rubens Drunken Silenus painting",
+    "alt": "Rubens’in Sarhoş Silenos tablosu"
+  },
+  "sarhos-silenos-nationalmuseum": {
+    "arama": "drunken Silenus painting",
+    "alt": "Silenos’un çevresindeki figürlerle betimlendiği tablo"
+  },
+  "silenos-satyrlar-arasinda": {
+    "dosya": "File:Anthonis van Dyck 054.jpg",
+    "alt": "Sarhoş Silenos’u iki satyrın desteklediği ve çevresinde alayın ilerlediği yağlıboya tablo"
+  },
+  "spinario-diken-cikaran-cocuk": {
+    "arama": "Spinario Boy with Thorn Capitoline Museums",
+    "alt": "Ayağındaki dikeni çıkaran bronz çocuk heykeli"
+  },
+  "stephanosun-lahdi": {
+    "arama": "Stephanos dog sarcophagus Termessos Antalya museum",
+    "alt": "Rhodope’nin köpeği Stephanos için yaptırdığı yazıtlı küçük lahit"
+  },
+  "uyuyan-hermafrodit": {
+    "arama": "Sleeping Hermaphroditus statue",
+    "alt": "Yatak üzerinde uzanmış uyuyan Hermafrodit heykeli"
+  },
+  "yarali-amazon-kapitol-sosikles": {
+    "arama": "Wounded Amazon statue Rome",
+    "alt": "Yaralı Amazon’un mermer heykel kopyası"
+  },
+  "lupa-capitolina": {
+    "dosya": "File:Capitoline Wolf, Musei Capitolini.jpg",
+    "alt": "Kapitol Müzeleri’ndeki bronz dişi kurt, Romulus ve Remus’u emzirirken"
   }
 }
