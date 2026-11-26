@@ -69,6 +69,13 @@
     "enlem": 43.7678,
     "boylam": 11.2553
   },
+  "pitti-palace": {
+    "ad": "Pitti Sarayı, Palatina Galerisi (Uffizi Galerileri)",
+    "kent": "Floransa",
+    "ulke": "İtalya",
+    "enlem": 43.7654,
+    "boylam": 11.2508
+  },
   "loggia-dei-lanzi": {
     "ad": "Loggia dei Lanzi",
     "kent": "Floransa",
@@ -391,6 +398,13 @@
     "enlem": 52.5194,
     "boylam": 13.3989
   },
+  "afrodisias-muzesi": {
+    "ad": "Afrodisias Müzesi",
+    "kent": "Afrodisias",
+    "ulke": "Türkiye",
+    "enlem": 37.7092,
+    "boylam": 28.7235
+  },
   "nationalmuseum-stockholm": {
     "ad": "Nationalmuseum",
     "kent": "Stockholm",
@@ -404,5 +418,40 @@
     "ulke": "Birleşik Krallık",
     "enlem": 51.5089,
     "boylam": -0.1283
+  },
+  "troya-muzesi": {
+    "ad": "Troya Müzesi",
+    "kent": "Çanakkale",
+    "ulke": "Türkiye",
+    "enlem": 39.9553,
+    "boylam": 26.2492
+  },
+  "aberdeen-sanat-galerisi": {
+    "ad": "Aberdeen Art Gallery",
+    "kent": "Aberdeen",
+    "ulke": "Birleşik Krallık",
+    "enlem": 57.1487,
+    "boylam": -2.0969
+  },
+  "pire-arkeoloji": {
+    "ad": "Pire Arkeoloji Müzesi",
+    "kent": "Pire",
+    "ulke": "Yunanistan",
+    "enlem": 37.9405,
+    "boylam": 23.6475
+  },
+  "kapitol-muzeleri": {
+    "ad": "Capitoline Müzeleri",
+    "kent": "Roma",
+    "ulke": "İtalya",
+    "enlem": 41.8931,
+    "boylam": 12.4829
+  },
+  "campi-flegrei": {
+    "ad": "Museo Archeologico dei Campi Flegrei",
+    "kent": "Bacoli",
+    "ulke": "İtalya",
+    "enlem": 40.8156,
+    "boylam": 14.0785
   }
 }

@@ -16,7 +16,7 @@ kaynakca:
     adres: "https://museum.classics.cam.ac.uk/collections/casts/silenus-and-infant-dionysos"
 ilgiliMitler: ["dionysos-dogusu"]
 ilgiliTanrilar: ["dionysos"]
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["silenos"]
 ilgiliKentler: []
 gorsel:
   adres: "https://upload.wikimedia.org/wikipedia/commons/5/53/Silenus_holding_Dionysos_Louvre_Ma922.jpg"

@@ -13,7 +13,7 @@ kaynakca:
     adres: "https://collection.nationalmuseum.se/en/collection/item/17615/"
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["dionysos"]
-ilgiliKahramanlar: ["midas"]
+ilgiliKahramanlar: ["midas", "silenos"]
 ilgiliKentler: []
 gorsel:
   adres: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Drunken_Silenus_-_Nationalmuseum_-_17615.tif/lossy-page1-1280px-Drunken_Silenus_-_Nationalmuseum_-_17615.tif.jpg"

@@ -8,6 +8,7 @@ import { yaziAdresi } from './blog';
 import { blogYazilariniGetir } from './blogDizini';
 import { adresYaz, kronolojiAdresi } from './zamanAtlasi/adres';
 import { atlas } from './zamanAtlasi/atlas';
+import { aramaEsAnlamlari } from './aramaMetni';
 
 export interface AramaKaydi {
   baslik: string;
@@ -27,9 +28,10 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
   for (const bolum of bolumAnahtarlari) {
     const ogeler = (await getCollection(bolum)).sort((a, b) => a.data.sira - b.data.sira);
     for (const oge of ogeler) {
+      const aramaTerimleri = bolum === 'tanrilar' ? aramaEsAnlamlari[oge.id] ?? [] : [];
       kayitlar.push({
         baslik: oge.data.ad,
-        ozet: oge.data.ozet,
+        ozet: [oge.data.ozet, ...aramaTerimleri].join(' '),
         bolum: bolumler[bolum].tekil,
         adres: kayitAdresi(bolum, oge.id),
       });
@@ -55,9 +57,12 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
   }
   for (const { id, data } of await sanatEserleriniGetir()) {
     const muze = muzeler[data.muze];
+    const tanriAdlari = data.ilgiliTanrilar.flatMap((tanri) => aramaEsAnlamlari[tanri] ?? []);
     kayitlar.push({
       baslik: data.ad,
-      ozet: [data.ozgunAd, data.sanatci, data.ozet, muze.ad, muze.kent].filter(Boolean).join(' '),
+      ozet: [data.ozgunAd, data.sanatci, data.ozet, muze.ad, muze.kent, ...data.aramaTerimleri, ...tanriAdlari]
+        .filter(Boolean)
+        .join(' '),
       bolum: `Sanat eseri, ${sanatTurleri[data.tur].toLocaleLowerCase('tr')}`,
       adres: sanatEserAdresi(id),
     });

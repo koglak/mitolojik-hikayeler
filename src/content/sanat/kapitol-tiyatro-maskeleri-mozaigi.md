@@ -16,7 +16,7 @@ kaynakca:
     adres: "https://museicapitolini.comune.roma.it/assetdet/2403"
 ilgiliMitler: []
 ilgiliTanrilar: ["dionysos"]
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["silenos"]
 ilgiliKentler: []
 gorsel:
   adres: "https://www.museicapitolini.org/sites/default/files/storage/images/musei/musei_capitolini/percorsi/percorsi_per_sale/palazzo_nuovo/sala_delle_colombe/mosaico_con_maschere_sceniche/10015-16-ita-IT/mosaico_con_maschere_sceniche.jpg"

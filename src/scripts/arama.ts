@@ -1,3 +1,5 @@
+import { aramaIcinSadelestir } from '../lib/aramaMetni';
+
 type AramaKaydi = {
   baslik: string;
   ozet: string;
@@ -38,9 +40,9 @@ function aramayiBagla(): void {
 
   async function listele(): Promise<void> {
     const kayitlar = await aramaVerisiniYukle();
-    const aranan = kutu!.value.trim().toLocaleLowerCase('tr');
+    const aranan = aramaIcinSadelestir(kutu!.value.trim());
     const bulunanlar = kayitlar.filter((kayit) =>
-      [kayit.baslik, kayit.ozet, kayit.bolum].join(' ').toLocaleLowerCase('tr').includes(aranan),
+      aramaIcinSadelestir([kayit.baslik, kayit.ozet, kayit.bolum].join(' ')).includes(aranan),
     );
     if (bulunanlar.length === 0) {
       const bos = document.createElement('p');

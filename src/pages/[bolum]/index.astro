@@ -175,6 +175,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
                 {grup.kayitlar.map((kayit) => (
                   <li
                     data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined}
+                    data-ad={aramaIcinSadelestir(kayit.data.ad)}
                     data-adres={kayitAdresi(bolum, kayit.id)}
                     data-tanrilar={tapinakTanrilari(kayit).join(' ')}
                   >
@@ -197,6 +198,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
                 class:list={{ gizli: sayfali && sira >= sayfaBoyu }}
                 data-sayfa-disi={sayfali && sira >= sayfaBoyu ? '' : undefined}
                 data-aranan={aramaOrnegi ? aranacakMetin(kayit) : undefined}
+                data-ad={aramaIcinSadelestir(kayit.data.ad)}
                 data-panteon={bolum === 'tanrilar' ? panteon(kayit) : undefined}
               >
                 <KayitKarti
@@ -224,6 +226,7 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
   const kutu = document.querySelector<HTMLInputElement>('main:not([data-sayfali-dizin]) [data-kayit-ara]');
   const ogeler = Array.from(document.querySelectorAll<HTMLElement>('[data-aranan]'));
   const sonucYok = document.querySelector<HTMLElement>('[data-sonuc-yok]');
+  const liste = ogeler[0]?.parentElement;
   const bolgeGruplari = Array.from(document.querySelectorAll<HTMLElement>('[data-bolge-grubu]'));
   const tanriDugmeleri = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-tanri-dugmesi]'));
   const tanriDurumu = document.querySelector<HTMLElement>('[data-tanri-durumu]');
@@ -238,6 +241,18 @@ const aranacakMetin = (kayit: (typeof kayitlar)[number]) =>
       const eslesir = aramayaUyar && tanriyaUyar;
       oge.classList.toggle('gizli', !eslesir);
       if (eslesir) gorunen += 1;
+    }
+    if (liste) {
+      const adSirasi = (oge: HTMLElement) => {
+        const ad = oge.dataset.ad ?? '';
+        if (!aranan || ad === aranan) return 0;
+        if (ad.startsWith(aranan)) return 1;
+        if (ad.includes(aranan)) return 2;
+        return 3;
+      };
+      for (const oge of [...ogeler].sort((a, b) => adSirasi(a) - adSirasi(b) || ogeler.indexOf(a) - ogeler.indexOf(b))) {
+        liste.append(oge);
+      }
     }
     sonucYok?.classList.toggle('gizli', gorunen > 0);
     for (const grup of bolgeGruplari) {

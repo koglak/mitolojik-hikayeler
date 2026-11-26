@@ -9,7 +9,7 @@ import DizinSayfalari from '../../components/DizinSayfalari.astro';
 import { gorselKokenleri, sanatAciklamasi, sanatAdi, sanatAdresi, sanatEserAdresi, sanatTuruAnahtarlari, sanatTurleri } from '../../lib/sanat';
 import { muzeler, sanatEserleriniGetir } from '../../lib/sanatDizini';
 import { muzelereGrupla } from '../../lib/sanatSorgu';
-import { aramaIcinSadelestir } from '../../lib/aramaMetni';
+import { aramaEsAnlamlari, aramaIcinSadelestir } from '../../lib/aramaMetni';
 import { sayfaBoyu } from '../../lib/sayfalama';
 import { kirintiVerisi, koleksiyonVerisi } from '../../lib/yapisalVeri';
 
@@ -25,7 +25,19 @@ const haritaMuzeleri = muzeGruplari.map(({ muze, eserler: muzeEserleri }) => ({
 const aranacakMetin = ({ data }: (typeof eserler)[number]) => {
   const muze = muzeler[data.muze];
   return aramaIcinSadelestir(
-    [data.ad, data.ozgunAd, data.sanatci, data.ozet, data.tarih, sanatTurleri[data.tur], muze.ad, muze.kent, muze.ulke]
+    [
+      data.ad,
+      data.ozgunAd,
+      data.sanatci,
+      data.ozet,
+      data.tarih,
+      sanatTurleri[data.tur],
+      muze.ad,
+      muze.kent,
+      muze.ulke,
+      ...(data.aramaTerimleri ?? []),
+      ...data.ilgiliTanrilar.flatMap((tanri) => aramaEsAnlamlari[tanri] ?? []),
+    ]
       .filter(Boolean)
       .join(' '),
   );

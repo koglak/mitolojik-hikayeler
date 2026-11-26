@@ -14,7 +14,7 @@ kaynakca:
     adres: "https://www.sammlung.pinakothek.de/en/artwork/6kLaZjoG8V"
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["dionysos"]
-ilgiliKahramanlar: ["midas"]
+ilgiliKahramanlar: ["midas", "silenos"]
 ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Drunken_Silenus_-_Peter_Paul_Rubens.jpg/1280px-The_Drunken_Silenus_-_Peter_Paul_Rubens.jpg"

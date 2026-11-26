@@ -14,7 +14,7 @@ kaynakca:
     adres: "https://commons.wikimedia.org/wiki/Category:Silenus,_inv._323_(Pio_Clementino_Museum)"
 ilgiliMitler: ["midas"]
 ilgiliTanrilar: ["dionysos"]
-ilgiliKahramanlar: []
+ilgiliKahramanlar: ["silenos"]
 ilgiliKentler: []
 gorsel:
   adres: "https://upload.wikimedia.org/wikipedia/commons/4/44/Sileno_del_100-150_con_testa_di_et%C3%A0_flavia%2C_da_originali_del_primo_ellenismo_della_cerchia_di_lisisppo.JPG"

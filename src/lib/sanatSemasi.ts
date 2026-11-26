@@ -21,6 +21,7 @@ export const sanatSemasi = z.object({
   muze: kimlik,
   konumNotu: metin.optional(),
   ozet: metin,
+  aramaTerimleri: z.array(metin).default([]),
   kaynak: metin.optional(),
   kaynakca: z.array(z.object({ ad: metin, adres })).min(1),
   ilgiliMitler: kimlikler,
@@ -29,7 +30,7 @@ export const sanatSemasi = z.object({
   ilgiliKentler: kimlikler,
   gorsel: z
     .object({
-      adres: z.string().regex(/^https:\/\/(?:upload|thumb)\.wikimedia\.org\/[^\s?]+$|https:\/\/www\.museicapitolini\.org\/[^\s?]+$/),
+      adres: z.string().regex(/^(?:https:\/\/(?:upload|thumb)\.wikimedia\.org\/[^\s?]+|https:\/\/www\.museicapitolini\.org\/[^\s?]+|https:\/\/cdn\.sanity\.io\/images\/[^\s]+|https:\/\/www\.metmuseum\.org\/(?:[a-z]{2}\/)?-\/media\/[^\s]+|https:\/\/www\.datocms-assets\.com\/103094\/[^\s]+|https:\/\/media\.britishmuseum\.org\/media\/Repository\/Documents\/[^\s]+|https:\/\/www\.smb\.museum\/uploads\/tx_smb\/events\/[^\s]+|\/sanat-eserleri\/[a-z0-9-]+\.jpg)$/),
       genislik: z.number().int().positive(),
       yukseklik: z.number().int().positive(),
       alt: metin,
