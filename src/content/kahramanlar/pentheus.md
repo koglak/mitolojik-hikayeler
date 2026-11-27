@@ -17,10 +17,10 @@ kaynak: "Euripides, Bakkhalar; Ovidius, Dönüşümler 3.511–733; Apollodoros,
 ilgiliMitler: ["dionysos-ve-korsanlar", "dionysos-ve-pentheus"]
 ilgiliKentler: ["korinthos", "thebai"]
 ilgiliTanrilar: ["dionysos"]
-ilgiliKahramanlar: ["kadmos", "semele", "teiresias"]
+ilgiliKahramanlar: ["agaue", "kadmos", "semele", "teiresias"]
 ---
 
-Pentheus, Kadmos'un torunuydu ve dedesi yaşlanınca Thebai tahtına geçti. Dionysos, annesi Semele'nin kentine geldiğinde teyzeleri onun Zeus'un oğlu olduğuna inanmadı. Tanrı kentin kadınlarını çıldırtıp Kithairon Dağı'na gönderdi. Pentheus bu yeni dini yasakladı. Kadmos ile Teiresias onu uyardı, dinlemedi.
+Pentheus, [Agaue](/kahramanlar/agaue/) ile Ekhion'un oğluydu. Kadmos'un torunuydu ve dedesi yaşlanınca Thebai tahtına geçti. Dionysos, annesi Semele'nin kentine geldiğinde teyzeleri onun Zeus'un oğlu olduğuna inanmadı. Tanrı kentin kadınlarını çıldırtıp Kithairon Dağı'na gönderdi. Pentheus bu yeni dini yasakladı. Kadmos ile Teiresias onu uyardı, dinlemedi.
 
 Euripides'in Bakkhalar oyununda Dionysos insan kılığında yakalanıp zindana atılır. Sarayı bir deprem sarsar, tanrı zincirlerinden kolayca kurtulur. Pentheus'a dağdaki kadınları görmek isteyip istemediğini sorar. Kral merakına yenilir, kadın giysileri giyer ve Dionysos'un eğip kaldırdığı uzun bir çamın tepesine oturur. Kadınlar ağacı kökünden söker. Pentheus başlığını atıp annesine kim olduğunu söyler ama Agaue'nin gözü dönmüştür, oğlunu bir aslan yavrusu sanır. Teyzeleriyle birlikte onu elleriyle parçalar.
 

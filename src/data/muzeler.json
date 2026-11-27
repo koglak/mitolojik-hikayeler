@@ -6,6 +6,13 @@
     "enlem": 48.8606,
     "boylam": 2.3376
   },
+  "chrysler-museum": {
+    "ad": "Chrysler Museum of Art",
+    "kent": "Norfolk",
+    "ulke": "Amerika Birleşik Devletleri",
+    "enlem": 36.8508,
+    "boylam": -76.2859
+  },
   "orsay": {
     "ad": "Orsay Müzesi",
     "kent": "Paris",
@@ -369,6 +376,13 @@
     "ulke": "ABD",
     "enlem": 39.9658,
     "boylam": -75.1812
+  },
+  "penn-museum": {
+    "ad": "Penn Museum",
+    "kent": "Philadelphia",
+    "ulke": "ABD",
+    "enlem": 39.9496,
+    "boylam": -75.1503
   },
   "gardner": {
     "ad": "Isabella Stewart Gardner Müzesi",

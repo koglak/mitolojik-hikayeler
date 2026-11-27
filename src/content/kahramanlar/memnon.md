@@ -15,10 +15,10 @@ kaynak: "Hesiodos, Theogonia 984–985; Homeros, Odysseia 4.187–188; Proklos'u
 ilgiliMitler: ["akhilleus", "truva-ati"]
 ilgiliKentler: ["truva"]
 ilgiliTanrilar: ["eos", "hephaistos", "zeus"]
-ilgiliKahramanlar: ["akhilleus", "hektor", "nestor", "priamos"]
+ilgiliKahramanlar: ["akhilleus", "hektor", "nestor", "priamos", "tithonos"]
 ---
 
-Memnon, şafak tanrıçası Eos ile Truvalı prens Tithonos'un oğluydu. Eos Tithonos'a âşık olmuş, Zeus'tan onun için ölümsüzlük istemiş ama sonsuz gençlik istemeyi unutmuştu. Oğulları Memnon büyüyüp uzak güneydeki Etiyopyalıların kralı oldu. Hephaistos onun için Akhilleus'unki gibi bir zırh yaptı.
+Memnon, şafak tanrıçası Eos ile Truvalı prens [Tithonos](/kahramanlar/tithonos/)'un oğluydu. Eos Tithonos'a âşık olmuş, Zeus'tan onun için ölümsüzlük istemiş ama sonsuz gençlik istemeyi unutmuştu. Oğulları Memnon büyüyüp uzak güneydeki Etiyopyalıların kralı oldu. Hephaistos onun için Akhilleus'unki gibi bir zırh yaptı.
 
 Hektor öldükten sonra Memnon ordusuyla amcası Priamos'a yardıma geldi. Savaşta Nestor'un oğlu Antilokhos'u öldürdü. Arkadaşının öcünü almak isteyen Akhilleus onunla karşılaştı. İki tanrıça oğlu çarpışırken Zeus kaderlerini terazide tarttı ve Memnon'un kefesi ağır bastı. Akhilleus Memnon'u öldürdü.
 

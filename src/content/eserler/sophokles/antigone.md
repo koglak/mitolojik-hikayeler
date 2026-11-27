@@ -10,7 +10,7 @@ durum: "tam"
 ozet: "Kardeşini gömmek için kralın buyruğuna karşı çıkan genç kadının tragedyası."
 ---
 
-Kreon, kente saldıran Polyneikes'in gömülmesini yasaklar. Antigone ölülerin hakkının yazılmamış yasalardan geldiğini söyler ve kardeşinin üzerine toprak serper. Diri diri bir mezara kapatılır. Kreon geri adım attığında iş işten geçmiştir: Antigone, Haimon ve Eurydike ölmüştür.
+Kreon, kente saldıran Polyneikes'in gömülmesini yasaklar. Antigone ölülerin hakkının yazılmamış yasalardan geldiğini söyler ve kardeşinin üzerine toprak serper. Diri diri bir mezara kapatılır. Kreon geri adım attığında iş işten geçmiştir: Antigone, [Haimon](/kahramanlar/haimon/) ve Eurydike ölmüştür.
 
 
 Hikâyenin kartlı anlatımı [Antigone](/mitler/antigone/) sayfasında.

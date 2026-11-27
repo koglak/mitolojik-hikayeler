@@ -53,13 +53,13 @@ Gözcü ile Eteokles girer. Gözcü kapılara gelen yedi saldırganı ve kalkanl
 
 Proitos kapısında [Tydeus](/kahramanlar/tydeus/) vardır. Kurbanlar uygun çıkmadığı için kendisini durduran Oikles'in oğlu kâhin Amphiaraos'a korkak diye sövmektedir. Kalkanında yıldızlı bir gece ve dolunay vardır. Eteokles, bu gecenin Tydeus'un gözlerine çökecek ölüm olabileceğini söyler, karşısına Astakos'un oğlu Melanippos'u koyar.
 
-Elektra kapısı kurada Kapaneus'a düşmüştür. Zeus istesin istemesin kenti yakacağını söylemektedir. Kalkanında elinde meşaleyle çıplak bir adam ve "Kenti yakacağım" yazısı vardır. Eteokles, tanrıları hor görmesinin cezasını yıldırımla çekeceğine inanır, karşısına Polyphontes'i koyar.
+Elektra kapısı kurada [Kapaneus](/kahramanlar/kapaneus/)'a düşmüştür. Zeus istesin istemesin kenti yakacağını söylemektedir. Kalkanında elinde meşaleyle çıplak bir adam ve "Kenti yakacağım" yazısı vardır. Eteokles, tanrıları hor görmesinin cezasını yıldırımla çekeceğine inanır, karşısına Polyphontes'i koyar.
 
 Neis kapısı Eteoklos'a çıkmıştır. Kalkanında bir kuleye merdivenle tırmanan silahlı bir adam vardır, Ares'in bile onu surlardan atamayacağı yazılıdır. Karşısına Kreon'un oğlu Megareus gönderilmiştir, atların kişnemesinden korkup kapıyı bırakmayacaktır.
 
-Athena Onka'nın kapısında dev yapılı Hippomedon vardır. Kocaman kalkanını çevirdiğinde gözcünün bile ödü kopmuştur. Kalkanında ateş soluyan Typhon görülür. Adam Ares'le dolmuş, Bakkhalar gibi kendinden geçmiştir. Eteokles karşısına Oinops'un oğlu Hyperbios'u seçer. Onun kalkanında Zeus vardır, Zeus'un yenildiğini gören olmamıştır.
+Athena Onka'nın kapısında dev yapılı [Hippomedon](/kahramanlar/hippomedon/) vardır. Kocaman kalkanını çevirdiğinde gözcünün bile ödü kopmuştur. Kalkanında ateş soluyan Typhon görülür. Adam Ares'le dolmuş, Bakkhalar gibi kendinden geçmiştir. Eteokles karşısına Oinops'un oğlu Hyperbios'u seçer. Onun kalkanında Zeus vardır, Zeus'un yenildiğini gören olmamıştır.
 
-Beşinci kapı, Zeus'un oğlu Amphion'un mezarı yanındaki kuzey kapısıdır. Burada dağlı bir ananın oğlu, sakalı yeni terleyen Arkadialı Parthenopaios vardır. Kalkanında, pençesinde bir Kadmoslu tutan Sfenks görülür. Kendisini büyüten Argos'a borcunu ödemektedir. Eteokles karşısına Hyperbios'un kardeşi Aktor'u koyar.
+Beşinci kapı, Zeus'un oğlu Amphion'un mezarı yanındaki kuzey kapısıdır. Burada dağlı bir ananın oğlu, sakalı yeni terleyen Arkadialı [Parthenopaios](/kahramanlar/parthenopaios/) vardır. Kalkanında, pençesinde bir Kadmoslu tutan Sfenks görülür. Kendisini büyüten Argos'a borcunu ödemektedir. Eteokles karşısına Hyperbios'un kardeşi Aktor'u koyar.
 
 Homolois kapısında [Amphiaraos](/kahramanlar/amphiaraos/) vardır. Tydeus'u suçlar, Polyneikes'e de yabancı bir orduyla kendi yurduna saldırmanın tanrıların hoşuna gidip gitmeyeceğini sorar. Kâhin olduğu için bu toprakta öleceğini bilir. Kalkanında hiç arma yoktur, çünkü en iyi görünmek değil, olmak ister. Eteokles, doğru bir adamın kötülerle aynı gemiye binince onlarla birlikte battığını söyler. Karşısına, aklı yaşlı, bedeni genç Lasthenes'i koyar.
 

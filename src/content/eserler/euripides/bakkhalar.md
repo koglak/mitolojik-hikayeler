@@ -24,7 +24,7 @@ Yunan tragedyasında üç tür başlangıç vardır: Aiskhylos koroyla, Sofokles
 
 - **Dionysos:** şarap ve esrime tanrısı, insan kılığındadır
 - **Pentheus:** Thebai kralı, Agaue'nin oğlu ve Dionysos'un kuzeni
-- **Agaue:** Pentheus'un annesi, Semele'nin kız kardeşi
+- **[Agaue](/kahramanlar/agaue/):** Pentheus'un annesi, Semele'nin kız kardeşi
 - **Kadmos:** Thebai'nin kurucusu, tahtı torunu Pentheus'a bırakmış yaşlı kral
 - **Teiresias:** Thebai'nin kör kahini
 - **Koro:** Dionysos'la birlikte Asya'dan gelmiş Bakkhalar
@@ -44,7 +44,7 @@ Koro, Tmolos'tan gelen Bakkhalar olarak girer ve ayinlerini anlatır. [Hera](/ta
 
 Teiresias çıkar ve Kadmos'u çağırtır. Kadmos Dionysos'un şenliklerine katılmaya söz vermiştir. İki yaşlı, tanrıyı yüceltmek için dağa yürüyüp ayinlere katılmaya karar verir.
 
-Pentheus telaşla girer. Kentte yokken kadınların evlerini bırakıp Bakkhos şenliklerine katıldığını öğrenmiştir. Bir kısmını yakalatıp hapse attırmıştır. Dağdakiler arasında annesi Agaue ile teyzeleri Autonoe ve Ino da vardır. Bir yabancının kendini tanrı diye tanıtıp kadınları baştan çıkardığını duyar. Kadmos ile Teiresias'ı da ayin giysileriyle görünce onların aklını yitirdiğini düşünür.
+Pentheus telaşla girer. Kentte yokken kadınların evlerini bırakıp Bakkhos şenliklerine katıldığını öğrenmiştir. Bir kısmını yakalatıp hapse attırmıştır. Dağdakiler arasında annesi Agaue ile teyzeleri [Autonoe](/kahramanlar/autonoe/) ve [İno](/kahramanlar/ino/) da vardır. Bir yabancının kendini tanrı diye tanıtıp kadınları baştan çıkardığını duyar. Kadmos ile Teiresias'ı da ayin giysileriyle görünce onların aklını yitirdiğini düşünür.
 
 Koro Pentheus'un küstahlığına kızar. Teiresias, Demeter ile Dionysos'un insanlığa iki büyük armağan olduğunu söyler. Biri ekmeği, öbürü şarabı verir. Dionysos'un gün gelip bütün Hellas'ta saygı göreceğini ekler. Kadmos da torununu ayinlere katılmaya çağırır. Ona, tanrıyı küçümsediği için [Aktaion](/kahramanlar/aktaion/)'un başına gelenleri hatırlatır. Aktaion, Autonoe'nin oğlu ve Pentheus'un kuzenidir. Kendini Artemis'ten iyi avcı sandığı için kendi köpekleri onu parçalamıştır.
 
@@ -68,7 +68,7 @@ Koro, Dionysos'un zindana atılmasına yakınır ve tanrıyı yardıma çağır�
 
 Saray bir depremle sarsılır, kapılar ve sütunlar yıkılır. Dionysos kendi sesini duyuran bir tanrı olarak çıkıp Pentheus'u nasıl oyuna getirdiğini anlatır. Pentheus bir görüntüye kapılmıştır. Yabancıyı zincirlediğini sanarak bir boğayı bağlamış, sonra onu bir hayalet sanıp bıçaklamaya kalkmıştır.
 
-Pentheus öfkeyle çıkar ve kentin kapılarının kapatılmasını ister. Bir sığırtmaç gelir. Kithairon'da sabah üç bölük esrik kadın gördüğünü anlatır. Bölüklerin başında Agaue, Autonoe ve Ino vardır. Kadınlar toprağa vurunca su, süt ve şarap fışkırır. Sığırtmaçlar Agaue'yi yakalamaya çalışınca kadınlar onlara saldırır, sığırları parçalar.
+Pentheus öfkeyle çıkar ve kentin kapılarının kapatılmasını ister. Bir sığırtmaç gelir. Kithairon'da sabah üç bölük esrik kadın gördüğünü anlatır. Bölüklerin başında Agaue, [Autonoe](/kahramanlar/autonoe/) ve [İno](/kahramanlar/ino/) vardır. Kadınlar toprağa vurunca su, süt ve şarap fışkırır. Sığırtmaçlar Agaue'yi yakalamaya çalışınca kadınlar onlara saldırır, sığırları parçalar.
 
 Pentheus kadınları dağdan indirmek için asker toplamak ister. Dionysos onu bundan caydırmaya çalışır. Pentheus kabul etmeyince tanrı ona kadınları kadın kılığında gizlice gözetlemeyi önerir. Pentheus kadın giysisi giymekten tiksinir ama sonunda kabul eder.
 

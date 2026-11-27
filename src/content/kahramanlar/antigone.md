@@ -6,15 +6,15 @@ bilgiler:
   - etiket: "Anne-baba"
     deger: "Oidipus ve İokaste"
   - etiket: "Kardeşleri"
-    deger: "Eteokles, Polyneikes, İsmene"
+    deger: "Eteokles, Polyneikes, [İsmene](/kahramanlar/ismene/)"
   - etiket: "Nişanlısı"
-    deger: "Kral Kreon'un oğlu Haimon"
+    deger: "Kral Kreon'un oğlu [Haimon](/kahramanlar/haimon/)"
   - etiket: "Memleketi"
     deger: "Thebai"
 kaynak: "Sophokles, Antigone; Sophokles, Oidipus Kolonos'ta; Aiskhylos, Thebai'ye Karşı Yediler; Apollodoros, Kütüphane 3.7.1"
 ilgiliMitler: ["oidipus", "antigone"]
 ilgiliKentler: ["argos", "thebai"]
-ilgiliKahramanlar: ["oidipus"]
+ilgiliKahramanlar: ["haimon", "ismene", "oidipus"]
 ---
 
 Oidipus gözlerini kör edip Thebai'den sürüldüğünde onu yalnız bırakmayan kızı Antigone oldu. Yıllarca kör babasına yol gösterdi ve onu ölümüne kadar Kolonos'ta bekledi. Sonra kardeşleri arasında barış sağlamak umuduyla Thebai'ye döndü.

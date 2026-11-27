@@ -796,7 +796,11 @@ const simgeler: Record<string, string> = {
 const genelKahramanSimgesi =
   '<path d="M32 5 9 18v28l23 13 23-13V18L32 5Zm0 7 16 9v20l-16 9-16-9V21l16-9Zm0 7a7 7 0 1 0 0 14 7 7 0 0 0 0-14Zm-12 24c2-6 6-9 12-9s10 3 12 9"/>';
 
-const simgesiOlmayanKahramanlar = new Set(['aetes', 'deukalion-ve-pyrrha', 'harmonia', 'ino', 'kheiron', 'pasiphae', 'silenos']);
+const simgesiOlmayanKahramanlar = new Set([
+  'aetes', 'adrastos', 'agaue', 'autonoe', 'deiphobos', 'deukalion-ve-pyrrha',
+  'euadne', 'haimon', 'harmonia', 'hippomedon', 'ino', 'ismene', 'kapaneus',
+  'kheiron', 'parthenopaios', 'pasiphae', 'silenos', 'tithonos',
+]);
 
 export const kahramanSimgesi = (slug: string): string | undefined =>
   simgeler[slug] ?? (simgesiOlmayanKahramanlar.has(slug) ? genelKahramanSimgesi : undefined);

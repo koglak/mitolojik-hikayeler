@@ -432,5 +432,45 @@
     "makale": "Orestes Pursued by the Furies",
     "sahibi": "William-Adolphe Bouguereau",
     "alt": "Orestes, annesi Klytaimnestra’yı öldürdükten sonra Erinysler tarafından kovalanırken"
+  },
+  "ani-olu-kitabi": {
+    "arama": "Papyrus of Ani British Museum EA10470",
+    "alt": "Ani Papirüsü’nde ölüler dünyasına geçişi anlatan resimli sahne"
+  },
+  "gebelein-adami-mumyasi": {
+    "arama": "Gebelein Man mummy",
+    "alt": "Gebelein’den doğal yolla korunmuş tarihöncesi insan bedeni"
+  },
+  "gayer-anderson-kedisi": {
+    "arama": "Gayer-Anderson Cat",
+    "alt": "Oturur pozisyonda bronz Gayer-Anderson kedisi"
+  },
+  "amenhotep-iii-sekhmet-heykeli": {
+    "arama": "Sekhmet statue British Museum",
+    "alt": "Papirüs asası ve ankh tutan ayakta Sekhmet heykeli"
+  },
+  "amenhotep-iii-aslan-heykelleri": {
+    "arama": "Lion statues Amenhotep III British Museum Soleb",
+    "alt": "Soleb Tapınağı için yaptırılan uzanmış granit aslan heykelleri"
+  },
+  "amenhotep-iii-dev-heykeli": {
+    "arama": "Seated statue Amenhotep III British Museum EA4",
+    "alt": "Tahtında oturan III. Amenhotep’in anıtsal heykeli"
+  },
+  "nebamun-mezar-resimleri": {
+    "arama": "Nebamun tomb painting",
+    "alt": "Nebamun’un mezarından renkli duvar resmi parçası"
+  },
+  "ahmose-nefertari-mezar-resmi": {
+    "arama": "Ahmose Nefertari tomb painting",
+    "alt": "Kynebu’nun mezar resminde tasvir edilen Ahmose-Nefertari"
+  },
+  "abydos-kral-listesi-ramses-ii": {
+    "arama": "Abydos king list Ramesses II",
+    "alt": "II. Ramses’in Abydos tapınağındaki kral listesinden yazılı taş parçası"
+  },
+  "orestes-elektra-heykel": {
+    "dosya": "File:OrestesElectra.jpg",
+    "alt": "Orestes ve Elektra diye bilinen, birbirine yakın duran iki figürlü mermer heykel grubu"
   }
 }

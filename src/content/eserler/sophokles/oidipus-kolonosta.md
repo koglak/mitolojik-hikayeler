@@ -96,7 +96,7 @@ Koro, uzun yaşamın acılarından söz eder. En iyisi hiç doğmamaktır, ondan
 
 ## 4. Epeisodion
 
-Polyneikes ağlayarak girer ve babasını bu hale bıraktığı için kendini suçlar. Küçük kardeşi Eteokles halkı kandırıp onu kovmuştur. Argos'a gidip Adrastos'un kızıyla evlenmiş, Thebai'ye karşı yedi ordu toplamıştır. Önde savaşta ve kuş yorumunda usta [Amphiaraos](/kahramanlar/amphiaraos/) vardır. İkincisi Oineus'un oğlu Aitolialı [Tydeus](/kahramanlar/tydeus/), üçüncüsü Argoslu Eteoklos, dördüncüsü babası Talaos'un gönderdiği Hippomedon, beşincisi Thebai'yi yakmaya ant içen Kapaneus, altıncısı Arkadialı Parthenopaios'tur. Parthenopaios adını, uzun süre bakire kalan annesi [Atalanta](/kahramanlar/atalanta/)'dan almıştır. Yedinci kendisidir. Kehanete göre zafer Oidipus'un yanında olduğu tarafındır. Polyneikes af diler ve yardım ister.
+Polyneikes ağlayarak girer ve babasını bu hale bıraktığı için kendini suçlar. Küçük kardeşi Eteokles halkı kandırıp onu kovmuştur. Argos'a gidip Adrastos'un kızıyla evlenmiş, Thebai'ye karşı yedi ordu toplamıştır. Önde savaşta ve kuş yorumunda usta [Amphiaraos](/kahramanlar/amphiaraos/) vardır. İkincisi Oineus'un oğlu Aitolialı [Tydeus](/kahramanlar/tydeus/), üçüncüsü Argoslu Eteoklos, dördüncüsü babası Talaos'un gönderdiği [Hippomedon](/kahramanlar/hippomedon/), beşincisi Thebai'yi yakmaya ant içen Kapaneus, altıncısı Arkadialı [Parthenopaios](/kahramanlar/parthenopaios/)’tur. Parthenopaios adını, uzun süre bakire kalan annesi [Atalanta](/kahramanlar/atalanta/)'dan almıştır. Yedinci kendisidir. Kehanete göre zafer Oidipus'un yanında olduğu tarafındır. Polyneikes af diler ve yardım ister.
 
 Oidipus öfkelidir. Thebai'de hüküm sürerken kendisini kovan, bu hale düşüren odur. İki kardeşin birbirini öldürmesi için lanet okur.
 

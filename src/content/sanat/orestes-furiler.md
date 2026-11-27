@@ -14,6 +14,14 @@ kaynakca:
     adres: "https://chrysler.emuseum.com/objects/27206/orestes-pursued-by-the-furies"
 ilgiliMitler: ["orestes-erinysler"]
 ilgiliKahramanlar: ["orestes"]
+gorsel:
+  adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Orestes_Pursued_by_the_Furies_by_William-Adolphe_Bouguereau_%281862%29_-_Google_Art_Project.jpg/1280px-Orestes_Pursued_by_the_Furies_by_William-Adolphe_Bouguereau_%281862%29_-_Google_Art_Project.jpg"
+  genislik: 1280
+  yukseklik: 1063
+  sahibi: "William-Adolphe Bouguereau"
+  lisans: "Kamu malı"
+  kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Orestes_Pursued_by_the_Furies_by_William-Adolphe_Bouguereau_(1862)_-_Google_Art_Project.jpg"
+  alt: "Orestes, annesi Klytaimnestra’yı öldürdükten sonra Erinysler tarafından kovalanırken"
 ---
 
 ## Anlattığı hikâye
