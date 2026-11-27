@@ -43,7 +43,6 @@ const yapisalVeri = [kirintiVerisi([{ ad: 'Antik Kent Rehberi', yol: '/antik-ken
       </header>
       <section class="kesif" aria-label="Antik kent yapıları">
         <div class="sahne">
-          <div class="sahne-ust"><span>TEMSİLİ KENT CANLANDIRMASI</span><span>Bir yapıyı seç ↗</span></div>
           <div class="kent-gorseli" role="group" aria-label="Temsili antik kentin gerçekçi canlandırması">
             <img src="/images/antik-kent-gercekci.png" alt="Deniz kıyısında, surlarla çevrili; tapınağı, agorası, tiyatrosu ve stadionu görülen temsili bir antik kent" width="1536" height="1024" fetchpriority="high" />
             {yapilar.map((yapi) => <button class="isaret" type="button" data-yapi={yapi.id} style={`--x:${yapi.x}%;--y:${yapi.y}%`} aria-label={`${yapi.ad}: ${yapi.aciklama}`}><span>{yapi.ad}</span></button>)}
@@ -53,12 +52,7 @@ const yapisalVeri = [kirintiVerisi([{ ad: 'Antik Kent Rehberi', yol: '/antik-ken
         <aside class="bilgi" aria-live="polite" data-bilgi>
           <p class="bilgi-tur">YAPILARI KEŞFET</p><h2 data-ad>Bir yapı seç</h2>
           <p data-aciklama>Kent planındaki etiketlere dokunarak agora, tapınak, tiyatro ve diğer yapıların ne işe yaradığını öğren.</p>
-          <div class="ilerleme"><span data-sayi>24 yapı</span><span>·</span><span>antik kentte yaşam</span></div>
         </aside>
-      </section>
-      <section class="yapi-listesi" aria-label="Yapı listesinden seç">
-        <h2>Kentte neler vardı?</h2>
-        <div>{yapilar.map((yapi) => <button type="button" data-yapi={yapi.id}><span>{yapi.ad}</span><small>{yapi.tur}</small><b aria-hidden="true">↗</b></button>)}</div>
       </section>
       <p class="not">Antik kentler tek bir plana göre kurulmadı. Coğrafya, dönem ve yerel gelenekler yapıların biçimini ve kentteki yerini değiştirirdi. Liman, su kemeri, kütüphane, bazilika ve latrina gibi yapılar belirli kentlerde ya da dönemlerde görülür.</p>
     </main>

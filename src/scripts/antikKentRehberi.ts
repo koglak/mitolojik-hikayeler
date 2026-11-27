@@ -29,14 +29,12 @@ if (kok) {
   const baslik = kok.querySelector<HTMLElement>('[data-ad]');
   const aciklama = kok.querySelector<HTMLElement>('[data-aciklama]');
   const tur = kok.querySelector<HTMLElement>('.bilgi-tur');
-  const sayi = kok.querySelector<HTMLElement>('[data-sayi]');
   function sec(id: string) {
     const yapi = yapilar.find((oge) => oge.id === id);
-    if (!yapi || !baslik || !aciklama || !tur || !sayi) return;
+    if (!yapi || !baslik || !aciklama || !tur) return;
     baslik.textContent = yapi.ad;
     aciklama.textContent = yapi.aciklama;
     tur.textContent = yapi.tur.toLocaleUpperCase('tr');
-    sayi.textContent = `${yapilar.findIndex((oge) => oge.id === id) + 1} / ${yapilar.length} yapı`;
     kok!.querySelectorAll('[data-yapi]').forEach((oge) => {
       const secili = oge.getAttribute('data-yapi') === id;
       oge.classList.toggle('secili', secili);
