@@ -2,33 +2,73 @@
 import Temel from '../layouts/Temel.astro';
 import SiteBasligi from '../components/SiteBasligi.astro';
 import SiteAltBilgisi from '../components/SiteAltBilgisi.astro';
+import { getCollection } from 'astro:content';
+import { kayitAdresi } from '../lib/bolumler';
 import { kirintiVerisi } from '../lib/yapisalVeri';
 
+const kentKayitlari = await getCollection('kentler');
+const ornekSecimleri: Record<string, { kent: string; yapi: string }> = {
+  agora: { kent: 'efes', yapi: 'Ticaret Agorası' },
+  tapinak: { kent: 'efes', yapi: 'Artemis Tapınağı' },
+  tiyatro: { kent: 'efes', yapi: 'Büyük Tiyatro' },
+  stoa: { kent: 'delphi', yapi: 'Atinalılar Stoası' },
+  odeon: { kent: 'efes', yapi: 'Odeon' },
+  hamam: { kent: 'efes', yapi: 'Skolastikia Hamamı' },
+  stadion: { kent: 'afrodisias', yapi: 'Stadyum' },
+  nekropol: { kent: 'myra', yapi: 'Likya Kaya Mezarları' },
+  sur: { kent: 'samos', yapi: 'Pythagoreion Kent Surları' },
+  gymnasion: { kent: 'delphi', yapi: 'Gymnasion' },
+  bouleuterion: { kent: 'alabanda', yapi: 'Bouleuterion' },
+  nymphaion: { kent: 'aspendos', yapi: 'Nymphaion' },
+  cesme: { kent: 'sagalassos', yapi: 'Antoninler Çeşmesi' },
+  sarnic: { kent: 'aspendos', yapi: 'Sarnıç' },
+  'su-kemeri': { kent: 'aspendos', yapi: 'Su Kemeri' },
+  dukkanlar: { kent: 'aigai', yapi: 'Pazar Binası' },
+  konutlar: { kent: 'efes', yapi: 'Yamaç Evler' },
+  liman: { kent: 'phaselis', yapi: 'Liman' },
+  kapi: { kent: 'efes', yapi: 'Mazaeus ve Mithridates Kapısı' },
+  'ana-yol': { kent: 'efes', yapi: 'Liman Caddesi (Arkadiane)' },
+  'kutsal-alan': { kent: 'delphi', yapi: 'Athena Pronaia Tholos’u' },
+  kutuphane: { kent: 'efes', yapi: 'Celsus Kütüphanesi' },
+  bazilika: { kent: 'aspendos', yapi: 'Bazilika' },
+  latrina: { kent: 'efes', yapi: 'Latrina' },
+};
+const kentHaritasi = new Map(kentKayitlari.map((kent) => [kent.id, kent]));
+function ornekGorseli(kimlik: string) {
+  const secim = ornekSecimleri[kimlik];
+  const kent = secim && kentHaritasi.get(secim.kent);
+  if (!kent || !secim) return undefined;
+  const yapi = kent.data.yapilar.find((oge) => oge.ad.toLocaleLowerCase('tr').includes(secim.yapi.toLocaleLowerCase('tr')) && oge.gorsel);
+  const gorsel = yapi?.gorsel ?? kent.data.kunyeGorseli;
+  return gorsel ? { kent, yapi, gorsel } : undefined;
+}
+const ilkOrnek = ornekGorseli('agora')!;
+
 const yapilar = [
-  { id: 'agora', ad: 'Agora', tur: 'Kamusal alan', aciklama: 'Kent yaşamının kalbi olan agora; alışverişin yapıldığı, haberlerin paylaşıldığı ve yurttaşların buluştuğu açık meydandı. Çevresinde dükkânlar, stoalar ve kamusal yapılar bulunurdu.', x: 50, y: 49 },
-  { id: 'tapinak', ad: 'Tapınak', tur: 'Kutsal alan', aciklama: 'Tapınak, kentin tanrı ya da tanrıçasına adanırdı. İç bölümde tanrı heykeli bulunabilir; kurban ve törenler çoğunlukla dışarıdaki sunak çevresinde yapılırdı.', x: 17, y: 22 },
-  { id: 'tiyatro', ad: 'Tiyatro', tur: 'Gösteri yapısı', aciklama: 'Yamaçlara yaslanan tiyatrolarda oyunlar, müzikli gösteriler ve kimi zaman kent toplantıları düzenlenirdi. Yarım daire oturma sıraları sahne yapısına bakardı.', x: 44, y: 32 },
-  { id: 'stoa', ad: 'Stoa', tur: 'Sütunlu galeri', aciklama: 'Stoa, bir ya da daha fazla cephesi sütunlarla açılan uzun, üstü örtülü bir galeriydi. İnsanlar burada dolaşır, dinlenir ve dükkânlarda alışveriş yapardı.', x: 42, y: 56 },
-  { id: 'odeon', ad: 'Odeon', tur: 'Müzik yapısı', aciklama: 'Odeon, müzik ve şiir dinletileri gibi etkinlikler için kullanılan, genellikle tiyatrodan daha küçük ve üstü örtülü bir gösteri yapısıydı.', x: 60, y: 43 },
-  { id: 'hamam', ad: 'Hamam', tur: 'Yıkanma ve buluşma', aciklama: 'Hamamlar yıkanma, dinlenme ve sosyalleşme yerleriydi. Roma döneminde sıcak, ılık ve soğuk odalardan oluşan büyük hamam kompleksleri yaygınlaştı.', x: 73, y: 55 },
-  { id: 'stadion', ad: 'Stadion', tur: 'Spor alanı', aciklama: 'Stadionda koşu yarışları ve atletik karşılaşmalar yapılırdı. Ölçüsü ve biçimi kentten kente değişse de uzun, açık bir yarış alanıydı.', x: 87, y: 28 },
+  { id: 'agora', ad: 'Agora', tur: 'Kamusal alan', aciklama: 'Kent yaşamının kalbi olan agora; alışverişin yapıldığı, haberlerin paylaşıldığı ve yurttaşların buluştuğu açık meydandı. Çevresinde dükkânlar, stoalar ve kamusal yapılar bulunurdu.', x: 52, y: 49 },
+  { id: 'tapinak', ad: 'Tapınak', tur: 'Kutsal alan', aciklama: 'Tapınak, kentin tanrı ya da tanrıçasına adanırdı. İç bölümde tanrı heykeli bulunabilir; kurban ve törenler çoğunlukla dışarıdaki sunak çevresinde yapılırdı.', x: 21, y: 17 },
+  { id: 'tiyatro', ad: 'Tiyatro', tur: 'Gösteri yapısı', aciklama: 'Yamaçlara yaslanan tiyatrolarda oyunlar, müzikli gösteriler ve kimi zaman kent toplantıları düzenlenirdi. Yarım daire oturma sıraları sahne yapısına bakardı.', x: 44, y: 26 },
+  { id: 'stoa', ad: 'Stoa', tur: 'Sütunlu galeri', aciklama: 'Stoa, bir ya da daha fazla cephesi sütunlarla açılan uzun, üstü örtülü bir galeriydi. İnsanlar burada dolaşır, dinlenir ve dükkânlarda alışveriş yapardı.', x: 27, y: 41 },
+  { id: 'odeon', ad: 'Odeon', tur: 'Müzik yapısı', aciklama: 'Odeon, müzik ve şiir dinletileri gibi etkinlikler için kullanılan, genellikle tiyatrodan daha küçük ve üstü örtülü bir gösteri yapısıydı.', x: 53, y: 43 },
+  { id: 'hamam', ad: 'Hamam', tur: 'Yıkanma ve buluşma', aciklama: 'Hamamlar yıkanma, dinlenme ve sosyalleşme yerleriydi. Roma döneminde sıcak, ılık ve soğuk odalardan oluşan büyük hamam kompleksleri yaygınlaştı.', x: 74, y: 51 },
+  { id: 'stadion', ad: 'Stadion', tur: 'Spor alanı', aciklama: 'Stadionda koşu yarışları ve atletik karşılaşmalar yapılırdı. Ölçüsü ve biçimi kentten kente değişse de uzun, açık bir yarış alanıydı.', x: 86, y: 25 },
   { id: 'nekropol', ad: 'Nekropol', tur: 'Mezarlık alanı', aciklama: 'Nekropol, kentin dışında ya da giriş yolları boyunca uzanan mezarlık alanıydı. Mezar anıtları ölüleri anmanın yanı sıra ailelerin ve kentlilerin statüsünü de gösterirdi.', x: 94, y: 76 },
-  { id: 'sur', ad: 'Kent suru', tur: 'Savunma', aciklama: 'Surlar kenti ve çevresindeki önemli alanları korurdu. Kapılar, kuleler ve duvarlar savunmanın yanı sıra kentin sınırını ve girişlerini de belirlerdi.', x: 79, y: 75 },
-  { id: 'gymnasion', ad: 'Gymnasion', tur: 'Eğitim ve beden eğitimi', aciklama: 'Gymnasionda gençler beden eğitimi alır, yarışlara hazırlanırdı. Bazı kentlerde alan; ders, felsefi sohbet ve toplumsal buluşmalar için de kullanılırdı.', x: 29, y: 53 },
-  { id: 'bouleuterion', ad: 'Bouleuterion', tur: 'Kent meclisi', aciklama: 'Bouleuterion, kentin meclisinin toplandığı kapalı yapıydı. Kentin kararları, görevlileri ve ortak işleri burada görüşülürdü.', x: 54, y: 43 },
-  { id: 'nymphaion', ad: 'Nymphaion', tur: 'Anıtsal çeşme', aciklama: 'Nymphaion, çoğu kez su perilerine adanmış, suyu kentlilere sunan anıtsal çeşmeydi. Roma döneminde cepheleri heykeller ve nişlerle süslenen örnekleri yaygınlaştı.', x: 69, y: 49 },
-  { id: 'cesme', ad: 'Çeşme', tur: 'Su noktası', aciklama: 'Kamusal çeşmeler, suyun kentlilerin kullanımına ulaştığı noktalardı. İnsanlar burada kaplarını doldurur, su taşır ve karşılaşırdı.', x: 37, y: 65 },
-  { id: 'sarnic', ad: 'Sarnıç', tur: 'Su depolama', aciklama: 'Sarnıçlar yağmur suyunu ya da başka kaynaklardan getirilen suyu depolardı. Özellikle kurak mevsimlerde ve kuşatma zamanlarında önemliydi.', x: 18, y: 77 },
-  { id: 'su-kemeri', ad: 'Su kemeri', tur: 'Su yolu', aciklama: 'Su kemerleri kaynaklardan gelen suyu vadiler ve engebeli araziler üzerinden kente taşımaya yardım ederdi. Her kentte bulunmaz; uzun mesafeli su hatları özellikle Roma döneminde yaygınlaştı.', x: 7, y: 35 },
-  { id: 'dukkanlar', ad: 'Dükkânlar ve atölyeler', tur: 'Üretim ve ticaret', aciklama: 'Dükkânlarda yiyecek ve gündelik eşyalar satılır, atölyelerde seramik, metal eşya ve kumaş gibi ürünler yapılırdı. Bu birimler çoğu zaman ana sokaklara ve agoraya yakın sıralanırdı.', x: 34, y: 72 },
-  { id: 'konutlar', ad: 'Konut mahalleleri', tur: 'Gündelik yaşam', aciklama: 'Konutlar kentin en geniş alanlarından birini kaplardı. Evlerin planı, büyüklüğü ve donanımı döneme, bölgeye ve hane halkının imkânlarına göre değişirdi.', x: 12, y: 57 },
-  { id: 'liman', ad: 'Liman ve tersane', tur: 'Deniz ticareti', aciklama: 'Kıyı kentlerinin limanları yolcu ve yük taşımacılığını sağlardı. Tersanelerde gemiler yapılır ya da onarılırdı; bu yapılar yalnızca kıyı kentlerinde bulunurdu.', x: 94, y: 43 },
-  { id: 'kapi', ad: 'Kent kapısı', tur: 'Giriş ve savunma', aciklama: 'Kent kapıları surların kontrollü geçiş noktalarıydı. Ana yollar çoğunlukla kapılardan içeri girer; kapılar ticaret, güvenlik ve törenler açısından önem taşırdı.', x: 54, y: 81 },
-  { id: 'ana-yol', ad: 'Ana cadde', tur: 'Kent içi ulaşım', aciklama: 'Ana caddeler kapıları kamusal merkezlere ve mahallelere bağlardı. Bazı kentlerde taş döşeli, sütunlu ve dükkânlarla çevrili caddeler bulunurdu.', x: 46, y: 71 },
-  { id: 'kutsal-alan', ad: 'Kutsal alan ve sunak', tur: 'Ritüel alanı', aciklama: 'Kutsal alanlar tek bir tapınaktan ibaret olmayabilirdi; sunaklar, adaklar ve tören yolları da bu alanın parçalarıydı. Kurban ve ortak ritüeller genellikle açık havadaki sunak çevresinde yapılırdı.', x: 27, y: 25 },
-  { id: 'kutuphane', ad: 'Kütüphane', tur: 'Bilgi ve eğitim', aciklama: 'Bazı büyük kentlerdeki kütüphaneler yazma eserlerin saklandığı ve okunduğu yapılardı. Her antik kentte bulunmaz; çoğu görkemli örnek Helenistik ya da Roma döneminden kalmadır.', x: 58, y: 35 },
-  { id: 'bazilika', ad: 'Bazilika', tur: 'Kamusal ve ticari yapı', aciklama: 'Roma kentlerinde bazilika; mahkeme, ticaret ve resmi işler için kullanılan büyük bir kamusal salondu. Yunan kentlerinin her döneminde aynı işleve sahip değildi.', x: 77, y: 60 },
-  { id: 'latrina', ad: 'Latrina', tur: 'Kamusal tuvalet', aciklama: 'Roma döneminin bazı kentlerinde latrinalar, su kanallarıyla temizlenen ortak tuvaletlerdi. Her yerleşimde bulunmaz; gelişmiş su ve kanalizasyon altyapısıyla birlikte düşünülmelidir.', x: 84, y: 65 },
+  { id: 'sur', ad: 'Kent suru', tur: 'Savunma', aciklama: 'Surlar kenti ve çevresindeki önemli alanları korurdu. Kapılar, kuleler ve duvarlar savunmanın yanı sıra kentin sınırını ve girişlerini de belirlerdi.', x: 27, y: 88 },
+  { id: 'gymnasion', ad: 'Gymnasion', tur: 'Eğitim ve beden eğitimi', aciklama: 'Gymnasionda gençler beden eğitimi alır, yarışlara hazırlanırdı. Bazı kentlerde alan; ders, felsefi sohbet ve toplumsal buluşmalar için de kullanılırdı.', x: 20, y: 41 },
+  { id: 'bouleuterion', ad: 'Bouleuterion', tur: 'Kent meclisi', aciklama: 'Bouleuterion, kentin meclisinin toplandığı kapalı yapıydı. Kentin kararları, görevlileri ve ortak işleri burada görüşülürdü.', x: 49, y: 38 },
+  { id: 'nymphaion', ad: 'Nymphaion', tur: 'Anıtsal çeşme', aciklama: 'Nymphaion, çoğu kez su perilerine adanmış, suyu kentlilere sunan anıtsal çeşmeydi. Roma döneminde cepheleri heykeller ve nişlerle süslenen örnekleri yaygınlaştı.', x: 62, y: 55 },
+  { id: 'cesme', ad: 'Çeşme', tur: 'Su noktası', aciklama: 'Kamusal çeşmeler, suyun kentlilerin kullanımına ulaştığı noktalardı. İnsanlar burada kaplarını doldurur, su taşır ve karşılaşırdı.', x: 46, y: 55 },
+  { id: 'sarnic', ad: 'Sarnıç', tur: 'Su depolama', aciklama: 'Sarnıçlar yağmur suyunu ya da başka kaynaklardan getirilen suyu depolardı. Özellikle kurak mevsimlerde ve kuşatma zamanlarında önemliydi.', x: 80, y: 60 },
+  { id: 'su-kemeri', ad: 'Su kemeri', tur: 'Su yolu', aciklama: 'Su kemerleri kaynaklardan gelen suyu vadiler ve engebeli araziler üzerinden kente taşımaya yardım ederdi. Her kentte bulunmaz; uzun mesafeli su hatları özellikle Roma döneminde yaygınlaştı.', x: 9, y: 10 },
+  { id: 'dukkanlar', ad: 'Dükkânlar ve atölyeler', tur: 'Üretim ve ticaret', aciklama: 'Dükkânlarda yiyecek ve gündelik eşyalar satılır, atölyelerde seramik, metal eşya ve kumaş gibi ürünler yapılırdı. Bu birimler çoğu zaman ana sokaklara ve agoraya yakın sıralanırdı.', x: 36, y: 64 },
+  { id: 'konutlar', ad: 'Konut mahalleleri', tur: 'Gündelik yaşam', aciklama: 'Konutlar kentin en geniş alanlarından birini kaplardı. Evlerin planı, büyüklüğü ve donanımı döneme, bölgeye ve hane halkının imkânlarına göre değişirdi.', x: 10, y: 60 },
+  { id: 'liman', ad: 'Liman ve tersane', tur: 'Deniz ticareti', aciklama: 'Kıyı kentlerinin limanları yolcu ve yük taşımacılığını sağlardı. Tersanelerde gemiler yapılır ya da onarılırdı; bu yapılar yalnızca kıyı kentlerinde bulunurdu.', x: 92, y: 34 },
+  { id: 'kapi', ad: 'Kent kapısı', tur: 'Giriş ve savunma', aciklama: 'Kent kapıları surların kontrollü geçiş noktalarıydı. Ana yollar çoğunlukla kapılardan içeri girer; kapılar ticaret, güvenlik ve törenler açısından önem taşırdı.', x: 63, y: 80 },
+  { id: 'ana-yol', ad: 'Ana cadde', tur: 'Kent içi ulaşım', aciklama: 'Ana caddeler kapıları kamusal merkezlere ve mahallelere bağlardı. Bazı kentlerde taş döşeli, sütunlu ve dükkânlarla çevrili caddeler bulunurdu.', x: 54, y: 70 },
+  { id: 'kutsal-alan', ad: 'Kutsal alan ve sunak', tur: 'Ritüel alanı', aciklama: 'Kutsal alanlar tek bir tapınaktan ibaret olmayabilirdi; sunaklar, adaklar ve tören yolları da bu alanın parçalarıydı. Kurban ve ortak ritüeller genellikle açık havadaki sunak çevresinde yapılırdı.', x: 8, y: 30 },
+  { id: 'kutuphane', ad: 'Kütüphane', tur: 'Bilgi ve eğitim', aciklama: 'Bazı büyük kentlerdeki kütüphaneler yazma eserlerin saklandığı ve okunduğu yapılardı. Her antik kentte bulunmaz; çoğu görkemli örnek Helenistik ya da Roma döneminden kalmadır.', x: 47, y: 37 },
+  { id: 'bazilika', ad: 'Bazilika', tur: 'Kamusal ve ticari yapı', aciklama: 'Roma kentlerinde bazilika; mahkeme, ticaret ve resmi işler için kullanılan büyük bir kamusal salondu. Yunan kentlerinin her döneminde aynı işleve sahip değildi.', x: 68, y: 43 },
+  { id: 'latrina', ad: 'Latrina', tur: 'Kamusal tuvalet', aciklama: 'Roma döneminin bazı kentlerinde latrinalar, su kanallarıyla temizlenen ortak tuvaletlerdi. Her yerleşimde bulunmaz; gelişmiş su ve kanalizasyon altyapısıyla birlikte düşünülmelidir.', x: 80, y: 56 },
 ];
 const yapisalVeri = [kirintiVerisi([{ ad: 'Antik Kent Rehberi', yol: '/antik-kent-rehberi/' }])];
 ---
@@ -45,13 +85,40 @@ const yapisalVeri = [kirintiVerisi([{ ad: 'Antik Kent Rehberi', yol: '/antik-ken
         <div class="sahne">
           <div class="kent-gorseli" role="group" aria-label="Temsili antik kentin gerçekçi canlandırması">
             <img src="/images/antik-kent-gercekci.png" alt="Deniz kıyısında, surlarla çevrili; tapınağı, agorası, tiyatrosu ve stadionu görülen temsili bir antik kent" width="1536" height="1024" fetchpriority="high" />
-            {yapilar.map((yapi) => <button class="isaret" type="button" data-yapi={yapi.id} style={`--x:${yapi.x}%;--y:${yapi.y}%`} aria-label={`${yapi.ad}: ${yapi.aciklama}`}><span>{yapi.ad}</span></button>)}
+            {yapilar.map((yapi) => {
+              const ornek = ornekGorseli(yapi.id);
+              return <button
+                class="isaret"
+                type="button"
+                data-yapi={yapi.id}
+                style={`--x:${yapi.x}%;--y:${yapi.y}%`}
+                aria-label={`${yapi.ad}: ${yapi.aciklama}`}
+                data-ornek-adres={ornek ? kayitAdresi('kentler', ornek.kent.id) : ''}
+                data-ornek-kent={ornek?.kent.data.ad ?? ''}
+                data-ornek-yapi={ornek?.yapi?.ad ?? ''}
+                data-ornek-src={ornek?.gorsel.adres ?? ''}
+                data-ornek-alt={ornek?.gorsel.alt ?? ''}
+                data-ornek-genislik={ornek?.gorsel.genislik ?? ''}
+                data-ornek-yukseklik={ornek?.gorsel.yukseklik ?? ''}
+                data-ornek-sahibi={ornek?.gorsel.sahibi ?? ''}
+                data-ornek-lisans={ornek?.gorsel.lisans ?? ''}
+                data-ornek-lisans-adresi={ornek?.gorsel.lisansAdresi ?? ''}
+                data-ornek-kaynak={ornek?.gorsel.kaynakAdresi ?? ''}
+              ><span>{yapi.ad}</span></button>;
+            })}
           </div>
           <p class="sahne-alt"><span>◉</span> Görsel, farklı dönemlerden kent yapılarını bir araya getiren temsili bir canlandırmadır. Her yapı her kentte bulunmaz; bazı etiket konumları da şematik olarak yerleştirilmiştir.</p>
         </div>
         <aside class="bilgi" aria-live="polite" data-bilgi>
           <p class="bilgi-tur">YAPILARI KEŞFET</p><h2 data-ad>Bir yapı seç</h2>
           <p data-aciklama>Kent planındaki etiketlere dokunarak agora, tapınak, tiyatro ve diğer yapıların ne işe yaradığını öğren.</p>
+          <figure class="ornek-gorsel">
+            <a data-ornek-link href={kayitAdresi('kentler', ilkOrnek.kent.id)}><img data-ornek-img src={ilkOrnek.gorsel.adres} alt={ilkOrnek.gorsel.alt} width={ilkOrnek.gorsel.genislik} height={ilkOrnek.gorsel.yukseklik} loading="lazy" decoding="async" /></a>
+            <figcaption>
+              Kent örneği: <a data-ornek-kent-link href={kayitAdresi('kentler', ilkOrnek.kent.id)}>{ilkOrnek.kent.data.ad}</a> · <span data-ornek-yapi-ad>{ilkOrnek.yapi?.ad ?? 'Kent görünümü'}</span>
+              <span class="ornek-atfi">Görsel: <span data-ornek-sahibi>{ilkOrnek.gorsel.sahibi}</span>, <a data-ornek-lisans href={ilkOrnek.gorsel.lisansAdresi}>{ilkOrnek.gorsel.lisans}</a>, <a data-ornek-kaynak href={ilkOrnek.gorsel.kaynakAdresi}>Wikimedia Commons</a></span>
+            </figcaption>
+          </figure>
         </aside>
       </section>
       <p class="not">Antik kentler tek bir plana göre kurulmadı. Coğrafya, dönem ve yerel gelenekler yapıların biçimini ve kentteki yerini değiştirirdi. Liman, su kemeri, kütüphane, bazilika ve latrina gibi yapılar belirli kentlerde ya da dönemlerde görülür.</p>
@@ -64,4 +131,5 @@ const yapisalVeri = [kirintiVerisi([{ ad: 'Antik Kent Rehberi', yol: '/antik-ken
 </script>
 <style is:global>
   .kent-rehberi{padding:35px 0 70px}.kent-rehberi .giris{max-width:670px;margin-bottom:28px}.kent-rehberi .ust-baslik,.kent-rehberi .bilgi-tur{font:700 11px var(--govde-font);letter-spacing:.15em;color:var(--vurgu)}.kent-rehberi h1{font:500 clamp(42px,7vw,78px)/.98 var(--baslik-font);letter-spacing:-.035em;margin:8px 0 14px}.kent-rehberi h1 em{color:var(--vurgu);font-weight:400}.kent-rehberi .giris>p:last-child{max-width:590px;color:var(--soluk);margin:0}.kent-rehberi .kesif{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:18px;align-items:stretch}.kent-rehberi .sahne,.kent-rehberi .bilgi{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:8px}.kent-rehberi .sahne{overflow:hidden}.kent-rehberi .sahne-ust{display:flex;justify-content:space-between;padding:16px 20px 0;color:var(--soluk);font:500 11px var(--govde-font);letter-spacing:.1em}.kent-rehberi .kent-gorseli{position:relative;overflow:hidden;line-height:0}.kent-rehberi .kent-gorseli img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}.kent-rehberi .isaret{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;min-height:36px;padding:0 11px;border:1px solid rgba(255,248,228,.9);border-radius:999px;background:rgba(28,48,44,.9);box-shadow:0 2px 12px #10151c66;color:#fff8e4;font:600 12px var(--govde-font);white-space:nowrap;cursor:pointer;line-height:1.2;transition:background .15s,transform .15s}.kent-rehberi .isaret::before{content:"";position:absolute;inset:-5px;border:1px solid #fff8e480;border-radius:inherit}.kent-rehberi .isaret:hover,.kent-rehberi .isaret:focus-visible,.kent-rehberi .isaret.secili{background:#a34f35;transform:translate(-50%,-50%) scale(1.07)}.kent-rehberi .isaret:focus-visible{outline:2px solid #fff8e4;outline-offset:4px}.kent-rehberi .isaret span{position:relative;z-index:1}.kent-rehberi .isaret[data-yapi="nekropol"] span,.kent-rehberi .isaret[data-yapi="dukkanlar"] span,.kent-rehberi .isaret[data-yapi="kutsal-alan"] span{white-space:normal;max-width:100px;text-align:center}.kent-rehberi .sahne-alt{margin:0;padding:12px 20px 16px;color:var(--soluk);font-size:13px}.kent-rehberi .sahne-alt span{color:var(--vurgu)}.kent-rehberi .bilgi{padding:24px;display:flex;flex-direction:column;min-height:250px}.kent-rehberi .bilgi h2{font:500 34px/1.05 var(--baslik-font);margin:12px 0}.kent-rehberi .bilgi [data-aciklama]{line-height:1.7;color:var(--soluk);margin:0}.kent-rehberi .ilerleme{margin-top:auto;padding-top:25px;display:flex;gap:8px;color:var(--soluk);font-size:12px}.kent-rehberi .yapi-listesi{margin-top:36px}.kent-rehberi .yapi-listesi h2{font:500 32px var(--baslik-font);margin:0 0 14px}.kent-rehberi .yapi-listesi>div{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.kent-rehberi .yapi-listesi button{position:relative;text-align:left;display:flex;flex-direction:column;gap:3px;padding:14px 38px 14px 16px;min-height:72px;color:var(--yazi);background:var(--yuzey);border:1px solid var(--cizgi);border-radius:6px;cursor:pointer;font:500 16px var(--govde-font)}.kent-rehberi .yapi-listesi button:hover,.kent-rehberi .yapi-listesi button:focus-visible,.kent-rehberi .yapi-listesi button.secili{border-color:var(--vurgu)}.kent-rehberi .yapi-listesi small{color:var(--soluk);font-size:12px}.kent-rehberi .yapi-listesi b{position:absolute;right:15px;top:17px;color:var(--vurgu)}.kent-rehberi .not{margin:22px 0 0;color:var(--soluk);font-size:13px;max-width:760px}@media(max-width:800px){.kent-rehberi .kesif{grid-template-columns:1fr}.kent-rehberi .bilgi{min-height:220px}.kent-rehberi .yapi-listesi>div{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.kent-rehberi .yapi-listesi>div{grid-template-columns:1fr}.kent-rehberi .isaret{min-height:30px;padding:0 7px;font-size:10px}.kent-rehberi .sahne{overflow:hidden}.kent-rehberi .sahne-ust{font-size:9px}.kent-rehberi .sahne{overflow-x:auto}.kent-rehberi .kent-gorseli{min-width:640px}}
+  .kent-rehberi .ornek-gorsel{margin:22px 0 0}.kent-rehberi .ornek-gorsel>a{display:block;line-height:0}.kent-rehberi .ornek-gorsel img{display:block;width:100%;height:160px;object-fit:cover;border-radius:5px}.kent-rehberi .ornek-gorsel figcaption{margin-top:8px;color:var(--soluk);font-size:12px;line-height:1.6}.kent-rehberi .ornek-gorsel figcaption>a{color:var(--yazi);text-decoration:underline;text-decoration-color:var(--cizgi);text-underline-offset:3px}.kent-rehberi .ornek-atfi{display:block;margin-top:5px;font-size:10px;overflow-wrap:anywhere}.kent-rehberi .ornek-atfi a{text-decoration:underline;text-underline-offset:2px}
 </style>

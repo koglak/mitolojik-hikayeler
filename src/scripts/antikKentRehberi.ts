@@ -29,12 +29,35 @@ if (kok) {
   const baslik = kok.querySelector<HTMLElement>('[data-ad]');
   const aciklama = kok.querySelector<HTMLElement>('[data-aciklama]');
   const tur = kok.querySelector<HTMLElement>('.bilgi-tur');
+  const ornekImg = kok.querySelector<HTMLImageElement>('[data-ornek-img]');
+  const ornekLink = kok.querySelector<HTMLAnchorElement>('[data-ornek-link]');
+  const kentLink = kok.querySelector<HTMLAnchorElement>('[data-ornek-kent-link]');
+  const ornekYapi = kok.querySelector<HTMLElement>('[data-ornek-yapi-ad]');
+  const ornekSahibi = kok.querySelector<HTMLElement>('[data-ornek-sahibi]');
+  const ornekLisans = kok.querySelector<HTMLAnchorElement>('[data-ornek-lisans]');
+  const ornekKaynak = kok.querySelector<HTMLAnchorElement>('[data-ornek-kaynak]');
   function sec(id: string) {
     const yapi = yapilar.find((oge) => oge.id === id);
     if (!yapi || !baslik || !aciklama || !tur) return;
     baslik.textContent = yapi.ad;
     aciklama.textContent = yapi.aciklama;
     tur.textContent = yapi.tur.toLocaleUpperCase('tr');
+    const isaret = kok!.querySelector<HTMLButtonElement>(`button[data-yapi="${id}"]`);
+    if (isaret && ornekImg && ornekLink && kentLink && ornekYapi && ornekSahibi && ornekLisans && ornekKaynak) {
+      const { dataset } = isaret;
+      ornekImg.src = dataset.ornekSrc ?? '';
+      ornekImg.alt = dataset.ornekAlt ?? '';
+      ornekImg.width = Number(dataset.ornekGenislik) || 500;
+      ornekImg.height = Number(dataset.ornekYukseklik) || 330;
+      ornekLink.href = dataset.ornekAdres ?? '#';
+      kentLink.href = dataset.ornekAdres ?? '#';
+      kentLink.textContent = dataset.ornekKent ?? '';
+      ornekYapi.textContent = dataset.ornekYapi || 'Kent görünümü';
+      ornekSahibi.textContent = dataset.ornekSahibi ?? '';
+      ornekLisans.href = dataset.ornekLisansAdresi ?? '#';
+      ornekLisans.textContent = dataset.ornekLisans ?? '';
+      ornekKaynak.href = dataset.ornekKaynak ?? '#';
+    }
     kok!.querySelectorAll('[data-yapi]').forEach((oge) => {
       const secili = oge.getAttribute('data-yapi') === id;
       oge.classList.toggle('secili', secili);
