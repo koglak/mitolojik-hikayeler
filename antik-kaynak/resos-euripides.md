@@ -28,7 +28,7 @@ Musa – Esin perisi, Resos’un annesi
 Koro – Nöbetçiler
 Truvalı Haberci
 Resos’un Sürücüsü
-Özet
+## Özet
 Sahne Truvalıların ordugahında geceleyin açılır. Truvalıların ordugahı Argosların yakınındadır. Koro yani nöbetçiler Hektor’un odasına girerler ve onu uyandırırlar. Akha ordusu gece gece ateş yakmıştır. Hektor, onların kaçmaya başladıklarından şüphelenir, gece kaçmak bir avantajdır. Ancak koro kaçtıklarından şüphelidir. Argos ordusu ilk kez böyle yenilmiş ve gecesinde hiç yakmadıkları kadar büyük bir ateş yakmıştır.
 
 Aineias sahneye girer. Hektor acele etmeleri gerektiğini, düşmanın kaçtığını ve kaçmadan önce onlara son bir ders vermeleri gerektiğini ona da söyler. Aineias, Hektor’un güçlü olmasına rağmen, aklının doğru düşünmediğini söyler. Argoslular pekala bir dümen çeviriyor olabilirler, hem bu hendekleri gece aşmak zordur hem de Akhaların gemilerini ateşe vermeye güçlü savaşçıları Akhilleus izin vermez. Aineias, bir casus göndermeyi teklif eder; böylece Argosluların gerçekten kaçıp kaçmadığını öğrenebilirler. Hektor bu teklifi kabul eder ancak Argoslular kaçıyorsa onlara saldıracaktır. Aineias onaylar ve sahneden çıkar.
@@ -41,8 +41,6 @@ Koro monolog’a başlar. Truva surlarını yapan tanrı olan Apollon’a Dardan
 
 Resos sahneye girer ve Hektor’a ona yardıma geldiğini söyler. Hektor ikiyüzlü biri olmadığını belirterek ona kızar ve daha önceden yardıma gelmesini belirtir. Hektor ki onun Trakların büyük kralı olmasına yardım etmiştir, Truva ateş altındayken Resos’un bu kadar geç gelmesi doğru değildir.
 
-Eugène Delacroix
-Eugène Delacroix
 Resos yardıma gelecekken Karadeniz’den İskitler saldırmıştır; bu yüzden Resos bu kadar geç gelmiştir. Hektor’a Akha ordusuyla savaşmak istediğini, hatta onları buradan sürdükten sonra Hellas’a gidip onları yok etmek istediğini de belirtir. Akhilleus ile de karşı karşıya gelmek istemektedir. Hektor, Akhilleus’u yenemeyeceğini ama komutanlarına kızgın olduğu için savaşmadığını anlatır ona. Akha ordusundaki diğer güçlü komutanlar ise Aias, Diomedes ve Odysseus’tur Hektor’a göre. Odysseus geceleyin Truva’daki Athena Tapınağına dilenci kılığına bürünüp gizlice girerek Palladion heykelini çalmıştır. Oldukça kurnaz biz adamdır. Resos cesur adamların böyle sinsice işler yapmaması gerektiğini söyler ve onu kendisi bizzat öldürecektir. Hektor, Resos ve ordusuna yol göstermek için onunla sahneden çıkar.
 
 Truvaya yardıma gelen Kilikyalılar Adana’dan, Mysialılar Bursadan, Lykialılar Datçadan gelmiştir. Koro kendi arasında nöbetin kimde olduğunu tartışır ve koro sahneden çıkar.

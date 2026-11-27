@@ -4,17 +4,16 @@ Euripides, aynı efsaneyi ilk olarak, kayıp olan ve günümüze sadece parçala
 
 Kayıp oyunda, muhtemelen, Phaedra yasak aşkına direnmeden, kendini üvey oğlu Hippolytos‘a sunduğu için, Atinalılar rahatsız olmuştur. Phaedra’nın karakterindeki böyle bir zayıflık, Hippolytos’un ahlaki yaklaşımını daha az etkili bir şekilde betimlemesine neden olmuş olabilir. Belki de bundan dolayı, Euripides, M.Ö. 428’de, Dionysos Festivaline Phaedra’nın Afrodit’e elinden geldiğince direndiği hikâyenin ikinci bir versiyonunu sunmuştur. Bu versiyon günümüze kadar ulaşmıştır.
 
-
-Karakterler
-Theseus – Atina Kralı
-Phaedra – Girit prensesi ve Theseus’un karısı
-Hippolytos – Theseus’un Amazon kraliçesinden olan oğlu
-Artemis – Bekaret ve av tanrıçası
-Afrodit – Güzellik ve aşk tanrıçası
-Dadı – Phaedra’nın dadısı
-Koro
-Ulak
-Oyun Özeti
+## Karakterler
+* Theseus – Atina Kralı
+* Phaedra – Girit prensesi ve Theseus’un karısı
+* Hippolytos – Theseus’un Amazon kraliçesinden olan oğlu
+* Artemis – Bekaret ve av tanrıçası
+* Afrodit – Güzellik ve aşk tanrıçası
+* Dadı – Phaedra’nın dadısı
+* Koro
+* Ulak
+## Oyun Özeti
 Hippolytos Oyunu, Mora Yarımadası’nın kuzeydoğusunda bir sahil kasabası olan Troezen‘de geçer. Atina kralı Theseus, amcasını ve oğullarını öldürdükten sonra bir yıllık gönüllü sürgün cezasını çekmek için Troezen’e gelmiştir. Troezen, Theseus’un doğup büyüdüğü yerdir ve annesinin memleketidir. Theseus’un gayrimeşru oğlu Hippolytos, Theseus’un Amazon Hippolyta‘ya tecavüzü sonucu dünyaya gelmiştir. Hippolytos çocukluğundan beri, Troezen kralı Pittheus tarafından eğitilmektedir.
 
 Oyunun açılışında Aşk Tanrıçası Afrodit, Hippolytos’un iffet yemini ettiğini ve kendisine saygı göstermeyi reddettiğini açıklar. Bunun yerine av tanrıçası Artemis‘i onurlandırır. Bu durum Afrodit’in Hippolytos’tan intikam almak için bir plan başlatmasına neden olur. Hippolytos iki yıl önce Atina’ya gittiğinde Afrodit, Theseus’un karısı Phaedra’nın, üvey oğlu Hippolytus’a aşık olmasına neden olmuştur.

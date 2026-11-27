@@ -3,25 +3,25 @@ Hekabe oyunu, Euripides tarafından M.Ö.424’te yazılmış trajedidir.
 Truva yakıldıktan sonra, Yunanlılar ayrılmadan hemen önce olanları konu alır. Euripides’in Truvalı Kadınlar isimli oyunu ile aşağı yukarı aynı zaman diliminde gerçekleşen olaylardır. Truva kraliçesi Hekabe, aynı anda hem kızı Polyksena‘yı hem de oğlu Polydoros‘u kaybettiğini öğrenir. Acılı anne, oğlunun intikamını almaya kararlıdır.
 
 Bu İçerikte Okuyacaklarınız
-Karakterler
-Hekabe Özeti | Hekabe Euripides
+## Karakterler
+## Hekabe Özeti | Hekabe Euripides
 Polydoros’un Hayaleti
 Polyksene’nin Akıbeti
 Odysseus
 Polydoros’un Cesedi
 Polymestor’un Sonu
 Kehanetler
-Karakterler
-Hekabe – Truva Kraliçesi
-Polydoros – Truva prensi
-Polyksene – Truva prensesi
-Odysseus – İthaka kralı, Yunanlı komutan
-Talthybios – Agamemnon’un habercisi
-Agamemnon – Miken kralı, Yunan ordusunun komutanı
-Polymestor – Trakya Kralı
-Koro – Truvalı kadınlar
-Hizmetçi Kadın
-Hekabe Özeti | Hekabe Euripides
+## Karakterler
+* Hekabe – Truva Kraliçesi
+* Polydoros – Truva prensi
+* Polyksene – Truva prensesi
+* Odysseus – İthaka kralı, Yunanlı komutan
+* Talthybios – Agamemnon’un habercisi
+* Agamemnon – Miken kralı, Yunan ordusunun komutanı
+* Polymestor – Trakya Kralı
+* Koro – Truvalı kadınlar
+* Hizmetçi Kadın
+## Hekabe Özeti | Hekabe Euripides
 Polydoros’un Hayaleti
 Sahne Polydoros ile açılır. Polydoros, kendini tanıtır. Kisseus’un kızı Hekabe ile Truva Kralı Priamos’un en küçük oğludur. Truva kenti düşme tehlikesine girince babası Priamos onu korkudan gizlice uzaklaştırmıştır. Khersonesos ovasını eken ve süvari bir milleti mızrağı ile idare eden Polymestor’un yanına altınlarla yollamıştır. Böylece, eğer Truva düşerse yoksul kalmayacaktı.
 
@@ -29,8 +29,6 @@ Ancak Truva’nın kaderi Hektor’un ölümüyle değişmiştir. Şehir düşü
 
 Akhilleus’un ruhu, mezarının tümseğinde görünüp kendi mezarı için kurban olarak Polydoros’un kız kardeşi Polyksene’i istemiştir. Polydoros, anasına üzülür. Çünkü hem kızı Polyksene’yi kaybedecek, hem de denizin dalgaları arasında oğlu Polydoros’un cesedini görecektir. Sonra Polydoros’un ruhu kaybolur.
 
-Polyksena'nın Kurbanı, 1647, Charles Le Brun, Metropolitan Museum of Art
-Polyksena’nın Kurbanı, 1647, Charles Le Brun, Metropolitan Museum of Art
 Polyksene’nin Akıbeti
 Hekabe sahneye girer. Ağıtlar yakar. Korkunç bir rüya görmüştür. Rüyasında hem kızı Polyksene’yi hem de oğlu Polydoros’u kaybetmiştir.
 
@@ -38,8 +36,6 @@ Koro yani tutsak Truvalı kadınlar sözü alır. Akhilleus’un hayaletinin nas
 
 Polyksene girer sahneye ve annesinin feryatlarının sebebini sorar. Hekabe, kızına olacakları anlatır. Polyksene, ölümü kendisi için nimet görmesine rağmen, annesine ağıtlar yakar.
 
-Hekabe ve Polyksena, Merry-Joseph Blonde, 1814
-Hekabe ve Polyksena, Merry-Joseph Blonde, 1814
 Odysseus
 Odysseus içeri girer. Kızı alma görevinin kendisine verildiğini ancak kurban etme işini Akhilleus’un oğlu Neoptelemos’un yapacağını anlatır. Onlardan direnç göstermemesini ister.
 
@@ -47,16 +43,12 @@ Hekabe, Odysseus’a paçavralar içinde Truva Sarayına casus olarak geldiğind
 
 Odysseus, Akhilleus’un ödüllendirilmesi gerektiğini anlatır. Çünkü eğer onurlandırılmazsa gelecekteki kahramanlar, savaşlarda çarpışmak istemeyecektir.
 
-Polyksena'nın Kurbanı, Giovanni Battista Pittoni the younger (1687–1767), ARTUK
-Polyksena’nın Kurbanı, Giovanni Battista Pittoni the younger (1687–1767), ARTUK
 Polyksene ise köle olmaktansa Odysseus’la gitmeyi tercih etmektedir. Bir zamanlar krallara zevce olacak, kahramanların kardeşidir. Kimseye kölelik etmek istememektedir. Bunun şerefsiz bir yaşam olduğunu söyler.
 
 Hekabe, Odysseus’a yalvarır ve kızı yerine kendisinin kurban edilmesini ister. Sonuçta Akhilleus’u öldüren Paris’in anasıdır. Kabul edilmeyince, bari kızıyla birlikte öldürülmek ister. Odysseus yine kabul etmez. Böylece Odysseus ile Polyksene, sahneden çıkar.
 
 Köle olacaklarına yanan Koro ağıt yakar. Sonra Haberci Talthybios gelir. Hekabe’ye kızının öldürüldüğü haberini verir. Ona kızının öldürülmeden önce nasıl cesurca davrandığını, hiçkimsenin onu tutmasına gerek olmadığını ve kendi boynunu kendi uzatacağını söylediğini aktarır. Onun ölümünü izleyen askerler, cesedini şereflendirmek için üzerine yapraklar atmışlardır. Ve haberci sahneden çıkar.
 
-Giovanni Battista Pittoni — Polyksena'nın Kurbanı,1737
-Giovanni Battista Pittoni — Polyksena’nın Kurbanı,1737
 Polydoros’un Cesedi
 Sahneye hizmetçi kadın girer. Yanında bir ceset getirmiştir. Cesedin örtüsünğ açar ve içinden Polydoros — Hekabe’nin oğlu- çıkar. Cesedi, denizin dalgaları ile gelmiştir. Hekabe, talihsizliğine yakınır.
 
@@ -66,8 +58,6 @@ Hekabe, oğlunun akıbetini Agamemnon’a anlatır. Agamemnon bile, Hekabe’nin
 
 Hekabe, hizmetçi kadına Trakyalı Polymestor’u bulup onu ve oğullarını Hekabe’nin çağırdığını iletmesini ister. Agamemnon’dan kızının gömülmesini geciktirmesini ister. Agamemnon zaten rüzgar yokluğundan denize açılamadıkları için, bu tekligi kabul eder ve sahneden çıkar.
 
-Polyksena'nın Kurbanı, Giovanni Francesco Romanelli , 1600, Metmuseum
-Polyksena’nın Kurbanı, Giovanni Francesco Romanelli , 1600, Metmuseum
 Polymestor’un Sonu
 Polymestor ve iki oğullu, hizmetçi ile birlikte sahneye girer. Hekabe’ye neden kendisini çağırdığını sorar ve dostuna yardım etmek istediğini söyler. Hekabe, oğlunun yaşayıp yaşamadığını sorunca, Polymestor onun iyi olduğunu söyler.
 
@@ -75,8 +65,6 @@ Hekabe, Priamos’un oğulları için altın gömdüğünü ve yerini oğluna ul
 
 Bunun üzerine Polymestor Hekabe’ye inanıp, çadıra girer. İçeri girer girmez ona Truvalı Kadınlar saldırır ve onu kör eder. Bu esnada dışarı da kalan oğullarını Hekabe öldürür.
 
-Hekuba Polymestor'u Kör Ederken, Giuseppe Crespi
-Hekuba Polymestor’u Kör Ederken, Giuseppe Crespi
 Kehanetler
 Polymestor feryatlar etmeye başlar. Sonra Agamemnon hizmetkarıyla sahneye geri girer ve acıklı sahneyi görür. Polymestor, her şeyi esir kadınlarla Hekabe’nin yaptığını söyler. Hekabe’nin oğlunu öldürdüğünü anlatır ve sebep olarak, bu çocuğun Agamemnon’a düşman olmasını gösterir. Truvalı kadınları toplayıp, tekrar ülke kurabileceğini belirtir. Sonra da Hekabe ve Truvalı kadınların intikam için kendisini nasıl kandırıp, oğullarını öldürdüklerini kendisini de kör ettiklerini anlatır.
 

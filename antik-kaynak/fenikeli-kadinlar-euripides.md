@@ -6,27 +6,26 @@ Oyun, Oidipus’un oğulları arasında geçen savaşı konu alır. Aynı olayı
 
 Euripides’in günümüze ulaşan 17 oyunundan biridir. Diğer 16 oyunu Türkçe’ye çevrilmiştir. Herbirinin özetini sitemde bulabilirsiniz. On yedinci ve Türkçe’ye henüz çevrilmeyen bu oyunu sizler için ben çevirdim.
 
-İçerik
-Karakterler
-OYUN
-KAYNAKÇA
+## İçerik
+## Karakterler
+## OYUN
+## KAYNAKÇA
 
-Fenikeli Kadınlar, Bénigne Gagneraux, Kör Oidipus Çocuklarını Tanrılara Emanet Ediyor
-Karakterler
-FENİKELİ KADINLAR KOROSU
-POLYNEIKES: Oidipus ve Jocasta’nın oğlu
-ETEOKLES: Oidipus ve Jocasta’nın oğlu
-KREON: Jocasta’nın kardeşi
-TEIRESIAS: yaşlı kör bir kahin
-MENOIKEOS: Kreon’un oğlu
-HABERCİ
-BAŞKA BIR HABERCI
-OIDIPUS: Thebai Kralı
-JOCASTA: Oidipus’un karısı ve annesi
-ÖĞRETMEN
-ANTIGONE: Oidipus ve Jocasta’nın kızı
+## Karakterler
+* FENİKELİ KADINLAR KOROSU
+* POLYNEIKES: Oidipus ve Jocasta’nın oğlu
+* ETEOKLES: Oidipus ve Jocasta’nın oğlu
+* KREON: Jocasta’nın kardeşi
+* TEIRESIAS: yaşlı kör bir kahin
+* MENOIKEOS: Kreon’un oğlu
+* HABERCİ
+* BAŞKA BIR HABERCI
+* OIDIPUS: Thebai Kralı
+* JOCASTA: Oidipus’un karısı ve annesi
+* ÖĞRETMEN
+* ANTIGONE: Oidipus ve Jocasta’nın kızı
 
-OYUN
+## OYUN
 Sahne Thebai’deki kraliyet sarayında geçer.
 
 Jacosta sahneye girer – siyahlar giymiş yaşlı bir kadındır. Bir köylüye benzemektedir ama konuşmasındaki asalet bunu yalanlamaktadır. Giriş konuşmasını yapmak zorundadır: bu onu utandıracaktır, ancak konuşmasını en az telaş ve duygusallıkla yapmak için kendini hazırlamıştır. Bir dua ile başlayıp dua ile bitirir.

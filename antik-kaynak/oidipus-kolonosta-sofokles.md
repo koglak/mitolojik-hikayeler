@@ -6,17 +6,18 @@ Aralarındaki üç oyun zaman ve konu olarak birbirlerine bağlantılıdır. Bun
 
 Bu oyundan hemen sonra gerçekleşen olayları Aiskhylos‘un Thebai’ye Karşı Yediler oyunu ele alır.
 
-Karakterler
-Oidipus – Thebai’nin eski kralı
-Antigone – Oidipus’un kızı
-İsmene – Oidipus’un kızı
-Theseus – Atina Kralı
-Kreon – Thebaili soylu
-Polyneikes – Oidipus’un oğlu
-Yabancı
-Koro – Kolonos’lu yaşlılar
-Haberci
-Kolonos’a varış
+## Karakterler
+* Oidipus – Thebai’nin eski kralı
+* Antigone – Oidipus’un kızı
+* İsmene – Oidipus’un kızı
+* Theseus – Atina Kralı
+* Kreon – Thebaili soylu
+* Polyneikes – Oidipus’un oğlu
+* Yabancı
+* Koro – Kolonos’lu yaşlılar
+* Haberci
+* Kolonos’a varış
+
 Sahne, Kolonos’ta (Atina’ya çok yakın) üç intikam tanrıçası Erinyelere adanmış sık ağaçlık bir koruda başlar. O bölgeye adını da veren Kolonos Heykeli görülmektedir. Yaşlı ve kör Oidipus ile kızı Antigone sahneye girer.
 
 Oidipus kızına nereye geldiklerini sorduğunda, Antigone, Atina’nın silüetini gördüğünü söyler. Her yerde defne, zeytin ve asma olduğu için kutsal bir yerde olduklarını tahmin eder ve babasını bir taşın üstüne oturtur. O esnada bulundukları yerden bir yabancı geçer.
@@ -25,8 +26,6 @@ Kızının yardımı ile Oidipus yabancıyı durdurur. Ardından, ona da nerede 
 
 Oidipus yaşlı olduğundan kalkamayacağını ancak onlara dua edeceğini söyler. Bir kez daha nerede olduğunu sorar. Adam, Poseidon ve Prometheus’a adanmış kutsal bir alanda olduğunu söyler. Kolonos heykeline işaret ederek, “bu heykelin bizi koruduğuna inanılır bu yüzden şehre Kolonos denmektedir.” der. Kent Aegeus’un oğlu Theseus isimli kralın emri altındadır. Oidipus, kralla konuşmak istediğini söyler. Yabancı buna şaşırır. Lakin, burada yaşayan halkla konuşup, yardım edip etmeyeceğine karar vereceğini bildirir ve gider.
 
-Oidipus Kolonos'ta, Oedipus at Colonus, Jean-Antoine-Théodore Giroust, 1788, Dallas Museum of Art
-Oidipus Kolonos’ta, Oedipus at Colonus, Jean-Antoine-Théodore Giroust, 1788, Dallas Museum of Art
 Kehanet
 Oidipus, kızı Antigone’ye Apollon‘un dediklerinden bahseder. Tanrı, ona bir sürü acı çektikten sonra tanrılara saygısı karşılığında sonsuz mutluluğa erişeceğini söylemiştir. Yaşamının sonunda ise sürgüne gidip orada öleceğini, bunları haber veren yer sarsıntısı ya da yıldırım gibi işaretler de göreceğini belirtmiştir. Buraya gelmesinin sebebi de işte bu kehanettir. Çünkü, artık ölmeyi dilemektedir.
 
@@ -36,8 +35,6 @@ Koro ona soyunu sorar. Oidipus ilk tereddüt eder ama sonra, Laios’un oğlunu 
 
 Antigone araya girip, onlara babasını dinlemeleri için yalvarır. Oidipus, krallarıyle görüşmek istediğini bir kez daha belirtir. Koro ise krallarına haber gönderdiklerini, zaten çağıranın adını duyduğunda geleceğini söylerler.
 
-Oidipus ve Antigone, Antoni Brodowski. 1828, National Museum of Art, Warsaw
-Oidipus Kolonos’ta, Oidipus ve Antigone, Antoni Brodowski. 1828, National Museum of Art, Warsaw
 İsmene
 O esnada Antigone heyecanla babasına kız kardeşi İsmene’nin geldiğini söyler. İsmene sahneye girer. Babasının başına gelen felaketlerden dolayı çok üzgündür. Kendisine sadık kalan kölesiyle haberler getirdiğini iletir. Ancak Oidipus, neden erkek kardeşlerinin bu haberi getirmediğini sorup, hayıflanmaya başlar. Mısır’da erkeklerin dokuma dokurken, kadınların gündelik işleri hallettiğini söyler. İşte, kendi ailesinde de durum böyledir. İki oğlu, kız gibi ocaklarında kalırken, iki kızı erkek gibi yanındadır. Oidipus, İsmene’nin ona yaptığı iyilikleri hatırlar. Ülkeden kovulduğunda, kızı onu korumuştur.
 
@@ -49,8 +46,6 @@ Koro ne kadar acınacak durumda olduğunu söylerler. Korusuna hakaret ettiği E
 
 Sonra koro, Oidipus’un başına gelen felaketlerin dünyanın her yerinde anlatıldığını ama onun ağzından dinlemek istediklerini belirtir. Oidipus, bilmeden annesi ile evlendiğini ve bu çocuklarının da annesinden olduğunu anlatır. Yani İsmene ve Antigone, hem kızları hem de kız kardeşleridir. Üstüne üstlük kendi öz babasını da bilmeden öldürmüştür. Koro, felaketlerin gerçekliği karşısında şok geçirir.
 
-Oidipus Kolonos'ta, Oeidipus at Colonus, Fulchran-Jean Harriet (1776–1805)
-Oidipus Kolonos’ta, Oeidipus at Colonus, Fulchran-Jean Harriet (1776–1805)
 Theseus
 Theseus, sahneye girer ve sözü alır. Kendi elleriyle gözlerini oymuş Oidipus’a seslenir. Onu duyduğunu ve kendisinin de Oidipus gibi sürgünde büyüdüğünü, yüreğinin ona karşı merhamet dolu olduğunu beliritir.
 
@@ -58,8 +53,6 @@ Oidipus ona teşekkür eder ve hediye olarak kendi bedenini getirdiğini, sebebi
 
 Theseus böyle bir kehaneti duyduğunu belirtir. Ancak, misafirperver biri olduğu için onu koruyacağını söyler ve sahneden çıkar.
 
-Oidipus'un Öfkesi, Alexandre-Evariste Fragonard, French, 1780–1850, Priceton Art Museum
-Oidipus Kolonos’ta, Oidipus’un Öfkesi, Alexandre-Evariste Fragonard, French, 1780–1850, Priceton Art Museum
 Kreon
 Koro, Kolonos ve Atina’nın güzelliklerini anlatmaya başlar. Athena’nın koruduğu zeytin ağaçlarını, Dionysos’un kutsal eğlencelerini burada yaptığını, yemişleri hiçbir yerde olmayan ağaçları ve atlardan ilk yararlanan halkın kendilerinin olduğunu anlatırlar.
 
@@ -69,8 +62,6 @@ Oidipus ise, kendisini sürgüne en başta Kreon’un gönderdiğini belirtir. A
 
 Kreon, bu cevaba çok kızar. Kızlarından birini kaçırdığını itiraf eder. Yanındaki kızı Antigone’yi de askerlerine alması için emreder. Korobaşı ve Oidipus buna engel olmaya çalışır. Ancak Kreon korobaşına Oidipus’u da alıp gideceğini, ülkenin kralı isterse buna mani olmayı deneyebileceğini belirtir.
 
-Oidipus ve Antigone, Aleksander Kokular, 1793–1846, Warsaw National Museum
-Oidipus Kolonos’ta, Oidipus ve Antigone, Aleksander Kokular, 1793–1846, Warsaw National Museum
 Theseus
 Theseus sahneye kızgınlıkla girer, bu olayı duyduğu için Poseidon’a sunusunu yarım bırakarak gelmiştir. Oidipus, Kreon’un iki kızını kaçırdığını söyler. Korumalarını kızları bulmaları için gönderir ve Kreon’a yaptığının büyük ayıp olduğunu, birinin ülkesine girip de haklı sebepleri olsa bile kralın izni olmadan böyle hareket edemeyeceğini söyler. Kızları geri getirmeden hiçbir yere gitmesine izin vermeyeceğini de ekler.
 
@@ -80,8 +71,6 @@ Oidipus, duyduklarına sinirlenir. Tanrıların Oidipus’a bu felaketleri getir
 
 Theseus, Kreon’a kızar ve kızları birlikte geri getirmeye ikna eder. Böylece ikisi birlikte sahneden çıkar.
 
-Kör Oidipus Çocuklarını Tanrılara Emanet Ediyor, Bénigne Gagneraux,  (1784)
-Kör Oidipus Çocuklarını Tanrılara Emanet Ediyor, Bénigne Gagneraux, (1784)
 Polyneikes
 Oidipus kendi felaketlerine yakınırken, Antigone, İsmene ve Theseus sahneye girer. Oidipus, Theseus’a minnetarlığını iletir. Theseus’un ise yeni haberleri vardır. Argos’tan biri Poseidon Tapınağına sığınmıştır ve onunla konuşmak istemektedir. Oidipus, bekleyenin kim olduğunu anlar. Oğlu Polyneikes’tir. Antigone, babasına her ne kadar kardeşi ona ihanet etse de onu dinlemesi gerektiğini söyler. Böylece Oidipus, oğlu ile görüşmeyi kabul eder. Theseus sahneden çıkar.
 
@@ -93,8 +82,6 @@ Oidipus oğluna sinirlenir. Thebai’de hüküm sürerken, Oidipus’u kovan, ş
 
 Polyneikes, duyduklarına çok üzülür. Antigone, ordusunu çekmesini önerir. Kehanete göre, Oidipus bir taraf seçmediği için ikisi birden ölecektir. Polyneikes, Antigone’yi dinlemez ve savaşıp ölmek üzere sahneden çıkar.
 
-Oidipus, oğlu Polyneikes'i Lanetliyor, Oedipus Cursing His Son Polynices, Henry Fuseli, 1786
-Oidipus, oğlu Polyneikes’i Lanetliyor, Oedipus Cursing His Son Polynices, Henry Fuseli, 1786
 Oidipus’un Ölümü
 Birden gök gürler ve Oidipus heyecanlanır. Kehanete göre, yıldırımlar düştüğünde ölecektir. Çocuklarından Theseus’u çağırmalarını ister.
 

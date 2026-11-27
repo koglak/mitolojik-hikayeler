@@ -6,18 +6,18 @@ Oyunda önemli bir tema, insanlığa ve toplumsal yükümlülüklere dair ahlaki
 
 Euripides’in “Yakarıcılar” eseri, savaşın yıkıcılığı ve insani değerler konusunda zamanının ötesinde bir eleştiri getirmesiyle bilinir ve antik dünyadaki politik çatışmalarla ilgili güncel meseleleri sorgulayan bir eser olarak kabul edilir. Ancak eserin bazı parçaları zamanla kaybolmuş ve tam metin günümüze ulaşamamış olabilir.
 
-Karakterler
-Ethra – Theseus’un annesi
-Theseus – Atina Kralı
-Koro – Argoslu soylu kadınlar
-Adrastos – Argos Kralı
-Eudne – Kapaneus’un
-İphes – Eudne’nin babası
-Çocuklar – Ölen Argosluların çocukları
-Thebaili Haberci
-Argoslu Haberci
-Athena
-Yakarıcılar Özeti | Yakarıcılar Euripides
+## Karakterler
+* Ethra – Theseus’un annesi
+* Theseus – Atina Kralı
+* Koro – Argoslu soylu kadınlar
+* Adrastos – Argos Kralı
+* Eudne – Kapaneus’un
+* İphes – Eudne’nin babası
+* Çocuklar – Ölen Argosluların çocukları
+* Thebaili Haberci
+* Argoslu Haberci
+* Athena
+## Yakarıcılar Özeti | Yakarıcılar Euripides
 Sahne Eleusis’daki Demeter Tapınağında Ethra’nın prologuyla açılır. Ethra, tanrılara ülkesini mutlu kılması için dua eder. Korodaki kadınlar ülkelerini bırakıp ona yalvarmaya gelmiştir. Çünkü, Argos kralı Adrastos, damadı Polyneikes’in teşviğiyle, Oidipus’un mirasından pay almak için ordusunu savaşa götürmüştür ve savaşta, Kadmeia’da (Thebai) yedi cesur çocukları ölmüştür. Anneler evlatlarını kendi ülkerine gömmek isterken, zaferi kazanan Thebaililer tanrıların yasalarına karşı gelip buna izin vermemektedir. Kral Adrastos da buradadır ve gözlü yaşlı Ethra’dan oğlu Theseus’u kendilerine yardım etmesi için ikna etmesini dilemektedir. İşte bu yüzden Ethra, Demeter tapınağına buğdayla gelmiş ve Demeter ile kızına sunu yapmaktadır. Kadınların acısını dindirmek için, habercisini Theseus’u çağırmak üzere göndermiştir.
 
 “Bilge oldukları için, kadınların her şeyi

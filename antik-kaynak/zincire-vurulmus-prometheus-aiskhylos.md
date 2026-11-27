@@ -1,4 +1,4 @@
-Zincire Vurulmuş Prometheus Özeti
+# Zincire Vurulmuş Prometheus Özeti
 Zincire Vurulmuş Prometheus oyunu, ünlü tragedya yazarı Aiskhylos tarafından yazılmıştır. Aiskhylos, Prometheus hakkında üç trajedya yazmış olmasına rağmen, günümüze sadece Zincire Vurulmuş Prometheus tragedyası ulaşabilmiştir. Oyunun, M.Ö. 472–458 yılları arasında yazıldığı öne sürülmektedir.
 
 Aiskhylos, M.Ö. 5.yüzyılda Eleusis’te doğmuştur. Soylu bir aileden gelmektedir. Önemli politik kişiliklerin bulunduğu bir devirde yaşamıştır. Dönemim şairleri Pindaros, Simonides, Khoirilos, Sofokles ile ilişki içindeydi. Maraton, Salamis ve Pers savaşlarına katılmıştır. Eserlerinde koroya önem vermiştir. Persler, Tebai’ye Karşı Yediler, Agamemnon, Adak Sunucuları, Yakarıcılar, Eumenidler ve Zincire Vurulmuş Prometheus günümüze ulaşan oyunları arasındadır.
@@ -8,24 +8,23 @@ Oyunu türkçeye, Azra Erhat ile Selahattin Eyüpoğlu çevirmişlerdir. Azra Er
 Prometheus, Homeros destanlarında geçmez. Ama Hesiodos, Theogonia isimli eserinden ondan sık sık bahseder.
 
 Bu İçerikte Okuyacaklarınız
-Zincire Vurulmuş Prometheus Özeti
-Karakterler
-Prologos
-1. Epeisodion
-2. Epeisodion
-3.Epeisodion
-4. Epeisodion
-Karakterler
-Prometheus – Titan tanrı
-Hephaistos – Demirci Olimposlu Tanrı
-Kratos – Dayanıklılık ve gücün kişiselleştirilmiş hali
-Okeanos – Titan Tanrı
-İo – Argoslu ineğe dönmüş prenses
-Hermes – Tanrıların habercisi, Olimposlu tanrı
-Koro – Okeanos’un kızları
-Zincire Vurulmuş Prometheus, Prometheus Bound, Peter Paul Rubens, 1611–1618, Philadelphia Museum of Art
-Zincire Vurulmuş Prometheus, Prometheus Bound, Peter Paul Rubens, 1611–1618, Philadelphia Museum of Art
-Prologos
+## Zincire Vurulmuş Prometheus Özeti
+## Karakterler
+## Prologos
+## 1. Epeisodion
+## 2. Epeisodion
+## 3.Epeisodion
+## 4. Epeisodion
+## Karakterler
+* Prometheus – Titan tanrı
+* Hephaistos – Demirci Olimposlu Tanrı
+* Kratos – Dayanıklılık ve gücün kişiselleştirilmiş hali
+* Okeanos – Titan Tanrı
+* İo – Argoslu ineğe dönmüş prenses
+* Hermes – Tanrıların habercisi, Olimposlu tanrı
+* Koro – Okeanos’un kızları
+
+## Prologos
 Bia (“şiddet”) ve Kratos (“güç”), Prometheus’u kollarından tutmuş bir şekilde sahneye girer. Ardından da Hephaistos gelir.
 
 Kratos, dünyanın bir ucunda olan ıssız topraklara, İskit ülkesine geldiklerini belirtir. Prometheus, Hephaistos’un ateşini çalarak insanlara vermiştir. Bu ateştir ki bütün sanatların kaynağıdır. Zeus buyruklarını yerine getirerek, onu zincire vurması gerektiğini söyler.
@@ -43,8 +42,6 @@ Ama bitmek tükenmek nedir bilmeyecek
 Yürekler acısı ağır çilen,
 Çünkü seni kurtaracak yiğit doğmadı henüz
 
-Prometheus Vulcan tarafından zincirlenirken, Prometheus Being Chained by Vulcan, Rijksmuseum, 1623, Dirck van Baburen, Amsterdam
-Prometheus Vulcan tarafından zincirlenirken, Prometheus Being Chained by Vulcan, Rijksmuseum, 1623, Dirck van Baburen, Amsterdam
 Hephaistos, kanından olan bu adamın böyle cezalandırılmasına üzgündür. Keşke onun sanatını değil de başkasının sanatını çalmış olaydı diye hayıflanır. Bunun üzerine Kratos kızar; Zeus’tan başka kimsenin özgür olmadığını söyler.
 
 Her varlık çoktan bir kaderle yükümlenmiş,
@@ -64,9 +61,7 @@ Bu yüzden zincire vuruldum bu göklerin altında.
 
 Kanatlı atların çektiği arabada Okeanos’un kızları gelir yanına. Bu korodur. Okenaos’un kızları, olup bitene çok üzgündür. Prometheus der ki bir gün Zeus, onu tacından edecek kişiyi öğrenmek için kendisinden yardım istemeye gelecektir ve o da ona hiçbir şekilde söylemeyecektir bildiklerini.
 
-Prometheus, Theodoor Rombouts (1597–1637), Brüksel
-Prometheus, Theodoor Rombouts (1597–1637), Brüksel | Zincire Vurulmuş Prometheus Özeti
-1. Epeisodion
+## 1. Epeisodion
 Prometheus anlatmaya başlar. Ölümsüzler birbirine girmiştir; kimisi Kronos’u destekler, kimisi oğlu Zeus’u. Prometheus titanları yatıştırmaya çalışmıştır. Çünkü annesi Themis/Gaia ona gücün hakkından güçle gelinmeyeceğini, akılla gelinceğini anlatmıştır. Lakin Prometheus, Titanlar onu dinlemeyince, yeneceğini bildiği Zeus’a taraf olmuştur. Zeus’a yardımıyla, Kronos ve taraftarları Tartaros’a gitmiştir. Ama Prometheus’un karşılığında aldığı budur işte. Zeus babasının tahtına oturur oturmaz başlamıştır tanrılara şeref payı dağıtmaya ve böylece devletin katlarını önem sırasına koyuyordur. Konu insanlara gelince, hepsinin soyunu ortadan kaldırmak ister. Buna bir tek Prometheus karşı çıkar.
 
 Üstüne üstlük Prometheus onların içine kör umutlar salıp, ateşi de armağan etmiştir. Bu ateş sayesinde bütün sanatları öğreneceklerdir.
@@ -100,9 +95,7 @@ Typhon, Gaia’nın Tartarus’tan olma son oğludur. Ekidna ise eşidir. Kerber
 
 Böylece Okeanos sahneden çıkar.
 
-Prometheus, Musée National Gustave-Moreau, Paris
-Prometheus, Musée National Gustave-Moreau, Paris
-2. Epeisodion
+## 2. Epeisodion
 Prometheus yine başlar konuşmaya. Bu Olimposlu tanrıları üstün hale geçiren o’dur. Ayrıca insan görmüyorken, düşünemiyorken, bir duvar bile öremiyorken, mağarada yaşıyorken onlara aklı ve düşünceyi veren, sayı bilgisini öğreten, harfleri öğreten, hayvanlara ilk boyunduruk vuran, atları dizginleyip arabaya koşan, gemilerin bez kanatını bulan Prometheus’tur.
 
 Devam eder Prometheus. İnsanlara otları karıştırıp şifalı ilaç ve merhem yapmayı öğreten, kahinlik sanatını öğreten, tunç, demir, gümüş, altın ve diğer bütün madenleri de bulan Prometheus’tur. Yani o vermiştir bütün sanatları insanlara.
@@ -115,15 +108,11 @@ Prometheus kızı tanır ve üzülür. Hera’nın kini yüzünden bu haldedir.
 
 İo, Prometheus’a bunu nerden bildiğini sorar ve kendisine yol göstermesini ister.
 
-Prometheus, Karl Mayer, 3754, Kunsthistorisches Museum
-Prometheus, Karl Mayer, 3754, Kunsthistorisches Museum
-3.Epeisodion
+## 3.Epeisodion
 Prometheus ateşi insanlığa veren olduğunu söyler ona. İo inanamaz ve ona bunu kimin yaptığını sorar hayretle. Prometheus, Zeus’un buyruğu, Hephaistos’un eli diye belirtir. İo, kendi akıbetini sorar. Bu sefer Prometheus, bilmemesinin daha iyi olacağını söyler. Lakin koro, İo’nun başına gelenleri dinlemek ister.
 
 İo başlar anlatmaya. Geceleri rüyasında Zeus’un onunla beraber olmak istediğine dair sözler duymaya başlar. Ses, Lerna’nın yeşil çayırlarına gitmesini ve orada Zeus’un onu göreceğini söyler. En son bir gün dayanamayıp, babası İnakhos’a (Argos Kralı) anlatır düşlerini. Babası, tanrıların isteğini anlamak için dört bir yana adamlarını gönderir. Ama mantıklı bir açıklama bulamaz. En son biri açıkça kızını evinden kovmasını yoksa tanrıların soyunu yok edeceğini söyler. Babası böylece İo’yu evinden kovar. Sonra birden İo ineğe dönüşür. Bir de at sineği musallat olmuştur ısırınca canını yakan. Sonra da Toprağın oğlu Argos isimli, sayısız gözlü çobanı dikmişlerdir başına. İo sinekten kaçmaya çalışıp, toprak toprak koşarken, Argos da onu izlemiştir.
 
-Herkül Prometheus'u Kurtarırken, Hercules Delivering Prometheus, Nicolas Bertin, Birmingham Museum of Art
-Herkül Prometheus’u Kurtarırken, Hercules Delivering Prometheus, Nicolas Bertin, Birmingham Museum of Art
 Koro bile üzülür İo’ya. Prometheus onun geleceğini söylemeye karar verir. Hera yüzünden daha çok şey çekecektir.
 
 Şimdi sen buradan yola çıkınca,;
@@ -169,8 +158,6 @@ Tanrılar tanrısı her yerde her zaman?
 Yatağını özlediği bu ölümlü kızı
 Sürüm sürüm süründürüyor koca tanrı.
 
-Prometheus, Lucas Jordán, Luca Jordanus, Luca Fa Presto, 1632, National Museum, Varşova
-Prometheus, Lucas Jordán, Luca Jordanus, Luca Fa Presto, 1632, National Museum, Varşova
 İo duyduklarına yakınır ve ölmeyi tercih ettiğini söyler. Bunun üzerine Prometheus ünlü sözünü sözler.
 
 Benim acılarıma hiç katlanamazdın demek!
@@ -181,8 +168,6 @@ Zeus tahtından düşmedikçe.
 
 İo, Zeus’un tahtan düşebilme olasılığı olmasına sevinir. Çektiği acıların sebebi odur. Prometheus’a bunun nasıl olacağını sorar. Prometheus evlenip, kendinden güçlü bir oğlan doğuracağını söyler. İo, Prometheus’un zincirlerini çözmek ister ama Prometheus onun soyundan on kuşak sonra üçüncüsünün kendisini kurtaracağını söyler. (Herakles kastediliyor) Sonra ekler; ona ya daha neler çekeceğini anlatabilir ya da kendisini kimin kurtaracağını söyleyebilir. Koro, İo’nun çilesinin sonunu merak etmektedir.
 
-Prometheus, Jacob Jordaens, 1607–1678, Wallraf-Richartz-Museum 
-Prometheus, Jacob Jordaens, 1607–1678, Wallraf-Richartz-Museum
 Aşınca uğultularını denizin,
 Gorgon’lar ülkesi Kisthene’ye geleceksin,
 Phorkys’in kızları oturur orada,
@@ -221,9 +206,7 @@ Benden üstün kişi olmasın!
 Gözlerinden kaçılmayan tanrılar
 Sevgiyle bakmasınlar sakın bana!
 
-Prometheus Miti, Mythos des Prometheus, Piero di Cosimo, 1890, Musées de la Ville de Strasbourg
-Prometheus Miti, Mythos des Prometheus, Piero di Cosimo, 1890, Musées de la Ville de Strasbourg
-4. Epeisodion
+## 4. Epeisodion
 Prometheus, geleceği ve çaresini bilenin, yalnız kendisinin olduğunu belirtir. Zeus’un sonu da babası Kronos gibi olacaktır.
 
 Hermes sahneye girer. Ateşi çalan Prometheus’a kızgındır. Zeus, kimin kendisini tahtından atacağını sormaktadır. Prometheus hiçbir şekilde Hermes’e bu bilgiyi vermeyecektir. Bunun üzerine Hermes onu tehdit eder. Zeus’un kanatlı köpeği kartal onu bütün gün delik deşik edeceğini, yıldırımlarla vuracağını söyler. Prometheus yine de kabul etmez. Hermes koroya burayı terk etmeyi önerir, aksi halde Zeus’un gazabına tanık olacaklardır ve sahneden çıkar.

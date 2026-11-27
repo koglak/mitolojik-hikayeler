@@ -61,7 +61,7 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
     const tanriAdlari = data.ilgiliTanrilar.flatMap((tanri) => aramaEsAnlamlari[tanri] ?? []);
     kayitlar.push({
       baslik: data.ad,
-      ozet: [data.ozgunAd, data.sanatci, data.ozet, muze.ad, muze.kent, ...data.aramaTerimleri, ...tanriAdlari]
+      ozet: [data.ozgunAd, data.sanatci, data.ozet, muze.ad, muze.kent, ...(data.aramaTerimleri ?? []), ...tanriAdlari]
         .filter(Boolean)
         .join(' '),
       bolum: `Sanat eseri, ${sanatTurleri[data.tur].toLocaleLowerCase('tr')}`,

@@ -1,6 +1,6 @@
 Helen (Helena ya da Helene), Euripides‘in Truvalı Helen hakkında yazdığı oyundur. İlk kez MÖ 412 yılında Dionysia Festivali‘nde kayıp Andromeda oyununu da içeren bir üçleme ile sahlenmiş dramadır. Helen Oyunu, aynı dönemde sergilendiği düşünülen, yine Euripides’e ait İphigenia Tauris’te isimli oyunla birçok ortak noktaya sahiptir.
 
-Tarihsel Arka Plan | Helen Euripides
+## Tarihsel Arka Plan | Helen Euripides
 Helen, Atina’nın büyük bir yenilgiye uğradığı Sicilya Seferi‘nden kısa bir süre sonra yazılmıştır. Aynı zamanda, felsefe ve retoriği mesleklerine dahil eden bir eğitimci akımı olan sofistler, geleneksel değerleri ve dini inançları sorgulamaya başlamışlardır. Euripides, oyunun çerçevesi içinde, savaşı tüm kötülüklerin kaynağı olarak görerek sert bir şekilde kınar.
 
 Bu oyundan yaklaşık otuz yıl önce, Herodot‘un Tarihler adlı eserinde Helen’in aslında Troya’ya hiç gelmediğini, tüm Troya Savaşı boyunca Mısır’da olduğunu iddia etmiştir. Antik dönem lirik şairi Stesichorus da “Palinode” adlı şiirinde aynı iddiada bulunmuştur. (“Palinode”, Helen’i kötü şöhretli bir kadın olarak gösteren geleneksel karakterizasyonu destekleyen daha önceki bir şiirin düzeltmesidir).
@@ -8,23 +8,22 @@ Bu oyundan yaklaşık otuz yıl önce, Herodot‘un Tarihler adlı eserinde Hele
 Helen oyunu, bu hikâyenin bir varyantını anlatır. Buna göre, Helen’in Paris’le birlikte Truva’ya kaçmak yerine, aslında tanrılar tarafından Mısır’a götürüldüğü varsayımıyla başlar. Paris’le birlikte kaçan, kocasına ve ülkesine ihanet ederek on yıllık savaşı başlatan Helen aslında bir eidolon, yani hayali bir benzeriydi.
 
 Helen Özet, Euripides
-Parisin Secimi Tablo, Peter Paul Rubens (1636)
-Görsel Antandros resmi sitesinden alınmıştır.
+
 
 Afrodit, Hera ve Athena arasında geçen Güzellik Yarışması‘na, Paris hakem olarak atanmıştır. Afrodit, kendisini en güzel seçmesinin karşılığında, dünyanın en güzel kadını Helen‘in aşkını vaat etmiştir. Afrodit’in armağanını beğenen Paris, tanrıçayı en güzel olarak seçmiştir. Ödülünü almak için Helen’in ülkesi Sparta’ya yola koyulmuştur. Bu esnada yenilgiyi yediremeyen Hera, tanrı Hermes‘e, Helen’in yerine sahtesini koymasını emretmiştir. Böylece gerçek Helen, aslında yıllardır Mısır’da esirdir. Lakin, Yunanlılar ve Troyalılar sözde sadakatsizliği nedeniyle onu lanetlemektedir.
 
-Karakterler
-Helen – Sparta kraliçesi ve Zeus ile Leda’nın kızıdır. Mısır’a Hera tarafından getirilip, Proteus’un sarayında tutsaktır.
-Menelaos – Sparta kralıdır. Truva Savaşı’ndan sonra, yedi senedir evine dönmeye çalışmaktadır.
-Teuker – Truva kahramanı Aias’ın kardeşidir. Babası tarafından sürgün edilmiştir.
-Theoklymenos – Proteus’un oğludur ve ülkenin kralıdır. Helen’e taliptir.
-Theonoe – Proteus’un kahin kızıdır ve Theoklymenos’un kız kardeşidir.
-Dioskori – Helen’in ikiz erkek kardeşleridir. Babaları Zeus tarafından yıldıza dönüştürülmüşlerdir.
-Polydamna – Yaşlı kadın, Proteus’un sarayının kapısında bekler.
-Elpidio – Menelaos’un sadık, yaşlı hizmetkarı
-Koro – Yunan ve Mısırlı kadınar
-Ulak
-Helen Özeti
+## Karakterler
+* Helen – Sparta kraliçesi ve Zeus ile Leda’nın kızıdır. Mısır’a Hera tarafından getirilip, Proteus’un sarayında tutsaktır.
+* Menelaos – Sparta kralıdır. Truva Savaşı’ndan sonra, yedi senedir evine dönmeye çalışmaktadır.
+* Teuker – Truva kahramanı Aias’ın kardeşidir. Babası tarafından sürgün edilmiştir.
+* Theoklymenos – Proteus’un oğludur ve ülkenin kralıdır. Helen’e taliptir.
+* Theonoe – Proteus’un kahin kızıdır ve Theoklymenos’un kız kardeşidir.
+* Dioskori – Helen’in ikiz erkek kardeşleridir. Babaları Zeus tarafından yıldıza dönüştürülmüşlerdir.
+* Polydamna – Yaşlı kadın, Proteus’un sarayının kapısında bekler.
+* Elpidio – Menelaos’un sadık, yaşlı hizmetkarı
+* Koro – Yunan ve Mısırlı kadınar
+* Ulak
+## Helen Özeti
 Helen kaçırıldıktan sonra, Proteus’un sarayına götürülmüş ve konuk edilmiştir. Proteus‘un biri kahin Theonoe isimli kızı ve Theoklymenos isimli oğlu vardır. Proteus’un ölümünden sonra, Theoklymenos tahta geçmiştir ve Helen ile evlenmek istemektedir. Fakat, kocasına sağdık kalan Helen, saraydan kaçmış ve Proteus’un mezarına sığınmıştır.
 
 Yunanlı Teuker, Troya Savaşı’na üvey abisi Aias ile katılmıştır. Aias, trajik bir şekilde savaş esnasında ölmüştür. Abisini kurtarmadığı için kızan babası, Teuker’i ülkeden sürmüştür. İşte bu yüzden Mısır’a gelen Teuker, Proteus’un sarayında konuk edilen Helen ile karşılaşır. Helen, sürgündeki Yunan Teuker’den kocası Menelaos’un Truva’dan Yunanistan’a hiç dönmediği ve öldüğünün sanıldığı haberini alır. Ayrıca, Helen’in iffetsizliği yüzünden annesi Leda kendisini asmıştır. Kardeşleri Kastor ve Polluks‘un ise yıldızlara dönüştüğüne dair bir söylenti duyulmuştur. Bunca yıldır esir olan Helen, kocasına sadık kalmasına rağmen, savaşın sorumlusu olmuştır. Dahası Menelaos’un ölmesi, Helen’i Theoklymenos’un evlenebileceği tehlikeli bir konuma sokar. Menelaos’un akıbetini öğrenmek için Theoklymenos’un kız kardeşi kâhin Theonoe‘ye danışır.

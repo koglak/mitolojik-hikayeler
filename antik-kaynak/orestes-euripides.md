@@ -2,33 +2,34 @@ Orestes adlı oyun, antik Yunan tragedya yazarı Euripides‘in önemli eserleri
 
 Euripides’in “Orestes” eseri, Orestes‘in kendi öz annesini öldürdükten hemen sonrasını konu alır. Büyük babası Tyndareos, torununu, ahlak kurallarını yok saydığı için ölüme mahkum etmek ister. Öte yandan Orestes ve Elektra, bütün suçlunun Apollon’un kehaneti olduğunu belirtir. Ayrıca ona göre, kocasını öldüren bir kadın, toplumsal ahlak için öldürülmelidir. Öte yandan ölüm kalım arasında, amcası Menelaos’un yardım kendisine yardım edeceğini umar. Lakin, Menelaos, oralı olmaz; siyasi çıkarlarını kan bağının üzerine koyar. Orestes için her şey bitmek üzeredir ama bu kadar kolay pes etmeyecektir. Kardeşi Elektra ve dostu Pylades ile bir plan yaparlar. Eğer öleceklerse, tüm savaşın ve olanların suçlusu Helen de ölmelidir! İşte olaylar bu kadar karışmışken tepeden tanrı Apollon iner ve bütün problemi çözer!
 
-Orestes Özeti | Orestes Euripides
+## Orestes Özeti | Orestes Euripides
 Bu İçerikte Okuyacaklarınız
-Orestes Özeti | Orestes Euripides
-Karakterler
-Progolos (Öndeyiş)
-Parados (Koronun şarkısı)
-I. Epeisodion
-I.Stasimon (koronun şarkı söylediği bölüm)
-II. Epeisodion (konuşmalı bölüm)
-II. Stasimon
-III. Epeisodion
-III. Stasimon
-IV. Epeisodion
-Eksodos (yazarın seyirciye doğrudan seslendiği bölüm)
-Karakterler
-Orestes — Agamemnon ile Klytaimnestra’nın oğlu, Klytaimnestra’nın katili
-Elektra — Agamemnon ile Klytaimnestra’nın kızı
-Tyndareos — Klytaimnestra’nın babası
-Helene — Menelaos’un karısı, Klytaimnestra’nın kız kardeşi
-Menelaos — Sparta kralı, Agamemnon’un erkek kardeşi, Helen’in kocası
-Hermione — Helen ile Menelaos’un kızı
-Pylades — Orestes’in kuzeni. Agamemnon’un kız kardeşi Anaksibia ve Phokis kralı Strophios’un oğludur, Orestes, babasının ölümünden sonra Phokis’e sığınmış ve Pylades ile çok yakınlaşmıştır.
-Phrygialı — Helen’in kölesi
-Haberci — Agamemnon’un yaşlı hizmetçisi
-Apollon — tanrı
-Koro — Argoslu Kadınlar
-Progolos (Öndeyiş)
+## Orestes Özeti | Orestes Euripides
+## Karakterler
+* Progolos (Öndeyiş)
+## Parados (Koronun şarkısı)
+## I. Epeisodion
+## I.Stasimon (koronun şarkı söylediği bölüm)
+## II. Epeisodion (konuşmalı bölüm)
+## II. Stasimon
+## III. Epeisodion
+## III. Stasimon
+## IV. Epeisodion
+## Eksodos (yazarın seyirciye doğrudan seslendiği bölüm)
+## Karakterler
+* Orestes — Agamemnon ile Klytaimnestra’nın oğlu, Klytaimnestra’nın katili
+* Elektra — Agamemnon ile Klytaimnestra’nın kızı
+* Tyndareos — Klytaimnestra’nın babası
+* Helene — Menelaos’un karısı, Klytaimnestra’nın kız kardeşi
+* Menelaos — Sparta kralı, Agamemnon’un erkek kardeşi, Helen’in kocası
+* Hermione — Helen ile Menelaos’un kızı
+* Pylades — Orestes’in kuzeni. Agamemnon’un kız kardeşi Anaksibia ve Phokis kralı Strophios’un oğludur, Orestes, babasının ölümünden sonra Phokis’e sığınmış ve Pylades ile çok yakınlaşmıştır.
+* Phrygialı — Helen’in kölesi
+* Haberci — Agamemnon’un yaşlı hizmetçisi
+* Apollon — tanrı
+* Koro — Argoslu Kadınlar
+* Progolos (Öndeyiş)
+
 Atreus soyunun Argos’taki sarayının önünde, Klytaimnestra ve Aigisthos’un öldürülmesinden altı gün sonra Elektra sahneye çıkar.
 
 Elektra konuşmaya başlar. Tanrıların insanların başına saldığı, katlanılamayacak bela ve dert olmadığını söyler. Tantalos’un kötü kaderi ile alay etmediğini belirtir. Tantalos, ölümlüyken eşit gibi tanrıların sofrasına davet edildiği halde, diline hakim olamadığı için, başının üzerine koca bir kaya asarak onu cezalandırmışlar. Tantalos’un oğlu Pelops’tur. Kader tanrıçasının fitnesiyle birbirinden nefret eden iki kardeş Atreus ile Thyestes’in babasıdır. Atreus, kardeşinin çocuklarını öldürüp, etlerini babaları Thyestes’e yedirmiştir. Ama Elektra, bu hikayeye devam etmek istemez.
@@ -37,8 +38,6 @@ Onun yerine, Giritli Aerope ile Atreus’tan, meşhur çocuklar Agamemnon ve Men
 
 Apollon, Orestes’i öz annesini öldürmeye ikna etmiştir ama Elektra bu yüzden Apollon’u suçlamamaktadır. Çünkü bu cinayete bir kadın ne kadar yardım edebilirse, Elektra da o kadar yardım etmiştir. Ayrıca Orestes’in arkadaşı Pylades de, cinayette suç ortağıdır.
 
-Klytaimnestra, Orestes ve Elektra'nın annesi, Agamemnon'un Karısı, Helen'in Kız Kardeşi, John Collier, 1882
-Klytaimnestra, Orestes ve Elektra’nın annesi, Agamemnon’un Karısı, Helen’in Kız Kardeşi, John Collier, 1882
 İşte Orestes, annesini öldürdüğü günden beri yataklara düşmüştür. Eumenisler onun yüreğine korku salmaktadır. (Eumenisler, cinayetleri ve kibir gibi suçları cezalandırmakla yükümlü, yılan saçlı tanrıçalardır. Kronos babasının üreme organını kestiğinde, toprağa düşen kanlardan doğmuşturlar. Sayıları hikayelere göre değişebilir. Gerçek adları Erinysleri anmak istemeyen ölümlere onlara Eumenisler derler.)
 
 Elektra, Orestes’in durumu hakkında detaylı bilgi verir. Argos halkının onları ana katili olarak gördüğünden, dolayısıyla onlarla konuşmadığından bahseder. Bu yüzden, Argoslular bugün Orestes ve Elektra’nın taşlanarak mı yoksa kılıçla kafaları kesilerek mi öldürüleceğine karar verecektir. Ama hala umutları vardır. Çünkü amcaları Menelaos, Troya kentinden dönmeyi başarmış ve kentin Nauplion limanına demirlemiştir.
@@ -59,9 +58,7 @@ Elektra, güzelliği bozulmasın diye saçının ucundan kesen Helen’e sinirle
 
 Elektra, Argoslu kadınlardan oluşan koruyu görünce sevinir. Abisini uyandırmamalarını ister onlardan.
 
-Elektra Agamemnon'un Mezarında, Frederic Leighton, 1869, Wikipedia
-Elektra Agamemnon’un Mezarında, Frederic Leighton, 1869, Wikipedia
-Parados (Koronun şarkısı)
+## Parados (Koronun şarkısı)
 Koro, Elektra’ya Orestes’in nasıl olduğunu sorar. Buna karşılık Elektra, abisinin hala aynı olduğunu; çünkü tanrı Loksias’ın (Apollon) Themis Tapınağında Orestes’e yanlış öğütler vererek annesini öldürmesine sebep olduğunu söyler.
 
 (Themis — Zeus’un eşlerinden biri ve yasa tanrıçası. Kehanet, töre ve yasaları onun yarattığına inanılır. Pyhtia’daki tapınak Apollon’dan önce ona aittir ve Apollon’a kehanet sanatını o öğretmiştir.)
@@ -70,9 +67,7 @@ Fısıltılar yüzünden Orestes’in uyanmasından çekinmektedirler. Elektra, 
 
 Koro, bu dertlerin ne zaman biteceğini sorunca, Elektra annesine kızar. Çünkü, babasını öldürüp, çocuklarının katil olmasına sebep olarak hayatlarını mahvetmiştir. Artık onları uykusuz geceler beklemektedir.
 
-Aigisthos, Klytaimnestra'nın Öldüğünü Keşfederken, Auguste van den Berghe
-Aigisthos, Klytaimnestra’nın Öldüğünü Keşfederken, Auguste van den Berghe
-I. Epeisodion
+## I. Epeisodion
 Korobaşı, Orestes’in kimse fark etmeden ölüp gitmesinden korktuğunu belirtir.
 
 Orestes olduğu yerde doğrulur. Uyku’nun tatlı tesellisi ona dertlerini unutturmuştur. Lethe ne harika bir tanrıçadır! Buraya nasıl geldiğini ve neler olduğunu hatırlamadığını söyler.
@@ -87,12 +82,10 @@ Orestes, Elektra’dan Apollon’nun ona verdiği yayı getirmesini ister. Apoll
 
 Elektra abisinin sözünü dinler ve Orestes’in de uzanarak dinlenmesini diler.
 
-Erinyeler tarafından kovalanan Orestes'in pişmanlığı, William-Adolphe Bouguereau tablosu
-Erinyeler tarafından kovalanan Orestes’in pişmanlığı, William-Adolphe Bouguereau tablosu
-I.Stasimon (koronun şarkı söylediği bölüm)
+## I.Stasimon (koronun şarkı söylediği bölüm)
 Koro, Bakkhos’a özgü neşeli eğlencelerin değil, göz yaşının eşlik ettiği saygın tanrıçalara, Eumenislere seslenir. Orestes, dünyanın merkezi olan Pythia’ya gidip, öğrendiği kehanetten sonra başına neler gelmiştir! Zeus’a, Tantalos’un soyundan gelen bu adam için yalvarırlar.
 
-II. Epeisodion (konuşmalı bölüm)
+## II. Epeisodion (konuşmalı bölüm)
 Korobaşı, endamından Tantalos’un soyundan geldiği belli olan Menelaos’u görür ve onu selamlar.
 
 Menelaos, Troya’dan dönüşünde evini görmenin mutluluğunu yaşarken, bir taraftan da felaketler yüzünden içi daralmaktadır. Abisinin öldürüldüğünü Melea Burnunda (Mora yarımadası) iken haber almıştır. Deniz tanrısı ve denizcilerin kahini Nereus’un elçisi Glaukos ona her şeyi anlatmıştır. Kara haberi aldıklarında yasa boğulmuşlardır. Yine de Nauplion’a geldiğinde herkesin sağlıklı olduğunu umut etmektedir. Sonra bir denizciden Klytaimnestra’nın ölümünü duymuştur. Böyle bir cinayet işleyen Orestes nerededir? Menelaos, Troya Savaşına gittiğinde, yeğeni Orestes, henüz küçük bir bebektir; dolayısıyla şimdi onu görse tanıyamayacağını belirtir.
@@ -113,8 +106,6 @@ Diğer sebep ise Aigisthos’un dostlarıdır, çünkü kentteki insanları Ores
 
 Orestes’in düştüğü zor durumdan kurtulabilmesi için son umudu amcası Menelaos’tur.
 
-Hennequin Remords Orestes
-Hennequin Remords Orestes
 Menelaos, kızının yasını tuttuğu için saçlarını kazıyıp siyahlara bürünen Spartalı Tyndareos’un geldiğini haber verir.
 
 Orestes, Tyndareos ve karısı Leda’nın kendisini küçükken yetiştirdiğini, Dioskuroslara (Kastor ve Pollux) gösterdikleri sevgi ve ihtimamı gösterdiğini anlatır. Ama ona layık olamamıştır ve şimdi ondan utanmaktadır.
@@ -135,8 +126,6 @@ Annesi hem kocasını aldatmış hem de onu öldürmüştür. Orestes bu duruma 
 
 Koro başı, kadınların doğaları gereği erkeklerin işlerine karışmasının kötü sonuçlar verdiğini belirtir.
 
-Orestes ve Erinyeler, John Singer Sargent
-Orestes ve Erinyeler, John Singer Sargent
 Tynderaos, Orestes’in bu konuşması ile onun idamını daha şevkle savunacağını söyler. Hemen halkı onu ve kız kardeşinin taşlanarak öldürülmesi için ikna edecektir. Kız kardeşi, Orestes’ten bile suçludur, çünkü Orestes’i kışkırtarak Hephaistos’un bile yakamayacağı bir ateşi körüklemiştir. Menelaos ise Tynderaos’a karşı çıkmamalı ve yeğenini savunmamalıdır. Aksi halde Sparta’ya dönmemelidir. Böylece sahneden çıkar.
 
 Menelaos kararsız kalmıştır. Orestes kendisini kurtarmasını ister. Babası sırf onun karısının işlediği yüz kızartıcı suç yüzünden, Hellenleri toplayarak sefere çıkmıştır. Şimdi karşılığını, Orestes’in hayatını kurtararak ödemelidir. Babası onun için on sene savaşmıştır, ancak kendisinin yapacağı iyilik bir gündür. Üstelik ablası İphigenia, Aulis’te sırf Menelaos için kurban edilmiştir. Onun durumunda kızı Hermione’u kurban etmesine de gerek yoktur. Ayrıca kendisi ve kardeşi Elektra ölürse soyları kuruyacaktır. Bunun için kendisini kurtarmalıdır.
@@ -157,16 +146,12 @@ Böylece Orestes, Pylades’e yaslanır. Önce babasının sonra annesinin mezar
 
 İkisi birlikte sahneden çıkarlar.
 
-Pylades ve Orestes, François Bouchot . Pylades, çılgınlık sırasında Orestes'i korurken gösterilmiştir.
-Pylades ve Orestes, François Bouchot . Pylades, çılgınlık sırasında Orestes’i korurken gösterilmiştir.
-II. Stasimon
+## II. Stasimon
 Koro, Atreusoğullarının Simoeis (Dümrek Çayı, Truva) kıyılarına kadar giden ününün sona erdiğini söyler. Altın post yüzünden çıkan kavga ve soylu çocukların öldürülerek sofraya yemek diye konması yüzünden Tantalos’un soyu lanetlenmiştir. O günden beri, Atreus’un iki oğluna varana dek cinayet üstüne cinayet işlenmiştir. Klytemnestra, oğlu onu öldürmeden önce, tanrıların yasalarını çiğneyip, babasını onurlandıramayacağını söylemiştir. Dünyadaki hiçbir hastalık, acı, kendi öz annesini öldürmekten daha kötü değildir. İşte Orestes böylece Erinyslerin oyuncağı olmuştur.
 
 (Pelops’un oğulları Atreus ile Thyestes, çocuksuz ölen Miken kralı Eurystheus’un tahtı için çatışırlar. Thyestes altın postu getirenin kral olmasını teklif eder. Atreus, posta sahip olduğundan teklifi kabul etse de; Atreus’un karısı Aerope, postu kaçırarak Thyestes’e verir. Bu haksızlığa kızan Zeus, Hermes’i gönderir ve Atreus’a yeni bir teklifte bulunmasını söyler. Güneş doğudan batarsa tahta o geçecektir. Thyestes teklifi kabul edince, Zeus güneşi doğudan batırır. Atreus böylece tahta geçer ama kardeşinin ihanetinin öcünü almak için, Thyestes’in üç oğlunu öldürerek, etlerini babalarına yedirir.)
 
-Pieter Lastman - Orestes ve Pylades arasındaki kurban savaşı
-Pieter Lastman – Orestes ve Pylades arasındaki kurban savaşı
-III. Epeisodion
+## III. Epeisodion
 Elektra sahneye girer ve koroya, abisinin nereye gittiğini sorar. Koro, Pylades ile birlikte meydana gittiklerini ve halkı ikna etmeye çalışacaklarını söyler. O esnada haberci gelir ve Pelasgos halkının Elektra ve Orestes’in taşlanarak öldürülmesine karar verdiğini bildirir.
 
 Elektra çok üzülür. Kararın detaylarını sorar.
@@ -221,12 +206,10 @@ Orestes, erkeklere yaraşır akıl taşıyan Elektra’yı tebrik eder. Hermione
 
 Orestes ile Pylades saraya girer.
 
-Guerin Hermione ve Orestes
-Guerin Hermione ve Orestes
-III. Stasimon
+## III. Stasimon
 Elektra, korodaki kadınları ikiye böler ve yola göz kulak olmaları için gönderir.
 
-IV. Epeisodion
+## IV. Epeisodion
 Saraydan Helen’in çığlıkları duyulur. Elektra, Helen’in ölmesi için dua eder. Onun yüzünden nice adamın kanı Skamandros Nehrini kırmızıya boyamıştır. (Karamenderes, Truva nehri)
 
 Korobaşı, Hermione’un geldiğini haber verir. Elektra ve kadınlar, ifadesiz bir yüz takınır. Elektra, Hermione’u görür görmez kendi infaz kararlarını anlatır ve kendilerine yardım etmesini talep eder. Hermione kabul ederek saraya girer. Ancak kızı, Orestes ile Pylades yakalar. Elektra ise hemen saraya girer.
@@ -247,7 +230,7 @@ Orestes ile Pylades sarayı tutuşturmaya başlarlar. Myrtilos’un intakımın�
 
 Hermione ve Orestes'in Buluşması
 Hermione ve Orestes’in Buluşması
-Eksodos (yazarın seyirciye doğrudan seslendiği bölüm)
+## Eksodos (yazarın seyirciye doğrudan seslendiği bölüm)
 Menelaos, kaçan bir köleden haberi alıp gelmiştir. O iki yırtıcı hayvanı öldürmek için yanıp tutuşmaktadır. Sarayın çatısında Orestes görünür ve Hermione’un boynuna kılıç dayamıştır. Saraya girmemesi için ona bağırır.
 
 Orestes, Helen’i tanrıların kaçırdığını söyler ama babasına ihanet etmesini, kızı Hermione’un ölümü ile ödeyecektir. Sarayı ise sırf Menelaos’un eline geçmesin diye ateşe verecektir. Çünkü kral olmayı hak eden kendisidir. Menelaos’a Argosluları infazı geri çekmesi için ikna etmesini söyler, aksi halde kızını öldürecektir. Elektra ve Pylades’e sarayı tutuşturma emri verir.

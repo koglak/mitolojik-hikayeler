@@ -4,8 +4,6 @@ Troya ve Akha ordusu karşılaşır. Böylece, Aleksandros (Paris) ile Menelaos 
 
 Hektor, Paris’in gerilediğini görünce sinirlenir ve sövüp saymaya başlar. Paris bir başbelasıdır ve her şey onun başının altından çıkmıştır, şimdi böyle korkakca davranması onları küçük düşürmektedir.
 
-Hektor Paris'i gevşekliği yüzünden azarlayıp savaşa gitmesini tembihlerken, Hector Admonishes Paris for His Softness and Exhorts Him to Go to War — Johann Friedrich August Tischbein (1750–1812), İlyada Üçüncü Bölüm Özet
-İlyada Üçüncü Bölüm Özet – Hektor Paris’i gevşekliği yüzünden azarlayıp savaşa gitmesini tembihlerken, Hector Admonishes Paris for His Softness and Exhorts Him to Go to War — Johann Friedrich August Tischbein (1750–1812)
 Paris, Hektor’un dediklerine hak verir ve Menelaos ile birebir dövüşmeyi önerir. Kim kazanırsa kızı alacaktır ve ülkeler yine dost olacaktır.
 
 Hektor, kardeşinin dediklerine sevinir ve hemen ordusunu durdur. Agamemnon da Hektor’un bir diyeceği olduğunu anlar o da Akhaları durdurur.
@@ -16,8 +14,6 @@ Menelaos kabul eder, karşılıklı savaşmadan önce Troyalıların iki koyunu 
 
 İki taraf öneriyi kabul ederler; böylece Akhalar ile Troyalılar silahlarını bırakırlar. Agamemnon Talthybios’u (habercisi) koyun almaya gönderir.
 
-İlyada Üçüncü Bölüm Özet - Jacques-Louis David (1748–1825), The Love of Helen and Paris (1788), Paris ve Helen'in Aşkı, Musée du Louvre, Paris.
-İlyada Üçüncü Bölüm Özet – Jacques-Louis David (1748–1825), The Love of Helen and Paris (1788), Paris ve Helen’in Aşkı, Musée du Louvre, Paris.
 O esnada tanrıların habericisi İris; Priamos’un kızı Laodike’nin kılığına girer. Laodike, Homeros’a göre Priamos’un kızlarından en güzelidir ve Antenor’un oğlu Helikaon ile evlenmiştir.
 
 Laodike kılığındaki İris, Helene’yi savaş resimlerini kumaşa dokurken bulur. “Menelaos ile Aleksandros senin adına savaşacaklar; sen de yenenin karısı olacaksın” diye olan biteni Helen’e haber verir.
@@ -28,8 +24,6 @@ Helene kuleye vardığında Priamos ve çevresindeki yaşlıları bulur. Çevres
 
 Priamos, bu savaşın sebebinin tanrılar olduğunu belirtir ve kalabalıkta gördüğü uzun boylu adamın kim olduğunu sorar. Helene, Priamos’a yakınır; Truva’ya gelip de bu olaya sebep olduğu için pişmandır. Üzüntü onu günden güne eritmektedir. Sonra Priamos’un sorusuna yanıt verir; işaret ettiği adam Agamemnon’dur.
 
-İlyada Üçüncü Bölüm Özet - Angelica Kauffman (1741–1807), Venus Persuading Helen to Fall in Love with Paris / Venüs, Helen'i Paris'e Aşık Olması için İkna Ederken(1790), The Hermitage, St. Petersburg, Russia
-İlyada Üçüncü Bölüm Özet – Angelica Kauffman (1741–1807), Venus Persuading Helen to Fall in Love with Paris / Venüs, Helen’i Paris’e Aşık Olması için İkna Ederken(1790), The Hermitage, St. Petersburg, Russia
 Priamos oldukça şaşırır; ne şanslı kişidir, buyruğunda bir sürü adam vardır. Bir zamanlar Phrygia’ya gittiğini Otreus’un ve Mygdon halkının Sakarya kıyısındaki ordusunu gördüğünü hatta o gün Amazonların da geldiğini ama onların bile Akhalar kadar kalabalık olmadığını söyler. Sonra da başka bir adamı işaret ederek kim olduğunu sorar.
 
 Helene, adamın Laertes’in oğlu İthake’nin kralı Odysseus olduğunu; akıllı ve kurnaz olmasıyla bilindiğini söyler.
@@ -40,8 +34,6 @@ Ardından Aias’ın kim olduğunu sorarlar. Helene de onun Akhaların kalesi ol
 
 Ancak Helene, kardeşlerinin Lakedaimon’da vefat ettiğini bilmemektedir.
 
-Helen Watching Menelaus And Paris Fight From The Walls Of Troy. Helen Menalaos ve Paris'in Dövüşünü Troya Surlarından İzlerken, Fortunino Matania, Italian (1881–1963)
-Helen Watching Menelaus And Paris Fight From The Walls Of Troy. Helen Menalaos ve Paris’in Dövüşünü Troya Surlarından İzlerken, Fortunino Matania, Italian (1881–1963)
 O esnada tanrılara ant töreni başlamıştır. Truvalı haberci İdaios, Priamos’un yanına gelir. Onu ant törenine çağırır ve aşağıdaki dizeleri söyler.
 
 “Hadi bakalım, Laomedon’un oğlu, kalk,
@@ -61,8 +53,6 @@ Böylece Priamos ile Antenor, savaş alanına giderler. Agamemnon tanrılara ant
 
 Hektor ile Odysseus dövüş alanını ölçer ve kuralları belirler. Aleksandros ile Menelaos da zırhlarını giyerek hazırlanırlar. Sonunda dövüş başlar. Paris kargısını atar ama Menelaos’un zırhını delemez. Menelaos ise önce Zeus’a yakarır. Kendisini dostça ağırladığı bu adamın yaptıklarından sonra onu öldürmesine izin vermesini ister ve kargısını sallayarak Aleksandros’un zırhını deler. Aleksandros ölümden kaçar, sonra Menelaos kılcıını çeker ve Aleksandros’un tolgasına vurunca kılıcı kırılır. Menelaos Zeus’a, Aleksandros’u şuracıkta öldürmek için yalvarır. En sonunda Aleksandros’un tolgasından yakalar. Ama Afrodit müdahale eder, tolganın kayışını açar ve Aleksandros’un kafası kurtulur. Ardından Afrodit bir duman ile Aleksandros’u sararak kaçırır; gider onu yatak odasına bırakır.
 
-Menelaus and Paris — Johann Heinrich Tischbein the Elder (1722–1789) , 1757 — Museumslandschaft Hessen Kassel
-Menelaos ve Paris — Johann Heinrich Tischbein the Elder (1722–1789) , 1757 — Museumslandschaft Hessen Kassel
  Afrodit, hemen sonra, Helene’e onun eskiden tanıdığı yaşlı bir kadın gibi görünür. Aleksandros’un yatak odasında olduğunu haber verir. Helene tanır tanrıçayı ve yakınır. Tanrıça hep Helene’yi baştan çıkarmaya çalışmaktadır. Menelaos tam Aleksandros’u yenip Helene’i eve götürecekken hem de. Paris’i kendisine almasını teklif eder tanrıçaya. Helene, Truvalılara rezil olmaktadır sürekli.
 
 Afrodit kadının dediklerine çok kızar ve onu, Akhalar ile Truvaları birbirine daha fena düşüreceğine dair tehdit eder. Bu yüzden Helene’in ödü kopar ve Aleksandros’un yanına gider.

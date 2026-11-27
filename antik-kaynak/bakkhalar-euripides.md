@@ -4,35 +4,36 @@ Yunan tragedyalarında üç çeşit başlangıç vardır.
 
 Koro ile başlar. (Aiskhylos)
 Dialog ile başlar. (Sofokles)
-Prologos (önsöyleşi) ile başlar. (Euripides)
+## Prologos (önsöyleşi) ile başlar. (Euripides)
 Euripides oyuna Dionysos’un önsöyleşisi ile başlayacaktır, nitekim koroyu oyunlarında en az kullanan da Euripides’tir.
 
-Bakkhalar Özeti | Bakkhalar Euripides
+## Bakkhalar Özeti | Bakkhalar Euripides
 Bu İçerikte Okuyacaklarınız
-Bakkhalar Özeti | Bakkhalar Euripides
+## Bakkhalar Özeti | Bakkhalar Euripides
 Dionysos ve Maenadlar
-Karakterler
-Dionysos’un Önsöyleşisi
-Kadmos ile Teiresias vs Pentheus
-Dionysos ve Pentheus
-Pentheus’un Sanrıları
-Pentheus’un Ölümü
-Diğerlerinin Sonları
-Dionysos ve Maenadlar
+## Karakterler
+* Dionysos’un Önsöyleşisi
+* Kadmos ile Teiresias vs Pentheus
+* Dionysos ve Pentheus
+* Pentheus’un Sanrıları
+* Pentheus’un Ölümü
+* Diğerlerinin Sonları
+* Dionysos ve Maenadlar
+
 Dionysos, Thebai Ülkesini kuran Kadmos’un kızı Semele’den ve Zeus’tan olma bir tanrıdır. Annesi Zeus’un tanrısal halini görmek istediği için onu doğuramadan yanarak ölmüştür, Zeus da onu bacağına koymuş ve babasının bacağından doğmuştur. İşte bu yüzden ona “iki kere doğan” anlamında Dionysos adı verilmitir.
 
 Dionysos’un bir diğer adı Bakkhos’tur, hatta çoğu trajedi de bu ad ile anılır. Bakkhalar ise çevresindeki esrik (sarhoş) kendini tanrıya adamış kadın rahibelerdir. Bakkhos onları Bozdağ’dan (Salihli) Anadolu’dan getirmiştir. Bakkhos nereye giderse onlar da oraya gider, yarı çıplak, vücutlarına ceylan postları saran, ellerinde teflerle dans ederler. Bu trajediye de adlarını vermişlerdir. Maneadlar olarak da anılırlar.
 
-Karakterler
-Dionysos – şarap ve üzüm tanrısı.
-Agaue – Semele’nin kız kardeşi, Dionysos’un teyzesi
-Pentheus – Agaue’nin oğlu ve Thebai Kralı
-Kadmos – Thebai’yi kuran kişidir, yaşlandığı için tahtını Pentheus’a bırakmıştır.
-Teireias – kör kahindir. (Sofokles’in Oidipus ve Antigone Tragedyalarında da geçmektedir.)
-Koro – Anadolu’dan gelmiş Bakkhalardır
-Ulak
-Dionysos’un Önsöyleşisi
-Oyun Thebai sarayının önünde Dionysos’un monologu ile başlar. Dionysos’un annesi Semele’nin mezarı ise asma ile örtülmüştür.
+## Karakterler
+* Dionysos – şarap ve üzüm tanrısı.
+* Agaue – Semele’nin kız kardeşi, Dionysos’un teyzesi
+* Pentheus – Agaue’nin oğlu ve Thebai Kralı
+* Kadmos – Thebai’yi kuran kişidir, yaşlandığı için tahtını Pentheus’a bırakmıştır.
+* Teireias – kör kahindir. (Sofokles’in Oidipus ve Antigone Tragedyalarında da geçmektedir.)
+* Koro – Anadolu’dan gelmiş Bakkhalardır
+* Ulak
+* Dionysos’un Önsöyleşisi
+* Oyun Thebai sarayının önünde Dionysos’un monologu ile başlar. Dionysos’un annesi Semele’nin mezarı ise asma ile örtülmüştür.
 
 Dionysos, Kadmos kızı Semele’nin oğlu olduğunu söyler ve annesinin duman tüten mezarını asma ile kapladığını şimdi de insan kılığına girip Thebai’ye yani anne tarafından memleketine geri döndüğünü anlatır. Lidya’yı, Frigya’yı, Pers ülkesini, Arabistanı, Asya ülkelerini gezip kendi törenlerini oradakilere öğretmiştir. Buraya gelmesinin sebebi de annesinin öz kız kardeşinin Dionysos hakkında çıkardığı söylentidir. Dionysos, Zeus’un oğlu değilmiş, Semele onu ölümlü bir erkekten peydahlamıştır, Zeus’da bu yalana kızıp da öldürmüştür Semele’yi.
 
@@ -40,8 +41,6 @@ Dionysos, Kadmos kızı Semele’nin oğlu olduğunu söyler ve annesinin duman 
 
 Koro yani Bakkhalar şarkılarını söylemeye başlarlar. Asya’dan Tmolos(Bozdağ, Salihli)’tan gelmişlerdir. Dionysos’un annesi Zeus’un yıldırımı ile çarpılıp düştüğünde, Zeus bebeği yerden alıp, kendi bacağına rahim gibi sokmuştur da Hera görmesin onu diye. Dionysos, baba tanrı Zeus’tan doğduğunda ise başına yılanlardan çelenk sarıldığı için, Bakkhalar’ında kırlarda canlı yılan yakalayıp onları saçlarına örmelerini anlatırlar. Bakkhalar hayvan derilerini kasnağa gererek davulu yaratmışlardır, Frig flütleri ile uyuşmuştur müzikleri. Ve sonra da Bakkhalar törenlerini anlatırlar.
 
-Levha 30: Pentheus'un Ölümü (Pentheus a matre, sororibusq discerpitur), Ovidius'un 'Metamorfozlar' adlı eserinden,1606, Antonio Tempesta
-Levha 30: Pentheus’un Ölümü (Pentheus a matre, sororibusq discerpitur), Ovidius’un ‘Metamorfozlar’ adlı eserinden,1606, Antonio Tempesta
 Kadmos ile Teiresias vs Pentheus
 Teiresias (Thebai’nin kör kahini) girer sahneye ve Agenor oğlu Kadmos’u çağırmalarını söyler. Kadmos ona Dionysos ayinlerini yapacağına söz vermiştir.
 
@@ -57,8 +56,6 @@ Kadmos da ona katılır ve Pentheus’u tanrıya ibadete davet eder. Diğer kuze
 
 Pentheus iyice sinirlenir ve o büyücüyü bulup, hapse atacağını söyleyip çıkar gider. Teiresias ile Kadmos da tanrının şenliklerine katılmaya giderler.
 
-Maenadlar, Eliza Robertson, Bakkhalar 
-Maenadlar, Eliza Robertson
 Dionysos ve Pentheus
 Nöbetçi, Pentheus’un emri üzerine Dionysos’u getirmiştir. Ancak onun ne kadar garip olduğundan isteyerek teslim olduğundan ve hapse atılan kadınların aniden ellerindeki zincirler çözülüp, hapishanenin kapıları açılarak ormana gittiğinden bahseder.
 
@@ -77,8 +74,6 @@ Pentheus, askeri toplama emri verir ve kadınları bu şekilde dağdan indirecek
 
 Dionysos kendi kendine konuşur. Pentheus kabul etmezse zihnini gevşeterek ona kadın fistani giydirip, Thebai içerisinde yürütecektir rezil etmek için. Ardından da kendi anasına öldürtecektir onu. Tanrıyı reddetmenin cezası budur.
 
-Paul Reid, Pentheus
-Paul Reid, Pentheus
 Pentheus’un Ölümü
 Pentheus, kadın kıyafetleri giymiştir. Sarhoştur her eyi çift görmektedir. Koro olanları anlatır sonra. Pentheus ağacın üzerinden kadınları gözetlerken Dionysos’un sayesinde Manyadlar onu fark eder. Kadınlar ve annesi onu fark eder ve saldırırlar, hatta ağacı yerinden sökerler. Annesi üzerine atlar onu öldürmek için, Pentheus üzerindekileri çıkarır kendini daha iyi göstermek için. Annesine yalvarır, onun oğlu olduğunu anlatmaya çalışır ancak kadın Bakkhos etkisi altındadır. Annesi ve teyzeleri korkunç bir şekilde onu parçalayarak öldürürler. Bütün bunları Pentheus’a eşlik eden ulak anlatır ve ekler, en iyisi tanrılara inanmaktır.
 
@@ -88,8 +83,6 @@ Kadmos, Pentheus’un cesedinin parçalarını taşıdıkları sedye ile içeri 
 
 Kadmos, hem onun hem de Pentheus’un tanrıya inançsızlığı yüzünden bütün bunların başlarına geldiğini, kendi oğlunu kız kardeşleri ile birlikte Aktaion’un tazılarının parçaladığı yerde parçaladığını anlatır. ( Aktaion, Autonoe’nin oğludur ve Artemis’ten daha iyi bir avcı olduğunu iddia ettiği için Artemis, onu tazılarına parçalatmıştır)
 
-Pentheus'un Ölümü, Casa dei Vettii (VI 15,1) in Pompeii
-Pentheus’un Ölümü, Casa dei Vettii (VI 15,1) in Pompeii
 Diğerlerinin Sonları
 Dionysos girer sahneye, artık insan formunda değildir. Yedi kapılı Thebai’ye geldiğini, ancak halkın onu nasıl red ettiğini, zincire vurduklarını anlatır ve bu cezayı hak etmişlerdir. Tanrı tanımaz bir şehrin yaşamamalıdır. Dionysos devam eder. Kadmos’un bir yılana dönüşeceğini, karısı Ares’in kızı Harmonia’nın ise yeryüzü ejderine dönüşeceğini söyler. İkisinin birlikte kentleri talan edeceğini ama Apollo’nun bilici ocağını talan edince sonlarının kötü olacağını, Harmonia ve Kadmos’u Ares’in kurtarıp onları Mutlar Ülkesine (bir nevi cennet) koyacağını haber verir.
 

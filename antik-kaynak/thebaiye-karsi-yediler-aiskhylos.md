@@ -2,14 +2,14 @@ Thebai’ye Karşı Yediler ya da genellikle Yedi Thebai’ye Karşı adlı oyun
 
 Bu oyunun öncesinde olan olayları Sofokles’in Oidipus Rex ve Oidipus Kolonos’ta eserleri konu alır. Bu oyun sonrasında olan olayları ise Sofokles’in Antigone oyunu konu alır.
 
-Karakterler
-Eteokles – Thebai’de kalan kardeş
-Gözcü
-Koro (Bakire kadınlar)
-Antigone – Eteokles’in kız kardeşi
-İsmene – Eteokles’in kız kardeşi
-Haberci
-Özet
+## Karakterler
+* Eteokles – Thebai’de kalan kardeş
+* Gözcü
+* Koro (Bakire kadınlar)
+* Antigone – Eteokles’in kız kardeşi
+* İsmene – Eteokles’in kız kardeşi
+* Haberci
+## Özet
 Sahne Thebai Agorasında açılır. Eteokles prolog’ta her şeyin tanrılardan geldiğini söyler. Eğer şehrin başına talihsizlik gelirse, insanların bunu şehrin başındakinden bileceğini ekler.
 
 Sahneye gözcü girer. Ordunun şehrin 7 kapısına bir lider atayarak saldırmaya başladığını, Eteokles’in de her kapıya, birini atamasının uygun olduğunu söyleyip çıkar. Eteokles, tanrılara yalvarır. Eğer onurlandırılmak istiyorlarsa, Kadmos’un şehrine bir zarar gelmesini önlemelidirler.
@@ -22,7 +22,7 @@ Eteokles öfkeyle sahneye girer. Kadın kısmını küçümser. Kadınlarla bera
 
 Eteokles ile koro laf dalaşına girer. Düşen kenti tanrılar bile korumamaktadır ama koro farklı düşünmektedir. Eteokles, kadının iyi bir anne ve sadık olması gerektiğini bu yüzden susup evinde oturmalarını gerektiğini söyler. Koro, sıkıntı içindeki erkeği, sıkıntılardan çıkaranın kadın olduğunu belirtir. Eteokles, savaşanlara korku salmamalarını onlara emreder ve sakince bir dua başlatır. Pazar yerinin koruyucusu, bahar tanrıçası Dirke’ye, İsmeno’nun kaynaklarına seslenir. Kent kurtulursa onları nasıl onurlandıracağını anlatır. Koroya da kendisine sızlanmadan eşlik etmesini ister. Birazdan gidip, altı kapıya lider atayacaktır ve yedinciye kendisi geçecektir. Böylece sahneden çıkar.
 
-Modern Betimleme
+## Modern Betimleme
 Thebai’ye Karşı Yediler – Modern Betimleme
 Koro ağıt yakmaya devam eder. Vahşi Akhalardan kendilerini koruması için tanrılara dua eder dururlar. Kent düşüp de bakirelerin köle olarak savaş ganimeti olarak alınması ne korkunçtur! Bu durumda ölüm en güzelidir.
 
@@ -40,8 +40,6 @@ Homolois kapısında Amphiaraos vardır, ve Tydeus’un gücünü suçlamaktadı
 
 Gözcü son ve yedinci kapıda kardeşi Polyneikes’in olduğunu söyler. Polyneikes, kardeşi ile kavgaya girmek için yanıp tutuşmaktadır. İkisinden biri ölmezse, Polyneikes, Eteokles’i sürgüne göndercektir. Tıpkı Eteokles’in Polyneikes’i bir zamanlar sürgüne gönderdiği gibi. Armasını da tarif eder ve kimi çıkaracağını sorar. Eteokles, Oidipus’un soyundan geldiği için lanet okur. Oidipus’un laneti gerçekleşmektedir. Eteokles, Polyneikes’in adı gibi kavgacı ve kıskanç olduğunu söyler. Armasındaki Dirke figürünün gerçekten ona yardım ettiğine ihtimal vermez. Dirke, Polyneikes’in hayatının hiçbir aşamasında ona yardım etmemiştir ki şimdi etsin. İşte bu yüzden kardeşinin karşısına kendi çıkacaktır.
 
-Eteokles ve Polyneikes arasındaki savaş, The duel between Eteocles and Polynices, by Giovanni Silvagni, 1820, 19th-century
-Thebai’ye Karşı Yediler – Eteokles ve Polyneikes arasındaki savaş, The duel between Eteocles and Polynices, by Giovanni Silvagni, 1820, 19th-century
 Hem koro hem gözcü iki kardeşin birbirini öldürmesinin korkunç bir suç olduğunu söyler. Eteokles ise, Apollon’un nefretinin Laios’un tüm soyunu cehennemdeki Kokytos ırmağına gönderdiğini söyler. Ayrıca tanrılar onları tamamen unutmuştur, belki kendi kanlarını sunarlarsa memnun olacaklardır. Koro, Eteokles’e gitmemesi için yalvarır ama işe yaramaz. Eteokles hazırlanıp gider.
 
 Koro ağıt yakmaya devam eder. Onlar birbirini öldürürse, kim onları yıkayacaktır? Bu evin eski suçlarına yeni suçlar karışmaktadır. İlkin üçüncü kuşaktan Laios, Pythos tapınağında Apollon tarafından çocuk yapmaması konusunda uyarılmasına rağmen, Oidipus isimli oğlu olmuştur. Oidipus babasını öldürüp, annesi ile evlenmiştir. Bu yüzden anne kendi öldürmüş, Oidipus da kör olmuştur. Ve oğullarına lanet okumuştur. İşte şimdi Erinyeler bu laneti yerine getirmektedir.
@@ -52,8 +50,6 @@ Koro, şehir kurtulduğu için mutludur ama bir yandan da ölen krallara üzülm
 
 Sahneye Eteokles ile Polyneikes’in cansız bedenleri girer. Ardından koro Antigone ile İsmene’nin geldiğini de görür.
 
-Eteokles ve Polyneikes, Tiepolo
-Eteokles ve Polyneikes, Tiepolo
 Eteokles ile Polyneikes birbirlerinin göğsünü delerek acı içinde öldükleri bellidir ve soylarının sonunu getirmişlerdir. İsmene ve Antigone da bu ağıta katılır.
 
 En sonunda haberci, kent meclisinin aldığı kararı duyurmak için sahneye girer. Halkını ve şehrini savunan Eteokles’e bir mezar yapılacaktır ama yabancı bir halkla, ülkesine saldıran hain Polyneikes’e bir mezar yapılmayacak, leşini köpekler parçalayacaktır. Antigone bu karara karşı çıkar. Ne olursa olsun, kardeşine mezar yapacaktır. Haberci bunun hatalı bir davranış olacağını söylese de Antigone diretir. Koronun yarısı Polyneikes’in cesedi ardından çıkarken, diğer yarısı Eteokles’in cesedinin ardından çıkar.

@@ -3,19 +3,20 @@
 Apollon’un tapınağında genç ve istekli bir hizmetçi olan yetim İyon’un istemeden de olsa soyunu keşfetmesini konu alır. Oyun aynı zamanda annesi Kreusa’nın, bir tanrının ellerinde korkunç bir istismara maruz kaldıktan sonra kaderini çizmeye çalışmasının hikayesidir. Euripides’in bu miti yeniden anlatması Yunan trajedileri arasında radikal bir adımdır: Klasik Atina’nın diğer oyunlarında bireyler genellikle Kader’in ya da tanrıların başlarına gelmesine neden olduğu felaketlere karşı çıkarken, İyon tragedyası, hem Kreusa hem de İyon aslında tanrıların insanların kaderlerini yönetmeye hakkı olup olmadığını konu alır.
 
 Bu İçerikte Okuyacaklarınız
-Karakterler
-İyon Tragedyası Özet
-Karakterler
-Hermes – Tanrıların habercisi
-İyon – Kreusa ve Apollon’un oğlu, Delfi Tapınak Görevlisi
-Koro – Kreusa’nın hizmetçileri
-Kreusa – Atina Kraliçesi
-Ksuthos – Akhaia ve Atina Kralı
-Yaşlı Adam – Kreusa’nın sadık hizmetkarı
-Köle
-Pythia – Apollon rahibesi
-Athena – Tanrıça
-İyon Tragedyası Özet
+## Karakterler
+* İyon Tragedyası Özet
+## Karakterler
+* Hermes – Tanrıların habercisi
+* İyon – Kreusa ve Apollon’un oğlu, Delfi Tapınak Görevlisi
+* Koro – Kreusa’nın hizmetçileri
+* Kreusa – Atina Kraliçesi
+* Ksuthos – Akhaia ve Atina Kralı
+* Yaşlı Adam – Kreusa’nın sadık hizmetkarı
+* Köle
+* Pythia – Apollon rahibesi
+* Athena – Tanrıça
+* İyon Tragedyası Özet
+
 Delfi‘deki Apollon Tapınağı önünde güneş doğmadan hemen önce sahne açılır. Hermes sahneye girer. Tanrıların evini sırtında taşıyan Atlas‘ın kızı Maia ve Zeus‘tan doğduğunu, haberci tanrı olduğunu söyler. Dünyanın merkezi olan Delfi’de, Apollon kehanet dağıtmaktadır. Apollon, Athena’nın kenti Atina’da, kral Erektheseus‘un kızı Kreusa‘ya, Akropolün kuzeyindeki Makrai dedikleri uçurumun aşağısında sahip olmuştur. Apollon’un isteği ile, Kreusa hamileliğini babasından gizlemeyi başarmıştır. Kreusa, çocuğu gizlice sarayda doğurup, tanrı ile beraber olduğu yere, sazdan bir beşik içinde bebeğini ölüme terk etmiştir. Athena, bir zamanlar Atina’daki Aglauros‘un kızlarına topraktan doğan bebek Erekhthonios‘u bıraktığında, bebeği koruması için iki yılan koymuştur. Kreusa, tanrıça gibi, bebeğinin yanına ne kadar değerli eşyası varsa bırakmıştır.
 
 Apollon, Hermes‘i bebeği alıp Delfi’ye götürmekle görevlendirmiştir. Hermes, denileni yapmıştır. Güneş doğarken tapınağa gelen kahin bebeği bulmuştur. İlk önce, bebeğin terk edilmesine şaşırmış ve onu kutsal alanın dışına bırakacaktır. Ancak, bebeğe acır ve alıp onu tapınakta büyütür. Böylece, çocuk soyunu bilmeden tapınakta büyür. Ona güvenen Delfililer, onu tapınapın zenginliklerini korumakla görevlendirir. Annesi Kreusa, bu esnada Ksuthos ile evlenmiştir. Çünkü Euboia ile Khalkisliler arasında bir savaş patlamış ve Akhaialı olan Ksuthos, Atina’ya yardıma gelmiştir.
@@ -24,8 +25,6 @@ Böylece Zeus oğlu Aiolos’tan doğma Ksuthos, Kreusa ile evlenme hakkını ka
 
 İyon, defne yaprakların tacı ile sahneye çıkar. Güneşin doğduğunu ve Delfili kahinin kehanet dağıtmaya başladığını haber verir. İnsanlara Kastalia Nehrinde yıkanmalarını ve ağızlarına kötü söz almamalarını tembihler. Şimdi, tapınağın kapılarını kutsal defne yaprakları ile donatacaktır. Sunuları kirleten kuşları kovalayacaktır. Anası babası olmadığında ve burada büyüdüğünden, tapınağa saygısı çoktur. Göreviyle iftihar eder. Böylece, gelen kuşları kovalamaya başlar.
 
-İyon Tragedyası, Ion Tragedy, Euripides Play
-İyon Tragedyası, Ion Tragedy, Euripides Play
 Sahneye Koro yani Kreusa’nın hizmetçileri girir. Koro, heyecanla friz süslemelerini anlatmaya koyulur. Herkül’ün görevleri ve ünlü Gigantlar savaşı konu alınmıştır. Koro başı, İyon’a Tapınağın dünyanın merkezi olup olmadığını sorar. İyon da doğrular. İyon, tapınağın önünde yiyecek sundularsa, Apollon’a istediklerini sorabileceklerini belirtir. Lakin, bir koyun kurban etmeden tapınağa girmeleri yasaktır. Nereden geldiklerini sorunca, Atina’dan geldiklerini söyler koro.
 
 Kreusa sahneye girer. İyon kadının soylu olduğunu anlar. Ancak Apollon’un Tapınağını görür görmez, kadının yanaklarından yaşlar süzülmüştür. İyon pek şaşırır kadının tepkisine. Kreusa, merakını hoş görür ve eski bir anıyı hatırladığını söyler. Güçlüler kadınları ezerken, haklarını nerede arayacaklardır?
@@ -34,8 +33,6 @@ Kreusa sahneye girer. İyon kadının soylu olduğunu anlar. Ancak Apollon’un 
 
 Bu sefer İyon eşini merak eder. Kreusa, Atina Euboia’ya saldırınca, Ksuthos’un yardıma geldiğini ve kendisinin de ödül olarak ona verildiğini anlatır. Şimdi Trophonios mağarasındadır. Apollon’a kehanet danışmaya gelmişlerdir. Hiç çocukları olmadığı için danışmaya gelmişlerdir. Bu sefer, Kreusa, İyon’un kim olduğunu sorgular. Anası babası olmadığını, Apollon Tapınağı’nda büyüyüp, burada yaşadığını öğrenir. Ziyaretçiler onu besleyip büyütmüştür. Ailesine dair bir yadigarı bile olmadığından, onları hiç aramamıştır.
 
-İyon Tragedyası, Ion Tragedy, Euripides Play
-İyon Tragedyası, Ion Tragedy, Euripides Play
 Kreusa, buraya bir arkadaşının problemini danışmaya geldiğini söyler. Kadın, Apollon ile beraber olmuş ve gizlice doğurduğu bebeğini terk etmiştir. Ölüp ölmediğini bilmemektedir ve yaşasaydı İyon kadar olacağını belirtir. Kadının bir daha hiç çocuk sahip olmadığını ekler. İşte, çocuğun akıbetini öğrenmek istemektedir. İyon, tanrının kadına zalimlik yaptığını itiraf eder. Belki de çocuğu Apollon büyütmüştür.
 
 Kreusa kendisine yardım etmesini ister ama İyon, tanrının ayıbını ortaya çıkarmanın yanlış olduğunu belirtir. Kreusa, tanrının kendisine yardım etmediğine yakınır. O esnada, kocasının geldiğini görür ve İyon’dan anlattılarını gizlemesini ister.
@@ -64,8 +61,6 @@ Sonra, Kreusa’yı zorla buraya getirerek, yaptıklarına Apollon’un kehaneti
 
 Kreusa daha fazla dayanamaz ve sırrını açıklar. Çiçek toplarken, Apollon ona tecavüz etmiştir. Gizlice doğurduğu çocuğunu mağaraya terk etmiştir. Apollon şimdi, kocasına bir oğul bağışlarken, kendi oğullarını ölüme terk etmiştir. Tanrıya lanetler okur. Koro ve yaşlı adam şaşkına döner. Bu olayı başkasının bilip bilmediğini sorarlar ama Kreusa, tek başına doğurduğunu ve tek başına bebeği terk ettiğini belirtir. Yaşlı adam, olup biteni bir kenara bırakmasını söyler. Kocasını ve İyon’u öldürmelidir. Kreusa, kocasının bir zamanlar sadık olduğunu belirtir. Yaşlı adam buna karşılık, başına bela olmadan İyon’u öldürmesini öğütler.
 
-İyon Tragedyası, Ion Tragedy, Euripides Play
-İyon Tragedyası, Ion Tragedy, Euripides Play
 Kreusa, Athena’nın Gigantlar savaşında bir gorgon öldürdüğünü ve derisini göğsünde taşıdığını anlatır. Erekhthonios doğduğunda ona, altın bir zincirle iki damla gorgon kanı vermiştir. Bunun biri zehirdir, diğeri her hastalığı iyileştirebilecek güce sahiptir. Bu zincir, babasına geçmiş, sonra da Kreusa’ya kalmıştır. Hep bileğinde taşımaktadır. İki zinciri de ayrı taşımaktadır. İşte çocuğu bu zehirli zincirle öldürmeye kararlıdır. Yaşlı adam, Atina’ya gitmeden bir an önce çocuğu öldürmesi gerektiğini söyler. Kreusa, adama zinciri verir. Tanrılara sunu yaparken, çocuğun kadehine zincirden zehri damlatmasını söyler. Yaşlı adam öneriyi kabul eder ve sahneden çıkarlar.
 
 Koro, Kreusa için üzülür. Apollon’a öfkelenir.

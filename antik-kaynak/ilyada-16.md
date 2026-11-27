@@ -6,8 +6,6 @@ Patroklos, Akhalara acıdığı için ona kızmamasını ister. Diomedes, Agamem
 
 Akhilleus duyduklarına üzülür. Annesi ona Zeus’tan bir haber getirmemiştir. Her şeyin suçlusu Agamemnon’dur, onu onur payını, Akhilleus’u küçük düşürerek almıştır. Olan olmuştur ama Patroklos’un teklifini kabul eder. Oraya gidip; Troyalıların, gemileri aleve vermelerini engellemesine izin verir. Ancak gidip de Troyalılarla savaşmamasını söyler, çünkü kendi şanına leke süreceğini belirtir. Troyalılar, gemilerin önünden çekilir çekilmez onun da geri dönmesini, asla onlarla savaşmamasını emreder. Örneğin Apollon, Troyalıları sevmektedir ve her an onun kaşısına çıkabilir.
 
-Patroklos - Jacques-Louis David (1780)
-Patroklos – Jacques-Louis David (1780)
 Onlar böyle konuşurken, Aias artık bunalmıştır. Troyalıları, daha fazla gemilerden tutamamaktadır.
 
 Sonra Homeros, Musalara seslenir ve onlara, ateşin nasıl gemilerin üzerine yağdığını sorar. Hektor, Aias’ın kargısını kırar ve ardından gemiyi ateşe verirler. Aias bunun tanrıların işi olduğunu sezer. Zeus, Troyalıları desteklemektedir ve Akhaların çabalarını boşa çıkarmaktadır. Akhilleus da ateşi görmüştür. Geri dönüşlerinin engellenmemesi için, Patroklos’a hemen hazırlanmasını söyler, kendisi de orduyu hazırlayacaktır.
@@ -85,8 +83,6 @@ Patroklos, Troyalıları duvar ile gemiler arasında sıkıştırıp öldürmeye
 
 Sarpedon, Patroklos’un elinden ölenleri görünce Lykialılara kızar ve kendisinin bizzat bu adamın karşısına çıkacağını söyler. Arabasından atlar; Patroklos, Sarpedon’u görünce, o da arabasından atlar.
 
-Sarpedon — Henri Lévy — Musee d’Orsay, 1874
-Sarpedon — Henri Lévy — Musee d’Orsay, 1874
 Zeus, karısı Hera’ya Sarpedon’un insanlar arasında en sevdiği ölümlü olduğunu belirtir ve bu şekilde Patroklos’un elinden ölmesine gönlünün razı gitmediğini söyler. Onu alıp da Lykia’ya kaçırmak istemektedir.
 
 Buna karşılık Hera, böyle bir hile yapmaması gerektiğini belirtir. Çünkü savaşta bir sürü tanrının oğulları vardır ve hepsinin aynı şeyi yapabileceğini söyler. Ayrıca Sarpedon’un kaderi böyledir. Ama madem Sarpedon’u bu kadar sevmektedir, Patroklos onu öldürdükten sonra Ölüm ve Uyku’yu göndermesini ve onlarında Sarpedon’un ölüsünü Lykia’ya götürerek, halkının mezar inşa etmesini söyler.
@@ -95,8 +91,6 @@ Zeus, onu dinler ve oğluna saygı için kan damlaları akıtır yeryüzüne.
 
 Patroklos ile Sarpedon birbirlerine yürürken; Patroklos, Sarpedon’un seyici Trasymedos’u öldürür. Sarpedon da Patroklos’u vurmaya çalışır ama onun yerine atı Pedasos’u öldürür. Patroklos’un seyisi Automedon, ölen atı dizginden keserek, diğer atları yola sokar.
 
-Hypnos ve Thanatos Sarpedon'u Taşırken — Henry Fuseli (1741–1825)
-Hypnos ve Thanatos Sarpedon’u Taşırken — Henry Fuseli (1741–1825)
 Ardından Patroklos, Sarpedon’u öldürmeyi başarır. Sarpedon ölürken yoldaşı Glaukos’a seslenir. Lykialıları kışkırtıp kendi uğruna savaşmaya devam etmelerini ister. Bedenini de burada bırakmaları bir ayıp olacaktır.
 
 Glaukos, Sarpedon’un yalvarışlarını duyar ve yüreği burkulur. Duvara tırmanırken, Teukros, Glaukos’u kolundan vurmuştur. Glaukos, tanrı Apollon’a yalvarır. Yarasını iyileştirmesini ister ki Sarpedon’un ölüsü için savaşabilsin. Apollon onu dinlemektedir ve hemen acılarını dindirir.
@@ -109,8 +103,6 @@ Böylece ölü için bir çatışma başlar. Zeus, oğlu için geceyi üzerlerin
 
 Budeion kentinin kralı, Agakleos oğlu Epeigeus, zamanında akrabasını öldürdüğü için Peleus’un sarayına sığınmıştır. Sonra da Akhilleus ile birlikte İlyon’a savaşa gelmiştir. Tam Sarpedon’un ölüsünü alacakken, Hektor onu öldürür.
 
-Apollon ve Sarpedon — Jean-Simon Berthélemy (1743–1811)
-Apollon ve Sarpedon — Jean-Simon Berthélemy (1743–1811)
 Patroklos buna çok üzülür ve İthaimeneus’un sevgili oğlu Sthenelaos’u öldürür.
 
 Glaukos, Hellas’tan gelen Khalkon’un oğlu Bathykles’i öldürür.
