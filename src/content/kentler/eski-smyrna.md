@@ -49,7 +49,7 @@ kunyeGorseli:
   wikidata: "Q108923214"
 ---
 
-Eski Smyrna, İzmir Körfezi'nin kuzeydoğu köşesinde, bugün Bayraklı'nın apartmanları arasında kalan bir höyüğün üstündedir. Herodotos'a göre kent ilk önce Aiol kentiydi. Bir gün Smyrnalılar kent dışında Dionysos için şenlik yaparken, sığındıkları Kolophonlu sürgünler kapıları kapatıp kenti ele geçirdi. Bundan sonra Smyrna İon kentlerinden biri sayıldı.
+Eski Smyrna, İzmir Körfezi'nin kuzeydoğu köşesinde, bugün Bayraklı'nın apartmanları arasında kalan bir höyüğün üstündedir. Araştırmalar yerleşimin geçmişini Tunç Çağı'na kadar götürür; kazılar burada düzenli planlı konutları, surları ve Athena kutsal alanını ortaya çıkarmıştır. Herodotos'a göre kent ilk önce Aiol kentiydi. Bir gün Smyrnalılar kent dışında Dionysos için şenlik yaparken, sığındıkları Kolophonlu sürgünler kapıları kapatıp kenti ele geçirdi. Bundan sonra Smyrna İon kentlerinden biri sayıldı.
 
 Antik çağda yedi kent Homeros'un doğum yeri olduğunu iddia ediyordu; Smyrna bunların en ısrarcısıydı. Anlatıya göre şair Meles Çayı'nın kıyısında doğmuştu. Bu yüzden ona Melesigenes, yani "Meles'te doğan" da denirdi.
 

@@ -8,7 +8,7 @@ bilgiler:
   - etiket: "Dönem"
     deger: "MÖ 4. yüzyıldan Bizans'a"
   - etiket: "Öne çıkan"
-    deger: "Bazilikanın kemerli bodrumu, Poseidon ve Demeter heykelleri, duvar yazıları"
+    deger: "Bazilikanın kemerli bodrumu, Faustina Kapısı, Poseidon ve Demeter heykelleri"
 kaynak: "Pausanias 7.5.1–3; Aelius Aristides, Smyrna Söylevleri"
 bolge: "ionya"
 konum:
@@ -22,7 +22,7 @@ yapilar:
   - ad: "Batı Stoa"
     aciklama: "Üstü örtülü sütun dizisiyle açık alana bakan uzun yapı."
   - ad: "Faustina Kapısı"
-    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+    aciklama: "İmparator Marcus Aurelius'un eşi Faustina'yı onurlandıran anıtsal agora girişi."
   - ad: "Agora Avlusu"
     aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
 kunyeGorseli:
@@ -39,4 +39,4 @@ kunyeGorseli:
 
 Pausanias'a göre Büyük İskender, Pagos Dağı'nda, bugünkü Kadifekale'de avlandıktan sonra uyudu. Rüyasında iki Nemesis tanrıçası ona, Smyrnalılara bu dağın eteğinde yeni bir kent kurmalarını söylemesini buyurdu. Yeni Smyrna, Bayraklı'daki eski höyüğün yerine buraya kuruldu ve agorası kentin merkezi oldu.
 
-MS 178'deki büyük depremde yıkılan agora, İmparator Marcus Aurelius'un yardımıyla yeniden yapıldı. Bugün agoranın batı galerisinin ve büyük bazilikanın kemerli bodrum katları ayaktadır. Bodrumun duvarlarında, antik çağda kazınmış çizimler ve yazılar görülür. Kazılarda bulunan Poseidon ve Demeter heykelleri İzmir'in müzesinde sergilenmektedir.
+MS 178'deki büyük depremde yıkılan agora, İmparator Marcus Aurelius'un yardımıyla yeniden yapıldı. Bugün agoranın batı galerisinin ve büyük bazilikanın kemerli bodrum katları ayaktadır. Bodrumun duvarlarında, antik çağda kazınmış çizimler ve Yunanca yazılar görülür. Faustina Kapısı, imparator ailesinin kente bıraktığı izlerden biridir. Kazılarda bulunan Poseidon ve Demeter heykelleri İzmir'in müzesinde sergilenmektedir.

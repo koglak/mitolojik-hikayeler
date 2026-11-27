@@ -24,7 +24,7 @@ ilgiliTanrilar: ["zeus"]
 ilgiliKahramanlar: ["herakles", "hippolyte", "omphale"]
 yapilar:
   - ad: "Zeus Labraundos Tapınağı"
-    aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
+    aciklama: "Kutsal alanın merkezindeki tapınak, Hekatomnidler döneminde anıtsal ölçekte yeniden düzenlendi."
   - ad: "Mausolos Andronu"
     aciklama: "Labraunda Zeus kutsal alanında Mausolos adına yaptırılan anıtsal ziyafet salonu."
   - ad: "Idrieus Andronu"
@@ -32,9 +32,11 @@ yapilar:
   - ad: "Anıtsal Merdiven"
     aciklama: "Labraunda’nın eğimli arazisinde kutsal alanın terasları arasında geçişi sağlar."
   - ad: "Propylonlar"
-    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+    aciklama: "Kutsal alanın tören yollarına açılan anıtsal girişleri."
   - ad: "Kutsal Yol"
-    aciklama: "Kentin veya kutsal alanın bölümlerini birbirine bağlayan taş güzergâh."
+    aciklama: "Mylasa'dan Labranda'ya çıkan taş döşeli tören güzergâhı."
+  - ad: "Teraslar ve İstinat Duvarları"
+    aciklama: "Yamaçtaki kutsal alanı farklı kotlarda düzenleyen Hekatomnid dönemi mimarisi."
   - ad: "Anıt Mezar"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
 kunyeGorseli:
@@ -53,4 +55,6 @@ Labranda, Milas'ın kuzeyindeki dağların yamacında, Zeus'a adanmış bir kuts
 
 Buradaki Zeus, elinde çift ağızlı bir balta, Karyalıların dilinde "labrys" tutardı; kutsal alanın adı da bu baltadan gelir. Plutarkhos'un anlattığına göre Herakles, Amazon kraliçesi Hippolyte'yi öldürünce baltasını aldı ve Lydia kraliçesi Omphale'ye armağan etti. Balta Lydia krallarından elden ele geçti, sonunda bir Karyalı onu ganimet olarak alıp Zeus'un heykelinin eline yerleştirdi.
 
-Herodotos'a göre Persler'e yenilen Karyalılar, Zeus'un buradaki kutsal çınar korusunda toplanıp ne yapacaklarını tartışmıştı. MÖ 4. yüzyılda Karya'yı yöneten Mausolos ve kardeşi İdrieus kutsal alanı yeniden yaptırdı. Onların ziyafet salonlarının duvarları bugün de çatıya yakın yüksekliğe kadar ayaktadır.
+Herodotos'a göre Persler'e yenilen Karyalılar, Zeus'un buradaki kutsal çınar korusunda toplanıp ne yapacaklarını tartışmıştı. MÖ 4. yüzyılda Karya'yı yöneten Mausolos ve kardeşi İdrieus kutsal alanı yeniden yaptırdı. Teraslara yerleşen tapınak, anıtsal girişler ve andron adı verilen ziyafet salonları bu dönüşümün parçalarıydı. Salonların duvarları bugün de büyük ölçüde ayaktadır.
+
+Mylasa'dan gelen Kutsal Yol, Labranda'daki yıllık tören alaylarının güzergâhıydı. Zeus onuruna düzenlenen Panegyris sırasında bölgenin farklı kentlerinden insanlar bu dağ kutsal alanında bir araya gelirdi. Böylece Labranda, yalnızca Mylasa'nın tapınağı değil, Karya topluluklarının buluşma yeri olarak da işlev gördü.

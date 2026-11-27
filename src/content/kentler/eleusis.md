@@ -31,9 +31,9 @@ yapilar:
   - ad: "Telesterion"
     aciklama: "Eleusis Gizemleri’nin kapalı mekân törenlerinde kullanılan büyük salon."
   - ad: "Büyük Propylaia"
-    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+    aciklama: "Atina Akropolü'nün Propylaia'sını örnek alan anıtsal kutsal alan girişi."
   - ad: "Küçük Propylaia"
-    aciklama: "Yerleşim, kamusal merkez veya kutsal alanın girişini belirleyen geçit."
+    aciklama: "Kutsal alanın iç bölümüne geçiş sağlayan, Karyatid figürlü girişiyle tanınan yapı."
   - ad: "Ploutonion"
     aciklama: "Antik kült ve adak törenleri için ayrılmış alan."
   - ad: "Artemis Propylaia Tapınağı"
@@ -41,7 +41,7 @@ yapilar:
   - ad: "Poseidon Pater Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Kallichoron Kuyusu"
-    aciklama: "Eleusis kutsal alanının girişindeki kuyu, Demeter’in burada dinlendiğini anlatan gelenekle ilişkilidir."
+    aciklama: "Demeter'in dinlenip Eleusisli kadınlarla konuştuğu anlatılan kuyu; tören alayının geçtiği yolun yakınındadır."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg/500px-%CE%91%CF%81%CF%87%CE%B1%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82_%CF%87%CF%8E%CF%81%CE%BF%CF%82_%CE%95%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1%CF%82.jpg"
   genislik: 500
@@ -58,4 +58,6 @@ Eleusis, Atina'nın batısında, Saronikos Körfezi'nin kıyısında kuruldu. At
 
 Mitlere göre Hades, Demeter'in kızı Persephone'yi yeraltına kaçırdı. Demeter kızını aramak için dünyayı dolaştı ve yaşlı bir kadın kılığında Eleusis'e geldi. Bir kuyunun başında oturup ağlarken kral Keleos'un kızları onu saraya götürdü. Demeter kralın bebeğine dadı oldu. Geceleri onu ölümsüz yapmak için ateşe tuttu, ama kraliçe bunu görüp çığlık atınca tanrıça gerçek yüzünü gösterdi. Kendisi için burada bir tapınak yapılmasını istedi. Demeter yas tuttukça toprak hiçbir şey vermedi. Sonunda Zeus, Persephone'nin yılın bir bölümünü annesiyle geçirmesine karar verdi.
 
-Gizemlerde ne olduğunu kimse anlatmadı; sırrı açıklamanın cezası ölümdü. Bildiğimiz kadarıyla katılanlar karanlık bir salonda Persephone'nin dönüşünü yaşar ve ölümden sonra daha iyi bir hayata kavuşacaklarına inanırdı. Törenler neredeyse iki bin yıl sürdü. Oyun yazarı Aiskhylos burada doğdu.
+Gizemlerde ne olduğunu kimse anlatmadı; sırrı açıklamanın cezası ölümdü. Bildiğimiz kadarıyla katılanlar karanlık bir salonda Persephone'nin dönüşünü yaşar ve ölümden sonra daha iyi bir hayata kavuşacaklarına inanırdı. Her yıl Atina'dan Eleusis'e uzanan Kutsal Yol boyunca yapılan alay, törenlerin halka açık bölümünü oluşturuyordu. Törenler neredeyse iki bin yıl sürdü. Oyun yazarı Aiskhylos burada doğdu.
+
+Kutsal alanın merkezindeki Telesterion, inisiyelerin gizli törenler için toplandığı büyük salondu. Yolun girişinde Kallichoron Kuyusu, Büyük ve Küçük Propylaia ile Ploutonion bulunuyordu. Bu yapıların kalıntıları, Eleusis'in tören güzergâhı boyunca düzenlenmiş bir kutsal alan olduğunu gösterir.

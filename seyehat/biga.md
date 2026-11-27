@@ -1,4 +1,4 @@
-1- Truva
+## 1- Truva
 Truva Antik Kenti - Tahta Truva Atı, Biga Yarımadası
 Biga Yarımadası – Truva Antik Kenti – Tahta Truva Atı
 Yol alırken “Hektor…” diye bağırmayı unutmayın surların çevresinde. Kim bilir belki çıkıverir karşınıza.
@@ -11,14 +11,14 @@ Alexandria Troas Harabeleri, Truva’nın yaklaşık 35 km güneyinde Dalyan’d
 
 Bu lokasyonları aynı gün içerisinde ziyaret edebilirsiniz.
 
-Truva Antik Kenti (müzekart geçerli)
+## Truva Antik Kenti (müzekart geçerli)
 Truva Müzesi (müzekart geçerli) – saatlar için bakınız
 Etnoköy Çıplak Arkeoloji Evi (ücretsiz)
 Alexandria Troas Harabeleri (ücretsiz)
 Geyikli Plajı
 Ziyaret etmeden önce okumanızı tavsiye ederim: İlyada Özeti ve Homeros Kimdir ve Neden Önemlidir yazılarımızı okumanızı tavsiye ederim. Hatta Femme Fatale Karakterler: Helen ve Klytaimnestra yazımızda Helen’i daha yakından tanıyabilirsiniz.
 
-2- Babakale ve Ayvacık
+## 2- Babakale ve Ayvacık
 Apollon Smintheion Kutsal Alanı
 Biga Yarımadası – Apollon Smintheion Kutsal Alanı
 Babakale, Biga Yarımadasının en uç noktasında yer alır. Osmanlı Dönemi’nden kalma bir kale ve çevresinde ufak işletmeler ile küçük bir beldedir.
@@ -27,12 +27,10 @@ Buraya 10km mesafede Gülpınar’da bulunan Apollon Smintheion Kutsal Alanı ke
 
 Mitolojik hikayesine gelirsek, Tanrı Apollon, müzik ve güneş tanrısı olmasının yanı sıra salgın hastalıkların da tanrısıdır. Apollon Smintheus, “Farelerin Efendisi” anlamına gelir. Homeros‘un ünlü destanı İlyada, Apollon rahibinin kurtarmalık karşılığında (değerli hediyeler) esir düşen kızını Yunan komutanı Agamemnon‘dan istemesi ile başlar. Agamemnon adamın teklifini reddedince, rahip Apollon‘dan yardım etmesi için dua eder. Bunun üzerine Apollon, Yunan ordusuna veba salgınını gönderir. Ordu hastalıktan kırılınca bir konsey toplanır. Konseyde ünlü savaşçı Aşil ve Agamemnon anlaşmazlığa düşer ve olaylar gelişir. Tapınağın merdivenlerine eklenmiş olan fare figürlerine dikkat etmeden geçmeyin.
 
-Babakale
+## Babakale
 Apollon Smintheion Kutsal Alanı
 Ayvacık Merkez
 2- Behram ve Assos Antik Kenti
-Biga Yarımadası - Assos Athena Tapınağı
-Biga Yarımadası – Assos Athena Tapınağı
 Biga Yarımadası güneyinde bulunan Behram ve Assos Kenti, bölgedeki en önemli turistik merkezlerden biri.
 
 Assos Antik Kenti harika bir manzaraya sahip ama tahmin edersiniz çok sıcak olduğu için çıkacağınız saat oldukça önemli. Öğle saatlerinde bu maceraya atılmamanızı şiddetle tavsiye ederim 🙂 Sadece Athena Tapınağı’nı değil, Antik Tiyatro’dan şehir manzarasını izlemeyi ihmal etmeyiniz. Kesinlikle inip çıkacağınız merdivenlere değecek bir manzara sunuyor. Daha fazla bilgi almak için Assos Antik Kenti Rehberi yazımıza bakabilirsiniz.
@@ -41,12 +39,10 @@ Kentin dışında Behram Köyü bulunuyor. Osmanlı döneminde kurulmuş eski bi
 
 Köyde bulunan Aristotales Heykeli‘ni görmeden es geçmeyin sakın! Ünlü filozof bir zamanlar bu kentte yaşamış. Assos Antik Kentinin ünlü insan yiyen lahitlerini araştıranlardan biriymiş ayrıca.
 
-Assos Antik Kenti
+## Assos Antik Kenti
 Behram Köyü
 Kadırga Koyu
 3- Adatepe, Yeşilyurt ve Küçükkuyu
-Biga Yarımadası - Yeşilyurt Köyü Sevgi Kahvaltı Evi Manzarası
-Biga Yarımadası – Yeşilyurt Köyü Sevgi Kahvaltı Evi Manzarası
 Kazdağları denildiğinde akla ilk gelen yer Adatepe Köyü oluyor. Ama Adatepe’ye en son gittiğimde ne yazık ki muhtarlık zorla araç giriş ücreti almaya başlamıştı. Hakikaten ne için bize zorla bağış yaptırıyorsunuz? Adatepe, Osmanlı döneminde zengin bir köydür ama mübadele sonrası terk edilmiştir. 1980lerde bir arkadaş gurubu köyü keşfeder ve evleri satın alıp restore ederek turizme kazandırırlar. Köyün meydanında dondurmacı ve kafe işletmelerinde zeytinyağlı güzel yemekler yiyebilirsiniz. Maksimum yarım saatinizi alacak küçük bir köy burası.
 
 Ayrıca köyün girişinde Zeus Altarı‘na giden patika bir yol var. Bu yoldan yaklaşık 10-15 dakika yürüyünce Altar’a ve mükemmel manzarasına ulaşıyorsunuz. Efsaneye göre, Zeus Truva Savaşı’nı Gargaros Tepesi’nden izlemiş. İşte bu tepenin Zeus Altarı olduğu rivayet edilir. İlyada’da, Zeus Truvalılara destek olunca Hera öfkelenir. Afrodit’ten takanı cezbedeci yapan memeliğini ödünç alır ve Zeus’un yanına Gargaros Tepesi’ne gider. Orada kocasını baştan çıkarır. Zeus çevrelerini bir bulutla örter sevişirken. Sonra da tatlı bir uykuya dalar. Zeus’un yokluğunu fırsat bilen ve Yunanlıları destekleyen diğer tanrılar, hemen Yunanlılara yardım etmek için savaşa dahil olurlar. İşte belki de burası Zeus ve Hera’nın seviştiği o tepedir. Ayrıca bakabilirsiniz: Adatepe Köyü Rehberi
@@ -55,15 +51,13 @@ Adatepe Köyünün yakında bir de Yeşilyurt Köyü bulunuyor. Tıpkı Adatepe 
 
 Küçükkuyu ise küçük bir deniz kenarı beldesi. Otopark zorlayıcı. Çay bahçeleri sahil kenarına şezlong atmış. Kapalı bir beach işletmesi gibi değil de çay bahçelerinin işletmesi gibi sahil kenarı. Buraya gelmişken Adatepe Zeytinyağı Müzesi‘ne uğramadan geçmeyin. Bu müzeye giriş ücretsiz. Küçük maksimum yarım saatinizi alacak bir müze ama beldenin zeytinyağı geçmişine ışık tutuyor. Ayrıca topraklarımız için çok değerli olan zeytinyağının tarih boyunca nasıl üretildiğine dair bilgilenmenizi de sağlıyor. Alt katında küçük bir kafe işletmesi ve dükkan var. Ayrıca Adatepe Zeytinyağları’nın amblajındaki kadın resminin nereden geldiğine dair güzel ve ilginç hikayeyi öğrenebilirsiniz.
 
-Adatepe Köyü
+## Adatepe Köyü
 Yeşilyurt Köyü
 Adatepe Zeytinyağı Müzesi
 Zeus Altarı
 Mıhlı Çay Köprüsü (İnstagramda çok paylaşılan ama lokasyonun yorumlarına bakınca gitmekten vazgeçtiğim yer. Gidenler hem yolun çok kötü olduğundan bahsetmişler hem de işletmenin yüksek fiyatları dolayısıyla şikayet etmişler.)
 Yüzülecek yer önerim yok. Sahil kamp işletmelerinin işgali altında. Deniz dalgalı olduğunda pis. Fahiş fiyatlar isteniyor.
 4- Altınoluk
-Biga Yarımadası, Altınoluk Cam Teras Manzarası, İda dağları ve Edremit Körfezi
-Biga Yarımadası, Altınoluk Cam Teras Manzarası, İda dağları ve Edremit Körfezi
 Altınoluk Merkez, İstanbul’a yakın olduğu için belki de şehirleşmiş deniz tatili beldelerinden biri. Sahilinde denize girebilir, pansiyonlarında kalabilir ve çarşısında gezinebilirsiniz. Ancak gezerken mitoloji severlerin gözden kaçırmaması gereken bir yer var! Bir döner kavşağın ortasına koyulmuş Paris ve Üç Güzeller Yarışması’nın Heykeli. Mitolojik öykülere göre dünyanın ilk güzellik yarışması tam buranın arkasında bulunan Kazdağları‘nda gerçekleşmiş. Bu yüzden okumanız gereken hikaye: Üç Güzeller Yarışması ve Paris’in Yargısı yazımız. Kısaca özetlemek gerekirse, üç tanrıça Afrodit, Hera ve Athena kim daha güzel diye tartışmaya başlar. Zeus‘a sorarlar ama Zeus akıllıdır. Yarışmanın hakemi olarak İda Dağları‘nda çobanlık yapan Paris‘i belirler.
 
 Üç tanrıça teker teker Paris’in karşısında soyunur ve tüm güzelliklerini sergilerler. Bir yandan ona rüşvet teklif etmekten de geri kalmazlar. Athena ona ünlü bir komutan olma sözü verir. Hera ise onu kral yapacaktır. Bunlara karşılık Afrodit dünyanın en güzel kızının aşkını vaat eder. Paris, Afrodit’in hediyesini beğenir ve “en güzel” olarak onu seçer. Böylece dünyanın en güzel kadını Helen‘i kaçırır ve Truva Savaşı‘nın başlamasına neden olur.
@@ -76,13 +70,11 @@ Gelelim Antandros Antik Kenti’ne… Ben beldeye tam üç kere geldim, tam üç
 
 Bu dağların bu coğrafyanın hikayesi, destanı bitmez…
 
-Şahindere Kanyonu (ücretsiz)
+## Şahindere Kanyonu (ücretsiz)
 Altınoluk Cam Teras (2024 – kişi başı 35 TL)
 Antandros Antik Kenti (ücretsiz)
 Altınoluk Merkez (plajında yüzebilirsiniz, halk plajı var)
 5- Edremit-Akçay
-Biga Yarımadası - Güre Kazdağları Müzesi Girişi
-Biga Yarımadası – Güre Kazdağları Müzesi Girişi
 Gelelim Edremit bölgesinde gezilecek yerlere… Tahta Kuşlar köyü civardaki en ünlü yerlerden. Burası Alevi-Türkmen köyü. Lakin köy sakinleri şaman kültürünü hala devam ettiriyor ama düzenledikleri şaman ayinlerine dışarıdan kimseyi kabul etmiyorlar. Köyde bir Alibey Kudar Etnografya Müzesi mevcut. Eğer köye uğradıysanız kesinlikle ziyaret etmenizi öneririm. Ayrıca oyuncu Tuncel Kurtiz bu köye gömülmek istemiş ama köylüler kabul etmeyince yakındaki Çamlıbel Köyü’ne gömülmüş. Bence zamanınız yoksa Tahtakuşlar Köyü kesinlikle ilk sırada değil. Varsa civardaki popüler turistik yerlerden biri.
 
 Güre’de bulunan Güre Kazdağları Müzesi, beldeyi ve tarihi anlatan bir arşiv niteliğinde. Güre merkezde yer alan müze’ye bence uğrayıp 30-60 dakika ayırmanızı öneririm. Güre sahilinde bir yürüşe çıkmanızı ya da çay içip manzarayı izlemenizi tavsiye ederim.
@@ -101,7 +93,7 @@ Babası namusunu temizlemek için kızını Kazdağlarının zirvesine götürü
 
 Son olarak Altınkum plajı yerine Ören’i tercih edebilirsiniz. Ören plajı bence bölgedeki en güzel plajdı denize girmek ayrıca. Ayrıca Edremit Antik Kenti’nin kalıntıları da burada yer almaktadır. Antik Kentten çıkan paralarda, pegasus sembolü kullanıldığı için Ören merkez’de bir de Pegasus Heykeli bulunmaktadır. Görmeden geçmeyiniz 🙂
 
-Tahtakuşlar Köyü
+## Tahtakuşlar Köyü
 Güre Kazdağları Müzesi (2024 – 40 TL giriş ücreti)
 Güre sahili
 Hasanboğuldu Gölü ve Sütüven Şelalesi

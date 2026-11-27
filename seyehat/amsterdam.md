@@ -1,60 +1,28 @@
 Amsterdam gezi rehberi, kültürel açıdan şehri keşfetmek isteyen gezginler için hazırlandı. 15 önemli turistik cazibe merkezi hakkında bilgi bulabilirsiniz.
 
-İçerik
-Amsterdam Kaç Günde Gezilir?
-Amsterdam Şehiriçi Ulaşım
-Rijksmuseum
-Van Gogh Müzesi
-Vondelpark
-Leidsplein
-Foodhallen
-Anne Frank’in Evi
-Bloemenmarkt
-Rembrandt Meydanı
-Begijnhofkapel
-Dam Meydanı
-Centralstation & Nord
-Oudekerk
-Redlight District
-Heineken Experience
-Fabrique des Lumieres & Gashouder Westergas
-Çevrede Ziyaret Edilmesi Gereken Yerler
-Amsterdam’da Ne Yenir?
-Amsterdam Rota Önerisi
-Amsterdam Kaç Günde Gezilir?
-
-Amsterdam Gezi Rehberi
 Kendinizi hızlı bir gezgin olarak tanımlıyorsanız bence 2 gün yeterli olur. Ama 4 gün ayırırsanız çevredeki başka önemli noktalara da vakit ayırabilirsiniz. Eğer tadını çıkararak gezmek istiyorum derseniz şehir merkezi için 3 gün ayırmanız yeterli olur.
 
-Amsterdam Şehiriçi Ulaşım
+## Amsterdam Şehiriçi Ulaşım
 Şehir merkezini aslında yürüyerek gezebilirsiniz. 24 saat geçerli günlük bilet fiyatı 9,5 euro.
 
 OVPay isimli mobil uygulamayı indirerek biletinizi satın alabilirsiniz. Amsterdam’da ulaşım Marmaray/İzban mantığında. Checkin/checkout yapmalısınız. Yani gideceğiniz durak kadar sizden para kesiyor. Bilet fiyatlarına buradan bakabilirsiniz. Eğer çok sık ulaşım kullanacaksanız 24 saat günlük bilet fiyatı 9,5€. Günlük bilet sadece GVB ulaşım araçlarında geçerli. Örneğin Zandaam’a giden otobüslerde yada şehir dışına çıkan otobüslerde geçerli değil. Bunu da düşünerek satın almayı unutmayın. Eğer tek kullanımlık bilet almak istiyorsanız büyük istasyonlardaki makinelerden 1,9€’a satın alabilirsiniz.
 
-Amsterdam'da Bisiklet Kiralamak
-Amsterdam’da Bisiklet Kiralamak
 Amsterdam da diğer bir ünlü ulaşım türü ise bisiklet kiralamak. Kalacağınız otelden çevredeki birçok dükkana kadar herkes bisiklet kiralıyor. Saatlik kiralama ücreti genelde 10€ bandında. Günlük kiralama ise 16€ bandında. OVPay uygulamasından da bisiklet kiralayabilirsiniz. Ayrıca macbike gibi zincir işletmeye dönmüş firmalardan da kiralayabilirsiniz.
 
 Amsterdam’daki önemli yerleri yürüyerek de gezebilirsiniz. Aşağıda listelediğim her yeri günde 30-40bin adım atarak gezme şansınız var.
 
 Ayrıca şehir dışında gidecekseniz paylaşımlı araba uygulamalarını düşünebilirsiniz. Şehrin her yerine park edilmiş arabaları uygulama üzerinden kiralayıp kullanabiliyorsunuz. Bu yazıya bir göz atın liste için.
 
-Amsterdam Kanal Turları
-Amsterdam Kanal Turları
 Şehri gezmenin bir başka alternatifi ise kanal turları. Bu turlar 20-25€ bandında. Central Station önündeki kanaldan veya Anne Frank’in Evi’nin önündeki kanaldan kalkan turlar gördüm sıklıkla. Bu iki lokasyon değerlendirilebilir. Ayrıca internetten online bilet de satın alabilirsiniz.
 
-Rijksmuseum
-Amsterdam Gezi Rehberi - Rijksmuseum
-Amsterdam Gezi Rehberi – Rijksmuseum
+## Rijksmuseum
 Müze 1885 yılında açılmıştır. Müzeler meydanı olarak anılan yerde bulunur. Hemen karşısında Van Gogh Müzesi ve Stedelijk Sanat Müzesi bulunur. 1 milyon eserlik arşive sahiptir ve 8000 adet eser sergilenmektedir. Özellikle Hollanda’nın altın çağına ait resim eserleri müzenin ilgi çeken yanıdır.
 
-Rembrandt eserleri
+## Rembrandt eserleri
 Vermeer eserleri
 Van gogh’un otoportrelerinden biri
 Müzeyi minimum 3 saatte gezebilirsiniz. Gitmeden önce araştırmanız gereken konular barok eserler, Rembrandt ve Vermeer. Belki İnci Küpeli Kız filmini izleyebilir ve Vermeer’in ünlü tablosu hakkında spekülasyonları öğrenebilirsiniz.
 
-Rembrandt Gece Bekçileri Rijksmuseum
-Rembrandt Gece Bekçileri Rijksmuseum
 Müzedeki en ünlü eser ise Rembrandt’a ait olan Gece Bekçileri isimli tablo. Askerlerin sırayla dizilip poz verdiği klasik tabloların aksine, bu eserde herkes hareket hâlindedir. Bu yüzden dönemi için çok farklı ve dikkat çekici olmuştur.
 
 Biz mayıs aylarında ziyaret ettiğimizde müze için önden bilet almamıza gerek kalmadan kısa sürede bilet alıp içeri girebildik. Ancak yoğun yaz aylarında rezervasyon gerebilir. Müze ücreti 25 €. Rezervasyonunuzu önden yapmak için bakınız.
@@ -63,42 +31,35 @@ Sesli rehber almanıza gerek yoktur. Müzenin uygulamasını indirerek sesli reh
 
 Ayrıca müzenin önünde bir zamanlar şehrin ikonik yazısı IAMsterdam yazısı yer alıyordu ama yakın zamanda kaldırılmış.
 
-Ayrıca ilginizi çekebilir: Mimari Akımlar | Gezerken Bilinmesi Gereken 5 Akım
-
-Van Gogh Müzesi
+## Van Gogh Müzesi
+Van Gogh Müzesi, Amsterdam’daki Museumplein bölgesinde yer alır. Müzede Van Gogh’a ait 200’den fazla tablo, 500’ün üzerinde çizim ve 800’ü aşkın kişisel mektup bulunmaktadır. Sergi düzeni kronolojik olarak ilerler; sanatçının erken dönem köy yaşantısını yansıtan karanlık tonlu eserlerinden başlayarak, Paris yıllarındaki renkli fırça darbelerine ve Arles’daki parlak, yoğun renkli resimlerine kadar ilerler. Van Gogh’un yalnızca sanatı değil, onun düşünceleri, duygusal iniş çıkışları ve kardeşi Theo ile olan mektuplaşmaları da ziyaretçilere aktarılır. Aynı zamanda müzede, Van Gogh’a ilham veren sanatçılar ve onun çağdaşlarıyla olan etkileşimleri üzerine geçici sergiler de yer alır.
 Van Gogh Müzesi, Amsterdam’daki Museumplein bölgesinde yer alır. Müzede Van Gogh’a ait 200’den fazla tablo, 500’ün üzerinde çizim ve 800’ü aşkın kişisel mektup bulunmaktadır. Sergi düzeni kronolojik olarak ilerler; sanatçının erken dönem köy yaşantısını yansıtan karanlık tonlu eserlerinden başlayarak, Paris yıllarındaki renkli fırça darbelerine ve Arles’daki parlak, yoğun renkli resimlerine kadar ilerler. Van Gogh’un yalnızca sanatı değil, onun düşünceleri, duygusal iniş çıkışları ve kardeşi Theo ile olan mektuplaşmaları da ziyaretçilere aktarılır. Aynı zamanda müzede, Van Gogh’a ilham veren sanatçılar ve onun çağdaşlarıyla olan etkileşimleri üzerine geçici sergiler de yer alır. 
 
 🎨 En önemli eserleri:
 
-Buğday Tarlası ve Kargalar (Wheatfield with Crows)
+## Buğday Tarlası ve Kargalar (Wheatfield with Crows)
 Ayçiçekleri (Sunflowers)
 Yatak Odası (The Bedroom)
 Patates Yiyenler (The Potato Eaters)
 Kendi Otoportreleri
 Müze ücreti 32.5€. Müze biletini kesinlikle 2-3 hafta öncesinden almalısınız. Aksi halde bilet bulamıyorsunuz. Müze biletini buradan alabilirsiniz.
 
-Vondelpark
-Amsterdam Gezi Rehberi - Vondelpark
-Amsterdam Gezi Rehberi – Vondelpark
+## Vondelpark
 Museumplein alanından 10 dakika yürüme mesafesinde olan Vondelpark, kentteki en ünlü ve güzel parklardan bir tanesi. 1865 yılında halka açılan bu yeşil alan, şehrin merkezine oldukça yakın bir konumda yer alır ve özellikle yürüyüş, bisiklet, piknik ve açık hava etkinlikleri için tercih edilir. Park, adını 17. yüzyıl şairi Joost van den Vondel’den alır ve içinde onun bir heykeli de bulunur.
 
+Vondelpark’taki yürüyüş ve bisiklet yollarının toplam uzunluğu yaklaşık 3.3 kilometredir. Parkın çevresini dolaşan ana parkur, düz bir rotaya sahiptir ve rahat bir tempoyla yaklaşık 40–45 dakikada yürünebilir.
 Vondelpark’taki yürüyüş ve bisiklet yollarının toplam uzunluğu yaklaşık 3.3 kilometredir. Parkın çevresini dolaşan ana parkur, düz bir rotaya sahiptir ve rahat bir tempoyla yaklaşık 40–45 dakikada yürünebilir. 
 
-Leidsplein
-Amsterdam Gezi Rehberi - Leidsplein Ünlü Meydanı
-Amsterdam Gezi Rehberi – Leidsplein Ünlü Meydanı
+## Leidsplein
 Leidseplein, Amsterdam’ın merkezinde yer alan ve şehrin en canlı meydanlarından biridir. 17. yüzyılda, Leiden’den gelen yolun sonundaki Leidsepoort kapısının önünde, at arabalarının park ettiği bir alan olarak kullanılmaya başlanmıştır. Zamanla tiyatrolar, kafeler ve otellerin inşasıyla kültürel ve sosyal bir merkez haline gelmiştir. Ayrıca ünlü Bulldog Kafelerden biri burada yer alır. Meydanın hemen arkasındaki sokaklar yeme içme mekanları ile doludur.
 
 Vondelpark’tan 15-20 dakika, Rijksmuseum’dan ise 10 dakika yürüme mesafesinde yer alır.
 
-Foodhallen
+## Foodhallen
 Amsterdam Foodhallen
-Amsterdam Gezi Rehberi – Foodhallen
 Foodhallen, Amsterdam’ın batı bölgesinde, eski bir tramvay deposunun restore edilmesiyle 2014 yılında açılmıştır. Bu kapalı gastronomi pazarı, 21 farklı yiyecek standıyla dünya mutfaklarından lezzetler sunar. Leidsplein’den yaklaşık 20 dakikalık yürüme mesafesinde yer alır. Eğer ne yiyeceğiniz konusunda anlaşamıyorsanız değerlendirilebilir.
 
-Anne Frank’in Evi
-Amsterdam Gezi Rehberi - Anne Frank’in Evi
-Amsterdam Gezi Rehberi – Anne Frank’in Evi
+## Anne Frank’in Evi
 Anne Frank, II. Dünya Savaşı sırasında Amsterdam’da yaşayan Yahudi bir kızdır. Nazilerden saklanmak için ailesiyle birlikte bir binanın arkasındaki gizli bölmeye sığınırlar. Bu süre boyunca Anne bir günlük tutar. Duygularını, korkularını ve savaşın getirdiği zorlukları yazar.
 
 Ancak 1944’te ihbar edilirler ve toplama kampına gönderilirler. Ne yazık ki Anne, Bergen-Belsen kampında hayatını kaybeder. Savaştan yalnızca babası Otto Frank sağ kurtulur. Eve döndüğünde Anne’nin günlüğünü bulur ve 1947’de yayımlatır.
@@ -109,79 +70,57 @@ Giriş ücreti 16 € olan müzeye önden biletinizi almanız daha iyi olabilir.
 
 Ayrıca müzenin hemen karşısından kalkan tekne turlarına katılabilir ya da Winkel 43 isimli bara buradan yaklaşık 7 dakikada yürüyerek takılabilirsiniz.
 
-Bloemenmarkt
-Amsterdam Gezi Rehberi - Bloemenmarkt Çiçek Pazarı
-Amsterdam Gezi Rehberi – Bloemenmarkt
+## Bloemenmarkt
 Bloemenmarkt (Çiçek Pazarı), Amsterdam’daki en ünlü ve dünyadaki tek yüzen çiçek pazarıdır. 1862 yılında kurulmuştur. Pazarda lale soğanları, kesme çiçekler, bitkiler ve hediyelik eşyalar satılır. Özellikle lale mevsiminde (ilkbaharda) en canlı dönemini yaşar. Dükkan sahipleri fotoğraf çekme konusunda çok hassaslar önceden uyarayım. Çiçek dükkanlarının hemen karşısındaki binalarda peynir dükkanları yer alıyor. Almak isteyenler için değerlendirilebilir.
 
 Leidsplein’den yaklaşık 10 dakika yürüme mesafesinde bulunan marketi kesinlikle ziyaret etmeli ve 15-20 dakika ayırmalısınız.
 
 Acıktınız mı? Hemen yakında bulunan Bierfabriek isimli mekanı ziyaret edebilir ve kendi ürettikleri biraların tadına bakabilirsiniz.
 
-Rembrandt Meydanı
-Amsterdam Dancing Houses
-Amsterdam Dancing Houses
+## Rembrandt Meydanı
 Rembrandtplein (Rembrandt Meydanı), Amsterdam’ın en hareketli ve turistik meydanlarından biridir. Adını ünlü ressam Rembrandt van Rijn’den alır. Meydanın ortasında da ona ait bir heykel bulunur. Eskiden pazaryeri olan bu alan, bugün kafeler, restoranlar, barlar ve gece kulüpleriyle doludur. Özellikle akşam saatlerinde yoğun bir sosyal hayat sunar.
 
 The Dancing Houses isimli aslında Amsterdam evlerinin en ünlü fotoğraflarında yer alan evler hemen bu meydanın arka sokaklarında yer alır. Kesinlikle harika fotoğraflar çekebileceğiniz bir yerdir.
 
 Rembrandt Meydanı, Çiçek pazarından 5 dakika yürüme mesafesinde yer alır.
 
-Begijnhofkapel
-Amsterdam Gezi Rehberi - Begijnhofkapel
-Amsterdam Gezi Rehberi – Begijnhofkapel
+## Begijnhofkapel
 Begijnhofkapel, Amsterdam’daki tarihi Begijnhof avlusunda yer alan gizli bir Katolik şapelidir. Begijnhof, Orta Çağ’da evlenmeyen, dindar bir yaşam süren Katolik kadınların oluşturduğu kapalı bir topluluktur. Bu kadınlar rahibe değildi, ancak dini değerlere bağlı olarak toplu halde yaşarlardı. 17. yüzyılda Katolik ibadeti yasaklanınca, Begijnhof’taki kadınlar kendi toplulukları içinde gizlice ibadet edebilmek için bu şapeli kurdu. Bugün hem şapel hem de avlu ziyaret edilebilir. Ancak burada hâlâ kadınlar yaşadığı için sessizliğe ve mahremiyete saygı göstermek önemlidir. Alana giriş ücretsizdir.
 
 Dam Meydanından ya da Çiçek Pazarı’ndan 7 dakikalık yürüme mesafesinde yer alır.
 
-Dam Meydanı
+## Dam Meydanı
 
-Amsterdam Gezi Rehberi – Dam Meydanı
 Dam Meydanı, şehrin en merkezi ve en tarihi meydanıdır. 13. yüzyılda Amstel Nehri üzerinde bir baraj (dam) kurularak oluşturulmuştur; ismini de buradan alır. Zamanla ticaretin ve kamusal yaşamın merkezi haline gelmiştir. Bugün çevresinde Kraliyet Sarayı (Koninklijk Paleis), Nieuwe Kerk (Yeni Kilise) ve Ulusal Anıt gibi önemli yapılar bulunur. Ayrıca Madame Tussands Müzesi de bu meydanda yer alır. Meydanın hemen ilerisinde Magna Plaza isimli alışveriş merkezi bulunur. Çevresindeki sokaklar ise yine alışveriş dükkanları ile doludur.
 
-Amsterdam Ünlü Kurabiyesi
-Amsterdam Ünlü Kurabiyesi
 Ayrıca ünlü Van Stapele I isimli kurabiye dükkanı buraya çok yakında yer alır. Tanesi 3€ bu ünlü kurabiyelerden tadabilirsiniz.
 
-Centralstation & Nord
-Amsterdam Gezi Rehberi - Central Station
-Amsterdam Gezi Rehberi – Central Station
+## Centralstation & Nord
 Amsterdam Centraal Station, şehrin ana tren istasyonudur ve 1889 yılında hizmete açılmıştır. Neo-Rönesans tarzında inşa edilmiştir. Günümüzde hem ulusal hem uluslararası trenlerin kalkış noktasıdır. Ayrıca tramvay, metro ve feribot bağlantılarıyla Amsterdam’daki ulaşımın merkezidir.
 
-Amsterdam ünlü patatesçi Manneken Pis Damrak
-Amsterdam ünlü patatesçi Manneken Pis Damrak
 İstasyonun çok yakınında bulunan ünlü Manneken Pis Damrak isimli patates dükkanından patates yiyebilirsiniz.
 
-Amsterdam Gezi Rehberi - A'DAM Lookout
-Amsterdam Gezi Rehberi – A’DAM Lookout
 Ya da istasyonun hemen arkasındaki iskeleden kalkan feribotlara bisikletinizle veya yaya olarak ücretsiz binip Nord tarafına geçebilirsiniz. Nord tarafına giden iki farklı feribot var. Biri A’DAM Lookout adlı yere gidiyor. Burada binanın tepesine çıkıp manzarayı izleyebilirsiniz. Gökdelenin tepesindeki salıncakta sallanabilirsiniz. Diğer feribot ise NDSM Straat Museum isimli grafitti sanatçılarının dev eserlerinin olduğu müzenin yer aldığı lokasyona gidiyor. Burada ayrıca Pllek isimli plaj-barda takılmanızı kesinlikle tavsiye ederim.
 
 Ayrıca İstasyonun hemen yakınında birçok tekne turu acentesi yer almaktadır.
 
-Oudekerk
-Amsterdam Gezi Rehberi - Oude Kerk
-Amsterdam Gezi Rehberi – Oude Kerk
+## Oudekerk
 Oude Kerk (Eski Kilise), Amsterdam’ın en eski yapısıdır ve 1306 yılında kilise olarak inşa edilmiştir. Gotik mimarisiyle dikkat çeken bu yapı, şehir merkezindeki Red Light District içinde yer alır. Bir zamanlar denizcilerin ibadet ettiği yer olan kilise, bugün sanat sergilerine ve konserlere de ev sahipliği yapar.
 
 Giriş ücreti 13.5€.
 
-Redlight District
+## Redlight District
 
-Amsterdam Gezi Rehberi – Redlight District
 Red Light District (De Wallen), Amsterdam’ın en ünlü ve en eski bölgelerinden biridir. Şehrin merkezinde, kanallar boyunca uzanan bu alan, vitrinli seks işçileri, gece hayatı, erotik müzeler ve kafe-barlarıyla tanınır.
 
 İstasyondan 10 dakika yürüme mesafesinde yer alır. Akşam ziyaret etmenizi tavsiye ederim. Yine gece en canlı olan bölgelerden biridir.
 
-Fo Guang Shan He Hua Budist Tapınağı
-Fo Guang Shan He Hua Budist Tapınağı
 Fo Guang Shan He Hua isimli budist tapınağı da buraya çok yakında yer alır.
 
-Heineken Experience
+## Heineken Experience
 Şehrin en ünlü bira markası olan Heineken’in turları da turistik cazibe merkezi. Biz katılmadık. Şehri ilk kez ziyaret ediyorsanız ve az zamanınız varsa bence es geçilebilecek bir aktivite gibi geldi. Gidenlerden öğrendiğim kadarı ile biranın nasıl üretildiğine dair bilgi veren ve oyunlar oynatan bir turmuş. Size kalmış.
 
-Fabrique des Lumieres & Gashouder Westergas
-Fabrique des Lumieres Amsterdam Gezi Rehberi
-Fabrique des Lumieres Amsterdam Gezi Rehberi
+## Fabrique des Lumieres & Gashouder Westergas
 Fabrique des Lumieres 3 farklı ışık gösterisi sunuyor ve hepsinin saatleri ayrı. Her bir sergi için bilet fiyatı ise 18€. Biletlere buradan bakabilirsiniz.
 
 9:30-10:45 arasında Dutch Masters (Van Gogh eserlerinin de sergilendiği bu)
@@ -189,13 +128,9 @@ Fabrique des Lumieres 3 farklı ışık gösterisi sunuyor ve hepsinin saatleri 
 14:15-17:00 arasında The Sea
 Gashouder, Amsterdam’daki eski bir gaz deposunun dönüştürülmesiyle oluşmuş büyük bir etkinlik alanıdır. Yuvarlak yapısı ve geniş iç hacmi sayesinde konserler, sergiler ve elektronik müzik festivalleri gibi büyük etkinliklere ev sahipliği yapar. Fabrique des Lumieres de burada bulunur.
 
-Çevrede Ziyaret Edilmesi Gereken Yerler
-Zaandam Ünlü Oteli
-Zaandam Ünlü Oteli
+## Çevrede Ziyaret Edilmesi Gereken Yerler
 Bir gününüzü sabahtan ilk Zandaam’a gidip ardından Zaanse Schans isimli yeldeğirmenlerinin bulunduğu bölgeye ayırmanızı tavsiye ederim. Zandaam ve Zaanse Schans’a giden 394 ve 391 numaralı otobüsler mevcut. 391 Central Station’dan kalkıyor ve 40-50 dakikada Zandaam’a gidiyor. Son durağı ise Zaanse Schans. Ama bu otobüslerde Amsterdam içi ulaşımda kullandığınız GVB ulaşımı için satın aldığınız günlük biletler geçmeyecektir, bilginiz olsun. Ya da uluslararası giden intercity trenleri de bu iki lokasyondan geçmektedir. Sıklıkla geçen bu trenlerin ücretleri ise 4-5€ gibi fiyatlarda bulunabilir. Gidiş-dönüş biletinizi alırsanız çok daha uygun fiyata gelecektir.
 
-Zaanse Schanse Köyü
-Zaanse Schanse Köyü
 Diğer ünlü bir lokasyon ise araba ile 1.5 saat mesafede bulunan Giethoorn isimli köydür. Burada kanal turuna çıkabilir ve köyü gezebilirsiniz. Ben gidemedim ama alternatif ulaşım olarak paylaşımlı araba uygulamalarından şehrin her yerine park edilmiş arabaları kiralayıp kendiniz de gidebilirsiniz. Bakınız shared cars uygulamaları.
 
 Amsterdam’da Ne Yenir?
@@ -205,10 +140,8 @@ Kurabiyecisi çok ünlü. Van Stapele I isimli dükkan.
 
 Waffle’ları çok ünlü. Van Holland Stroopwafels isimli dükkandan deneyebilirsiniz.
 
-Amsterdam Gezi Rehberi - Holllanda Waffle
-Amsterdam Gezi Rehberi – Holllanda Waffle
-Amsterdam Rota Önerisi
-GÜN 1:
+## Amsterdam Rota Önerisi
+## GÜN 1:
 
 Sabah 9:00’da Rijksmuseum’u ziyaret edin. 3 saat ayırın.
 
@@ -232,7 +165,7 @@ Bierfabriek’e gidip bir bira için veya akşam yemeği yiyin.
 
 Dancing House ve Rembrandt Meydanını ziyaret edin.
 
-GÜN 2:
+## GÜN 2:
 
 Sabahtan Van Gogh Müzesine gidin.
 

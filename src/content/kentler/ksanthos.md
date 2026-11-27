@@ -31,7 +31,9 @@ yapilar:
       kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Xanthos_Harpy_tomb_and_the_pillared_sarcophagus_7321.jpg"
       alt: "Harpy Anıtı – Ksanthos"
   - ad: "Nereidler Anıtı"
-    aciklama: "Anıtın temeli ören yerinde, mimari ve heykel parçaları British Museum’dadır."
+    aciklama: "Likya kaya mezar mimarisini İon tapınağı biçimiyle birleştiren anıtın heykelleri bugün British Museum'dadır."
+  - ad: "Payava Mezarı"
+    aciklama: "Likya yazıtıyla adı bilinen Payava için yapılmış, kabartmalı anıtsal mezar."
   - ad: "Yazıtlı Dikme"
     aciklama: "Ksanthos’ta antik kentin tarihinde önemli yeri olan Likçe ve Yunanca metinleri taşıyan anıt."
   - ad: "Likya Lahitleri"
@@ -63,8 +65,8 @@ kunyeGorseli:
   wikidata: "Q464936"
 ---
 
-Ksanthos, adını aldığı ırmağın, bugünkü Eşen Çayı'nın kıyısındaki bir tepeye kurulmuştu. İlyada'da Truva'ya yardıma gelen Likyalıları Sarpedon ve Glaukos yönetir; Homeros onların "uzak Likya'dan, girdaplı Ksanthos'un kıyısından" geldiğini söyler.
+Ksanthos, adını aldığı ırmağın, bugünkü Eşen Çayı'nın kıyısındaki bir tepeye kurulmuştu. İlyada'da Truva'ya yardıma gelen Likyalıları Sarpedon ve Glaukos yönetir; Homeros onların "uzak Likya'dan, girdaplı Ksanthos'un kıyısından" geldiğini söyler. Ksanthos, Letoon'daki ortak kutsal alanla birlikte Likya'nın siyasi ve dini merkezlerinden biriydi.
 
 Kentin tarihi iki büyük yangınla anılır. Herodotos'a göre MÖ 6. yüzyılda Pers komutanı Harpagos kente yürüdüğünde Ksanthoslular kadınlarını, çocuklarını ve kölelerini akropolde toplayıp ateşe verdi, sonra savaşarak öldü. Neredeyse beş yüz yıl sonra, MÖ 42'de Brutus'un ordusu kenti kuşattığında aynı şey tekrarlandı.
 
-Ksanthos, Likya Birliği'nde üç oy hakkı olan altı büyük kentten biriydi. Yüksek kaideler üzerine oturtulmuş mezar anıtları kentin simgesidir. 19. yüzyılda Charles Fellows'un söküp götürdüğü Nereidler Anıtı bugün British Museum'da sergileniyor.
+Ksanthos, Likya Birliği'nde üç oy hakkı olan altı büyük kentten biriydi. Harpy Anıtı, Payava Mezarı ve Likçe ile Yunanca yazıt taşıyan dikme, kentin özgün mezar ve anıt geleneğini gösterir. 19. yüzyılda Charles Fellows'un İngiltere'ye götürdüğü Nereidler Anıtı'nın heykelleri bugün British Museum'da sergileniyor.

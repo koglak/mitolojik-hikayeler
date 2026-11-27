@@ -33,7 +33,7 @@ yapilar:
   - ad: "Artemis Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Nymphaion"
-    aciklama: "Suyun toplandığı veya kullanıma sunulduğu mimari düzenleme."
+    aciklama: "Kutsal alandaki su kaynağını anıtsal bir yapıyla çevreleyen çeşme."
   - ad: "Tiyatro"
     aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
   - ad: "Erken Hristiyanlık Bazilikası"
@@ -50,8 +50,8 @@ kunyeGorseli:
   wikidata: "Q703480"
 ---
 
-Letoon bir kent değil, Ksanthos'un birkaç kilometre güneyinde, bataklıkla çevrili bir kutsal alandır. Burada yan yana üç tapınak durur: biri Leto'ya, biri Apollon'a, biri Artemis'e adanmıştır.
+Letoon bir kent değil, Ksanthos'un birkaç kilometre güneyinde, bataklıkla çevrili bir kutsal alandır. Burada yan yana üç tapınak durur: biri Leto'ya, biri Apollon'a, biri Artemis'e adanmıştır. Tapınakların çevresinde tiyatro, nymphaion ve törenlere katılanların kullandığı açık alanlar bulunur.
 
 Ovidius'un anlattığı bir mite göre Leto, Hera'nın öfkesinden kaçarken ikizlerini kucağında taşıyarak Likya'ya geldi. Yorgun ve susuzdu. Bir gölete eğilip su içmek istedi ama orada saz kesen köylüler onu kovdu, suyu çamurlaştırdı. Leto onları kurbağaya çevirdi. Kutsal alanın sularında bugün de kurbağalar öter.
 
-1973'te burada bulunan bir taş, Likçe, Yunanca ve Aramice yazılmış aynı metni taşır. Bu üç dilli yazıt, Likya dilinin çözülmesine büyük katkı sağladı.
+1973'te burada bulunan bir taş, Likçe, Yunanca ve Aramice yazılmış aynı metni taşır. Kral Piksodaros dönemine ait yazıt, kutsal alandaki tanrı kültleri ve düzenlemeler hakkında bilgi verir; üç dilli metin Likya dilinin çözülmesine büyük katkı sağladı.

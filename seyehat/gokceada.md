@@ -1,64 +1,35 @@
 Gökçeada Gezi rehberi: Mis gibi kekik kokusu, Rum köyleri ve meyhaneleriyle ve her yerde karşınıza çıkabilecek adanın asıl sahibi keçileriyle başka bir rota sunuyor.
 
-İçerik
-Gökçeada Kaç Günde gezilir?
-Gökçeada’ya Nasıl Gidilir?
-Gökçeada’da Nerede Kalınır?
-Gökçeada Tarihi
-Gökçeada Gezilecek Yerler
-Gökçeada’da Ne Yenir?
-Gökçeada’da Yapılması Gereken Aktiviteler
-Gökçeada Kaç Günde gezilir?
-Eğer hızlı seyahat eden biriyseniz bir gün bile yeter. Adada önemli lokasyonların arası 80 km yani 1.5 saat gibi bir sürede gezebilirsiniz. Ayrıca birazdan listeleyeceğim köyler bir sokaktan daha fazlası değiller. 4-5 tane ünlü plajı var ve bunların dört tanesi güney sahilde. Ama bence 2 gün ayırırsanız adaya hakkını vermiş olursunuz.
-
-Gökçeada Gezi Rehberi - Gökçeada Merkez Çarşısı
-Gökçeada Gezi Rehberi – Gökçeada Merkez Çarşısı
 Gökçeada’ya Nasıl Gidilir?
 Gökçeada’ya gitmek için feribot biletinizi önden satın almanız gerekiyor. Ama doluysa endişelenmeyin. Biletlerin hepsi online satılmıyor. Limanda sıraya girip de binme şansınız var. Motorla veya yaya gidecekseniz endişelenmenize gerek yok. Feribotun saatinde gidip, oradan bilet almanız yeterli olacaktır. 1.5 saat sürüyor feribot yolculuğu. Eğer motorunuz varsa bence motor turu için çok ideal. Eğer yoğun bir dönemde ziyaret edecekseniz ve motor ehliyetiniz varsa, adaya yaya geçip motor kiralamak bence en güzel alternatif olabilir.
 
-Gökçeada Gezi Rehberi - Tepeköy Çınaraltı Günbatımı
-Gökçeada Gezi Rehberi – Tepeköy Çınaraltı Günbatımı
 Gökçeada’da Nerede Kalınır?
 Adanın çevresi 80 km yani 1.5 saat. Nerede kalırsanız kalın maksimum 30 dakikada ulaşabilirsiniz. Kaleköy, Bademli, Yeni Bademli. Üçüde yan yana mahalleler. En ünlü restoranlara yakınlar. Akşam bir meyhane keyfi yapmayı planlıyorsanız taksi tutmak yerine gideceğiniz restorana yakın bir otel tercih etmek mantıklı olabilir. Biz Kaleköy’de kaldık. Ünlü İmroz Poseidon restoranına da yürüme mesafesiydi. Zaten otel ve pansiyonların büyük çoğunluğu bu bölgede sıralanmış. Zeytinli ya da Ada’nın merkezi diğer kalabileceğiniz güzel lokasyonlardan. Eğer pansiyonlarla iletişime geçerseniz internet liste fiyatlarından daha uyguna konaklama imkanı bulabilirsiniz.
 
-Gökçeada Gezi Rehberi - Tepeköy
-Gökçeada Gezi Rehberi – Tepeköy
-Gökçeada Tarihi
+## Gökçeada Tarihi
 Eski adıyla İmroz olarak bilinen ada, Homeros’un İlyada destanında geçer. Truva Savaşı’nda tanrıların toplandığı yerlerden biri olarak anlatılır. Ada, önce Roma’nın sonra Bizans’ın egemenliği altında kalmıştır. Fatih Sultan Mehmet döneminde Osmanlı topraklarına katılmıştır. Yüzyıllar boyunca Rum nüfusun yoğun yaşadığı bir ada olmuştur. 1912’de Balkan Savaşları sırasında Yunanistan’ın eline geçti. 1923 Lozan Antlaşması ile Türkiye’ye bırakıldı. Gökçeada Türkiye’nin en batı noktasıdır. Ayrıca Türkiye’nin en büyük adası ve Cittaslow (Sakin Şehir) unvanına sahip tek adasıdır.
 
 1950’lerden itibaren Kıbrıs sorunu ve Türk-Yunan ilişkilerindeki gerilimler, adadaki Rumların eğitim, din ve mülkiyet haklarının kısıtlanmasına yol açtı. 1960’larda adaya kurulan yüksek güvenlikli cezaevi ise köylere yakın bölgelerde çalıştırılan mahkûmlar nedeniyle halk arasında korku ve huzursuzluk yarattı. Bu gelişmeler sonucunda, bir zamanlar on binleri bulan Rum nüfusu hızla göç etti ve bugün sadece küçük bir topluluk adada yaşamını sürdürmektedir.
 
-Mustafa'nın Gayfesi - Gökçeada Gezi Rehberi
-Mustafa’nın Gayfesi – Gökçeada Gezi Rehberi
-Gökçeada Gezilecek Yerler
+## Gökçeada Gezilecek Yerler
 Gökçeada’da gezilecek tüm köyler 1-2 sokaktan fazlası değil. Aklınıza Şirince gibi bir sürü dükkan olan çarşı pazar olan köyler gibi canlanmasın. Öyle ki 1-2 kafe ve restoran var zaten.
 
-Gökçeada Gezi Rehberi - Kaleköy Kalesi ve Manzarası
-Gökçeada Gezi Rehberi – Kaleköy Kalesi ve Manzarası
 Kaleköy: Burası gün batımı için en güzel yerlerden biri. En ünlü uğrak noktası Poseidon İmroz’da günbatımı ve meyhane keyfi. Ama çok önceden rezervasyon gerekebiliyor. Ya da bizim yaptığımız gibi günbatımını kaleden izleyip gün batımından sonraya rezervasyon yapabilirsiniz. Poseidon İmroz’a alternatif olarak Yakamoz Otel & Restoran verilmiş. İkisi de tepede, güzel deniz manzaralı restoranlar. Kale‘de müze ya da gişe yok. Tepeye tırmanmak 5-10 dakika. Her yer engebeli olduğu için spor ayakkabı tercih edin. Bu bahsettiğim restoranlarda hemen kalenin altında yer alıyor. Yok ben deniz kenarında yemek istiyorum diyorsanız en ünlü yer Eleni Rum Tavernası. Kaleköy’de bir başka ünlü uğrak noktası ise Mustafa’nın Kayfesi. Burada kekikli ada tostu yiyebilir ve ağaçların gölgesinde serinleyebilirsiniz. Ayrıca akşam Kaleköy limanında kısa bir yürüyüşe çıkabilirsiniz.
 Bademli: Asırlık Çınar Ağacı ve Cafe Sten Ada en önemli uğrak noktaları.
 Merkez: Gökçeada Kent Müzesi, Efibadem Kafe‘de efibadem kurabiyesi kesin deneyin ve hemen karşısında akşamları canlanan ufak bir çarşısı var. Burada yine güzel meyhaneler ve canlı müzik yapan birkaç bar var.
-Gökçeada Gezi Rehberi - Zeytinli Köyü
-Gökçeada Gezi Rehberi – Zeytinli Köyü
 Zeytinliköy: Bir Rum köyü. Kilise var ve faal. Nostos sokağa bakan bir kafe. Lifor veya Kafe Garaj ise terası olan kafeler. Sakızlı muhallebiyi burada denemelisiniz. Ayrıca To Steki Tis Minas köyün en ünlü restoranlarından biri ve canlı müzik de olabiliyor. Dolayısıyla akşam yemeğinde tercih edebileceğiniz bir alternatif. En çok kafe ve restoranın olduğu köy burasıydı.
 Tepeköy: Bir Rum köyü. Angelikis Taverna meydanda masaları olan bir Rum tavernası. Sırtaki geceleri ile ünlü. Yine Baba Yorgo veya By Kostas isimli tavernalar da burada. Tavernalar dışında köyde gezilecek çok bir yer yok. Tepeköy Çınaraltı köye yakın ve enfes manzarası olan bir çay bahçesi. Köye gelmişken buraya kesinlikle uğrayın ve bir çay için. Gün batımından sonra kapanıyor unutmayın.
 Dereköy: Burası terk edilmiş bir Rum köyü. Gökçeada merkezden 18 dakika mesafede bulunuyor. Dereköy Tarihi Rum Çamaşırhanesi var. Giriş ücretsiz. Küçük bir yer zaten.
 Uğurlu Plajı & Gizli Liman: Gizli Liman’a arabayla ulaşabiliyorsunuz. 2025’te tesis yoktu. Sandalyenizi ve şemsiyenizi alıp gidin. Ücretsiz park edebilirsiniz. Kesinlikle ama kesinlikle şnorkelle dalın. Uğurlu köyünde yemek yiyebileceğiniz birkaç kafe var.
-Gökçeada Laz Koyu
-Gökçeada Laz Koyu
 Laz Koyu: İşletme olan bir plaj. Hem kafe var hem de şezlong kiralanıyor. En aşağı kadar arabayla ineceğim diye aptal olup yolu tıkamayın. Biraz yukarıda park edip yürüyün. Park ücretsiz. İşletme adadaki yeme içme açısından en zayıf yer. Hem pahalı hem dandik. Deniz güzel ama. Şnorkelle dalış için de güzel.
 Kefalos ve İncekum Plajları: Burası kitesurf ve rüzgar sörfü yapılan plajlar. İncecik güzel kumları var. Dalış için de çok güzel. Ama rüzgarlı bir anda oturması bile güç olabiliyor. Plajların yakınında birçok otel de mevcut. Ayrıca Tuz Gölü‘de burada yer alıyor.
 Yıldız Koyu Plajı: Burası kuzeydeki en ünlü tek koy. İşletme yok. Rüzgarlı havada çok dalga oluyor. Ama dalış için adadaki diğer tüm koylar gibi harika bir seçenek. Hatta en fazla balığın olduğu yer burası olabilirdi. Kaleköy’e yürüme mesafesinde.
 Yukarıdaki listeyi okursanız adada kültürel ve tarihi açıdan çok fazla ziyaret noktası olmadığını ama kafe & restoran işletmeleri ve lezzet açısından çok fazla yer keşfedebileceğinizi fark etmişsinizdir. 5 tane ünlü plajı var. Hepsinde kesinlikle şnorkelle dalın.
 
 Gökçeada’da Ne Yenir?
-Gökçeada'nın Keçileri - Gezi Rehberi
-Gökçeada’nın Keçileri – Gezi Rehberi
 Gökçeada’daki en ünlü yemek oğlak tandır. Adanın her yeri keçi istilasında olduğundan şaşırmamak gerek. Mayıs-Kasım ayları arası oğlak tandır yemek için en güzel zamanlar. Bunun dışında Efibadem Kafe’de efibadem kurabiyesi, sakızlı muhallebi, kekikli ada tostu yenilebilecek diğer alternatifler. Ayrıca burada birçok Rum yaşadığı için frappe de bulabileceksiniz 🙂 Bana öyle geliyor ki adalar yeme-içme konusunda daha gelişmiş oluyor. Bir şekilde adalarda yediğim şeyleri daha lezzetli buluyor.
 
-Gökçeada’da Yapılması Gereken Aktiviteler
-Gökçeada Gizli Liman 
-Gökçeada Gizli Liman
+## Gökçeada’da Yapılması Gereken Aktiviteler
 Gökçeada Sualtı Milli Parkı’nda Dalış Yapın: Burası Türkiye’nin ilk ve tek sualtı milli parkıdır. Gökçeada Dalış Merkezi ile iletişime geçin. İnstagram sayfalarından da bilgilendirme yapıyorlar. Yorumları çok iyi. Ama rüzgarlı bir güne denk gelirsiniz dalışlar iptal oluyor. Biz bu yüzden yapamadık. 2025’de sorduğumda fotolar dahil 2000 TL idi ücreti. Kıyılarda daldığımda bile balık çeşitliliği ve sualtı açısından Gökçeada’yı çok beğendim. Bence ilgiliyseniz kaçırılmaması gereken bir fırsat. Başka bir dalış merkezi güneyde var. Ama direk sahilden dalıyorlar ve yorumları o kadar iyi değildi.
 Kitesurf veya Rüzgar Sörfü Öğrenin: Kefalos ve İncekum plajı sörf okullarının yer aldığı plajlar. Bunun için Gökçeada Sörf Merkezi ile iletişime geçebilirsiniz. Ama öğrenmeyi planlıyorsanız en az 3 gününüzü ayırın. Bir günde öğrenilmiyor kesinlikle. En az 3-4 gün pratik yapmanız lazım. Bu sene Yunanistan dahil birkaç yerde fiyat sormuştum. Gökçeada’daki okul garip bir şekilde Yunanistan’a göre daha uygun fiyatlıydı. Bence akşamları tavernalarda eğlenip gündüzleri sörf öğrenmek için harika bir seçenek.
 Tekne Turuna Çıkın: Adada Peynir Kayalıkları dahil karadan ulaşamayacağınız güzel noktalar var. Buraları tekne turu ile keşfedebilirsiniz. Gökceada Tekne Turu ile iletişime geçebilirsiniz.

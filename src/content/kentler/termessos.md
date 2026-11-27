@@ -11,7 +11,7 @@ bilgiler:
     deger: "Uçurum kenarındaki tiyatro, sarnıçlar, nekropol"
   - etiket: "Tanrısı"
     deger: "Zeus Solymeus"
-kaynak: "Arrianos, İskender'in Seferi 1.27.5–1.28.2; Homeros, İlyada 6.184–185; Strabon, Geographika 14.3.9"
+kaynak: "Arrianos, İskender'in Seferi 1.27.5–1.28.2; Diodoros, Bibliotheke 18.44–47; Homeros, İlyada 6.184–185; Strabon, Geographika 14.3.9"
 bolge: "pisidia"
 konum:
   enlem: 36.9839
@@ -37,7 +37,7 @@ yapilar:
       kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Termessos_-_Theater.jpg"
       alt: "Tiyatro – Termessos"
   - ad: "Sarnıçlar"
-    aciklama: "Suyu toplamak, depolamak ya da yerleşime ulaştırmak için kullanılan altyapı."
+    aciklama: "Agora yakınındaki kayaya oyulmuş sarnıçlar yağmur ve kar suyunu topluyordu."
   - ad: "Nekropol"
     aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
   - ad: "Artemis Tapınağı"
@@ -45,13 +45,13 @@ yapilar:
   - ad: "Zeus Solymeus Tapınağı"
     aciklama: "Antik ibadet ve adak törenleriyle ilişkilendirilen kutsal yapı."
   - ad: "Agora"
-    aciklama: "Ticaretin ve kent yaşamının toplandığı kamusal alan."
-  - ad: "Bouleuterion"
-    aciklama: "Kent meclisi üyelerinin toplanması için düzenlenen kamusal yapı."
+    aciklama: "Üç yanı stoalarla çevrili kent meydanı; kuzeybatı stoasının Bergama Kralı II. Attalos'un armağanı olduğu yazıttan bilinir."
+  - ad: "Odeon"
+    aciklama: "Tiyatronun yakınındaki, çatısına kadar korunmuş küçük toplantı ve gösteri yapısı."
   - ad: "Gymnasion"
     aciklama: "Spor ve beden eğitimi için ayrılmış antik yapı veya avlu."
   - ad: "Alketas Mezarı"
-    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+    aciklama: "Diodoros'un anlattığı Alketas'ın mezarı olduğu geleneksel olarak düşünülür; özdeşleştirme kesin değildir."
 kunyeGorseli:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Termessos_-_Theater.jpg/500px-Termessos_-_Theater.jpg"
   genislik: 500
@@ -64,8 +64,10 @@ kunyeGorseli:
   wikidata: "Q599462"
 ---
 
-Termessos, Antalya ovasına bakan Güllük Dağı'nın, deniz seviyesinden bin metreyi aşan bir yüksekliğindeki dağ kentidir. Tiyatrosu bir uçurumun kenarına kurulmuştur; seyirciler sahnenin arkasında uzanan dağları ve ovayı görürdü.
+Termessos, Antalya ovasına bakan Güllük Dağı'nın bin metreyi aşan yamaçlarında kurulmuş Pisidia kentidir. Dik geçitleri ve sarp kayalıkları kenti savunmayı kolaylaştırıyordu. Dağdaki su kaynakları sınırlı olduğundan, agoranın yanındaki büyük sarnıçlarda yağmur ve kar suyu biriktirilirdi. Tiyatrosu uçurum kenarındadır; seyirciler sahnenin arkasında ovayı görürdü.
 
 Termessoslular kendilerini Solymos sayardı. İlyada'da kahraman Bellerophon, Khimaira'yı öldürdükten sonra Likya kralının emriyle "ünlü Solymoslarla" savaşır ve Homeros bunu onun yaptığı en zorlu savaş diye anar. Termessosluların baş tanrısı da Zeus Solymeus, yani Solymosların Zeus'uydu.
 
-Arrianos'a göre Büyük İskender MÖ 333'te Termessos'a giden dar geçide geldi. Kentin dağdaki konumunu görünce kuşatmanın uzun ve zor olacağını anladı ve vazgeçip yoluna devam etti. Termessos, Roma döneminde de bağımsızlığını büyük ölçüde korudu. Bugün kalıntılar, ormanla kaplı bir milli parkın içinde yer alır.
+Arrianos, Büyük İskender'in MÖ 333'te Termessos'a giden geçitte karşılaştığı direnişin ardından kuşatmadan vazgeçtiğini aktarır. Birkaç yıl sonra, Antigonos'un ordusundan kaçan komutan Alketas kente sığındı. Diodoros'a göre Termessos'un yaşlıları onu teslim etmeye karar verince, gençler buna karşı çıktı; Alketas'ın ölümünden sonra bedenini alıp gömdüler. Kentteki kaya mezarlarından biri bu komutanla geleneksel olarak özdeşleştirilse de bu bağ kesin değildir.
+
+Roma döneminde Termessos özerkliğini uzun süre korudu. Agora çevresindeki stoalardan birinin Bergama Kralı II. Attalos tarafından yaptırıldığı bir yazıttan anlaşılır. Kentin tiyatrosu, odeonu, tapınakları ve teraslara yayılan nekropolü dağlık araziye uyum sağlayan kent yaşamını gösterir. Kalıntılar bugün Güllük Dağı Termessos Milli Parkı içindedir.

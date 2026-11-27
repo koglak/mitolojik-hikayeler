@@ -22,7 +22,7 @@ tapinaklar:
 ilgiliMitler: []
 yapilar:
   - ad: "Likya Kaya Mezarları"
-    aciklama: "Antik gömü veya anma geleneğine ait mezar yapısı ya da alanı."
+    aciklama: "Kayalıklara ev cepheli biçimde oyulan mezarlar, Likya konut mimarisini ve cenaze geleneklerini yansıtır."
     gorsel:
       adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Myra_Rock_Tombs.jpg/500px-Myra_Rock_Tombs.jpg"
       genislik: 500
@@ -33,7 +33,7 @@ yapilar:
       kaynakAdresi: "https://commons.wikimedia.org/wiki/File:Myra_Rock_Tombs.jpg"
       alt: "Likya Kaya Mezarları – Myra"
   - ad: "Roma Tiyatrosu"
-    aciklama: "Sahne ve orkestra çevresinde düzenlenen oturma sıralarıyla antik gösteri yapısı."
+    aciklama: "Likya'nın büyük Roma tiyatrolarından; sahne binası mitolojik kabartmalar ve tiyatro maskeleriyle süslenmişti."
     gorsel:
       adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Myra_theatre.jpg/500px-Myra_theatre.jpg"
       genislik: 500
@@ -61,8 +61,8 @@ kunyeGorseli:
   wikidata: "Q652024"
 ---
 
-Myra, Demre Çayı'nın oluşturduğu verimli ovanın kenarında, dik bir kayalığın eteğinde kuruldu. Kayalığın yüzü, ahşap evleri taklit eden cepheli mezarlarla kaplıdır. Hemen yanında yarım daire biçiminde büyük bir Roma tiyatrosu durur.
+Myra, Demre Çayı'nın oluşturduğu verimli ovanın kenarında, dik bir kayalığın eteğinde kuruldu. Kayalığın yüzü, ahşap evleri taklit eden cepheli mezarlarla kaplıdır. Bu mezarların kabartmalarında cenaze şölenleri, gündelik yaşam ve mitolojik sahneler görülür. Hemen yanında yarım daire biçiminde büyük bir Roma tiyatrosu durur.
 
-Kentin limanı Andriake, Roma döneminde Mısır'dan gelen tahıl gemilerinin uğrak yeriydi. Yeni Ahit'e göre Pavlus, Roma'ya götürülürken Myra'da başka bir gemiye aktarıldı.
+Kentin limanı Andriake, Roma döneminde Mısır'dan gelen tahıl gemilerinin uğrak yeriydi. Yeni Ahit'e göre Pavlus, Roma'ya götürülürken Myra'da başka bir gemiye aktarıldı. Tiyatronun sahne binası, mitolojik figürlerin yanı sıra tragedya, komedya ve satyr oyunlarında kullanılan maskelerin kabartmalarıyla tanınır.
 
 MS 4. yüzyılda Myra'nın piskoposu olan Nikolaos, yoksullara gizlice yardım ettiğine dair anlatılarla ünlendi. Zamanla bu anlatılar Avrupa'da Aziz Nikolaos ve Noel Baba geleneğine dönüştü. Adına yapılan kilise bugün Demre'nin merkezindedir.

@@ -4,16 +4,14 @@ Atina’ya ne zaman gidilir? Bence, kışın! Ben mart ayında ziyaret ettim, ha
 Atina’da Kaç Gün Kalınmalı?
 Tempolu gezen biri iseniz 2-3 gün yeterli olacaktır. Ardarda bütün müzelere girmek, alacağınız zevki düşüreceğinden önemli yerlere odaklanmak için yeterli bir süre. Oysa ki bir hafta ayırıp, Atina çevresindeki harika destinasyonlara da odaklanmak daha mantıklı olacaktır. Ben bir hafta kaldım ve bir gün olsun off nereye gitsem diye düşünmeme gerek kalmadı. Çünkü Atina ve çevresindeki birçok yer hem yakın hem de tarih ve doğal güzellik dolu.
 
-Ulaşım
+## Ulaşım
 Atina Havalimanı’ndan merkeze ulaşım taksi ile 45€ ve sabittir. Ayrıca otobüs ve tren de mevcuttur. Şehiriçi ulaşımda metro ve otobüsler var ama bizim hiç ihtiyacımız olmadı. Her yeri yürüyerek rahatlıkla gezebilirsiniz.
 
-ATİNA’DA KESİNLİKLE ZİYARET EDİLMESİ GEREKEN YERLER
+## ATİNA’DA KESİNLİKLE ZİYARET EDİLMESİ GEREKEN YERLER
 1 – Akropolis
-Atina Akropolis Parthenon, Atina Gezi Rehberi
-Atina Gezi Rehberi – Atina Akropolis Parthenon
 Akropolis, Atina’daki en önemli durak. Şehrin tam merkezinde yer alıyor ve tepedeki şehir anlamına geliyor. Burası, Antik Atina’nın merkezi ve yüzyıllar boyunca önemini korumaya devam etmiş. Akropolis alanında göreceğiniz önemli yerler:
 
-Parthenon (Atina Tapınağı)
+## Parthenon (Atina Tapınağı)
 Erechtheion ve Karyatidler
 Herodes Attikos Odeion
 Dionysos Tiyatrosu
@@ -35,9 +33,7 @@ Bunları bilip giderseniz kesinlikle daha çok zevk alacaksınız! Yoksa sadece 
 
 Ayrıca ören yerinin sınırlarının dışında Areopagus Hill yani Ares Tepesi var. Burası ücretsiz ve tırmanması çok kolay bir kaya parçası. Akropolis’in eşsiz manzarasına bakabilirsiniz. Ayrıca mitolojik açıdan da önemli bir tepe burası. Ares’in ve Orestes’in yargılandığı yerdir. Efsaneye göre, annesini öldüren Agamemnon’un oğlu Orestes, kadim yasaları çiğnemiştir. Olimposlu tanrılara göre karı-koca arasındaki bağ, anne-evlat arasındaki bağdan daha kutsal iken, kadim tanrıçalara göre tam tersidir. Aslında inancın nasıl değiştiğini anlatan ikonik bir öyküdür. Bu yüzden kesinlikle okumanızı tavsiye ederim: Orestia Üçlemesi İncelemesi
 
-2- Akropolis Müzesi
-Atina Akropolis Müzesi, Atina Gezi Rehberi
-Atina Akropolis Müzesi, Atina Gezi Rehberi
+## 2- Akropolis Müzesi
 Akropolis Müzesi, hemen Akropolis’in girişinde bulunmaktadır. 3 katlı bir müzedir. En alt katında bulunan ören yeri sergilenmektedir. Birinci kattaki sergi görece ufaktır. İkinci katta bulunan eserler sergilenmektedir ve fotoğraf çekimine izin verilmemektedir. Üçüncü katta ise kafe bulunmaktadır.
 
 Giriş katında Asklepion’a adanmış eserler ve kutsal evlilik anlatılmaktadır. İkinci katta üzerindeki boyalar tamamen yok olmamış kadın/erkek heykelleri, Karyatidlerin orjinalleri ve daha niceleri bulunmaktadır.
@@ -46,52 +42,39 @@ Giriş ücreti 10€‘dur. En az 2-3 saat ayırmanızı tavsiye ederim.
 
 Müzedeki bilgilendirmeleri Türkçe’ye çevirdiğim Atina Şehri ve Tarihini anlatan yazım için bakınız: Akropolis Müzesi ve Şehir Tarihi
 3- Philopappos Tepesi
-Philopappos Tepesi'nden Akropolis Manzarası
-Philopappos Tepesi’nden Akropolis Manzarası
 Philopappos Tepesi, hemen Akropolis’in dibinde olan bir tepedir ve çıkması oldukça kolaydır. Tepenin en ünlü özelliği, MS 114-116 yıllarında Roma Senatörü ve Atina vatandaşı Philopappos için inşa edilen anıtsal mezar olan Philopappos Anıtı’dır. Bu yapı, zamanla tepenin adıyla özdeşleşmiştir.
 
 Burada Akropolis manzarası çok güzel görünmektedir. Ayrıca Akropolis’e giden tarihi yol, Musalar Tepesi ve Sokrates’in Hapishanesi gibi görülmesi elzem olmayan ama geçerken bakılabilecek noktalar içerir.
 
 Sokrates’in Hapishanesi olarak bilinen yer, Sokrates’in son günlerini geçirdiği ve zehirli bir ot olan diken üzümünü içerek idam edildiğine inanılan antik bir mağara kompleksidir. Ancak, bu hikayenin tarihi doğruluğu kesin değildir ve bazı kaynaklarca tartışmalıdır.
 
-4- Attolos Stoası, Hephaistos Tapınağı ve Antik Agora
-Hephaistos Tapınağı Atina
-Hephaistos Tapınağı Atina
+## 4- Attolos Stoası, Hephaistos Tapınağı ve Antik Agora
 Bu üçü aslında aynı alanın içerisinde ve tek bir bilet almanız gerekiyor. Giriş ücreti 5€. Kesinlikle ziyaret etmelisiniz çünkü hem Attolos Stoası hem de Hephaistos Tapınağı ayaktadır! Buraya 1-2 saat ayırmanızı tavsiye ederim. Ayrıca gezerken Sokrates ve Konfüçyus heykellerini görmeden geçmeyin!
 
 Hephaistos Tapınağı, Antik Yunanistan’da Atina’nın Agora bölgesinde yer alan en iyi korunmuş klasik tapınaklardan biridir. M.Ö. 450 yıllarında inşa edilmiş olan bu tapınak, demircilerin ve zanaatkarların tanrısı Hephaistos‘a adanmıştır. Yapı, tipik bir Dor düzeninde olup, 34 x 13.4 metre boyutlarında ve üzeri mermerle kaplıdır. Hephaistos Tapınağı, zaman içinde çok iyi korunmuş bir yapıdır, çünkü Bizans döneminde bir kiliseye dönüştürülmüş ve böylece yıkımdan korunmuştur. Yapının içerisinde ve dışarısında Hephaistos ve diğer tanrıların kabartmaları bulunmaktadır.
 
-Attalos Stoası Antik Atina Agorası, Atina Gezi Rehberi
-Attalos Stoası Antik Atina Agorası
+## Attalos Stoası Antik Atina Agorası
 Attalos Stoa, Antik Yunanistan’da, Atina’nın tarihi şehir merkezi Agora’da bulunan önemli bir yapıdır. M.Ö. 2. yüzyılda, Pergamon Kralı II. Attalos tarafından Atina halkına hediye edilmiştir. Bu yapı, hem bir toplantı yeri olarak hem de pazar yeri için korunak sağlamak amacıyla kullanılmıştır. Yapının uzunluğu yaklaşık 120 metre, genişliği ise 20 metre kadardır ve iki katlıdır. Stoa, zamanla çeşitli hasarlar görmüş ve sonunda yıkılmıştır. 1950’lerde Amerikan Okulu tarafından aslına uygun şekilde yeniden inşa edilmiştir. Bugün içerisinde küçük bir müze mevcuttur.
 
-5- Monastiraki Meydanı ve Flea Market
-Atina Monastiraki Meydanı, Atina Gezi Rehberi
-Atina Gezi Rehberi – Atina Monastiraki Meydanı, Atina Gezi Rehberi
+## 5- Monastiraki Meydanı ve Flea Market
 Monastiraki Meydanı, Atina’nın en canlı meydanıdır. Adını, bölgedeki küçük bir manastırdan (Monastiraki, “küçük manastır” anlamına gelir) alır. Hemen meydana açılan sokaklardan birinde Flea Market dev gibi yazmaktadır. Bu sokağa girerseniz, hediyelik eşya dükkanlarının bulunduğu bir sokaktan geçeceksiniz. Bu sokağın ortasında bir yerdeki ufak meydanda bit pazarı kurulmaktadır ve akşama doğru kaldırılmaktadır. Aynı zamanda sokağın arka paralelinde Antik Agora, Attalos Stoa ve Hephaistos Tapınağı’nın girişi bulunmaktadır.
 
-Flea Market Bit Pazarı Atina, Atina Gezi Rehberi
-Atina Gezi Rehberi – Flea Market Bit Pazarı Atina
-6- Kapnikarea ve Ermou Caddesi
-Kapnikarea Atina Gezi Rehberi
-Kapnikarea Atina Gezi Rehberi
+## 6- Kapnikarea ve Ermou Caddesi
 Kapnikarea, Atina’nın Ermou caddesi üzerinde, tarihi bir kent merkezinin ortasında yer alan küçük ve şirin bir Bizans kilisesidir. 11. yüzyıla tarihlenen bu kilise, Atina’nın ortasında Bizans döneminden kalmış nadir yapıtlardan biri olup, özellikle mozaikleri ve mimari stili ile dikkat çeker. Şehrin modernleşmesiyle birlikte çevresinde yükselen alışveriş merkezleri ve mağazalar arasında yer alır. Burası aynı zamanda sokak müzisyenlerinin de uğrak noktasıdır.
 
-7- Plaka ve Anafiotika Mahallesi
+## 7- Plaka ve Anafiotika Mahallesi
 Anafiotika, Atina’nın Plaka bölgesinin eteklerinde, Akropolis’in kuzey yamacında yer alan benzersiz bir mahalledir. 19. yüzyılın başlarında, Kiklad Adaları‘ndan (özellikle Anafi Adası’ndan) gelen inşaat işçileri tarafından kurulmuştur. Bu işçiler, Atina’daki sarayın inşası gibi önemli projelerde çalışmak üzere başkente taşınmışlardı ve kendilerine Kiklad Adaları’nın mimari stilini hatırlatan evler inşa etmişlerdir.
 
 Anafiotika’nın dar sokakları ve beyaz badanalı, mavi kapılı küçük evleri, ziyaretçilere Yunan adalarının atmosferini yaşatır. Plaka bölgesi ise tavernaları ile ünlüdür. Bu bölgede kalacaksanız eğer gürültüden rahatsız olabileceğinizi unutmayın!
 
-8- Atina Ulusal Arkeoloji Müzesi
-Atina Ulusal Arekoloji Müzesindeki En Önemli Eserler, Atina Gezi Rehberi
-Atina Ulusal Arekoloji Müzesindeki En Önemli Eserler, Atina Gezi Rehberi
+## 8- Atina Ulusal Arkeoloji Müzesi
 Müzenin bulunduğu lokasyon biraz daha şehir dışındadır ama merkezden 20 dakikada yürünebilir. Müzenin giriş ücreti mart ayı sonuna kadar 6€‘dur ve 2-3 saat ayırmanız gereklidir.
 
 Bina iki katlıdır. Üst katta tek bir oda vardır ve Girit Minoan Uygarlığının eserleri sergilenmektedir. İlk katta üç farklı koridor vardır. Ne yazık ki düzgün bir harita olmadığı gibi bazı salonlarda anlamsızca kapatılmıştır. Ancak her salonun girişinde oradaki en önemli eser belirtilmiş.
 
 Kesinlikle ama kesinlikle görmeniz gereken eserler:
 
-Miken altın maskeleri
+## Miken altın maskeleri
 Athena Heykeli
 Poseidon (Zeus?) heykeli (kopyası Korinth sahilde var)
 Bronz atlı çocuk heykeli
@@ -99,17 +82,13 @@ Terlik sallayan Afrodit heykeli
 Afrodit Heykeli
 Asklepios Heykeli
 9- Atina Akademisi
-Atina Akademi Binası
-Atina Akademi Binası
 Atina’daki Akademi Binası, genellikle Atina Üniversitesi’nin ana binasıdır. Bu bina, Yunanistan’ın modern kurucusu ve ilk kralı olan Kral Otto döneminde inşa edilmiş olup, ülkenin eğitim ve akademik yaşamında önemli bir rol oynamıştır.
 
 Binanın önünde Sokrates ve Platon heykelleri vardır ve iki yanında uzun kolonların üstünde Athena ve Apollon heykelleri yer alır. Kesinlikle geçerken uğranması gereken noktalardan biridir!
 
 Ek bilgi: “Akademi”, Platon’un kurduğu antik felsefe okuludur ve çağdaş dönemde de çeşitli akademik ve eğitim kurumları için kullanılır.
 
-10- Syntagma Meydanı ve Atina Ulusal Bahçesi
-Syntagma Meydanı, Meçhul Asker Anıtı ve Parlamento Binası
-Syntagma Meydanı, Meçhul Asker Anıtı ve Parlamento Binası
+## 10- Syntagma Meydanı ve Atina Ulusal Bahçesi
 Syntagma, Yunanca “Anayasa” anlamına gelir ve meydanın adı, 3 Eylül 1843’te burada yaşanan önemli bir olaydan gelir. O gün, halk ve askeri güçler Atina’daki Kraliyet Sarayı‘na (şimdiki Parlamento Binası) yürüyüş yaparak Kral Otto‘dan bir anayasa talep etmişler ve bu talep, meydanın adını da belirleyen 1844 Anayasası’nın ilanıyla sonuçlanmıştır.
 
 Yunan Parlamentosu’nun ön cephesine bakan meydan, birçok hükümet karşıtı gösteriye, kutlamaya ve diğer önemli kamu etkinliklerine ev sahipliği yapmıştır. Meydan, aynı zamanda birçok önemli tarihi olaya tanıklık etmiş ve Yunanistan’ın demokratik yaşamının bir sembolü haline gelmiştir.
@@ -120,11 +99,11 @@ Hemen Parlamento Binasının arkasında Ulusal Bahçe bulunmaktadır. Kraliçe A
 
 Yakınındaki zaman varsa uğranabilecek yerler:
 
-National Gallery – Alexandros Soutsos Museum
+## National Gallery – Alexandros Soutsos Museum
 Byzantine and Christian Museum
 Benaki Müzesi
 Lyceum
-BONUSLAR
+## BONUSLAR
 Hadrian Kütüphanesi (Roma İmparatoru Hadrianus tarafından 132 yılında Atina’da kurulan ve antik çağın en önemli kültürel merkezlerinden biri olan büyük bir kütüphane ve eğitim kompleksidir. Burayı dışarıdan da gözlemleyebilirsiniz)
 Keramikos (Antik Atina’nın önemli bir mezarlık alanı ve eski bir semtidir, giriş ücreti 3€)
 Rüzgar Kulesi (Roma döneminden kalma sekizgen yapı Rüzgar Kulesi, Atina’da antik zaman ölçümünün ve meteorolojinin bir simgesidir.Burayı dışarıdan da gözlemleyebilirsiniz)
@@ -140,25 +119,21 @@ Lycabettus Hill (Atina’nın en yüksek noktasıdır. Panoraması harikadır. K
 Atina Çevresinde Ziyaret Edilmesi Gereken Yerler
 Aşağıda sıralayacağım yerlere araba ya da motor kiralayarak gidebileceğiniz gibi, günlük turlar da düzenlenmektedir.
 
-1- Sounion Poseidon Tapınağı
-Sounion Apollon Tapınağı
-Sounion Apollon Tapınağı
+## 1- Sounion Poseidon Tapınağı
 Müzenin önünde küçük bir park alanı var ücretsiz.
 Giriş ücreti 5€’dur.
 20-30 dakikanızı ayırmak yeterli olacaktır.
 Günbatımına kadar açıktır.
 Sounion’daki Poseidon Tapınağı, antik Yunan tanrısı Poseidon’a adanmış ve Atina’nın güneyindeki pitoresk Sounion Burnu’nda yer alır. Denize nazır muhteşem konumuyla dikkat çeken bu tapınak, özellikle gün batımını izlemek için ziyaretçi ve turların akımına uğramaktadır. Atina’dan buraya günbatımı turları düzenlenmektedir.
 
-2- Delfi Kehanet Merkezi
-Tholos of Athena Pronaia Tholos Temple
-Tholos of Athena Pronaia Tholos Temple
+## 2- Delfi Kehanet Merkezi
 Müzenin önünde ücretsiz park alanı bulunmaktadır.
 Giriş ücreti 6€’dur.
 Burada 3 yer bulunmaktadır: Delfi Antik Kenti, Müze ve Delphi Tholos.
 En az 2-3 saatinizi ayırmanız gerekiyor.
 Delfi Antik Kenti antik çağda kehanet merkezi olarak çok önemliydi. Ziyaret etmeden önce okumalısınız:
 
-Delfi Bilicilik Merkezi ve Ünlü Danışanları
+## Delfi Bilicilik Merkezi ve Ünlü Danışanları
 Delfi Kehanet Merkezi Tarihi
 Antik Çağlarda Kehanet Yöntemleri
 Apollon Tapınağı, Tiyatro, Atina Hazine binası görülmesi gereken önemli noktalardır. Ayrıca antik dünyanın merkezi olarak kabul edilmiş ve bunu gösteren omphalos taşı da burada bulunmaktadır. Yine İstanbul’da bulunan yılanlı sütun, Konstantin tarafından buradan getirilmiştir ve sütunun en alt kısmı hala kentte görülebilmektedir.
@@ -169,11 +144,9 @@ Dairesel bir tapınak olan Tholos tapınağı ise diğer önemli bir noktadır. 
 
 Buraya gelmişken uğranması gereken yerler:
 
-Arachova Kasabası (Arachova Hastag noktasından foto çekmeyi unutmayın)
+## Arachova Kasabası (Arachova Hastag noktasından foto çekmeyi unutmayın)
 Livadya Krya Park (yürüyüş ve restoran)
 3- Epidaurus Tiyatrosu ve Nafplion
-Epidaurus Tiyatrosu
-Epidaurus Tiyatrosu
 Önünde ücretsiz park yeri var.
 Giriş ücreti 6€.
 Kapanış saati kışın 17:00.
@@ -185,9 +158,7 @@ Nafplion, Yunanistan’ın Peloponez yarımadasında yer alan tarihi ve pitoresk
 
 Atina’dan Epiadaros ve Nafplion’a turlar düzenlenmektedir.
 
-4- Miken Antik Kenti
-Miken Antik Kenti Aslanlı Kapı
-Miken Antik Kenti Aslanlı Kapı
+## 4- Miken Antik Kenti
 Ücretsiz park alanı bulunmaktadır.
 Giriş ücreti 6€’dur.
 Burada 3 yer bulunmaktadır: Müze, ören yeri ve Atreus Hazinesi.
@@ -204,11 +175,9 @@ Agamemnon’un Çocukları: Yaprak Dökümü
 Femme Fatale Karakterler: Helen ve Klytaimnestra
 Çevrede yapılabilecek şeyler:
 
-Nemea Antik Kentini ziyaret
+## Nemea Antik Kentini ziyaret
 Nemea Şarapevlerini ziyaret
 5- Olympia Antik Kenti
-Olympia Zeus Tapınağı Kalıntıları
-Olympia Zeus Tapınağı Kalıntıları
 Ücretsiz park yeri vardır.
 Burada 3 yer bulunmaktadır: Arkeoloji Müzesi, Antik Olimpiyat Oyunları Müzesi ve Ören yeri
 Müze 15:30’da kapanıyor ve yetkililer ziyaretçileri 15:15’te dışarı çıkarmaya başlıyor.
@@ -220,15 +189,12 @@ Ayrıca buradaki Zeus Tapınağı’nda bulunan Zeus Heykeli bir Antik Dünya’
 
 Ayrıca okumanızı öneririm: Antik Olimpiyat Oyunları: 27 Tarihi Gerçek ve Antik Dünyanın Yedi Harikasına Ne Oldu?
 
-6- Korinth Kanalı
-Korinth Kanalı
-Korinth Kanalı
+## 6- Korinth Kanalı
 Korinth Kanalı, Yunanistan’ı Peloponez Yarımadası’ndan ayıran ve Ege Denizi’ni İyon Denizi’ne bağlayan önemli bir su yoludur. Yaklaşık 6.4 kilometre uzunluğunda ve 21.4 metre genişliğinde olan bu kanal, deniz seviyesindedir ve gemilerin Peloponez’in etrafında büyük bir dolaşım yapmadan iki deniz arasında geçiş yapabilmesini sağlar. 1893 yılında tamamlanmış olan Korinth Kanalı, darlığı ve sığlığı nedeniyle büyük gemiler için uygun olmamakla birlikte, küçük gemilerin ve turistik teknelerin kullanımına açıktır. Kanalın inşası, antik çağlardan beri düşünülmüş ancak teknik ve finansal zorluklar nedeniyle ancak 19. yüzyılın sonlarında gerçekleştirilebilmiştir. Kanalın keskin kenarları ve dik yamaçları, mühendislik açısından dikkat çekici bir yapı oluşturur ve ziyaretçilere etkileyici manzaralar sunar. Kanal Macar mühendislerin işbirliği ile yapıldığından bir anıt dikilmiştir. Önünde park alanları vardır.
 
 Bölgede ziyaret edilecek yerler:
 
-Akrokorinth
+## Akrokorinth
 Ancient Korinth
 Korinth Kanalında bungee jumping
 Ayrıca Korinth Antik Kentinin efsanevi kralı Sisifos’u tanırsanız daha çok zevk alabilirsiniz. Bakınız: Sisifos Kimdir: Ölümü Kandıran Adam
-
