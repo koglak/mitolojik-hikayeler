@@ -9,6 +9,7 @@ import { siteHaritasiXml, type SiteHaritasiOgesi } from '../lib/siteHaritasi';
 import { dosyaTarihleri, enSonTarih } from '../lib/sonDegisiklik';
 import { soyagaciAdresi } from '../lib/soyagaci';
 import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
+import { antikKentRehberiAdresi } from '../lib/antikKentRehberi';
 
 export const GET: APIRoute = async () => {
   const tarihler = dosyaTarihleri();
@@ -44,6 +45,7 @@ export const GET: APIRoute = async () => {
     dizinOgesi('/mitler/', mitler),
     { yol: soyagaciAdresi, sonDegisiklik: veriTarihi('src/data/soyagaci') },
     { yol: kronolojiAdresi, sonDegisiklik: veriTarihi('src/data/zaman-atlasi/') },
+    { yol: antikKentRehberiAdresi },
     dizinOgesi(sanatAdresi, sanat),
     dizinOgesi(antikKaynaklarAdresi, kaynaklar),
     dizinOgesi(blogAdresi, blog),

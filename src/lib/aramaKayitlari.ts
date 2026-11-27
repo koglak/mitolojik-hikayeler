@@ -9,6 +9,7 @@ import { blogYazilariniGetir } from './blogDizini';
 import { adresYaz, kronolojiAdresi } from './zamanAtlasi/adres';
 import { atlas } from './zamanAtlasi/atlas';
 import { aramaEsAnlamlari } from './aramaMetni';
+import { antikKentRehberiAdresi } from './antikKentRehberi';
 
 export interface AramaKaydi {
   baslik: string;
@@ -70,6 +71,12 @@ export async function aramaKayitlari(): Promise<AramaKaydi[]> {
   for (const { id, data } of await blogYazilariniGetir()) {
     kayitlar.push({ baslik: data.baslik, ozet: `${data.konu}. ${data.ozet}`, bolum: 'Blog', adres: yaziAdresi(id) });
   }
+  kayitlar.push({
+    baslik: 'Antik Kent Rehberi',
+    ozet: 'Agora, tapınak, tiyatro, stoa, odeon, hamam, stadion, nekropol ve kent suru. Etkileşimli kent planı.',
+    bolum: 'Kent Rehberi',
+    adres: antikKentRehberiAdresi,
+  });
   kayitlar.push({
     baslik: 'Antik Dünya Zaman Atlası',
     ozet: 'Kronoloji, zaman çizelgesi, uygarlıklar, hükümdarlar ve savaşlar.',

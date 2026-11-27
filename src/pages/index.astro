@@ -19,6 +19,7 @@ import { mutlakAdres, sayfaBasligi } from '../lib/site';
 import { siteVerisi } from '../lib/yapisalVeri';
 import { blogAdi, blogAdresi } from '../lib/blog';
 import { kronolojiAdresi } from '../lib/zamanAtlasi/adres';
+import { antikKentRehberiAdresi } from '../lib/antikKentRehberi';
 import { getCollection } from 'astro:content';
 
 
@@ -29,6 +30,7 @@ const bugununMiti = mitler[Math.floor(Math.random() * mitler.length)];
 const kategoriler: { tur: KategoriTuru | 'kaynaklar' | 'sanat' | 'blog'; ad: string; adres: string }[] = [
   { tur: 'mitler', ad: 'Mitolojik Hikâyeler', adres: '/mitler/' },
   { tur: 'kentler', ad: bolumler.kentler.ad, adres: '/antik-kentler/' },
+  { tur: 'kentler', ad: 'Antik Kent Rehberi', adres: antikKentRehberiAdresi },
   { tur: 'tanrilar', ad: bolumler.tanrilar.ad, adres: '/tanrilar/' },
   { tur: 'kahramanlar', ad: bolumler.kahramanlar.ad, adres: '/kahramanlar/' },
   { tur: 'soyagaci', ad: 'Soyağacı', adres: soyagaciAdresi },
