@@ -1,5 +1,5 @@
 ---
-ad: "Apollon ve Daphne"
+ad: "Apollon ve Daphne (Poussin)"
 ozgunAd: "Apollo and Daphne"
 sira: 419
 tur: resim

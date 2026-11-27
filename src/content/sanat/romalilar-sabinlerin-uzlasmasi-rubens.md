@@ -18,7 +18,7 @@ kaynakca:
 ilgiliMitler: []
 ilgiliTanrilar: []
 ilgiliKahramanlar: ["romulus-ve-remus"]
-ilgiliKentler: ["roma"]
+ilgiliKentler: []
 gorsel:
   adres: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Peter_Paul_Rubens_-_Die_Auss%C3%B6hnung_der_R%C3%B6mer_und_Sabiner_-_350_-_Bavarian_State_Painting_Collections.jpg/485px-Peter_Paul_Rubens_-_Die_Auss%C3%B6hnung_der_R%C3%B6mer_und_Sabiner_-_350_-_Bavarian_State_Painting_Collections.jpg"
   genislik: 485

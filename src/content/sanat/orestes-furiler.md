@@ -1,7 +1,7 @@
 ---
 ad: "Orestes’in Furiler Tarafından Kovalanışı"
 ozgunAd: "Orestes Pursued by the Furies"
-sira: 372
+sira: 374
 tur: resim
 sanatci: "William-Adolphe Bouguereau"
 tarih: "1862"

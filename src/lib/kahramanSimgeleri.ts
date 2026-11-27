@@ -799,7 +799,8 @@ const genelKahramanSimgesi =
 const simgesiOlmayanKahramanlar = new Set([
   'aetes', 'adrastos', 'agaue', 'autonoe', 'deiphobos', 'deukalion-ve-pyrrha',
   'euadne', 'haimon', 'harmonia', 'hippomedon', 'ino', 'ismene', 'kapaneus',
-  'kheiron', 'parthenopaios', 'pasiphae', 'silenos', 'tithonos',
+  'kheiron', 'parthenopaios', 'pasiphae', 'silenos', 'tithonos', 'alkinoos',
+  'arete', 'eumaios', 'nausikaa', 'polyphemos',
 ]);
 
 export const kahramanSimgesi = (slug: string): string | undefined =>
